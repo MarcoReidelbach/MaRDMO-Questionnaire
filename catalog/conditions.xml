@@ -1,8 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2023-11-03T14:23:12.652549+01:00" version="2.0.1">
+	<condition dc:uri="http://example.com/terms/conditions/inputdata_present">
+		<uri_prefix>http://example.com/terms</uri_prefix>
+		<uri_path>inputdata_present</uri_path>
+		<dc:comment/>
+		<source dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_6/Question_00"/>
+		<relation>empty</relation>
+		<target_text/>
+		<target_option/>
+	</condition>
+	<condition dc:uri="http://example.com/terms/conditions/method_present">
+		<uri_prefix>http://example.com/terms</uri_prefix>
+		<uri_path>method_present</uri_path>
+		<dc:comment/>
+		<source dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_2/Question_01"/>
+		<relation>empty</relation>
+		<target_text/>
+		<target_option/>
+	</condition>
+	<condition dc:uri="http://example.com/terms/conditions/model_present">
+		<uri_prefix>http://example.com/terms</uri_prefix>
+		<uri_path>model_present</uri_path>
+		<dc:comment/>
+		<source dc:uri="http://example.com/terms/domain/MaRDI/Section_3/Set_1/Wiki_01"/>
+		<relation>empty</relation>
+		<target_text/>
+		<target_option/>
+	</condition>
 	<condition dc:uri="http://example.com/terms/conditions/modus_0">
 		<uri_prefix>http://example.com/terms</uri_prefix>
-		<key>modus_0</key>
+		<uri_path>modus_0</uri_path>
 		<dc:comment/>
 		<source dc:uri="http://example.com/terms/domain/MaRDI/Section_0/Set_1/Question_01"/>
 		<relation>eq</relation>
@@ -11,16 +38,25 @@
 	</condition>
 	<condition dc:uri="http://example.com/terms/conditions/modus_1">
 		<uri_prefix>http://example.com/terms</uri_prefix>
-		<key>modus_1</key>
+		<uri_path>modus_1</uri_path>
 		<dc:comment/>
 		<source dc:uri="http://example.com/terms/domain/MaRDI/Section_0/Set_1/Question_01"/>
 		<relation>eq</relation>
 		<target_text/>
 		<target_option dc:uri="http://example.com/terms/options/operation_modus/modus_1"/>
 	</condition>
+	<condition dc:uri="http://example.com/terms/conditions/outputdata_present">
+		<uri_prefix>http://example.com/terms</uri_prefix>
+		<uri_path>outputdata_present</uri_path>
+		<dc:comment/>
+		<source dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_7/Question_00"/>
+		<relation>empty</relation>
+		<target_text/>
+		<target_option/>
+	</condition>
 	<condition dc:uri="http://example.com/terms/conditions/parameter_needed">
 		<uri_prefix>http://example.com/terms</uri_prefix>
-		<key>parameter_needed</key>
+		<uri_path>parameter_needed</uri_path>
 		<dc:comment/>
 		<source dc:uri="http://example.com/terms/domain/MaRDI/Section_2/Set_1/Question_03"/>
 		<relation>eq</relation>
@@ -29,16 +65,25 @@
 	</condition>
 	<condition dc:uri="http://example.com/terms/conditions/parameter_needed2">
 		<uri_prefix>http://example.com/terms</uri_prefix>
-		<key>parameter_needed2</key>
+		<uri_path>parameter_needed2</uri_path>
 		<dc:comment/>
 		<source dc:uri="http://example.com/terms/domain/MaRDI/Section_2/Set_1/Question_03"/>
 		<relation>eq</relation>
 		<target_text/>
 		<target_option dc:uri="http://example.com/terms/options/workflow_type/type_1"/>
 	</condition>
+	<condition dc:uri="http://example.com/terms/conditions/software_present">
+		<uri_prefix>http://example.com/terms</uri_prefix>
+		<uri_path>software_present</uri_path>
+		<dc:comment/>
+		<source dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_3/Question_01"/>
+		<relation>empty</relation>
+		<target_text/>
+		<target_option/>
+	</condition>
 	<condition dc:uri="http://example.com/terms/conditions/wiki_paper">
 		<uri_prefix>http://example.com/terms</uri_prefix>
-		<key>wiki_paper</key>
+		<uri_path>wiki_paper</uri_path>
 		<dc:comment/>
 		<source dc:uri="http://example.com/terms/domain/MaRDI/Section_6/Set_1/Question_01"/>
 		<relation>eq</relation>
@@ -47,7 +92,7 @@
 	</condition>
 	<condition dc:uri="http://example.com/terms/conditions/wiki_paper2">
 		<uri_prefix>http://example.com/terms</uri_prefix>
-		<key>wiki_paper2</key>
+		<uri_path>wiki_paper2</uri_path>
 		<dc:comment/>
 		<source dc:uri="http://example.com/terms/domain/MaRDI/Section_6/Set_1/Question_01"/>
 		<relation>eq</relation>
