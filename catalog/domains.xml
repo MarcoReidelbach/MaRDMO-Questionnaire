@@ -1,5 +1,5 @@
-<?xml version="1.0" ?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/">
+<?xml version="1.0" encoding="UTF-8"?>
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2023-11-14T19:26:50.265496+01:00" version="2.0.2">
 	<attribute dc:uri="http://example.com/terms/domain/MaRDI">
 		<uri_prefix>http://example.com/terms</uri_prefix>
 		<key>MaRDI</key>
@@ -53,6 +53,34 @@
 		<uri_prefix>http://example.com/terms</uri_prefix>
 		<key>Question_01</key>
 		<path>MaRDI/Section_1/Set_1/Question_01</path>
+		<dc:comment/>
+		<parent dc:uri="http://example.com/terms/domain/MaRDI/Section_1/Set_1"/>
+	</attribute>
+	<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_1/Set_1/Question_02">
+		<uri_prefix>http://example.com/terms</uri_prefix>
+		<key>Question_02</key>
+		<path>MaRDI/Section_1/Set_1/Question_02</path>
+		<dc:comment/>
+		<parent dc:uri="http://example.com/terms/domain/MaRDI/Section_1/Set_1"/>
+	</attribute>
+	<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_1/Set_1/Question_03">
+		<uri_prefix>http://example.com/terms</uri_prefix>
+		<key>Question_03</key>
+		<path>MaRDI/Section_1/Set_1/Question_03</path>
+		<dc:comment/>
+		<parent dc:uri="http://example.com/terms/domain/MaRDI/Section_1/Set_1"/>
+	</attribute>
+	<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_1/Set_1/Question_04">
+		<uri_prefix>http://example.com/terms</uri_prefix>
+		<key>Question_04</key>
+		<path>MaRDI/Section_1/Set_1/Question_04</path>
+		<dc:comment/>
+		<parent dc:uri="http://example.com/terms/domain/MaRDI/Section_1/Set_1"/>
+	</attribute>
+	<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_1/Set_1/Question_05">
+		<uri_prefix>http://example.com/terms</uri_prefix>
+		<key>Question_05</key>
+		<path>MaRDI/Section_1/Set_1/Question_05</path>
 		<dc:comment/>
 		<parent dc:uri="http://example.com/terms/domain/MaRDI/Section_1/Set_1"/>
 	</attribute>

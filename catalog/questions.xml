@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2023-11-03T14:24:17.780471+01:00" version="2.0.1">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2023-11-14T19:27:00.487328+01:00" version="2.0.2">
 	<catalog dc:uri="http://example.com/terms/questions/MaRDI">
 		<uri_prefix>http://example.com/terms</uri_prefix>
 		<uri_path>MaRDI</uri_path>
@@ -115,7 +115,11 @@ Falls keines von beiden ausgewählt wird, führt MaRDI Export/Query zu einem Feh
 		<questionsets/>
 		<questions>
 			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_1/Set_1/Question_00" order="0"/>
-			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_1/Set_1/Question_01" order="2"/>
+			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_1/Set_1/Question_01" order="1"/>
+			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_1/Set_1/Question_02" order="2"/>
+			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_1/Set_1/Question_03" order="3"/>
+			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_1/Set_1/Question_04" order="4"/>
+			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_1/Set_1/Question_05" order="5"/>
 		</questions>
 		<conditions>
 			<condition dc:uri="http://example.com/terms/conditions/modus_1"/>
@@ -128,17 +132,13 @@ Falls keines von beiden ausgewählt wird, führt MaRDI Export/Query zu einem Feh
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_1/Set_1/Question_00"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">
-If none is selected, the MaRDI Export/Query will result in an error.
-</help>
-		<text lang="en">Workflow search by which entity?</text>
+		<help lang="en"/>
+		<text lang="en">Would you like to specify key words the research objective of the workflow should contain?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
-		<help lang="de">
-Falls keine ausgewählt wird, führt der MaRDI Export/Query zu einem Fehler.
-</help>
-		<text lang="de">Workflow Suche nach welcher Entität?</text>
+		<help lang="de"/>
+		<text lang="de">Wollen Sie Schlagworte angebeben, die im Forschungsziel des Workflows enthalten sein sollen?</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -152,7 +152,7 @@ Falls keine ausgewählt wird, führt der MaRDI Export/Query zu einem Fehler.
 		<unit/>
 		<width/>
 		<optionsets>
-			<optionset dc:uri="http://example.com/terms/options/search_topic"/>
+			<optionset dc:uri="http://example.com/terms/options/yes_no"/>
 		</optionsets>
 		<conditions/>
 	</question>
@@ -163,19 +163,13 @@ Falls keine ausgewählt wird, führt der MaRDI Export/Query zu einem Fehler.
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_1/Set_1/Question_01"/>
 		<is_collection>True</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">
-Use a new text field for each entity to be searched. Searching is possible using free text, e.g. the name of a method, as well as mardi:QIDs. To search workflows with a specific research objective use concise key words in separate text fields. Remember that matching workflows must meet all of your search criteria, so keep your requirements as low as necessary.
-</help>
-		<text lang="en">Provide a description of the entity to search for</text>
+		<help lang="en"/>
+		<text lang="en">Specify the key words</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
-		<help lang="de">
-Verwenden Sie für jede zu suchende Entität ein neues Textfeld. Die Suche ist sowohl über Freitext, z. B. den Namen einer Methode, als auch über mardi:QIDs möglich. Für die Suche nach Workflows mit übereinstimmenden Forschungszielen sollten prägnante Schlüsselwörter in separaten Textfeldern verwendet werden. Denken Sie daran, dass passende Workflows alle Ihre Suchkriterien erfüllen müssen, also halten Sie Ihre Anforderungen so niedrig wie nötig.
-</help>
-		<text lang="de">
-Geben Sie eine Beschreibung der zu suchenden Entität an
-</text>
+		<help lang="de"/>
+		<text lang="de">Geben Sie die Schlagworte an</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -189,7 +183,137 @@ Geben Sie eine Beschreibung der zu suchenden Entität an
 		<unit/>
 		<width/>
 		<optionsets/>
+		<conditions>
+			<condition dc:uri="http://example.com/terms/conditions/search_0"/>
+		</conditions>
+	</question>
+	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_1/Set_1/Question_02">
+		<uri_prefix>http://example.com/terms</uri_prefix>
+		<uri_path>MaRDI/Section_1/Set_1/Question_02</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_1/Set_1/Question_02"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en"/>
+		<text lang="en">Would you like to specify research disciplines the workflow should be connected with?</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Wollen Sie Forschungsdisziplinen angebeben mit denen der Workflow verknüpft sein soll?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="http://example.com/terms/options/yes_no"/>
+		</optionsets>
 		<conditions/>
+	</question>
+	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_1/Set_1/Question_03">
+		<uri_prefix>http://example.com/terms</uri_prefix>
+		<uri_path>MaRDI/Section_1/Set_1/Question_03</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_1/Set_1/Question_03"/>
+		<is_collection>True</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en">For all research disciplines mardi:QID, label and description are provided</help>
+		<text lang="en">Select the research disciplines</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de">Für alle Forschungsdiziplinen werden die mardi:QID, das Label und die Beschreibung angezeigt.</help>
+		<text lang="de">Wählen Sie die Forschungsdisziplinen aus</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>autocomplete</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="http://example.com/terms/options/component_search"/>
+		</optionsets>
+		<conditions>
+			<condition dc:uri="http://example.com/terms/conditions/search_1"/>
+		</conditions>
+	</question>
+	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_1/Set_1/Question_04">
+		<uri_prefix>http://example.com/terms</uri_prefix>
+		<uri_path>MaRDI/Section_1/Set_1/Question_04</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_1/Set_1/Question_04"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en"/>
+		<text lang="en">Would you like to specify mathematical models, methods, software, input or output data sets the workflow should be connected with?</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Wollen Sie mathematische Modelle, Methoden, Software, Eingabe- oder Ausgabedatensätze angebeben mit denen der Workflow verknüpft sein soll?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="http://example.com/terms/options/yes_no"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_1/Set_1/Question_05">
+		<uri_prefix>http://example.com/terms</uri_prefix>
+		<uri_path>MaRDI/Section_1/Set_1/Question_05</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_1/Set_1/Question_05"/>
+		<is_collection>True</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en">For all mathematical models, methods, software, input or output data sets mardi:QID, label and description are provided</help>
+		<text lang="en">Select the mathematical models, methods, software, input or output data sets</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de">Für alle mathematischen Modelle, Methoden, Software, Eingabe- und Ausgabedatensätze werden die mardi:QID, das Label und die Beschreibung angezeigt.</help>
+		<text lang="de">Wählen Sie die mathematischen Modelle, Methoden, Software, Eingabe- und Ausgabedatensätze aus</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>autocomplete</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="http://example.com/terms/options/component_search"/>
+		</optionsets>
+		<conditions>
+			<condition dc:uri="http://example.com/terms/conditions/search_2"/>
+		</conditions>
 	</question>
 	<section dc:uri="http://example.com/terms/questions/MaRDI/Section_6">
 		<uri_prefix>http://example.com/terms</uri_prefix>
@@ -564,6 +688,7 @@ Wählen Sie geeignete Disziplinen, im Zusammenhang mit ihrem Workflow, aus Wikid
 		<unit/>
 		<width/>
 		<optionsets>
+			<optionset dc:uri="http://example.com/terms/options/component_search"/>
 			<optionset dc:uri="http://example.com/terms/options/wikidata_search"/>
 		</optionsets>
 		<conditions/>
@@ -667,6 +792,7 @@ Datenströme zwischen einzelnen Disziplinen, z. B. zeitaufgelöstes Raman-Spektr
 		<unit/>
 		<width/>
 		<optionsets>
+			<optionset dc:uri="http://example.com/terms/options/component_search"/>
 			<optionset dc:uri="http://example.com/terms/options/wikidata_search"/>
 		</optionsets>
 		<conditions/>
@@ -760,6 +886,7 @@ Datenströme zwischen einzelnen Disziplinen, z. B. zeitaufgelöstes Raman-Spektr
 		<unit/>
 		<width/>
 		<optionsets>
+			<optionset dc:uri="http://example.com/terms/options/component_search"/>
 			<optionset dc:uri="http://example.com/terms/options/wikidata_search"/>
 		</optionsets>
 		<conditions>
@@ -1650,6 +1777,7 @@ Beschreiben Sie im folgenden die verwendeten Methode ihres Workflows. Verwenden 
 		<unit/>
 		<width/>
 		<optionsets>
+			<optionset dc:uri="http://example.com/terms/options/component_search"/>
 			<optionset dc:uri="http://example.com/terms/options/wikidata_search"/>
 		</optionsets>
 		<conditions/>
@@ -1743,6 +1871,7 @@ Beschreiben Sie im folgenden die verwendeten Methode ihres Workflows. Verwenden 
 		<unit/>
 		<width/>
 		<optionsets>
+			<optionset dc:uri="http://example.com/terms/options/component_search"/>
 			<optionset dc:uri="http://example.com/terms/options/wikidata_search"/>
 		</optionsets>
 		<conditions>
@@ -1972,6 +2101,7 @@ Beschreiben Sie im folgenden die verwendeten Software ihres Workflows. Verwenden
 		<unit/>
 		<width/>
 		<optionsets>
+			<optionset dc:uri="http://example.com/terms/options/component_search"/>
 			<optionset dc:uri="http://example.com/terms/options/wikidata_search"/>
 		</optionsets>
 		<conditions/>
@@ -2065,6 +2195,7 @@ Beschreiben Sie im folgenden die verwendeten Software ihres Workflows. Verwenden
 		<unit/>
 		<width/>
 		<optionsets>
+			<optionset dc:uri="http://example.com/terms/options/component_search"/>
 			<optionset dc:uri="http://example.com/terms/options/wikidata_search"/>
 		</optionsets>
 		<conditions>
@@ -2168,6 +2299,7 @@ Geben Sie die Abhängigkeiten der verwendeten Software an.
 		<unit/>
 		<width/>
 		<optionsets>
+			<optionset dc:uri="http://example.com/terms/options/component_search"/>
 			<optionset dc:uri="http://example.com/terms/options/wikidata_search"/>
 		</optionsets>
 		<conditions/>
@@ -2824,6 +2956,7 @@ Beschreiben Sie im folgenden die Eingabedaten ihres Workflows. Verwenden Sie fü
 		<unit/>
 		<width/>
 		<optionsets>
+			<optionset dc:uri="http://example.com/terms/options/component_search"/>
 			<optionset dc:uri="http://example.com/terms/options/wikidata_search"/>
 		</optionsets>
 		<conditions/>
@@ -3209,6 +3342,7 @@ Beschreiben Sie im folgenden die Ausgabedaten ihres Workflows. Verwenden Sie fü
 		<unit/>
 		<width/>
 		<optionsets>
+			<optionset dc:uri="http://example.com/terms/options/component_search"/>
 			<optionset dc:uri="http://example.com/terms/options/wikidata_search"/>
 		</optionsets>
 		<conditions/>
