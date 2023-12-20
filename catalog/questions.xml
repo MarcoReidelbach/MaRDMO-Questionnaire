@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2023-12-20T13:47:11.759076+01:00" version="2.1.0">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2023-12-20T20:36:31.851252+01:00" version="2.1.0">
 	<catalog dc:uri="http://example.com/terms/questions/MaRDI">
 		<uri_prefix>http://example.com/terms</uri_prefix>
 		<uri_path>MaRDI</uri_path>
@@ -592,11 +592,41 @@ Lassen Sie sich eine Vorschau Ihrer Dokumentation anzeigen, um sie auf Fehler zu
 		<verbose_name lang="de"/>
 		<questionsets/>
 		<questions>
+			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_2/Set_3/Question_00" order="0"/>
 			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_2/Set_3/Question_01" order="1"/>
 			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_2/Set_3/Question_02" order="2"/>
 		</questions>
 		<conditions/>
 	</page>
+	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_2/Set_3/Question_00">
+		<uri_prefix>http://example.com/terms</uri_prefix>
+		<uri_path>MaRDI/Section_2/Set_3/Question_00</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_2/Set_3/Question_00"/>
+		<is_collection>True</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en">For all mathematical fields the mardi/wikidata:QID, label and description are provided.</help>
+		<text lang="en">Select mathematical fields, involved in your workflow, from Wikidata or MaRDI KG!</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de">Für alle mathematischen Teilgebiete wird die mardi/wikidata:QID, das Label und die Beschreibung angezeigt.</help>
+		<text lang="de">Wählen Sie geeignete mathematische Teilgebiete, im Zusammenhang mit ihrem Workflow, aus Wikidata oder dem MaRDI KG aus!</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>autocomplete</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="http://example.com/terms/options/wikidata_search"/>
+		</optionsets>
+		<conditions/>
+	</question>
 	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_2/Set_3/Question_01">
 		<uri_prefix>http://example.com/terms</uri_prefix>
 		<uri_path>MaRDI/Section_2/Set_3/Question_01</uri_path>
@@ -605,11 +635,11 @@ Lassen Sie sich eine Vorschau Ihrer Dokumentation anzeigen, um sie auf Fehler zu
 		<is_collection>True</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en">For all disciplines the mardi/wikidata:QID, label and description are provided.</help>
-		<text lang="en">Select appropriate disciplines, involved in your workflow, from Wikidata or MaRDI KG!</text>
+		<text lang="en">Select non-mathematical disciplines, involved in your workflow, from Wikidata or MaRDI KG!</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de">Für alle Disziplinen wird die mardi/wikidata:QID, das Label und die Beschreibung angezeigt.</help>
-		<text lang="de">Wählen Sie geeignete Disziplinen, im Zusammenhang mit ihrem Workflow, aus Wikidata oder dem MaRDI KG aus!</text>
+		<text lang="de">Wählen Sie geeignete nicht-mathematische Disziplinen, im Zusammenhang mit ihrem Workflow, aus Wikidata oder dem MaRDI KG aus!</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
