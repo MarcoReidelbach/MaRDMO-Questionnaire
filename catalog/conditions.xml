@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2023-12-13T21:46:41.975991+01:00" version="2.0.2">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2023-12-20T13:44:59.055304+01:00" version="2.1.0">
 	<condition dc:uri="http://example.com/terms/conditions/inputdata_present">
 		<uri_prefix>http://example.com/terms</uri_prefix>
 		<uri_path>inputdata_present</uri_path>
 		<dc:comment/>
 		<source dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_6/Question_00"/>
-		<relation>eq</relation>
-		<target_text>&lt;N/A&gt;</target_text>
+		<relation>empty</relation>
+		<target_text/>
 		<target_option/>
 	</condition>
 	<condition dc:uri="http://example.com/terms/conditions/method_present">
@@ -14,8 +14,8 @@
 		<uri_path>method_present</uri_path>
 		<dc:comment/>
 		<source dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_2/Question_01"/>
-		<relation>eq</relation>
-		<target_text>&lt;N/A&gt;</target_text>
+		<relation>empty</relation>
+		<target_text/>
 		<target_option/>
 	</condition>
 	<condition dc:uri="http://example.com/terms/conditions/model_present">
@@ -23,8 +23,8 @@
 		<uri_path>model_present</uri_path>
 		<dc:comment/>
 		<source dc:uri="http://example.com/terms/domain/MaRDI/Section_3/Set_1/Wiki_01"/>
-		<relation>eq</relation>
-		<target_text>&lt;N/A&gt;</target_text>
+		<relation>empty</relation>
+		<target_text/>
 		<target_option/>
 	</condition>
 	<condition dc:uri="http://example.com/terms/conditions/modus_0">
@@ -50,8 +50,8 @@
 		<uri_path>outputdata_present</uri_path>
 		<dc:comment/>
 		<source dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_7/Question_00"/>
-		<relation>eq</relation>
-		<target_text>&lt;N/A&gt;</target_text>
+		<relation>empty</relation>
+		<target_text/>
 		<target_option/>
 	</condition>
 	<condition dc:uri="http://example.com/terms/conditions/parameter_needed">
@@ -104,8 +104,8 @@
 		<uri_path>software_present</uri_path>
 		<dc:comment/>
 		<source dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_3/Question_01"/>
-		<relation>eq</relation>
-		<target_text>&lt;N/A&gt;</target_text>
+		<relation>empty</relation>
+		<target_text/>
 		<target_option/>
 	</condition>
 	<condition dc:uri="http://example.com/terms/conditions/wiki_paper">
