@@ -144,32 +144,32 @@ Model, Methoden, Software und Eingabe-/Ausgabedaten
 		<uri_prefix>http://example.com/terms</uri_prefix>
 		<uri_path>size/KB</uri_path>
 		<dc:comment/>
-		<text lang="en">KB</text>
-		<text lang="de">KB</text>
+		<text lang="en">Small (KB - MB)</text>
+		<text lang="de">Klein (KB - MB)</text>
 		<additional_input>False</additional_input>
 	</option>
 	<option dc:uri="http://example.com/terms/options/size/MB">
 		<uri_prefix>http://example.com/terms</uri_prefix>
 		<uri_path>size/MB</uri_path>
 		<dc:comment/>
-		<text lang="en">MB</text>
-		<text lang="de">MB</text>
+		<text lang="en">Medium (MB - GB)</text>
+		<text lang="de">Mittel (MB - GB)</text>
 		<additional_input>False</additional_input>
 	</option>
 	<option dc:uri="http://example.com/terms/options/size/GB">
 		<uri_prefix>http://example.com/terms</uri_prefix>
 		<uri_path>size/GB</uri_path>
 		<dc:comment/>
-		<text lang="en">GB</text>
-		<text lang="de">GB</text>
+		<text lang="en">Large (GB - TB)</text>
+		<text lang="de">Groß (GB - TB)</text>
 		<additional_input>False</additional_input>
 	</option>
 	<option dc:uri="http://example.com/terms/options/size/TB">
 		<uri_prefix>http://example.com/terms</uri_prefix>
 		<uri_path>size/TB</uri_path>
 		<dc:comment/>
-		<text lang="en">TB</text>
-		<text lang="de">TB</text>
+		<text lang="en">Very Large (&gt;TB)</text>
+		<text lang="de">Sehr Groß (&gt;TB)</text>
 		<additional_input>False</additional_input>
 	</option>
 	<optionset dc:uri="http://example.com/terms/options/variable_type">
