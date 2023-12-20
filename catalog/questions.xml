@@ -605,12 +605,12 @@ Lassen Sie sich eine Vorschau Ihrer Dokumentation anzeigen, um sie auf Fehler zu
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_2/Set_3/Question_00"/>
 		<is_collection>True</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">For all mathematical fields the mardi/wikidata:QID, label and description are provided.</help>
-		<text lang="en">Select mathematical fields, involved in your workflow, from Wikidata or MaRDI KG!</text>
+		<help lang="en">For all mathematical areas the mardi/wikidata:QID, label and description are provided.</help>
+		<text lang="en">Select mathematical areas, involved in your workflow, from Wikidata or MaRDI KG!</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">Für alle mathematischen Teilgebiete wird die mardi/wikidata:QID, das Label und die Beschreibung angezeigt.</help>
-		<text lang="de">Wählen Sie geeignete mathematische Teilgebiete, im Zusammenhang mit ihrem Workflow, aus Wikidata oder dem MaRDI KG aus!</text>
+		<help lang="de">Für alle mathematischen Bereiche wird die mardi/wikidata:QID, das Label und die Beschreibung angezeigt.</help>
+		<text lang="de">Wählen Sie geeignete mathematische Bereiche, im Zusammenhang mit ihrem Workflow, aus Wikidata oder dem MaRDI KG aus!</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
