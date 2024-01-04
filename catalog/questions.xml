@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2023-12-20T20:36:31.851252+01:00" version="2.1.0">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2024-01-03T15:45:30.902913+01:00" version="2.1.1">
 	<catalog dc:uri="http://example.com/terms/questions/MaRDI">
 		<uri_prefix>http://example.com/terms</uri_prefix>
 		<uri_path>MaRDI</uri_path>
@@ -609,8 +609,8 @@ Lassen Sie sich eine Vorschau Ihrer Dokumentation anzeigen, um sie auf Fehler zu
 		<text lang="en">Select mathematical areas, involved in your workflow, from Wikidata or MaRDI KG!</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">Für alle mathematischen Bereiche wird die mardi/wikidata:QID, das Label und die Beschreibung angezeigt.</help>
-		<text lang="de">Wählen Sie geeignete mathematische Bereiche, im Zusammenhang mit ihrem Workflow, aus Wikidata oder dem MaRDI KG aus!</text>
+		<help lang="de">Für alle mathematischen Teilgebiete wird die mardi/wikidata:QID, das Label und die Beschreibung angezeigt.</help>
+		<text lang="de">Wählen Sie geeignete mathematische Teilgebiete, im Zusammenhang mit ihrem Workflow, aus Wikidata oder dem MaRDI KG aus!</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
@@ -979,10 +979,10 @@ Lassen Sie sich eine Vorschau Ihrer Dokumentation anzeigen, um sie auf Fehler zu
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3/Set_2"/>
 		<is_collection>True</is_collection>
 		<title lang="en">Variables</title>
-		<help lang="en">Describe the variables of your workflow below. Use a separate set for each variable. The title of the respective sets should be a simple sequential number starting from 0.</help>
+		<help lang="en">Describe the variables of your workflow below. Use a separate set for each variable.</help>
 		<verbose_name lang="en"/>
 		<title lang="de">Variablen (Experimentell)</title>
-		<help lang="de">Beschreiben Sie im folgenden die Variablen ihres Workflows. Verwenden Sie für jede Variable ein separates Set. Titel der jeweiligen Sets soll eine einfache Laufzahl sein, die bei 0 startet.</help>
+		<help lang="de">Beschreiben Sie im folgenden die Variablen ihres Workflows. Verwenden Sie für jede Variable ein separates Set.</help>
 		<verbose_name lang="de"/>
 		<questionsets/>
 		<questions>
@@ -1110,14 +1110,10 @@ Lassen Sie sich eine Vorschau Ihrer Dokumentation anzeigen, um sie auf Fehler zu
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3/Set_3"/>
 		<is_collection>True</is_collection>
 		<title lang="en">Parameters</title>
-		<help lang="en">
-Describe the parameters of your workflow below. Use a separate set for each parameter. The title of the respective sets should be a simple sequential number starting from 0.
-</help>
+		<help lang="en">Describe the parameters of your workflow below. Use a separate set for each parameter.</help>
 		<verbose_name lang="en"/>
 		<title lang="de">Parameter</title>
-		<help lang="de">
-Beschreiben Sie im folgenden die Parameter ihres Workflows. Verwenden Sie für jeden Parameter ein separates Set. Titel der jeweiligen Sets soll eine einfache Laufzahl sein, die bei 0 startet.
-</help>
+		<help lang="de">Beschreiben Sie im folgenden die Parameter ihres Workflows. Verwenden Sie für jeden Parameter ein separates Set.</help>
 		<verbose_name lang="de"/>
 		<questionsets/>
 		<questions>
@@ -1215,547 +1211,15 @@ Beschreiben Sie im folgenden die Parameter ihres Workflows. Verwenden Sie für j
 		<title lang="en">Process Information</title>
 		<title lang="de">Prozess Informationen</title>
 		<pages>
-			<page dc:uri="http://example.com/terms/questions/MaRDI/Section_4/Set_1" order="0"/>
-			<page dc:uri="http://example.com/terms/questions/MaRDI/Section_4/Set_2" order="1"/>
-			<page dc:uri="http://example.com/terms/questions/MaRDI/Section_4/Set_3" order="2"/>
-			<page dc:uri="http://example.com/terms/questions/MaRDI/Section_4/Set_4" order="2"/>
-			<page dc:uri="http://example.com/terms/questions/MaRDI/Section_4/Set_5" order="3"/>
-			<page dc:uri="http://example.com/terms/questions/MaRDI/Section_4/Set_6" order="4"/>
-			<page dc:uri="http://example.com/terms/questions/MaRDI/Section_4/Set_7" order="5"/>
+			<page dc:uri="http://example.com/terms/questions/MaRDI/Section_4/Set_3" order="0"/>
+			<page dc:uri="http://example.com/terms/questions/MaRDI/Section_4/Set_4" order="1"/>
+			<page dc:uri="http://example.com/terms/questions/MaRDI/Section_4/Set_5" order="2"/>
+			<page dc:uri="http://example.com/terms/questions/MaRDI/Section_4/Set_6" order="3"/>
+			<page dc:uri="http://example.com/terms/questions/MaRDI/Section_4/Set_7" order="4"/>
+			<page dc:uri="http://example.com/terms/questions/MaRDI/Section_4/Set_2" order="5"/>
+			<page dc:uri="http://example.com/terms/questions/MaRDI/Section_4/Set_1" order="6"/>
 		</pages>
 	</section>
-	<page dc:uri="http://example.com/terms/questions/MaRDI/Section_4/Set_1">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/Section_4/Set_1</uri_path>
-		<dc:comment/>
-		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_1"/>
-		<is_collection>True</is_collection>
-		<title lang="en">Process steps</title>
-		<help lang="en">
-Describe the process steps of your workflow below. Use a separate set for each process step. The title of the respective sets should be a simple sequential number starting from 0.
-</help>
-		<verbose_name lang="en"/>
-		<title lang="de">Prozessschritte</title>
-		<help lang="de">
-Beschreiben Sie im folgenden die Prozessschritte ihres Workflows. Verwenden Sie für jeden Prozessschritt ein separates Set. Titel der jeweiligen Sets soll eine einfache Laufzahl sein, die bei 0 startet.
-</help>
-		<verbose_name lang="de"/>
-		<questionsets/>
-		<questions>
-			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_4/Set_1/Question_01" order="0"/>
-			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_4/Set_1/Question_02" order="1"/>
-			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_4/Set_1/Question_03" order="2"/>
-			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_4/Set_1/Question_04" order="3"/>
-			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_4/Set_1/Question_05" order="4"/>
-			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_4/Set_1/Question_06" order="5"/>
-			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_4/Set_1/Question_07" order="6"/>
-			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_4/Set_1/Question_08" order="7"/>
-		</questions>
-		<conditions/>
-	</page>
-	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_4/Set_1/Question_01">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/Section_4/Set_1/Question_01</uri_path>
-		<dc:comment/>
-		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_1/Question_01"/>
-		<is_collection>False</is_collection>
-		<is_optional>False</is_optional>
-		<help lang="en">Ideally referring to the workflow procedure described before.</help>
-		<text lang="en">Provide a name for the process step</text>
-		<default_text lang="en"/>
-		<verbose_name lang="en"/>
-		<help lang="de">Idealerweise bezugnehmend auf die zuvor beschriebene Workflow Prozedur.</help>
-		<text lang="de">Geben Sie den Name des Prozessschrits an</text>
-		<default_text lang="de"/>
-		<verbose_name lang="de"/>
-		<default_option/>
-		<default_external_id/>
-		<widget_type>text</widget_type>
-		<value_type>text</value_type>
-		<maximum/>
-		<minimum/>
-		<step/>
-		<unit/>
-		<width/>
-		<optionsets/>
-		<conditions/>
-	</question>
-	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_4/Set_1/Question_02">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/Section_4/Set_1/Question_02</uri_path>
-		<dc:comment/>
-		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_1/Question_02"/>
-		<is_collection>False</is_collection>
-		<is_optional>False</is_optional>
-		<help lang="en">Short description of what happens in the process step.</help>
-		<text lang="en">Provide a description for the process step</text>
-		<default_text lang="en"/>
-		<verbose_name lang="en"/>
-		<help lang="de">Kurze Beschreibung davon was in dem Prozessschritt passiert.</help>
-		<text lang="de">Geben Sie eine Beschreibung des Prozessschritts an</text>
-		<default_text lang="de"/>
-		<verbose_name lang="de"/>
-		<default_option/>
-		<default_external_id/>
-		<widget_type>text</widget_type>
-		<value_type>text</value_type>
-		<maximum/>
-		<minimum/>
-		<step/>
-		<unit/>
-		<width/>
-		<optionsets/>
-		<conditions/>
-	</question>
-	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_4/Set_1/Question_03">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/Section_4/Set_1/Question_03</uri_path>
-		<dc:comment/>
-		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_1/Question_03"/>
-		<is_collection>False</is_collection>
-		<is_optional>False</is_optional>
-		<help lang="en">What is the input (data) of the process step?</help>
-		<text lang="en">State the input of the process step</text>
-		<default_text lang="en"/>
-		<verbose_name lang="en"/>
-		<help lang="de">Was sind die Eingaben/Eingabedaten des Prozessschritts?</help>
-		<text lang="de">Nennen Sie den Input des Prozessschritts</text>
-		<default_text lang="de"/>
-		<verbose_name lang="de"/>
-		<default_option/>
-		<default_external_id/>
-		<widget_type>text</widget_type>
-		<value_type>text</value_type>
-		<maximum/>
-		<minimum/>
-		<step/>
-		<unit/>
-		<width/>
-		<optionsets/>
-		<conditions/>
-	</question>
-	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_4/Set_1/Question_04">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/Section_4/Set_1/Question_04</uri_path>
-		<dc:comment/>
-		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_1/Question_04"/>
-		<is_collection>False</is_collection>
-		<is_optional>False</is_optional>
-		<help lang="en">What is the output (data) of the process step?</help>
-		<text lang="en">State the output of the process step</text>
-		<default_text lang="en"/>
-		<verbose_name lang="en"/>
-		<help lang="de">Was sind die Ausgaben/Ausgabedaten des Prozessschritts?</help>
-		<text lang="de">Nennen Sie den Output des Prozessschritts</text>
-		<default_text lang="de"/>
-		<verbose_name lang="de"/>
-		<default_option/>
-		<default_external_id/>
-		<widget_type>text</widget_type>
-		<value_type>text</value_type>
-		<maximum/>
-		<minimum/>
-		<step/>
-		<unit/>
-		<width/>
-		<optionsets/>
-		<conditions/>
-	</question>
-	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_4/Set_1/Question_05">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/Section_4/Set_1/Question_05</uri_path>
-		<dc:comment/>
-		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_1/Question_05"/>
-		<is_collection>False</is_collection>
-		<is_optional>False</is_optional>
-		<help lang="en"/>
-		<text lang="en">State the methods used in this process step</text>
-		<default_text lang="en"/>
-		<verbose_name lang="en"/>
-		<help lang="de"/>
-		<text lang="de">Nennen Sie die Methoden, die in diesem Prozessschritt verwendet werden</text>
-		<default_text lang="de"/>
-		<verbose_name lang="de"/>
-		<default_option/>
-		<default_external_id/>
-		<widget_type>text</widget_type>
-		<value_type>text</value_type>
-		<maximum/>
-		<minimum/>
-		<step/>
-		<unit/>
-		<width/>
-		<optionsets/>
-		<conditions/>
-	</question>
-	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_4/Set_1/Question_06">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/Section_4/Set_1/Question_06</uri_path>
-		<dc:comment/>
-		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_1/Question_06"/>
-		<is_collection>False</is_collection>
-		<is_optional>False</is_optional>
-		<help lang="en"/>
-		<text lang="en">State the parameter relevant for this process step</text>
-		<default_text lang="en"/>
-		<verbose_name lang="en"/>
-		<help lang="de"/>
-		<text lang="de">Nennen Sie die Parameter, die für diesen Prozessschritt relevant sind</text>
-		<default_text lang="de"/>
-		<verbose_name lang="de"/>
-		<default_option/>
-		<default_external_id/>
-		<widget_type>text</widget_type>
-		<value_type>text</value_type>
-		<maximum/>
-		<minimum/>
-		<step/>
-		<unit/>
-		<width/>
-		<optionsets/>
-		<conditions/>
-	</question>
-	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_4/Set_1/Question_07">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/Section_4/Set_1/Question_07</uri_path>
-		<dc:comment/>
-		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_1/Question_07"/>
-		<is_collection>False</is_collection>
-		<is_optional>False</is_optional>
-		<help lang="en">e.g. python, matlab, spectrometer, ...</help>
-		<text lang="en">State the environment of the process step</text>
-		<default_text lang="en"/>
-		<verbose_name lang="en"/>
-		<help lang="de">z. B. Python, Matlab, Spektrometer, ...</help>
-		<text lang="de">Nennen Sie die Umgebung des Prozessschritts</text>
-		<default_text lang="de"/>
-		<verbose_name lang="de"/>
-		<default_option/>
-		<default_external_id/>
-		<widget_type>text</widget_type>
-		<value_type>text</value_type>
-		<maximum/>
-		<minimum/>
-		<step/>
-		<unit/>
-		<width/>
-		<optionsets/>
-		<conditions/>
-	</question>
-	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_4/Set_1/Question_08">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/Section_4/Set_1/Question_08</uri_path>
-		<dc:comment/>
-		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_1/Question_08"/>
-		<is_collection>False</is_collection>
-		<is_optional>False</is_optional>
-		<help lang="en">e.g. optimization, linear algebra, numerical analysis, ...</help>
-		<text lang="en">State the mathematical area of the process step</text>
-		<default_text lang="en"/>
-		<verbose_name lang="en"/>
-		<help lang="de">z. B. Optimierung, lineare Algebra, numerische Analyse, ...</help>
-		<text lang="de">Nennen Sie das mathematische Gebiet des Prozessschritts</text>
-		<default_text lang="de"/>
-		<verbose_name lang="de"/>
-		<default_option/>
-		<default_external_id/>
-		<widget_type>text</widget_type>
-		<value_type>text</value_type>
-		<maximum/>
-		<minimum/>
-		<step/>
-		<unit/>
-		<width/>
-		<optionsets/>
-		<conditions/>
-	</question>
-	<page dc:uri="http://example.com/terms/questions/MaRDI/Section_4/Set_2">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/Section_4/Set_2</uri_path>
-		<dc:comment/>
-		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_2"/>
-		<is_collection>True</is_collection>
-		<title lang="en">Methods</title>
-		<help lang="en">
-Describe the methods applied in your workflow below. Use a separate set for each method. The title of the respective sets should be a simple sequential number starting from 0.
-</help>
-		<verbose_name lang="en"/>
-		<title lang="de">Methoden des Workflows.</title>
-		<help lang="de">
-Beschreiben Sie im folgenden die verwendeten Methode ihres Workflows. Verwenden Sie für jede Methode ein separates Set. Titel der jeweiligen Sets soll eine einfache Laufzahl sein, die bei 0 startet.
-</help>
-		<verbose_name lang="de"/>
-		<questionsets/>
-		<questions>
-			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_4/Set_2/Question_01" order="-2"/>
-			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_4/Set_2/Question_02" order="-1"/>
-			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_4/Set_2/Wiki_02" order="0"/>
-			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_4/Set_2/Wiki_03" order="1"/>
-			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_4/Set_2/Wiki_04" order="2"/>
-			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_4/Set_2/Question_00" order="3"/>
-			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_4/Set_2/Question_03" order="3"/>
-			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_4/Set_2/Question_04" order="3"/>
-			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_4/Set_2/Question_05" order="4"/>
-		</questions>
-		<conditions/>
-	</page>
-	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_4/Set_2/Question_01">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/Section_4/Set_2/Question_01</uri_path>
-		<dc:comment/>
-		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_2/Question_01"/>
-		<is_collection>False</is_collection>
-		<is_optional>False</is_optional>
-		<help lang="en">For all methods the mardi/wikidata:QID, label and description are provided. For methods that are included in mardi/wikidata, provide the connection to the workflow in the further questions. Methods that are not included in mardi/wikidata must be described additionally.</help>
-		<text lang="en">Select an appropriate method from Wikidata or MaRDI KG!</text>
-		<default_text lang="en"/>
-		<verbose_name lang="en"/>
-		<help lang="de">Für alle Methoden wird die mardi/wikidata:QID, das Label und die Beschreibung angezeigt. Für Methoden, die in mardi/wikidata enthalten sind, stellen Sie in den weiteren Fragen den Zusammenhang zum Workflow dar. Methoden, die nicht in mardi/wikidata enthalten sind, müssen zusätzlich beschrieben werden.</help>
-		<text lang="de">Wählen Sie eine geeignete Methode aus Wikidata oder dem MaRDI KG aus!</text>
-		<default_text lang="de"/>
-		<verbose_name lang="de"/>
-		<default_option/>
-		<default_external_id/>
-		<widget_type>autocomplete</widget_type>
-		<value_type>text</value_type>
-		<maximum/>
-		<minimum/>
-		<step/>
-		<unit/>
-		<width/>
-		<optionsets>
-			<optionset dc:uri="http://example.com/terms/options/wikidata_search"/>
-		</optionsets>
-		<conditions/>
-	</question>
-	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_4/Set_2/Question_02">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/Section_4/Set_2/Question_02</uri_path>
-		<dc:comment/>
-		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_2/Question_02"/>
-		<is_collection>False</is_collection>
-		<is_optional>False</is_optional>
-		<help lang="en"/>
-		<text lang="en">Provide a name for the method.</text>
-		<default_text lang="en"/>
-		<verbose_name lang="en"/>
-		<help lang="de"/>
-		<text lang="de">Geben Sie einen Namen für die Methode an.</text>
-		<default_text lang="de"/>
-		<verbose_name lang="de"/>
-		<default_option/>
-		<default_external_id/>
-		<widget_type>text</widget_type>
-		<value_type>text</value_type>
-		<maximum/>
-		<minimum/>
-		<step/>
-		<unit/>
-		<width/>
-		<optionsets/>
-		<conditions>
-			<condition dc:uri="http://example.com/terms/conditions/method_present"/>
-		</conditions>
-	</question>
-	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_4/Set_2/Wiki_02">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/Section_4/Set_2/Wiki_02</uri_path>
-		<dc:comment/>
-		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_2/Wiki_02"/>
-		<is_collection>False</is_collection>
-		<is_optional>False</is_optional>
-		<help lang="en"/>
-		<text lang="en">Provide a description for the method.</text>
-		<default_text lang="en"/>
-		<verbose_name lang="en"/>
-		<help lang="de"/>
-		<text lang="de">Geben Sie eine Beschreibung für die Methode an.</text>
-		<default_text lang="de"/>
-		<verbose_name lang="de"/>
-		<default_option/>
-		<default_external_id/>
-		<widget_type>text</widget_type>
-		<value_type>text</value_type>
-		<maximum/>
-		<minimum/>
-		<step/>
-		<unit/>
-		<width/>
-		<optionsets/>
-		<conditions>
-			<condition dc:uri="http://example.com/terms/conditions/method_present"/>
-		</conditions>
-	</question>
-	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_4/Set_2/Wiki_03">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/Section_4/Set_2/Wiki_03</uri_path>
-		<dc:comment/>
-		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_2/Wiki_03"/>
-		<is_collection>False</is_collection>
-		<is_optional>False</is_optional>
-		<help lang="en">For all subjects the mardi/wikidata:QID, label and description are provided.</help>
-		<text lang="en">Provide the main subject of the method.</text>
-		<default_text lang="en"/>
-		<verbose_name lang="en"/>
-		<help lang="de">Für alle Themen wird die mardi/wikidata:QID, das Label und die Beschreibung angezeigt.</help>
-		<text lang="de">Geben Sie das Hauptthema der Methode an.</text>
-		<default_text lang="de"/>
-		<verbose_name lang="de"/>
-		<default_option/>
-		<default_external_id/>
-		<widget_type>autocomplete</widget_type>
-		<value_type>text</value_type>
-		<maximum/>
-		<minimum/>
-		<step/>
-		<unit/>
-		<width/>
-		<optionsets>
-			<optionset dc:uri="http://example.com/terms/options/wikidata_search"/>
-		</optionsets>
-		<conditions>
-			<condition dc:uri="http://example.com/terms/conditions/method_present"/>
-		</conditions>
-	</question>
-	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_4/Set_2/Wiki_04">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/Section_4/Set_2/Wiki_04</uri_path>
-		<dc:comment/>
-		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_2/Wiki_04"/>
-		<is_collection>True</is_collection>
-		<is_optional>False</is_optional>
-		<help lang="en">Use Latex Math in $$...$$ for the formulas. Check the rendering using the preview option.</help>
-		<text lang="en">Provide the defining formulas of the method.</text>
-		<default_text lang="en"/>
-		<verbose_name lang="en"/>
-		<help lang="de">Nutzen Sie Latex Math in $$...$$ für die Formeln. Überprüfen Sie das Rendering über die Preview Option.</help>
-		<text lang="de">Geben Sie die relevanten Formeln der Methode an.</text>
-		<default_text lang="de"/>
-		<verbose_name lang="de"/>
-		<default_option/>
-		<default_external_id/>
-		<widget_type>text</widget_type>
-		<value_type>text</value_type>
-		<maximum/>
-		<minimum/>
-		<step/>
-		<unit/>
-		<width/>
-		<optionsets/>
-		<conditions>
-			<condition dc:uri="http://example.com/terms/conditions/method_present"/>
-		</conditions>
-	</question>
-	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_4/Set_2/Question_00">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/Section_4/Set_2/Question_00</uri_path>
-		<dc:comment/>
-		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_2/Question_00"/>
-		<is_collection>False</is_collection>
-		<is_optional>False</is_optional>
-		<help lang="en">IDs provided: 'doi:'</help>
-		<text lang="en">Provide an appropriate reference.</text>
-		<default_text lang="en">doi:</default_text>
-		<verbose_name lang="en"/>
-		<help lang="de">Mögliche IDs: 'doi:'</help>
-		<text lang="de">Geben Sie eine geeignete Referenz an.</text>
-		<default_text lang="de">doi:</default_text>
-		<verbose_name lang="de"/>
-		<default_option/>
-		<default_external_id/>
-		<widget_type>text</widget_type>
-		<value_type>text</value_type>
-		<maximum/>
-		<minimum/>
-		<step/>
-		<unit/>
-		<width/>
-		<optionsets/>
-		<conditions>
-			<condition dc:uri="http://example.com/terms/conditions/method_present"/>
-		</conditions>
-	</question>
-	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_4/Set_2/Question_03">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/Section_4/Set_2/Question_03</uri_path>
-		<dc:comment/>
-		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_2/Question_03"/>
-		<is_collection>False</is_collection>
-		<is_optional>False</is_optional>
-		<help lang="en">Specify the name of the previously documented and relevant process step(s).</help>
-		<text lang="en">Provide the associated process step(s) of the method</text>
-		<default_text lang="en"/>
-		<verbose_name lang="en"/>
-		<help lang="de">Geben Sie den Namen des(/r) zuvor dokumentierten und relevanten Prozessschritts(/e) an.</help>
-		<text lang="de">Geben Sie den(/die) zugehörigen Prozessschritt(e) der Methode an</text>
-		<default_text lang="de"/>
-		<verbose_name lang="de"/>
-		<default_option/>
-		<default_external_id/>
-		<widget_type>text</widget_type>
-		<value_type>text</value_type>
-		<maximum/>
-		<minimum/>
-		<step/>
-		<unit/>
-		<width/>
-		<optionsets/>
-		<conditions/>
-	</question>
-	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_4/Set_2/Question_04">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/Section_4/Set_2/Question_04</uri_path>
-		<dc:comment/>
-		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_2/Question_04"/>
-		<is_collection>False</is_collection>
-		<is_optional>False</is_optional>
-		<help lang="en"/>
-		<text lang="en">Provide the relevant parameter(s) of the method</text>
-		<default_text lang="en"/>
-		<verbose_name lang="en"/>
-		<help lang="de"/>
-		<text lang="de">Geben Sie den(/die) relevanten Parameter der Methode an</text>
-		<default_text lang="de"/>
-		<verbose_name lang="de"/>
-		<default_option/>
-		<default_external_id/>
-		<widget_type>text</widget_type>
-		<value_type>text</value_type>
-		<maximum/>
-		<minimum/>
-		<step/>
-		<unit/>
-		<width/>
-		<optionsets/>
-		<conditions/>
-	</question>
-	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_4/Set_2/Question_05">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/Section_4/Set_2/Question_05</uri_path>
-		<dc:comment/>
-		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_2/Question_05"/>
-		<is_collection>False</is_collection>
-		<is_optional>False</is_optional>
-		<help lang="en"/>
-		<text lang="en">Provide the software(s) realizing or implementing the method</text>
-		<default_text lang="en"/>
-		<verbose_name lang="en"/>
-		<help lang="de"/>
-		<text lang="de">Geben Sie die Software(s) an, die die Methode realisieren oder implementieren.</text>
-		<default_text lang="de"/>
-		<verbose_name lang="de"/>
-		<default_option/>
-		<default_external_id/>
-		<widget_type>text</widget_type>
-		<value_type>text</value_type>
-		<maximum/>
-		<minimum/>
-		<step/>
-		<unit/>
-		<width/>
-		<optionsets/>
-		<conditions/>
-	</question>
 	<page dc:uri="http://example.com/terms/questions/MaRDI/Section_4/Set_3">
 		<uri_prefix>http://example.com/terms</uri_prefix>
 		<uri_path>MaRDI/Section_4/Set_3</uri_path>
@@ -1763,14 +1227,10 @@ Beschreiben Sie im folgenden die verwendeten Methode ihres Workflows. Verwenden 
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_3"/>
 		<is_collection>True</is_collection>
 		<title lang="en">Software</title>
-		<help lang="en">
-Describe the software applied in your workflow below. Use a separate set for each software. The title of the respective sets should be a simple sequential number starting from 0.
-</help>
+		<help lang="en">Describe the software applied in your workflow below. Use a separate set for each software.</help>
 		<verbose_name lang="en"/>
 		<title lang="de">Software</title>
-		<help lang="de">
-Beschreiben Sie im folgenden die verwendeten Software ihres Workflows. Verwenden Sie für jede Software ein separates Set. Titel der jeweiligen Sets soll eine einfache Laufzahl sein, die bei 0 startet.
-</help>
+		<help lang="de">Beschreiben Sie im folgenden die verwendeten Software ihres Workflows. Verwenden Sie für jede Software ein separates Set.</help>
 		<verbose_name lang="de"/>
 		<questionsets/>
 		<questions>
@@ -2084,14 +1544,10 @@ Beschreiben Sie im folgenden die verwendeten Software ihres Workflows. Verwenden
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_4"/>
 		<is_collection>True</is_collection>
 		<title lang="en">Hardware (Theoretical)</title>
-		<help lang="en">
-Describe the hardware of your workflow below. Use a separate set for each entity. The title of the respective sets should be a simple sequential number starting from 0.
-</help>
+		<help lang="en">Describe the hardware of your workflow below. Use a separate set for each entity.</help>
 		<verbose_name lang="en"/>
 		<title lang="de">Hardware (Theoretisch)</title>
-		<help lang="de">
-Beschreiben Sie im folgenden die Hardware ihres Workflows. Verwenden Sie für jede ein separates Set. Titel der jeweiligen Sets soll eine einfache Laufzahl sein, die bei 0 startet.
-</help>
+		<help lang="de">Beschreiben Sie im folgenden die Hardware ihres Workflows. Verwenden Sie für jede ein separates Set.</help>
 		<verbose_name lang="de"/>
 		<questionsets/>
 		<questions>
@@ -2275,14 +1731,10 @@ Beschreiben Sie im folgenden die Hardware ihres Workflows. Verwenden Sie für je
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_5"/>
 		<is_collection>True</is_collection>
 		<title lang="en">Devices (Experimental)</title>
-		<help lang="en">
-Describe the experimental devices and hardware of your workflow below. Use a separate set for each entity. The title of the respective sets should be a simple sequential number starting from 0.
-</help>
+		<help lang="en">Describe the experimental devices and hardware of your workflow below. Use a separate set for each entity.</help>
 		<verbose_name lang="en"/>
 		<title lang="de">Geräte (Experimentell)</title>
-		<help lang="de">
-Beschreiben Sie im folgenden die experimentellen Geräte und Hardware ihres Workflows. Verwenden Sie für jedes ein separates Set. Titel der jeweiligen Sets soll eine einfache Laufzahl sein, die bei 0 startet.
-</help>
+		<help lang="de">Beschreiben Sie im folgenden die experimentellen Geräte und Hardware ihres Workflows. Verwenden Sie für jedes ein separates Set.</help>
 		<verbose_name lang="de"/>
 		<questionsets/>
 		<questions>
@@ -2522,14 +1974,10 @@ Beschreiben Sie im folgenden die experimentellen Geräte und Hardware ihres Work
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_6"/>
 		<is_collection>True</is_collection>
 		<title lang="en">Input data</title>
-		<help lang="en">
-Describe the input data of your workflow below. Use a separate set for each entity. The title of the respective sets should be a simple sequential number starting from 0.
-</help>
+		<help lang="en">Describe the input data of your workflow below. Use a separate set for each entity.</help>
 		<verbose_name lang="en"/>
 		<title lang="de">Eingabedaten</title>
-		<help lang="de">
-Beschreiben Sie im folgenden die Eingabedaten ihres Workflows. Verwenden Sie für jede ein separates Set. Titel der jeweiligen Sets soll eine einfache Laufzahl sein, die bei 0 startet.
-</help>
+		<help lang="de">Beschreiben Sie im folgenden die Eingabedaten ihres Workflows. Verwenden Sie für jede ein separates Set.</help>
 		<verbose_name lang="de"/>
 		<questionsets/>
 		<questions>
@@ -2867,14 +2315,10 @@ Beschreiben Sie im folgenden die Eingabedaten ihres Workflows. Verwenden Sie fü
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_7"/>
 		<is_collection>True</is_collection>
 		<title lang="en">Output data</title>
-		<help lang="en">
-Describe the output data of your workflow below. Use a separate set for each entity. The title of the respective sets should be a simple sequential number starting from 0.
-</help>
+		<help lang="en">Describe the output data of your workflow below. Use a separate set for each entity.</help>
 		<verbose_name lang="en"/>
 		<title lang="de">Ausgabedaten</title>
-		<help lang="de">
-Beschreiben Sie im folgenden die Ausgabedaten ihres Workflows. Verwenden Sie für jede ein separates Set. Titel der jeweiligen Sets soll eine einfache Laufzahl sein, die bei 0 startet.
-</help>
+		<help lang="de">Beschreiben Sie im folgenden die Ausgabedaten ihres Workflows. Verwenden Sie für jede ein separates Set.</help>
 		<verbose_name lang="de"/>
 		<questionsets/>
 		<questions>
@@ -3202,6 +2646,542 @@ Beschreiben Sie im folgenden die Ausgabedaten ihres Workflows. Verwenden Sie fü
 		<width/>
 		<optionsets>
 			<optionset dc:uri="https://rdmorganiser.github.io/terms/options/yes_with_text_no"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<page dc:uri="http://example.com/terms/questions/MaRDI/Section_4/Set_2">
+		<uri_prefix>http://example.com/terms</uri_prefix>
+		<uri_path>MaRDI/Section_4/Set_2</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_2"/>
+		<is_collection>True</is_collection>
+		<title lang="en">Methods</title>
+		<help lang="en">Describe the methods applied in your workflow below. Use a separate set for each method.</help>
+		<verbose_name lang="en"/>
+		<title lang="de">Methoden des Workflows.</title>
+		<help lang="de">Beschreiben Sie im folgenden die verwendeten Methode ihres Workflows. Verwenden Sie für jede Methode ein separates Set.</help>
+		<verbose_name lang="de"/>
+		<questionsets/>
+		<questions>
+			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_4/Set_2/Question_01" order="-2"/>
+			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_4/Set_2/Question_02" order="-1"/>
+			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_4/Set_2/Wiki_02" order="0"/>
+			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_4/Set_2/Wiki_03" order="1"/>
+			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_4/Set_2/Wiki_04" order="2"/>
+			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_4/Set_2/Question_00" order="3"/>
+			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_4/Set_2/Question_03" order="3"/>
+			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_4/Set_2/Question_04" order="3"/>
+			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_4/Set_2/Question_05" order="4"/>
+		</questions>
+		<conditions/>
+	</page>
+	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_4/Set_2/Question_01">
+		<uri_prefix>http://example.com/terms</uri_prefix>
+		<uri_path>MaRDI/Section_4/Set_2/Question_01</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_2/Question_01"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en">For all methods the mardi/wikidata:QID, label and description are provided. For methods that are included in mardi/wikidata, provide the connection to the workflow in the further questions. Methods that are not included in mardi/wikidata must be described additionally.</help>
+		<text lang="en">Select an appropriate method from Wikidata or MaRDI KG!</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de">Für alle Methoden wird die mardi/wikidata:QID, das Label und die Beschreibung angezeigt. Für Methoden, die in mardi/wikidata enthalten sind, stellen Sie in den weiteren Fragen den Zusammenhang zum Workflow dar. Methoden, die nicht in mardi/wikidata enthalten sind, müssen zusätzlich beschrieben werden.</help>
+		<text lang="de">Wählen Sie eine geeignete Methode aus Wikidata oder dem MaRDI KG aus!</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>autocomplete</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="http://example.com/terms/options/wikidata_search"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_4/Set_2/Question_02">
+		<uri_prefix>http://example.com/terms</uri_prefix>
+		<uri_path>MaRDI/Section_4/Set_2/Question_02</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_2/Question_02"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en"/>
+		<text lang="en">Provide a name for the method.</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Geben Sie einen Namen für die Methode an.</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions>
+			<condition dc:uri="http://example.com/terms/conditions/method_present"/>
+		</conditions>
+	</question>
+	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_4/Set_2/Wiki_02">
+		<uri_prefix>http://example.com/terms</uri_prefix>
+		<uri_path>MaRDI/Section_4/Set_2/Wiki_02</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_2/Wiki_02"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en"/>
+		<text lang="en">Provide a description for the method.</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Geben Sie eine Beschreibung für die Methode an.</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions>
+			<condition dc:uri="http://example.com/terms/conditions/method_present"/>
+		</conditions>
+	</question>
+	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_4/Set_2/Wiki_03">
+		<uri_prefix>http://example.com/terms</uri_prefix>
+		<uri_path>MaRDI/Section_4/Set_2/Wiki_03</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_2/Wiki_03"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en">For all subjects the mardi/wikidata:QID, label and description are provided.</help>
+		<text lang="en">Provide the main subject of the method.</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de">Für alle Themen wird die mardi/wikidata:QID, das Label und die Beschreibung angezeigt.</help>
+		<text lang="de">Geben Sie das Hauptthema der Methode an.</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>autocomplete</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="http://example.com/terms/options/wikidata_search"/>
+		</optionsets>
+		<conditions>
+			<condition dc:uri="http://example.com/terms/conditions/method_present"/>
+		</conditions>
+	</question>
+	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_4/Set_2/Wiki_04">
+		<uri_prefix>http://example.com/terms</uri_prefix>
+		<uri_path>MaRDI/Section_4/Set_2/Wiki_04</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_2/Wiki_04"/>
+		<is_collection>True</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en">Use Latex Math in $$...$$ for the formulas. Check the rendering using the preview option.</help>
+		<text lang="en">Provide the defining formulas of the method.</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de">Nutzen Sie Latex Math in $$...$$ für die Formeln. Überprüfen Sie das Rendering über die Preview Option.</help>
+		<text lang="de">Geben Sie die relevanten Formeln der Methode an.</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions>
+			<condition dc:uri="http://example.com/terms/conditions/method_present"/>
+		</conditions>
+	</question>
+	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_4/Set_2/Question_00">
+		<uri_prefix>http://example.com/terms</uri_prefix>
+		<uri_path>MaRDI/Section_4/Set_2/Question_00</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_2/Question_00"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en">IDs provided: 'doi:'</help>
+		<text lang="en">Provide an appropriate reference.</text>
+		<default_text lang="en">doi:</default_text>
+		<verbose_name lang="en"/>
+		<help lang="de">Mögliche IDs: 'doi:'</help>
+		<text lang="de">Geben Sie eine geeignete Referenz an.</text>
+		<default_text lang="de">doi:</default_text>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions>
+			<condition dc:uri="http://example.com/terms/conditions/method_present"/>
+		</conditions>
+	</question>
+	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_4/Set_2/Question_03">
+		<uri_prefix>http://example.com/terms</uri_prefix>
+		<uri_path>MaRDI/Section_4/Set_2/Question_03</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_2/Question_03"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en">Specify the name of the previously documented and relevant process step(s).</help>
+		<text lang="en">Provide the associated process step(s) of the method</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de">Geben Sie den Namen des(/r) zuvor dokumentierten und relevanten Prozessschritts(/e) an.</help>
+		<text lang="de">Geben Sie den(/die) zugehörigen Prozessschritt(e) der Methode an</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_4/Set_2/Question_04">
+		<uri_prefix>http://example.com/terms</uri_prefix>
+		<uri_path>MaRDI/Section_4/Set_2/Question_04</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_2/Question_04"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en"/>
+		<text lang="en">Provide the relevant parameter(s) of the method</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Geben Sie den(/die) relevanten Parameter der Methode an</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_4/Set_2/Question_05">
+		<uri_prefix>http://example.com/terms</uri_prefix>
+		<uri_path>MaRDI/Section_4/Set_2/Question_05</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_2/Question_05"/>
+		<is_collection>True</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en">Select previously defined software.</help>
+		<text lang="en">Provide the software(s) realizing or implementing the method</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de">Wählen Sie zuvor definierte Software.</help>
+		<text lang="de">Geben Sie die Software(s) an, die die Methode realisieren oder implementieren.</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>select</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="http://example.com/terms/options/software"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<page dc:uri="http://example.com/terms/questions/MaRDI/Section_4/Set_1">
+		<uri_prefix>http://example.com/terms</uri_prefix>
+		<uri_path>MaRDI/Section_4/Set_1</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_1"/>
+		<is_collection>True</is_collection>
+		<title lang="en">Process steps</title>
+		<help lang="en">Describe the process steps of your workflow below. Use a separate set for each process step.</help>
+		<verbose_name lang="en"/>
+		<title lang="de">Prozessschritte</title>
+		<help lang="de">Beschreiben Sie im folgenden die Prozessschritte ihres Workflows. Verwenden Sie für jeden Prozessschritt ein separates Set.</help>
+		<verbose_name lang="de"/>
+		<questionsets/>
+		<questions>
+			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_4/Set_1/Question_01" order="0"/>
+			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_4/Set_1/Question_02" order="1"/>
+			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_4/Set_1/Question_03" order="2"/>
+			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_4/Set_1/Question_04" order="3"/>
+			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_4/Set_1/Question_05" order="4"/>
+			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_4/Set_1/Question_06" order="5"/>
+			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_4/Set_1/Question_07" order="6"/>
+			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_4/Set_1/Question_08" order="7"/>
+		</questions>
+		<conditions/>
+	</page>
+	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_4/Set_1/Question_01">
+		<uri_prefix>http://example.com/terms</uri_prefix>
+		<uri_path>MaRDI/Section_4/Set_1/Question_01</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_1/Question_01"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en">Ideally referring to the workflow procedure described before.</help>
+		<text lang="en">Provide a name for the process step</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de">Idealerweise bezugnehmend auf die zuvor beschriebene Workflow Prozedur.</help>
+		<text lang="de">Geben Sie den Name des Prozessschrits an</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_4/Set_1/Question_02">
+		<uri_prefix>http://example.com/terms</uri_prefix>
+		<uri_path>MaRDI/Section_4/Set_1/Question_02</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_1/Question_02"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en">Short description of what happens in the process step.</help>
+		<text lang="en">Provide a description for the process step</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de">Kurze Beschreibung davon was in dem Prozessschritt passiert.</help>
+		<text lang="de">Geben Sie eine Beschreibung des Prozessschritts an</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_4/Set_1/Question_03">
+		<uri_prefix>http://example.com/terms</uri_prefix>
+		<uri_path>MaRDI/Section_4/Set_1/Question_03</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_1/Question_03"/>
+		<is_collection>True</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en">Choose previously defined Inputs.</help>
+		<text lang="en">State the inputs of the process step</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de">Wählen Sie zuvor definierte Eingabdaten.</help>
+		<text lang="de">Nennen Sie die Inputs des Prozessschritts</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>select</widget_type>
+		<value_type>option</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="http://example.com/terms/options/input"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_4/Set_1/Question_04">
+		<uri_prefix>http://example.com/terms</uri_prefix>
+		<uri_path>MaRDI/Section_4/Set_1/Question_04</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_1/Question_04"/>
+		<is_collection>True</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en">Choose previously defined Outputs.</help>
+		<text lang="en">State the output of the process step</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de">Wählen Sie zuvor definierte Ausgabedaten.</help>
+		<text lang="de">Nennen Sie den Output des Prozessschritts</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>select</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="http://example.com/terms/options/output"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_4/Set_1/Question_05">
+		<uri_prefix>http://example.com/terms</uri_prefix>
+		<uri_path>MaRDI/Section_4/Set_1/Question_05</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_1/Question_05"/>
+		<is_collection>True</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en">Choose previously defined Methods.</help>
+		<text lang="en">State the methods used in this process step</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de">Wählen Sie zuvor definierte Methoden.</help>
+		<text lang="de">Nennen Sie die Methoden, die in diesem Prozessschritt verwendet werden</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>select</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="http://example.com/terms/options/method"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_4/Set_1/Question_06">
+		<uri_prefix>http://example.com/terms</uri_prefix>
+		<uri_path>MaRDI/Section_4/Set_1/Question_06</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_1/Question_06"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en"/>
+		<text lang="en">State the parameter relevant for this process step</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Nennen Sie die Parameter, die für diesen Prozessschritt relevant sind</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_4/Set_1/Question_07">
+		<uri_prefix>http://example.com/terms</uri_prefix>
+		<uri_path>MaRDI/Section_4/Set_1/Question_07</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_1/Question_07"/>
+		<is_collection>True</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en">Choose previously defined Software and/or Experimental Devices.</help>
+		<text lang="en">State the environment of the process step</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de">Wählen Sie zuvor definierte Software und/oder experimentelle Geräte.</help>
+		<text lang="de">Nennen Sie die Umgebung des Prozessschritts</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>select</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="http://example.com/terms/options/environment"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_4/Set_1/Question_08">
+		<uri_prefix>http://example.com/terms</uri_prefix>
+		<uri_path>MaRDI/Section_4/Set_1/Question_08</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_1/Question_08"/>
+		<is_collection>True</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en">Choose previously defined mathematical areas.</help>
+		<text lang="en">State the mathematical area of the process step</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de">Wählen Sie zuvor definierte mathematische Teilgebiete.</help>
+		<text lang="de">Nennen Sie das mathematischen Teilgebiet des Prozessschritts</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>select</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="http://example.com/terms/options/matharea"/>
 		</optionsets>
 		<conditions/>
 	</question>
