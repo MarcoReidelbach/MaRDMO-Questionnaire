@@ -1457,11 +1457,11 @@ Lassen Sie sich eine Vorschau Ihrer Dokumentation anzeigen, um sie auf Fehler zu
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_3/Question_07"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">If yes, provide a link to the version history.</help>
+		<help lang="en">If yes, provide the full link to the version history.</help>
 		<text lang="en">Is the software versioned?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">Falls ja geben Sie einen Link zur Versionsübersicht an.</help>
+		<help lang="de">Falls ja geben Sie den kompletten Link zur Versionsübersicht an.</help>
 		<text lang="de">Ist die Software versioniert?</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -1486,11 +1486,11 @@ Lassen Sie sich eine Vorschau Ihrer Dokumentation anzeigen, um sie auf Fehler zu
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_3/Question_08"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">If yes, provide a link where the software can be obtained.</help>
+		<help lang="en">If yes, provide the full link where the software can be obtained.</help>
 		<text lang="en">Is the software published?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">Falls ja geben Sie einen Link an über den die Software bezogen werden kann.</help>
+		<help lang="de">Falls ja geben Sie den kompletten Link an über den die Software bezogen werden kann.</help>
 		<text lang="de">Ist die Software veröffentlicht?</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -1515,11 +1515,11 @@ Lassen Sie sich eine Vorschau Ihrer Dokumentation anzeigen, um sie auf Fehler zu
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_3/Question_09"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">If yes, provide a link to the documentation.</help>
+		<help lang="en">If yes, provide the full link to the documentation.</help>
 		<text lang="en">Is the software documented?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">Falls ja geben Sie einen Link zur Dokumentation an.</help>
+		<help lang="de">Falls ja geben Sie den kompletten Link zur Dokumentation an.</help>
 		<text lang="de">Ist die Software dokumentiert?</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
