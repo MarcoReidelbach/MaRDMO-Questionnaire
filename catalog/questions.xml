@@ -663,11 +663,11 @@ Lassen Sie sich eine Vorschau Ihrer Dokumentation anzeigen, um sie auf Fehler zu
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_2/Set_3/Question_02"/>
 		<is_collection>True</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">Data streams between individual disciplines, e.g. time-resolved Raman spectrum from chemistry to mathematics.</help>
+		<help lang="en">Data streams between individual disciplines, e.g. measured time-resolved Raman spectrum from chemistry to mathematics.</help>
 		<text lang="en">Indicate the data streams of the workflow</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">Datenströme zwischen einzelnen Disziplinen, z. B. zeitaufgelöstes Raman-Spektrum von der Chemie zur Mathematik.</help>
+		<help lang="de">Datenströme zwischen einzelnen Disziplinen, z. B. gemessenes, zeitaufgelöstes Raman-Spektrum von der Chemie zur Mathematik.</help>
 		<text lang="de">Geben Sie die Datenströme des Workflows an</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
