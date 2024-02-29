@@ -1251,10 +1251,10 @@ Lassen Sie sich eine Vorschau Ihrer Dokumentation anzeigen, um sie auf Fehler zu
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3/Set_2"/>
 		<is_collection>True</is_collection>
 		<title lang="en">Variables</title>
-		<help lang="en">Describe the variables of your workflow below. Use a separate set for each variable.</help>
+		<help lang="en">Describe the variables of your workflow below. Use a separate entry for each variable.</help>
 		<verbose_name lang="en"/>
 		<title lang="de">Variablen (Experimentell)</title>
-		<help lang="de">Beschreiben Sie im folgenden die Variablen ihres Workflows. Verwenden Sie für jede Variable ein separates Set.</help>
+		<help lang="de">Beschreiben Sie im folgenden die Variablen ihres Workflows. Verwenden Sie für jede Variable einen separaten Eintrag.</help>
 		<verbose_name lang="de"/>
 		<questionsets/>
 		<questions>
@@ -1382,10 +1382,10 @@ Lassen Sie sich eine Vorschau Ihrer Dokumentation anzeigen, um sie auf Fehler zu
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3/Set_3"/>
 		<is_collection>True</is_collection>
 		<title lang="en">Parameters</title>
-		<help lang="en">Describe the parameters of your workflow below. Use a separate set for each parameter.</help>
+		<help lang="en">Describe the parameters of your workflow below. Use a separate entry for each parameter.</help>
 		<verbose_name lang="en"/>
 		<title lang="de">Parameter</title>
-		<help lang="de">Beschreiben Sie im folgenden die Parameter ihres Workflows. Verwenden Sie für jeden Parameter ein separates Set.</help>
+		<help lang="de">Beschreiben Sie im folgenden die Parameter ihres Workflows. Verwenden Sie für jeden Parameter einen separaten Eintrag.</help>
 		<verbose_name lang="de"/>
 		<questionsets/>
 		<questions>
@@ -1499,10 +1499,10 @@ Lassen Sie sich eine Vorschau Ihrer Dokumentation anzeigen, um sie auf Fehler zu
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_3"/>
 		<is_collection>True</is_collection>
 		<title lang="en">Software</title>
-		<help lang="en">Describe the software applied in your workflow below. Use a separate set for each software.</help>
+		<help lang="en">Describe the software applied in your workflow below. Use a separate entry for each software.</help>
 		<verbose_name lang="en"/>
 		<title lang="de">Software</title>
-		<help lang="de">Beschreiben Sie im folgenden die verwendeten Software ihres Workflows. Verwenden Sie für jede Software ein separates Set.</help>
+		<help lang="de">Beschreiben Sie im folgenden die verwendeten Software ihres Workflows. Verwenden Sie für jede Software einien separaten Eintrag.</help>
 		<verbose_name lang="de"/>
 		<questionsets/>
 		<questions>
@@ -1816,10 +1816,10 @@ Lassen Sie sich eine Vorschau Ihrer Dokumentation anzeigen, um sie auf Fehler zu
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_4"/>
 		<is_collection>True</is_collection>
 		<title lang="en">Hardware (Theoretical)</title>
-		<help lang="en">Describe the hardware of your workflow below. Use a separate set for each entity.</help>
+		<help lang="en">Describe the hardware of your workflow below. Use a separate entry for each hardware.</help>
 		<verbose_name lang="en"/>
 		<title lang="de">Hardware (Theoretisch)</title>
-		<help lang="de">Beschreiben Sie im folgenden die Hardware ihres Workflows. Verwenden Sie für jede ein separates Set.</help>
+		<help lang="de">Beschreiben Sie im folgenden die Hardware ihres Workflows. Verwenden Sie für jede Hardware einen separaten Eintrag.</help>
 		<verbose_name lang="de"/>
 		<questionsets/>
 		<questions>
@@ -2003,10 +2003,10 @@ Lassen Sie sich eine Vorschau Ihrer Dokumentation anzeigen, um sie auf Fehler zu
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_5"/>
 		<is_collection>True</is_collection>
 		<title lang="en">Devices (Experimental)</title>
-		<help lang="en">Describe the experimental devices and hardware of your workflow below. Use a separate set for each entity.</help>
+		<help lang="en">Describe the experimental devices and hardware of your workflow below. Use a separate entry for each experimental device and hardware.</help>
 		<verbose_name lang="en"/>
 		<title lang="de">Geräte (Experimentell)</title>
-		<help lang="de">Beschreiben Sie im folgenden die experimentellen Geräte und Hardware ihres Workflows. Verwenden Sie für jedes ein separates Set.</help>
+		<help lang="de">Beschreiben Sie im folgenden die experimentellen Geräte und Hardware ihres Workflows. Verwenden Sie für jedes experimentelle Gerät und Hardware einen separates Eintrag.</help>
 		<verbose_name lang="de"/>
 		<questionsets/>
 		<questions>
@@ -2246,10 +2246,10 @@ Lassen Sie sich eine Vorschau Ihrer Dokumentation anzeigen, um sie auf Fehler zu
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_6"/>
 		<is_collection>True</is_collection>
 		<title lang="en">Input data</title>
-		<help lang="en">Describe the input data of your workflow below. Use a separate set for each entity.</help>
+		<help lang="en">Describe the input data of your workflow below. Use a separate entry for each input data.</help>
 		<verbose_name lang="en"/>
 		<title lang="de">Eingabedaten</title>
-		<help lang="de">Beschreiben Sie im folgenden die Eingabedaten ihres Workflows. Verwenden Sie für jede ein separates Set.</help>
+		<help lang="de">Beschreiben Sie im folgenden die Eingabedaten ihres Workflows. Verwenden Sie für jedes Eingabedatum einen separaten Eintrag.</help>
 		<verbose_name lang="de"/>
 		<questionsets/>
 		<questions>
@@ -2587,10 +2587,10 @@ Lassen Sie sich eine Vorschau Ihrer Dokumentation anzeigen, um sie auf Fehler zu
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_7"/>
 		<is_collection>True</is_collection>
 		<title lang="en">Output data</title>
-		<help lang="en">Describe the output data of your workflow below. Use a separate set for each entity.</help>
+		<help lang="en">Describe the output data of your workflow below. Use a separate entry for each output data.</help>
 		<verbose_name lang="en"/>
 		<title lang="de">Ausgabedaten</title>
-		<help lang="de">Beschreiben Sie im folgenden die Ausgabedaten ihres Workflows. Verwenden Sie für jede ein separates Set.</help>
+		<help lang="de">Beschreiben Sie im folgenden die Ausgabedaten ihres Workflows. Verwenden Sie für jedes Ausgabedatum einen separaten Eintrag.</help>
 		<verbose_name lang="de"/>
 		<questionsets/>
 		<questions>
@@ -2928,10 +2928,10 @@ Lassen Sie sich eine Vorschau Ihrer Dokumentation anzeigen, um sie auf Fehler zu
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_2"/>
 		<is_collection>True</is_collection>
 		<title lang="en">Methods</title>
-		<help lang="en">Describe the methods applied in your workflow below. Use a separate set for each method.</help>
+		<help lang="en">Describe the methods applied in your workflow below. Use a separate entry for each method.</help>
 		<verbose_name lang="en"/>
 		<title lang="de">Methoden des Workflows.</title>
-		<help lang="de">Beschreiben Sie im folgenden die verwendeten Methode ihres Workflows. Verwenden Sie für jede Methode ein separates Set.</help>
+		<help lang="de">Beschreiben Sie im folgenden die verwendeten Methode ihres Workflows. Verwenden Sie für jede Methode einen separaten Eintrag.</help>
 		<verbose_name lang="de"/>
 		<questionsets/>
 		<questions>
@@ -3203,10 +3203,10 @@ Lassen Sie sich eine Vorschau Ihrer Dokumentation anzeigen, um sie auf Fehler zu
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_1"/>
 		<is_collection>True</is_collection>
 		<title lang="en">Process steps</title>
-		<help lang="en">Describe the process steps of your workflow below. Use a separate set for each process step.</help>
+		<help lang="en">Describe the process steps of your workflow below. Use a separate entry for each process step.</help>
 		<verbose_name lang="en"/>
 		<title lang="de">Prozessschritte</title>
-		<help lang="de">Beschreiben Sie im folgenden die Prozessschritte ihres Workflows. Verwenden Sie für jeden Prozessschritt ein separates Set.</help>
+		<help lang="de">Beschreiben Sie im folgenden die Prozessschritte ihres Workflows. Verwenden Sie für jeden Prozessschritt einen separaten Eintrag.</help>
 		<verbose_name lang="de"/>
 		<questionsets/>
 		<questions>
