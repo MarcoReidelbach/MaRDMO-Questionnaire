@@ -458,12 +458,12 @@ Lassen Sie sich eine Vorschau Ihrer Dokumentation anzeigen, um sie auf Fehler zu
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_2/Set_1/Question_03"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">If neither is selected, the MaRDI Export/Query will result in an error.</help>
-		<text lang="en">Is the workflow experimental or theoretical?</text>
+		<help lang="en">If not selected, the MaRDI Export/Query will result in an error.</help>
+		<text lang="en">Which kind of workflow will you document?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">Falls keines von beiden ausgewählt wird, führt der MaRDI Export/Query zu einem Fehler.</help>
-		<text lang="de">Ist der Workflow experimentell oder theoretisch?</text>
+		<help lang="de">Falls nicht ausgewählt, führt der MaRDI Export/Query zu einem Fehler.</help>
+		<text lang="de">Welche Art von Workflow werden Sie dokumentieren?</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>

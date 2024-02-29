@@ -330,10 +330,10 @@ Model, Methoden, Software und Eingabe-/Ausgabedaten
 		<uri_prefix>http://example.com/terms</uri_prefix>
 		<uri_path>workflow_type/type_0</uri_path>
 		<dc:comment/>
-		<text lang="en">Experimental Workflow</text>
+		<text lang="en">Measurement Data Analysis Workflow</text>
 		<help lang="en"/>
 		<view_text lang="en"/>
-		<text lang="de">Experimenteller Workflow</text>
+		<text lang="de">Messdatenanalyse Workflow</text>
 		<help lang="de"/>
 		<view_text lang="de"/>
 		<additional_input/>
@@ -342,10 +342,10 @@ Model, Methoden, Software und Eingabe-/Ausgabedaten
 		<uri_prefix>http://example.com/terms</uri_prefix>
 		<uri_path>workflow_type/type_1</uri_path>
 		<dc:comment/>
-		<text lang="en">Theoretical Workflow</text>
+		<text lang="en">Computational Workflow</text>
 		<help lang="en"/>
 		<view_text lang="en"/>
-		<text lang="de">Mathematischer Workflow</text>
+		<text lang="de">Komputationaler Workflow</text>
 		<help lang="de"/>
 		<view_text lang="de"/>
 		<additional_input/>
