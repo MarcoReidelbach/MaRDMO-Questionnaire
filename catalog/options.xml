@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2024-01-03T15:45:18.428444+01:00" version="2.1.1">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2024-02-29T11:58:10.048747+01:00" version="2.1.2">
 	<optionset dc:uri="http://example.com/terms/options/component_search">
 		<uri_prefix>http://example.com/terms</uri_prefix>
 		<uri_path>component_search</uri_path>
@@ -345,7 +345,7 @@ Model, Methoden, Software und Eingabe-/Ausgabedaten
 		<text lang="en">Theoretical Workflow</text>
 		<help lang="en"/>
 		<view_text lang="en"/>
-		<text lang="de">Theoretischer Workflow</text>
+		<text lang="de">Mathematischer Workflow</text>
 		<help lang="de"/>
 		<view_text lang="de"/>
 		<additional_input/>
