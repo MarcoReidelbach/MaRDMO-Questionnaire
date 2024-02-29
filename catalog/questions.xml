@@ -59,7 +59,7 @@ MaRDMO ermöglicht die Dokumentation von interdisziplinären Workflows mittels v
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en">If neither is selected, MaRDI Export/Query will result in an error.</help>
-		<text lang="en">Document or serach a workflow?</text>
+		<text lang="en">Document or search a workflow?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de">Falls keines von beiden ausgewählt wird, führt MaRDI Export/Query zu einem Fehler.</help>
@@ -332,7 +332,7 @@ MaRDMO ermöglicht die Dokumentation von interdisziplinären Workflows mittels v
 		<help lang="en">
 Export your documentation locally as markdown file (depreciated) or publish it on the MaRDI portal. To integrate the workflow in the Knowledge Graph additional may have to be answered. The RDMO project name will be used as title of the wikipage and label for the workflow entity.
 </help>
-		<text lang="en">Local Documentation or MaDRI portal export?</text>
+		<text lang="en">Local Documentation or MaRDI portal export?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de">
@@ -459,7 +459,7 @@ Lassen Sie sich eine Vorschau Ihrer Dokumentation anzeigen, um sie auf Fehler zu
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en">If neither is selected, the MaRDI Export/Query will result in an error.</help>
-		<text lang="en">Is the workflows experimental or theoretical?</text>
+		<text lang="en">Is the workflow experimental or theoretical?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de">Falls keines von beiden ausgewählt wird, führt der MaRDI Export/Query zu einem Fehler.</help>
@@ -2501,7 +2501,7 @@ Lassen Sie sich eine Vorschau Ihrer Dokumentation anzeigen, um sie auf Fehler zu
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en"/>
-		<text lang="en">Is the format of the input data set prorietary?</text>
+		<text lang="en">Is the format of the input data set proprietary?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de"/>
@@ -2842,7 +2842,7 @@ Lassen Sie sich eine Vorschau Ihrer Dokumentation anzeigen, um sie auf Fehler zu
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en"/>
-		<text lang="en">Is the format of the output data set prorietary?</text>
+		<text lang="en">Is the format of the output data set proprietary?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de"/>
