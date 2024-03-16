@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2024-03-15T22:47:52.091594+01:00" version="2.1.3">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2024-03-16T21:46:19.082814+01:00" version="2.1.3">
 	<catalog dc:uri="http://example.com/terms/questions/MaRDI">
 		<uri_prefix>http://example.com/terms</uri_prefix>
 		<uri_path>MaRDI</uri_path>
@@ -1147,11 +1147,11 @@ Lassen Sie sich eine Vorschau Ihrer Dokumentation anzeigen, um sie auf Fehler zu
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3/Set_0/Set_0/Question_03"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">wikidata:, dbpedia, doi:</help>
+		<help lang="en">wikidata:, dbpedia, doi:, url:</help>
 		<text lang="en">Provide an ID for the new Mathematical Model!</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">wikidata:, dbpedia, doi:</help>
+		<help lang="de">wikidata:, dbpedia, doi:, url:</help>
 		<text lang="de">Geben Sie eine ID für das neue mathematische Modell an!</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -3923,11 +3923,11 @@ Lassen Sie sich eine Vorschau Ihrer Dokumentation anzeigen, um sie auf Fehler zu
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_3/Question_00"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">IDs provided: 'doi:', 'sw:'</help>
+		<help lang="en">IDs provided: 'doi:', 'sw:', 'url:'</help>
 		<text lang="en">Provide an appropriate reference.</text>
 		<default_text lang="en">sw:</default_text>
 		<verbose_name lang="en"/>
-		<help lang="de">Mögliche IDs: 'doi:', 'swmath:'</help>
+		<help lang="de">Mögliche IDs: 'doi:', 'swmath:', 'url:'</help>
 		<text lang="de">Geben Sie eine geeignete Referenz an.</text>
 		<default_text lang="de">sw:</default_text>
 		<verbose_name lang="de"/>
@@ -4611,11 +4611,11 @@ Lassen Sie sich eine Vorschau Ihrer Dokumentation anzeigen, um sie auf Fehler zu
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_6/Question_10"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">IDs provided: 'doi:'</help>
+		<help lang="en">IDs provided: 'doi:', 'url'</help>
 		<text lang="en">Provide an appropriate reference.</text>
 		<default_text lang="en">doi:</default_text>
 		<verbose_name lang="en"/>
-		<help lang="de">Mögliche IDs: 'doi:'</help>
+		<help lang="de">Mögliche IDs: 'doi:', 'url'</help>
 		<text lang="de">Geben Sie eine geeignete Referenz an.</text>
 		<default_text lang="de">doi:</default_text>
 		<verbose_name lang="de"/>
@@ -4952,11 +4952,11 @@ Lassen Sie sich eine Vorschau Ihrer Dokumentation anzeigen, um sie auf Fehler zu
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_7/Question_10"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">IDs provided: 'doi:'</help>
+		<help lang="en">IDs provided: 'doi:', 'url'</help>
 		<text lang="en">Provide an appropriate reference.</text>
 		<default_text lang="en">doi:</default_text>
 		<verbose_name lang="en"/>
-		<help lang="de">Mögliche IDs: 'doi:'</help>
+		<help lang="de">Mögliche IDs: 'doi:', 'url'</help>
 		<text lang="de">Geben Sie eine geeignete Referenz an.</text>
 		<default_text lang="de">doi:</default_text>
 		<verbose_name lang="de"/>
@@ -5372,11 +5372,11 @@ Lassen Sie sich eine Vorschau Ihrer Dokumentation anzeigen, um sie auf Fehler zu
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_2/Question_00"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">IDs provided: 'doi:'</help>
+		<help lang="en">IDs provided: 'doi:', 'url:'</help>
 		<text lang="en">Provide an appropriate reference.</text>
 		<default_text lang="en">doi:</default_text>
 		<verbose_name lang="en"/>
-		<help lang="de">Mögliche IDs: 'doi:'</help>
+		<help lang="de">Mögliche IDs: 'doi:', 'url:'</help>
 		<text lang="de">Geben Sie eine geeignete Referenz an.</text>
 		<default_text lang="de">doi:</default_text>
 		<verbose_name lang="de"/>
