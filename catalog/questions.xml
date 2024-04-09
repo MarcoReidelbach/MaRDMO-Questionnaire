@@ -1204,6 +1204,7 @@ Lassen Sie sich eine Vorschau Ihrer Dokumentation anzeigen, um sie auf Fehler zu
 		<optionsets/>
 		<conditions/>
 	</question>
+	<!--                Process Information  begin                    -->	
 	<section dc:uri="http://example.com/terms/questions/MaRDI/Section_4">
 		<uri_prefix>http://example.com/terms</uri_prefix>
 		<uri_path>MaRDI/Section_4</uri_path>
@@ -1211,13 +1212,21 @@ Lassen Sie sich eine Vorschau Ihrer Dokumentation anzeigen, um sie auf Fehler zu
 		<title lang="en">Process Information</title>
 		<title lang="de">Prozess Informationen</title>
 		<pages>
+			<!-- Software -->
 			<page dc:uri="http://example.com/terms/questions/MaRDI/Section_4/Set_3" order="0"/>
+			<!-- Hardware -->
 			<page dc:uri="http://example.com/terms/questions/MaRDI/Section_4/Set_4" order="1"/>
+			<!-- Devices (Experimental) -->
 			<page dc:uri="http://example.com/terms/questions/MaRDI/Section_4/Set_5" order="2"/>
+			<!-- Input data - Data -->
 			<page dc:uri="http://example.com/terms/questions/MaRDI/Section_4/Set_6" order="3"/>
-			<page dc:uri="http://example.com/terms/questions/MaRDI/Section_4/Set_7" order="4"/>
-			<page dc:uri="http://example.com/terms/questions/MaRDI/Section_4/Set_2" order="5"/>
-			<page dc:uri="http://example.com/terms/questions/MaRDI/Section_4/Set_1" order="6"/>
+			<!-- Output data -->
+			<!-- 
+			<page dc:uri="http://example.com/terms/questions/MaRDI/Section_4/Set_7" order="4"/> 
+			-->
+			<!-- Methods -->
+			<page dc:uri="http://example.com/terms/questions/MaRDI/Section_4/Set_2" order="4"/>
+			<page dc:uri="http://example.com/terms/questions/MaRDI/Section_4/Set_1" order="5"/>
 		</pages>
 	</section>
 	<page dc:uri="http://example.com/terms/questions/MaRDI/Section_4/Set_3">
@@ -1973,11 +1982,11 @@ Lassen Sie sich eine Vorschau Ihrer Dokumentation anzeigen, um sie auf Fehler zu
 		<dc:comment/>
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_6"/>
 		<is_collection>True</is_collection>
-		<title lang="en">Input data</title>
-		<help lang="en">Describe the input data of your workflow below. Use a separate set for each entity.</help>
+		<title lang="en">Data</title>
+		<help lang="en">Describe the data of your workflow below. Use a separate set for each entity.</help>
 		<verbose_name lang="en"/>
-		<title lang="de">Eingabedaten</title>
-		<help lang="de">Beschreiben Sie im folgenden die Eingabedaten ihres Workflows. Verwenden Sie für jede ein separates Set.</help>
+		<title lang="de">Daten</title>
+		<help lang="de">Beschreiben Sie im folgenden die Daten ihres Workflows. Verwenden Sie für jede ein separates Set.</help>
 		<verbose_name lang="de"/>
 		<questionsets/>
 		<questions>
@@ -2002,12 +2011,12 @@ Lassen Sie sich eine Vorschau Ihrer Dokumentation anzeigen, um sie auf Fehler zu
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_6/Question_00"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">For all input data sets the mardi/wikidata:QID, label and description are provided. For input data sets that are included in mardi/wikidata, provide the connection to the workflow in the further questions. Input data sets that are not included in mardi/wikidata must be described additionally.</help>
-		<text lang="en">Select an appropriate input data set from Wikidata or MaRDI KG!</text>
+		<help lang="en">For all data sets the mardi/wikidata:QID, label and description are provided. For data sets that are included in mardi/wikidata, provide the connection to the workflow in the further questions. Data sets that are not included in mardi/wikidata must be described additionally.</help>
+		<text lang="en">Select an appropriate data set from Wikidata or MaRDI KG!</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">Für alle Eingabedatensätze wird die mardi/wikidata:QID, das Label und die Beschreibung angezeigt. Für Eingabedatensätze, die in mardi/wikidata enthalten sind, stellen Sie in den weiteren Fragen den Zusammenhang zum Workflow dar. Eingabedatensätze, die nicht in mardi/wikidata enthalten sind, müssen zusätzlich beschrieben werden.</help>
-		<text lang="de">Wählen Sie einen geeigneten Eingabedatensatz aus Wikidata oder dem MaRDI KG aus!</text>
+		<help lang="de">Für alle Datensätze wird die mardi/wikidata:QID, das Label und die Beschreibung angezeigt. Für Datensätze, die in mardi/wikidata enthalten sind, stellen Sie in den weiteren Fragen den Zusammenhang zum Workflow dar. Datensätze, die nicht in mardi/wikidata enthalten sind, müssen zusätzlich beschrieben werden.</help>
+		<text lang="de">Wählen Sie einen geeigneten Datensatz aus Wikidata oder dem MaRDI KG aus!</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
@@ -2032,11 +2041,11 @@ Lassen Sie sich eine Vorschau Ihrer Dokumentation anzeigen, um sie auf Fehler zu
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en"/>
-		<text lang="en">Provide a name for the input data set.</text>
+		<text lang="en">Provide a name for the data set.</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de"/>
-		<text lang="de">Geben Sie einen Namen für den Eingabedatensatz an.</text>
+		<text lang="de">Geben Sie einen Namen für den Datensatz an.</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
@@ -2090,11 +2099,11 @@ Lassen Sie sich eine Vorschau Ihrer Dokumentation anzeigen, um sie auf Fehler zu
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en"/>
-		<text lang="en">Provide the size of the input data set.</text>
+		<text lang="en">Provide the size of the data set.</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de"/>
-		<text lang="de">Geben Sie die Größe des Eingabedatensatzes an.</text>
+		<text lang="de">Geben Sie die Größe des Datensatzes an.</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
@@ -2119,11 +2128,11 @@ Lassen Sie sich eine Vorschau Ihrer Dokumentation anzeigen, um sie auf Fehler zu
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en">e.g. numpy array, pandas dataframe, ...</help>
-		<text lang="en">Provide the data structure of the input data set.</text>
+		<text lang="en">Provide the data structure of the data set.</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de">z.B. Numpy Array, Pandas Dataframe, ...</help>
-		<text lang="de">Geben Sie die Datenstruktur des Eingabedatensatzes an.</text>
+		<text lang="de">Geben Sie die Datenstruktur des Datensatzes an.</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
@@ -2146,11 +2155,11 @@ Lassen Sie sich eine Vorschau Ihrer Dokumentation anzeigen, um sie auf Fehler zu
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en">e.g. comma separated sparse matrix, ...</help>
-		<text lang="en">Provide the representation format of the input data set.</text>
+		<text lang="en">Provide the representation format of the data set.</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de">z.B. komma-separierte dünnbesetzte Matrix, ...</help>
-		<text lang="de">Geben Sie das Representationsformat des Eingabedatensatzes an.</text>
+		<text lang="de">Geben Sie das Representationsformat des Datensatzes an.</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
@@ -2173,11 +2182,11 @@ Lassen Sie sich eine Vorschau Ihrer Dokumentation anzeigen, um sie auf Fehler zu
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en">e.g. .txt, .png, .csv, ...</help>
-		<text lang="en">Provide the exchange format of the input data set.</text>
+		<text lang="en">Provide the exchange format of the data set.</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de">z.B. .txt, .png, .csv, ...</help>
-		<text lang="de">Geben Sie das Austauschformat des Eingabedatensatzes an.</text>
+		<text lang="de">Geben Sie das Austauschformat des Datensatzes an.</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
@@ -2200,11 +2209,11 @@ Lassen Sie sich eine Vorschau Ihrer Dokumentation anzeigen, um sie auf Fehler zu
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en"/>
-		<text lang="en">Is the input data set binary or text?</text>
+		<text lang="en">Is the data set binary or text?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de"/>
-		<text lang="de">Ist der Eingabedatensatz binär oder text?</text>
+		<text lang="de">Ist der Datensatz binär oder text?</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
@@ -2229,11 +2238,11 @@ Lassen Sie sich eine Vorschau Ihrer Dokumentation anzeigen, um sie auf Fehler zu
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en"/>
-		<text lang="en">Is the format of the input data set prorietary?</text>
+		<text lang="en">Is the format of the data set prorietary?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de"/>
-		<text lang="de">Ist das Format des Eingabedatensatzes proprietär?</text>
+		<text lang="de">Ist das Format des Datensatzes proprietär?</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
@@ -2258,11 +2267,11 @@ Lassen Sie sich eine Vorschau Ihrer Dokumentation anzeigen, um sie auf Fehler zu
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en">If yes, data should be available via the identifier specified before.</help>
-		<text lang="en">Is a publication of the input data set necessary?</text>
+		<text lang="en">Is a publication of the data set necessary?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de">Falls ja, sollten die Daten über den zuvor angegeben Identifier abrufbar sein.</help>
-		<text lang="de">Ist eine Veröffentlichung des Eingabedatensatzes notwendig?</text>
+		<text lang="de">Ist eine Veröffentlichung des Datensatzes notwendig?</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
@@ -2287,11 +2296,11 @@ Lassen Sie sich eine Vorschau Ihrer Dokumentation anzeigen, um sie auf Fehler zu
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en">If yes how long?</help>
-		<text lang="en">Is an archiving of the input data set necessary?</text>
+		<text lang="en">Is an archiving of the data set necessary?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de">Falls ja wie lang?</help>
-		<text lang="de">Ist eine Archivierung des Eingabedatensatzes notwendig?</text>
+		<text lang="de">Ist eine Archivierung des Datensatzes notwendig?</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
@@ -2308,6 +2317,7 @@ Lassen Sie sich eine Vorschau Ihrer Dokumentation anzeigen, um sie auf Fehler zu
 		</optionsets>
 		<conditions/>
 	</question>
+	<!--
 	<page dc:uri="http://example.com/terms/questions/MaRDI/Section_4/Set_7">
 		<uri_prefix>http://example.com/terms</uri_prefix>
 		<uri_path>MaRDI/Section_4/Set_7</uri_path>
@@ -2649,6 +2659,7 @@ Lassen Sie sich eine Vorschau Ihrer Dokumentation anzeigen, um sie auf Fehler zu
 		</optionsets>
 		<conditions/>
 	</question>
+	-->
 	<page dc:uri="http://example.com/terms/questions/MaRDI/Section_4/Set_2">
 		<uri_prefix>http://example.com/terms</uri_prefix>
 		<uri_path>MaRDI/Section_4/Set_2</uri_path>
@@ -3185,6 +3196,7 @@ Lassen Sie sich eine Vorschau Ihrer Dokumentation anzeigen, um sie auf Fehler zu
 		</optionsets>
 		<conditions/>
 	</question>
+	<!--                    Process Information   end                 -->	
 	<section dc:uri="http://example.com/terms/questions/MaRDI/Section_5">
 		<uri_prefix>http://example.com/terms</uri_prefix>
 		<uri_path>MaRDI/Section_5</uri_path>

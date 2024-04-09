@@ -770,6 +770,8 @@
 		<dc:comment/>
 		<parent dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_6"/>
 	</attribute>
+	<!-- output data-->
+	<!-- 
 	<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_7">
 		<uri_prefix>http://example.com/terms</uri_prefix>
 		<key>Set_7</key>
@@ -854,6 +856,7 @@
 		<dc:comment/>
 		<parent dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_7"/>
 	</attribute>
+	-->
 	<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_5">
 		<uri_prefix>http://example.com/terms</uri_prefix>
 		<key>Section_5</key>

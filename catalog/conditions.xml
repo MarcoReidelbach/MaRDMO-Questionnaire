@@ -45,6 +45,7 @@
 		<target_text/>
 		<target_option dc:uri="http://example.com/terms/options/operation_modus/modus_1"/>
 	</condition>
+	<!--
 	<condition dc:uri="http://example.com/terms/conditions/outputdata_present">
 		<uri_prefix>http://example.com/terms</uri_prefix>
 		<uri_path>outputdata_present</uri_path>
@@ -54,6 +55,7 @@
 		<target_text/>
 		<target_option/>
 	</condition>
+	-->
 	<condition dc:uri="http://example.com/terms/conditions/parameter_needed">
 		<uri_prefix>http://example.com/terms</uri_prefix>
 		<uri_path>parameter_needed</uri_path>
