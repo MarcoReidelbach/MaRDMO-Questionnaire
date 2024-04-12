@@ -1,5 +1,113 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2024-01-03T15:45:12.758828+01:00" version="2.1.1">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2024-03-15T22:47:31.358555+01:00" version="2.1.3">
+	<condition dc:uri="http://example.com/terms/conditions/MathematicalFormulation_property">
+		<uri_prefix>http://example.com/terms</uri_prefix>
+		<uri_path>MathematicalFormulation_property</uri_path>
+		<dc:comment/>
+		<source dc:uri="http://example.com/terms/domain/MaRDI/Section_3/Set_0/Wiki_01_hidden_6"/>
+		<relation>eq</relation>
+		<target_text>1</target_text>
+		<target_option/>
+	</condition>
+	<condition dc:uri="http://example.com/terms/conditions/MathematicalFormulation_property2">
+		<uri_prefix>http://example.com/terms</uri_prefix>
+		<uri_path>MathematicalFormulation_property2</uri_path>
+		<dc:comment/>
+		<source dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_5/Question_0"/>
+		<relation>eq</relation>
+		<target_text>not in MathModDB</target_text>
+		<target_option/>
+	</condition>
+	<condition dc:uri="http://example.com/terms/conditions/MathematicalModel_property">
+		<uri_prefix>http://example.com/terms</uri_prefix>
+		<uri_path>MathematicalModel_property</uri_path>
+		<dc:comment/>
+		<source dc:uri="http://example.com/terms/domain/MaRDI/Section_3/Set_0/Wiki_01_hidden_3"/>
+		<relation>eq</relation>
+		<target_text>1</target_text>
+		<target_option/>
+	</condition>
+	<condition dc:uri="http://example.com/terms/conditions/MathematicalModel_property2">
+		<uri_prefix>http://example.com/terms</uri_prefix>
+		<uri_path>MathematicalModel_property2</uri_path>
+		<dc:comment/>
+		<source dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_2/Question_0"/>
+		<relation>eq</relation>
+		<target_text>not in MathModDB</target_text>
+		<target_option/>
+	</condition>
+	<condition dc:uri="http://example.com/terms/conditions/MathematicalTask_property">
+		<uri_prefix>http://example.com/terms</uri_prefix>
+		<uri_path>MathematicalTask_property</uri_path>
+		<dc:comment/>
+		<source dc:uri="http://example.com/terms/domain/MaRDI/Section_3/Set_0/Wiki_01_hidden_7"/>
+		<relation>eq</relation>
+		<target_text>1</target_text>
+		<target_option/>
+	</condition>
+	<condition dc:uri="http://example.com/terms/conditions/MathematicalTask_property2">
+		<uri_prefix>http://example.com/terms</uri_prefix>
+		<uri_path>MathematicalTask_property2</uri_path>
+		<dc:comment/>
+		<source dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_6/Question_0"/>
+		<relation>eq</relation>
+		<target_text>not in MathModDB</target_text>
+		<target_option/>
+	</condition>
+	<condition dc:uri="http://example.com/terms/conditions/Publication_property">
+		<uri_prefix>http://example.com/terms</uri_prefix>
+		<uri_path>Publication_property</uri_path>
+		<dc:comment/>
+		<source dc:uri="http://example.com/terms/domain/MaRDI/Section_3/Set_0/Wiki_01_hidden_8"/>
+		<relation>eq</relation>
+		<target_text>1</target_text>
+		<target_option/>
+	</condition>
+	<condition dc:uri="http://example.com/terms/conditions/QuantityKind_property">
+		<uri_prefix>http://example.com/terms</uri_prefix>
+		<uri_path>QuantityKind_property</uri_path>
+		<dc:comment/>
+		<source dc:uri="http://example.com/terms/domain/MaRDI/Section_3/Set_0/Wiki_01_hidden_5"/>
+		<relation>eq</relation>
+		<target_text>1</target_text>
+		<target_option/>
+	</condition>
+	<condition dc:uri="http://example.com/terms/conditions/Quantity_property">
+		<uri_prefix>http://example.com/terms</uri_prefix>
+		<uri_path>Quantity_property</uri_path>
+		<dc:comment/>
+		<source dc:uri="http://example.com/terms/domain/MaRDI/Section_3/Set_0/Wiki_01_hidden_4"/>
+		<relation>eq</relation>
+		<target_text>1</target_text>
+		<target_option/>
+	</condition>
+	<condition dc:uri="http://example.com/terms/conditions/ResearchField_property">
+		<uri_prefix>http://example.com/terms</uri_prefix>
+		<uri_path>ResearchField_property</uri_path>
+		<dc:comment/>
+		<source dc:uri="http://example.com/terms/domain/MaRDI/Section_3/Set_0/Wiki_01_hidden_1"/>
+		<relation>eq</relation>
+		<target_text>1</target_text>
+		<target_option/>
+	</condition>
+	<condition dc:uri="http://example.com/terms/conditions/ResearchProblem_property">
+		<uri_prefix>http://example.com/terms</uri_prefix>
+		<uri_path>ResearchProblem_property</uri_path>
+		<dc:comment/>
+		<source dc:uri="http://example.com/terms/domain/MaRDI/Section_3/Set_0/Wiki_01_hidden_2"/>
+		<relation>eq</relation>
+		<target_text>1</target_text>
+		<target_option/>
+	</condition>
+	<condition dc:uri="http://example.com/terms/conditions/creator_identification">
+		<uri_prefix>http://example.com/terms</uri_prefix>
+		<uri_path>creator_identification</uri_path>
+		<dc:comment/>
+		<source dc:uri="http://example.com/terms/domain/MaRDI/Section_0/Set_1/Question_01"/>
+		<relation>eq</relation>
+		<target_text/>
+		<target_option dc:uri="http://example.com/terms/options/operation_modus/modus_0"/>
+	</condition>
 	<condition dc:uri="http://example.com/terms/conditions/inputdata_present">
 		<uri_prefix>http://example.com/terms</uri_prefix>
 		<uri_path>inputdata_present</uri_path>
@@ -22,9 +130,9 @@
 		<uri_prefix>http://example.com/terms</uri_prefix>
 		<uri_path>model_present</uri_path>
 		<dc:comment/>
-		<source dc:uri="http://example.com/terms/domain/MaRDI/Section_3/Set_1/Wiki_01"/>
-		<relation>empty</relation>
-		<target_text/>
+		<source dc:uri="http://example.com/terms/domain/MaRDI/Section_3/Set_0/Wiki_01_hidden_0"/>
+		<relation>eq</relation>
+		<target_text>1</target_text>
 		<target_option/>
 	</condition>
 	<condition dc:uri="http://example.com/terms/conditions/modus_0">
@@ -73,6 +181,15 @@
 		<relation>eq</relation>
 		<target_text/>
 		<target_option dc:uri="http://example.com/terms/options/workflow_type/type_1"/>
+	</condition>
+	<condition dc:uri="http://example.com/terms/conditions/published">
+		<uri_prefix>http://example.com/terms</uri_prefix>
+		<uri_path>published</uri_path>
+		<dc:comment/>
+		<source dc:uri="http://example.com/terms/domain/MaRDI/Section_2/Set_1/Question_02"/>
+		<relation>eq</relation>
+		<target_text/>
+		<target_option dc:uri="https://rdmorganiser.github.io/terms/options/yes_with_text_no/yes"/>
 	</condition>
 	<condition dc:uri="http://example.com/terms/conditions/search_0">
 		<uri_prefix>http://example.com/terms</uri_prefix>
