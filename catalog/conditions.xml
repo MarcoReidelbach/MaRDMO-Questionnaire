@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2024-03-15T22:47:31.358555+01:00" version="2.1.3">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2024-04-24T09:57:08.387159+02:00" version="2.1.3">
 	<condition dc:uri="http://example.com/terms/conditions/MathematicalFormulation_property">
 		<uri_prefix>http://example.com/terms</uri_prefix>
 		<uri_path>MathematicalFormulation_property</uri_path>
@@ -108,9 +108,9 @@
 		<target_text/>
 		<target_option dc:uri="http://example.com/terms/options/operation_modus/modus_0"/>
 	</condition>
-	<condition dc:uri="http://example.com/terms/conditions/inputdata_present">
+	<condition dc:uri="http://example.com/terms/conditions/data_present">
 		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>inputdata_present</uri_path>
+		<uri_path>data_present</uri_path>
 		<dc:comment/>
 		<source dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_6/Question_00"/>
 		<relation>empty</relation>
@@ -153,17 +153,6 @@
 		<target_text/>
 		<target_option dc:uri="http://example.com/terms/options/operation_modus/modus_1"/>
 	</condition>
-	<!--
-	<condition dc:uri="http://example.com/terms/conditions/outputdata_present">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>outputdata_present</uri_path>
-		<dc:comment/>
-		<source dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_7/Question_00"/>
-		<relation>empty</relation>
-		<target_text/>
-		<target_option/>
-	</condition>
-	-->
 	<condition dc:uri="http://example.com/terms/conditions/parameter_needed">
 		<uri_prefix>http://example.com/terms</uri_prefix>
 		<uri_path>parameter_needed</uri_path>
