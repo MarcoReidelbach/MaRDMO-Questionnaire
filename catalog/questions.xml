@@ -302,11 +302,11 @@ MaRDMO ermöglicht die Dokumentation von interdisziplinären Workflows mittels v
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en"/>
-		<text lang="en">Would you like to specify mathematical models, methods, software, input or output data sets the workflow should be connected with?</text>
+		<text lang="en">Would you like to specify mathematical models, methods, software, or data sets the workflow should be connected with?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de"/>
-		<text lang="de">Wollen Sie mathematische Modelle, Methoden, Software, Eingabe- oder Ausgabedatensätze angebeben mit denen der Workflow verknüpft sein soll?</text>
+		<text lang="de">Wollen Sie mathematische Modelle, Methoden, Software oder Datensätze angebeben mit denen der Workflow verknüpft sein soll?</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option dc:uri="http://example.com/terms/options/yes_no/no"/>
