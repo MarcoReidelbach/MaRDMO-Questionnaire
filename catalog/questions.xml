@@ -38,7 +38,7 @@
 		<is_collection>False</is_collection>
 		<title lang="en">Operation Modus</title>
 		<help lang="en">
-MaRDMO enables the documentation of interdisciplinary workflows using predefined templates that are published as wiki pages on the MaRDI portal. Furthermore, essential workflow components (e.g., research objective, mathematical model, methods, software, ...) are integrated into the MaRDI knowledge graph to enable specific workflow queries. Ideally, MaRDMO thus increases the reproducibility of individual workflows and initiates a user-driven knowledge loop.
+MaRDMO enables the documentation of interdisciplinary workflows using predefined templates that are published as wiki pages on the MaRDI portal. A workflow is a description of the process for accomplishing a research objective, expressed among others in terms of data, methods and process steps. Furthermore, essential workflow components (e.g., research objective, mathematical model, methods, software, ...) are integrated into the MaRDI knowledge graph to enable specific workflow queries. Ideally, MaRDMO thus increases the reproducibility of individual workflows and initiates a user-driven knowledge loop.
 </help>
 		<verbose_name lang="en"/>
 		<title lang="de">Betriebsmodus</title>
