@@ -232,9 +232,10 @@ Devices ((Measurement) Data Analysis Workflow)<br>
 - State the location of the device<br>
 - State the available software of the device<br>
 
-Input data<br>
+Data Sets<br>
 - Select an appropriate input data set from Wikidata or MaRDI KG!<br>
 - Provide a name for the input data set.<br>
+- Provide a description for the input data set.<br> 
 - Provide an appropriate reference.<br>
 - Provide the size of the input data set.<br>
 - Provide the data structure of the input data set.<br>
@@ -245,19 +246,6 @@ Input data<br>
 - Is a publication of the input data set necessary?<br>
 - Is an archiving of the input data set necessary?<br>
 
-Output data<br>
-- Select an appropriate output data set from Wikidata or MaRDI KG!<br>
-- Provide a name for the output data set.<br>
-- Provide an appropriate reference.<br>
-- Provide the size of the output data set.<br>
-- Provide the data structure of the output data set.<br>
-- Provide the representation format of the output data set.<br>
-- Provide the exchange format of the output data set.<br>
-- Is the output data set binary or text?<br>
-- Is the format of the output data set proprietary?<br>
-- Is a publication of the output data set necessary?<br>
-- Is an archiving of the output data set necessary?<br>
-
 Methods<br>
 - Select an appropriate method from Wikidata or MaRDI KG!<br>
 - Provide a name for the method.<br>
@@ -265,7 +253,6 @@ Methods<br>
 - Provide the main subject of the method.<br>
 - Provide the defining formulas of the method.<br>
 - Provide an appropriate reference.<br>
-- Provide the associated process step(s) of the method<br>
 - Provide the relevant parameter(s) of the method<br>
 - Provide the software(s) realizing or implementing the method<br>
 
