@@ -966,7 +966,10 @@ Lassen Sie sich eine Vorschau Ihrer Dokumentation anzeigen, um sie auf Fehler zu
 		<unit/>
 		<width/>
 		<optionsets>
+		<!---
 			<optionset dc:uri="http://example.com/terms/options/wikidata_search"/>
+		-->
+		<optionset dc:uri="http://example.com/terms/options/matharea"/>
 		</optionsets>
 		<conditions/>
 	</question>
