@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2024-04-24T09:57:01.361893+02:00" version="2.1.3">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2024-05-06T13:01:52.307858+02:00" version="2.1.3">
 	<optionset dc:uri="http://example.com/terms/options/AllEntities">
 		<uri_prefix>http://example.com/terms</uri_prefix>
 		<uri_path>AllEntities</uri_path>
@@ -1530,6 +1530,14 @@
 		<uri_path>method</uri_path>
 		<dc:comment/>
 		<provider_key>MethodProvider</provider_key>
+		<options/>
+		<conditions/>
+	</optionset>
+	<optionset dc:uri="http://example.com/terms/options/msc">
+		<uri_prefix>http://example.com/terms</uri_prefix>
+		<uri_path>msc</uri_path>
+		<dc:comment/>
+		<provider_key>MSCProvider</provider_key>
 		<options/>
 		<conditions/>
 	</optionset>

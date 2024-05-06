@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2024-04-24T09:57:14.825534+02:00" version="2.1.3">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2024-05-06T13:01:58.101228+02:00" version="2.1.3">
 	<catalog dc:uri="http://example.com/terms/questions/MaRDI">
 		<uri_prefix>http://example.com/terms</uri_prefix>
 		<uri_path>MaRDI</uri_path>
@@ -43,7 +43,7 @@ MaRDMO enables the documentation of interdisciplinary workflows using predefined
 		<verbose_name lang="en"/>
 		<title lang="de">Betriebsmodus</title>
 		<help lang="de">
-MaRDMO ermöglicht die Dokumentation von interdisziplinären Workflows mittels vordefinierter Vorlagen, die als Wiki-Seiten im MaRDI-Portal veröffentlicht werden. Darüber hinaus werden wesentliche Workflow-Komponenten (z.B. Forschungsziel, mathematisches Modell, Methoden, Software, ...) in den MaRDI Knowledge Graphen integriert, um spezifische Workflow-Abfragen zu ermöglichen. Im Idealfall erhöht MaRDMO damit die Reproduzierbarkeit einzelner Workflows und initiiert einen nutzergesteuerten Wissenskreislauf.
+MaRDMO ermöglicht die Dokumentation von interdisziplinären Workflows mittels vordefinierter Vorlagen, die als Wiki-Seiten im MaRDI-Portal veröffentlicht werden. Ein Workflow ist die Beschreibung eines Prozess zur Erreichung eines Forschungsziels, der unter anderem durch Daten, Methoden und Prozessschritte ausgedrückt wird. Darüber hinaus werden wesentliche Workflow-Komponenten (z.B. Forschungsziel, mathematisches Modell, Methoden, Software, ...) in den MaRDI Knowledge Graphen integriert, um spezifische Workflow-Abfragen zu ermöglichen. Im Idealfall erhöht MaRDMO damit die Reproduzierbarkeit einzelner Workflows und initiiert einen nutzergesteuerten Wissenskreislauf.
 </help>
 		<verbose_name lang="de"/>
 		<questionsets/>
@@ -302,11 +302,11 @@ MaRDMO ermöglicht die Dokumentation von interdisziplinären Workflows mittels v
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en"/>
-		<text lang="en">Would you like to specify mathematical models, methods, software, or data sets the workflow should be connected with?</text>
+		<text lang="en">Would you like to specify mathematical models, methods, software, input or output data sets the workflow should be connected with?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de"/>
-		<text lang="de">Wollen Sie mathematische Modelle, Methoden, Software oder Datensätze angebeben mit denen der Workflow verknüpft sein soll?</text>
+		<text lang="de">Wollen Sie mathematische Modelle, Methoden, Software, Eingabe- oder Ausgabedatensätze angebeben mit denen der Workflow verknüpft sein soll?</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option dc:uri="http://example.com/terms/options/yes_no/no"/>
@@ -927,10 +927,10 @@ Lassen Sie sich eine Vorschau Ihrer Dokumentation anzeigen, um sie auf Fehler zu
 		<dc:comment/>
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_2/Set_3"/>
 		<is_collection>False</is_collection>
-		<title lang="en">Involved Disciplines and Data Streams</title>
+		<title lang="en">Involved Mathematical Subjects, Disciplines and Data Streams</title>
 		<help lang="en"/>
 		<verbose_name lang="en"/>
-		<title lang="de">Involvierte Disziplinen und Datenströme</title>
+		<title lang="de">Involvierte mathematische Teilgebiete, Disziplinen und Datenströme</title>
 		<help lang="de"/>
 		<verbose_name lang="de"/>
 		<questionsets/>
@@ -948,12 +948,12 @@ Lassen Sie sich eine Vorschau Ihrer Dokumentation anzeigen, um sie auf Fehler zu
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_2/Set_3/Question_00"/>
 		<is_collection>True</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">For all mathematical areas the mardi/wikidata:QID, label and description are provided.</help>
-		<text lang="en">Select mathematical areas, involved in your workflow, from Wikidata or MaRDI KG!</text>
+		<help lang="en">Free-text search for categories of the Mathematics Subject Classification 2020.</help>
+		<text lang="en">Select mathematical subjects involved in your workflow!</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">Für alle mathematischen Teilgebiete wird die mardi/wikidata:QID, das Label und die Beschreibung angezeigt.</help>
-		<text lang="de">Wählen Sie geeignete mathematische Teilgebiete, im Zusammenhang mit ihrem Workflow, aus Wikidata oder dem MaRDI KG aus!</text>
+		<help lang="de">Freitextsuche nach Kategorien der Mathematics Subjects Classification 2020.</help>
+		<text lang="de">Wählen Sie geeignete mathematische Gebiete im Zusammenhang mit ihrem Workflow aus!</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
@@ -966,10 +966,7 @@ Lassen Sie sich eine Vorschau Ihrer Dokumentation anzeigen, um sie auf Fehler zu
 		<unit/>
 		<width/>
 		<optionsets>
-		<!---
-			<optionset dc:uri="http://example.com/terms/options/wikidata_search"/>
-		-->
-		<optionset dc:uri="http://example.com/terms/options/matharea"/>
+			<optionset dc:uri="http://example.com/terms/options/msc"/>
 		</optionsets>
 		<conditions/>
 	</question>
