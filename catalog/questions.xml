@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2024-05-06T13:01:58.101228+02:00" version="2.1.3">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2024-05-08T13:02:24.948019+02:00" version="2.1.3">
 	<catalog dc:uri="http://example.com/terms/questions/MaRDI">
 		<uri_prefix>http://example.com/terms</uri_prefix>
 		<uri_path>MaRDI</uri_path>
@@ -38,12 +38,12 @@
 		<is_collection>False</is_collection>
 		<title lang="en">Operation Modus</title>
 		<help lang="en">
-MaRDMO enables the documentation of interdisciplinary workflows using predefined templates that are published as wiki pages on the MaRDI portal. A workflow is a description of the process for accomplishing a research objective, expressed among others in terms of data, methods and process steps. Furthermore, essential workflow components (e.g., research objective, mathematical model, methods, software, ...) are integrated into the MaRDI knowledge graph to enable specific workflow queries. Ideally, MaRDMO thus increases the reproducibility of individual workflows and initiates a user-driven knowledge loop.
+MaRDMO enables the documentation of interdisciplinary workflows using predefined templates that are published as wiki pages on the MaRDI portal. Furthermore, essential workflow components (e.g., research objective, mathematical model, methods, software, ...) are integrated into the MaRDI knowledge graph to enable specific workflow queries. Ideally, MaRDMO thus increases the reproducibility of individual workflows and initiates a user-driven knowledge loop.
 </help>
 		<verbose_name lang="en"/>
 		<title lang="de">Betriebsmodus</title>
 		<help lang="de">
-MaRDMO ermöglicht die Dokumentation von interdisziplinären Workflows mittels vordefinierter Vorlagen, die als Wiki-Seiten im MaRDI-Portal veröffentlicht werden. Ein Workflow ist die Beschreibung eines Prozess zur Erreichung eines Forschungsziels, der unter anderem durch Daten, Methoden und Prozessschritte ausgedrückt wird. Darüber hinaus werden wesentliche Workflow-Komponenten (z.B. Forschungsziel, mathematisches Modell, Methoden, Software, ...) in den MaRDI Knowledge Graphen integriert, um spezifische Workflow-Abfragen zu ermöglichen. Im Idealfall erhöht MaRDMO damit die Reproduzierbarkeit einzelner Workflows und initiiert einen nutzergesteuerten Wissenskreislauf.
+MaRDMO ermöglicht die Dokumentation von interdisziplinären Workflows mittels vordefinierter Vorlagen, die als Wiki-Seiten im MaRDI-Portal veröffentlicht werden. Darüber hinaus werden wesentliche Workflow-Komponenten (z.B. Forschungsziel, mathematisches Modell, Methoden, Software, ...) in den MaRDI Knowledge Graphen integriert, um spezifische Workflow-Abfragen zu ermöglichen. Im Idealfall erhöht MaRDMO damit die Reproduzierbarkeit einzelner Workflows und initiiert einen nutzergesteuerten Wissenskreislauf.
 </help>
 		<verbose_name lang="de"/>
 		<questionsets/>
@@ -4091,20 +4091,21 @@ Lassen Sie sich eine Vorschau Ihrer Dokumentation anzeigen, um sie auf Fehler zu
 		<dc:comment/>
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_4"/>
 		<is_collection>True</is_collection>
-		<title lang="en">Hardware (Computational Workflow)</title>
-		<help lang="en">Describe the hardware of your workflow below. Use a separate entry for each hardware.</help>
+		<title lang="en">Hardware</title>
+		<help lang="en">Describe the computational hardware of your workflow below. Use a separate entry for each hardware.</help>
 		<verbose_name lang="en"/>
-		<title lang="de">Hardware (Komputationaler Workflow)</title>
-		<help lang="de">Beschreiben Sie im folgenden die Hardware ihres Workflows. Verwenden Sie für jede Hardware einen separaten Eintrag.</help>
+		<title lang="de">Hardware</title>
+		<help lang="de">Beschreiben Sie im folgenden die Computer-Hardware ihres Workflows. Verwenden Sie für jede Hardware einen separaten Eintrag.</help>
 		<verbose_name lang="de"/>
 		<questionsets/>
 		<questions>
 			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_4/Set_4/Question_01" order="0"/>
 			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_4/Set_4/Question_02" order="1"/>
-			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_4/Set_4/Question_03" order="2"/>
-			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_4/Set_4/Question_04" order="3"/>
-			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_4/Set_4/Question_05" order="4"/>
-			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_4/Set_4/Question_06" order="5"/>
+			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_4/Set_4/Question_07" order="2"/>
+			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_4/Set_4/Question_03" order="3"/>
+			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_4/Set_4/Question_04" order="4"/>
+			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_4/Set_4/Question_05" order="5"/>
+			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_4/Set_4/Question_06" order="6"/>
 		</questions>
 		<conditions>
 			<condition dc:uri="http://example.com/terms/conditions/parameter_needed2"/>
@@ -4117,24 +4118,26 @@ Lassen Sie sich eine Vorschau Ihrer Dokumentation anzeigen, um sie auf Fehler zu
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_4/Question_01"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">Use a mardi:QID, wikidata:QID or another ID. Leave blank if no ID avaible.</help>
-		<text lang="en">Provide an identifier for the hardware</text>
+		<help lang="en">Please, select a specific hardware, not a series. Hardwares that are not included in mardi/wikidata must be described in the following questions.</help>
+		<text lang="en">Select an appropriate hardware from Wikidata or MaRDI KG!</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">Nutzen Sie eine mardi:QID, wikidata:QID oder eine andere ID. Freilassen falls keine ID verfügbar ist.</help>
-		<text lang="de">Geben Sie einen Identifier für die Hardware an</text>
+		<help lang="de">Bitte wählen Sie eine spezifische Hardware aus und keine Serie. Hardware, die nicht im MaRDI KG oder Wikidata enthalten ist, muss durch die folgenden Fragen beschrieben werden.</help>
+		<text lang="de">Wählen Sie eine geeignete Hardware aus dem MaRDI KG oder Wikidata aus!</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
 		<default_external_id/>
-		<widget_type>text</widget_type>
+		<widget_type>autocomplete</widget_type>
 		<value_type>text</value_type>
 		<maximum/>
 		<minimum/>
 		<step/>
 		<unit/>
 		<width/>
-		<optionsets/>
+		<optionsets>
+			<optionset dc:uri="http://example.com/terms/options/wikidata_search"/>
+		</optionsets>
 		<conditions/>
 	</question>
 	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_4/Set_4/Question_02">
@@ -4162,21 +4165,23 @@ Lassen Sie sich eine Vorschau Ihrer Dokumentation anzeigen, um sie auf Fehler zu
 		<unit/>
 		<width/>
 		<optionsets/>
-		<conditions/>
+		<conditions>
+			<condition dc:uri="http://example.com/terms/conditions/hardware_present"/>
+		</conditions>
 	</question>
-	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_4/Set_4/Question_03">
+	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_4/Set_4/Question_07">
 		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/Section_4/Set_4/Question_03</uri_path>
+		<uri_path>MaRDI/Section_4/Set_4/Question_07</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_4/Question_03"/>
+		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_4/Question_07"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">Name assigned by the manufacturer</help>
-		<text lang="en">Provide the processor name of the hardware</text>
+		<help lang="en"/>
+		<text lang="en">Provide a description for the hardware.</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">Vom Hersteller zugewiesener Name</help>
-		<text lang="de">Geben Sie den Prozessornamen der Hardware an</text>
+		<help lang="de"/>
+		<text lang="de">Geben Sie eine Beschreibung für die Hardware an.</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
@@ -4189,6 +4194,37 @@ Lassen Sie sich eine Vorschau Ihrer Dokumentation anzeigen, um sie auf Fehler zu
 		<unit/>
 		<width/>
 		<optionsets/>
+		<conditions>
+			<condition dc:uri="http://example.com/terms/conditions/hardware_present"/>
+		</conditions>
+	</question>
+	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_4/Set_4/Question_03">
+		<uri_prefix>http://example.com/terms</uri_prefix>
+		<uri_path>MaRDI/Section_4/Set_4/Question_03</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_4/Question_03"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en">Leave empty, if processor not available.</help>
+		<text lang="en">Select a processor from WikiChip</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de">Freilassen, falls Prozessor nicht vorhanden.</help>
+		<text lang="de">Wählen Sie einen Prozessor von WikiChip aus</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>autocomplete</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="http://example.com/terms/options/processor"/>
+		</optionsets>
 		<conditions/>
 	</question>
 	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_4/Set_4/Question_04">
@@ -4196,7 +4232,7 @@ Lassen Sie sich eine Vorschau Ihrer Dokumentation anzeigen, um sie auf Fehler zu
 		<uri_path>MaRDI/Section_4/Set_4/Question_04</uri_path>
 		<dc:comment/>
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_4/Question_04"/>
-		<is_collection>False</is_collection>
+		<is_collection>True</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en">Specify as comma-separated list.</help>
 		<text lang="en">Provide the existing compiler of the hardware</text>
@@ -4208,14 +4244,16 @@ Lassen Sie sich eine Vorschau Ihrer Dokumentation anzeigen, um sie auf Fehler zu
 		<verbose_name lang="de"/>
 		<default_option/>
 		<default_external_id/>
-		<widget_type>text</widget_type>
+		<widget_type>autocomplete</widget_type>
 		<value_type>text</value_type>
 		<maximum/>
 		<minimum/>
 		<step/>
 		<unit/>
 		<width/>
-		<optionsets/>
+		<optionsets>
+			<optionset dc:uri="http://example.com/terms/options/wikidata_search"/>
+		</optionsets>
 		<conditions/>
 	</question>
 	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_4/Set_4/Question_05">
