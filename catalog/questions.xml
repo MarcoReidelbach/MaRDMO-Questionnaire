@@ -61,11 +61,11 @@ MaRDMO ermöglicht die Dokumentation von interdisziplinären Workflows mittels v
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_0/Set_1/Question_01"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">If neither is selected, MaRDI Export/Query will result in an error.</help>
+		<help lang="en">Workflow documentation should be selected when the objective is to document an workflow. When searching for an already documented workflow then workflow search should be selected. If neither is selected, MaRDI Export/Query will result in an error.</help>
 		<text lang="en">Document or search a workflow?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">Falls keines von beiden ausgewählt wird, führt MaRDI Export/Query zu einem Fehler.</help>
+		<help lang="de">Die Workflow-Dokumentation sollte ausgewählt werden, wenn das Ziel darin besteht, einen Workflow zu dokumentieren. Bei der Suche nach einem bereits dokumentierten Workflow sollte die Workflow-Suche gewählt werden. Falls keines von beiden ausgewählt wird, führt MaRDI Export/Query zu einem Fehler.</help>
 		<text lang="de">Workflow dokumentieren oder suchen?</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
