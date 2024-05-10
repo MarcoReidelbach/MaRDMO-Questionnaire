@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2024-05-08T13:02:24.948019+02:00" version="2.1.3">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2024-05-10T10:21:53.662402+02:00" version="2.1.2">
 	<catalog dc:uri="http://example.com/terms/questions/MaRDI">
 		<uri_prefix>http://example.com/terms</uri_prefix>
 		<uri_path>MaRDI</uri_path>
@@ -18,7 +18,6 @@
 			<section dc:uri="http://example.com/terms/questions/MaRDI/Section_4" order="5"/>
 			<section dc:uri="http://example.com/terms/questions/MaRDI/Section_5" order="6"/>
 			<section dc:uri="http://example.com/terms/questions/MaRDI/Section_6" order="7"/>
-			
 		</sections>
 	</catalog>
 	<section dc:uri="http://example.com/terms/questions/MaRDI/Section_0">
@@ -355,101 +354,6 @@ MaRDMO ermöglicht die Dokumentation von interdisziplinären Workflows mittels v
 			<condition dc:uri="http://example.com/terms/conditions/search_2"/>
 		</conditions>
 	</question>
-	<section dc:uri="http://example.com/terms/questions/MaRDI/Section_6">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/Section_6</uri_path>
-		<dc:comment/>
-		<title lang="en">Documentation</title>
-		<title lang="de">Dokumentation</title>
-		<pages>
-			<page dc:uri="http://example.com/terms/questions/MaRDI/Section_6/Set_1" order="0"/>
-		</pages>
-	</section>
-	<page dc:uri="http://example.com/terms/questions/MaRDI/Section_6/Set_1">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/Section_6/Set_1</uri_path>
-		<dc:comment/>
-		<attribute/>
-		<is_collection>False</is_collection>
-		<title lang="en">Local or Public?</title>
-		<help lang="en"/>
-		<verbose_name lang="en"/>
-		<title lang="de">Lokal oder öffentlich?</title>
-		<help lang="de"/>
-		<verbose_name lang="de"/>
-		<questionsets/>
-		<questions>
-			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_6/Set_1/Question_01" order="0"/>
-			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_6/Set_1/Question_02" order="1"/>
-		</questions>
-		<conditions/>
-	</page>
-	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_6/Set_1/Question_01">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/Section_6/Set_1/Question_01</uri_path>
-		<dc:comment/>
-		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_6/Set_1/Question_01"/>
-		<is_collection>False</is_collection>
-		<is_optional>False</is_optional>
-		<help lang="en">
-Export your documentation locally as markdown file (depreciated) or publish it on the MaRDI portal. To integrate the workflow in the Knowledge Graph additional may have to be answered. The RDMO project name will be used as title of the wikipage and label for the workflow entity.
-</help>
-		<text lang="en">Local Documentation or MaRDI portal export?</text>
-		<default_text lang="en"/>
-		<verbose_name lang="en"/>
-		<help lang="de">
-Exportieren Sie Ihre Dokumentation lokal als Markdown-Datei (nicht empfohlen) oder veröffentlichen Sie sie auf dem MaRDI Portal. Um den Workflow in den Knowledge Graph zu integrieren, müssen ggf. weitere Fragen beantwortet werden. Der RDMO-Projektname wird als Titel der Wikipage und als Bezeichnung für die Workflow-Entität verwendet.
-</help>
-		<text lang="de">Lokale Dokumentation oder MaRDI Portal Export?</text>
-		<default_text lang="de"/>
-		<verbose_name lang="de"/>
-		<default_option dc:uri="http://example.com/terms/options/publication_type/type_0"/>
-		<default_external_id/>
-		<widget_type>radio</widget_type>
-		<value_type>text</value_type>
-		<maximum/>
-		<minimum/>
-		<step/>
-		<unit/>
-		<width/>
-		<optionsets>
-			<optionset dc:uri="http://example.com/terms/options/publication_type"/>
-		</optionsets>
-		<conditions/>
-	</question>
-	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_6/Set_1/Question_02">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/Section_6/Set_1/Question_02</uri_path>
-		<dc:comment/>
-		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_6/Set_1/Question_02"/>
-		<is_collection>False</is_collection>
-		<is_optional>False</is_optional>
-		<help lang="en">
-Get a preview of your documentation to check for errors. Once your documentation is correct, choose 'No'. This question is ignored for local export.
-</help>
-		<text lang="en">Get a preview of the documentation?</text>
-		<default_text lang="en"/>
-		<verbose_name lang="en"/>
-		<help lang="de">
-Lassen Sie sich eine Vorschau Ihrer Dokumentation anzeigen, um sie auf Fehler zu überprüfen. Sobald Ihre Dokumentation korrekt ist, wählen Sie &quot;Nein&quot;. Diese Frage wird beim lokalen Export ignoriert.
-</help>
-		<text lang="de">Eine Dokumentations-Vorschau erhalten?</text>
-		<default_text lang="de"/>
-		<verbose_name lang="de"/>
-		<default_option dc:uri="http://example.com/terms/options/yes_no/yes"/>
-		<default_external_id/>
-		<widget_type>radio</widget_type>
-		<value_type>text</value_type>
-		<maximum/>
-		<minimum/>
-		<step/>
-		<unit/>
-		<width/>
-		<optionsets>
-			<optionset dc:uri="http://example.com/terms/options/yes_no"/>
-		</optionsets>
-		<conditions/>
-	</question>
 	<section dc:uri="http://example.com/terms/questions/MaRDI/Section_2">
 		<uri_prefix>http://example.com/terms</uri_prefix>
 		<uri_path>MaRDI/Section_2</uri_path>
@@ -777,14 +681,16 @@ Lassen Sie sich eine Vorschau Ihrer Dokumentation anzeigen, um sie auf Fehler zu
 		<verbose_name lang="de"/>
 		<default_option/>
 		<default_external_id/>
-		<widget_type>text</widget_type>
+		<widget_type>radio</widget_type>
 		<value_type>text</value_type>
 		<maximum/>
 		<minimum/>
 		<step/>
 		<unit/>
 		<width/>
-		<optionsets/>
+		<optionsets>
+			<optionset dc:uri="http://example.com/terms/options/languages"/>
+		</optionsets>
 		<conditions/>
 	</question>
 	<question dc:uri="http://example.com/terms/questions/Section_2/Set_2/Question_05">
@@ -5746,6 +5652,101 @@ Lassen Sie sich eine Vorschau Ihrer Dokumentation anzeigen, um sie auf Fehler zu
 		<unit/>
 		<width/>
 		<optionsets/>
+		<conditions/>
+	</question>
+	<section dc:uri="http://example.com/terms/questions/MaRDI/Section_6">
+		<uri_prefix>http://example.com/terms</uri_prefix>
+		<uri_path>MaRDI/Section_6</uri_path>
+		<dc:comment/>
+		<title lang="en">Documentation</title>
+		<title lang="de">Dokumentation</title>
+		<pages>
+			<page dc:uri="http://example.com/terms/questions/MaRDI/Section_6/Set_1" order="0"/>
+		</pages>
+	</section>
+	<page dc:uri="http://example.com/terms/questions/MaRDI/Section_6/Set_1">
+		<uri_prefix>http://example.com/terms</uri_prefix>
+		<uri_path>MaRDI/Section_6/Set_1</uri_path>
+		<dc:comment/>
+		<attribute/>
+		<is_collection>False</is_collection>
+		<title lang="en">Local or Public?</title>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<title lang="de">Lokal oder öffentlich?</title>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<questionsets/>
+		<questions>
+			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_6/Set_1/Question_01" order="0"/>
+			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_6/Set_1/Question_02" order="1"/>
+		</questions>
+		<conditions/>
+	</page>
+	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_6/Set_1/Question_01">
+		<uri_prefix>http://example.com/terms</uri_prefix>
+		<uri_path>MaRDI/Section_6/Set_1/Question_01</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_6/Set_1/Question_01"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en">
+Export your documentation locally as markdown file (depreciated) or publish it on the MaRDI portal. To integrate the workflow in the Knowledge Graph additional may have to be answered. The RDMO project name will be used as title of the wikipage and label for the workflow entity.
+</help>
+		<text lang="en">Local Documentation or MaRDI portal export?</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de">
+Exportieren Sie Ihre Dokumentation lokal als Markdown-Datei (nicht empfohlen) oder veröffentlichen Sie sie auf dem MaRDI Portal. Um den Workflow in den Knowledge Graph zu integrieren, müssen ggf. weitere Fragen beantwortet werden. Der RDMO-Projektname wird als Titel der Wikipage und als Bezeichnung für die Workflow-Entität verwendet.
+</help>
+		<text lang="de">Lokale Dokumentation oder MaRDI Portal Export?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option dc:uri="http://example.com/terms/options/publication_type/type_0"/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="http://example.com/terms/options/publication_type"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_6/Set_1/Question_02">
+		<uri_prefix>http://example.com/terms</uri_prefix>
+		<uri_path>MaRDI/Section_6/Set_1/Question_02</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_6/Set_1/Question_02"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en">
+Get a preview of your documentation to check for errors. Once your documentation is correct, choose 'No'. This question is ignored for local export.
+</help>
+		<text lang="en">Get a preview of the documentation?</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de">
+Lassen Sie sich eine Vorschau Ihrer Dokumentation anzeigen, um sie auf Fehler zu überprüfen. Sobald Ihre Dokumentation korrekt ist, wählen Sie &quot;Nein&quot;. Diese Frage wird beim lokalen Export ignoriert.
+</help>
+		<text lang="de">Eine Dokumentations-Vorschau erhalten?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option dc:uri="http://example.com/terms/options/yes_no/yes"/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="http://example.com/terms/options/yes_no"/>
+		</optionsets>
 		<conditions/>
 	</question>
 </rdmo>
