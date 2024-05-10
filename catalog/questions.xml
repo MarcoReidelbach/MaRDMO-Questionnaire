@@ -12,12 +12,13 @@
 		<sections>
 			<section dc:uri="http://example.com/terms/questions/MaRDI/Section_0" order="0"/>
 			<section dc:uri="http://example.com/terms/questions/MaRDI/Section_1" order="1"/>
-			<section dc:uri="http://example.com/terms/questions/MaRDI/Section_6" order="2"/>
-			<section dc:uri="http://example.com/terms/questions/MaRDI/Section_2" order="3"/>
-			<section dc:uri="http://example.com/terms/questions/MaRDI/Section_3" order="4"/>
-			<section dc:uri="http://example.com/terms/questions/MaRDI/Section_3a" order="5"/>
-			<section dc:uri="http://example.com/terms/questions/MaRDI/Section_4" order="6"/>
-			<section dc:uri="http://example.com/terms/questions/MaRDI/Section_5" order="7"/>
+			<section dc:uri="http://example.com/terms/questions/MaRDI/Section_2" order="2"/>
+			<section dc:uri="http://example.com/terms/questions/MaRDI/Section_3" order="3"/>
+			<section dc:uri="http://example.com/terms/questions/MaRDI/Section_3a" order="4"/>
+			<section dc:uri="http://example.com/terms/questions/MaRDI/Section_4" order="5"/>
+			<section dc:uri="http://example.com/terms/questions/MaRDI/Section_5" order="6"/>
+			<section dc:uri="http://example.com/terms/questions/MaRDI/Section_6" order="7"/>
+			
 		</sections>
 	</catalog>
 	<section dc:uri="http://example.com/terms/questions/MaRDI/Section_0">
