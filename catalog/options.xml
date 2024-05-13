@@ -1540,7 +1540,7 @@
 		<view_text lang="de"/>
 		<additional_input/>
 	</option>
-	<option dc:uri="http://example.com/terms/options/German">
+	<option dc:uri="http://example.com/terms/options/german">
 		<uri_prefix>http://example.com/terms</uri_prefix>
 		<uri_path>German</uri_path>
 		<dc:comment/>
