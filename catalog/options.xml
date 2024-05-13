@@ -1517,14 +1517,6 @@
 		<options/>
 		<conditions/>
 	</optionset>
-	<optionset dc:uri="http://example.com/terms/options/input">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>input</uri_path>
-		<dc:comment/>
-		<provider_key>DataProvider</provider_key>
-		<options/>
-		<conditions/>
-	</optionset>
 	<optionset dc:uri="http://example.com/terms/options/languages">
 		<uri_prefix>http://example.com/terms</uri_prefix>
 		<uri_path>languages</uri_path>
@@ -1532,7 +1524,7 @@
 		<provider_key/>
 		<options>
 			<option dc:uri="http://example.com/terms/options/english" order="1"/>
-			<option dc:uri="http://example.com/terms/options/German" order="2"/>
+			<option dc:uri="http://example.com/terms/options/german" order="2"/>
 		</options>
 		<conditions/>
 	</optionset>
@@ -1619,14 +1611,6 @@
 		<view_text lang="de"/>
 		<additional_input/>
 	</option>
-	<optionset dc:uri="http://example.com/terms/options/output">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>output</uri_path>
-		<dc:comment/>
-		<provider_key>DataProvider</provider_key>
-		<options/>
-		<conditions/>
-	</optionset>
 	<optionset dc:uri="http://example.com/terms/options/processor">
 		<uri_prefix>http://example.com/terms</uri_prefix>
 		<uri_path>processor</uri_path>
@@ -1789,41 +1773,6 @@ Model, Methoden, Software und Eingabe-/Ausgabedaten
 		<options/>
 		<conditions/>
 	</optionset>
-	<optionset dc:uri="http://example.com/terms/options/variable_type">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>variable_type</uri_path>
-		<dc:comment/>
-		<provider_key/>
-		<options>
-			<option dc:uri="http://example.com/terms/options/variable_type/type_0" order="0"/>
-			<option dc:uri="http://example.com/terms/options/variable_type/type_1" order="0"/>
-		</options>
-		<conditions/>
-	</optionset>
-	<option dc:uri="http://example.com/terms/options/variable_type/type_0">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>variable_type/type_0</uri_path>
-		<dc:comment/>
-		<text lang="en">Dependent</text>
-		<help lang="en"/>
-		<view_text lang="en"/>
-		<text lang="de">Abhängig</text>
-		<help lang="de"/>
-		<view_text lang="de"/>
-		<additional_input/>
-	</option>
-	<option dc:uri="http://example.com/terms/options/variable_type/type_1">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>variable_type/type_1</uri_path>
-		<dc:comment/>
-		<text lang="en">Independent</text>
-		<help lang="en"/>
-		<view_text lang="en"/>
-		<text lang="de">Unabhängig</text>
-		<help lang="de"/>
-		<view_text lang="de"/>
-		<additional_input/>
-	</option>
 	<optionset dc:uri="http://example.com/terms/options/wikidata_search">
 		<uri_prefix>http://example.com/terms</uri_prefix>
 		<uri_path>wikidata_search</uri_path>
@@ -1937,4 +1886,12 @@ Model, Methoden, Software und Eingabe-/Ausgabedaten
 		<view_text lang="de"/>
 		<additional_input/>
 	</option>
+	        <optionset dc:uri="http://example.com/terms/options/available_software">
+                <uri_prefix>http://example.com/terms</uri_prefix>
+                <uri_path>available_software</uri_path>
+                <dc:comment/>
+                <provider_key>AvailableSoftware</provider_key>
+                <options/>
+                <conditions/>
+        </optionset>
 </rdmo>
