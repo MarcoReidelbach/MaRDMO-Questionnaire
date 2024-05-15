@@ -9,16 +9,16 @@
 		<help lang="en"/>
 		<title lang="de">MaRDMO Katalog</title>
 		<help lang="de"/>
-		<sections>
-			<section dc:uri="http://example.com/terms/questions/MaRDI/Section_0" order="0"/>
-			<section dc:uri="http://example.com/terms/questions/MaRDI/Section_1" order="1"/>
-			<section dc:uri="http://example.com/terms/questions/MaRDI/Section_2" order="2"/>
-			<section dc:uri="http://example.com/terms/questions/MaRDI/Section_3" order="3"/>
-			<section dc:uri="http://example.com/terms/questions/MaRDI/Section_3a" order="4"/>
-			<section dc:uri="http://example.com/terms/questions/MaRDI/Section_4" order="5"/>
-			<section dc:uri="http://example.com/terms/questions/MaRDI/Section_5" order="6"/>
-			<section dc:uri="http://example.com/terms/questions/MaRDI/Section_6" order="7"/>
-		</sections>
+                <sections>
+                        <section dc:uri="http://example.com/terms/questions/MaRDI/Section_0" order="0"/>
+                        <section dc:uri="http://example.com/terms/questions/MaRDI/Section_1" order="1"/>
+                        <section dc:uri="http://example.com/terms/questions/MaRDI/Section_2" order="2"/>
+                        <section dc:uri="http://example.com/terms/questions/MaRDI/Section_3" order="3"/>
+                        <section dc:uri="http://example.com/terms/questions/MaRDI/Section_3a" order="4"/>
+                        <section dc:uri="http://example.com/terms/questions/MaRDI/Section_4" order="5"/>
+                        <section dc:uri="http://example.com/terms/questions/MaRDI/Section_5" order="6"/>
+                        <section dc:uri="http://example.com/terms/questions/MaRDI/Section_6" order="7"/>
+                </sections>
 	</catalog>
 	<section dc:uri="http://example.com/terms/questions/MaRDI/Section_0">
 		<uri_prefix>http://example.com/terms</uri_prefix>
@@ -688,9 +688,9 @@ MaRDMO ermöglicht die Dokumentation von interdisziplinären Workflows mittels v
 		<step/>
 		<unit/>
 		<width/>
-		<optionsets>
-			<optionset dc:uri="http://example.com/terms/options/languages"/>
-		</optionsets>
+                <optionsets>
+                        <optionset dc:uri="http://example.com/terms/options/languages"/>
+                </optionsets>
 		<conditions/>
 	</question>
 	<question dc:uri="http://example.com/terms/questions/Section_2/Set_2/Question_05">
@@ -4054,11 +4054,11 @@ MaRDMO ermöglicht die Dokumentation von interdisziplinären Workflows mittels v
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_4/Question_02"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">Device name assigned by the producer, name of an HPC cluster, ...</help>
+		<help lang="en">Name of the computer hardware assigned by the producer.</help>
 		<text lang="en">Provide a name for the hardware</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">Vom Hersteller zugewiesener Gerätename, Name eines HPC-Clusters, ...</help>
+		<help lang="de">Vom Hersteller zugewiesener Name der Computer-Hardware</help>
 		<text lang="de">Geben Sie einen Namen für die Hardware an</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -4112,11 +4112,11 @@ MaRDMO ermöglicht die Dokumentation von interdisziplinären Workflows mittels v
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_4/Question_03"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">Leave empty, if processor not available.</help>
+		<help lang="en"/>
 		<text lang="en">Select a processor from WikiChip</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">Freilassen, falls Prozessor nicht vorhanden.</help>
+		<help lang="de"/>
 		<text lang="de">Wählen Sie einen Prozessor von WikiChip aus</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -4223,11 +4223,11 @@ MaRDMO ermöglicht die Dokumentation von interdisziplinären Workflows mittels v
 		<dc:comment/>
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_5"/>
 		<is_collection>True</is_collection>
-		<title lang="en">Devices ((Measurement) Data Analysis Workflow)</title>
-		<help lang="en">Describe the experimental devices and hardware of your workflow below. Use a separate entry for each experimental device and hardware.</help>
+		<title lang="en">Instruments</title>
+		<help lang="en">Describe the instruments of your workflow below. Use a separate entry for each instrument.</help>
 		<verbose_name lang="en"/>
-		<title lang="de">Geräte ((Mess-)datenanalyse Workflow)</title>
-		<help lang="de">Beschreiben Sie im folgenden die experimentellen Geräte und Hardware ihres Workflows. Verwenden Sie für jedes experimentelle Gerät und Hardware einen separates Eintrag.</help>
+		<title lang="de">Geräte</title>
+		<help lang="de">Beschreiben Sie im folgenden die Geräte ihres Workflows. Verwenden Sie für jedes Gerät einen separates Eintrag.</help>
 		<verbose_name lang="de"/>
 		<questionsets/>
 		<questions>
@@ -4251,24 +4251,26 @@ MaRDMO ermöglicht die Dokumentation von interdisziplinären Workflows mittels v
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_5/Question_01"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">Use a mardi:QID, wikidata:QID or another ID. Leave blank if no ID exists.</help>
-		<text lang="en">Provide an identifier for the device</text>
+		<help lang="en">Please, select a specific instrument, not a series. Instruments that are not included in mardi/wikidata must be described in the following questions.</help>
+		<text lang="en">Select an appropriate instrument from Wikidata or MaRDI KG!</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">Nutzen Sie eine mardi:QID, wikidata:QID oder eine andere ID. Freilassen falls keine ID verfügbar ist.</help>
-		<text lang="de">Geben Sie einen Identifier für das Gerät an</text>
+		<help lang="de">Bitte wählen Sie ein spezifisches Gerät aus und keine Serie. Ein Gerät, das nicht im MaRDI KG oder Wikidata enthalten ist, muss durch die folgenden Fragen beschrieben werden.</help>
+		<text lang="de">Wählen Sie ein geeignete Gerät aus dem MaRDI KG oder Wikidata aus!</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
 		<default_external_id/>
-		<widget_type>text</widget_type>
+		<widget_type>autocomplete</widget_type>
 		<value_type>text</value_type>
 		<maximum/>
 		<minimum/>
 		<step/>
 		<unit/>
 		<width/>
-		<optionsets/>
+                <optionsets>
+                        <optionset dc:uri="http://example.com/terms/options/wikidata_search"/>
+                </optionsets>
 		<conditions/>
 	</question>
 	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_4/Set_5/Question_02">
@@ -4278,11 +4280,11 @@ MaRDMO ermöglicht die Dokumentation von interdisziplinären Workflows mittels v
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_5/Question_02"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">Experimental device name or hardware name assigned by the producer, name of an HPC cluster, ...</help>
-		<text lang="en">Provide a name for the device</text>
+		<help lang="en">Instrument name assigned by the producer.</help>
+		<text lang="en">Provide a name for the instrument</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">Vom Hersteller vergebener Name des experimentellen Geräts oder der Hardware, Name eines HPC Clusters, ...</help>
+		<help lang="de">Vom Hersteller vergebener Name des Geräts.</help>
 		<text lang="de">Geben Sie einen Namen für das Gerät an</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -4296,7 +4298,9 @@ MaRDMO ermöglicht die Dokumentation von interdisziplinären Workflows mittels v
 		<unit/>
 		<width/>
 		<optionsets/>
-		<conditions/>
+                <conditions>
+                        <condition dc:uri="http://example.com/terms/conditions/instrument_present"/>
+                </conditions>
 	</question>
 	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_4/Set_5/Question_03">
 		<uri_prefix>http://example.com/terms</uri_prefix>
@@ -4305,11 +4309,11 @@ MaRDMO ermöglicht die Dokumentation von interdisziplinären Workflows mittels v
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_5/Question_03"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">Short, concise and workflow relevant.</help>
-		<text lang="en">Provide a description for the device</text>
+		<help lang="en"/>
+		<text lang="en">Provide a description for the instrument</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">Kurz, prägnant und Workflow relevant.</help>
+		<help lang="de"/>
 		<text lang="de">Geben Sie eine Beschreibung des Geräts an</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -4323,7 +4327,9 @@ MaRDMO ermöglicht die Dokumentation von interdisziplinären Workflows mittels v
 		<unit/>
 		<width/>
 		<optionsets/>
-		<conditions/>
+                <conditions>
+                        <condition dc:uri="http://example.com/terms/conditions/instrument_present"/>
+                </conditions>
 	</question>
 	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_4/Set_5/Question_04">
 		<uri_prefix>http://example.com/terms</uri_prefix>
@@ -4332,11 +4338,11 @@ MaRDMO ermöglicht die Dokumentation von interdisziplinären Workflows mittels v
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_5/Question_04"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">As detailed as necessary to reproduce the workflow.</help>
-		<text lang="en">State the version of the device</text>
+		<help lang="en"/>
+		<text lang="en">State the version of the instrument</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">So detailliert wie nötig um den Workflow zu reproduzieren.</help>
+		<help lang="de"/>
 		<text lang="de">Nennen Sie die Version des Geräts</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -4359,11 +4365,11 @@ MaRDMO ermöglicht die Dokumentation von interdisziplinären Workflows mittels v
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_5/Question_05"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">If available, if not leave empty.</help>
-		<text lang="en">State the part number of the device</text>
+		<help lang="en"/>
+		<text lang="en">State the part number of the instrument</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">Sofern verfügbar, falls nicht frei lassen.</help>
+		<help lang="de"/>
 		<text lang="de">Nennen Sie die Teilenummer des Geräts</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -4386,11 +4392,11 @@ MaRDMO ermöglicht die Dokumentation von interdisziplinären Workflows mittels v
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_5/Question_06"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">If available, if not leave empty.</help>
-		<text lang="en">State the serial number of the device</text>
+		<help lang="en"/>
+		<text lang="en">State the serial number of the instrument</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">Sofern vorhanden, falls nicht frei lassen.</help>
+		<help lang="de"/>
 		<text lang="de">Nennen Sie die Seriennummer des Geräts</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -4413,24 +4419,26 @@ MaRDMO ermöglicht die Dokumentation von interdisziplinären Workflows mittels v
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_5/Question_07"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">Institute, city, country</help>
-		<text lang="en">State the location of the device</text>
+		<help lang="en">Research institute / university or the city the instrument is located in.</help>
+		<text lang="en">Select the location of the instrument from MaRDI KG or Wikidata</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">Institut, Stadt, Land</help>
-		<text lang="de">Nennen Sie den Standort des Geräts</text>
+		<help lang="de">Forschungsinstitut / Universität oder die Stadt in der sich das Gerät befindet.</help>
+		<text lang="de">Wählen Sie den Standort des Geräts aus dem MaRDI KG oder Wikidata aus.</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
 		<default_external_id/>
-		<widget_type>text</widget_type>
+		<widget_type>autocomplete</widget_type>
 		<value_type>text</value_type>
 		<maximum/>
 		<minimum/>
 		<step/>
 		<unit/>
 		<width/>
-		<optionsets/>
+                <optionsets>
+                        <optionset dc:uri="http://example.com/terms/options/wikidata_search"/>
+                </optionsets>
 		<conditions/>
 	</question>
 	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_4/Set_5/Question_08">
@@ -4438,26 +4446,28 @@ MaRDMO ermöglicht die Dokumentation von interdisziplinären Workflows mittels v
 		<uri_path>MaRDI/Section_4/Set_5/Question_08</uri_path>
 		<dc:comment/>
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_5/Question_08"/>
-		<is_collection>False</is_collection>
+		<is_collection>True</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">Short, concise, workflow relevant.</help>
-		<text lang="en">State the available software of the device</text>
+		<help lang="en">If software is missing, define it in the software section and select it here.</help>
+		<text lang="en">Select the available software of the instrument from the MaRDI KG or Wikidata</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">Kurz, prägnant, Workflow relevant.</help>
-		<text lang="de">Nennen Sie die verfügbare Software des Geräts</text>
+		<help lang="de">Falls eine Software fehlt, definieren Sie diese im Software Abschnitt und wählen Sie hier aus.</help>
+		<text lang="de">Wählen Sie die verfügbare Software des Geräts aus dem MaRDI KG oder Wikidata aus</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
 		<default_external_id/>
-		<widget_type>text</widget_type>
+		<widget_type>autocomplete</widget_type>
 		<value_type>text</value_type>
 		<maximum/>
 		<minimum/>
 		<step/>
 		<unit/>
 		<width/>
-		<optionsets/>
+                <optionsets>
+                        <optionset dc:uri="http://example.com/terms/options/available_software"/>
+                </optionsets>
 		<conditions/>
 	</question>
 	<page dc:uri="http://example.com/terms/questions/MaRDI/Section_4/Set_6">

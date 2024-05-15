@@ -122,7 +122,16 @@
 		<uri_path>hardware_present</uri_path>
 		<dc:comment/>
 		<source dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_4/Question_01"/>
-		<relation>empty</relation>
+                <relation>empty</relation>
+                <target_text/>
+                <target_option/>
+        </condition>
+        <condition dc:uri="http://example.com/terms/conditions/instrument_present">
+                <uri_prefix>http://example.com/terms</uri_prefix>
+                <uri_path>instrument_present</uri_path>
+                <dc:comment/>
+                <source dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_5/Question_01"/>
+                <relation>empty</relation>
 		<target_text/>
 		<target_option/>
 	</condition>
