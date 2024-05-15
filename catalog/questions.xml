@@ -5317,11 +5317,11 @@ MaRDMO ermöglicht die Dokumentation von interdisziplinären Workflows mittels v
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_1/Question_08"/>
 		<is_collection>True</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">Choose previously defined mathematical areas.</help>
-		<text lang="en">State the mathematical area of the process step</text>
+		<help lang="en">Choose from the previously defined mathematical subjects involved in your workflow.</help>
+		<text lang="en">State the mathematical subject of the process step</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">Wählen Sie zuvor definierte mathematische Teilgebiete.</help>
+		<help lang="de">Wählen Sie zuvor definierte mathematische Teilgebiete, die an Ihrem Workflow beteiligt sind.</help>
 		<text lang="de">Nennen Sie das mathematischen Teilgebiet des Prozessschritts</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
