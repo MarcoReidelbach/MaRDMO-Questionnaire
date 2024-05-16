@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2024-05-10T10:21:46.317248+02:00" version="2.1.2">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2024-05-16T19:01:42.903689+02:00" version="2.1.3">
 	<optionset dc:uri="http://example.com/terms/options/AllEntities">
 		<uri_prefix>http://example.com/terms</uri_prefix>
 		<uri_path>AllEntities</uri_path>
@@ -1458,6 +1458,14 @@
 		<view_text lang="de"/>
 		<additional_input/>
 	</option>
+	<optionset dc:uri="http://example.com/terms/options/available_software">
+		<uri_prefix>http://example.com/terms</uri_prefix>
+		<uri_path>available_software</uri_path>
+		<dc:comment/>
+		<provider_key>AvailableSoftware</provider_key>
+		<options/>
+		<conditions/>
+	</optionset>
 	<optionset dc:uri="http://example.com/terms/options/component_search">
 		<uri_prefix>http://example.com/terms</uri_prefix>
 		<uri_path>component_search</uri_path>
@@ -1523,14 +1531,14 @@
 		<dc:comment/>
 		<provider_key/>
 		<options>
-			<option dc:uri="http://example.com/terms/options/english" order="1"/>
-			<option dc:uri="http://example.com/terms/options/german" order="2"/>
+			<option dc:uri="http://example.com/terms/options/languages/english" order="1"/>
+			<option dc:uri="http://example.com/terms/options/languages/german" order="2"/>
 		</options>
 		<conditions/>
 	</optionset>
-	<option dc:uri="http://example.com/terms/options/english">
+	<option dc:uri="http://example.com/terms/options/languages/english">
 		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>english</uri_path>
+		<uri_path>languages/english</uri_path>
 		<dc:comment/>
 		<text lang="en">English</text>
 		<help lang="en"/>
@@ -1540,9 +1548,9 @@
 		<view_text lang="de"/>
 		<additional_input/>
 	</option>
-	<option dc:uri="http://example.com/terms/options/german">
+	<option dc:uri="http://example.com/terms/options/languages/german">
 		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>German</uri_path>
+		<uri_path>languages/german</uri_path>
 		<dc:comment/>
 		<text lang="en">German</text>
 		<help lang="en"/>
@@ -1582,31 +1590,66 @@
 		<dc:comment/>
 		<provider_key/>
 		<options>
-			<option dc:uri="http://example.com/terms/options/operation_modus/modus_0" order="0"/>
 			<option dc:uri="http://example.com/terms/options/operation_modus/modus_1" order="0"/>
+			<option dc:uri="http://example.com/terms/options/operation_modus/modus_0" order="1"/>
 		</options>
 		<conditions/>
 	</optionset>
-	<option dc:uri="http://example.com/terms/options/operation_modus/modus_0">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>operation_modus/modus_0</uri_path>
-		<dc:comment/>
-		<text lang="en">Workflow Documentation</text>
-		<help lang="en"/>
-		<view_text lang="en"/>
-		<text lang="de">Workflow Dokumentation</text>
-		<help lang="de"/>
-		<view_text lang="de"/>
-		<additional_input/>
-	</option>
 	<option dc:uri="http://example.com/terms/options/operation_modus/modus_1">
 		<uri_prefix>http://example.com/terms</uri_prefix>
 		<uri_path>operation_modus/modus_1</uri_path>
 		<dc:comment/>
-		<text lang="en">Workflow Search</text>
+		<text lang="en">Search</text>
 		<help lang="en"/>
 		<view_text lang="en"/>
-		<text lang="de">Workflow Suche</text>
+		<text lang="de">Suchen</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="http://example.com/terms/options/operation_modus/modus_0">
+		<uri_prefix>http://example.com/terms</uri_prefix>
+		<uri_path>operation_modus/modus_0</uri_path>
+		<dc:comment/>
+		<text lang="en">Document</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Dokumentieren</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<optionset dc:uri="http://example.com/terms/options/operation_modus_2">
+		<uri_prefix>http://example.com/terms</uri_prefix>
+		<uri_path>operation_modus_2</uri_path>
+		<dc:comment/>
+		<provider_key/>
+		<options>
+			<option dc:uri="http://example.com/terms/options/operation_modus_2/workflow" order="1"/>
+			<option dc:uri="http://example.com/terms/options/operation_modus_2/model" order="2"/>
+		</options>
+		<conditions/>
+	</optionset>
+	<option dc:uri="http://example.com/terms/options/operation_modus_2/workflow">
+		<uri_prefix>http://example.com/terms</uri_prefix>
+		<uri_path>operation_modus_2/workflow</uri_path>
+		<dc:comment/>
+		<text lang="en">Workflow</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Workflow</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="http://example.com/terms/options/operation_modus_2/model">
+		<uri_prefix>http://example.com/terms</uri_prefix>
+		<uri_path>operation_modus_2/model</uri_path>
+		<dc:comment/>
+		<text lang="en">Mathematical Model</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Mathematisches Modell</text>
 		<help lang="de"/>
 		<view_text lang="de"/>
 		<additional_input/>
@@ -1787,23 +1830,11 @@ Model, Methoden, Software und Eingabe-/Ausgabedaten
 		<dc:comment>Type of the MaRDI Workflow</dc:comment>
 		<provider_key/>
 		<options>
-			<option dc:uri="http://example.com/terms/options/workflow_type/type_0" order="0"/>
-			<option dc:uri="http://example.com/terms/options/workflow_type/type_1" order="1"/>
+			<option dc:uri="http://example.com/terms/options/workflow_type/type_1" order="0"/>
+			<option dc:uri="http://example.com/terms/options/workflow_type/type_0" order="1"/>
 		</options>
 		<conditions/>
 	</optionset>
-	<option dc:uri="http://example.com/terms/options/workflow_type/type_0">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>workflow_type/type_0</uri_path>
-		<dc:comment/>
-		<text lang="en">(Measurement) Data Analysis Workflow</text>
-		<help lang="en"/>
-		<view_text lang="en"/>
-		<text lang="de">(Mess-)datenanalyse Workflow</text>
-		<help lang="de"/>
-		<view_text lang="de"/>
-		<additional_input/>
-	</option>
 	<option dc:uri="http://example.com/terms/options/workflow_type/type_1">
 		<uri_prefix>http://example.com/terms</uri_prefix>
 		<uri_path>workflow_type/type_1</uri_path>
@@ -1812,6 +1843,18 @@ Model, Methoden, Software und Eingabe-/Ausgabedaten
 		<help lang="en"/>
 		<view_text lang="en"/>
 		<text lang="de">Komputationaler Workflow</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="http://example.com/terms/options/workflow_type/type_0">
+		<uri_prefix>http://example.com/terms</uri_prefix>
+		<uri_path>workflow_type/type_0</uri_path>
+		<dc:comment/>
+		<text lang="en">(Measurement) Data Analysis Workflow</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">(Mess-)datenanalyse Workflow</text>
 		<help lang="de"/>
 		<view_text lang="de"/>
 		<additional_input/>
@@ -1886,12 +1929,4 @@ Model, Methoden, Software und Eingabe-/Ausgabedaten
 		<view_text lang="de"/>
 		<additional_input/>
 	</option>
-	        <optionset dc:uri="http://example.com/terms/options/available_software">
-                <uri_prefix>http://example.com/terms</uri_prefix>
-                <uri_path>available_software</uri_path>
-                <dc:comment/>
-                <provider_key>AvailableSoftware</provider_key>
-                <options/>
-                <conditions/>
-        </optionset>
 </rdmo>
