@@ -3971,11 +3971,11 @@ MaRDMO ermöglicht die Dokumentation von interdisziplinären Workflows mittels v
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en">If yes, provide the full link to the documentation.</help>
-		<text lang="en">Is the software documented?</text>
+		<text lang="en">Is the software documented online?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de">Falls ja geben Sie den kompletten Link zur Dokumentation an.</help>
-		<text lang="de">Ist die Software dokumentiert?</text>
+		<text lang="de">Ist die Software online dokumentiert?</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
@@ -4733,11 +4733,11 @@ MaRDMO ermöglicht die Dokumentation von interdisziplinären Workflows mittels v
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en"/>
-		<text lang="en">Is the data set binary or text?</text>
+		<text lang="en">Is the data set binary?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de"/>
-		<text lang="de">Ist der Datensatz binär oder text?</text>
+		<text lang="de">Ist der Datensatz binär?</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
@@ -4750,7 +4750,7 @@ MaRDMO ermöglicht die Dokumentation von interdisziplinären Workflows mittels v
 		<unit/>
 		<width/>
 		<optionsets>
-			<optionset dc:uri="http://example.com/terms/options/data_type"/>
+			<optionset dc:uri="http://example.com/terms/options/yes_no"/>
 		</optionsets>
 		<conditions/>
 	</question>
