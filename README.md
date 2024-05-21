@@ -8,9 +8,9 @@ This repository contains the questionnaire for the [MaRDMO-Export-Plugin](https:
 . 
 ├── catalog - Questionnaire Files 
 │   ├── conditions.xml - individual conditions of Questionnaire 
-│   ├── domains.xml - individual domains of Questionnaire 
-│   ├── options.xml - individual options of Questionnaire 
-│   └── questions.xml - individual questions for Questionnaire 
+│   ├── attributes.xml - individual domains of Questionnaire 
+│   ├── optionsets.xml - individual options of Questionnaire 
+│   └── catalogs.xml - individual questions for Questionnaire 
 │ 
 └── LICENSE.md 
 ```
@@ -20,6 +20,8 @@ This repository contains the questionnaire for the [MaRDMO-Export-Plugin](https:
 Check out the [MaRDI-Export-Plugin](https://github.com/MarcoReidelbach/MaRDMO-Export-Plugin) for further information.  
 
 ## Sections, Pages and Questions of the MaRDMO-Questionnaire
+
+The Questions listed here are not updated regularly, i.e. further questions might be introduced, others might be removed and the order is subject to change.
 
 <b>MaRDMO Catalog</b><br>
 
