@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2024-05-21T13:47:25.183104+02:00" version="2.1.3">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2024-05-21T19:43:07.210945+02:00" version="2.1.3">
 	<catalog dc:uri="http://example.com/terms/questions/MaRDI">
 		<uri_prefix>http://example.com/terms</uri_prefix>
 		<uri_path>MaRDI</uri_path>
@@ -1365,7 +1365,7 @@
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_0/Set_0"/>
 		<is_collection>True</is_collection>
 		<title lang="en">Research Field Connections</title>
-		<help lang="en">The following questions allow you to relate the new Research Field to other Research Field from MathModDB or created here. This is OPTIONAL, if no relations are defined, they will be added through a curator.</help>
+		<help lang="en">The following questions allow you to relate the new Research Field to other Research Fields from MathModDB or created here. This is OPTIONAL, if no relations are defined, they will be added through a curator.</help>
 		<verbose_name lang="en"/>
 		<title lang="de">Forschungsgebiet Verbindungen</title>
 		<help lang="de">Die folgenden Fragen ermöglichen es Ihnen, das neue Forschungsgebiet mit anderen Forschungsgebieten aus MathModDB oder hier erstellten Forschungsgebieten in Relation zu setzen. Dies ist OPTIONAL, wenn keine Relationen definiert sind, werden sie durch einen Kurator hinzugefügt.</help>
@@ -1558,20 +1558,21 @@
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_1"/>
 		<is_collection>True</is_collection>
 		<title lang="en">Related Research Problem</title>
-		<help lang="en"/>
+		<help lang="en">The following questions allow you to add new Research Problems to MathModDB and relate them with each other and with existing Research Problems from the MathModDB. To do so, you may select existing Research Problems from Wikidata / MaRDI KG or define new Research Problems by yourself. At least one Research Problem needs to be defined here! If you defined more than one Research Field you have to assign the Research Problem to the appropriate Research Field(s). If you define more than one Research Problem you need to specify which Research Problem(s) are modeled by the Mathematical Model you defined at the beginning. The specification of further Research Problems and possible relations is OPTIONAL and will be added by a curator if not provided.</help>
 		<verbose_name lang="en"/>
 		<title lang="de">Zugehöriges Forschungsproblem</title>
-		<help lang="de"/>
+		<help lang="de">Mit den folgenden Fragen können Sie neue Forschungsprobleme zu MathModDB hinzufügen und sie miteinander und mit bestehenden Forschungsproblemen aus der MathModDB in Relation setzen. Dazu können Sie bestehende Forschungsprobleme aus Wikidata / MaRDI KG auswählen oder selbst neue Forschungsprobleme definieren. Hier muss mindestens ein Forschungsproblem definiert werden! Wenn Sie zuvor mehr als ein Forschungsgebiet definiert haben, müssen Sie das Forschungsproblem dem/den entsprechenden Forschungsgebieten zuordnen. Wenn Sie mehr als ein Forschungsproblem definieren, müssen Sie angeben, welche Forschungsprobleme durch das mathematische Modell modelliert werden, das Sie zu Beginn definiert haben. Die Angabe weiterer Forschungsprobleme und möglicher Zusammenhänge ist OPTIONAL und wird, sofern nicht angegeben, von einem Kurator ergänzt.</help>
 		<verbose_name lang="de"/>
 		<questionsets>
-			<questionset dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_1/Set_0" order="5"/>
+			<questionset dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_1/Set_0" order="6"/>
 		</questionsets>
 		<questions>
-			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_1/Question_0" order="0"/>
-			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_1/Question_1" order="1"/>
-			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_1/Question_2" order="2"/>
-			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_1/Question_3" order="3"/>
-			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_1/Question_4" order="4"/>
+			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_1/Question_5" order="0"/>
+			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_1/Question_0" order="1"/>
+			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_1/Question_1" order="2"/>
+			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_1/Question_2" order="3"/>
+			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_1/Question_3" order="4"/>
+			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_1/Question_4" order="5"/>
 		</questions>
 		<conditions>
 			<condition dc:uri="http://example.com/terms/conditions/ResearchProblem_property"/>
@@ -1584,10 +1585,10 @@
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_1/Set_0"/>
 		<is_collection>True</is_collection>
 		<title lang="en">Research Problem Connections</title>
-		<help lang="en"/>
+		<help lang="en">The following questions allow you to relate the new Research Problem to other Research Problems from MathModDB or created here. This is OPTIONAL, if no relations are defined, they will be added through a curator.</help>
 		<verbose_name lang="en"/>
 		<title lang="de">Forschungsproblem Verbindungen</title>
-		<help lang="de"/>
+		<help lang="de">Die folgenden Fragen ermöglichen es Ihnen, das neue Forschungsproblem mit anderen Forschungsproblemen aus MathModDB oder hier erstellten Forschungsproblemen in Relation zu setzen. Dies ist OPTIONAL, wenn keine Relationen definiert sind, werden sie durch einen Kurator hinzugefügt.</help>
 		<verbose_name lang="de"/>
 		<questionsets/>
 		<questions>
@@ -1650,7 +1651,36 @@
 		<unit/>
 		<width/>
 		<optionsets>
-			<optionset dc:uri="http://example.com/terms/options/ResearchProblem2"/>
+			<optionset dc:uri="http://example.com/terms/options/ResearchProblemRelations"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_1/Question_5">
+		<uri_prefix>http://example.com/terms</uri_prefix>
+		<uri_path>MaRDI/Section_3a/Set_1/Question_5</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_1/Question_5"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en">If you cannot find an appropriate Research Problem on Wikidata or the MaRDI KG, please describe it in the following questions.</help>
+		<text lang="en">Select an appropriate Research Problem from Wikidata or MaRDI KG!</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de">Wenn Sie kein passendes Forschungsproblem in Wikidata oder dem MaRDI KG finden, beschreiben Sie es bitte in den folgenden Fragen.</help>
+		<text lang="de">Wählen Sie ein geeignetes Forschungsproblem aus Wikidata oder dem MaRDI KG aus!</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>autocomplete</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="http://example.com/terms/options/wikidata_search"/>
 		</optionsets>
 		<conditions/>
 	</question>
@@ -1679,7 +1709,9 @@
 		<unit/>
 		<width/>
 		<optionsets/>
-		<conditions/>
+		<conditions>
+			<condition dc:uri="http://example.com/terms/conditions/RPpresent"/>
+		</conditions>
 	</question>
 	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_1/Question_1">
 		<uri_prefix>http://example.com/terms</uri_prefix>
@@ -1706,7 +1738,9 @@
 		<unit/>
 		<width/>
 		<optionsets/>
-		<conditions/>
+		<conditions>
+			<condition dc:uri="http://example.com/terms/conditions/RPpresent"/>
+		</conditions>
 	</question>
 	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_1/Question_2">
 		<uri_prefix>http://example.com/terms</uri_prefix>
@@ -1733,7 +1767,9 @@
 		<unit/>
 		<width/>
 		<optionsets/>
-		<conditions/>
+		<conditions>
+			<condition dc:uri="http://example.com/terms/conditions/RPpresent"/>
+		</conditions>
 	</question>
 	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_1/Question_3">
 		<uri_prefix>http://example.com/terms</uri_prefix>
@@ -1741,13 +1777,13 @@
 		<dc:comment/>
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_1/Question_3"/>
 		<is_collection>False</is_collection>
-		<is_optional>False</is_optional>
-		<help lang="en"/>
+		<is_optional>True</is_optional>
+		<help lang="en">Only required if more than one Research Fields were provided in the previous section.</help>
 		<text lang="en">To which Research Field belongs the new Research Problem?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de"/>
-		<text lang="de">Zu welchem Forschungsfeld gehört das neue Forschungsproblem?</text>
+		<help lang="de">Nur erforderlich, wenn im vorherigen Abschnitt mehr als ein Forschungsgebiet angegeben wurde.</help>
+		<text lang="de">Zu welchem Forschungsgebiet gehört das neue Forschungsproblem?</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
@@ -1760,7 +1796,7 @@
 		<unit/>
 		<width/>
 		<optionsets>
-			<optionset dc:uri="http://example.com/terms/options/ResearchFieldRelations"/>
+			<optionset dc:uri="http://example.com/terms/options/RFUser"/>
 		</optionsets>
 		<conditions/>
 	</question>
@@ -1770,12 +1806,12 @@
 		<dc:comment/>
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_1/Question_4"/>
 		<is_collection>False</is_collection>
-		<is_optional>False</is_optional>
-		<help lang="en"/>
+		<is_optional>True</is_optional>
+		<help lang="en">Only required if more than one Research Problem is provided in this section.</help>
 		<text lang="en">Is the new Research Problem represented by the new Mathematical Model?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de"/>
+		<help lang="de">Nur erforderlich, wenn in diesem Abschnitt mehr als ein Forschungsproblem angegeben wird.</help>
 		<text lang="de">Wird das neue Forschungsproblem durch das neue mathematische Modell repräsentiert?</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -2069,7 +2105,7 @@
 		<unit/>
 		<width/>
 		<optionsets>
-			<optionset dc:uri="http://example.com/terms/options/ResearchProblem2"/>
+			<optionset dc:uri="http://example.com/terms/options/ResearchProblemRelations"/>
 		</optionsets>
 		<conditions/>
 	</question>
@@ -3422,7 +3458,7 @@
 		<unit/>
 		<width/>
 		<optionsets>
-			<optionset dc:uri="http://example.com/terms/options/ResearchProblem2"/>
+			<optionset dc:uri="http://example.com/terms/options/ResearchProblemRelations"/>
 		</optionsets>
 		<conditions/>
 	</question>
