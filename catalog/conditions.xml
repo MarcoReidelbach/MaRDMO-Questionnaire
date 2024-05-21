@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2024-05-21T08:50:30.807123+02:00" version="2.1.3">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2024-05-21T12:21:24.758351+02:00" version="2.1.3">
 	<condition dc:uri="http://example.com/terms/conditions/MathematicalFormulation_property">
 		<uri_prefix>http://example.com/terms</uri_prefix>
 		<uri_path>MathematicalFormulation_property</uri_path>
@@ -98,6 +98,24 @@
 		<relation>eq</relation>
 		<target_text>1</target_text>
 		<target_option/>
+	</condition>
+	<condition dc:uri="http://example.com/terms/conditions/addQ">
+		<uri_prefix>http://example.com/terms</uri_prefix>
+		<uri_path>addQ</uri_path>
+		<dc:comment/>
+		<source dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_3/Question_4"/>
+		<relation>eq</relation>
+		<target_text/>
+		<target_option dc:uri="http://example.com/terms/options/QuantityOrQuantityKind0"/>
+	</condition>
+	<condition dc:uri="http://example.com/terms/conditions/addQK">
+		<uri_prefix>http://example.com/terms</uri_prefix>
+		<uri_path>addQK</uri_path>
+		<dc:comment/>
+		<source dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_3/Question_4"/>
+		<relation>eq</relation>
+		<target_text/>
+		<target_option dc:uri="http://example.com/terms/options/QuantityOrQuanttiyKind1"/>
 	</condition>
 	<condition dc:uri="http://example.com/terms/conditions/author_property">
 		<uri_prefix>http://example.com/terms</uri_prefix>

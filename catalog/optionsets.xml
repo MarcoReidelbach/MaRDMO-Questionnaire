@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2024-05-21T08:50:37.071731+02:00" version="2.1.3">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2024-05-21T12:21:20.617730+02:00" version="2.1.3">
 	<optionset dc:uri="http://example.com/terms/options/AllEntities">
 		<uri_prefix>http://example.com/terms</uri_prefix>
 		<uri_path>AllEntities</uri_path>
@@ -1053,7 +1053,7 @@
 		<uri_prefix>http://example.com/terms</uri_prefix>
 		<uri_path>Quantity2</uri_path>
 		<dc:comment/>
-		<provider_key>Quantity2</provider_key>
+		<provider_key>QuantityRelations</provider_key>
 		<options/>
 		<conditions/>
 	</optionset>
@@ -1138,7 +1138,7 @@
 		<uri_prefix>http://example.com/terms</uri_prefix>
 		<uri_path>QuantityKind2</uri_path>
 		<dc:comment/>
-		<provider_key>QuantityKind2</provider_key>
+		<provider_key>QuantityKindRelations</provider_key>
 		<options/>
 		<conditions/>
 	</optionset>
@@ -1208,6 +1208,41 @@
 		<help lang="en"/>
 		<view_text lang="en"/>
 		<text lang="de">ist ähnlich zu</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<optionset dc:uri="http://example.com/terms/options/QuantityOrQuantityKind">
+		<uri_prefix>http://example.com/terms</uri_prefix>
+		<uri_path>QuantityOrQuantityKind</uri_path>
+		<dc:comment/>
+		<provider_key/>
+		<options>
+			<option dc:uri="http://example.com/terms/options/QuantityOrQuantityKind0" order="1"/>
+			<option dc:uri="http://example.com/terms/options/QuantityOrQuanttiyKind1" order="2"/>
+		</options>
+		<conditions/>
+	</optionset>
+	<option dc:uri="http://example.com/terms/options/QuantityOrQuantityKind0">
+		<uri_prefix>http://example.com/terms</uri_prefix>
+		<uri_path>QuantityOrQuantityKind0</uri_path>
+		<dc:comment/>
+		<text lang="en">Quantity</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Quantität</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="http://example.com/terms/options/QuantityOrQuanttiyKind1">
+		<uri_prefix>http://example.com/terms</uri_prefix>
+		<uri_path>QuantityOrQuanttiyKind1</uri_path>
+		<dc:comment/>
+		<text lang="en">Quantity Kind</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Quantitätsart</text>
 		<help lang="de"/>
 		<view_text lang="de"/>
 		<additional_input/>
