@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2024-05-16T19:01:52.626076+02:00" version="2.1.3">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2024-05-21T08:50:47.540426+02:00" version="2.1.3">
 	<attribute dc:uri="http://example.com/terms/domain/MaRDI">
 		<uri_prefix>http://example.com/terms</uri_prefix>
 		<key>MaRDI</key>
@@ -448,244 +448,6 @@
 		<dc:comment/>
 		<parent dc:uri="http://example.com/terms/domain/MaRDI/Section_3/Set_0"/>
 	</attribute>
-	<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3/Set_0/Wiki_01_hidden_0">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<key>Wiki_01_hidden_0</key>
-		<path>MaRDI/Section_3/Set_0/Wiki_01_hidden_0</path>
-		<dc:comment/>
-		<parent dc:uri="http://example.com/terms/domain/MaRDI/Section_3/Set_0"/>
-	</attribute>
-	<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3/Set_0/Wiki_01_hidden_1">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<key>Wiki_01_hidden_1</key>
-		<path>MaRDI/Section_3/Set_0/Wiki_01_hidden_1</path>
-		<dc:comment/>
-		<parent dc:uri="http://example.com/terms/domain/MaRDI/Section_3/Set_0"/>
-	</attribute>
-	<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3/Set_0/Wiki_01_hidden_10">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<key>Wiki_01_hidden_10</key>
-		<path>MaRDI/Section_3/Set_0/Wiki_01_hidden_10</path>
-		<dc:comment/>
-		<parent dc:uri="http://example.com/terms/domain/MaRDI/Section_3/Set_0"/>
-	</attribute>
-	<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3/Set_0/Wiki_01_hidden_11">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<key>Wiki_01_hidden_11</key>
-		<path>MaRDI/Section_3/Set_0/Wiki_01_hidden_11</path>
-		<dc:comment/>
-		<parent dc:uri="http://example.com/terms/domain/MaRDI/Section_3/Set_0"/>
-	</attribute>
-	<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3/Set_0/Wiki_01_hidden_12">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<key>Wiki_01_hidden_12</key>
-		<path>MaRDI/Section_3/Set_0/Wiki_01_hidden_12</path>
-		<dc:comment/>
-		<parent dc:uri="http://example.com/terms/domain/MaRDI/Section_3/Set_0"/>
-	</attribute>
-	<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3/Set_0/Wiki_01_hidden_13">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<key>Wiki_01_hidden_13</key>
-		<path>MaRDI/Section_3/Set_0/Wiki_01_hidden_13</path>
-		<dc:comment/>
-		<parent dc:uri="http://example.com/terms/domain/MaRDI/Section_3/Set_0"/>
-	</attribute>
-	<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3/Set_0/Wiki_01_hidden_14">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<key>Wiki_01_hidden_14</key>
-		<path>MaRDI/Section_3/Set_0/Wiki_01_hidden_14</path>
-		<dc:comment/>
-		<parent dc:uri="http://example.com/terms/domain/MaRDI/Section_3/Set_0"/>
-	</attribute>
-	<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3/Set_0/Wiki_01_hidden_15">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<key>Wiki_01_hidden_15</key>
-		<path>MaRDI/Section_3/Set_0/Wiki_01_hidden_15</path>
-		<dc:comment/>
-		<parent dc:uri="http://example.com/terms/domain/MaRDI/Section_3/Set_0"/>
-	</attribute>
-	<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3/Set_0/Wiki_01_hidden_16">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<key>Wiki_01_hidden_16</key>
-		<path>MaRDI/Section_3/Set_0/Wiki_01_hidden_16</path>
-		<dc:comment/>
-		<parent dc:uri="http://example.com/terms/domain/MaRDI/Section_3/Set_0"/>
-	</attribute>
-	<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3/Set_0/Wiki_01_hidden_17">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<key>Wiki_01_hidden_17</key>
-		<path>MaRDI/Section_3/Set_0/Wiki_01_hidden_17</path>
-		<dc:comment/>
-		<parent dc:uri="http://example.com/terms/domain/MaRDI/Section_3/Set_0"/>
-	</attribute>
-	<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3/Set_0/Wiki_01_hidden_18">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<key>Wiki_01_hidden_18</key>
-		<path>MaRDI/Section_3/Set_0/Wiki_01_hidden_18</path>
-		<dc:comment/>
-		<parent dc:uri="http://example.com/terms/domain/MaRDI/Section_3/Set_0"/>
-	</attribute>
-	<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3/Set_0/Wiki_01_hidden_19">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<key>Wiki_01_hidden_19</key>
-		<path>MaRDI/Section_3/Set_0/Wiki_01_hidden_19</path>
-		<dc:comment/>
-		<parent dc:uri="http://example.com/terms/domain/MaRDI/Section_3/Set_0"/>
-	</attribute>
-	<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3/Set_0/Wiki_01_hidden_2">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<key>Wiki_01_hidden_2</key>
-		<path>MaRDI/Section_3/Set_0/Wiki_01_hidden_2</path>
-		<dc:comment/>
-		<parent dc:uri="http://example.com/terms/domain/MaRDI/Section_3/Set_0"/>
-	</attribute>
-	<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3/Set_0/Wiki_01_hidden_20">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<key>Wiki_01_hidden_20</key>
-		<path>MaRDI/Section_3/Set_0/Wiki_01_hidden_20</path>
-		<dc:comment/>
-		<parent dc:uri="http://example.com/terms/domain/MaRDI/Section_3/Set_0"/>
-	</attribute>
-	<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3/Set_0/Wiki_01_hidden_21">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<key>Wiki_01_hidden_21</key>
-		<path>MaRDI/Section_3/Set_0/Wiki_01_hidden_21</path>
-		<dc:comment/>
-		<parent dc:uri="http://example.com/terms/domain/MaRDI/Section_3/Set_0"/>
-	</attribute>
-	<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3/Set_0/Wiki_01_hidden_3">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<key>Wiki_01_hidden_3</key>
-		<path>MaRDI/Section_3/Set_0/Wiki_01_hidden_3</path>
-		<dc:comment/>
-		<parent dc:uri="http://example.com/terms/domain/MaRDI/Section_3/Set_0"/>
-	</attribute>
-	<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3/Set_0/Wiki_01_hidden_4">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<key>Wiki_01_hidden_4</key>
-		<path>MaRDI/Section_3/Set_0/Wiki_01_hidden_4</path>
-		<dc:comment/>
-		<parent dc:uri="http://example.com/terms/domain/MaRDI/Section_3/Set_0"/>
-	</attribute>
-	<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3/Set_0/Wiki_01_hidden_5">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<key>Wiki_01_hidden_5</key>
-		<path>MaRDI/Section_3/Set_0/Wiki_01_hidden_5</path>
-		<dc:comment/>
-		<parent dc:uri="http://example.com/terms/domain/MaRDI/Section_3/Set_0"/>
-	</attribute>
-	<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3/Set_0/Wiki_01_hidden_6">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<key>Wiki_01_hidden_6</key>
-		<path>MaRDI/Section_3/Set_0/Wiki_01_hidden_6</path>
-		<dc:comment/>
-		<parent dc:uri="http://example.com/terms/domain/MaRDI/Section_3/Set_0"/>
-	</attribute>
-	<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3/Set_0/Wiki_01_hidden_7">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<key>Wiki_01_hidden_7</key>
-		<path>MaRDI/Section_3/Set_0/Wiki_01_hidden_7</path>
-		<dc:comment/>
-		<parent dc:uri="http://example.com/terms/domain/MaRDI/Section_3/Set_0"/>
-	</attribute>
-	<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3/Set_0/Wiki_01_hidden_8">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<key>Wiki_01_hidden_8</key>
-		<path>MaRDI/Section_3/Set_0/Wiki_01_hidden_8</path>
-		<dc:comment/>
-		<parent dc:uri="http://example.com/terms/domain/MaRDI/Section_3/Set_0"/>
-	</attribute>
-	<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3/Set_0/Wiki_01_hidden_9">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<key>Wiki_01_hidden_9</key>
-		<path>MaRDI/Section_3/Set_0/Wiki_01_hidden_9</path>
-		<dc:comment/>
-		<parent dc:uri="http://example.com/terms/domain/MaRDI/Section_3/Set_0"/>
-	</attribute>
-	<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3/Set_1">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<key>Set_1</key>
-		<path>MaRDI/Section_3/Set_1</path>
-		<dc:comment/>
-		<parent dc:uri="http://example.com/terms/domain/MaRDI/Section_3"/>
-	</attribute>
-	<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3/Set_1/Question_02">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<key>Question_02</key>
-		<path>MaRDI/Section_3/Set_1/Question_02</path>
-		<dc:comment/>
-		<parent dc:uri="http://example.com/terms/domain/MaRDI/Section_3/Set_1"/>
-	</attribute>
-	<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3/Set_1/Question_03">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<key>Question_03</key>
-		<path>MaRDI/Section_3/Set_1/Question_03</path>
-		<dc:comment/>
-		<parent dc:uri="http://example.com/terms/domain/MaRDI/Section_3/Set_1"/>
-	</attribute>
-	<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3/Set_2">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<key>Set_2</key>
-		<path>MaRDI/Section_3/Set_2</path>
-		<dc:comment/>
-		<parent dc:uri="http://example.com/terms/domain/MaRDI/Section_3"/>
-	</attribute>
-	<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3/Set_2/Question_01">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<key>Question_01</key>
-		<path>MaRDI/Section_3/Set_2/Question_01</path>
-		<dc:comment/>
-		<parent dc:uri="http://example.com/terms/domain/MaRDI/Section_3/Set_2"/>
-	</attribute>
-	<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3/Set_2/Question_02">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<key>Question_02</key>
-		<path>MaRDI/Section_3/Set_2/Question_02</path>
-		<dc:comment/>
-		<parent dc:uri="http://example.com/terms/domain/MaRDI/Section_3/Set_2"/>
-	</attribute>
-	<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3/Set_2/Question_03">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<key>Question_03</key>
-		<path>MaRDI/Section_3/Set_2/Question_03</path>
-		<dc:comment/>
-		<parent dc:uri="http://example.com/terms/domain/MaRDI/Section_3/Set_2"/>
-	</attribute>
-	<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3/Set_2/Question_04">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<key>Question_04</key>
-		<path>MaRDI/Section_3/Set_2/Question_04</path>
-		<dc:comment/>
-		<parent dc:uri="http://example.com/terms/domain/MaRDI/Section_3/Set_2"/>
-	</attribute>
-	<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3/Set_3">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<key>Set_3</key>
-		<path>MaRDI/Section_3/Set_3</path>
-		<dc:comment/>
-		<parent dc:uri="http://example.com/terms/domain/MaRDI/Section_3"/>
-	</attribute>
-	<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3/Set_3/Question_01">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<key>Question_01</key>
-		<path>MaRDI/Section_3/Set_3/Question_01</path>
-		<dc:comment/>
-		<parent dc:uri="http://example.com/terms/domain/MaRDI/Section_3/Set_3"/>
-	</attribute>
-	<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3/Set_3/Question_02">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<key>Question_02</key>
-		<path>MaRDI/Section_3/Set_3/Question_02</path>
-		<dc:comment/>
-		<parent dc:uri="http://example.com/terms/domain/MaRDI/Section_3/Set_3"/>
-	</attribute>
-	<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3/Set_3/Question_03">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<key>Question_03</key>
-		<path>MaRDI/Section_3/Set_3/Question_03</path>
-		<dc:comment/>
-		<parent dc:uri="http://example.com/terms/domain/MaRDI/Section_3/Set_3"/>
-	</attribute>
 	<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3a">
 		<uri_prefix>http://example.com/terms</uri_prefix>
 		<key>Section_3a</key>
@@ -741,6 +503,13 @@
 		<path>MaRDI/Section_3a/Set_0/Set_0/Question_1</path>
 		<dc:comment/>
 		<parent dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_0/Set_0"/>
+	</attribute>
+	<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_0_hidden">
+		<uri_prefix>http://example.com/terms</uri_prefix>
+		<key>Set_0_hidden</key>
+		<path>MaRDI/Section_3a/Set_0_hidden</path>
+		<dc:comment/>
+		<parent dc:uri="http://example.com/terms/domain/MaRDI/Section_3a"/>
 	</attribute>
 	<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_1">
 		<uri_prefix>http://example.com/terms</uri_prefix>
@@ -804,6 +573,13 @@
 		<path>MaRDI/Section_3a/Set_1/Set_0/Question_1</path>
 		<dc:comment/>
 		<parent dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_1/Set_0"/>
+	</attribute>
+	<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_1_hidden">
+		<uri_prefix>http://example.com/terms</uri_prefix>
+		<key>Set_1_hidden</key>
+		<path>MaRDI/Section_3a/Set_1_hidden</path>
+		<dc:comment/>
+		<parent dc:uri="http://example.com/terms/domain/MaRDI/Section_3a"/>
 	</attribute>
 	<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_2">
 		<uri_prefix>http://example.com/terms</uri_prefix>
@@ -875,6 +651,13 @@
 		<dc:comment/>
 		<parent dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_2/Set_0"/>
 	</attribute>
+	<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_2_hidden">
+		<uri_prefix>http://example.com/terms</uri_prefix>
+		<key>Set_2_hidden</key>
+		<path>MaRDI/Section_3a/Set_2_hidden</path>
+		<dc:comment/>
+		<parent dc:uri="http://example.com/terms/domain/MaRDI/Section_3a"/>
+	</attribute>
 	<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_3">
 		<uri_prefix>http://example.com/terms</uri_prefix>
 		<key>Set_3</key>
@@ -930,6 +713,13 @@
 		<path>MaRDI/Section_3a/Set_3/Set_0/Question_1</path>
 		<dc:comment/>
 		<parent dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_3/Set_0"/>
+	</attribute>
+	<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_3_hidden">
+		<uri_prefix>http://example.com/terms</uri_prefix>
+		<key>Set_3_hidden</key>
+		<path>MaRDI/Section_3a/Set_3_hidden</path>
+		<dc:comment/>
+		<parent dc:uri="http://example.com/terms/domain/MaRDI/Section_3a"/>
 	</attribute>
 	<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_4">
 		<uri_prefix>http://example.com/terms</uri_prefix>
@@ -1007,6 +797,13 @@
 		<path>MaRDI/Section_3a/Set_4/Set_1/Question_1</path>
 		<dc:comment/>
 		<parent dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_4/Set_1"/>
+	</attribute>
+	<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_4_hidden">
+		<uri_prefix>http://example.com/terms</uri_prefix>
+		<key>Set_4_hidden</key>
+		<path>MaRDI/Section_3a/Set_4_hidden</path>
+		<dc:comment/>
+		<parent dc:uri="http://example.com/terms/domain/MaRDI/Section_3a"/>
 	</attribute>
 	<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_5">
 		<uri_prefix>http://example.com/terms</uri_prefix>
@@ -1141,6 +938,13 @@
 		<dc:comment/>
 		<parent dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_5/Set_3"/>
 	</attribute>
+	<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_5_hidden">
+		<uri_prefix>http://example.com/terms</uri_prefix>
+		<key>Set_5_hidden</key>
+		<path>MaRDI/Section_3a/Set_5_hidden</path>
+		<dc:comment/>
+		<parent dc:uri="http://example.com/terms/domain/MaRDI/Section_3a"/>
+	</attribute>
 	<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_6">
 		<uri_prefix>http://example.com/terms</uri_prefix>
 		<key>Set_6</key>
@@ -1260,6 +1064,13 @@
 		<dc:comment/>
 		<parent dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_6/Set_2"/>
 	</attribute>
+	<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_6_hidden">
+		<uri_prefix>http://example.com/terms</uri_prefix>
+		<key>Set_6_hidden</key>
+		<path>MaRDI/Section_3a/Set_6_hidden</path>
+		<dc:comment/>
+		<parent dc:uri="http://example.com/terms/domain/MaRDI/Section_3a"/>
+	</attribute>
 	<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_7">
 		<uri_prefix>http://example.com/terms</uri_prefix>
 		<key>Set_7</key>
@@ -1294,6 +1105,13 @@
 		<path>MaRDI/Section_3a/Set_7/Set_0/Question_1</path>
 		<dc:comment/>
 		<parent dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_7/Set_0"/>
+	</attribute>
+	<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_7_hidden">
+		<uri_prefix>http://example.com/terms</uri_prefix>
+		<key>Set_7_hidden</key>
+		<path>MaRDI/Section_3a/Set_7_hidden</path>
+		<dc:comment/>
+		<parent dc:uri="http://example.com/terms/domain/MaRDI/Section_3a"/>
 	</attribute>
 	<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_4">
 		<uri_prefix>http://example.com/terms</uri_prefix>
@@ -1365,6 +1183,13 @@
 		<dc:comment/>
 		<parent dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_1"/>
 	</attribute>
+	<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_1_hidden">
+		<uri_prefix>http://example.com/terms</uri_prefix>
+		<key>Set_1_hidden</key>
+		<path>MaRDI/Section_4/Set_1_hidden</path>
+		<dc:comment/>
+		<parent dc:uri="http://example.com/terms/domain/MaRDI/Section_4"/>
+	</attribute>
 	<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_2">
 		<uri_prefix>http://example.com/terms</uri_prefix>
 		<key>Set_2</key>
@@ -1434,6 +1259,13 @@
 		<path>MaRDI/Section_4/Set_2/Wiki_04</path>
 		<dc:comment/>
 		<parent dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_2"/>
+	</attribute>
+	<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_2_hidden">
+		<uri_prefix>http://example.com/terms</uri_prefix>
+		<key>Set_2_hidden</key>
+		<path>MaRDI/Section_4/Set_2_hidden</path>
+		<dc:comment/>
+		<parent dc:uri="http://example.com/terms/domain/MaRDI/Section_4"/>
 	</attribute>
 	<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_2b">
 		<uri_prefix>http://example.com/terms</uri_prefix>
@@ -1554,6 +1386,13 @@
 		<dc:comment/>
 		<parent dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_3"/>
 	</attribute>
+	<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_3_hidden">
+		<uri_prefix>http://example.com/terms</uri_prefix>
+		<key>Set_3_hidden</key>
+		<path>MaRDI/Section_4/Set_3_hidden</path>
+		<dc:comment/>
+		<parent dc:uri="http://example.com/terms/domain/MaRDI/Section_4"/>
+	</attribute>
 	<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_4">
 		<uri_prefix>http://example.com/terms</uri_prefix>
 		<key>Set_4</key>
@@ -1609,6 +1448,13 @@
 		<path>MaRDI/Section_4/Set_4/Question_07</path>
 		<dc:comment/>
 		<parent dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_4"/>
+	</attribute>
+	<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_4_hidden">
+		<uri_prefix>http://example.com/terms</uri_prefix>
+		<key>Set_4_hidden</key>
+		<path>MaRDI/Section_4/Set_4_hidden</path>
+		<dc:comment/>
+		<parent dc:uri="http://example.com/terms/domain/MaRDI/Section_4"/>
 	</attribute>
 	<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_5">
 		<uri_prefix>http://example.com/terms</uri_prefix>
@@ -1672,6 +1518,13 @@
 		<path>MaRDI/Section_4/Set_5/Question_08</path>
 		<dc:comment/>
 		<parent dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_5"/>
+	</attribute>
+	<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_5_hidden">
+		<uri_prefix>http://example.com/terms</uri_prefix>
+		<key>Set_5_hidden</key>
+		<path>MaRDI/Section_4/Set_5_hidden</path>
+		<dc:comment/>
+		<parent dc:uri="http://example.com/terms/domain/MaRDI/Section_4"/>
 	</attribute>
 	<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_6">
 		<uri_prefix>http://example.com/terms</uri_prefix>
@@ -1763,6 +1616,13 @@
 		<path>MaRDI/Section_4/Set_6/Question_11</path>
 		<dc:comment/>
 		<parent dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_6"/>
+	</attribute>
+	<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_6_hidden">
+		<uri_prefix>http://example.com/terms</uri_prefix>
+		<key>Set_6_hidden</key>
+		<path>MaRDI/Section_4/Set_6_hidden</path>
+		<dc:comment/>
+		<parent dc:uri="http://example.com/terms/domain/MaRDI/Section_4"/>
 	</attribute>
 	<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_5">
 		<uri_prefix>http://example.com/terms</uri_prefix>

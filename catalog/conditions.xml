@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2024-05-16T19:01:31.802430+02:00" version="2.1.3">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2024-05-21T08:50:30.807123+02:00" version="2.1.3">
 	<condition dc:uri="http://example.com/terms/conditions/MathematicalFormulation_property">
 		<uri_prefix>http://example.com/terms</uri_prefix>
 		<uri_path>MathematicalFormulation_property</uri_path>
 		<dc:comment/>
-		<source dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_5"/>
+		<source dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_5_hidden"/>
 		<relation>eq</relation>
 		<target_text>1</target_text>
 		<target_option/>
@@ -22,7 +22,7 @@
 		<uri_prefix>http://example.com/terms</uri_prefix>
 		<uri_path>MathematicalModel_property</uri_path>
 		<dc:comment/>
-		<source dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_2"/>
+		<source dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_2_hidden"/>
 		<relation>eq</relation>
 		<target_text>1</target_text>
 		<target_option/>
@@ -40,7 +40,7 @@
 		<uri_prefix>http://example.com/terms</uri_prefix>
 		<uri_path>MathematicalTask_property</uri_path>
 		<dc:comment/>
-		<source dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_6"/>
+		<source dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_6_hidden"/>
 		<relation>eq</relation>
 		<target_text>1</target_text>
 		<target_option/>
@@ -58,7 +58,7 @@
 		<uri_prefix>http://example.com/terms</uri_prefix>
 		<uri_path>Publication_property</uri_path>
 		<dc:comment/>
-		<source dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_7"/>
+		<source dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_7_hidden"/>
 		<relation>eq</relation>
 		<target_text>1</target_text>
 		<target_option/>
@@ -67,7 +67,7 @@
 		<uri_prefix>http://example.com/terms</uri_prefix>
 		<uri_path>QuantityKind_property</uri_path>
 		<dc:comment/>
-		<source dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_4"/>
+		<source dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_4_hidden"/>
 		<relation>eq</relation>
 		<target_text>1</target_text>
 		<target_option/>
@@ -76,7 +76,7 @@
 		<uri_prefix>http://example.com/terms</uri_prefix>
 		<uri_path>Quantity_property</uri_path>
 		<dc:comment/>
-		<source dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_3"/>
+		<source dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_3_hidden"/>
 		<relation>eq</relation>
 		<target_text>1</target_text>
 		<target_option/>
@@ -85,7 +85,7 @@
 		<uri_prefix>http://example.com/terms</uri_prefix>
 		<uri_path>ResearchField_property</uri_path>
 		<dc:comment/>
-		<source dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_0"/>
+		<source dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_0_hidden"/>
 		<relation>eq</relation>
 		<target_text>1</target_text>
 		<target_option/>
@@ -94,7 +94,7 @@
 		<uri_prefix>http://example.com/terms</uri_prefix>
 		<uri_path>ResearchProblem_property</uri_path>
 		<dc:comment/>
-		<source dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_1"/>
+		<source dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_1_hidden"/>
 		<relation>eq</relation>
 		<target_text>1</target_text>
 		<target_option/>
@@ -130,7 +130,7 @@
 		<uri_prefix>http://example.com/terms</uri_prefix>
 		<uri_path>data_property</uri_path>
 		<dc:comment/>
-		<source dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_6"/>
+		<source dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_6_hidden"/>
 		<relation>eq</relation>
 		<target_text>1</target_text>
 		<target_option/>
@@ -157,7 +157,7 @@
 		<uri_prefix>http://example.com/terms</uri_prefix>
 		<uri_path>hardware_property</uri_path>
 		<dc:comment/>
-		<source dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_4"/>
+		<source dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_4_hidden"/>
 		<relation>eq</relation>
 		<target_text>1</target_text>
 		<target_option/>
@@ -175,7 +175,7 @@
 		<uri_prefix>http://example.com/terms</uri_prefix>
 		<uri_path>instrument_property</uri_path>
 		<dc:comment/>
-		<source dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_5"/>
+		<source dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_5_hidden"/>
 		<relation>eq</relation>
 		<target_text>1</target_text>
 		<target_option/>
@@ -193,7 +193,7 @@
 		<uri_prefix>http://example.com/terms</uri_prefix>
 		<uri_path>method_property</uri_path>
 		<dc:comment/>
-		<source dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_2"/>
+		<source dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_2_hidden"/>
 		<relation>eq</relation>
 		<target_text>1</target_text>
 		<target_option/>
@@ -310,7 +310,7 @@
 		<uri_prefix>http://example.com/terms</uri_prefix>
 		<uri_path>software_property</uri_path>
 		<dc:comment/>
-		<source dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_3"/>
+		<source dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_3_hidden"/>
 		<relation>eq</relation>
 		<target_text>1</target_text>
 		<target_option/>
@@ -319,7 +319,7 @@
 		<uri_prefix>http://example.com/terms</uri_prefix>
 		<uri_path>step_property</uri_path>
 		<dc:comment/>
-		<source dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_1"/>
+		<source dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_1_hidden"/>
 		<relation>eq</relation>
 		<target_text>1</target_text>
 		<target_option/>
