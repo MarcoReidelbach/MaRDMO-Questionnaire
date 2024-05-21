@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2024-05-21T12:21:20.617730+02:00" version="2.1.3">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2024-05-21T13:47:31.033702+02:00" version="2.1.3">
 	<optionset dc:uri="http://example.com/terms/options/AllEntities">
 		<uri_prefix>http://example.com/terms</uri_prefix>
 		<uri_path>AllEntities</uri_path>
@@ -1049,14 +1049,6 @@
 		<options/>
 		<conditions/>
 	</optionset>
-	<optionset dc:uri="http://example.com/terms/options/Quantity2">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>Quantity2</uri_path>
-		<dc:comment/>
-		<provider_key>QuantityRelations</provider_key>
-		<options/>
-		<conditions/>
-	</optionset>
 	<optionset dc:uri="http://example.com/terms/options/QuantityAndQuantityKind">
 		<uri_prefix>http://example.com/terms</uri_prefix>
 		<uri_path>QuantityAndQuantityKind</uri_path>
@@ -1134,9 +1126,9 @@
 		<options/>
 		<conditions/>
 	</optionset>
-	<optionset dc:uri="http://example.com/terms/options/QuantityKind2">
+	<optionset dc:uri="http://example.com/terms/options/QuantityKindRelations">
 		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>QuantityKind2</uri_path>
+		<uri_path>QuantityKindRelations</uri_path>
 		<dc:comment/>
 		<provider_key>QuantityKindRelations</provider_key>
 		<options/>
@@ -1247,6 +1239,14 @@
 		<view_text lang="de"/>
 		<additional_input/>
 	</option>
+	<optionset dc:uri="http://example.com/terms/options/QuantityRelations">
+		<uri_prefix>http://example.com/terms</uri_prefix>
+		<uri_path>QuantityRelations</uri_path>
+		<dc:comment/>
+		<provider_key>QuantityRelations</provider_key>
+		<options/>
+		<conditions/>
+	</optionset>
 	<optionset dc:uri="http://example.com/terms/options/Quantity_properties">
 		<uri_prefix>http://example.com/terms</uri_prefix>
 		<uri_path>Quantity_properties</uri_path>
@@ -1351,11 +1351,11 @@
 		<options/>
 		<conditions/>
 	</optionset>
-	<optionset dc:uri="http://example.com/terms/options/ResearchField2">
+	<optionset dc:uri="http://example.com/terms/options/ResearchFieldRelations">
 		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>ResearchField2</uri_path>
+		<uri_path>ResearchFieldRelations</uri_path>
 		<dc:comment/>
-		<provider_key>ResearchField2</provider_key>
+		<provider_key>ResearchFieldRelations</provider_key>
 		<options/>
 		<conditions/>
 	</optionset>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2024-05-21T12:21:16.051428+02:00" version="2.1.3">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2024-05-21T13:47:25.183104+02:00" version="2.1.3">
 	<catalog dc:uri="http://example.com/terms/questions/MaRDI">
 		<uri_prefix>http://example.com/terms</uri_prefix>
 		<uri_path>MaRDI</uri_path>
@@ -1340,15 +1340,16 @@
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_0"/>
 		<is_collection>True</is_collection>
 		<title lang="en">Related Research Field</title>
-		<help lang="en"/>
+		<help lang="en">The following questions allow you to add new Research Fields to MathModDB and relate them with each other and with existing Research Fields from the MathModDB. To do so, you may select existing Research Fields from Wikidata / MaRDI KG or define new Research Fields by yourself. At least one Research Field needs to be defined here! The specification of further Research Fields and possible relations is OPTIONAL and will be added by a curator if not provided.</help>
 		<verbose_name lang="en"/>
 		<title lang="de">Zugehöriges Forschungsgebiet</title>
-		<help lang="de"/>
+		<help lang="de">Mit den folgenden Fragen können Sie neue Forschungsgebiete in die MathModDB aufnehmen und diese untereinander und mit bestehenden Forschungsgebieten aus der MathModDB in Beziehung setzen. Dazu können Sie bestehende Forschungssgebiete aus Wikidata / MaRDI KG auswählen oder selbst neue Forschungsgebiete definieren. Mindestens ein Forschungsgebiet muss hier definiert werden! Die Angabe weiterer Forschungsgebiete und möglicher Beziehungen ist OPTIONAL und wird, wenn nicht vorhanden, von einem Kurator hinzugefügt.</help>
 		<verbose_name lang="de"/>
 		<questionsets>
 			<questionset dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_0/Set_0" order="4"/>
 		</questionsets>
 		<questions>
+			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_0/Question_3" order="0"/>
 			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_0/Question_0" order="1"/>
 			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_0/Question_1" order="2"/>
 			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_0/Question_2" order="3"/>
@@ -1364,10 +1365,10 @@
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_0/Set_0"/>
 		<is_collection>True</is_collection>
 		<title lang="en">Research Field Connections</title>
-		<help lang="en"/>
+		<help lang="en">The following questions allow you to relate the new Research Field to other Research Field from MathModDB or created here. This is OPTIONAL, if no relations are defined, they will be added through a curator.</help>
 		<verbose_name lang="en"/>
 		<title lang="de">Forschungsgebiet Verbindungen</title>
-		<help lang="de"/>
+		<help lang="de">Die folgenden Fragen ermöglichen es Ihnen, das neue Forschungsgebiet mit anderen Forschungsgebieten aus MathModDB oder hier erstellten Forschungsgebieten in Relation zu setzen. Dies ist OPTIONAL, wenn keine Relationen definiert sind, werden sie durch einen Kurator hinzugefügt.</help>
 		<verbose_name lang="de"/>
 		<questionsets/>
 		<questions>
@@ -1382,7 +1383,7 @@
 		<dc:comment/>
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_0/Set_0/Question_1"/>
 		<is_collection>False</is_collection>
-		<is_optional>False</is_optional>
+		<is_optional>True</is_optional>
 		<help lang="en"/>
 		<text lang="en">The new Research Field...</text>
 		<default_text lang="en"/>
@@ -1411,7 +1412,7 @@
 		<dc:comment/>
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_0/Set_0/Question_0"/>
 		<is_collection>False</is_collection>
-		<is_optional>False</is_optional>
+		<is_optional>True</is_optional>
 		<help lang="en"/>
 		<text lang="en">...another Research Field.</text>
 		<default_text lang="en"/>
@@ -1430,7 +1431,36 @@
 		<unit/>
 		<width/>
 		<optionsets>
-			<optionset dc:uri="http://example.com/terms/options/ResearchField2"/>
+			<optionset dc:uri="http://example.com/terms/options/ResearchFieldRelations"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_0/Question_3">
+		<uri_prefix>http://example.com/terms</uri_prefix>
+		<uri_path>MaRDI/Section_3a/Set_0/Question_3</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_0/Question_3"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en">If you cannot find an appropriate Research Field on Wikidata or the MaRDI KG, please describe it in the following questions.</help>
+		<text lang="en">Select an appropriate Research Field from Wikidata or MaRDI KG!</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de">Wenn Sie kein passendes Forschungsfeld in Wikidata oder dem MaRDI KG finden, beschreiben Sie es bitte in den folgenden Fragen.</help>
+		<text lang="de">Wählen Sie ein geeignetes Forschungsfeld aus Wikidata oder dem MaRDI KG aus!</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>autocomplete</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="http://example.com/terms/options/wikidata_search"/>
 		</optionsets>
 		<conditions/>
 	</question>
@@ -1459,7 +1489,9 @@
 		<unit/>
 		<width/>
 		<optionsets/>
-		<conditions/>
+		<conditions>
+			<condition dc:uri="http://example.com/terms/conditions/RFpresent"/>
+		</conditions>
 	</question>
 	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_0/Question_1">
 		<uri_prefix>http://example.com/terms</uri_prefix>
@@ -1486,7 +1518,9 @@
 		<unit/>
 		<width/>
 		<optionsets/>
-		<conditions/>
+		<conditions>
+			<condition dc:uri="http://example.com/terms/conditions/RFpresent"/>
+		</conditions>
 	</question>
 	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_0/Question_2">
 		<uri_prefix>http://example.com/terms</uri_prefix>
@@ -1513,7 +1547,9 @@
 		<unit/>
 		<width/>
 		<optionsets/>
-		<conditions/>
+		<conditions>
+			<condition dc:uri="http://example.com/terms/conditions/RFpresent"/>
+		</conditions>
 	</question>
 	<page dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_1">
 		<uri_prefix>http://example.com/terms</uri_prefix>
@@ -1724,7 +1760,7 @@
 		<unit/>
 		<width/>
 		<optionsets>
-			<optionset dc:uri="http://example.com/terms/options/ResearchField2"/>
+			<optionset dc:uri="http://example.com/terms/options/ResearchFieldRelations"/>
 		</optionsets>
 		<conditions/>
 	</question>
@@ -2140,7 +2176,7 @@
 		<unit/>
 		<width/>
 		<optionsets>
-			<optionset dc:uri="http://example.com/terms/options/Quantity2"/>
+			<optionset dc:uri="http://example.com/terms/options/QuantityRelations"/>
 		</optionsets>
 		<conditions/>
 	</question>
@@ -2219,7 +2255,7 @@
 		<unit/>
 		<width/>
 		<optionsets>
-			<optionset dc:uri="http://example.com/terms/options/QuantityKind2"/>
+			<optionset dc:uri="http://example.com/terms/options/QuantityKindRelations"/>
 		</optionsets>
 		<conditions/>
 	</question>
@@ -2298,7 +2334,7 @@
 		<unit/>
 		<width/>
 		<optionsets>
-			<optionset dc:uri="http://example.com/terms/options/Quantity2"/>
+			<optionset dc:uri="http://example.com/terms/options/QuantityRelations"/>
 		</optionsets>
 		<conditions/>
 	</question>
