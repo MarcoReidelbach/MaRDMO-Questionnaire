@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2024-05-21T19:43:07.210945+02:00" version="2.1.3">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2024-05-22T11:21:43.104001+02:00" version="2.1.3">
 	<catalog dc:uri="http://example.com/terms/questions/MaRDI">
 		<uri_prefix>http://example.com/terms</uri_prefix>
 		<uri_path>MaRDI</uri_path>
@@ -1150,11 +1150,11 @@
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3/Set_0/Set_0/Question_04"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en"/>
+		<help lang="en">If no appropriate Research Field is available in MathModDB, you have to create one in the following section.</help>
 		<text lang="en">Select a research field related to the new Mathematical model!</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de"/>
+		<help lang="de">Falls kein geeignetes Forschungsgebiet in MathModDB vorhanden ist, müssen Sie es in der folgenden Sektion erstellen.</help>
 		<text lang="de">Wählen Sie ein Forschungsgebiet aus, das mit dem neuen mathematischen Modell im Zusammenhang steht!</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -1179,11 +1179,11 @@
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3/Set_0/Set_0/Question_05"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en"/>
+		<help lang="en">If no appropriate Research Problem is available in MathModDB, you have to create one in the following section.</help>
 		<text lang="en">Select a Research Problem related to the new Mathematical Model!</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de"/>
+		<help lang="de">Falls kein geeignetes Forschungsproblem in MathModDB vorhanden ist, müssen Sie es in der folgenden Sektion erstellen.</help>
 		<text lang="de">Wählen Sie ein Forschungsproblem, das mit dem neuen mathematischen Modell im Zusammenhang steht!</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -1208,11 +1208,11 @@
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3/Set_0/Set_0/Question_06"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">e.g. mathematical models that are included in the new mathematical model or mathematical models that are related to the new mathematical model</help>
+		<help lang="en">If you select yes, you can relate the new mathematical model with other existing models from MathModDB. Alternatively, you can create new mathematical models addressing specific research problems. This allows you to indicate, for example, that the new model is a combination of other existing or newly created mathematical models.</help>
 		<text lang="en">Should the new Mathematical Model be set in relation to others?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">z. B. mathematische Modelle, die in dem neuen mathematischen Modell enthalten sind, oder mathematische Modelle, die mit dem neuen mathematischen Modell in Verbindung stehen</help>
+		<help lang="de">Wenn Sie ja wählen, können Sie das neue mathematische Modell mit anderen bestehenden Modellen aus MathModDB verknüpfen. Alternativ können Sie auch neue mathematische Modelle zu bestimmten Forschungsproblemen erstellen. Auf diese Weise können Sie z. B. angeben, dass das neue Modell eine Kombination aus anderen bestehenden oder neu erstellten mathematischen Modellen ist.</help>
 		<text lang="de">Soll das neue mathematische Modell in Beziehung zu anderen gesetzt werden?</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -1339,10 +1339,10 @@
 		<dc:comment/>
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_0"/>
 		<is_collection>True</is_collection>
-		<title lang="en">Related Research Field</title>
+		<title lang="en">New Research Field</title>
 		<help lang="en">The following questions allow you to add new Research Fields to MathModDB and relate them with each other and with existing Research Fields from the MathModDB. To do so, you may select existing Research Fields from Wikidata / MaRDI KG or define new Research Fields by yourself. At least one Research Field needs to be defined here! The specification of further Research Fields and possible relations is OPTIONAL and will be added by a curator if not provided.</help>
 		<verbose_name lang="en"/>
-		<title lang="de">Zugehöriges Forschungsgebiet</title>
+		<title lang="de">Neues Forschungsgebiet</title>
 		<help lang="de">Mit den folgenden Fragen können Sie neue Forschungsgebiete in die MathModDB aufnehmen und diese untereinander und mit bestehenden Forschungsgebieten aus der MathModDB in Beziehung setzen. Dazu können Sie bestehende Forschungssgebiete aus Wikidata / MaRDI KG auswählen oder selbst neue Forschungsgebiete definieren. Mindestens ein Forschungsgebiet muss hier definiert werden! Die Angabe weiterer Forschungsgebiete und möglicher Beziehungen ist OPTIONAL und wird, wenn nicht vorhanden, von einem Kurator hinzugefügt.</help>
 		<verbose_name lang="de"/>
 		<questionsets>
@@ -1557,10 +1557,10 @@
 		<dc:comment/>
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_1"/>
 		<is_collection>True</is_collection>
-		<title lang="en">Related Research Problem</title>
+		<title lang="en">New Research Problem</title>
 		<help lang="en">The following questions allow you to add new Research Problems to MathModDB and relate them with each other and with existing Research Problems from the MathModDB. To do so, you may select existing Research Problems from Wikidata / MaRDI KG or define new Research Problems by yourself. At least one Research Problem needs to be defined here! If you defined more than one Research Field you have to assign the Research Problem to the appropriate Research Field(s). If you define more than one Research Problem you need to specify which Research Problem(s) are modeled by the Mathematical Model you defined at the beginning. The specification of further Research Problems and possible relations is OPTIONAL and will be added by a curator if not provided.</help>
 		<verbose_name lang="en"/>
-		<title lang="de">Zugehöriges Forschungsproblem</title>
+		<title lang="de">Neues Forschungsproblem</title>
 		<help lang="de">Mit den folgenden Fragen können Sie neue Forschungsprobleme zu MathModDB hinzufügen und sie miteinander und mit bestehenden Forschungsproblemen aus der MathModDB in Relation setzen. Dazu können Sie bestehende Forschungsprobleme aus Wikidata / MaRDI KG auswählen oder selbst neue Forschungsprobleme definieren. Hier muss mindestens ein Forschungsproblem definiert werden! Wenn Sie zuvor mehr als ein Forschungsgebiet definiert haben, müssen Sie das Forschungsproblem dem/den entsprechenden Forschungsgebieten zuordnen. Wenn Sie mehr als ein Forschungsproblem definieren, müssen Sie angeben, welche Forschungsprobleme durch das mathematische Modell modelliert werden, das Sie zu Beginn definiert haben. Die Angabe weiterer Forschungsprobleme und möglicher Zusammenhänge ist OPTIONAL und wird, sofern nicht angegeben, von einem Kurator ergänzt.</help>
 		<verbose_name lang="de"/>
 		<questionsets>
@@ -1835,11 +1835,11 @@
 		<dc:comment/>
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_2"/>
 		<is_collection>True</is_collection>
-		<title lang="en">Related Mathematical Model</title>
-		<help lang="en"/>
+		<title lang="en">Additional Mathematical Model</title>
+		<help lang="en">The following questions allow you to add additional Mathematical Models to MathModDB and relate them with each other and with existing Mathematical Models from MathModDB. You may select existing Mathematical Models from MathModDB or define new Mathematical Models yourself. For existing models, a new Research Problem can optionally be assigned, while it is mandatory for newly created models. All models selected or added here need to be related to existing or newly created models.</help>
 		<verbose_name lang="en"/>
-		<title lang="de">Zugehöriges Mathematisches Modell</title>
-		<help lang="de"/>
+		<title lang="de">Zusätzliches Mathematisches Modell</title>
+		<help lang="de">Mit den folgenden Fragen können Sie weitere mathematische Modelle zu MathModDB hinzufügen und diese untereinander und mit bestehenden mathematischen Modellen aus MathModDB in Beziehung setzen. Sie können bestehende Mathematische Modelle aus MathModDB auswählen oder selbst neue Mathematische Modelle definieren. Für bestehende Modelle kann optional ein neues Forschungsproblem zugewiesen werden, während dies für neu erstellte Modelle obligatorisch ist. Alle hier ausgewählten oder hinzugefügten Modelle müssen mit bestehenden oder neu erstellten Modellen verknüpft sein.</help>
 		<verbose_name lang="de"/>
 		<questionsets>
 			<questionset dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_2/Set_0" order="6"/>
@@ -1863,10 +1863,10 @@
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_2/Set_0"/>
 		<is_collection>True</is_collection>
 		<title lang="en">Mathematical Model Connections</title>
-		<help lang="en"/>
+		<help lang="en">The following questions allow you to relate the additional Mathematical Model to other Mathematical Models from MathModDB or created here.</help>
 		<verbose_name lang="en"/>
 		<title lang="de">Mathematisches Model Verbindungen</title>
-		<help lang="de"/>
+		<help lang="de">Mit den folgenden Fragen können Sie das zusätzliche mathematische Modell mit anderen mathematischen Modellen aus MathModDB oder hier erstellten Modellen in Beziehung setzen.</help>
 		<verbose_name lang="de"/>
 		<questionsets/>
 		<questions>
@@ -1883,11 +1883,11 @@
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en"/>
-		<text lang="en">The existing / next new Mathematical Model...</text>
+		<text lang="en">The additional Mathematical Model...</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de"/>
-		<text lang="de">Das existirende / nächste neue mathematische Modell...</text>
+		<text lang="de">Das zusätzliche mathematische Modell...</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
@@ -1929,7 +1929,7 @@
 		<unit/>
 		<width/>
 		<optionsets>
-			<optionset dc:uri="http://example.com/terms/options/MathematicalModel2"/>
+			<optionset dc:uri="http://example.com/terms/options/MMRelations"/>
 		</optionsets>
 		<conditions/>
 	</question>
@@ -1940,12 +1940,12 @@
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_2/Question_0"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en"/>
-		<text lang="en">Select a Mathematical Model related to the new Mathematical Model!</text>
+		<help lang="en">If you cannot find an appropriate Mathematical Model on MathModDB, please describe it in the following questions.</help>
+		<text lang="en">Select an additional Mathematical Model from MathModDB!</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de"/>
-		<text lang="de">Wählen Sie ein mathematisches Model, das mit dem neuen mathematischen Model im Zusammenhang steht!</text>
+		<help lang="de">Wenn Sie kein passendes mathematisches Modell in MathModDB finden, beschreiben Sie es bitte in den folgenden Fragen.</help>
+		<text lang="de">Wählen Sie ein zusätzliches mathematisches Modell aus MathModDB aus.</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
@@ -1958,7 +1958,7 @@
 		<unit/>
 		<width/>
 		<optionsets>
-			<optionset dc:uri="http://example.com/terms/options/MathematicalModel"/>
+			<optionset dc:uri="http://example.com/terms/options/MathematicalModelAdditional"/>
 		</optionsets>
 		<conditions/>
 	</question>
@@ -1970,11 +1970,11 @@
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en"/>
-		<text lang="en">Provide a name for the next new Mathematical Model.</text>
+		<text lang="en">Provide a name for the additional Mathematical Model.</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de"/>
-		<text lang="de">Geben Sie einen Namen für das nächste neue mathematische Model an.</text>
+		<text lang="de">Geben Sie einen Namen für das zusätzliche mathematische Model an.</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
@@ -1988,7 +1988,7 @@
 		<width/>
 		<optionsets/>
 		<conditions>
-			<condition dc:uri="http://example.com/terms/conditions/MathematicalModel_property2"/>
+			<condition dc:uri="http://example.com/terms/conditions/MMpresent"/>
 		</conditions>
 	</question>
 	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_2/Question_1">
@@ -1999,11 +1999,11 @@
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en"/>
-		<text lang="en">Provide a description for the next new Mathematical Model.</text>
+		<text lang="en">Provide a description for the additional Mathematical Model.</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de"/>
-		<text lang="de">Geben Sie eine Beschreibung für das nächste neue mathematische Model an.</text>
+		<text lang="de">Geben Sie eine Beschreibung für das zusätzliche mathematische Model an.</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
@@ -2017,7 +2017,7 @@
 		<width/>
 		<optionsets/>
 		<conditions>
-			<condition dc:uri="http://example.com/terms/conditions/MathematicalModel_property2"/>
+			<condition dc:uri="http://example.com/terms/conditions/MMpresent"/>
 		</conditions>
 	</question>
 	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_2/Question_2">
@@ -2028,11 +2028,11 @@
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en">wikidata:, dbpedia:, doi:</help>
-		<text lang="en">Provide an ID for the next new Mathematical Model</text>
+		<text lang="en">Provide an ID for the additional Mathematical Model</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de">wikidata:, dbpedia:, doi:</help>
-		<text lang="de">Geben Sie eine ID für das nächste neue mathematische Model an</text>
+		<text lang="de">Geben Sie eine ID für das zusätzliche mathematische Model an</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
@@ -2046,7 +2046,7 @@
 		<width/>
 		<optionsets/>
 		<conditions>
-			<condition dc:uri="http://example.com/terms/conditions/MathematicalModel_property2"/>
+			<condition dc:uri="http://example.com/terms/conditions/MMpresent"/>
 		</conditions>
 	</question>
 	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_2/Question_3">
@@ -2057,11 +2057,11 @@
 		<is_collection>True</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en"/>
-		<text lang="en">Assign appropriate properties to the next new Mathematical Model.</text>
+		<text lang="en">Assign appropriate properties to the additional Mathematical Model.</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de"/>
-		<text lang="de">Ordnen Sie dem nächsten neuen mathematischen Modell passende Eigenschaften zu.</text>
+		<text lang="de">Ordnen Sie dem zusätzlichen mathematischen Modell passende Eigenschaften zu.</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
@@ -2077,7 +2077,7 @@
 			<optionset dc:uri="http://example.com/terms/options/MathematicalModel_properties"/>
 		</optionsets>
 		<conditions>
-			<condition dc:uri="http://example.com/terms/conditions/MathematicalModel_property2"/>
+			<condition dc:uri="http://example.com/terms/conditions/MMpresent"/>
 		</conditions>
 	</question>
 	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_2/Question_4">
@@ -2087,17 +2087,17 @@
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_2/Question_4"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en"/>
-		<text lang="en">Select a Research Problem related to the next new Mathematical Model?</text>
+		<help lang="en">If a Mathematical Model is selected from MathModDB, a Research Problem can optionally be assigned. If no problem is assigned, MaRDMO will use the problem assigned in MathModDB. However, if a new Mathematical Model is defined, it is necessary to relate a Research Problem.</help>
+		<text lang="en">Select a Research Problem related to the additional Mathematical Model?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de"/>
-		<text lang="de">Wählen Sie ein Forschungsproblem aus, das mit dem nächsten neuen mathematischen Model im Zusammenhang steht.</text>
+		<help lang="de">Wenn ein mathematisches Modell aus MathModDB ausgewählt wird, kann optional ein Forschungsproblem zugewiesen werden. Wenn kein Problem zugewiesen wird, verwendet MaRDMO das in MathModDB zugewiesene Problem. Wenn jedoch ein neues mathematisches Modell definiert wird, muss ein Forschungsproblem zugeordnet werden.</help>
+		<text lang="de">Wählen Sie ein Forschungsproblem aus, das mit dem zusätzlichen mathematischen Model im Zusammenhang steht.</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
 		<default_external_id/>
-		<widget_type>select</widget_type>
+		<widget_type>autocomplete</widget_type>
 		<value_type>text</value_type>
 		<maximum/>
 		<minimum/>
@@ -2770,7 +2770,7 @@
 		<unit/>
 		<width/>
 		<optionsets>
-			<optionset dc:uri="http://example.com/terms/options/MathematicalModel2"/>
+			<optionset dc:uri="http://example.com/terms/options/MMRelations"/>
 		</optionsets>
 		<conditions/>
 	</question>
@@ -3429,7 +3429,7 @@
 		<unit/>
 		<width/>
 		<optionsets>
-			<optionset dc:uri="http://example.com/terms/options/MathematicalModel2"/>
+			<optionset dc:uri="http://example.com/terms/options/MMRelations"/>
 		</optionsets>
 		<conditions/>
 	</question>
