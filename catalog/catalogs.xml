@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2024-05-22T11:21:43.104001+02:00" version="2.1.3">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2024-05-22T19:50:32.396782+02:00" version="2.1.3">
 	<catalog dc:uri="http://example.com/terms/questions/MaRDI">
 		<uri_prefix>http://example.com/terms</uri_prefix>
 		<uri_path>MaRDI</uri_path>
@@ -1150,11 +1150,11 @@
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3/Set_0/Set_0/Question_04"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">If no appropriate Research Field is available in MathModDB, you have to create one in the following section.</help>
+		<help lang="en">If no appropriate Research Field is available in MathModDB, you have to create one in the following section. Therefore, choose here 'not in MathModDB'.</help>
 		<text lang="en">Select a research field related to the new Mathematical model!</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">Falls kein geeignetes Forschungsgebiet in MathModDB vorhanden ist, müssen Sie es in der folgenden Sektion erstellen.</help>
+		<help lang="de">Falls kein geeignetes Forschungsgebiet in MathModDB vorhanden ist, müssen Sie es in der folgenden Sektion erstellen. Wählen Sie hier dafür 'not in MathModDB'.</help>
 		<text lang="de">Wählen Sie ein Forschungsgebiet aus, das mit dem neuen mathematischen Modell im Zusammenhang steht!</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -1179,7 +1179,7 @@
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3/Set_0/Set_0/Question_05"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">If no appropriate Research Problem is available in MathModDB, you have to create one in the following section.</help>
+		<help lang="en">If no appropriate Research Problem is available in MathModDB, you have to create one in the following section. Therefore, choose here 'not in MathModDB'.</help>
 		<text lang="en">Select a Research Problem related to the new Mathematical Model!</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
@@ -1237,12 +1237,12 @@
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3/Set_0/Set_0/Question_07"/>
 		<is_collection>True</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en"/>
-		<text lang="en">Select Quantities and Quantity Kinds related to the new Mathematical Model!</text>
+		<help lang="en">If no appropriate Quantities are available in MathModDB, you have to create them in the following section. Therefore, choose here 'not in MathModDB'.</help>
+		<text lang="en">Select Quantities related to the new Mathematical Model!</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de"/>
-		<text lang="de">Wählen Sie Quantitäten und Quantitätsarten, die mit dem neuen mathematischen Modell im Zusammenhang stehen!</text>
+		<help lang="de">Falls keine geeigneten Quantitäten in MathModDB vorhanden sind, müssen Sie diese in der folgenden Sektion erstellen. Wählen Sie dafür hier 'not in MathModDB'.</help>
+		<text lang="de">Wählen Sie Quantitäten, die mit dem neuen mathematischen Modell im Zusammenhang stehen!</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
@@ -1266,12 +1266,12 @@
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3/Set_0/Set_0/Question_08"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en"/>
-		<text lang="en">Should further Quantities and/or Quantity Kinds be added?</text>
+		<help lang="en">Choose 'Yes' if not all Quantities related to your new Mathematical Model are available in MathModDB.</help>
+		<text lang="en">Should further Quantities be added?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de"/>
-		<text lang="de">Sollen weitere Quantitäten und/oder Quantitätsarten hinzugefügt werden?</text>
+		<help lang="de">Wählen Sie 'Ja' falls nicht alle Quantitäten, die mit ihrem neuen mathematischen Modell in Verbindung stehen, in MathModDB zur Verfügung stehen.</help>
+		<text lang="de">Sollen weitere Quantitäten hinzugefügt werden?</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
@@ -2115,23 +2115,28 @@
 		<dc:comment/>
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_3"/>
 		<is_collection>True</is_collection>
-		<title lang="en">Related Quantity / Quantity Kind</title>
-		<help lang="en"/>
+		<title lang="en">New Quantity</title>
+		<help lang="en">The following questions allow you to add new Quantities to MathModDB. To do so, you may select existing Quantities from Wikidata / MaRDI KG or define new Quantities by yourself. For each Quantity, you also have to select or define a Quantity Kind. At the end, you should be able to assign Quantities to all variables, parameters, constants, indices, etc of the Mathematical Formulations of the Mathematical Models, e.g., for the Michaelis Menten Equation v_0 = (V_max * c_S) / (K_m + c_S) you would have to select or define the following quantites and quantity kinds: initial reaction rate (v_0) and maximal reaction rate (V_max) as reaction rates and substrate concentration (c_S) and Michaelis constant (K_m) as concentrations. OPTIONALLY you can also relate your quantities and quantity kinds to other existing or newly created quantities or quantity kinds. If these relations are missing, they are added by a curator.</help>
 		<verbose_name lang="en"/>
-		<title lang="de">Zugehörige Quantität / Quantitätsart</title>
-		<help lang="de"/>
+		<title lang="de">Neue Quantität</title>
+		<help lang="de">Mit den folgenden Fragen können Sie neue Quantitäten in die MathModDB aufnehmen. Dazu können Sie bestehende Quantitäten aus Wikidata / MaRDI KG auswählen oder selbst neue Quantitäten definieren. Für jede Menge müssen Sie auch eine Quantitätsart auswählen oder definieren. Am Ende sollten Sie in der Lage sein, allen Variablen, Parametern, Konstanten, Indizes usw. der mathematischen Formulierungen der mathematischen Modelle Quantitäten zuzuordnen, z.B. müssten Sie für die Michaelis-Menten-Gleichung v_0 = (V_max * c_S) / (K_m + c_S) die folgenden Quantitäten und Quantitätsarten auswählen oder definieren: Anfangsreaktionsrate (v_0) und maximale Reaktionsrate (V_max) als Reaktionsraten und Substratkonzentration (c_S) und Michaelis-Konstante (K_m) als Konzentrationen. OPTIONAL können Sie Ihre Quantitäten und Quantitätsarten auch in Beziehung zu anderen bestehenden oder neu erstellten Quantitäten oder Quantitätsarten setzen. Wenn diese Beziehungen fehlen, werden sie von einem Kurator hinzugefügt.</help>
 		<verbose_name lang="de"/>
 		<questionsets>
-			<questionset dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_3/Set_0" order="5"/>
-			<questionset dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_4/Set_0" order="6"/>
-			<questionset dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_4/Set_1" order="7"/>
+			<questionset dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_3/Set_0" order="10"/>
+			<questionset dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_4/Set_0" order="11"/>
+			<questionset dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_4/Set_1" order="12"/>
 		</questionsets>
 		<questions>
-			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_3/Question_4" order="0"/>
+			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_3/Question_5" order="0"/>
 			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_3/Question_0" order="1"/>
 			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_3/Question_1" order="2"/>
 			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_3/Question_2" order="3"/>
 			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_3/Question_3" order="4"/>
+			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_3/Question_4" order="5"/>
+			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_3/Question_6" order="6"/>
+			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_3/Question_7" order="7"/>
+			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_3/Question_8" order="8"/>
+			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_3/Question_9" order="9"/>
 		</questions>
 		<conditions>
 			<condition dc:uri="http://example.com/terms/conditions/Quantity_property"/>
@@ -2144,19 +2149,17 @@
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_3/Set_0"/>
 		<is_collection>True</is_collection>
 		<title lang="en">Quantity Connections</title>
-		<help lang="en"/>
+		<help lang="en">The following questions allow you to relate the new Quantity to other Quantites from MathModDB or created here. This is OPTIONAL, if no relations are defined, they will be added through a curator.</help>
 		<verbose_name lang="en"/>
 		<title lang="de">Quantität Verbindungen</title>
-		<help lang="de"/>
+		<help lang="de">Die folgenden Fragen ermöglichen es Ihnen, die neue Quantität mit anderen Quantitäten aus MathModDB oder hier erstellten Quantitäten in Relation zu setzen. Dies ist OPTIONAL, wenn keine Relationen definiert sind, werden sie durch einen Kurator hinzugefügt.</help>
 		<verbose_name lang="de"/>
 		<questionsets/>
 		<questions>
 			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_3/Set_0/Question_1" order="0"/>
 			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_3/Set_0/Question_0" order="1"/>
 		</questions>
-		<conditions>
-			<condition dc:uri="http://example.com/terms/conditions/addQ"/>
-		</conditions>
+		<conditions/>
 	</questionset>
 	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_3/Set_0/Question_1">
 		<uri_prefix>http://example.com/terms</uri_prefix>
@@ -2164,7 +2167,7 @@
 		<dc:comment/>
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_3/Set_0/Question_1"/>
 		<is_collection>False</is_collection>
-		<is_optional>False</is_optional>
+		<is_optional>True</is_optional>
 		<help lang="en"/>
 		<text lang="en">The new Quantity...</text>
 		<default_text lang="en"/>
@@ -2193,7 +2196,7 @@
 		<dc:comment/>
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_3/Set_0/Question_0"/>
 		<is_collection>False</is_collection>
-		<is_optional>False</is_optional>
+		<is_optional>True</is_optional>
 		<help lang="en"/>
 		<text lang="en">...another Quantity.</text>
 		<default_text lang="en"/>
@@ -2223,19 +2226,17 @@
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_4/Set_0"/>
 		<is_collection>True</is_collection>
 		<title lang="en">Quantity Kind Connection</title>
-		<help lang="en"/>
+		<help lang="en">The following questions allow you to relate the new Quantity Kind to other Quantity Kinds from MathModDB or created here. This is OPTIONAL, if no relations are defined, they will be added through a curator.</help>
 		<verbose_name lang="en"/>
 		<title lang="de">Quantitätsart Verbindung</title>
-		<help lang="de"/>
+		<help lang="de">Die folgenden Fragen ermöglichen es Ihnen, die neue Quantitätsart mit anderen Quantitätsarten aus MathModDB oder hier erstellten Quantitätsarten in Relation zu setzen. Dies ist OPTIONAL, wenn keine Relationen definiert sind, werden sie durch einen Kurator hinzugefügt.</help>
 		<verbose_name lang="de"/>
 		<questionsets/>
 		<questions>
 			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_4/Set_0/Question_1" order="0"/>
 			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_4/Set_0/Question_0" order="1"/>
 		</questions>
-		<conditions>
-			<condition dc:uri="http://example.com/terms/conditions/addQK"/>
-		</conditions>
+		<conditions/>
 	</questionset>
 	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_4/Set_0/Question_1">
 		<uri_prefix>http://example.com/terms</uri_prefix>
@@ -2243,7 +2244,7 @@
 		<dc:comment/>
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_4/Set_0/Question_1"/>
 		<is_collection>False</is_collection>
-		<is_optional>False</is_optional>
+		<is_optional>True</is_optional>
 		<help lang="en"/>
 		<text lang="en">The new Quantity Kind...</text>
 		<default_text lang="en"/>
@@ -2272,7 +2273,7 @@
 		<dc:comment/>
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_4/Set_0/Question_0"/>
 		<is_collection>False</is_collection>
-		<is_optional>False</is_optional>
+		<is_optional>True</is_optional>
 		<help lang="en"/>
 		<text lang="en">...another Quantity Kind.</text>
 		<default_text lang="en"/>
@@ -2302,19 +2303,17 @@
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_4/Set_1"/>
 		<is_collection>True</is_collection>
 		<title lang="en">Quantity / Quantity Kind Connection</title>
-		<help lang="en"/>
+		<help lang="en">Quantity and Quantity Kind defined / selected in this set are automatically connected by MaRDMO using the 'generalized by' property. The following questions allow you to relate the new Quantity Kind to other Quantities from MathModDB or created here. This is OPTIONAL, if no relations are defined, they will be added through a curator.</help>
 		<verbose_name lang="en"/>
 		<title lang="de">Quantität / Quantitätsart Verbindung</title>
-		<help lang="de"/>
+		<help lang="de">Die Quantität und Quantitätsart, die in diesem Set definiert / ausgewählt wurde, wird automatisch durch MaRDMO mit der property 'generalisiert durch' verknüpft. Die folgenden Fragen ermöglichen es Ihnen zudem, die neue Quantitätsart mit anderen Quantitäten aus MathModDB oder hier erstellten Quantitäten in Relation zu setzen. Dies ist OPTIONAL, wenn keine Relationen definiert sind, werden sie durch einen Kurator hinzugefügt.</help>
 		<verbose_name lang="de"/>
 		<questionsets/>
 		<questions>
 			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_4/Set_1/Question_1" order="0"/>
 			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_4/Set_1/Question_0" order="1"/>
 		</questions>
-		<conditions>
-			<condition dc:uri="http://example.com/terms/conditions/addQK"/>
-		</conditions>
+		<conditions/>
 	</questionset>
 	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_4/Set_1/Question_1">
 		<uri_prefix>http://example.com/terms</uri_prefix>
@@ -2322,7 +2321,7 @@
 		<dc:comment/>
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_4/Set_1/Question_1"/>
 		<is_collection>False</is_collection>
-		<is_optional>False</is_optional>
+		<is_optional>True</is_optional>
 		<help lang="en"/>
 		<text lang="en">The new Quantity Kind...</text>
 		<default_text lang="en"/>
@@ -2351,7 +2350,7 @@
 		<dc:comment/>
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_4/Set_1/Question_0"/>
 		<is_collection>False</is_collection>
-		<is_optional>False</is_optional>
+		<is_optional>True</is_optional>
 		<help lang="en"/>
 		<text lang="en">...a Quantity.</text>
 		<default_text lang="en"/>
@@ -2374,24 +2373,24 @@
 		</optionsets>
 		<conditions/>
 	</question>
-	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_3/Question_4">
+	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_3/Question_5">
 		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/Section_3a/Set_3/Question_4</uri_path>
+		<uri_path>MaRDI/Section_3a/Set_3/Question_5</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_3/Question_4"/>
+		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_3/Question_5"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en"/>
-		<text lang="en">Add a Quantity or Quantity Kind?</text>
+		<help lang="en">If you cannot find an appropriate Quantity on Wikidata or the MaRDI KG, please describe it in the following questions.</help>
+		<text lang="en">Select an appropriate Quantity from Wikidata or the MaRDI KG!</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de"/>
-		<text lang="de">Wollen Sie eine Quantität oder eine Quantitätsart hinzufügen?</text>
+		<help lang="de">Wenn Sie keine passende Quantität in Wikidata oder dem MaRDI KG finden, beschreiben Sie es bitte in den folgenden Fragen.</help>
+		<text lang="de">Wählen Sie eine geeignete Quantität aus Wikidata oder dem MaRDI KG aus!</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
 		<default_external_id/>
-		<widget_type>radio</widget_type>
+		<widget_type>autocomplete</widget_type>
 		<value_type>text</value_type>
 		<maximum/>
 		<minimum/>
@@ -2399,7 +2398,7 @@
 		<unit/>
 		<width/>
 		<optionsets>
-			<optionset dc:uri="http://example.com/terms/options/QuantityOrQuantityKind"/>
+			<optionset dc:uri="http://example.com/terms/options/wikidata_search"/>
 		</optionsets>
 		<conditions/>
 	</question>
@@ -2411,11 +2410,11 @@
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en"/>
-		<text lang="en">Provide a name for the new Quantity / Quantity Kind.</text>
+		<text lang="en">Provide a name for the new Quantity.</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de"/>
-		<text lang="de">Geben Sie einen Namen für die neue Quantität / Quantitätsart an.</text>
+		<text lang="de">Geben Sie einen Namen für die neue Quantität an.</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
@@ -2428,7 +2427,9 @@
 		<unit/>
 		<width/>
 		<optionsets/>
-		<conditions/>
+		<conditions>
+			<condition dc:uri="http://example.com/terms/conditions/Qpresent"/>
+		</conditions>
 	</question>
 	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_3/Question_1">
 		<uri_prefix>http://example.com/terms</uri_prefix>
@@ -2438,11 +2439,11 @@
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en"/>
-		<text lang="en">Provide a description for the new Quantity / Quantity Kind.</text>
+		<text lang="en">Provide a description for the new Quantity.</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de"/>
-		<text lang="de">Geben Sie eine Beschreibung für die neue Quantität / Quantitätsart an.</text>
+		<text lang="de">Geben Sie eine Beschreibung für die neue Quantität an.</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
@@ -2455,7 +2456,9 @@
 		<unit/>
 		<width/>
 		<optionsets/>
-		<conditions/>
+		<conditions>
+			<condition dc:uri="http://example.com/terms/conditions/Qpresent"/>
+		</conditions>
 	</question>
 	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_3/Question_2">
 		<uri_prefix>http://example.com/terms</uri_prefix>
@@ -2464,12 +2467,12 @@
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_3/Question_2"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">wikidata:, dbpedia, doi:, qudt:</help>
-		<text lang="en">Provide an ID for the new Quantity / Quantity Kind.</text>
+		<help lang="en">dbpedia, doi:, qudt:</help>
+		<text lang="en">Provide an ID for the new Quantity.</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">wikidata:, dbpedia, doi:, qudt:</help>
-		<text lang="de">Geben Sie eine ID für die neue Quantität / Quantitätsart an.</text>
+		<help lang="de">dbpedia, doi:, qudt:</help>
+		<text lang="de">Geben Sie eine ID für die neue Quantität an.</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
@@ -2482,7 +2485,9 @@
 		<unit/>
 		<width/>
 		<optionsets/>
-		<conditions/>
+		<conditions>
+			<condition dc:uri="http://example.com/terms/conditions/Qpresent"/>
+		</conditions>
 	</question>
 	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_3/Question_3">
 		<uri_prefix>http://example.com/terms</uri_prefix>
@@ -2492,7 +2497,7 @@
 		<is_collection>True</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en"/>
-		<text lang="en">Assign appropriate properties to the new Quantity / Quantity Kind.</text>
+		<text lang="en">Assign appropriate properties to the new Quantity.</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de"/>
@@ -2512,6 +2517,153 @@
 			<optionset dc:uri="http://example.com/terms/options/Quantity_properties"/>
 		</optionsets>
 		<conditions/>
+	</question>
+	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_3/Question_4">
+		<uri_prefix>http://example.com/terms</uri_prefix>
+		<uri_path>MaRDI/Section_3a/Set_3/Question_4</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_3/Question_4"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en">You can assign existing Quantity Kinds from MathModDB or Quantity Kinds you newly created. If no appropriate Quantity Kind is available, choose 'not in MathModDB' and define the Quantity Kind in the following questions.</help>
+		<text lang="en">Assign an appropriate Quantity Kind for the new Quantity!</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de">Sie können existierende Quantitätsarten aus MathModDB auswählen oder auch Quantitätsarten, die Sie neu erstellt haben. Sollte keine geeignete Quantitätsart verfügbar sein, wählen Sie 'not in MathModDB' und definieren Sie in die Quantitätsart in den folgenden Fragen.</help>
+		<text lang="de">Wählen Sie eine geeignete Quantitätsart für die neue Quantität aus MathModDB aus.</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>autocomplete</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="http://example.com/terms/options/QuantityKind"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_3/Question_6">
+		<uri_prefix>http://example.com/terms</uri_prefix>
+		<uri_path>MaRDI/Section_3a/Set_3/Question_6</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_3/Question_6"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en">If you cannot find an appropriate Quantity Kind on Wikidata or the MaRDI KG, please describe it in the following questions.</help>
+		<text lang="en">Select an appropriate Quantity Kind from Wikidata or the MaRDI KG!</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de">Wenn Sie keine passende Quantitätsart in Wikidata oder dem MaRDI KG finden, beschreiben Sie diese bitte in den folgenden Fragen.</help>
+		<text lang="de">Wählen Sie eine geeignete Quantitätsart aus Wikidata oder dem MaRDI KG aus.</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>autocomplete</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="http://example.com/terms/options/wikidata_search"/>
+		</optionsets>
+		<conditions>
+			<condition dc:uri="http://example.com/terms/conditions/QKpresent"/>
+		</conditions>
+	</question>
+	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_3/Question_7">
+		<uri_prefix>http://example.com/terms</uri_prefix>
+		<uri_path>MaRDI/Section_3a/Set_3/Question_7</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_3/Question_7"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en"/>
+		<text lang="en">Provide a name for the new Quantity Kind.</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Geben Sie einen Namen für die neue Quantitätsart an.</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions>
+			<condition dc:uri="http://example.com/terms/conditions/QKpresent2"/>
+		</conditions>
+	</question>
+	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_3/Question_8">
+		<uri_prefix>http://example.com/terms</uri_prefix>
+		<uri_path>MaRDI/Section_3a/Set_3/Question_8</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_3/Question_8"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en"/>
+		<text lang="en">Provide a description for the new Quantity Kind.</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Geben Sie eine Beschreibung für die neue Quantitätsart an.</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions>
+			<condition dc:uri="http://example.com/terms/conditions/QKpresent3"/>
+		</conditions>
+	</question>
+	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_3/Question_9">
+		<uri_prefix>http://example.com/terms</uri_prefix>
+		<uri_path>MaRDI/Section_3a/Set_3/Question_9</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_3/Question_9"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en">dbpedia, doi:, qudt:</help>
+		<text lang="en">Provide an ID for the new Quantity Kind.</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de">dbpedia, doi:, qudt:</help>
+		<text lang="de">Geben Sie eine ID für die neue Quantitätsart an.</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions>
+			<condition dc:uri="http://example.com/terms/conditions/QKpresent4"/>
+		</conditions>
 	</question>
 	<page dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_5">
 		<uri_prefix>http://example.com/terms</uri_prefix>

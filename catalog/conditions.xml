@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2024-05-22T11:21:57.637205+02:00" version="2.1.3">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2024-05-22T19:50:48.970221+02:00" version="2.1.3">
 	<condition dc:uri="http://example.com/terms/conditions/MMpresent">
 		<uri_prefix>http://example.com/terms</uri_prefix>
 		<uri_path>MMpresent</uri_path>
@@ -63,6 +63,51 @@
 		<target_text>1</target_text>
 		<target_option/>
 	</condition>
+	<condition dc:uri="http://example.com/terms/conditions/QKpresent">
+		<uri_prefix>http://example.com/terms</uri_prefix>
+		<uri_path>QKpresent</uri_path>
+		<dc:comment/>
+		<source dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_3/Question_6_hidden"/>
+		<relation>eq</relation>
+		<target_text>1</target_text>
+		<target_option/>
+	</condition>
+	<condition dc:uri="http://example.com/terms/conditions/QKpresent2">
+		<uri_prefix>http://example.com/terms</uri_prefix>
+		<uri_path>QKpresent2</uri_path>
+		<dc:comment/>
+		<source dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_3/Question_7_hidden"/>
+		<relation>eq</relation>
+		<target_text>1</target_text>
+		<target_option/>
+	</condition>
+	<condition dc:uri="http://example.com/terms/conditions/QKpresent3">
+		<uri_prefix>http://example.com/terms</uri_prefix>
+		<uri_path>QKpresent3</uri_path>
+		<dc:comment/>
+		<source dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_3/Question_8_hidden"/>
+		<relation>eq</relation>
+		<target_text>1</target_text>
+		<target_option/>
+	</condition>
+	<condition dc:uri="http://example.com/terms/conditions/QKpresent4">
+		<uri_prefix>http://example.com/terms</uri_prefix>
+		<uri_path>QKpresent4</uri_path>
+		<dc:comment/>
+		<source dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_3/Question_9_hidden"/>
+		<relation>eq</relation>
+		<target_text>1</target_text>
+		<target_option/>
+	</condition>
+	<condition dc:uri="http://example.com/terms/conditions/Qpresent">
+		<uri_prefix>http://example.com/terms</uri_prefix>
+		<uri_path>Qpresent</uri_path>
+		<dc:comment/>
+		<source dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_3/Question_5"/>
+		<relation>empty</relation>
+		<target_text/>
+		<target_option/>
+	</condition>
 	<condition dc:uri="http://example.com/terms/conditions/QuantityKind_property">
 		<uri_prefix>http://example.com/terms</uri_prefix>
 		<uri_path>QuantityKind_property</uri_path>
@@ -116,24 +161,6 @@
 		<relation>eq</relation>
 		<target_text>1</target_text>
 		<target_option/>
-	</condition>
-	<condition dc:uri="http://example.com/terms/conditions/addQ">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>addQ</uri_path>
-		<dc:comment/>
-		<source dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_3/Question_4"/>
-		<relation>eq</relation>
-		<target_text/>
-		<target_option dc:uri="http://example.com/terms/options/QuantityOrQuantityKind0"/>
-	</condition>
-	<condition dc:uri="http://example.com/terms/conditions/addQK">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>addQK</uri_path>
-		<dc:comment/>
-		<source dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_3/Question_4"/>
-		<relation>eq</relation>
-		<target_text/>
-		<target_option dc:uri="http://example.com/terms/options/QuantityOrQuanttiyKind1"/>
 	</condition>
 	<condition dc:uri="http://example.com/terms/conditions/author_property">
 		<uri_prefix>http://example.com/terms</uri_prefix>
