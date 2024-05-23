@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2024-05-23T12:19:00.966898+02:00" version="2.1.3">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2024-05-23T13:44:45.709330+02:00" version="2.1.3">
 	<condition dc:uri="http://example.com/terms/conditions/MFpresent">
 		<uri_prefix>http://example.com/terms</uri_prefix>
 		<uri_path>MFpresent</uri_path>
@@ -61,6 +61,15 @@
 		<source dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_7_hidden"/>
 		<relation>eq</relation>
 		<target_text>1</target_text>
+		<target_option/>
+	</condition>
+	<condition dc:uri="http://example.com/terms/conditions/Pubpresent">
+		<uri_prefix>http://example.com/terms</uri_prefix>
+		<uri_path>Pubpresent</uri_path>
+		<dc:comment/>
+		<source dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_7/Question_1"/>
+		<relation>empty</relation>
+		<target_text/>
 		<target_option/>
 	</condition>
 	<condition dc:uri="http://example.com/terms/conditions/QKpresent">
