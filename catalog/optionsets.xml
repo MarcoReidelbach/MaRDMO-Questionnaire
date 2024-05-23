@@ -1,10 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2024-05-22T19:50:44.655092+02:00" version="2.1.3">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2024-05-23T08:45:49.927632+02:00" version="2.1.3">
 	<optionset dc:uri="http://example.com/terms/options/AllEntities">
 		<uri_prefix>http://example.com/terms</uri_prefix>
 		<uri_path>AllEntities</uri_path>
 		<dc:comment/>
 		<provider_key>AllEntities</provider_key>
+		<options/>
+		<conditions/>
+	</optionset>
+	<optionset dc:uri="http://example.com/terms/options/MFRelations2">
+		<uri_prefix>http://example.com/terms</uri_prefix>
+		<uri_path>MFRelations2</uri_path>
+		<dc:comment/>
+		<provider_key>MathematicalFormulation2</provider_key>
 		<options/>
 		<conditions/>
 	</optionset>
@@ -16,19 +24,19 @@
 		<options/>
 		<conditions/>
 	</optionset>
+	<optionset dc:uri="http://example.com/terms/options/MMRelations2">
+		<uri_prefix>http://example.com/terms</uri_prefix>
+		<uri_path>MMRelations2</uri_path>
+		<dc:comment/>
+		<provider_key>MathematicalModelRelation2</provider_key>
+		<options/>
+		<conditions/>
+	</optionset>
 	<optionset dc:uri="http://example.com/terms/options/MathematicalFormulation">
 		<uri_prefix>http://example.com/terms</uri_prefix>
 		<uri_path>MathematicalFormulation</uri_path>
 		<dc:comment/>
 		<provider_key>MathematicalFormulation</provider_key>
-		<options/>
-		<conditions/>
-	</optionset>
-	<optionset dc:uri="http://example.com/terms/options/MathematicalFormulation2">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MathematicalFormulation2</uri_path>
-		<dc:comment/>
-		<provider_key>MathematicalFormulation2</provider_key>
 		<options/>
 		<conditions/>
 	</optionset>
@@ -1057,11 +1065,11 @@
 		<options/>
 		<conditions/>
 	</optionset>
-	<optionset dc:uri="http://example.com/terms/options/QuantityAndQuantityKind">
+	<optionset dc:uri="http://example.com/terms/options/QuantityAll">
 		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>QuantityAndQuantityKind</uri_path>
+		<uri_path>QuantityAll</uri_path>
 		<dc:comment/>
-		<provider_key>QuantityAndQuantityKind</provider_key>
+		<provider_key>QuantityAll</provider_key>
 		<options/>
 		<conditions/>
 	</optionset>

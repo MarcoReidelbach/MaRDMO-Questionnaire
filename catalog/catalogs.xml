@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2024-05-22T19:50:32.396782+02:00" version="2.1.3">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2024-05-23T08:44:12.813350+02:00" version="2.1.3">
 	<catalog dc:uri="http://example.com/terms/questions/MaRDI">
 		<uri_prefix>http://example.com/terms</uri_prefix>
 		<uri_path>MaRDI</uri_path>
@@ -2672,15 +2672,15 @@
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_5"/>
 		<is_collection>True</is_collection>
 		<title lang="en">Related Mathematical Formulation</title>
-		<help lang="en"/>
+		<help lang="en">The following questions allow you to add Mathematical Formulations to your new Mathematical Model. To do so, you may select existing Mathematical Formulations from MathModDB or define new Mathematical Formulations by yourself. For each new Mathematical Formulation, you have to add Quantities related to individual elements of the Mathematical Formulation. Furthermore, you have to define if and how the new Mathematical Formulation is contained in a Mathematical Model or another Mathematical Formulation or contains another Mathematical Formulation. OPTIONALLY you can provide further relations between the individual Mathematical Formulations, if these information are missing they will be added by a curator.</help>
 		<verbose_name lang="en"/>
 		<title lang="de">Zugehörige Mathematische Formulierung</title>
-		<help lang="de"/>
+		<help lang="de">Mit den folgenden Fragen können Sie mathematische Formeln zu Ihrem neuen mathematischen Modell hinzufügen. Dazu können Sie vorhandene mathematische Formeln aus der MathModDB auswählen oder selbst neue mathematische Formeln definieren. Für jede neue mathematische Formulierung müssen Sie Quantitäten hinzufügen, die sich auf die einzelnen Elemente der mathematischen Formulierung beziehen. Außerdem müssen Sie festlegen, ob und wie die neue mathematische Formulierung in einem mathematischen Modell oder einer anderen mathematischen Formulierung enthalten ist oder eine andere mathematische Formulierung enthält. OPTIONAL können Sie weitere Beziehungen zwischen den einzelnen mathematischen Formeln angeben; wenn diese Informationen fehlen, werden sie von einem Kurator hinzugefügt.</help>
 		<verbose_name lang="de"/>
 		<questionsets>
 			<questionset dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_5/Set_0" order="6"/>
-			<questionset dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_5/Set_1" order="7"/>
-			<questionset dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_5/Set_2" order="8"/>
+			<questionset dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_5/Set_2" order="7"/>
+			<questionset dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_5/Set_1" order="8"/>
 			<questionset dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_5/Set_3" order="9"/>
 		</questionsets>
 		<questions>
@@ -2701,11 +2701,11 @@
 		<dc:comment/>
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_5/Set_0"/>
 		<is_collection>True</is_collection>
-		<title lang="en">Terms of the Mathematical Formulation</title>
-		<help lang="en"/>
+		<title lang="en">Elements of the new Mathematical Formulation</title>
+		<help lang="en">The following questions allow you to relate the elements of the new Mathematical Formulation (variables, parameters, constants, indices, etc.) to the Quantities selected or defined before.</help>
 		<verbose_name lang="en"/>
-		<title lang="de">Terme der mathematischen Formulierung</title>
-		<help lang="de"/>
+		<title lang="de">Elemente der neuen mathematischen Formulierung</title>
+		<help lang="de">Die folgenden Fragen ermöglichen es Ihnen, die Elemente der neuen mathematischen Formulierung (Variablen, Parameter, Konstanten, Indizes, etc.)  mit den zuvor definierten Quantitäten zu verknüpfen.</help>
 		<verbose_name lang="de"/>
 		<questionsets/>
 		<questions>
@@ -2713,7 +2713,7 @@
 			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_5/Set_0/Question_1" order="2"/>
 		</questions>
 		<conditions>
-			<condition dc:uri="http://example.com/terms/conditions/MathematicalFormulation_property2"/>
+			<condition dc:uri="http://example.com/terms/conditions/MFpresent"/>
 		</conditions>
 	</questionset>
 	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_5/Set_0/Question_0">
@@ -2723,12 +2723,12 @@
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_5/Set_0/Question_0"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en"/>
-		<text lang="en">Symbol of the Term</text>
+		<help lang="en">Use Latex Math in $$...$$</help>
+		<text lang="en">Symbol of the Variable, Parameter, Constant, Indice, etc.</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de"/>
-		<text lang="de">Symbol des Terms</text>
+		<help lang="de">Nutzen Sie Latex Mathe in $$..$$</help>
+		<text lang="de">Symbol der Varibalen, Parameter, Konstanten, Indizes, etc.</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
@@ -2750,12 +2750,12 @@
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_5/Set_0/Question_1"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en"/>
-		<text lang="en">Encoded Quantity / Quantity Kind</text>
+		<help lang="en">Choose a Quantity defined or selected in the previous section.</help>
+		<text lang="en">Encoded Quantity</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de"/>
-		<text lang="de">Enkodierte Quantität / Quantitätsart</text>
+		<help lang="de">Wählen Sie eine Quantität, die im vorigen Abschnitt definiert oder ausgewählt wurde.</help>
+		<text lang="de">Enkodierte Quantität</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
@@ -2768,84 +2768,7 @@
 		<unit/>
 		<width/>
 		<optionsets>
-			<optionset dc:uri="http://example.com/terms/options/QuantityAndQuantityKind"/>
-		</optionsets>
-		<conditions/>
-	</question>
-	<questionset dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_5/Set_1">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/Section_3a/Set_5/Set_1</uri_path>
-		<dc:comment/>
-		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_5/Set_1"/>
-		<is_collection>True</is_collection>
-		<title lang="en">Contains / Contained in Mathematical Formulation</title>
-		<help lang="en"/>
-		<verbose_name lang="en"/>
-		<title lang="de">Beinhaltet / Beinhaltet in Mathematischer Formulierung</title>
-		<help lang="de"/>
-		<verbose_name lang="de"/>
-		<questionsets/>
-		<questions>
-			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_5/Set_1/Question_1" order="0"/>
-			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_5/Set_1/Question_0" order="1"/>
-		</questions>
-		<conditions/>
-	</questionset>
-	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_5/Set_1/Question_1">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/Section_3a/Set_5/Set_1/Question_1</uri_path>
-		<dc:comment/>
-		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_5/Set_1/Question_1"/>
-		<is_collection>False</is_collection>
-		<is_optional>False</is_optional>
-		<help lang="en"/>
-		<text lang="en">The new Mathematical Formulation...</text>
-		<default_text lang="en"/>
-		<verbose_name lang="en"/>
-		<help lang="de"/>
-		<text lang="de">Die neue mathematische Formulierung...</text>
-		<default_text lang="de"/>
-		<verbose_name lang="de"/>
-		<default_option/>
-		<default_external_id/>
-		<widget_type>radio</widget_type>
-		<value_type>text</value_type>
-		<maximum/>
-		<minimum/>
-		<step/>
-		<unit/>
-		<width/>
-		<optionsets>
-			<optionset dc:uri="http://example.com/terms/options/MathematicalFormulation_kinds"/>
-		</optionsets>
-		<conditions/>
-	</question>
-	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_5/Set_1/Question_0">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/Section_3a/Set_5/Set_1/Question_0</uri_path>
-		<dc:comment/>
-		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_5/Set_1/Question_0"/>
-		<is_collection>False</is_collection>
-		<is_optional>False</is_optional>
-		<help lang="en"/>
-		<text lang="en">...another Mathematical Formulation.</text>
-		<default_text lang="en"/>
-		<verbose_name lang="en"/>
-		<help lang="de"/>
-		<text lang="de">...einer weiteren mathematischen Formulierung.</text>
-		<default_text lang="de"/>
-		<verbose_name lang="de"/>
-		<default_option/>
-		<default_external_id/>
-		<widget_type>select</widget_type>
-		<value_type>text</value_type>
-		<maximum/>
-		<minimum/>
-		<step/>
-		<unit/>
-		<width/>
-		<optionsets>
-			<optionset dc:uri="http://example.com/terms/options/MathematicalFormulation2"/>
+			<optionset dc:uri="http://example.com/terms/options/QuantityAll"/>
 		</optionsets>
 		<conditions/>
 	</question>
@@ -2856,10 +2779,10 @@
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_5/Set_2"/>
 		<is_collection>True</is_collection>
 		<title lang="en">Contained in Mathematical Model</title>
-		<help lang="en"/>
+		<help lang="en">The following questions allow you to relate the new Mathematical Formulation to previously defined Mathematical Models.</help>
 		<verbose_name lang="en"/>
 		<title lang="de">Beinhaltet in mathematischem Model</title>
-		<help lang="de"/>
+		<help lang="de">Die folgenden Fragen erlauben es Ihnen, die neue mathematische Formulierung mit den zuvor neu erstellten mathematischen Modellen zu verknüpfen.</help>
 		<verbose_name lang="de"/>
 		<questionsets/>
 		<questions>
@@ -2904,11 +2827,11 @@
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_5/Set_2/Question_0"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en"/>
+		<help lang="en">Choose a Mathematical Model defined previously.</help>
 		<text lang="en">...a Mathematical Model.</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de"/>
+		<help lang="de">Wählen Sie ein zuvor definiertes mathematisches Modell.</help>
 		<text lang="de">...einem mathematischem Modell.</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -2922,7 +2845,84 @@
 		<unit/>
 		<width/>
 		<optionsets>
-			<optionset dc:uri="http://example.com/terms/options/MMRelations"/>
+			<optionset dc:uri="http://example.com/terms/options/MMRelations2"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<questionset dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_5/Set_1">
+		<uri_prefix>http://example.com/terms</uri_prefix>
+		<uri_path>MaRDI/Section_3a/Set_5/Set_1</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_5/Set_1"/>
+		<is_collection>True</is_collection>
+		<title lang="en">Mathematical Formulation Connection I</title>
+		<help lang="en">The following questions allow you to define if and how the new Mathematical Formulation contains or is contained in another Mathematical Formulation.</help>
+		<verbose_name lang="en"/>
+		<title lang="de">Mathematische Formulierung Verbindung I</title>
+		<help lang="de">Die folgenden Fragen erlauben es Ihnen zu definieren ob und wie die neue mathematiscche Formulierung eine andere mathematische Formulierung enthält bzw in einer anderen mathematischen Formulierung enthalten ist.</help>
+		<verbose_name lang="de"/>
+		<questionsets/>
+		<questions>
+			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_5/Set_1/Question_1" order="0"/>
+			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_5/Set_1/Question_0" order="1"/>
+		</questions>
+		<conditions/>
+	</questionset>
+	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_5/Set_1/Question_1">
+		<uri_prefix>http://example.com/terms</uri_prefix>
+		<uri_path>MaRDI/Section_3a/Set_5/Set_1/Question_1</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_5/Set_1/Question_1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en"/>
+		<text lang="en">The new Mathematical Formulation...</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Die neue mathematische Formulierung...</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="http://example.com/terms/options/MathematicalFormulation_kinds"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_5/Set_1/Question_0">
+		<uri_prefix>http://example.com/terms</uri_prefix>
+		<uri_path>MaRDI/Section_3a/Set_5/Set_1/Question_0</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_5/Set_1/Question_0"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en">Choose a Mathematical Formulation from MathModDB or a newly created one.</help>
+		<text lang="en">...another Mathematical Formulation.</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de">Wählen Sie eine mathematische Formulierung aus MathModDB oder eine neu definierte aus.</help>
+		<text lang="de">...einer weiteren mathematischen Formulierung.</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>autocomplete</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="http://example.com/terms/options/MFRelations2"/>
 		</optionsets>
 		<conditions/>
 	</question>
@@ -2932,11 +2932,11 @@
 		<dc:comment/>
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_5/Set_3"/>
 		<is_collection>True</is_collection>
-		<title lang="en">Mathematical Formulation Connection</title>
-		<help lang="en"/>
+		<title lang="en">Mathematical Formulation Connection II</title>
+		<help lang="en">The following questions allow you to relate the new Mathematical Formulation to other Mathematical Formulations from MathModDB or created here. This is OPTIONAL, if no relations are defined, they will be added through a curator.</help>
 		<verbose_name lang="en"/>
-		<title lang="de">Mathematische Formulierung Bedingung</title>
-		<help lang="de"/>
+		<title lang="de">Mathematische Formulierung Verbindung II</title>
+		<help lang="de">Die folgenden Fragen ermöglichen es Ihnen, die neue mathematische Formulierung mit anderen mathematischen Formulierungen aus MathModDB oder hier erstellten mathematischen Formulierungen in Relation zu setzen. Dies ist OPTIONAL, wenn keine Relationen definiert sind, werden sie durch einen Kurator hinzugefügt.</help>
 		<verbose_name lang="de"/>
 		<questionsets/>
 		<questions>
@@ -2951,7 +2951,7 @@
 		<dc:comment/>
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_5/Set_3/Question_1"/>
 		<is_collection>False</is_collection>
-		<is_optional>False</is_optional>
+		<is_optional>True</is_optional>
 		<help lang="en"/>
 		<text lang="en">The new Mathematical Formulation...</text>
 		<default_text lang="en"/>
@@ -2980,7 +2980,7 @@
 		<dc:comment/>
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_5/Set_3/Question_0"/>
 		<is_collection>False</is_collection>
-		<is_optional>False</is_optional>
+		<is_optional>True</is_optional>
 		<help lang="en"/>
 		<text lang="en">...another Mathematical Formulation.</text>
 		<default_text lang="en"/>
@@ -2991,7 +2991,7 @@
 		<verbose_name lang="de"/>
 		<default_option/>
 		<default_external_id/>
-		<widget_type>select</widget_type>
+		<widget_type>autocomplete</widget_type>
 		<value_type>text</value_type>
 		<maximum/>
 		<minimum/>
@@ -2999,7 +2999,7 @@
 		<unit/>
 		<width/>
 		<optionsets>
-			<optionset dc:uri="http://example.com/terms/options/MathematicalFormulation2"/>
+			<optionset dc:uri="http://example.com/terms/options/MFRelations2"/>
 		</optionsets>
 		<conditions/>
 	</question>
@@ -3010,12 +3010,12 @@
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_5/Question_0"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en"/>
-		<text lang="en">Select a Mathematical Formulation related to the new Mathematical Model!</text>
+		<help lang="en">If you cannot find an appropriate Mathematical Formulation on MathModDB, please describe it in the following questions.</help>
+		<text lang="en">Select a Mathematical Formulation from MathModDB!</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de"/>
-		<text lang="de">Wählen Sie eine mathematische Formulierung aus, die mit dem neuen mathematischen Model im Zusammenhang steht!</text>
+		<help lang="de">Wenn Sie keine passende mathematische Formulierung in MathModDB finden, beschreiben Sie diese bitte in den folgenden Fragen.</help>
+		<text lang="de">Wählen Sie eine mathematische Formulierung aus MathModDB aus!</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
@@ -3058,7 +3058,7 @@
 		<width/>
 		<optionsets/>
 		<conditions>
-			<condition dc:uri="http://example.com/terms/conditions/MathematicalFormulation_property2"/>
+			<condition dc:uri="http://example.com/terms/conditions/MFpresent"/>
 		</conditions>
 	</question>
 	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_5/Question_1">
@@ -3069,7 +3069,7 @@
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en"/>
-		<text lang="en">Provide a description for the new Mathematical Model.</text>
+		<text lang="en">Provide a description for the new Mathematical Formulation.</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de"/>
@@ -3087,7 +3087,7 @@
 		<width/>
 		<optionsets/>
 		<conditions>
-			<condition dc:uri="http://example.com/terms/conditions/MathematicalFormulation_property2"/>
+			<condition dc:uri="http://example.com/terms/conditions/MFpresent"/>
 		</conditions>
 	</question>
 	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_5/Question_2">
@@ -3097,11 +3097,11 @@
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_5/Question_2"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en"/>
+		<help lang="en">dbpedia:, doi:, wikidata:</help>
 		<text lang="en">Provide an ID for the new Mathematical Formulation.</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de"/>
+		<help lang="de">dbpedia:, doi:, wikidata:</help>
 		<text lang="de">Geben Sie eine ID für die neue mathematische Formulierung an.</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -3116,7 +3116,7 @@
 		<width/>
 		<optionsets/>
 		<conditions>
-			<condition dc:uri="http://example.com/terms/conditions/MathematicalFormulation_property2"/>
+			<condition dc:uri="http://example.com/terms/conditions/MFpresent"/>
 		</conditions>
 	</question>
 	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_5/Question_3">
@@ -3147,7 +3147,7 @@
 			<optionset dc:uri="http://example.com/terms/options/MathematicalFormulation_properties"/>
 		</optionsets>
 		<conditions>
-			<condition dc:uri="http://example.com/terms/conditions/MathematicalFormulation_property2"/>
+			<condition dc:uri="http://example.com/terms/conditions/MFpresent"/>
 		</conditions>
 	</question>
 	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_5/Question_4">
@@ -3157,11 +3157,11 @@
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_5/Question_4"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en"/>
+		<help lang="en">Use Latex Math in $$...$$</help>
 		<text lang="en">Provide the formula of the new Mathematical Formulation</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de"/>
+		<help lang="de">Nutzen Sie Latex Mathe in $$...$$</help>
 		<text lang="de">Geben Sie die Formel der neuern mathematischen Formulierung an</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -3176,7 +3176,7 @@
 		<width/>
 		<optionsets/>
 		<conditions>
-			<condition dc:uri="http://example.com/terms/conditions/MathematicalFormulation_property2"/>
+			<condition dc:uri="http://example.com/terms/conditions/MFpresent"/>
 		</conditions>
 	</question>
 	<page dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_6">
@@ -3282,7 +3282,7 @@
 		<unit/>
 		<width/>
 		<optionsets>
-			<optionset dc:uri="http://example.com/terms/options/MathematicalFormulation2"/>
+			<optionset dc:uri="http://example.com/terms/options/MFRelations2"/>
 		</optionsets>
 		<conditions/>
 	</question>
@@ -3359,7 +3359,7 @@
 		<unit/>
 		<width/>
 		<optionsets>
-			<optionset dc:uri="http://example.com/terms/options/QuantityAndQuantityKind"/>
+			<optionset dc:uri="http://example.com/terms/options/QuantityAll"/>
 		</optionsets>
 		<conditions/>
 	</question>
