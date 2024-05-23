@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2024-05-23T08:44:12.813350+02:00" version="2.1.3">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2024-05-23T12:18:42.120799+02:00" version="2.1.3">
 	<catalog dc:uri="http://example.com/terms/questions/MaRDI">
 		<uri_prefix>http://example.com/terms</uri_prefix>
 		<uri_path>MaRDI</uri_path>
@@ -3186,10 +3186,10 @@
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_6"/>
 		<is_collection>True</is_collection>
 		<title lang="en">Related Task</title>
-		<help lang="en"/>
+		<help lang="en">The following questions allow you to add Tasks to your new Mathematical Model. To do so, you may select existing Tasks from MathModDB or define new Tasks by yourself. For each new Task, you have to select the type of Task and add Mathematical Formulations and Quantities related to the Task. OPTIONALLY you can provide further relations between the individual Tasks, if these information are missing they will be added by a curator.</help>
 		<verbose_name lang="en"/>
 		<title lang="de">Zugehörige Aufgabe</title>
-		<help lang="de"/>
+		<help lang="de">Mit den folgenden Fragen können Sie Aufgaben zu Ihrem neuen mathematischen Modell hinzufügen. Dazu können Sie bestehende Aufgaben aus der MathModDB auswählen oder selbst neue Aufgaben definieren. Für jede neue Aufgabe müssen Sie den Aufgabentyp auswählen und die mathematischen Formeln und Quantitäten für die Aufgabe hinzufügen. OPTIONAL können Sie weitere Beziehungen zwischen den einzelnen Aufgaben angeben. Wenn diese Informationen fehlen, werden sie von einem Kurator hinzugefügt.</help>
 		<verbose_name lang="de"/>
 		<questionsets>
 			<questionset dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_6/Set_0" order="7"/>
@@ -3201,9 +3201,9 @@
 			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_6/Question_0a" order="1"/>
 			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_6/Question_1" order="2"/>
 			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_6/Question_2" order="3"/>
-			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_6/Question_3" order="4"/>
-			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_6/Question_4" order="5"/>
-			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_6/Question_05" order="6"/>
+			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_6/Question_05" order="4"/>
+			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_6/Question_3" order="5"/>
+			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_6/Question_4" order="6"/>
 		</questions>
 		<conditions>
 			<condition dc:uri="http://example.com/terms/conditions/MathematicalTask_property"/>
@@ -3216,17 +3216,19 @@
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_6/Set_0"/>
 		<is_collection>True</is_collection>
 		<title lang="en">Contains Mathematical Formulation</title>
-		<help lang="en"/>
+		<help lang="en">The following questions allow you to specify which Mathematical Formulations are related to the new Task and how.</help>
 		<verbose_name lang="en"/>
 		<title lang="de">Beinhaltet mathematische Formulierung</title>
-		<help lang="de"/>
+		<help lang="de">Die folgenden Fragen erlauben es Ihnen zu definieren welche mathematischen Formulierungen im Zusammenhang mit dieser Aufgabe stehen und wie.</help>
 		<verbose_name lang="de"/>
 		<questionsets/>
 		<questions>
 			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_6/Set_0/Question_1" order="0"/>
 			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_6/Set_0/Question_0" order="1"/>
 		</questions>
-		<conditions/>
+		<conditions>
+			<condition dc:uri="http://example.com/terms/conditions/MTpresent"/>
+		</conditions>
 	</questionset>
 	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_6/Set_0/Question_1">
 		<uri_prefix>http://example.com/terms</uri_prefix>
@@ -3282,7 +3284,7 @@
 		<unit/>
 		<width/>
 		<optionsets>
-			<optionset dc:uri="http://example.com/terms/options/MFRelations2"/>
+			<optionset dc:uri="http://example.com/terms/options/MFRelations3"/>
 		</optionsets>
 		<conditions/>
 	</question>
@@ -3292,18 +3294,20 @@
 		<dc:comment/>
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_6/Set_1"/>
 		<is_collection>True</is_collection>
-		<title lang="en">Contains Quantity / Quantity Kind</title>
-		<help lang="en"/>
+		<title lang="en">Contains Quantity</title>
+		<help lang="en">The following questions allow you to specify which Quantities are related to the new task and how.</help>
 		<verbose_name lang="en"/>
-		<title lang="de">Beinhaltet Quantität / Qutantitätart</title>
-		<help lang="de"/>
+		<title lang="de">Beinhaltet Quantität</title>
+		<help lang="de">Die folgenden Fragen erlauben es Ihnen zu definieren, welche Quantitäten mit der Aufgabe in Verbindung stehen und wie.</help>
 		<verbose_name lang="de"/>
 		<questionsets/>
 		<questions>
 			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_6/Set_1/Question_1" order="0"/>
 			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_6/Set_1/Question_0" order="1"/>
 		</questions>
-		<conditions/>
+		<conditions>
+			<condition dc:uri="http://example.com/terms/conditions/MTpresent"/>
+		</conditions>
 	</questionset>
 	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_6/Set_1/Question_1">
 		<uri_prefix>http://example.com/terms</uri_prefix>
@@ -3370,17 +3374,19 @@
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_6/Set_2"/>
 		<is_collection>True</is_collection>
 		<title lang="en">Mathematical Task Connection</title>
-		<help lang="en"/>
+		<help lang="en">The following questions allow you to relate the new Task to other Task from MathModDB or created here. This is OPTIONAL, if no relations are defined, they will be added through a curator.</help>
 		<verbose_name lang="en"/>
 		<title lang="de">Mathematische Aufgabe Verbindung</title>
-		<help lang="de"/>
+		<help lang="de">Die folgenden Fragen ermöglichen es Ihnen, die neue Aufgabe mit anderen Aufgabe aus MathModDB oder hier erstellten Aufgabe in Relation zu setzen. Dies ist OPTIONAL, wenn keine Relationen definiert sind, werden sie durch einen Kurator hinzugefügt.</help>
 		<verbose_name lang="de"/>
 		<questionsets/>
 		<questions>
 			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_6/Set_2/Question_1" order="0"/>
 			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_6/Set_2/Question_0" order="1"/>
 		</questions>
-		<conditions/>
+		<conditions>
+			<condition dc:uri="http://example.com/terms/conditions/MTpresent"/>
+		</conditions>
 	</questionset>
 	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_6/Set_2/Question_1">
 		<uri_prefix>http://example.com/terms</uri_prefix>
@@ -3428,7 +3434,7 @@
 		<verbose_name lang="de"/>
 		<default_option/>
 		<default_external_id/>
-		<widget_type>select</widget_type>
+		<widget_type>autocomplete</widget_type>
 		<value_type>text</value_type>
 		<maximum/>
 		<minimum/>
@@ -3447,12 +3453,12 @@
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_6/Question_0"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en"/>
-		<text lang="en">Select a Task related to the new Mathematical Model!</text>
+		<help lang="en">If you cannot find an appropriate Task on MathModDB, please describe it in the following questions.</help>
+		<text lang="en">Select a Task from MathModDB!</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de"/>
-		<text lang="de">Wählen Sie eine  Aufgabe, die mit dem neuen mathematischen Model im Zusammenhang steht!</text>
+		<help lang="de">Falls Sie keine passende Aufgabe in MathModDB finden, definieren Sie diese in den nächsten Fragen.</help>
+		<text lang="de">Wählen Sie eine  Aufgabe aus MathModDB aus!</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
@@ -3495,7 +3501,7 @@
 		<width/>
 		<optionsets/>
 		<conditions>
-			<condition dc:uri="http://example.com/terms/conditions/MathematicalTask_property2"/>
+			<condition dc:uri="http://example.com/terms/conditions/MTpresent"/>
 		</conditions>
 	</question>
 	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_6/Question_1">
@@ -3524,7 +3530,7 @@
 		<width/>
 		<optionsets/>
 		<conditions>
-			<condition dc:uri="http://example.com/terms/conditions/MathematicalTask_property2"/>
+			<condition dc:uri="http://example.com/terms/conditions/MTpresent"/>
 		</conditions>
 	</question>
 	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_6/Question_2">
@@ -3534,11 +3540,11 @@
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_6/Question_2"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en"/>
+		<help lang="en">dbpedia:, doi:, wikidata:</help>
 		<text lang="en">Provide an ID for the new Task.</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de"/>
+		<help lang="de">dbpedia:, doi:, wikidata:</help>
 		<text lang="de">Geben Sie eine ID für die neue Aufgabe an.</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -3553,7 +3559,38 @@
 		<width/>
 		<optionsets/>
 		<conditions>
-			<condition dc:uri="http://example.com/terms/conditions/MathematicalTask_property2"/>
+			<condition dc:uri="http://example.com/terms/conditions/MTpresent"/>
+		</conditions>
+	</question>
+	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_6/Question_05">
+		<uri_prefix>http://example.com/terms</uri_prefix>
+		<uri_path>MaRDI/Section_3a/Set_6/Question_05</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_6/Question_5"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en"/>
+		<text lang="en">Which category does this Task fall into?</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de"/>
+		<text lang="de">In welche Kategorie fällt diese Aufgabe?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="http://example.com/terms/options/TaskCategory"/>
+		</optionsets>
+		<conditions>
+			<condition dc:uri="http://example.com/terms/conditions/MTpresent"/>
 		</conditions>
 	</question>
 	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_6/Question_3">
@@ -3581,7 +3618,7 @@
 		<unit/>
 		<width/>
 		<optionsets>
-			<optionset dc:uri="http://example.com/terms/options/MMRelations"/>
+			<optionset dc:uri="http://example.com/terms/options/MMRelations2"/>
 		</optionsets>
 		<conditions/>
 	</question>
@@ -3610,36 +3647,7 @@
 		<unit/>
 		<width/>
 		<optionsets>
-			<optionset dc:uri="http://example.com/terms/options/ResearchProblemRelations"/>
-		</optionsets>
-		<conditions/>
-	</question>
-	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_6/Question_05">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/Section_3a/Set_6/Question_05</uri_path>
-		<dc:comment/>
-		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_6/Question_5"/>
-		<is_collection>False</is_collection>
-		<is_optional>False</is_optional>
-		<help lang="en"/>
-		<text lang="en">Which category does this Task fall into?</text>
-		<default_text lang="en"/>
-		<verbose_name lang="en"/>
-		<help lang="de"/>
-		<text lang="de">In welche Kategorie fällt diese Aufgabe?</text>
-		<default_text lang="de"/>
-		<verbose_name lang="de"/>
-		<default_option/>
-		<default_external_id/>
-		<widget_type>radio</widget_type>
-		<value_type>text</value_type>
-		<maximum/>
-		<minimum/>
-		<step/>
-		<unit/>
-		<width/>
-		<optionsets>
-			<optionset dc:uri="http://example.com/terms/options/TaskCategory"/>
+			<optionset dc:uri="http://example.com/terms/options/ResearchProblemRelations2"/>
 		</optionsets>
 		<conditions/>
 	</question>
