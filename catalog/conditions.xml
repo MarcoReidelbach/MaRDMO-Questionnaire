@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2024-05-24T11:19:50.557110+02:00" version="2.1.2">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2024-05-24T16:00:03.850487+02:00" version="2.1.2">
 	<condition dc:uri="http://example.com/terms/conditions/MFpresent">
 		<uri_prefix>http://example.com/terms</uri_prefix>
 		<uri_path>MFpresent</uri_path>
@@ -432,6 +432,24 @@
 		<target_text>1</target_text>
 		<target_option/>
 	</condition>
+	<condition dc:uri="http://example.com/terms/conditions/reproducible_original">
+		<uri_prefix>http://example.com/terms</uri_prefix>
+		<uri_path>reproducible_original</uri_path>
+		<dc:comment/>
+		<source dc:uri="http://example.com/terms/domain/MaRDI/Section_5/Set_1/Question_04"/>
+		<relation>eq</relation>
+		<target_text/>
+		<target_option dc:uri="http://example.com/terms/options/yes_no/yes"/>
+	</condition>
+	<condition dc:uri="http://example.com/terms/conditions/runtime_reproducible">
+		<uri_prefix>http://example.com/terms</uri_prefix>
+		<uri_path>runtime_reproducible</uri_path>
+		<dc:comment/>
+		<source dc:uri="http://example.com/terms/domain/MaRDI/Section_5/Set_1/Question_02"/>
+		<relation>eq</relation>
+		<target_text/>
+		<target_option dc:uri="http://example.com/terms/options/yes_no/yes"/>
+	</condition>
 	<condition dc:uri="http://example.com/terms/conditions/search_0">
 		<uri_prefix>http://example.com/terms</uri_prefix>
 		<uri_path>search_0</uri_path>
@@ -530,15 +548,6 @@
 		<relation>eq</relation>
 		<target_text/>
 		<target_option/>
-	</condition>
-	<condition dc:uri="http://example.com/terms/conditions/workflow_mathematically_reproducible">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>workflow_mathematically_reproducible</uri_path>
-		<dc:comment/>
-		<source dc:uri="http://example.com/terms/domain/MaRDI/Section_5/Set_1/Question_01"/>
-		<relation>eq</relation>
-		<target_text/>
-		<target_option dc:uri="http://example.com/terms/options/yes_no/yes"/>
 	</condition>
 	<condition dc:uri="http://example.com/terms/conditions/workflow_type">
 		<uri_prefix>http://example.com/terms</uri_prefix>

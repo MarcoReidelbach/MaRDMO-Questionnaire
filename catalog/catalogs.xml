@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2024-05-24T11:19:19.301041+02:00" version="2.1.2">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2024-05-24T15:59:36.251415+02:00" version="2.1.2">
 	<catalog dc:uri="http://example.com/terms/questions/MaRDI">
 		<uri_prefix>http://example.com/terms</uri_prefix>
 		<uri_path>MaRDI</uri_path>
@@ -5533,8 +5533,9 @@
 			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_5/Set_1/Question_02" order="2"/>
 			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_5/Set_1/Question_03" order="3"/>
 			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_5/Set_1/Question_04" order="4"/>
-			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_5/Set_1/Question_05" order="5"/>
-			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_5/Set_1/Question_06" order="6"/>
+			<question dc:uri="http://example.com/terms/questions/Section_5/Set_1/Question_04a" order="5"/>
+			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_5/Set_1/Question_05" order="6"/>
+			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_5/Set_1/Question_06" order="7"/>
 		</questions>
 		<conditions>
 			<condition dc:uri="http://example.com/terms/conditions/reproducibility_property"/>
@@ -5567,7 +5568,9 @@
 		<optionsets>
 			<optionset dc:uri="http://example.com/terms/options/yes_no"/>
 		</optionsets>
-		<conditions/>
+		<conditions>
+			<condition dc:uri="http://example.com/terms/conditions/workflow_type"/>
+		</conditions>
 	</question>
 	<question dc:uri="http://example.com/terms/questions/Section_5/Set_1/Question_01a">
 		<uri_prefix>http://example.com/terms</uri_prefix>
@@ -5595,7 +5598,7 @@
 		<width/>
 		<optionsets/>
 		<conditions>
-			<condition dc:uri="http://example.com/terms/conditions/workflow_mathematically_reproducible"/>
+			<condition dc:uri="http://example.com/terms/conditions/workflow_type"/>
 		</conditions>
 	</question>
 	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_5/Set_1/Question_02">
@@ -5685,9 +5688,38 @@
 		<unit/>
 		<width/>
 		<optionsets>
-			<optionset dc:uri="https://rdmorganiser.github.io/terms/options/yes_with_text_no"/>
+			<optionset dc:uri="http://example.com/terms/options/yes_no"/>
 		</optionsets>
 		<conditions/>
+	</question>
+	<question dc:uri="http://example.com/terms/questions/Section_5/Set_1/Question_04a">
+		<uri_prefix>http://example.com/terms</uri_prefix>
+		<uri_path>Section_5/Set_1/Question_04a</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_5/Set_1/Question_04a"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en"/>
+		<text lang="en">Provide detailed description of the conditions under which a reproduction on the original hardware/instrument is possible.</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de"/>
+		<text lang="de"/>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>textarea</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions>
+			<condition dc:uri="http://example.com/terms/conditions/reproducible_original"/>
+		</conditions>
 	</question>
 	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_5/Set_1/Question_05">
 		<uri_prefix>http://example.com/terms</uri_prefix>
