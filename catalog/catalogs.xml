@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2024-05-23T13:44:27.060615+02:00" version="2.1.3">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2024-05-24T11:19:19.301041+02:00" version="2.1.2">
 	<catalog dc:uri="http://example.com/terms/questions/MaRDI">
 		<uri_prefix>http://example.com/terms</uri_prefix>
 		<uri_path>MaRDI</uri_path>
@@ -5529,11 +5529,12 @@
 		<questionsets/>
 		<questions>
 			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_5/Set_1/Question_01" order="0"/>
-			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_5/Set_1/Question_02" order="1"/>
-			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_5/Set_1/Question_03" order="2"/>
-			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_5/Set_1/Question_04" order="3"/>
-			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_5/Set_1/Question_05" order="4"/>
-			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_5/Set_1/Question_06" order="5"/>
+			<question dc:uri="http://example.com/terms/questions/Section_5/Set_1/Question_01a" order="1"/>
+			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_5/Set_1/Question_02" order="2"/>
+			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_5/Set_1/Question_03" order="3"/>
+			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_5/Set_1/Question_04" order="4"/>
+			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_5/Set_1/Question_05" order="5"/>
+			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_5/Set_1/Question_06" order="6"/>
 		</questions>
 		<conditions>
 			<condition dc:uri="http://example.com/terms/conditions/reproducibility_property"/>
@@ -5564,10 +5565,37 @@
 		<unit/>
 		<width>12</width>
 		<optionsets>
-			<optionset dc:uri="https://rdmorganiser.github.io/terms/options/yes_with_text_no"/>
+			<optionset dc:uri="http://example.com/terms/options/yes_no"/>
 		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="http://example.com/terms/questions/Section_5/Set_1/Question_01a">
+		<uri_prefix>http://example.com/terms</uri_prefix>
+		<uri_path>Section_5/Set_1/Question_01a</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_5/Set_1/Question_01a"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en"/>
+		<text lang="en">Provide detailed description of the conditions under which the workflow is mathematically reproducible.</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de"/>
+		<text lang="de"/>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>textarea</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
 		<conditions>
-			<condition dc:uri="http://example.com/terms/conditions/workflow_type"/>
+			<condition dc:uri="http://example.com/terms/conditions/workflow_mathematically_reproducible"/>
 		</conditions>
 	</question>
 	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_5/Set_1/Question_02">
@@ -5578,7 +5606,7 @@
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en">If yes under which conditions?</help>
-		<text lang="en">Is the runtime reproducibie?</text>
+		<text lang="en">Is the runtime reproducible?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de">Falls ja unter welchen Bedingungen?</help>
