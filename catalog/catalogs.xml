@@ -108,7 +108,7 @@
 			<optionset dc:uri="http://example.com/terms/options/operation_modus_2"/>
 		</optionsets>
 		<conditions>
-			<condition dc:uri="http://example.com/terms/conditions/modus_0"/>
+			<condition dc:uri="http://example.com/terms/conditions/MaRDI/MaRDI/modus_0"/>
 		</conditions>
 	</question>
 	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_2/Set_1/Question_03">
@@ -139,7 +139,7 @@
 			<optionset dc:uri="http://example.com/terms/options/workflow_type"/>
 		</optionsets>
 		<conditions>
-			<condition dc:uri="http://example.com/terms/conditions/workflow_documentation"/>
+			<condition dc:uri="http://example.com/terms/conditions/MaRDI/MaRDI/workflow_documentation"/>
 		</conditions>
 	</question>
 	<section dc:uri="http://example.com/terms/questions/MaRDI/Section_0a">
@@ -170,7 +170,7 @@
 			<question dc:uri="http://example.com/terms/questions/Section_0a/Set_1/Question_02" order="1"/>
 		</questions>
 		<conditions>
-			<condition dc:uri="http://example.com/terms/conditions/author_property"/>
+			<condition dc:uri="http://example.com/terms/conditions/MaRDI/MaRDI/author_property"/>
 		</conditions>
 	</page>
 	<question dc:uri="http://example.com/terms/questions/Section_0a/Set_1/Question_01">
@@ -259,7 +259,7 @@
 			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_1/Set_1/Question_05" order="5"/>
 		</questions>
 		<conditions>
-			<condition dc:uri="http://example.com/terms/conditions/search_proerpty"/>
+			<condition dc:uri="http://example.com/terms/conditions/MaRDI/MaRDI/search_proerpty"/>
 		</conditions>
 	</page>
 	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_1/Set_1/Question_00">
@@ -317,7 +317,7 @@
 		<width/>
 		<optionsets/>
 		<conditions>
-			<condition dc:uri="http://example.com/terms/conditions/search_0"/>
+			<condition dc:uri="http://example.com/terms/conditions/MaRDI/MaRDI/search_0"/>
 		</conditions>
 	</question>
 	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_1/Set_1/Question_02">
@@ -377,7 +377,7 @@
 			<optionset dc:uri="http://example.com/terms/options/component_search"/>
 		</optionsets>
 		<conditions>
-			<condition dc:uri="http://example.com/terms/conditions/search_1"/>
+			<condition dc:uri="http://example.com/terms/conditions/MaRDI/MaRDI/search_1"/>
 		</conditions>
 	</question>
 	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_1/Set_1/Question_04">
@@ -437,7 +437,7 @@
 			<optionset dc:uri="http://example.com/terms/options/component_search"/>
 		</optionsets>
 		<conditions>
-			<condition dc:uri="http://example.com/terms/conditions/search_2"/>
+			<condition dc:uri="http://example.com/terms/conditions/MaRDI/search_2"/>
 		</conditions>
 	</question>
 	<section dc:uri="http://example.com/terms/questions/MaRDI/Section_2">
@@ -474,7 +474,7 @@
 			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_2/Set_3/Question_02" order="6"/>
 		</questions>
 		<conditions>
-			<condition dc:uri="http://example.com/terms/conditions/problem_property"/>
+			<condition dc:uri="http://example.com/terms/conditions/MaRDI/problem_property"/>
 		</conditions>
 	</page>
 	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_2/Set_1/Question_01">
@@ -698,7 +698,7 @@
 			<question dc:uri="http://example.com/terms/questions/Section_2/Set_2/Question_09" order="9"/>
 		</questions>
 		<conditions>
-			<condition dc:uri="http://example.com/terms/conditions/publication_property"/>
+			<condition dc:uri="http://example.com/terms/conditions/MaRDI/publication_property"/>
 		</conditions>
 	</page>
 	<question dc:uri="http://example.com/terms/questions/Section_2/Set_2/Question_00">
@@ -1002,7 +1002,7 @@
 			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3/Set_0/Wiki_01" order="-2"/>
 		</questions>
 		<conditions>
-			<condition dc:uri="http://example.com/terms/conditions/model_property"/>
+			<condition dc:uri="http://example.com/terms/conditions/MaRDI/model_property"/>
 		</conditions>
 	</page>
 	<questionset dc:uri="http://example.com/terms/questions/MaRDI/Section_3/Set_0/Set_0">
@@ -1030,7 +1030,7 @@
 			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3/Set_0/Set_0/Question_08" order="8"/>
 		</questions>
 		<conditions>
-			<condition dc:uri="http://example.com/terms/conditions/model_present"/>
+			<condition dc:uri="http://example.com/terms/conditions/MaRDI/model_present"/>
 		</conditions>
 	</questionset>
 	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3/Set_0/Set_0/Question_01">
@@ -1355,7 +1355,7 @@
 			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_0/Question_2" order="3"/>
 		</questions>
 		<conditions>
-			<condition dc:uri="http://example.com/terms/conditions/ResearchField_property"/>
+			<condition dc:uri="http://example.com/terms/conditions/MaRDI/ResearchField_property"/>
 		</conditions>
 	</page>
 	<questionset dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_0/Set_0">
@@ -1490,7 +1490,7 @@
 		<width/>
 		<optionsets/>
 		<conditions>
-			<condition dc:uri="http://example.com/terms/conditions/RFpresent"/>
+			<condition dc:uri="http://example.com/terms/conditions/MaRDI/RFpresent"/>
 		</conditions>
 	</question>
 	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_0/Question_1">
@@ -1519,7 +1519,7 @@
 		<width/>
 		<optionsets/>
 		<conditions>
-			<condition dc:uri="http://example.com/terms/conditions/RFpresent"/>
+			<condition dc:uri="http://example.com/terms/conditions/MaRDI/RFpresent"/>
 		</conditions>
 	</question>
 	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_0/Question_2">
@@ -1548,7 +1548,7 @@
 		<width/>
 		<optionsets/>
 		<conditions>
-			<condition dc:uri="http://example.com/terms/conditions/RFpresent"/>
+			<condition dc:uri="http://example.com/terms/conditions/MaRDI/RFpresent"/>
 		</conditions>
 	</question>
 	<page dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_1">
@@ -1575,7 +1575,7 @@
 			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_1/Question_4" order="5"/>
 		</questions>
 		<conditions>
-			<condition dc:uri="http://example.com/terms/conditions/ResearchProblem_property"/>
+			<condition dc:uri="http://example.com/terms/conditions/MaRDI/ResearchProblem_property"/>
 		</conditions>
 	</page>
 	<questionset dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_1/Set_0">
@@ -1710,7 +1710,7 @@
 		<width/>
 		<optionsets/>
 		<conditions>
-			<condition dc:uri="http://example.com/terms/conditions/RPpresent"/>
+			<condition dc:uri="http://example.com/terms/conditions/MaRDI/RPpresent"/>
 		</conditions>
 	</question>
 	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_1/Question_1">
@@ -1739,7 +1739,7 @@
 		<width/>
 		<optionsets/>
 		<conditions>
-			<condition dc:uri="http://example.com/terms/conditions/RPpresent"/>
+			<condition dc:uri="http://example.com/terms/conditions/MaRDI/RPpresent"/>
 		</conditions>
 	</question>
 	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_1/Question_2">
@@ -1768,7 +1768,7 @@
 		<width/>
 		<optionsets/>
 		<conditions>
-			<condition dc:uri="http://example.com/terms/conditions/RPpresent"/>
+			<condition dc:uri="http://example.com/terms/conditions/MaRDI/RPpresent"/>
 		</conditions>
 	</question>
 	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_1/Question_3">
@@ -1853,7 +1853,7 @@
 			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_2/Question_4" order="5"/>
 		</questions>
 		<conditions>
-			<condition dc:uri="http://example.com/terms/conditions/MathematicalModel_property"/>
+			<condition dc:uri="http://example.com/terms/conditions/MaRDI/MathematicalModel_property"/>
 		</conditions>
 	</page>
 	<questionset dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_2/Set_0">
@@ -1988,7 +1988,7 @@
 		<width/>
 		<optionsets/>
 		<conditions>
-			<condition dc:uri="http://example.com/terms/conditions/MMpresent"/>
+			<condition dc:uri="http://example.com/terms/conditions/MaRDI/MMpresent"/>
 		</conditions>
 	</question>
 	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_2/Question_1">
@@ -2017,7 +2017,7 @@
 		<width/>
 		<optionsets/>
 		<conditions>
-			<condition dc:uri="http://example.com/terms/conditions/MMpresent"/>
+			<condition dc:uri="http://example.com/terms/conditions/MaRDI/MMpresent"/>
 		</conditions>
 	</question>
 	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_2/Question_2">
@@ -2046,7 +2046,7 @@
 		<width/>
 		<optionsets/>
 		<conditions>
-			<condition dc:uri="http://example.com/terms/conditions/MMpresent"/>
+			<condition dc:uri="http://example.com/terms/conditions/MaRDI/MMpresent"/>
 		</conditions>
 	</question>
 	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_2/Question_3">
@@ -2077,7 +2077,7 @@
 			<optionset dc:uri="http://example.com/terms/options/MathematicalModel_properties"/>
 		</optionsets>
 		<conditions>
-			<condition dc:uri="http://example.com/terms/conditions/MMpresent"/>
+			<condition dc:uri="http://example.com/terms/conditions/MaRDI/MMpresent"/>
 		</conditions>
 	</question>
 	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_2/Question_4">
@@ -2139,7 +2139,7 @@
 			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_3/Question_9" order="9"/>
 		</questions>
 		<conditions>
-			<condition dc:uri="http://example.com/terms/conditions/Quantity_property"/>
+			<condition dc:uri="http://example.com/terms/conditions/MaRDI/Quantity_property"/>
 		</conditions>
 	</page>
 	<questionset dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_3/Set_0">
@@ -2428,7 +2428,7 @@
 		<width/>
 		<optionsets/>
 		<conditions>
-			<condition dc:uri="http://example.com/terms/conditions/Qpresent"/>
+			<condition dc:uri="http://example.com/terms/conditions/MaRDI/Qpresent"/>
 		</conditions>
 	</question>
 	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_3/Question_1">
@@ -2457,7 +2457,7 @@
 		<width/>
 		<optionsets/>
 		<conditions>
-			<condition dc:uri="http://example.com/terms/conditions/Qpresent"/>
+			<condition dc:uri="http://example.com/terms/conditions/MaRDI/Qpresent"/>
 		</conditions>
 	</question>
 	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_3/Question_2">
@@ -2486,7 +2486,7 @@
 		<width/>
 		<optionsets/>
 		<conditions>
-			<condition dc:uri="http://example.com/terms/conditions/Qpresent"/>
+			<condition dc:uri="http://example.com/terms/conditions/MaRDI/Qpresent"/>
 		</conditions>
 	</question>
 	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_3/Question_3">
@@ -2575,7 +2575,7 @@
 			<optionset dc:uri="http://example.com/terms/options/wikidata_search"/>
 		</optionsets>
 		<conditions>
-			<condition dc:uri="http://example.com/terms/conditions/QKpresent"/>
+			<condition dc:uri="http://example.com/terms/conditions/MaRDI/QKpresent"/>
 		</conditions>
 	</question>
 	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_3/Question_7">
@@ -2604,7 +2604,7 @@
 		<width/>
 		<optionsets/>
 		<conditions>
-			<condition dc:uri="http://example.com/terms/conditions/QKpresent2"/>
+			<condition dc:uri="http://example.com/terms/conditions/MaRDI/QKpresent2"/>
 		</conditions>
 	</question>
 	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_3/Question_8">
@@ -2633,7 +2633,7 @@
 		<width/>
 		<optionsets/>
 		<conditions>
-			<condition dc:uri="http://example.com/terms/conditions/QKpresent3"/>
+			<condition dc:uri="http://example.com/terms/conditions/MaRDI/QKpresent3"/>
 		</conditions>
 	</question>
 	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_3/Question_9">
@@ -2662,7 +2662,7 @@
 		<width/>
 		<optionsets/>
 		<conditions>
-			<condition dc:uri="http://example.com/terms/conditions/QKpresent4"/>
+			<condition dc:uri="http://example.com/terms/conditions/MaRDI/QKpresent4"/>
 		</conditions>
 	</question>
 	<page dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_5">
@@ -2692,7 +2692,7 @@
 			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_5/Question_4" order="5"/>
 		</questions>
 		<conditions>
-			<condition dc:uri="http://example.com/terms/conditions/MathematicalFormulation_property"/>
+			<condition dc:uri="http://example.com/terms/conditions/MaRDI/MathematicalFormulation_property"/>
 		</conditions>
 	</page>
 	<questionset dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_5/Set_0">
@@ -2713,7 +2713,7 @@
 			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_5/Set_0/Question_1" order="2"/>
 		</questions>
 		<conditions>
-			<condition dc:uri="http://example.com/terms/conditions/MFpresent"/>
+			<condition dc:uri="http://example.com/terms/conditions/MaRDI/MFpresent"/>
 		</conditions>
 	</questionset>
 	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_5/Set_0/Question_0">
@@ -3058,7 +3058,7 @@
 		<width/>
 		<optionsets/>
 		<conditions>
-			<condition dc:uri="http://example.com/terms/conditions/MFpresent"/>
+			<condition dc:uri="http://example.com/terms/conditions/MaRDI/MFpresent"/>
 		</conditions>
 	</question>
 	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_5/Question_1">
@@ -3087,7 +3087,7 @@
 		<width/>
 		<optionsets/>
 		<conditions>
-			<condition dc:uri="http://example.com/terms/conditions/MFpresent"/>
+			<condition dc:uri="http://example.com/terms/conditions/MaRDI/MFpresent"/>
 		</conditions>
 	</question>
 	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_5/Question_2">
@@ -3116,7 +3116,7 @@
 		<width/>
 		<optionsets/>
 		<conditions>
-			<condition dc:uri="http://example.com/terms/conditions/MFpresent"/>
+			<condition dc:uri="http://example.com/terms/conditions/MaRDI/MFpresent"/>
 		</conditions>
 	</question>
 	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_5/Question_3">
@@ -3147,7 +3147,7 @@
 			<optionset dc:uri="http://example.com/terms/options/MathematicalFormulation_properties"/>
 		</optionsets>
 		<conditions>
-			<condition dc:uri="http://example.com/terms/conditions/MFpresent"/>
+			<condition dc:uri="http://example.com/terms/conditions/MaRDI/MFpresent"/>
 		</conditions>
 	</question>
 	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_5/Question_4">
@@ -3176,7 +3176,7 @@
 		<width/>
 		<optionsets/>
 		<conditions>
-			<condition dc:uri="http://example.com/terms/conditions/MFpresent"/>
+			<condition dc:uri="http://example.com/terms/conditions/MaRDI/MFpresent"/>
 		</conditions>
 	</question>
 	<page dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_6">
@@ -3206,7 +3206,7 @@
 			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_6/Question_4" order="6"/>
 		</questions>
 		<conditions>
-			<condition dc:uri="http://example.com/terms/conditions/MathematicalTask_property"/>
+			<condition dc:uri="http://example.com/terms/conditions/MaRDI/MathematicalTask_property"/>
 		</conditions>
 	</page>
 	<questionset dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_6/Set_0">
@@ -3227,7 +3227,7 @@
 			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_6/Set_0/Question_0" order="1"/>
 		</questions>
 		<conditions>
-			<condition dc:uri="http://example.com/terms/conditions/MTpresent"/>
+			<condition dc:uri="http://example.com/terms/conditions/MaRDI/MTpresent"/>
 		</conditions>
 	</questionset>
 	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_6/Set_0/Question_1">
@@ -3306,7 +3306,7 @@
 			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_6/Set_1/Question_0" order="1"/>
 		</questions>
 		<conditions>
-			<condition dc:uri="http://example.com/terms/conditions/MTpresent"/>
+			<condition dc:uri="http://example.com/terms/conditions/MaRDI/MTpresent"/>
 		</conditions>
 	</questionset>
 	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_6/Set_1/Question_1">
@@ -3385,7 +3385,7 @@
 			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_6/Set_2/Question_0" order="1"/>
 		</questions>
 		<conditions>
-			<condition dc:uri="http://example.com/terms/conditions/MTpresent"/>
+			<condition dc:uri="http://example.com/terms/conditions/MaRDI/MTpresent"/>
 		</conditions>
 	</questionset>
 	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_6/Set_2/Question_1">
@@ -3501,7 +3501,7 @@
 		<width/>
 		<optionsets/>
 		<conditions>
-			<condition dc:uri="http://example.com/terms/conditions/MTpresent"/>
+			<condition dc:uri="http://example.com/terms/conditions/MaRDI/MTpresent"/>
 		</conditions>
 	</question>
 	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_6/Question_1">
@@ -3530,7 +3530,7 @@
 		<width/>
 		<optionsets/>
 		<conditions>
-			<condition dc:uri="http://example.com/terms/conditions/MTpresent"/>
+			<condition dc:uri="http://example.com/terms/conditions/MaRDI/MTpresent"/>
 		</conditions>
 	</question>
 	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_6/Question_2">
@@ -3559,7 +3559,7 @@
 		<width/>
 		<optionsets/>
 		<conditions>
-			<condition dc:uri="http://example.com/terms/conditions/MTpresent"/>
+			<condition dc:uri="http://example.com/terms/conditions/MaRDI/MTpresent"/>
 		</conditions>
 	</question>
 	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_6/Question_05">
@@ -3590,7 +3590,7 @@
 			<optionset dc:uri="http://example.com/terms/options/TaskCategory"/>
 		</optionsets>
 		<conditions>
-			<condition dc:uri="http://example.com/terms/conditions/MTpresent"/>
+			<condition dc:uri="http://example.com/terms/conditions/MaRDI/MTpresent"/>
 		</conditions>
 	</question>
 	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_6/Question_3">
@@ -3671,7 +3671,7 @@
 			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_7/Question_0" order="1"/>
 		</questions>
 		<conditions>
-			<condition dc:uri="http://example.com/terms/conditions/Publication_property"/>
+			<condition dc:uri="http://example.com/terms/conditions/MaRDI/Publication_property"/>
 		</conditions>
 	</page>
 	<questionset dc:uri="http://example.com/terms/questions/MaRDI/Section_3/Set_7/Set_0">
@@ -3806,7 +3806,7 @@
 		<width/>
 		<optionsets/>
 		<conditions>
-			<condition dc:uri="http://example.com/terms/conditions/Pubpresent"/>
+			<condition dc:uri="http://example.com/terms/conditions/MaRDI/Pubpresent"/>
 		</conditions>
 	</question>
 	<section dc:uri="http://example.com/terms/questions/MaRDI/Section_4">
@@ -3850,7 +3850,7 @@
 			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_4/Set_3/Question_09" order="8"/>
 		</questions>
 		<conditions>
-			<condition dc:uri="http://example.com/terms/conditions/software_property"/>
+			<condition dc:uri="http://example.com/terms/conditions/MaRDI/software_property"/>
 		</conditions>
 	</page>
 	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_4/Set_3/Question_01">
@@ -3908,7 +3908,7 @@
 		<width/>
 		<optionsets/>
 		<conditions>
-			<condition dc:uri="http://example.com/terms/conditions/software_present"/>
+			<condition dc:uri="http://example.com/terms/conditions/MaRDI/software_present"/>
 		</conditions>
 	</question>
 	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_4/Set_3/Question_03">
@@ -3937,7 +3937,7 @@
 		<width/>
 		<optionsets/>
 		<conditions>
-			<condition dc:uri="http://example.com/terms/conditions/software_present"/>
+			<condition dc:uri="http://example.com/terms/conditions/MaRDI/software_present"/>
 		</conditions>
 	</question>
 	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_4/Set_3/Question_05">
@@ -3968,7 +3968,7 @@
 			<optionset dc:uri="http://example.com/terms/options/wikidata_search"/>
 		</optionsets>
 		<conditions>
-			<condition dc:uri="http://example.com/terms/conditions/software_present"/>
+			<condition dc:uri="http://example.com/terms/conditions/MaRDI/software_present"/>
 		</conditions>
 	</question>
 	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_4/Set_3/Question_00">
@@ -3997,7 +3997,7 @@
 		<width/>
 		<optionsets/>
 		<conditions>
-			<condition dc:uri="http://example.com/terms/conditions/software_present"/>
+			<condition dc:uri="http://example.com/terms/conditions/MaRDI/software_present"/>
 		</conditions>
 	</question>
 	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_4/Set_3/Question_04">
@@ -4164,7 +4164,7 @@
 			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_4/Set_4/Question_06" order="6"/>
 		</questions>
 		<conditions>
-			<condition dc:uri="http://example.com/terms/conditions/hardware_property"/>
+			<condition dc:uri="http://example.com/terms/conditions/MaRDI/hardware_property"/>
 		</conditions>
 	</page>
 	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_4/Set_4/Question_01">
@@ -4222,7 +4222,7 @@
 		<width/>
 		<optionsets/>
 		<conditions>
-			<condition dc:uri="http://example.com/terms/conditions/hardware_present"/>
+			<condition dc:uri="http://example.com/terms/conditions/MaRDI/hardware_present"/>
 		</conditions>
 	</question>
 	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_4/Set_4/Question_07">
@@ -4251,7 +4251,7 @@
 		<width/>
 		<optionsets/>
 		<conditions>
-			<condition dc:uri="http://example.com/terms/conditions/hardware_present"/>
+			<condition dc:uri="http://example.com/terms/conditions/MaRDI/hardware_present"/>
 		</conditions>
 	</question>
 	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_4/Set_4/Question_03">
@@ -4390,7 +4390,7 @@
 			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_4/Set_5/Question_08" order="7"/>
 		</questions>
 		<conditions>
-			<condition dc:uri="http://example.com/terms/conditions/instrument_property"/>
+			<condition dc:uri="http://example.com/terms/conditions/MaRDI/instrument_property"/>
 		</conditions>
 	</page>
 	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_4/Set_5/Question_01">
@@ -4448,7 +4448,7 @@
 		<width/>
 		<optionsets/>
 		<conditions>
-			<condition dc:uri="http://example.com/terms/conditions/instrument_present"/>
+			<condition dc:uri="http://example.com/terms/conditions/MaRDI/instrument_present"/>
 		</conditions>
 	</question>
 	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_4/Set_5/Question_03">
@@ -4477,7 +4477,7 @@
 		<width/>
 		<optionsets/>
 		<conditions>
-			<condition dc:uri="http://example.com/terms/conditions/instrument_present"/>
+			<condition dc:uri="http://example.com/terms/conditions/MaRDI/instrument_present"/>
 		</conditions>
 	</question>
 	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_4/Set_5/Question_04">
@@ -4647,7 +4647,7 @@
 			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_4/Set_6/Question_09" order="11"/>
 		</questions>
 		<conditions>
-			<condition dc:uri="http://example.com/terms/conditions/data_property"/>
+			<condition dc:uri="http://example.com/terms/conditions/MaRDI/data_property"/>
 		</conditions>
 	</page>
 	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_4/Set_6/Question_00">
@@ -4705,7 +4705,7 @@
 		<width/>
 		<optionsets/>
 		<conditions>
-			<condition dc:uri="http://example.com/terms/conditions/data_present"/>
+			<condition dc:uri="http://example.com/terms/conditions/MaRDI/data_present"/>
 		</conditions>
 	</question>
 	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_4/Set_6/Question_11">
@@ -4734,7 +4734,7 @@
 		<width/>
 		<optionsets/>
 		<conditions>
-			<condition dc:uri="http://example.com/terms/conditions/data_present"/>
+			<condition dc:uri="http://example.com/terms/conditions/MaRDI/data_present"/>
 		</conditions>
 	</question>
 	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_4/Set_6/Question_10">
@@ -4763,7 +4763,7 @@
 		<width/>
 		<optionsets/>
 		<conditions>
-			<condition dc:uri="http://example.com/terms/conditions/data_present"/>
+			<condition dc:uri="http://example.com/terms/conditions/MaRDI/data_present"/>
 		</conditions>
 	</question>
 	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_4/Set_6/Question_02">
@@ -5016,7 +5016,7 @@
 			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_4/Set_2/Question_05" order="4"/>
 		</questions>
 		<conditions>
-			<condition dc:uri="http://example.com/terms/conditions/method_property"/>
+			<condition dc:uri="http://example.com/terms/conditions/MaRDI/method_property"/>
 		</conditions>
 	</page>
 	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_4/Set_2/Question_01">
@@ -5074,7 +5074,7 @@
 		<width/>
 		<optionsets/>
 		<conditions>
-			<condition dc:uri="http://example.com/terms/conditions/method_present"/>
+			<condition dc:uri="http://example.com/terms/conditions/MaRDI/method_present"/>
 		</conditions>
 	</question>
 	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_4/Set_2/Wiki_02">
@@ -5103,7 +5103,7 @@
 		<width/>
 		<optionsets/>
 		<conditions>
-			<condition dc:uri="http://example.com/terms/conditions/method_present"/>
+			<condition dc:uri="http://example.com/terms/conditions/MaRDI/method_present"/>
 		</conditions>
 	</question>
 	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_4/Set_2/Wiki_03">
@@ -5134,7 +5134,7 @@
 			<optionset dc:uri="http://example.com/terms/options/wikidata_search"/>
 		</optionsets>
 		<conditions>
-			<condition dc:uri="http://example.com/terms/conditions/method_present"/>
+			<condition dc:uri="http://example.com/terms/conditions/MaRDI/method_present"/>
 		</conditions>
 	</question>
 	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_4/Set_2/Wiki_04">
@@ -5163,7 +5163,7 @@
 		<width/>
 		<optionsets/>
 		<conditions>
-			<condition dc:uri="http://example.com/terms/conditions/method_present"/>
+			<condition dc:uri="http://example.com/terms/conditions/MaRDI/method_present"/>
 		</conditions>
 	</question>
 	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_4/Set_2/Question_00">
@@ -5192,7 +5192,7 @@
 		<width/>
 		<optionsets/>
 		<conditions>
-			<condition dc:uri="http://example.com/terms/conditions/method_present"/>
+			<condition dc:uri="http://example.com/terms/conditions/MaRDI/method_present"/>
 		</conditions>
 	</question>
 	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_4/Set_2/Question_04">
@@ -5275,7 +5275,7 @@
 			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_4/Set_1/Question_08" order="7"/>
 		</questions>
 		<conditions>
-			<condition dc:uri="http://example.com/terms/conditions/step_property"/>
+			<condition dc:uri="http://example.com/terms/conditions/MaRDI/step_property"/>
 		</conditions>
 	</page>
 	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_4/Set_1/Question_01">
@@ -5539,7 +5539,7 @@
 			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_5/Set_1/Question_06" order="8"/>
 		</questions>
 		<conditions>
-			<condition dc:uri="http://example.com/terms/conditions/reproducibility_property"/>
+			<condition dc:uri="http://example.com/terms/conditions/MaRDI/reproducibility_property"/>
 		</conditions>
 	</page>
 	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_5/Set_1/Question_01">
@@ -5570,7 +5570,7 @@
 			<optionset dc:uri="http://example.com/terms/options/yes_no"/>
 		</optionsets>
 		<conditions>
-			<condition dc:uri="http://example.com/terms/conditions/workflow_type"/>
+			<condition dc:uri="http://example.com/terms/conditions/MaRDI/workflow_type"/>
 		</conditions>
 	</question>
 	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_5/Set_1/Question_01a">
@@ -5599,7 +5599,7 @@
 		<width/>
 		<optionsets/>
 		<conditions>
-			<condition dc:uri="http://example.com/terms/conditions/reproducible_mathematically"/>
+			<condition dc:uri="http://example.com/terms/conditions/MaRDI/reproducible_mathematically"/>
 		</conditions>
 	</question>
 	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_5/Set_1/Question_02">
@@ -5630,7 +5630,7 @@
 			<optionset dc:uri="https://rdmorganiser.github.io/terms/options/yes_with_text_no"/>
 		</optionsets>
 		<conditions>
-			<condition dc:uri="http://example.com/terms/conditions/workflow_type"/>
+			<condition dc:uri="http://example.com/terms/conditions/MaRDI/workflow_type"/>
 		</conditions>
 	</question>
 	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_5/Set_1/Question_03">
@@ -5661,7 +5661,7 @@
 			<optionset dc:uri="https://rdmorganiser.github.io/terms/options/yes_with_text_no"/>
 		</optionsets>
 		<conditions>
-			<condition dc:uri="http://example.com/terms/conditions/workflow_type"/>
+			<condition dc:uri="http://example.com/terms/conditions/MaRDI/workflow_type"/>
 		</conditions>
 	</question>
 	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_5/Set_1/Question_04">
@@ -5719,7 +5719,7 @@
 		<width/>
 		<optionsets/>
 		<conditions>
-			<condition dc:uri="http://example.com/terms/conditions/reproducible_original"/>
+			<condition dc:uri="http://example.com/terms/conditions/MaRDI/reproducible_original"/>
 		</conditions>
 	</question>
 	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_5/Set_1/Question_05">
@@ -5777,7 +5777,7 @@
 		<width/>
 		<optionsets/>
 		<conditions>
-			<condition dc:uri="http://example.com/terms/conditions/reproducible_other"/>
+			<condition dc:uri="http://example.com/terms/conditions/MaRDI/reproducible_other"/>
 		</conditions>
 	</question>
 	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_5/Set_1/Question_06">
@@ -5835,7 +5835,7 @@
 			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_6/Set_1/Question_02" order="1"/>
 		</questions>
 		<conditions>
-			<condition dc:uri="http://example.com/terms/conditions/export_property"/>
+			<condition dc:uri="http://example.com/terms/conditions/MaRDI/export_property"/>
 		</conditions>
 	</page>
 	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_6/Set_1/Question_01">
