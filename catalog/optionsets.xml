@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2024-06-07T09:17:04.780459+02:00" version="2.1.2">
-	<optionset dc:uri="http://example.com/terms/options/AllEntities">
+	<optionset dc:uri="http://example.com/terms/options/MaRDI/AllEntities">
 		<uri_prefix>http://example.com/terms</uri_prefix>
 		<uri_path>AllEntities</uri_path>
 		<dc:comment/>
