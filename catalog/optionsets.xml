@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2024-06-15T05:53:23.407140+02:00" version="2.1.3">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2024-06-19T11:13:17.879784+02:00" version="2.1.3">
 	<optionset dc:uri="http://example.com/terms/options/MaRDI/AllEntities">
 		<uri_prefix>http://example.com/terms</uri_prefix>
 		<uri_path>MaRDI/AllEntities</uri_path>
@@ -8,6 +8,206 @@
 		<options/>
 		<conditions/>
 	</optionset>
+	<optionset dc:uri="http://example.com/terms/options/MaRDI/ContainedInObjectives">
+		<uri_prefix>http://example.com/terms</uri_prefix>
+		<uri_path>MaRDI/ContainedInObjectives</uri_path>
+		<dc:comment/>
+		<provider_key/>
+		<options>
+			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/ContainedAsAssumptionIn" order="0"/>
+			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/ContainedAsBoundaryConditionIn" order="2"/>
+			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/ContainedAsConstraintConditionIn" order="4"/>
+			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/ContainedAsCouplingConditionIn" order="6"/>
+			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/ContainedAsFormulationIn" order="8"/>
+			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/ContainedAsInitialConditionIn" order="10"/>
+			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/ContainedAsFinalConditionIn" order="12"/>
+		</options>
+		<conditions/>
+	</optionset>
+	<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/ContainedAsAssumptionIn">
+		<uri_prefix>http://example.com/terms</uri_prefix>
+		<uri_path>MaRDI/MathModDB/ContainedAsAssumptionIn</uri_path>
+		<dc:comment/>
+		<text lang="en">is contained as assumption in</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">ist beinhaltet als Annahme in</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/ContainedAsBoundaryConditionIn">
+		<uri_prefix>http://example.com/terms</uri_prefix>
+		<uri_path>MaRDI/MathModDB/ContainedAsBoundaryConditionIn</uri_path>
+		<dc:comment/>
+		<text lang="en">is contained as boundary condition in</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">ist beinhaltet als Randbedingung in</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/ContainedAsConstraintConditionIn">
+		<uri_prefix>http://example.com/terms</uri_prefix>
+		<uri_path>MaRDI/MathModDB/ContainedAsConstraintConditionIn</uri_path>
+		<dc:comment/>
+		<text lang="en">is contained as constraint condition in</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">ist beinhaltet als Einschränkungsbedingung in</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/ContainedAsCouplingConditionIn">
+		<uri_prefix>http://example.com/terms</uri_prefix>
+		<uri_path>MaRDI/MathModDB/ContainedAsCouplingConditionIn</uri_path>
+		<dc:comment/>
+		<text lang="en">is contained as coupling condition in</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">ist beinhaltet als Kopplungsbedingung in</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/ContainedAsFormulationIn">
+		<uri_prefix>http://example.com/terms</uri_prefix>
+		<uri_path>MaRDI/MathModDB/ContainedAsFormulationIn</uri_path>
+		<dc:comment/>
+		<text lang="en">is contained as formulation in</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">ist beinhaltet als Formulierung in</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/ContainedAsInitialConditionIn">
+		<uri_prefix>http://example.com/terms</uri_prefix>
+		<uri_path>MaRDI/MathModDB/ContainedAsInitialConditionIn</uri_path>
+		<dc:comment/>
+		<text lang="en">is contained as initial condition in</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">ist beinhaltet als Initialbedingung in</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/ContainedAsFinalConditionIn">
+		<uri_prefix>http://example.com/terms</uri_prefix>
+		<uri_path>MaRDI/MathModDB/ContainedAsFinalConditionIn</uri_path>
+		<dc:comment/>
+		<text lang="en">is contained as final condition in</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">ist beinhaltet als Finalbedingung in</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<optionset dc:uri="http://example.com/terms/options/MaRDI/ContainsObjectives">
+		<uri_prefix>http://example.com/terms</uri_prefix>
+		<uri_path>MaRDI/ContainsObjectives</uri_path>
+		<dc:comment/>
+		<provider_key/>
+		<options>
+			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/ContainsAssumption" order="0"/>
+			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/ContainsBoundaryCondition" order="1"/>
+			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/ContainsConstraintCondition" order="2"/>
+			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/ContainsCouplingCondition" order="3"/>
+			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/ContainsFormulation" order="4"/>
+			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/ContainsInitialCondition" order="5"/>
+			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/ContainsFinalCondition" order="6"/>
+		</options>
+		<conditions/>
+	</optionset>
+	<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/ContainsAssumption">
+		<uri_prefix>http://example.com/terms</uri_prefix>
+		<uri_path>MaRDI/MathModDB/ContainsAssumption</uri_path>
+		<dc:comment/>
+		<text lang="en">contains as assumption</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">beinhaltet als Annahme</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/ContainsBoundaryCondition">
+		<uri_prefix>http://example.com/terms</uri_prefix>
+		<uri_path>MaRDI/MathModDB/ContainsBoundaryCondition</uri_path>
+		<dc:comment/>
+		<text lang="en">contains as boundary condition</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">beinhaltet als Randbedingung</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/ContainsConstraintCondition">
+		<uri_prefix>http://example.com/terms</uri_prefix>
+		<uri_path>MaRDI/MathModDB/ContainsConstraintCondition</uri_path>
+		<dc:comment/>
+		<text lang="en">contains as constraint condition</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">beinhaltet als Einschränkungsbedingung</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/ContainsCouplingCondition">
+		<uri_prefix>http://example.com/terms</uri_prefix>
+		<uri_path>MaRDI/MathModDB/ContainsCouplingCondition</uri_path>
+		<dc:comment/>
+		<text lang="en">contains as coupling condition</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">beinhaltet als Kopplungsbedingung</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/ContainsFormulation">
+		<uri_prefix>http://example.com/terms</uri_prefix>
+		<uri_path>MaRDI/MathModDB/ContainsFormulation</uri_path>
+		<dc:comment/>
+		<text lang="en">contains as formulation</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">beinhaltet als Formulierung</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/ContainsInitialCondition">
+		<uri_prefix>http://example.com/terms</uri_prefix>
+		<uri_path>MaRDI/MathModDB/ContainsInitialCondition</uri_path>
+		<dc:comment/>
+		<text lang="en">contains as initial condition</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">beinhaltet als Initialbedingung</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/ContainsFinalCondition">
+		<uri_prefix>http://example.com/terms</uri_prefix>
+		<uri_path>MaRDI/MathModDB/ContainsFinalCondition</uri_path>
+		<dc:comment/>
+		<text lang="en">contains as final condition</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">beinhaltet als Finalbedingung</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
 	<optionset dc:uri="http://example.com/terms/options/MaRDI/DataPropertiesSet1">
 		<uri_prefix>http://example.com/terms</uri_prefix>
 		<uri_path>MaRDI/DataPropertiesSet1</uri_path>
@@ -260,6 +460,67 @@
 		</options>
 		<conditions/>
 	</optionset>
+	<optionset dc:uri="http://example.com/terms/options/MaRDI/InputOutputObjectiveParameter">
+		<uri_prefix>http://example.com/terms</uri_prefix>
+		<uri_path>MaRDI/InputOutputObjectiveParameter</uri_path>
+		<dc:comment/>
+		<provider_key/>
+		<options>
+			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/ContainsInput" order="1"/>
+			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/ContainsOutput" order="2"/>
+			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/ContainsObjective" order="3"/>
+			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/ContainsParameter" order="4"/>
+		</options>
+		<conditions/>
+	</optionset>
+	<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/ContainsInput">
+		<uri_prefix>http://example.com/terms</uri_prefix>
+		<uri_path>MaRDI/MathModDB/ContainsInput</uri_path>
+		<dc:comment/>
+		<text lang="en">contains as input</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">beinhaltet als Eingabe</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/ContainsOutput">
+		<uri_prefix>http://example.com/terms</uri_prefix>
+		<uri_path>MaRDI/MathModDB/ContainsOutput</uri_path>
+		<dc:comment/>
+		<text lang="en">contains as output</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">beinhaltet als Ausgabe</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/ContainsObjective">
+		<uri_prefix>http://example.com/terms</uri_prefix>
+		<uri_path>MaRDI/MathModDB/ContainsObjective</uri_path>
+		<dc:comment/>
+		<text lang="en">contains as objective</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">beinhaltet als Zielgröße</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/ContainsParameter">
+		<uri_prefix>http://example.com/terms</uri_prefix>
+		<uri_path>MaRDI/MathModDB/ContainsParameter</uri_path>
+		<dc:comment/>
+		<text lang="en">contains as parameter</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">beinhaltet als Parameter</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
 	<optionset dc:uri="http://example.com/terms/options/MaRDI/MFQ">
 		<uri_prefix>http://example.com/terms</uri_prefix>
 		<uri_path>MaRDI/MFQ</uri_path>
@@ -314,210 +575,19 @@
 		<options/>
 		<conditions/>
 	</optionset>
-	<optionset dc:uri="http://example.com/terms/options/MaRDI/MathematicalFormulation_kinds">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/MathematicalFormulation_kinds</uri_path>
-		<dc:comment/>
-		<provider_key/>
-		<options>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathematicalFormulation_kind0" order="0"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathematicalFormulation_kind_0a" order="1"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathematicalFormulation_kind1" order="2"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathmaticalFormulation_kind_1a" order="3"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathematicalFormulation_kind2" order="4"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathematicalFormulation_kind_2a" order="5"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathematicalFormulation_kind3" order="6"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathematicalFormulation_kind_3a" order="7"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathematicalFormulation_kind4" order="8"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathematicalFormulation_kind_4a" order="9"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathematicalFormulation_kind5" order="10"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathematicalFormulation_kind_5a" order="11"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathematicalFormulation_kind6" order="12"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathematicalFormulation_kind_6a" order="13"/>
-		</options>
-		<conditions/>
-	</optionset>
-	<option dc:uri="http://example.com/terms/options/MaRDI/MathematicalFormulation_kind0">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/MathematicalFormulation_kind0</uri_path>
-		<dc:comment/>
-		<text lang="en">is contained as assumption in</text>
-		<help lang="en"/>
-		<view_text lang="en"/>
-		<text lang="de">ist beinhaltet als Annahme in</text>
-		<help lang="de"/>
-		<view_text lang="de"/>
-		<additional_input/>
-	</option>
-	<option dc:uri="http://example.com/terms/options/MaRDI/MathematicalFormulation_kind_0a">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/MathematicalFormulation_kind_0a</uri_path>
-		<dc:comment/>
-		<text lang="en">contains as assumption</text>
-		<help lang="en"/>
-		<view_text lang="en"/>
-		<text lang="de">beinhaltet als Annahme</text>
-		<help lang="de"/>
-		<view_text lang="de"/>
-		<additional_input/>
-	</option>
-	<option dc:uri="http://example.com/terms/options/MaRDI/MathematicalFormulation_kind1">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/MathematicalFormulation_kind1</uri_path>
-		<dc:comment/>
-		<text lang="en">is contained as boundary condition in</text>
-		<help lang="en"/>
-		<view_text lang="en"/>
-		<text lang="de">ist beinhaltet als Randbedingung in</text>
-		<help lang="de"/>
-		<view_text lang="de"/>
-		<additional_input/>
-	</option>
-	<option dc:uri="http://example.com/terms/options/MaRDI/MathmaticalFormulation_kind_1a">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/MathmaticalFormulation_kind_1a</uri_path>
-		<dc:comment/>
-		<text lang="en">contains as boundary condition</text>
-		<help lang="en"/>
-		<view_text lang="en"/>
-		<text lang="de">beinhaltet als Randbedingung</text>
-		<help lang="de"/>
-		<view_text lang="de"/>
-		<additional_input/>
-	</option>
-	<option dc:uri="http://example.com/terms/options/MaRDI/MathematicalFormulation_kind2">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/MathematicalFormulation_kind2</uri_path>
-		<dc:comment/>
-		<text lang="en">is contained as constraint condition in</text>
-		<help lang="en"/>
-		<view_text lang="en"/>
-		<text lang="de">ist beinhaltet als Einschränkungsbedingung in</text>
-		<help lang="de"/>
-		<view_text lang="de"/>
-		<additional_input/>
-	</option>
-	<option dc:uri="http://example.com/terms/options/MaRDI/MathematicalFormulation_kind_2a">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/MathematicalFormulation_kind_2a</uri_path>
-		<dc:comment/>
-		<text lang="en">contains as constraint condition</text>
-		<help lang="en"/>
-		<view_text lang="en"/>
-		<text lang="de">beinhaltet als Einschränkungsbedingung</text>
-		<help lang="de"/>
-		<view_text lang="de"/>
-		<additional_input/>
-	</option>
-	<option dc:uri="http://example.com/terms/options/MaRDI/MathematicalFormulation_kind3">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/MathematicalFormulation_kind3</uri_path>
-		<dc:comment/>
-		<text lang="en">is contained as coupling condition in</text>
-		<help lang="en"/>
-		<view_text lang="en"/>
-		<text lang="de">ist beinhaltet als Kopplungsbedingung in</text>
-		<help lang="de"/>
-		<view_text lang="de"/>
-		<additional_input/>
-	</option>
-	<option dc:uri="http://example.com/terms/options/MaRDI/MathematicalFormulation_kind_3a">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/MathematicalFormulation_kind_3a</uri_path>
-		<dc:comment/>
-		<text lang="en">contains as coupling condition</text>
-		<help lang="en"/>
-		<view_text lang="en"/>
-		<text lang="de">beinhaltet als Kopplungsbedingung</text>
-		<help lang="de"/>
-		<view_text lang="de"/>
-		<additional_input/>
-	</option>
-	<option dc:uri="http://example.com/terms/options/MaRDI/MathematicalFormulation_kind4">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/MathematicalFormulation_kind4</uri_path>
-		<dc:comment/>
-		<text lang="en">is contained as formulation in</text>
-		<help lang="en"/>
-		<view_text lang="en"/>
-		<text lang="de">ist beinhaltet als Formulierung in</text>
-		<help lang="de"/>
-		<view_text lang="de"/>
-		<additional_input/>
-	</option>
-	<option dc:uri="http://example.com/terms/options/MaRDI/MathematicalFormulation_kind_4a">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/MathematicalFormulation_kind_4a</uri_path>
-		<dc:comment/>
-		<text lang="en">contains as formulation</text>
-		<help lang="en"/>
-		<view_text lang="en"/>
-		<text lang="de">beinhaltet als Formulierung</text>
-		<help lang="de"/>
-		<view_text lang="de"/>
-		<additional_input/>
-	</option>
-	<option dc:uri="http://example.com/terms/options/MaRDI/MathematicalFormulation_kind5">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/MathematicalFormulation_kind5</uri_path>
-		<dc:comment/>
-		<text lang="en">is contained as initial condition in</text>
-		<help lang="en"/>
-		<view_text lang="en"/>
-		<text lang="de">ist beinhaltet als Initialbedingung in</text>
-		<help lang="de"/>
-		<view_text lang="de"/>
-		<additional_input/>
-	</option>
-	<option dc:uri="http://example.com/terms/options/MaRDI/MathematicalFormulation_kind_5a">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/MathematicalFormulation_kind_5a</uri_path>
-		<dc:comment/>
-		<text lang="en">contains as initial condition</text>
-		<help lang="en"/>
-		<view_text lang="en"/>
-		<text lang="de">beinhaltet als Initialbedingung</text>
-		<help lang="de"/>
-		<view_text lang="de"/>
-		<additional_input/>
-	</option>
-	<option dc:uri="http://example.com/terms/options/MaRDI/MathematicalFormulation_kind6">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/MathematicalFormulation_kind6</uri_path>
-		<dc:comment/>
-		<text lang="en">is contained as final condition in</text>
-		<help lang="en"/>
-		<view_text lang="en"/>
-		<text lang="de">ist beinhaltet als Finalbedingung in</text>
-		<help lang="de"/>
-		<view_text lang="de"/>
-		<additional_input/>
-	</option>
-	<option dc:uri="http://example.com/terms/options/MaRDI/MathematicalFormulation_kind_6a">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/MathematicalFormulation_kind_6a</uri_path>
-		<dc:comment/>
-		<text lang="en">contains as final condition</text>
-		<help lang="en"/>
-		<view_text lang="en"/>
-		<text lang="de">beinhaltet als Finalbedingung</text>
-		<help lang="de"/>
-		<view_text lang="de"/>
-		<additional_input/>
-	</option>
 	<optionset dc:uri="http://example.com/terms/options/MaRDI/MathematicalFormulation_kinds2">
 		<uri_prefix>http://example.com/terms</uri_prefix>
 		<uri_path>MaRDI/MathematicalFormulation_kinds2</uri_path>
 		<dc:comment/>
 		<provider_key/>
 		<options>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathematicalFormulation_kind0" order="0"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathematicalFormulation_kind1" order="2"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathematicalFormulation_kind2" order="4"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathematicalFormulation_kind3" order="6"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathematicalFormulation_kind4" order="8"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathematicalFormulation_kind5" order="10"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathematicalFormulation_kind6" order="12"/>
+			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/ContainedAsAssumptionIn" order="0"/>
+			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/ContainedAsBoundaryConditionIn" order="2"/>
+			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/ContainedAsConstraintConditionIn" order="4"/>
+			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/ContainedAsCouplingConditionIn" order="6"/>
+			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/ContainedAsFormulationIn" order="8"/>
+			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/ContainedAsInitialConditionIn" order="10"/>
+			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/ContainedAsFinalConditionIn" order="12"/>
 		</options>
 		<conditions/>
 	</optionset>
@@ -957,158 +1027,6 @@
 		<options/>
 		<conditions/>
 	</optionset>
-	<optionset dc:uri="http://example.com/terms/options/MaRDI/MathematicalTask_kinds">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/MathematicalTask_kinds</uri_path>
-		<dc:comment/>
-		<provider_key/>
-		<options>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathematicalTask_kind0" order="0"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathematicalTask_kind1" order="1"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathematicalTask_kind2" order="2"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathematicalTask_kind3" order="3"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathematicalTask_kind4" order="4"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathematicalTask_kind5" order="5"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathematicalTask_kind6" order="6"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathematicalTask_kind7" order="7"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathematicalTask_kind8" order="8"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathematicalTask_kind9" order="9"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathematicalTask_kind10" order="10"/>
-		</options>
-		<conditions/>
-	</optionset>
-	<option dc:uri="http://example.com/terms/options/MaRDI/MathematicalTask_kind0">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/MathematicalTask_kind0</uri_path>
-		<dc:comment/>
-		<text lang="en">contains as assumption</text>
-		<help lang="en"/>
-		<view_text lang="en"/>
-		<text lang="de">beinhaltet als Annahme</text>
-		<help lang="de"/>
-		<view_text lang="de"/>
-		<additional_input/>
-	</option>
-	<option dc:uri="http://example.com/terms/options/MaRDI/MathematicalTask_kind1">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/MathematicalTask_kind1</uri_path>
-		<dc:comment/>
-		<text lang="en">contains as boundary condition</text>
-		<help lang="en"/>
-		<view_text lang="en"/>
-		<text lang="de">beinhaltet als Randbedingung</text>
-		<help lang="de"/>
-		<view_text lang="de"/>
-		<additional_input/>
-	</option>
-	<option dc:uri="http://example.com/terms/options/MaRDI/MathematicalTask_kind2">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/MathematicalTask_kind2</uri_path>
-		<dc:comment/>
-		<text lang="en">contains as constraint condition</text>
-		<help lang="en"/>
-		<view_text lang="en"/>
-		<text lang="de">beinhaltet als Einschränkungsbedingung</text>
-		<help lang="de"/>
-		<view_text lang="de"/>
-		<additional_input/>
-	</option>
-	<option dc:uri="http://example.com/terms/options/MaRDI/MathematicalTask_kind3">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/MathematicalTask_kind3</uri_path>
-		<dc:comment/>
-		<text lang="en">contains as coupling condition</text>
-		<help lang="en"/>
-		<view_text lang="en"/>
-		<text lang="de">beinhaltet als Kopplungsbedingung</text>
-		<help lang="de"/>
-		<view_text lang="de"/>
-		<additional_input/>
-	</option>
-	<option dc:uri="http://example.com/terms/options/MaRDI/MathematicalTask_kind4">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/MathematicalTask_kind4</uri_path>
-		<dc:comment/>
-		<text lang="en">contains as formulation</text>
-		<help lang="en"/>
-		<view_text lang="en"/>
-		<text lang="de">beinhaltet als Formulierung</text>
-		<help lang="de"/>
-		<view_text lang="de"/>
-		<additional_input/>
-	</option>
-	<option dc:uri="http://example.com/terms/options/MaRDI/MathematicalTask_kind5">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/MathematicalTask_kind5</uri_path>
-		<dc:comment/>
-		<text lang="en">contains as initial condition</text>
-		<help lang="en"/>
-		<view_text lang="en"/>
-		<text lang="de">beinhaltet als Initialbedingung</text>
-		<help lang="de"/>
-		<view_text lang="de"/>
-		<additional_input/>
-	</option>
-	<option dc:uri="http://example.com/terms/options/MaRDI/MathematicalTask_kind6">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/MathematicalTask_kind6</uri_path>
-		<dc:comment/>
-		<text lang="en">contains as final condition</text>
-		<help lang="en"/>
-		<view_text lang="en"/>
-		<text lang="de">beinhaltet als Finalbedingung</text>
-		<help lang="de"/>
-		<view_text lang="de"/>
-		<additional_input/>
-	</option>
-	<option dc:uri="http://example.com/terms/options/MaRDI/MathematicalTask_kind7">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/MathematicalTask_kind7</uri_path>
-		<dc:comment/>
-		<text lang="en">contains as input</text>
-		<help lang="en"/>
-		<view_text lang="en"/>
-		<text lang="de">beinhaltet als Eingabe</text>
-		<help lang="de"/>
-		<view_text lang="de"/>
-		<additional_input/>
-	</option>
-	<option dc:uri="http://example.com/terms/options/MaRDI/MathematicalTask_kind8">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/MathematicalTask_kind8</uri_path>
-		<dc:comment/>
-		<text lang="en">contains as output</text>
-		<help lang="en"/>
-		<view_text lang="en"/>
-		<text lang="de">beinhaltet als Ausgabe</text>
-		<help lang="de"/>
-		<view_text lang="de"/>
-		<additional_input/>
-	</option>
-	<option dc:uri="http://example.com/terms/options/MaRDI/MathematicalTask_kind9">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/MathematicalTask_kind9</uri_path>
-		<dc:comment/>
-		<text lang="en">contains as objective</text>
-		<help lang="en"/>
-		<view_text lang="en"/>
-		<text lang="de">beinhaltet als Zielgröße</text>
-		<help lang="de"/>
-		<view_text lang="de"/>
-		<additional_input/>
-	</option>
-	<option dc:uri="http://example.com/terms/options/MaRDI/MathematicalTask_kind10">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/MathematicalTask_kind10</uri_path>
-		<dc:comment/>
-		<text lang="en">contains as parameter</text>
-		<help lang="en"/>
-		<view_text lang="en"/>
-		<text lang="de">beinhaltet als Parameter</text>
-		<help lang="de"/>
-		<view_text lang="de"/>
-		<additional_input/>
-	</option>
 	<optionset dc:uri="http://example.com/terms/options/MaRDI/MathematicalTask_relations">
 		<uri_prefix>http://example.com/terms</uri_prefix>
 		<uri_path>MaRDI/MathematicalTask_relations</uri_path>
@@ -1333,67 +1251,6 @@
 		<options/>
 		<conditions/>
 	</optionset>
-	<optionset dc:uri="http://example.com/terms/options/MaRDI/QuantityAndQuantityKind_kinds">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/QuantityAndQuantityKind_kinds</uri_path>
-		<dc:comment/>
-		<provider_key/>
-		<options>
-			<option dc:uri="http://example.com/terms/options/MaRDI/QuantityAndQuantityKind_kind0" order="1"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/QuantityAndQuantityKind_kind1" order="2"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/QuantityAndQuantityKind_kind2" order="3"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/QuantityAndQuantityKind_kind3" order="4"/>
-		</options>
-		<conditions/>
-	</optionset>
-	<option dc:uri="http://example.com/terms/options/MaRDI/QuantityAndQuantityKind_kind0">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/QuantityAndQuantityKind_kind0</uri_path>
-		<dc:comment/>
-		<text lang="en">contains as input</text>
-		<help lang="en"/>
-		<view_text lang="en"/>
-		<text lang="de">beinhaltet als Eingabe</text>
-		<help lang="de"/>
-		<view_text lang="de"/>
-		<additional_input/>
-	</option>
-	<option dc:uri="http://example.com/terms/options/MaRDI/QuantityAndQuantityKind_kind1">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/QuantityAndQuantityKind_kind1</uri_path>
-		<dc:comment/>
-		<text lang="en">contains as output</text>
-		<help lang="en"/>
-		<view_text lang="en"/>
-		<text lang="de">beinhaltet als Ausgabe</text>
-		<help lang="de"/>
-		<view_text lang="de"/>
-		<additional_input/>
-	</option>
-	<option dc:uri="http://example.com/terms/options/MaRDI/QuantityAndQuantityKind_kind2">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/QuantityAndQuantityKind_kind2</uri_path>
-		<dc:comment/>
-		<text lang="en">contains as objective</text>
-		<help lang="en"/>
-		<view_text lang="en"/>
-		<text lang="de">beinhaltet als Zielgröße</text>
-		<help lang="de"/>
-		<view_text lang="de"/>
-		<additional_input/>
-	</option>
-	<option dc:uri="http://example.com/terms/options/MaRDI/QuantityAndQuantityKind_kind3">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/QuantityAndQuantityKind_kind3</uri_path>
-		<dc:comment/>
-		<text lang="en">contains as parameter</text>
-		<help lang="en"/>
-		<view_text lang="en"/>
-		<text lang="de">beinhaltet als Parameter</text>
-		<help lang="de"/>
-		<view_text lang="de"/>
-		<additional_input/>
-	</option>
 	<optionset dc:uri="http://example.com/terms/options/MaRDI/QuantityKind">
 		<uri_prefix>http://example.com/terms</uri_prefix>
 		<uri_path>MaRDI/QuantityKind</uri_path>

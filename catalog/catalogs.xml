@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2024-06-15T05:53:04.166709+02:00" version="2.1.3">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2024-06-19T11:13:24.668988+02:00" version="2.1.3">
 	<catalog dc:uri="http://example.com/terms/questions/MaRDI">
 		<uri_prefix>http://example.com/terms</uri_prefix>
 		<uri_path>MaRDI</uri_path>
@@ -3287,7 +3287,8 @@ Falls keine geeigneten Quantitäten / Quantitätsarten in MathModDB vorhanden si
 		<unit/>
 		<width/>
 		<optionsets>
-			<optionset dc:uri="http://example.com/terms/options/MaRDI/MathematicalFormulation_kinds"/>
+			<optionset dc:uri="http://example.com/terms/options/MaRDI/ContainedInObjectives"/>
+			<optionset dc:uri="http://example.com/terms/options/MaRDI/ContainsObjectives"/>
 		</optionsets>
 		<conditions/>
 	</question>
@@ -3585,7 +3586,8 @@ Falls keine geeigneten Quantitäten / Quantitätsarten in MathModDB vorhanden si
 		<unit/>
 		<width/>
 		<optionsets>
-			<optionset dc:uri="http://example.com/terms/options/MaRDI/MathematicalTask_kinds"/>
+			<optionset dc:uri="http://example.com/terms/options/MaRDI/ContainsObjectives"/>
+			<optionset dc:uri="http://example.com/terms/options/MaRDI/InputOutputObjectiveParameter"/>
 		</optionsets>
 		<conditions/>
 	</question>
@@ -3662,7 +3664,7 @@ Falls keine geeigneten Quantitäten / Quantitätsarten in MathModDB vorhanden si
 		<unit/>
 		<width/>
 		<optionsets>
-			<optionset dc:uri="http://example.com/terms/options/MaRDI/QuantityAndQuantityKind_kinds"/>
+			<optionset dc:uri="http://example.com/terms/options/MaRDI/InputOutputObjectiveParameter"/>
 		</optionsets>
 		<conditions/>
 	</question>
@@ -6003,35 +6005,35 @@ Falls keine geeigneten Quantitäten / Quantitätsarten in MathModDB vorhanden si
 			<condition dc:uri="http://example.com/terms/conditions/workflow_type"/>
 		</conditions>
 	</question>
-        <question dc:uri="http://example.com/terms/questions/MaRDI/Section_5/Set_1/Question_01a">
-                <uri_prefix>http://example.com/terms</uri_prefix>
-                <uri_path>MaRDI/Section_5/Set_1/Question_01a</uri_path>
-                <dc:comment/>
-                <attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_5/Set_1/Question_01a"/>
-                <is_collection>False</is_collection>
-                <is_optional>False</is_optional>
-                <help lang="en"/>
-                <text lang="en">Provide detailed description of the conditions under which the workflow is mathematically reproducible.</text>
-                <default_text lang="en"/>
-                <verbose_name lang="en"/>
-                <help lang="de"/>
-                <text lang="de"/>
-                <default_text lang="de"/>
-                <verbose_name lang="de"/>
-                <default_option/>
-                <default_external_id/>
-                <widget_type>textarea</widget_type>
-                <value_type>text</value_type>
-                <maximum/>
-                <minimum/>
-                <step/>
-                <unit/>
-                <width/>
-                <optionsets/>
-                <conditions>
-                        <condition dc:uri="http://example.com/terms/conditions/reproducible_mathematically"/>
-                </conditions>
-        </question>
+	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_5/Set_1/Question_01a">
+		<uri_prefix>http://example.com/terms</uri_prefix>
+		<uri_path>MaRDI/Section_5/Set_1/Question_01a</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_5/Set_1/Question_01a"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en"/>
+		<text lang="en">Provide detailed description of the conditions under which the workflow is mathematically reproducible.</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de"/>
+		<text lang="de"/>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>textarea</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions>
+			<condition dc:uri="http://example.com/terms/conditions/reproducible_mathematically"/>
+		</conditions>
+	</question>
 	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_5/Set_1/Question_02">
 		<uri_prefix>http://example.com/terms</uri_prefix>
 		<uri_path>MaRDI/Section_5/Set_1/Question_02</uri_path>
@@ -6064,34 +6066,34 @@ Falls keine geeigneten Quantitäten / Quantitätsarten in MathModDB vorhanden si
 		</conditions>
 	</question>
 	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_5/Set_1/Question_02a">
-                <uri_prefix>http://example.com/terms</uri_prefix>
-                <uri_path>MaRDI/Section_5/Set_1/Question_02a</uri_path>
-                <dc:comment/>
-                <attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_5/Set_1/Question_02a"/>
-                <is_collection>False</is_collection>
-                <is_optional>False</is_optional>
-                <help lang="en"/>
-                <text lang="en">Provide detailed description of the conditions under which the workflow is runtime reproducible.</text>
-                <default_text lang="en"/>
-                <verbose_name lang="en"/>
-                <help lang="de"/>
-                <text lang="de"/>
-                <default_text lang="de"/>
-                <verbose_name lang="de"/>
-                <default_option/>
-                <default_external_id/>
-                <widget_type>textarea</widget_type>
-                <value_type>text</value_type>
-                <maximum/>
-                <minimum/>
-                <step/>
-                <unit/>
-                <width/>
-                <optionsets/>
-                <conditions>
-                        <condition dc:uri="http://example.com/terms/conditions/reproducible_runtime"/>
-                </conditions>
-        </question>
+		<uri_prefix>http://example.com/terms</uri_prefix>
+		<uri_path>MaRDI/Section_5/Set_1/Question_02a</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_5/Set_1/Question_02a"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en"/>
+		<text lang="en">Provide detailed description of the conditions under which the workflow is runtime reproducible.</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de"/>
+		<text lang="de"/>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>textarea</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions>
+			<condition dc:uri="http://example.com/terms/conditions/reproducible_runtime"/>
+		</conditions>
+	</question>
 	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_5/Set_1/Question_03">
 		<uri_prefix>http://example.com/terms</uri_prefix>
 		<uri_path>MaRDI/Section_5/Set_1/Question_03</uri_path>
@@ -6124,34 +6126,34 @@ Falls keine geeigneten Quantitäten / Quantitätsarten in MathModDB vorhanden si
 		</conditions>
 	</question>
 	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_5/Set_1/Question_03a">
-                <uri_prefix>http://example.com/terms</uri_prefix>
-                <uri_path>MaRDI/Section_5/Set_1/Question_03a</uri_path>
-                <dc:comment/>
-                <attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_5/Set_1/Question_03a"/>
-                <is_collection>False</is_collection>
-                <is_optional>False</is_optional>
-                <help lang="en"/>
-                <text lang="en">Provide detailed description of the conditions under which the workflow is result reproducible.</text>
-                <default_text lang="en"/>
-                <verbose_name lang="en"/>
-                <help lang="de"/>
-                <text lang="de"/>
-                <default_text lang="de"/>
-                <verbose_name lang="de"/>
-                <default_option/>
-                <default_external_id/>
-                <widget_type>textarea</widget_type>
-                <value_type>text</value_type>
-                <maximum/>
-                <minimum/>
-                <step/>
-                <unit/>
-                <width/>
-                <optionsets/>
-                <conditions>
-                        <condition dc:uri="http://example.com/terms/conditions/reproducible_result"/>
-                </conditions>
-        </question>
+		<uri_prefix>http://example.com/terms</uri_prefix>
+		<uri_path>MaRDI/Section_5/Set_1/Question_03a</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_5/Set_1/Question_03a"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en"/>
+		<text lang="en">Provide detailed description of the conditions under which the workflow is result reproducible.</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de"/>
+		<text lang="de"/>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>textarea</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions>
+			<condition dc:uri="http://example.com/terms/conditions/reproducible_result"/>
+		</conditions>
+	</question>
 	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_5/Set_1/Question_04">
 		<uri_prefix>http://example.com/terms</uri_prefix>
 		<uri_path>MaRDI/Section_5/Set_1/Question_04</uri_path>
@@ -6182,34 +6184,34 @@ Falls keine geeigneten Quantitäten / Quantitätsarten in MathModDB vorhanden si
 		<conditions/>
 	</question>
 	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_5/Set_1/Question_04a">
-                <uri_prefix>http://example.com/terms</uri_prefix>
-                <uri_path>MaRDI/Section_5/Set_1/Question_04a</uri_path>
-                <dc:comment/>
-                <attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_5/Set_1/Question_04a"/>
-                <is_collection>False</is_collection>
-                <is_optional>False</is_optional>
-                <help lang="en"/>
-                <text lang="en">Provide detailed description of the conditions under which a reproduction on the original hardware/instrument is possible.</text>
-                <default_text lang="en"/>
-                <verbose_name lang="en"/>
-                <help lang="de"/>
-                <text lang="de"/>
-                <default_text lang="de"/>
-                <verbose_name lang="de"/>
-                <default_option/>
-                <default_external_id/>
-                <widget_type>textarea</widget_type>
-                <value_type>text</value_type>
-                <maximum/>
-                <minimum/>
-                <step/>
-                <unit/>
-                <width/>
-                <optionsets/>
-                <conditions>
-                        <condition dc:uri="http://example.com/terms/conditions/reproducible_original"/>
-                </conditions>
-        </question>
+		<uri_prefix>http://example.com/terms</uri_prefix>
+		<uri_path>MaRDI/Section_5/Set_1/Question_04a</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_5/Set_1/Question_04a"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en"/>
+		<text lang="en">Provide detailed description of the conditions under which a reproduction on the original hardware/instrument is possible.</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de"/>
+		<text lang="de"/>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>textarea</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions>
+			<condition dc:uri="http://example.com/terms/conditions/reproducible_original"/>
+		</conditions>
+	</question>
 	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_5/Set_1/Question_05">
 		<uri_prefix>http://example.com/terms</uri_prefix>
 		<uri_path>MaRDI/Section_5/Set_1/Question_05</uri_path>
@@ -6240,34 +6242,34 @@ Falls keine geeigneten Quantitäten / Quantitätsarten in MathModDB vorhanden si
 		<conditions/>
 	</question>
 	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_5/Set_1/Question_05a">
-                <uri_prefix>http://example.com/terms</uri_prefix>
-                <uri_path>MaRDI/Section_5/Set_1/Question_05a</uri_path>
-                <dc:comment/>
-                <attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_5/Set_1/Question_05a"/>
-                <is_collection>False</is_collection>
-                <is_optional>False</is_optional>
-                <help lang="en"/>
-                <text lang="en">Provide detailed description of the conditions under which a reproduction on other hardware/instrument is possible.</text>
-                <default_text lang="en"/>
-                <verbose_name lang="en"/>
-                <help lang="de"/>
-                <text lang="de"/>
-                <default_text lang="de"/>
-                <verbose_name lang="de"/>
-                <default_option/>
-                <default_external_id/>
-                <widget_type>textarea</widget_type>
-                <value_type>text</value_type>
-                <maximum/>
-                <minimum/>
-                <step/>
-                <unit/>
-                <width/>
-                <optionsets/>
-                <conditions>
-                        <condition dc:uri="http://example.com/terms/conditions/reproducible_other"/>
-                </conditions>
-        </question>
+		<uri_prefix>http://example.com/terms</uri_prefix>
+		<uri_path>MaRDI/Section_5/Set_1/Question_05a</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_5/Set_1/Question_05a"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en"/>
+		<text lang="en">Provide detailed description of the conditions under which a reproduction on other hardware/instrument is possible.</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de"/>
+		<text lang="de"/>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>textarea</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions>
+			<condition dc:uri="http://example.com/terms/conditions/reproducible_other"/>
+		</conditions>
+	</question>
 	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_5/Set_1/Question_06">
 		<uri_prefix>http://example.com/terms</uri_prefix>
 		<uri_path>MaRDI/Section_5/Set_1/Question_06</uri_path>
