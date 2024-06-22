@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2024-06-19T11:13:24.668988+02:00" version="2.1.3">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2024-06-22T11:55:34.884030+02:00" version="2.1.3">
 	<catalog dc:uri="http://example.com/terms/questions/MaRDI">
 		<uri_prefix>http://example.com/terms</uri_prefix>
 		<uri_path>MaRDI</uri_path>
@@ -2274,7 +2274,7 @@ Falls keine geeigneten Quantitäten / Quantitätsarten in MathModDB vorhanden si
 		<unit/>
 		<width/>
 		<optionsets>
-			<optionset dc:uri="http://example.com/terms/options/MaRDI/MathematicalModelAdditional"/>
+			<optionset dc:uri="http://example.com/terms/options/MaRDI/MathematicalModel"/>
 		</optionsets>
 		<conditions/>
 	</question>
