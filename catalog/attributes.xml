@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2024-06-22T11:55:43.862705+02:00" version="2.1.3">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2024-06-22T21:46:04.978401+02:00" version="2.1.3">
 	<attribute dc:uri="http://example.com/terms/domain/MaRDI">
 		<uri_prefix>http://example.com/terms</uri_prefix>
 		<key>MaRDI</key>

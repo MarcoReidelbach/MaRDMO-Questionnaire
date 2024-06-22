@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2024-06-22T11:55:49.515773+02:00" version="2.1.3">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2024-06-22T21:45:59.614093+02:00" version="2.1.3">
 	<optionset dc:uri="http://example.com/terms/options/MaRDI/AllEntities">
 		<uri_prefix>http://example.com/terms</uri_prefix>
 		<uri_path>MaRDI/AllEntities</uri_path>
@@ -597,23 +597,23 @@
 		<dc:comment/>
 		<provider_key/>
 		<options>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathematicalFormulation_relation0" order="0"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathematicalFormulation_relation1" order="1"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathematicalFormulation_relation2" order="2"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathematicalFormulation_relation3" order="3"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathematicalFormulation_relation4" order="4"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathematicalFormulation_relation5" order="5"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathematicalFormulation_relation6" order="6"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathematicalFormulation_relation7" order="7"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathematicalFormulation_relation9" order="8"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathematicalFormulation_relation10" order="9"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathematicalFormulation_relation8" order="10"/>
+			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/ApproximatedBy" order="0"/>
+			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/Approximates" order="1"/>
+			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/DiscretizedBy" order="2"/>
+			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/Discretizes" order="3"/>
+			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/GeneralizedBy" order="4"/>
+			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/Generalizes" order="5"/>
+			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/NondimensionalizedBy" order="6"/>
+			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/Nondimensionalizes" order="7"/>
+			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/LinearizedBy" order="8"/>
+			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/Linearizes" order="9"/>
+			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/SimilarTo" order="10"/>
 		</options>
 		<conditions/>
 	</optionset>
-	<option dc:uri="http://example.com/terms/options/MaRDI/MathematicalFormulation_relation0">
+	<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/ApproximatedBy">
 		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/MathematicalFormulation_relation0</uri_path>
+		<uri_path>MaRDI/MathModDB/ApproximatedBy</uri_path>
 		<dc:comment/>
 		<text lang="en">is approximated by</text>
 		<help lang="en"/>
@@ -623,9 +623,9 @@
 		<view_text lang="de"/>
 		<additional_input/>
 	</option>
-	<option dc:uri="http://example.com/terms/options/MaRDI/MathematicalFormulation_relation1">
+	<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/Approximates">
 		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/MathematicalFormulation_relation1</uri_path>
+		<uri_path>MaRDI/MathModDB/Approximates</uri_path>
 		<dc:comment/>
 		<text lang="en">approximates</text>
 		<help lang="en"/>
@@ -635,9 +635,9 @@
 		<view_text lang="de"/>
 		<additional_input/>
 	</option>
-	<option dc:uri="http://example.com/terms/options/MaRDI/MathematicalFormulation_relation2">
+	<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/DiscretizedBy">
 		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/MathematicalFormulation_relation2</uri_path>
+		<uri_path>MaRDI/MathModDB/DiscretizedBy</uri_path>
 		<dc:comment/>
 		<text lang="en">is discretized by</text>
 		<help lang="en"/>
@@ -647,9 +647,9 @@
 		<view_text lang="de"/>
 		<additional_input/>
 	</option>
-	<option dc:uri="http://example.com/terms/options/MaRDI/MathematicalFormulation_relation3">
+	<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/Discretizes">
 		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/MathematicalFormulation_relation3</uri_path>
+		<uri_path>MaRDI/MathModDB/Discretizes</uri_path>
 		<dc:comment/>
 		<text lang="en">discretizes</text>
 		<help lang="en"/>
@@ -659,9 +659,9 @@
 		<view_text lang="de"/>
 		<additional_input/>
 	</option>
-	<option dc:uri="http://example.com/terms/options/MaRDI/MathematicalFormulation_relation4">
+	<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/GeneralizedBy">
 		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/MathematicalFormulation_relation4</uri_path>
+		<uri_path>MaRDI/MathModDB/GeneralizedBy</uri_path>
 		<dc:comment/>
 		<text lang="en">is generalized by</text>
 		<help lang="en"/>
@@ -671,11 +671,11 @@
 		<view_text lang="de"/>
 		<additional_input/>
 	</option>
-	<option dc:uri="http://example.com/terms/options/MaRDI/MathematicalFormulation_relation5">
+	<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/Generalizes">
 		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/MathematicalFormulation_relation5</uri_path>
+		<uri_path>MaRDI/MathModDB/Generalizes</uri_path>
 		<dc:comment/>
-		<text lang="en">generalzes</text>
+		<text lang="en">generalizes</text>
 		<help lang="en"/>
 		<view_text lang="en"/>
 		<text lang="de">generalisiert</text>
@@ -683,9 +683,9 @@
 		<view_text lang="de"/>
 		<additional_input/>
 	</option>
-	<option dc:uri="http://example.com/terms/options/MaRDI/MathematicalFormulation_relation6">
+	<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/NondimensionalizedBy">
 		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/MathematicalFormulation_relation6</uri_path>
+		<uri_path>MaRDI/MathModDB/NondimensionalizedBy</uri_path>
 		<dc:comment/>
 		<text lang="en">is nondimensionalized by</text>
 		<help lang="en"/>
@@ -695,9 +695,9 @@
 		<view_text lang="de"/>
 		<additional_input/>
 	</option>
-	<option dc:uri="http://example.com/terms/options/MaRDI/MathematicalFormulation_relation7">
+	<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/Nondimensionalizes">
 		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/MathematicalFormulation_relation7</uri_path>
+		<uri_path>MaRDI/MathModDB/Nondimensionalizes</uri_path>
 		<dc:comment/>
 		<text lang="en">nondimensionalizes</text>
 		<help lang="en"/>
@@ -707,9 +707,9 @@
 		<view_text lang="de"/>
 		<additional_input/>
 	</option>
-	<option dc:uri="http://example.com/terms/options/MaRDI/MathematicalFormulation_relation9">
+	<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/LinearizedBy">
 		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/MathematicalFormulation_relation9</uri_path>
+		<uri_path>MaRDI/MathModDB/LinearizedBy</uri_path>
 		<dc:comment/>
 		<text lang="en">is linearized by</text>
 		<help lang="en"/>
@@ -719,9 +719,9 @@
 		<view_text lang="de"/>
 		<additional_input/>
 	</option>
-	<option dc:uri="http://example.com/terms/options/MaRDI/MathematicalFormulation_relation10">
+	<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/Linearizes">
 		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/MathematicalFormulation_relation10</uri_path>
+		<uri_path>MaRDI/MathModDB/Linearizes</uri_path>
 		<dc:comment/>
 		<text lang="en">linearizes</text>
 		<help lang="en"/>
@@ -731,9 +731,9 @@
 		<view_text lang="de"/>
 		<additional_input/>
 	</option>
-	<option dc:uri="http://example.com/terms/options/MaRDI/MathematicalFormulation_relation8">
+	<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/SimilarTo">
 		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/MathematicalFormulation_relation8</uri_path>
+		<uri_path>MaRDI/MathModDB/SimilarTo</uri_path>
 		<dc:comment/>
 		<text lang="en">is similar to</text>
 		<help lang="en"/>
@@ -751,158 +751,6 @@
 		<options/>
 		<conditions/>
 	</optionset>
-	<optionset dc:uri="http://example.com/terms/options/MaRDI/MathematicalModel_relations">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/MathematicalModel_relations</uri_path>
-		<dc:comment/>
-		<provider_key/>
-		<options>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathematicalModel_relation0" order="0"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathematicalModel_relation1" order="1"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathematicalModel_relation2" order="2"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathematicalModel_relation3" order="3"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathematicalModel_relation4" order="4"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathematicalModel_relation5" order="5"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathematicalModel_relation6" order="6"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathematicalModel_relation7" order="7"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathematicalModel_relation9" order="8"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathematicalModel_relation10" order="9"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathematicalModel_relation8" order="10"/>
-		</options>
-		<conditions/>
-	</optionset>
-	<option dc:uri="http://example.com/terms/options/MaRDI/MathematicalModel_relation0">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/MathematicalModel_relation0</uri_path>
-		<dc:comment/>
-		<text lang="en">is generalized by</text>
-		<help lang="en"/>
-		<view_text lang="en"/>
-		<text lang="de">wird generalisiert durch</text>
-		<help lang="de"/>
-		<view_text lang="de"/>
-		<additional_input/>
-	</option>
-	<option dc:uri="http://example.com/terms/options/MaRDI/MathematicalModel_relation1">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/MathematicalModel_relation1</uri_path>
-		<dc:comment/>
-		<text lang="en">generalizes</text>
-		<help lang="en"/>
-		<view_text lang="en"/>
-		<text lang="de">generalisiert</text>
-		<help lang="de"/>
-		<view_text lang="de"/>
-		<additional_input/>
-	</option>
-	<option dc:uri="http://example.com/terms/options/MaRDI/MathematicalModel_relation2">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/MathematicalModel_relation2</uri_path>
-		<dc:comment/>
-		<text lang="en">is discretized by</text>
-		<help lang="en"/>
-		<view_text lang="en"/>
-		<text lang="de">wird diskretisiert durch</text>
-		<help lang="de"/>
-		<view_text lang="de"/>
-		<additional_input/>
-	</option>
-	<option dc:uri="http://example.com/terms/options/MaRDI/MathematicalModel_relation3">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/MathematicalModel_relation3</uri_path>
-		<dc:comment/>
-		<text lang="en">discretizes</text>
-		<help lang="en"/>
-		<view_text lang="en"/>
-		<text lang="de">diskretisiert</text>
-		<help lang="de"/>
-		<view_text lang="de"/>
-		<additional_input/>
-	</option>
-	<option dc:uri="http://example.com/terms/options/MaRDI/MathematicalModel_relation4">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/MathematicalModel_relation4</uri_path>
-		<dc:comment/>
-		<text lang="en">is contained in</text>
-		<help lang="en"/>
-		<view_text lang="en"/>
-		<text lang="de">ist enthalten in</text>
-		<help lang="de"/>
-		<view_text lang="de"/>
-		<additional_input/>
-	</option>
-	<option dc:uri="http://example.com/terms/options/MaRDI/MathematicalModel_relation5">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/MathematicalModel_relation5</uri_path>
-		<dc:comment/>
-		<text lang="en">contains</text>
-		<help lang="en"/>
-		<view_text lang="en"/>
-		<text lang="de">beinhaltet</text>
-		<help lang="de"/>
-		<view_text lang="de"/>
-		<additional_input/>
-	</option>
-	<option dc:uri="http://example.com/terms/options/MaRDI/MathematicalModel_relation6">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/MathematicalModel_relation6</uri_path>
-		<dc:comment/>
-		<text lang="en">is approximated by</text>
-		<help lang="en"/>
-		<view_text lang="en"/>
-		<text lang="de">wird approximiert durch</text>
-		<help lang="de"/>
-		<view_text lang="de"/>
-		<additional_input/>
-	</option>
-	<option dc:uri="http://example.com/terms/options/MaRDI/MathematicalModel_relation7">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/MathematicalModel_relation7</uri_path>
-		<dc:comment/>
-		<text lang="en">approximates</text>
-		<help lang="en"/>
-		<view_text lang="en"/>
-		<text lang="de">approximiert</text>
-		<help lang="de"/>
-		<view_text lang="de"/>
-		<additional_input/>
-	</option>
-	<option dc:uri="http://example.com/terms/options/MaRDI/MathematicalModel_relation9">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/MathematicalModel_relation9</uri_path>
-		<dc:comment/>
-		<text lang="en">is linearized by</text>
-		<help lang="en"/>
-		<view_text lang="en"/>
-		<text lang="de">wird linearisiert durch</text>
-		<help lang="de"/>
-		<view_text lang="de"/>
-		<additional_input/>
-	</option>
-	<option dc:uri="http://example.com/terms/options/MaRDI/MathematicalModel_relation10">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/MathematicalModel_relation10</uri_path>
-		<dc:comment/>
-		<text lang="en">linearizes</text>
-		<help lang="en"/>
-		<view_text lang="en"/>
-		<text lang="de">linearisiert</text>
-		<help lang="de"/>
-		<view_text lang="de"/>
-		<additional_input/>
-	</option>
-	<option dc:uri="http://example.com/terms/options/MaRDI/MathematicalModel_relation8">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/MathematicalModel_relation8</uri_path>
-		<dc:comment/>
-		<text lang="en">is similar to</text>
-		<help lang="en"/>
-		<view_text lang="en"/>
-		<text lang="de">ist ähnlich zu</text>
-		<help lang="de"/>
-		<view_text lang="de"/>
-		<additional_input/>
-	</option>
 	<optionset dc:uri="http://example.com/terms/options/MaRDI/MathematicalTask">
 		<uri_prefix>http://example.com/terms</uri_prefix>
 		<uri_path>MaRDI/MathematicalTask</uri_path>
@@ -919,128 +767,46 @@
 		<options/>
 		<conditions/>
 	</optionset>
-	<optionset dc:uri="http://example.com/terms/options/MaRDI/MathematicalTask_relations">
+	<optionset dc:uri="http://example.com/terms/options/MaRDI/ModelRelations">
 		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/MathematicalTask_relations</uri_path>
+		<uri_path>MaRDI/ModelRelations</uri_path>
 		<dc:comment/>
 		<provider_key/>
 		<options>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathematicalTask_relation0" order="0"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathematicalTask_relation1" order="1"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathematicalTask_relation2" order="2"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathematicalTask_relation3" order="3"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathematicalTask_relation4" order="4"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathematicalTask_relation5" order="5"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathematicalTask_relation7" order="6"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathematicalTask_relation8" order="7"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathematicalTask_relation6" order="8"/>
+			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/GeneralizedBy" order="0"/>
+			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/Generalizes" order="1"/>
+			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/DiscretizedBy" order="2"/>
+			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/Discretizes" order="3"/>
+			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/ContainedIn" order="4"/>
+			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/Contains" order="5"/>
+			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/ApproximatedBy" order="6"/>
+			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/Approximates" order="7"/>
+			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/LinearizedBy" order="8"/>
+			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/Linearizes" order="9"/>
+			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/SimilarTo" order="10"/>
 		</options>
 		<conditions/>
 	</optionset>
-	<option dc:uri="http://example.com/terms/options/MaRDI/MathematicalTask_relation0">
+	<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/ContainedIn">
 		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/MathematicalTask_relation0</uri_path>
+		<uri_path>MaRDI/MathModDB/ContainedIn</uri_path>
 		<dc:comment/>
-		<text lang="en">is generalized by</text>
+		<text lang="en">is contained in</text>
 		<help lang="en"/>
 		<view_text lang="en"/>
-		<text lang="de">wird generalisiert durch</text>
+		<text lang="de">ist enthalten in</text>
 		<help lang="de"/>
 		<view_text lang="de"/>
 		<additional_input/>
 	</option>
-	<option dc:uri="http://example.com/terms/options/MaRDI/MathematicalTask_relation1">
+	<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/Contains">
 		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/MathematicalTask_relation1</uri_path>
+		<uri_path>MaRDI/MathModDB/Contains</uri_path>
 		<dc:comment/>
-		<text lang="en">generalizes</text>
+		<text lang="en">contains</text>
 		<help lang="en"/>
 		<view_text lang="en"/>
-		<text lang="de">generalisiert</text>
-		<help lang="de"/>
-		<view_text lang="de"/>
-		<additional_input/>
-	</option>
-	<option dc:uri="http://example.com/terms/options/MaRDI/MathematicalTask_relation2">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/MathematicalTask_relation2</uri_path>
-		<dc:comment/>
-		<text lang="en">is discretized by</text>
-		<help lang="en"/>
-		<view_text lang="en"/>
-		<text lang="de">wird diskretisiert duch</text>
-		<help lang="de"/>
-		<view_text lang="de"/>
-		<additional_input/>
-	</option>
-	<option dc:uri="http://example.com/terms/options/MaRDI/MathematicalTask_relation3">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/MathematicalTask_relation3</uri_path>
-		<dc:comment/>
-		<text lang="en">discretizes</text>
-		<help lang="en"/>
-		<view_text lang="en"/>
-		<text lang="de">diskretisiert</text>
-		<help lang="de"/>
-		<view_text lang="de"/>
-		<additional_input/>
-	</option>
-	<option dc:uri="http://example.com/terms/options/MaRDI/MathematicalTask_relation4">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/MathematicalTask_relation4</uri_path>
-		<dc:comment/>
-		<text lang="en">is approximated by</text>
-		<help lang="en"/>
-		<view_text lang="en"/>
-		<text lang="de">wird approximiert duch</text>
-		<help lang="de"/>
-		<view_text lang="de"/>
-		<additional_input/>
-	</option>
-	<option dc:uri="http://example.com/terms/options/MaRDI/MathematicalTask_relation5">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/MathematicalTask_relation5</uri_path>
-		<dc:comment/>
-		<text lang="en">approximates</text>
-		<help lang="en"/>
-		<view_text lang="en"/>
-		<text lang="de">approximiert</text>
-		<help lang="de"/>
-		<view_text lang="de"/>
-		<additional_input/>
-	</option>
-	<option dc:uri="http://example.com/terms/options/MaRDI/MathematicalTask_relation7">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/MathematicalTask_relation7</uri_path>
-		<dc:comment/>
-		<text lang="en">is linearized by</text>
-		<help lang="en"/>
-		<view_text lang="en"/>
-		<text lang="de">wird linearisiert durch</text>
-		<help lang="de"/>
-		<view_text lang="de"/>
-		<additional_input/>
-	</option>
-	<option dc:uri="http://example.com/terms/options/MaRDI/MathematicalTask_relation8">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/MathematicalTask_relation8</uri_path>
-		<dc:comment/>
-		<text lang="en">linearizes</text>
-		<help lang="en"/>
-		<view_text lang="en"/>
-		<text lang="de">linearisiert</text>
-		<help lang="de"/>
-		<view_text lang="de"/>
-		<additional_input/>
-	</option>
-	<option dc:uri="http://example.com/terms/options/MaRDI/MathematicalTask_relation6">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/MathematicalTask_relation6</uri_path>
-		<dc:comment/>
-		<text lang="en">is similar to</text>
-		<help lang="en"/>
-		<view_text lang="en"/>
-		<text lang="de">ist ähnlich zu</text>
+		<text lang="de">beinhaltet</text>
 		<help lang="de"/>
 		<view_text lang="de"/>
 		<additional_input/>
@@ -1127,6 +893,62 @@
 		<view_text lang="de"/>
 		<additional_input/>
 	</option>
+	<optionset dc:uri="http://example.com/terms/options/MaRDI/QKQKRelations">
+		<uri_prefix>http://example.com/terms</uri_prefix>
+		<uri_path>MaRDI/QKQKRelations</uri_path>
+		<dc:comment/>
+		<provider_key/>
+		<options>
+			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/NondimensionalizedBy" order="1"/>
+			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/Nondimensionalizes" order="2"/>
+			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/SimilarTo" order="3"/>
+		</options>
+		<conditions/>
+	</optionset>
+	<optionset dc:uri="http://example.com/terms/options/MaRDI/QKQRelations">
+		<uri_prefix>http://example.com/terms</uri_prefix>
+		<uri_path>MaRDI/QKQRelations</uri_path>
+		<dc:comment/>
+		<provider_key/>
+		<options>
+			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/Generalizes" order="0"/>
+			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/NondimensionalizedBy" order="1"/>
+			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/Nondimensionalizes" order="2"/>
+			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/SimilarTo" order="3"/>
+		</options>
+		<conditions/>
+	</optionset>
+	<optionset dc:uri="http://example.com/terms/options/MaRDI/QQKRelations">
+		<uri_prefix>http://example.com/terms</uri_prefix>
+		<uri_path>MaRDI/QQKRelations</uri_path>
+		<dc:comment/>
+		<provider_key/>
+		<options>
+			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/GeneralizedBy" order="0"/>
+			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/NondimensionalizedBy" order="1"/>
+			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/Nondimensionalizes" order="2"/>
+			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/SimilarTo" order="3"/>
+		</options>
+		<conditions/>
+	</optionset>
+	<optionset dc:uri="http://example.com/terms/options/MaRDI/QQRelations">
+		<uri_prefix>http://example.com/terms</uri_prefix>
+		<uri_path>MaRDI/QQRelations</uri_path>
+		<dc:comment/>
+		<provider_key/>
+		<options>
+			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/GeneralizedBy" order="0"/>
+			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/Generalizes" order="1"/>
+			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/ApproximatedBy" order="2"/>
+			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/Approximates" order="3"/>
+			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/LinearizedBy" order="4"/>
+			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/Linearizes" order="5"/>
+			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/NondimensionalizedBy" order="6"/>
+			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/Nondimensionalizes" order="7"/>
+			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/SimilarTo" order="8"/>
+		</options>
+		<conditions/>
+	</optionset>
 	<optionset dc:uri="http://example.com/terms/options/MaRDI/Quantity">
 		<uri_prefix>http://example.com/terms</uri_prefix>
 		<uri_path>MaRDI/Quantity</uri_path>
@@ -1151,80 +973,6 @@
 		<options/>
 		<conditions/>
 	</optionset>
-	<optionset dc:uri="http://example.com/terms/options/MaRDI/QuantityKind_relations">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/QuantityKind_relations</uri_path>
-		<dc:comment/>
-		<provider_key/>
-		<options>
-			<option dc:uri="http://example.com/terms/options/MaRDI/QuantityKind_relation0" order="0"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/QuantityKind_relation1" order="1"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/QuantityKind_relation3" order="2"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/QuantityKind_relation4" order="3"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/QuantityKind_relation2" order="4"/>
-		</options>
-		<conditions/>
-	</optionset>
-	<option dc:uri="http://example.com/terms/options/MaRDI/QuantityKind_relation0">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/QuantityKind_relation0</uri_path>
-		<dc:comment/>
-		<text lang="en">is generalized by</text>
-		<help lang="en"/>
-		<view_text lang="en"/>
-		<text lang="de">wird generalisiert durch</text>
-		<help lang="de"/>
-		<view_text lang="de"/>
-		<additional_input/>
-	</option>
-	<option dc:uri="http://example.com/terms/options/MaRDI/QuantityKind_relation1">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/QuantityKind_relation1</uri_path>
-		<dc:comment/>
-		<text lang="en">generalizes</text>
-		<help lang="en"/>
-		<view_text lang="en"/>
-		<text lang="de">generalisiert</text>
-		<help lang="de"/>
-		<view_text lang="de"/>
-		<additional_input/>
-	</option>
-	<option dc:uri="http://example.com/terms/options/MaRDI/QuantityKind_relation3">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/QuantityKind_relation3</uri_path>
-		<dc:comment/>
-		<text lang="en">is nondimensionalized by</text>
-		<help lang="en"/>
-		<view_text lang="en"/>
-		<text lang="de">wird entdimensionalisiert durch</text>
-		<help lang="de"/>
-		<view_text lang="de"/>
-		<additional_input/>
-	</option>
-	<option dc:uri="http://example.com/terms/options/MaRDI/QuantityKind_relation4">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/QuantityKind_relation4</uri_path>
-		<dc:comment/>
-		<text lang="en">nondimensionalizes</text>
-		<help lang="en"/>
-		<view_text lang="en"/>
-		<text lang="de">entdimensionalisiert</text>
-		<help lang="de"/>
-		<view_text lang="de"/>
-		<additional_input/>
-	</option>
-	<option dc:uri="http://example.com/terms/options/MaRDI/QuantityKind_relation2">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/QuantityKind_relation2</uri_path>
-		<dc:comment/>
-		<text lang="en">is similar to</text>
-		<help lang="en"/>
-		<view_text lang="en"/>
-		<text lang="de">ist ähnlich zu</text>
-		<help lang="de"/>
-		<view_text lang="de"/>
-		<additional_input/>
-	</option>
 	<optionset dc:uri="http://example.com/terms/options/MaRDI/QuantityOrQuantityKind">
 		<uri_prefix>http://example.com/terms</uri_prefix>
 		<uri_path>MaRDI/QuantityOrQuantityKind</uri_path>
@@ -1268,132 +1016,6 @@
 		<options/>
 		<conditions/>
 	</optionset>
-	<optionset dc:uri="http://example.com/terms/options/MaRDI/Quantity_relations">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/Quantity_relations</uri_path>
-		<dc:comment/>
-		<provider_key/>
-		<options>
-			<option dc:uri="http://example.com/terms/options/MaRDI/Quantity_relation0" order="0"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/Quantity_relation1" order="1"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/Quantity_relation2" order="2"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/Quantity_relation3" order="3"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/Quantity_relation5" order="4"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/Quantity_relation6" order="5"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/Quantity_relation7" order="6"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/Quantity_relation8" order="7"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/Quantity_relation4" order="8"/>
-		</options>
-		<conditions/>
-	</optionset>
-	<option dc:uri="http://example.com/terms/options/MaRDI/Quantity_relation0">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/Quantity_relation0</uri_path>
-		<dc:comment/>
-		<text lang="en">is generalized by</text>
-		<help lang="en"/>
-		<view_text lang="en"/>
-		<text lang="de">wird generalisiert durch</text>
-		<help lang="de"/>
-		<view_text lang="de"/>
-		<additional_input/>
-	</option>
-	<option dc:uri="http://example.com/terms/options/MaRDI/Quantity_relation1">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/Quantity_relation1</uri_path>
-		<dc:comment/>
-		<text lang="en">generalizes</text>
-		<help lang="en"/>
-		<view_text lang="en"/>
-		<text lang="de">generalisiert</text>
-		<help lang="de"/>
-		<view_text lang="de"/>
-		<additional_input/>
-	</option>
-	<option dc:uri="http://example.com/terms/options/MaRDI/Quantity_relation2">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/Quantity_relation2</uri_path>
-		<dc:comment/>
-		<text lang="en">is approximated by</text>
-		<help lang="en"/>
-		<view_text lang="en"/>
-		<text lang="de">wird approximiert durch</text>
-		<help lang="de"/>
-		<view_text lang="de"/>
-		<additional_input/>
-	</option>
-	<option dc:uri="http://example.com/terms/options/MaRDI/Quantity_relation3">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/Quantity_relation3</uri_path>
-		<dc:comment/>
-		<text lang="en">approximates</text>
-		<help lang="en"/>
-		<view_text lang="en"/>
-		<text lang="de">approximiert</text>
-		<help lang="de"/>
-		<view_text lang="de"/>
-		<additional_input/>
-	</option>
-	<option dc:uri="http://example.com/terms/options/MaRDI/Quantity_relation5">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/Quantity_relation5</uri_path>
-		<dc:comment/>
-		<text lang="en">is linearized by</text>
-		<help lang="en"/>
-		<view_text lang="en"/>
-		<text lang="de">wird linearisiert durch</text>
-		<help lang="de"/>
-		<view_text lang="de"/>
-		<additional_input/>
-	</option>
-	<option dc:uri="http://example.com/terms/options/MaRDI/Quantity_relation6">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/Quantity_relation6</uri_path>
-		<dc:comment/>
-		<text lang="en">linearizes</text>
-		<help lang="en"/>
-		<view_text lang="en"/>
-		<text lang="de">linearisiert</text>
-		<help lang="de"/>
-		<view_text lang="de"/>
-		<additional_input/>
-	</option>
-	<option dc:uri="http://example.com/terms/options/MaRDI/Quantity_relation7">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/Quantity_relation7</uri_path>
-		<dc:comment/>
-		<text lang="en">is nondimensionalized by</text>
-		<help lang="en"/>
-		<view_text lang="en"/>
-		<text lang="de">wird entdimensionalisiert durch</text>
-		<help lang="de"/>
-		<view_text lang="de"/>
-		<additional_input/>
-	</option>
-	<option dc:uri="http://example.com/terms/options/MaRDI/Quantity_relation8">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/Quantity_relation8</uri_path>
-		<dc:comment/>
-		<text lang="en">nondimensionalizes</text>
-		<help lang="en"/>
-		<view_text lang="en"/>
-		<text lang="de">entdimensionalisiert</text>
-		<help lang="de"/>
-		<view_text lang="de"/>
-		<additional_input/>
-	</option>
-	<option dc:uri="http://example.com/terms/options/MaRDI/Quantity_relation4">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/Quantity_relation4</uri_path>
-		<dc:comment/>
-		<text lang="en">is similar to</text>
-		<help lang="en"/>
-		<view_text lang="en"/>
-		<text lang="de">ist ähnlich zu</text>
-		<help lang="de"/>
-		<view_text lang="de"/>
-		<additional_input/>
-	</option>
 	<optionset dc:uri="http://example.com/terms/options/MaRDI/RFUser">
 		<uri_prefix>http://example.com/terms</uri_prefix>
 		<uri_path>MaRDI/RFUser</uri_path>
@@ -1424,48 +1046,12 @@
 		<dc:comment/>
 		<provider_key/>
 		<options>
-			<option dc:uri="http://example.com/terms/options/MaRDI/ResearchField_relation0" order="1"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/ResearchField_relation1" order="2"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/ResearchField_relation2" order="3"/>
+			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/GeneralizedBy" order="1"/>
+			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/Generalizes" order="2"/>
+			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/SimilarTo" order="3"/>
 		</options>
 		<conditions/>
 	</optionset>
-	<option dc:uri="http://example.com/terms/options/MaRDI/ResearchField_relation0">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/ResearchField_relation0</uri_path>
-		<dc:comment/>
-		<text lang="en">is generalized by</text>
-		<help lang="en"/>
-		<view_text lang="en"/>
-		<text lang="de">wird generalisiert durch</text>
-		<help lang="de"/>
-		<view_text lang="de"/>
-		<additional_input/>
-	</option>
-	<option dc:uri="http://example.com/terms/options/MaRDI/ResearchField_relation1">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/ResearchField_relation1</uri_path>
-		<dc:comment/>
-		<text lang="en">generalizes</text>
-		<help lang="en"/>
-		<view_text lang="en"/>
-		<text lang="de">generalsiert</text>
-		<help lang="de"/>
-		<view_text lang="de"/>
-		<additional_input/>
-	</option>
-	<option dc:uri="http://example.com/terms/options/MaRDI/ResearchField_relation2">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/ResearchField_relation2</uri_path>
-		<dc:comment/>
-		<text lang="en">is similar to</text>
-		<help lang="en"/>
-		<view_text lang="en"/>
-		<text lang="de">ist ähnlich zu</text>
-		<help lang="de"/>
-		<view_text lang="de"/>
-		<additional_input/>
-	</option>
 	<optionset dc:uri="http://example.com/terms/options/MaRDI/ResearchProblem">
 		<uri_prefix>http://example.com/terms</uri_prefix>
 		<uri_path>MaRDI/ResearchProblem</uri_path>
@@ -1496,48 +1082,12 @@
 		<dc:comment/>
 		<provider_key/>
 		<options>
-			<option dc:uri="http://example.com/terms/options/MaRDI/ResearchProblem_relation0" order="1"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/ResearchProblem_relation1" order="2"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/ResearchProblem_relation2" order="3"/>
+			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/GeneralizedBy" order="1"/>
+			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/Generalizes" order="2"/>
+			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/SimilarTo" order="3"/>
 		</options>
 		<conditions/>
 	</optionset>
-	<option dc:uri="http://example.com/terms/options/MaRDI/ResearchProblem_relation0">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/ResearchProblem_relation0</uri_path>
-		<dc:comment/>
-		<text lang="en">is generalized by</text>
-		<help lang="en"/>
-		<view_text lang="en"/>
-		<text lang="de">wird generalisiert durch</text>
-		<help lang="de"/>
-		<view_text lang="de"/>
-		<additional_input/>
-	</option>
-	<option dc:uri="http://example.com/terms/options/MaRDI/ResearchProblem_relation1">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/ResearchProblem_relation1</uri_path>
-		<dc:comment/>
-		<text lang="en">generalizes</text>
-		<help lang="en"/>
-		<view_text lang="en"/>
-		<text lang="de">generalisiert</text>
-		<help lang="de"/>
-		<view_text lang="de"/>
-		<additional_input/>
-	</option>
-	<option dc:uri="http://example.com/terms/options/MaRDI/ResearchProblem_relation2">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/ResearchProblem_relation2</uri_path>
-		<dc:comment/>
-		<text lang="en">is similar to</text>
-		<help lang="en"/>
-		<view_text lang="en"/>
-		<text lang="de">ist ähnlich zu</text>
-		<help lang="de"/>
-		<view_text lang="de"/>
-		<additional_input/>
-	</option>
 	<optionset dc:uri="http://example.com/terms/options/MaRDI/TaskCategory">
 		<uri_prefix>http://example.com/terms</uri_prefix>
 		<uri_path>MaRDI/TaskCategory</uri_path>
@@ -1560,6 +1110,24 @@
 		<view_text lang="de"/>
 		<additional_input/>
 	</option>
+	<optionset dc:uri="http://example.com/terms/options/MaRDI/Task_relations">
+		<uri_prefix>http://example.com/terms</uri_prefix>
+		<uri_path>MaRDI/Task_relations</uri_path>
+		<dc:comment/>
+		<provider_key/>
+		<options>
+			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/GeneralizedBy" order="0"/>
+			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/Generalizes" order="1"/>
+			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/DiscretizedBy" order="2"/>
+			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/Discretizes" order="3"/>
+			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/ApproximatedBy" order="4"/>
+			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/Approximates" order="5"/>
+			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/LinearizedBy" order="6"/>
+			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/Linearizes" order="7"/>
+			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/SimilarTo" order="8"/>
+		</options>
+		<conditions/>
+	</optionset>
 	<optionset dc:uri="http://example.com/terms/options/MaRDI/available_software">
 		<uri_prefix>http://example.com/terms</uri_prefix>
 		<uri_path>MaRDI/available_software</uri_path>
@@ -1981,52 +1549,4 @@
 		<view_text lang="de"/>
 		<additional_input/>
 	</option>
-	<optionset dc:uri="https://rdmorganiser.github.io/terms/options/yes_no_not_yet">
-                <uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
-                <uri_path>yes_no_not_yet</uri_path>
-                <dc:comment/>
-                <provider_key/>
-                <options>
-                        <option dc:uri="https://rdmorganiser.github.io/terms/options/yes_no_not_yet/yes" order="1"/>
-                        <option dc:uri="https://rdmorganiser.github.io/terms/options/yes_no_not_yet/no" order="2"/>
-                        <option dc:uri="https://rdmorganiser.github.io/terms/options/yes_no_not_yet/not_yet" order="3"/>
-                </options>
-                <conditions/>
-        </optionset>
-        <option dc:uri="https://rdmorganiser.github.io/terms/options/yes_no_not_yet/yes">
-                <uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
-                <uri_path>yes_no_not_yet/yes</uri_path>
-                <dc:comment/>
-                <text lang="en">Yes</text>
-                <help lang="en"/>
-                <view_text lang="en"/>
-                <text lang="de">Ja</text>
-                <help lang="de"/>
-                <view_text lang="de"/>
-                <additional_input>text</additional_input>
-        </option>
-        <option dc:uri="https://rdmorganiser.github.io/terms/options/yes_no_not_yet/no">
-                <uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
-                <uri_path>yes_no_not_yet/no</uri_path>
-                <dc:comment/>
-                <text lang="en">No</text>
-                <help lang="en"/>
-                <view_text lang="en"/>
-                <text lang="de">Nein</text>
-                <help lang="de"/>
-                <view_text lang="de"/>
-                <additional_input/>
-        </option>
-                <option dc:uri="https://rdmorganiser.github.io/terms/options/yes_no_not_yet/not_yet">
-                <uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
-                <uri_path>yes_no_not_yet/not_yet</uri_path>
-                <dc:comment/>
-                <text lang="en">Not yet</text>
-                <help lang="en"/>
-                <view_text lang="en"/>
-                <text lang="de">Noch nicht</text>
-                <help lang="de"/>
-                <view_text lang="de"/>
-                <additional_input/>
-        </option>
 </rdmo>
