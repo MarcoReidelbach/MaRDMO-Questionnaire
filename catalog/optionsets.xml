@@ -1549,4 +1549,52 @@
 		<view_text lang="de"/>
 		<additional_input/>
 	</option>
+	<optionset dc:uri="https://rdmorganiser.github.io/terms/options/yes_no_not_yet">
+		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+		<uri_path>yes_no_not_yet</uri_path>
+		<dc:comment/>
+		<provider_key/>
+		<options>
+			<option dc:uri="https://rdmorganiser.github.io/terms/options/yes_no_not_yet/yes" order="1"/>
+			<option dc:uri="https://rdmorganiser.github.io/terms/options/yes_no_not_yet/no" order="2"/>
+			<option dc:uri="https://rdmorganiser.github.io/terms/options/yes_no_not_yet/not_yet" order="3"/>
+		</options>
+		<conditions/>
+	</optionset>
+	<option dc:uri="https://rdmorganiser.github.io/terms/options/yes_no_not_yet/yes">
+		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+		<uri_path>yes_no_not_yet/yes</uri_path>
+		<dc:comment/>
+		<text lang="en">Yes</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Ja</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input>text</additional_input>
+	</option>
+	<option dc:uri="https://rdmorganiser.github.io/terms/options/yes_no_not_yet/no">
+		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+		<uri_path>yes_no_not_yet/no</uri_path>
+		<dc:comment/>
+		<text lang="en">No</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Nein</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+		<option dc:uri="https://rdmorganiser.github.io/terms/options/yes_no_not_yet/not_yet">
+		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+		<uri_path>yes_no_not_yet/not_yet</uri_path>
+		<dc:comment/>
+		<text lang="en">Not yet</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Noch nicht</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
 </rdmo>
