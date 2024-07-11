@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2024-06-22T21:45:59.614093+02:00" version="2.1.3">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2024-07-11T22:17:03.544043+02:00" version="2.1.3">
 	<optionset dc:uri="http://example.com/terms/options/MaRDI/AllEntities">
 		<uri_prefix>http://example.com/terms</uri_prefix>
 		<uri_path>MaRDI/AllEntities</uri_path>
@@ -567,6 +567,80 @@
 		<options/>
 		<conditions/>
 	</optionset>
+	<optionset dc:uri="http://example.com/terms/options/MaRDI/MathModDB/PublicationRelations">
+		<uri_prefix>http://example.com/terms</uri_prefix>
+		<uri_path>MaRDI/MathModDB/PublicationRelations</uri_path>
+		<dc:comment/>
+		<provider_key/>
+		<options>
+			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/Documents" order="1"/>
+			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/Invents" order="2"/>
+			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/Studies" order="3"/>
+			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/Surveys" order="4"/>
+			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/Uses" order="5"/>
+		</options>
+		<conditions/>
+	</optionset>
+	<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/Documents">
+		<uri_prefix>http://example.com/terms</uri_prefix>
+		<uri_path>MaRDI/MathModDB/Documents</uri_path>
+		<dc:comment/>
+		<text lang="en">documents</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">dokumentiert</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/Invents">
+		<uri_prefix>http://example.com/terms</uri_prefix>
+		<uri_path>MaRDI/MathModDB/Invents</uri_path>
+		<dc:comment/>
+		<text lang="en">invents</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">erfindet</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/Studies">
+		<uri_prefix>http://example.com/terms</uri_prefix>
+		<uri_path>MaRDI/MathModDB/Studies</uri_path>
+		<dc:comment/>
+		<text lang="en">studies</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">untersucht</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/Surveys">
+		<uri_prefix>http://example.com/terms</uri_prefix>
+		<uri_path>MaRDI/MathModDB/Surveys</uri_path>
+		<dc:comment/>
+		<text lang="en">surveys</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">erhebt</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/Uses">
+		<uri_prefix>http://example.com/terms</uri_prefix>
+		<uri_path>MaRDI/MathModDB/Uses</uri_path>
+		<dc:comment/>
+		<text lang="en">uses</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">nutzt</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
 	<optionset dc:uri="http://example.com/terms/options/MaRDI/MathematicalFormulation">
 		<uri_prefix>http://example.com/terms</uri_prefix>
 		<uri_path>MaRDI/MathematicalFormulation</uri_path>
@@ -819,80 +893,6 @@
 		<options/>
 		<conditions/>
 	</optionset>
-	<optionset dc:uri="http://example.com/terms/options/MaRDI/Publication_relations">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/Publication_relations</uri_path>
-		<dc:comment/>
-		<provider_key/>
-		<options>
-			<option dc:uri="http://example.com/terms/options/MaRDI/Publication_relation0" order="1"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/Publication_relation1" order="2"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/Publication_relation2" order="3"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/Publication_relation3" order="4"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/Publication_relation4" order="5"/>
-		</options>
-		<conditions/>
-	</optionset>
-	<option dc:uri="http://example.com/terms/options/MaRDI/Publication_relation0">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/Publication_relation0</uri_path>
-		<dc:comment/>
-		<text lang="en">documents</text>
-		<help lang="en"/>
-		<view_text lang="en"/>
-		<text lang="de">dokumentiert</text>
-		<help lang="de"/>
-		<view_text lang="de"/>
-		<additional_input/>
-	</option>
-	<option dc:uri="http://example.com/terms/options/MaRDI/Publication_relation1">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/Publication_relation1</uri_path>
-		<dc:comment/>
-		<text lang="en">invents</text>
-		<help lang="en"/>
-		<view_text lang="en"/>
-		<text lang="de">erfindet</text>
-		<help lang="de"/>
-		<view_text lang="de"/>
-		<additional_input/>
-	</option>
-	<option dc:uri="http://example.com/terms/options/MaRDI/Publication_relation2">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/Publication_relation2</uri_path>
-		<dc:comment/>
-		<text lang="en">studies</text>
-		<help lang="en"/>
-		<view_text lang="en"/>
-		<text lang="de">untersucht</text>
-		<help lang="de"/>
-		<view_text lang="de"/>
-		<additional_input/>
-	</option>
-	<option dc:uri="http://example.com/terms/options/MaRDI/Publication_relation3">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/Publication_relation3</uri_path>
-		<dc:comment/>
-		<text lang="en">surveys</text>
-		<help lang="en"/>
-		<view_text lang="en"/>
-		<text lang="de">erhebt</text>
-		<help lang="de"/>
-		<view_text lang="de"/>
-		<additional_input/>
-	</option>
-	<option dc:uri="http://example.com/terms/options/MaRDI/Publication_relation4">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/Publication_relation4</uri_path>
-		<dc:comment/>
-		<text lang="en">uses</text>
-		<help lang="en"/>
-		<view_text lang="en"/>
-		<text lang="de">nutzt</text>
-		<help lang="de"/>
-		<view_text lang="de"/>
-		<additional_input/>
-	</option>
 	<optionset dc:uri="http://example.com/terms/options/MaRDI/QKQKRelations">
 		<uri_prefix>http://example.com/terms</uri_prefix>
 		<uri_path>MaRDI/QKQKRelations</uri_path>
@@ -979,14 +979,14 @@
 		<dc:comment/>
 		<provider_key/>
 		<options>
-			<option dc:uri="http://example.com/terms/options/MaRDI/QuantityOrQuantityKind0" order="0"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/QuantityOrQuantityKind1" order="1"/>
+			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/Quantity" order="0"/>
+			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/QuantityKind" order="1"/>
 		</options>
 		<conditions/>
 	</optionset>
-	<option dc:uri="http://example.com/terms/options/MaRDI/QuantityOrQuantityKind0">
+	<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/Quantity">
 		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/QuantityOrQuantityKind0</uri_path>
+		<uri_path>MaRDI/MathModDB/Quantity</uri_path>
 		<dc:comment/>
 		<text lang="en">Quantity</text>
 		<help lang="en"/>
@@ -996,9 +996,9 @@
 		<view_text lang="de"/>
 		<additional_input/>
 	</option>
-	<option dc:uri="http://example.com/terms/options/MaRDI/QuantityOrQuantityKind1">
+	<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/QuantityKind">
 		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/QuantityOrQuantityKind1</uri_path>
+		<uri_path>MaRDI/MathModDB/QuantityKind</uri_path>
 		<dc:comment/>
 		<text lang="en">Quantity Kind</text>
 		<help lang="en"/>
@@ -1094,13 +1094,13 @@
 		<dc:comment/>
 		<provider_key/>
 		<options>
-			<option dc:uri="http://example.com/terms/options/MaRDI/TaskCategory0" order="1"/>
+			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/ComputationalTask" order="1"/>
 		</options>
 		<conditions/>
 	</optionset>
-	<option dc:uri="http://example.com/terms/options/MaRDI/TaskCategory0">
+	<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/ComputationalTask">
 		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/TaskCategory0</uri_path>
+		<uri_path>MaRDI/MathModDB/ComputationalTask</uri_path>
 		<dc:comment/>
 		<text lang="en">Computational Task</text>
 		<help lang="en"/>
@@ -1126,6 +1126,14 @@
 			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/Linearizes" order="7"/>
 			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/SimilarTo" order="8"/>
 		</options>
+		<conditions/>
+	</optionset>
+	<optionset dc:uri="http://example.com/terms/options/MaRDI/WorkflowTask">
+		<uri_prefix>http://example.com/terms</uri_prefix>
+		<uri_path>MaRDI/WorkflowTask</uri_path>
+		<dc:comment/>
+		<provider_key>WorkflowTask</provider_key>
+		<options/>
 		<conditions/>
 	</optionset>
 	<optionset dc:uri="http://example.com/terms/options/MaRDI/available_software">
@@ -1347,10 +1355,10 @@
 		<uri_prefix>http://example.com/terms</uri_prefix>
 		<uri_path>MaRDI/publication_type/type_0</uri_path>
 		<dc:comment/>
-		<text lang="en">MaRDI Portal</text>
+		<text lang="en">MaRDI Export</text>
 		<help lang="en"/>
 		<view_text lang="en"/>
-		<text lang="de">MaRDI Portal</text>
+		<text lang="de">MaRDI Export</text>
 		<help lang="de"/>
 		<view_text lang="de"/>
 		<additional_input/>
@@ -1549,52 +1557,52 @@
 		<view_text lang="de"/>
 		<additional_input/>
 	</option>
-	<optionset dc:uri="https://rdmorganiser.github.io/terms/options/yes_no_not_yet">
-		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
-		<uri_path>yes_no_not_yet</uri_path>
-		<dc:comment/>
-		<provider_key/>
-		<options>
-			<option dc:uri="https://rdmorganiser.github.io/terms/options/yes_no_not_yet/yes" order="1"/>
-			<option dc:uri="https://rdmorganiser.github.io/terms/options/yes_no_not_yet/no" order="2"/>
-			<option dc:uri="https://rdmorganiser.github.io/terms/options/yes_no_not_yet/not_yet" order="3"/>
-		</options>
-		<conditions/>
-	</optionset>
-	<option dc:uri="https://rdmorganiser.github.io/terms/options/yes_no_not_yet/yes">
-		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
-		<uri_path>yes_no_not_yet/yes</uri_path>
-		<dc:comment/>
-		<text lang="en">Yes</text>
-		<help lang="en"/>
-		<view_text lang="en"/>
-		<text lang="de">Ja</text>
-		<help lang="de"/>
-		<view_text lang="de"/>
-		<additional_input>text</additional_input>
-	</option>
-	<option dc:uri="https://rdmorganiser.github.io/terms/options/yes_no_not_yet/no">
-		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
-		<uri_path>yes_no_not_yet/no</uri_path>
-		<dc:comment/>
-		<text lang="en">No</text>
-		<help lang="en"/>
-		<view_text lang="en"/>
-		<text lang="de">Nein</text>
-		<help lang="de"/>
-		<view_text lang="de"/>
-		<additional_input/>
-	</option>
-		<option dc:uri="https://rdmorganiser.github.io/terms/options/yes_no_not_yet/not_yet">
-		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
-		<uri_path>yes_no_not_yet/not_yet</uri_path>
-		<dc:comment/>
-		<text lang="en">Not yet</text>
-		<help lang="en"/>
-		<view_text lang="en"/>
-		<text lang="de">Noch nicht</text>
-		<help lang="de"/>
-		<view_text lang="de"/>
-		<additional_input/>
-	</option>
+	        <optionset dc:uri="https://rdmorganiser.github.io/terms/options/yes_no_not_yet">
+                <uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+                <uri_path>yes_no_not_yet</uri_path>
+                <dc:comment/>
+                <provider_key/>
+                <options>
+                        <option dc:uri="https://rdmorganiser.github.io/terms/options/yes_no_not_yet/yes" order="1"/>
+                        <option dc:uri="https://rdmorganiser.github.io/terms/options/yes_no_not_yet/no" order="2"/>
+                        <option dc:uri="https://rdmorganiser.github.io/terms/options/yes_no_not_yet/not_yet" order="3"/>
+                </options>
+                <conditions/>
+        </optionset>
+        <option dc:uri="https://rdmorganiser.github.io/terms/options/yes_no_not_yet/yes">
+                <uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+                <uri_path>yes_no_not_yet/yes</uri_path>
+                <dc:comment/>
+                <text lang="en">Yes</text>
+                <help lang="en"/>
+                <view_text lang="en"/>
+                <text lang="de">Ja</text>
+                <help lang="de"/>
+                <view_text lang="de"/>
+                <additional_input>text</additional_input>
+        </option>
+        <option dc:uri="https://rdmorganiser.github.io/terms/options/yes_no_not_yet/no">
+                <uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+                <uri_path>yes_no_not_yet/no</uri_path>
+                <dc:comment/>
+                <text lang="en">No</text>
+                <help lang="en"/>
+                <view_text lang="en"/>
+                <text lang="de">Nein</text>
+                <help lang="de"/>
+                <view_text lang="de"/>
+                <additional_input/>
+        </option>
+                <option dc:uri="https://rdmorganiser.github.io/terms/options/yes_no_not_yet/not_yet">
+                <uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+                <uri_path>yes_no_not_yet/not_yet</uri_path>
+                <dc:comment/>
+                <text lang="en">Not yet</text>
+                <help lang="en"/>
+                <view_text lang="en"/>
+                <text lang="de">Noch nicht</text>
+                <help lang="de"/>
+                <view_text lang="de"/>
+                <additional_input/>
+        </option>
 </rdmo>

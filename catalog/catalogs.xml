@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2024-06-22T21:45:31.364029+02:00" version="2.1.3">
-	<catalog dc:uri="http://example.com/terms/questions/MaRDI">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2024-07-11T22:16:47.839172+02:00" version="2.1.3">
+	<catalog dc:uri="http://example.com/terms/questions/MaRDMO">
 		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI</uri_path>
+		<uri_path>MaRDMO</uri_path>
 		<dc:comment/>
 		<order>0</order>
 		<title lang="en">MaRDMO Catalog</title>
@@ -38,10 +38,10 @@
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_0/Set_1"/>
 		<is_collection>False</is_collection>
 		<title lang="en">Operation Modus</title>
-		<help lang="en">MaRDMO facilitates the documentation of interdisciplinary workflows through predefined templates, which are then published as wiki pages on the MaRDI portal. Additionally, it integrates essential components of workflows, such as research objectives, mathematical models, methods, and software, into the MaRDI knowledge graph. This integration empowers users to execute specific queries tailored to their workflow needs, thereby enhancing the reproducibility of individual workflows and fostering a user-driven knowledge loop. Furthermore, MaRDMO provides the capability to document mathematical models independently. These models can be published in the MathModDB Knowledge Graph. Looking ahead, MaRDMO will also support the documentation of algorithms through the MathAlgoDB Knowledge Graph.</help>
+		<help lang="en">MaRDMO is a plugin facilitating the semi-automatic documentation of interdisciplinary workflows and/or mathematical models. Therefore, MaRDMO retrieves information from the MaRDI Portal, MathModDB and other sources like Wikidata. Completed documentations are integrated into the Knowledge Graphs of MaRDI and presented to the user in standardized templates. Queries of these Knowledge Graphs are also possible.</help>
 		<verbose_name lang="en"/>
 		<title lang="de">Betriebsmodus</title>
-		<help lang="de">MaRDMO erleichtert die Dokumentation von interdisziplinären Workflows durch vordefinierte Vorlagen, die als Wiki-Seiten im MaRDI-Portal veröffentlicht werden. Darüber hinaus integriert es wesentliche Komponenten von Workflows wie Forschungsziele, mathematische Modelle, Methoden und Software in den MaRDI Knowledge Graphen. Diese Integration ermöglicht es den Nutzenden, spezifische, auf ihre Workflows zugeschnittene Abfragen durchzuführen, wodurch die Reproduzierbarkeit der einzelnen Arbeitsabläufe verbessert und ein nutzergesteuerter Wissenskreislauf gefördert wird. Darüber hinaus bietet MaRDMO die Möglichkeit, mathematische Modelle alleinstehend zu dokumentieren. Diese Modelle können im MathModDB Knowledge Graphen veröffentlicht werden. In Zukunft wird MaRDMO auch die Dokumentation von Algorithmen durch den MathAlgoDB Knowledge Graphen unterstützen.</help>
+		<help lang="de">MaRDMO ist ein Plugin, das die halbautomatische Dokumentation von interdisziplinären Workflows und/oder mathematischen Modellen ermöglicht. Dazu bezieht MaRDMO Informationen aus dem MaRDI Portal, MathModDB und anderen Quellen wie Wikidata. Fertige Dokumentationen werden in die Knowledge Graphen von MaRDI integriert und dem Benutzer in standardisierten Templates präsentiert. Abfragen dieser Knowledge Graphen sind ebenfalls möglich.</help>
 		<verbose_name lang="de"/>
 		<questionsets/>
 		<questions>
@@ -59,11 +59,11 @@
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en">Select 'Documentation' if you want to document a workflow or a mathematical model or 'Search' if you want to search existing workflow documentations. If neither is selected the questionnaire ends after the identification.</help>
-		<text lang="en">Search or document?</text>
+		<text lang="en">Search or Document?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de">Wählen Sie &quot;Dokumentation&quot;, wenn Sie einen Workflow oder ein mathematisches Modell dokumentieren möchten, oder &quot;Suchen&quot;, wenn Sie nach vorhandenen Dokumentationen von Workflows suchen möchten. Wenn keine der beiden Optionen ausgewählt wird, endet der Fragenkatalog nach der Identifizierung.</help>
-		<text lang="de">Suchen oder dokumentieren?</text>
+		<text lang="de">Suchen oder Dokumentieren?</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
@@ -118,7 +118,7 @@
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_2/Set_1/Question_03"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">Select 'Computational Workflow' to document a computational Workflow and '(Measured) Data Analysis Workflow to document (measured) data analysis workflow. If neither is selected the questionnaire ends after the identification.</help>
+		<help lang="en">Select 'Computational Workflow' to document a computational Workflow and '(Measured) Data Analysis Workflow' to document a (measured) data analysis workflow. If neither is selected the questionnaire ends after the identification.</help>
 		<text lang="en">Computational Workflow or (Measured) Data Analysis Workflow?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
@@ -181,7 +181,7 @@
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en">Surname, Given Name(s)</help>
-		<text lang="en">Provide your name</text>
+		<text lang="en">Provide your Name</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de">Nachname, Vorname(n)</help>
@@ -208,7 +208,7 @@
 		<is_collection>True</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en">Supported IDs are ORCID (e.g. orcid:1234-5678-8765-4321) and/or zbMath ID (e.g. zbmath:mustermensch.maxi).</help>
-		<text lang="en">Provide appropriate IDs for the identification.</text>
+		<text lang="en">Provide appropriate IDs for the Identification.</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de">Unterstütze IDs sind ORCID (z.B. orcid:1234-5678-8765-4321) und/oder zbMath ID (z.B. zbmath:mustermensch.maxi).</help>
@@ -270,14 +270,14 @@
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en"/>
-		<text lang="en">Would you like to specify key words the research objective of the workflow should contain?</text>
+		<text lang="en">Would you like to specify Key Words the Research Objective of the Workflow should contain?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de"/>
 		<text lang="de">Wollen Sie Schlagworte angebeben, die im Forschungsziel des Workflows enthalten sein sollen?</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
-		<default_option dc:uri="http://example.com/terms/options/MaRDI/operation_modus/modus_0"/>
+		<default_option/>
 		<default_external_id/>
 		<widget_type>radio</widget_type>
 		<value_type>text</value_type>
@@ -299,7 +299,7 @@
 		<is_collection>True</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en"/>
-		<text lang="en">Specify the key words</text>
+		<text lang="en">Specify the Key Words</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de"/>
@@ -328,14 +328,14 @@
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en"/>
-		<text lang="en">Would you like to specify research disciplines the workflow should be connected with?</text>
+		<text lang="en">Would you like to specify Research Disciplines the Workflow should be connected with?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de"/>
 		<text lang="de">Wollen Sie Forschungsdisziplinen angebeben mit denen der Workflow verknüpft sein soll?</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
-		<default_option dc:uri="http://example.com/terms/options/MaRDI/yes_no/no"/>
+		<default_option/>
 		<default_external_id/>
 		<widget_type>radio</widget_type>
 		<value_type>text</value_type>
@@ -356,11 +356,11 @@
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_1/Set_1/Question_03"/>
 		<is_collection>True</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">For all research disciplines mardi:QID, label and description are provided</help>
-		<text lang="en">Select the research disciplines</text>
+		<help lang="en">For all research disciplines label and description are provided</help>
+		<text lang="en">Select the Research Disciplines</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">Für alle Forschungsdiziplinen werden die mardi:QID, das Label und die Beschreibung angezeigt.</help>
+		<help lang="de">Für alle Forschungsdiziplinen werden das Label und die Beschreibung angezeigt.</help>
 		<text lang="de">Wählen Sie die Forschungsdisziplinen aus</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -388,14 +388,14 @@
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en"/>
-		<text lang="en">Would you like to specify mathematical models, methods, software, input or output data sets the workflow should be connected with?</text>
+		<text lang="en">Would you like to specify Mathematical Models, Methods, Software, Data Sets the Workflow should be connected with?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de"/>
 		<text lang="de">Wollen Sie mathematische Modelle, Methoden, Software, Eingabe- oder Ausgabedatensätze angebeben mit denen der Workflow verknüpft sein soll?</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
-		<default_option dc:uri="http://example.com/terms/options/MaRDI/yes_no/no"/>
+		<default_option/>
 		<default_external_id/>
 		<widget_type>radio</widget_type>
 		<value_type>text</value_type>
@@ -416,11 +416,11 @@
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_1/Set_1/Question_05"/>
 		<is_collection>True</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">For all mathematical models, methods, software, input or output data sets mardi:QID, label and description are provided</help>
-		<text lang="en">Select the mathematical models, methods, software, input or output data sets</text>
+		<help lang="en">For all mathematical models, methods, software or data sets label and description are provided</help>
+		<text lang="en">Select the Mathematical Models, Methods, Software or Data Sets</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">Für alle mathematischen Modelle, Methoden, Software, Eingabe- und Ausgabedatensätze werden die mardi:QID, das Label und die Beschreibung angezeigt.</help>
+		<help lang="de">Für alle mathematischen Modelle, Methoden, Software und Datensätze werden das Label und die Beschreibung angezeigt.</help>
 		<text lang="de">Wählen Sie die mathematischen Modelle, Methoden, Software, Eingabe- und Ausgabedatensätze aus</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -512,7 +512,7 @@
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en">A concise sentence is sufficient.</help>
-		<text lang="en">State the research objective</text>
+		<text lang="en">State the Research Objective</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de">Ein prägnanter Satz ist ausreichend.</help>
@@ -538,11 +538,11 @@
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_2/Set_1/Question_02"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">If yes, provide the corresponding DOI.</help>
-		<text lang="en">Is the workflow published?</text>
+		<help lang="en">If yes, provide the corresponding DOI or URL. For Publications with DOI MaRDMO will automatically fetch the metadata.</help>
+		<text lang="en">Is the Workflow published?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">Falls ja geben Sie die DOI an.</help>
+		<help lang="de">Falls ja geben Sie die DOI oder URL an. Für Publikationen mit einer DOI ruft MaRDMO automatisch die Metadaten ab.</help>
 		<text lang="de">Ist der Workflow veröffentlicht?</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -568,11 +568,11 @@
 		<is_collection>True</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en">Free-text search for categories of the Mathematics Subject Classification 2020.</help>
-		<text lang="en">Select mathematical subjects involved in your workflow!</text>
+		<text lang="en">Select Mathematical Subjects involved in the Workflow!</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de">Freitextsuche nach Kategorien der Mathematics Subjects Classification 2020.</help>
-		<text lang="de">Wählen Sie geeignete mathematische Gebiete im Zusammenhang mit ihrem Workflow aus!</text>
+		<text lang="de">Wählen Sie geeignete mathematische Gebiete im Zusammenhang mit dem Workflow aus!</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
@@ -596,12 +596,12 @@
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_2/Set_3/Question_01"/>
 		<is_collection>True</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">For all disciplines the mardi/wikidata:QID, label and description are provided.</help>
-		<text lang="en">Select non-mathematical disciplines, involved in your workflow, from Wikidata or MaRDI KG!</text>
+		<help lang="en">For all disciplines label and description are provided.</help>
+		<text lang="en">Select Non-Mathematical Disciplines involved in the Workflow from Wikidata or MaRDI KG!</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">Für alle Disziplinen wird die mardi/wikidata:QID, das Label und die Beschreibung angezeigt.</help>
-		<text lang="de">Wählen Sie geeignete nicht-mathematische Disziplinen, im Zusammenhang mit ihrem Workflow, aus Wikidata oder dem MaRDI KG aus!</text>
+		<help lang="de">Für alle Disziplinen wird das Label und die Beschreibung angezeigt.</help>
+		<text lang="de">Wählen Sie geeignete nicht-mathematische Disziplinen im Zusammenhang mit dem Workflow aus Wikidata oder dem MaRDI KG aus!</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
@@ -625,11 +625,11 @@
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_2/Set_1/Question_05"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">The description is intended to help other people, who may not be familiar with the subject, to follow the underlying workflow. Please consider this in the depth of detail of the mathematical and experimental description. You may use HTML tags, e.g. for bold text, new line, ..., and Latex math (in $$...$$) to structure your answer.</help>
-		<text lang="en">Describe the workflow procedure</text>
+		<help lang="en">The description is intended to help other people, who may not be familiar with the subject, to follow the underlying workflow. Please consider this in the depth of detail of the mathematical and experimental description.</help>
+		<text lang="en">Describe the Workflow Procedure</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">Die Beschreibung soll anderen, möglicherweise fachfremden Personen, helfen dem zugrunde liegenden Workflow zu folgen. Bitte beachten Sie dies bei der Detailtiefe der mathematischen und experimentellen Beschreibung. Sie können HTML Tags, z.B. für fetten Text, neue Zeile, ..., und Latex Mathe (in $$...$$) nutzen um Ihre Antwort zu strukturieren.</help>
+		<help lang="de">Die Beschreibung soll anderen, möglicherweise fachfremden Personen, helfen dem zugrunde liegenden Workflow zu folgen. Bitte beachten Sie dies bei der Detailtiefe der mathematischen und experimentellen Beschreibung.</help>
 		<text lang="de">Beschreiben Sie das Workflow Prozedere</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -653,7 +653,7 @@
 		<is_collection>True</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en">Data streams between individual disciplines, e.g. time-resolved Raman spectrum from chemistry to mathematics.</help>
-		<text lang="en">Indicate the data streams of the workflow</text>
+		<text lang="en">Indicate the Data Streams of the Workflow</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de">Datenströme zwischen einzelnen Disziplinen, z. B. zeitaufgelöstes Raman-Spektrum von der Chemie zur Mathematik.</help>
@@ -679,10 +679,10 @@
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_2/Set_2"/>
 		<is_collection>False</is_collection>
 		<title lang="en">Publication Information</title>
-		<help lang="en">The information listed here was determined automatically using the previously defined DOI. Depending on availability, the MaRDI KG, the Wikidata KG, the Crossref API, the DataCite API or the DOI API were used. The ORCID API and the zbMath API were used for proper author identification. So far, this page only illustrates the recorded information. Only for publications that are not available in MaRDI or Wikidata KG is it possible to add IDs for previously unidentified authors (see help text of corresponding question). In the near future, further editing options will be created and an exchange of information with Wikidata KG will be ensured.</help>
+		<help lang="en">The information listed here was retrieved automatically using the previously defined DOI. Depending on availability, the MaRDI KG, the Wikidata KG, the Crossref API, the DataCite API or the DOI API was used. The ORCID API and the zbMath API were used for proper author identification. So far, this page only illustrates the recorded information. For publications that are not available in MaRDI or Wikidata KG IDs for previously unidentified authors could be added. Soon, further editing options will be supported and an exchange of information with Wikidata KG will be ensured.</help>
 		<verbose_name lang="en"/>
 		<title lang="de">Informationen zur Veröffentlichung</title>
-		<help lang="de">Die hier aufgeführten Informationen wurden über die zuvor angegebene DOI automatisch ermittelt. Je nach Verfügbarkeit wurde dazu der MaRDI KG, der Wikidata KG, die Crossref API, die DataCite API oder die DOI API verwendet. Zur eindeutigen Identifikation der Autoren wurden auch die ORCID API und die zbMath API abgefragt. Bislang dient diese Seite nur zur Veranschaulichung der automatisch erfassten Informationen. Lediglich bei Publikationen, die nicht im MaRDI oder Wikidata KG vorhanden sind, ist es möglich, IDs für bisher nicht identifizierte Autoren hinzuzufügen (siehe Hilfetext der zutreffenden Frage). In naher Zukunft werden weitere Bearbeitungsmöglichkeiten geschaffen und ein Informationsaustausch mit Wikidata KG sichergestellt.</help>
+		<help lang="de">Die hier aufgeführten Informationen wurden über die zuvor angegebene DOI automatisch ermittelt. Je nach Verfügbarkeit wurde dazu der MaRDI KG, der Wikidata KG, die Crossref API, die DataCite API oder die DOI API verwendet. Zur eindeutigen Identifikation der Autoren wurden auch die ORCID API und die zbMath API abgefragt. Bislang dient diese Seite nur zur Veranschaulichung der automatisch erfassten Informationen. Bei Publikationen, die nicht im MaRDI oder Wikidata KG vorhanden sind, ist es möglich, IDs für bisher nicht identifizierte Autoren hinzuzufügen. Demnächst werden weitere Bearbeitungsmöglichkeiten unterstützt und ein Informationsaustausch mit dem Wikidata KG sichergestellt.</help>
 		<verbose_name lang="de"/>
 		<questionsets/>
 		<questions>
@@ -816,7 +816,7 @@
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_2/Set_2/Question_04"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">'no information available' if no statement can be made.</help>
+		<help lang="en"/>
 		<text lang="en">Language of Publication</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
@@ -953,11 +953,11 @@
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_2/Set_2/Question_09"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">If only the year or year and month of publication could be determined, the missing information is set to 01. 'no information available' if no statement can be made.</help>
+		<help lang="en">'no information available' if no statement can be made.</help>
 		<text lang="en">Date of Publication</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">Falls nur das Publikationsjahr bzw -jahr und -monat ermittelt werden konnten, werden die fehlenden Angaben auf 01 gesetzt. 'no information available' falls dazu keine Aussage getroffen werden kann.</help>
+		<help lang="de">'no information available' falls dazu keine Aussage getroffen werden kann.</help>
 		<text lang="de">Datum der Publikation</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -997,6 +997,7 @@
 		<verbose_name lang="de"/>
 		<questionsets>
 			<questionset dc:uri="http://example.com/terms/questions/MaRDI/Section_3/Set_0/Set_0" order="1"/>
+			<questionset dc:uri="http://example.com/terms/questions/MaRDI/Section_3/Set_0/Set_1" order="2"/>
 		</questionsets>
 		<questions>
 			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3/Set_0/Wiki_01" order="-2"/>
@@ -1027,8 +1028,6 @@
 			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3/Set_0/Set_0/Question_04" order="5"/>
 			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3/Set_0/Set_0/Question_05" order="6"/>
 			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3/Set_0/Set_0/Question_06" order="7"/>
-			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3/Set_0/Set_0/Question_07" order="8"/>
-			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3/Set_0/Set_0/Question_08" order="9"/>
 		</questions>
 		<conditions>
 			<condition dc:uri="http://example.com/terms/conditions/model_present"/>
@@ -1041,11 +1040,11 @@
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3/Set_0/Set_0/Question_00"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">If you cannot find an appropriate Mathematical Model on Wikidata or the MaRDI KG, please describe it in the following questions.</help>
+		<help lang="en">For models label and description are provided. If no appropriate model is available in Wikidata or MaRDI KG define the model in the following.</help>
 		<text lang="en">Select an appropriate Mathematical Model from Wikidata or MaRDI KG!</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">Wenn Sie kein passendes mathematische Modell in Wikidata oder dem MaRDI KG finden, beschreiben Sie es bitte in den folgenden Fragen.</help>
+		<help lang="de">Wenn kein passendes mathematisches Modell in Wikidata oder dem MaRDI KG vorhanden ist, definieren Sie das Modell im Folgenden.</help>
 		<text lang="de">Wählen Sie ein geeignetes mathematisches Modell aus Wikidata oder dem MaRDI KG aus!</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -1071,7 +1070,7 @@
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en"/>
-		<text lang="en">Provide a name for the new Mathematical Model!</text>
+		<text lang="en">Provide a Name for the new Mathematical Model!</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de"/>
@@ -1100,7 +1099,7 @@
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en"/>
-		<text lang="en">Provide a description for the new Mathematical Model!</text>
+		<text lang="en">Provide a Description for the new Mathematical Model!</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de"/>
@@ -1128,11 +1127,11 @@
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3/Set_0/Set_0/Question_03"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">wikidata:, dbpedia, doi:, url:</help>
+		<help lang="en">Provided ID prefixes are: wikidata:, dbpedia, doi:, url:</help>
 		<text lang="en">Provide an ID for the new Mathematical Model!</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">wikidata:, dbpedia, doi:, url:</help>
+		<help lang="de">Unterstützte ID Präfixe sind: wikidata:, dbpedia, doi:, url:</help>
 		<text lang="de">Geben Sie eine ID für das neue mathematische Modell an!</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -1158,7 +1157,7 @@
 		<is_collection>True</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en"/>
-		<text lang="en">Assign appropriate properties to the new Mathematical Model.</text>
+		<text lang="en">Assign appropriate Properties to the new Mathematical Model.</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de"/>
@@ -1186,11 +1185,11 @@
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3/Set_0/Set_0/Question_04"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">If no appropriate Research Field is available in MathModDB, you have to create one in the following section. Therefore, choose here 'not in MathModDB'.</help>
-		<text lang="en">Select a research field related to the new Mathematical model!</text>
+		<help lang="en">For all research fields the label is provided. If no appropriate research field is available in MathModDB define the research field in the following.</help>
+		<text lang="en">Select a Research Field related to the new Mathematical Model!</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">Falls kein geeignetes Forschungsgebiet in MathModDB vorhanden ist, müssen Sie es in der folgenden Sektion erstellen. Wählen Sie hier dafür 'not in MathModDB'.</help>
+		<help lang="de">Für alle Forschungsgebiete wird das Label angezeigt. Sollte kein geeignetes Forschungsgebiet in MathModDB vorhanden sein, definieren Sie es im Folgenden.</help>
 		<text lang="de">Wählen Sie ein Forschungsgebiet aus, das mit dem neuen mathematischen Modell im Zusammenhang steht!</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -1215,11 +1214,11 @@
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3/Set_0/Set_0/Question_05"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">If no appropriate Research Problem is available in MathModDB, you have to create one in the following section. Therefore, choose here 'not in MathModDB'.</help>
+		<help lang="en">For all research problems the label is provided. If no appropriate research problem is available in MathModDB, define the research problem in the following.</help>
 		<text lang="en">Select a Research Problem related to the new Mathematical Model!</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">Falls kein geeignetes Forschungsproblem in MathModDB vorhanden ist, müssen Sie es in der folgenden Sektion erstellen.</help>
+		<help lang="de">Für alle Forschungsprobleme wird das Label angezeigt. Falls kein geeignetes Forschungsproblem in MathModDB vorhanden ist, definieren Sie das Forschungsproblem im Folgenden.</help>
 		<text lang="de">Wählen Sie ein Forschungsproblem, das mit dem neuen mathematischen Modell im Zusammenhang steht!</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -1244,11 +1243,11 @@
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3/Set_0/Set_0/Question_06"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">If you select yes, you can relate the new mathematical model with other existing models from MathModDB. Alternatively, you can create new mathematical models addressing specific research problems. This allows you to indicate, for example, that the new model is a combination of other existing or newly created mathematical models.</help>
-		<text lang="en">Should the new Mathematical Model be set in relation to others?</text>
+		<help lang="en">If yes, the new mathematical model can be related to other existing models from MathModDB or newly created model. This allows for example the documentation of models containing models.</help>
+		<text lang="en">Should the new Mathematical Model be set in relation to Others?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">Wenn Sie ja wählen, können Sie das neue mathematische Modell mit anderen bestehenden Modellen aus MathModDB verknüpfen. Alternativ können Sie auch neue mathematische Modelle zu bestimmten Forschungsproblemen erstellen. Auf diese Weise können Sie z. B. angeben, dass das neue Modell eine Kombination aus anderen bestehenden oder neu erstellten mathematischen Modellen ist.</help>
+		<help lang="de">Falls ja kann das neue mathematische Modell mit anderen bestehenden Modellen aus MathModDB oder neu kreierten Modellen verknüpft werden. Dies erlaubt zum Beispiel, die Dokumentation von Modellen, die andere Modelle enthalten.</help>
 		<text lang="de">Soll das neue mathematische Modell in Beziehung zu anderen gesetzt werden?</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -1266,138 +1265,45 @@
 		</optionsets>
 		<conditions/>
 	</question>
-	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3/Set_0/Set_0/Question_07">
+	<questionset dc:uri="http://example.com/terms/questions/MaRDI/Section_3/Set_0/Set_1">
 		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/Section_3/Set_0/Set_0/Question_07</uri_path>
+		<uri_path>MaRDI/Section_3/Set_0/Set_1</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3/Set_0/Set_0/Question_07"/>
+		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3/Set_0/Set_1"/>
+		<is_collection>False</is_collection>
+		<title lang="en">Related Tasks...</title>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<title lang="de">Zugehörige Aufgaben...</title>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<questionsets/>
+		<questions>
+			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3/Set_0/Set_1/Question_0" order="1"/>
+			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3/Set_0/Set_1/Question_1" order="2"/>
+		</questions>
+		<conditions>
+			<condition dc:uri="http://example.com/terms/conditions/WorkflowTask"/>
+		</conditions>
+	</questionset>
+	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3/Set_0/Set_1/Question_0">
+		<uri_prefix>http://example.com/terms</uri_prefix>
+		<uri_path>MaRDI/Section_3/Set_0/Set_1/Question_0</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3/Set_0/Set_1/Question_0"/>
 		<is_collection>True</is_collection>
-		<is_optional>False</is_optional>
-		<help lang="en">All variables, parameters, and constants in your mathematical model should correspond to specific quantities, which refer to particular properties of the system. These quantities are defined by general concepts known as quantity kinds. In some cases, it might be more appropriate to relate a certain element of a formulation directly to a quantity kind, which is allowed to avoid the creation of artificial quantities. Quantities and quantity kinds are not restricted to the natural sciences.
-
-For example, the Michaelis-Menten equation for a uni-uni reaction in the absence of product is given by &lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;
-  &lt;mrow&gt;
-    &lt;msub&gt;
-      &lt;mi&gt;v&lt;/mi&gt;
-      &lt;mn&gt;0&lt;/mn&gt;
-    &lt;/msub&gt;
-    &lt;mo&gt;=&lt;/mo&gt;
-    &lt;mfrac&gt;
-      &lt;mrow&gt;
-        &lt;msub&gt;
-          &lt;mi&gt;V&lt;/mi&gt;
-          &lt;mtext&gt;max&lt;/mtext&gt;
-        &lt;/msub&gt;
-        &lt;mo&gt;*&lt;/mo&gt;
-        &lt;mi&gt;c&lt;/mi&gt;
-        &lt;msub&gt;
-          &lt;mi&gt;s&lt;/mi&gt;
-        &lt;/msub&gt;
-      &lt;/mrow&gt;
-      &lt;mrow&gt;
-        &lt;msub&gt;
-          &lt;mi&gt;K&lt;/mi&gt;
-          &lt;mi&gt;m&lt;/mi&gt;
-        &lt;/msub&gt;
-        &lt;mo&gt;+&lt;/mo&gt;
-        &lt;mi&gt;c&lt;/mi&gt;
-        &lt;msub&gt;
-          &lt;mi&gt;s&lt;/mi&gt;
-        &lt;/msub&gt;
-      &lt;/mrow&gt;
-    &lt;/mfrac&gt;
-  &lt;/mrow&gt;
-&lt;/math&gt;
-. Here, the quantities are: initial reaction rate (&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;
-  &lt;msub&gt;
-    &lt;mi&gt;v&lt;/mi&gt;
-    &lt;mn&gt;0&lt;/mn&gt;
-  &lt;/msub&gt;
-&lt;/math&gt;), maximal reaction rate (&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;
-  &lt;msub&gt;
-    &lt;mi&gt;V&lt;/mi&gt;
-    &lt;mi&gt;max&lt;/mi&gt;
-  &lt;/msub&gt;
-&lt;/math&gt;), Michaelis constant (&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;
-  &lt;msub&gt;
-    &lt;mi&gt;K&lt;/mi&gt;
-    &lt;mi&gt;m&lt;/mi&gt;
-  &lt;/msub&gt;
-&lt;/math&gt;), and substrate concentration (&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;
-  &lt;msub&gt;
-    &lt;mi&gt;c&lt;/mi&gt;
-    &lt;mi&gt;s&lt;/mi&gt;
-  &lt;/msub&gt;
-&lt;/math&gt;). The corresponding quantity kinds are reaction rate and concentration.
-
-If no appropriate Quantities / Quantity Kinds are available in MathModDB, you have to create them in the following section. Therefore, choose here 'not in MathModDB'.</help>
-		<text lang="en">Select Quantities / Quantity Kinds related to the new Mathematical Model!</text>
+		<is_optional>True</is_optional>
+		<help lang="en">By default, all tasks applying the chosen Mathematical Model (and its sub-models) from MathModDB are included in the Workflow Documentation. If only specific tasks are to be included, they should be selected here. Any missing tasks can be defined in the following. If the documentation is intended only for the Mathematical Model, this question is irrelevant; its purpose is merely to check existing tasks to determine if a new one needs to be created.</help>
+		<text lang="en">Select relevant Task(s) for the Workflow from MathModDB</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">Alle Variablen, Parameter und Konstanten in Ihrem mathematischen Modell sollten bestimmten Quantitäten entsprechen, die sich auf bestimmte Eigenschaften des Systems beziehen. Diese Quantitäten werden durch allgemeine Konzepte definiert, die als Quantitätsarten bekannt sind. In manchen Fällen kann es sinnvoller sein, ein bestimmtes Element einer Formulierung direkt mit einer Quantitätsart zu verknüpfen, um die Erstellung von künstlichen Quantitäten zu vermeiden. Quantitäten und Quantitätsarten sind nicht auf die Naturwissenschaften beschränkt.
-
-Zum Beispiel ist die Michaelis-Menten-Gleichung für eine Uni-Uni-Reaktion in Abwesenheit eines Produkts gegeben durch &lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;
-  &lt;mrow&gt;
-    &lt;msub&gt;
-      &lt;mi&gt;v&lt;/mi&gt;
-      &lt;mn&gt;0&lt;/mn&gt;
-    &lt;/msub&gt;
-    &lt;mo&gt;=&lt;/mo&gt;
-    &lt;mfrac&gt;
-      &lt;mrow&gt;
-        &lt;msub&gt;
-          &lt;mi&gt;V&lt;/mi&gt;
-          &lt;mtext&gt;max&lt;/mtext&gt;
-        &lt;/msub&gt;
-        &lt;mo&gt;*&lt;/mo&gt;
-        &lt;mi&gt;c&lt;/mi&gt;
-        &lt;msub&gt;
-          &lt;mi&gt;s&lt;/mi&gt;
-        &lt;/msub&gt;
-      &lt;/mrow&gt;
-      &lt;mrow&gt;
-        &lt;msub&gt;
-          &lt;mi&gt;K&lt;/mi&gt;
-          &lt;mi&gt;m&lt;/mi&gt;
-        &lt;/msub&gt;
-        &lt;mo&gt;+&lt;/mo&gt;
-        &lt;mi&gt;c&lt;/mi&gt;
-        &lt;msub&gt;
-          &lt;mi&gt;s&lt;/mi&gt;
-        &lt;/msub&gt;
-      &lt;/mrow&gt;
-    &lt;/mfrac&gt;
-  &lt;/mrow&gt;
-&lt;/math&gt;
-. Die Quantitäten sind hier: anfängliche Reaktionsgeschwindigkeit (&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;
-  &lt;msub&gt;
-    &lt;mi&gt;v&lt;/mi&gt;
-    &lt;mn&gt;0&lt;/mn&gt;
-  &lt;/msub&gt;
-&lt;/math&gt;), maximale Reaktionsgeschwindigkeit (&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;
-  &lt;msub&gt;
-    &lt;mi&gt;V&lt;/mi&gt;
-    &lt;mi&gt;max&lt;/mi&gt;
-  &lt;/msub&gt;
-&lt;/math&gt;), Michaelis-Konstante (&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;
-  &lt;msub&gt;
-    &lt;mi&gt;K&lt;/mi&gt;
-    &lt;mi&gt;m&lt;/mi&gt;
-  &lt;/msub&gt;
-&lt;/math&gt;) und Substratkonzentration (&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;
-  &lt;msub&gt;
-    &lt;mi&gt;c&lt;/mi&gt;
-    &lt;mi&gt;s&lt;/mi&gt;
-  &lt;/msub&gt;
-&lt;/math&gt;). Die entsprechenden Quantitätsarten sind Reaktionsgeschwindigkeit und Konzentration.
-
-Falls keine geeigneten Quantitäten / Quantitätsarten in MathModDB vorhanden sind, müssen Sie diese in der folgenden Sektion erstellen.</help>
-		<text lang="de">Wählen Sie Quantitäten / Quantitätsarten, die mit dem neuen mathematischen Modell im Zusammenhang stehen!</text>
+		<help lang="de">Standardmäßig werden alle Aufgaben, die das ausgewählte mathematische Modell (und seine Untermodelle) aus MathModDB anwenden, in die Workflow-Dokumentation aufgenommen. Wenn nur bestimmte Aufgaben aufgenommen werden sollen, müssen diese hier ausgewählt werden. Eventuell fehlende Aufgaben können im folgenden definiert werden. Wenn die Dokumentation nur für das Mathematische Modell gedacht ist, ist diese Frage irrelevant; sie dient lediglich dazu, bestehende Aufgaben zu überprüfen, um festzustellen, ob eine neue Aufgabe erstellt werden muss.</help>
+		<text lang="de">Wählen Sie relevante Aufgaben für den Workflow aus MathModDB aus.</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
 		<default_external_id/>
-		<widget_type>autocomplete</widget_type>
+		<widget_type>select</widget_type>
 		<value_type>text</value_type>
 		<maximum/>
 		<minimum/>
@@ -1405,23 +1311,23 @@ Falls keine geeigneten Quantitäten / Quantitätsarten in MathModDB vorhanden si
 		<unit/>
 		<width/>
 		<optionsets>
-			<optionset dc:uri="http://example.com/terms/options/MaRDI/Quantity"/>
+			<optionset dc:uri="http://example.com/terms/options/MaRDI/WorkflowTask"/>
 		</optionsets>
 		<conditions/>
 	</question>
-	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3/Set_0/Set_0/Question_08">
+	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3/Set_0/Set_1/Question_1">
 		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/Section_3/Set_0/Set_0/Question_08</uri_path>
+		<uri_path>MaRDI/Section_3/Set_0/Set_1/Question_1</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3/Set_0/Set_0/Question_08"/>
+		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3/Set_0/Set_1/Question_1"/>
 		<is_collection>False</is_collection>
-		<is_optional>False</is_optional>
-		<help lang="en">Choose 'Yes' if not all Quantities / Quantity Kinds related to your new Mathematical Model are available in MathModDB.</help>
-		<text lang="en">Should further Quantities / Quantity Kinds be added?</text>
+		<is_optional>True</is_optional>
+		<help lang="en">Choose 'Yes', if you want to add an additional task to the selected Mathematical Model in MathModDB. If a Workflow Documentation is desired, any new tasks will be additionally included in the documentation.</help>
+		<text lang="en">Would you like to define further Tasks for the selected Mathematical Model?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">Wählen Sie 'Ja' falls nicht alle Quantitäten / Quantitätsarten, die mit ihrem neuen mathematischen Modell in Verbindung stehen, in MathModDB zur Verfügung stehen.</help>
-		<text lang="de">Sollen weitere Quantitäten / Quantitätsarten hinzugefügt werden?</text>
+		<help lang="de">Wählen Sie 'Ja' falls Sie eine zusätzliche Aufgabe zum ausgewählten mathematischen Modell in MathModDB hinzufügen wollen. Falls eine Workflow Dokumentation gewünscht ist, werden die neuen Aufgaben zusätzlich in die Dokumentation aufgenommen</help>
+		<text lang="de">Wollen Sie weitere Aufgaben für das ausgewählte mathematische Modell definieren?</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
@@ -1445,11 +1351,11 @@ Falls keine geeigneten Quantitäten / Quantitätsarten in MathModDB vorhanden si
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3/Set_0/Wiki_01"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">For all models the ID, label and description are provided. If no appropriate model is contained in MathModDB answer define the model in the following sets.</help>
-		<text lang="en">Select an appropriate mathematical model from MathModDB!</text>
+		<help lang="en">For all models the label is provided. If no appropriate model is available in MathModDB define the model in the following.</help>
+		<text lang="en">Select an appropriate Mathematical Model from MathModDB!</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">Für alle Modelle wird die ID, das Label und die Beschreibung angezeigt. Falls kein passendes Modell in MathModDB enthalten ist, definieren Sie das Modell in den folgen Sets.</help>
+		<help lang="de">Für alle Modelle wird das Label angezeigt. Falls kein passendes Modell in MathModDB enthalten ist, definieren Sie das Modell im Folgenden.</help>
 		<text lang="de">Wählen Sie ein geeignetes mathematische Modell aus MathModDB aus!</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -1490,7 +1396,7 @@ Falls keine geeigneten Quantitäten / Quantitätsarten in MathModDB vorhanden si
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_0"/>
 		<is_collection>True</is_collection>
 		<title lang="en">New Research Field</title>
-		<help lang="en">The following questions allow you to add new Research Fields to MathModDB and relate them with each other and with existing Research Fields from the MathModDB. To do so, you may select existing Research Fields from Wikidata / MaRDI KG or define new Research Fields by yourself. At least one Research Field needs to be defined here! The specification of further Research Fields and possible relations is OPTIONAL and will be added by a curator if not provided.</help>
+		<help lang="en">The following questions allow the definition of new research fields in MathModDB. The fields might be related with each other and with existing research fields from the MathModDB. To do so, existing research fields from Wikidata / MaRDI KG can be selected or new research fields can be defined. At least one research field needs to be entered here! The specification of further research fields and possible relations is OPTIONAL and will be added by a curator if not provided.</help>
 		<verbose_name lang="en"/>
 		<title lang="de">Neues Forschungsgebiet</title>
 		<help lang="de">Mit den folgenden Fragen können Sie neue Forschungsgebiete in die MathModDB aufnehmen und diese untereinander und mit bestehenden Forschungsgebieten aus der MathModDB in Beziehung setzen. Dazu können Sie bestehende Forschungssgebiete aus Wikidata / MaRDI KG auswählen oder selbst neue Forschungsgebiete definieren. Mindestens ein Forschungsgebiet muss hier definiert werden! Die Angabe weiterer Forschungsgebiete und möglicher Beziehungen ist OPTIONAL und wird, wenn nicht vorhanden, von einem Kurator hinzugefügt.</help>
@@ -1592,11 +1498,11 @@ Falls keine geeigneten Quantitäten / Quantitätsarten in MathModDB vorhanden si
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_0/Question_3"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">If you cannot find an appropriate Research Field on Wikidata or the MaRDI KG, please describe it in the following questions.</help>
+		<help lang="en">For all research fields label and description are provided. If no appropriate research field is available in Wikidata or MaRDI KG, define it in the following.</help>
 		<text lang="en">Select an appropriate Research Field from Wikidata or MaRDI KG!</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">Wenn Sie kein passendes Forschungsfeld in Wikidata oder dem MaRDI KG finden, beschreiben Sie es bitte in den folgenden Fragen.</help>
+		<help lang="de">Für alle Forschungsgebiet wird das Label und eine Beschreibung angegeben. Falls kein passendes Forschungsgebiet in Wikidata oder dem MaRDI KG vorhanden ist, definieren Sie es im Folgenden.</help>
 		<text lang="de">Wählen Sie ein geeignetes Forschungsfeld aus Wikidata oder dem MaRDI KG aus!</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -1622,7 +1528,7 @@ Falls keine geeigneten Quantitäten / Quantitätsarten in MathModDB vorhanden si
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en"/>
-		<text lang="en">Provide a name for the new Research Field.</text>
+		<text lang="en">Provide a Name for the new Research Field.</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de"/>
@@ -1651,7 +1557,7 @@ Falls keine geeigneten Quantitäten / Quantitätsarten in MathModDB vorhanden si
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en"/>
-		<text lang="en">Provide a description for the new Research Field.</text>
+		<text lang="en">Provide a Description for the new Research Field.</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de"/>
@@ -1708,7 +1614,7 @@ Falls keine geeigneten Quantitäten / Quantitätsarten in MathModDB vorhanden si
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_1"/>
 		<is_collection>True</is_collection>
 		<title lang="en">New Research Problem</title>
-		<help lang="en">The following questions allow you to add new Research Problems to MathModDB and relate them with each other and with existing Research Problems from the MathModDB. To do so, you may select existing Research Problems from Wikidata / MaRDI KG or define new Research Problems by yourself. At least one Research Problem needs to be defined here! If you defined more than one Research Field you have to assign the Research Problem to the appropriate Research Field(s). If you define more than one Research Problem you need to specify which Research Problem(s) are modeled by the Mathematical Model you defined at the beginning. The specification of further Research Problems and possible relations is OPTIONAL and will be added by a curator if not provided.</help>
+		<help lang="en">The following questions allow the definition of new research problems in MathModDB. These problems might be related with each other and with existing research problems from the MathModDB. To do so, existing research problems from Wikidata / MaRDI KG can be selected or new research problems can be defined. At least one research problem needs to be entered here! If more than one research field was defined the research problem has to be assigned to the appropriate research field(s). If more than one research problem is defined it needs to be specified which research problem(s) are modeled by the mathematical model defined in the beginning. The specification of further research problems and possible relations is OPTIONAL and will be added by a curator if not provided.</help>
 		<verbose_name lang="en"/>
 		<title lang="de">Neues Forschungsproblem</title>
 		<help lang="de">Mit den folgenden Fragen können Sie neue Forschungsprobleme zu MathModDB hinzufügen und sie miteinander und mit bestehenden Forschungsproblemen aus der MathModDB in Relation setzen. Dazu können Sie bestehende Forschungsprobleme aus Wikidata / MaRDI KG auswählen oder selbst neue Forschungsprobleme definieren. Hier muss mindestens ein Forschungsproblem definiert werden! Wenn Sie zuvor mehr als ein Forschungsgebiet definiert haben, müssen Sie das Forschungsproblem dem/den entsprechenden Forschungsgebieten zuordnen. Wenn Sie mehr als ein Forschungsproblem definieren, müssen Sie angeben, welche Forschungsprobleme durch das mathematische Modell modelliert werden, das Sie zu Beginn definiert haben. Die Angabe weiterer Forschungsprobleme und möglicher Zusammenhänge ist OPTIONAL und wird, sofern nicht angegeben, von einem Kurator ergänzt.</help>
@@ -1812,11 +1718,11 @@ Falls keine geeigneten Quantitäten / Quantitätsarten in MathModDB vorhanden si
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_1/Question_5"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">If you cannot find an appropriate Research Problem on Wikidata or the MaRDI KG, please describe it in the following questions.</help>
+		<help lang="en">For all research problems label and description are provided. If no appropriate problem is available in Wikidata or MaRDI KG, define the problem in the following.</help>
 		<text lang="en">Select an appropriate Research Problem from Wikidata or MaRDI KG!</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">Wenn Sie kein passendes Forschungsproblem in Wikidata oder dem MaRDI KG finden, beschreiben Sie es bitte in den folgenden Fragen.</help>
+		<help lang="de">Für alle Forschungsprobleme werden das Label und eine Beschreibung angegeben. Falls kein passendes Problem in Wikidata oder dem MaRDI KG vorhanden ist, definieren Sie das Problem im Folgenden.</help>
 		<text lang="de">Wählen Sie ein geeignetes Forschungsproblem aus Wikidata oder dem MaRDI KG aus!</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -1842,7 +1748,7 @@ Falls keine geeigneten Quantitäten / Quantitätsarten in MathModDB vorhanden si
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en"/>
-		<text lang="en">Provide a name for the new Research Problem.</text>
+		<text lang="en">Provide a Name for the new Research Problem.</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de"/>
@@ -1871,7 +1777,7 @@ Falls keine geeigneten Quantitäten / Quantitätsarten in MathModDB vorhanden si
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en"/>
-		<text lang="en">Provide a description for the new Research Problem.</text>
+		<text lang="en">Provide a Description for the new Research Problem.</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de"/>
@@ -1899,7 +1805,7 @@ Falls keine geeigneten Quantitäten / Quantitätsarten in MathModDB vorhanden si
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_1/Question_2"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">wikidata:, dpbedia:, doi:</help>
+		<help lang="en">Provided ID prefixes are: wikidata:, dpbedia:, doi:</help>
 		<text lang="en">Provide an ID for the new Research Problem.</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
@@ -1928,7 +1834,7 @@ Falls keine geeigneten Quantitäten / Quantitätsarten in MathModDB vorhanden si
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_1/Question_3"/>
 		<is_collection>False</is_collection>
 		<is_optional>True</is_optional>
-		<help lang="en">Only required if more than one Research Fields were provided in the previous section.</help>
+		<help lang="en">Only required if more than one research field was entered in the previous section.</help>
 		<text lang="en">To which Research Field belongs the new Research Problem?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
@@ -1957,7 +1863,7 @@ Falls keine geeigneten Quantitäten / Quantitätsarten in MathModDB vorhanden si
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_1/Question_4"/>
 		<is_collection>False</is_collection>
 		<is_optional>True</is_optional>
-		<help lang="en">Only required if more than one Research Problem is provided in this section.</help>
+		<help lang="en">Only required if more than one research problem is entered in this section.</help>
 		<text lang="en">Is the new Research Problem represented by the new Mathematical Model?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
@@ -1986,10 +1892,10 @@ Falls keine geeigneten Quantitäten / Quantitätsarten in MathModDB vorhanden si
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_2"/>
 		<is_collection>True</is_collection>
 		<title lang="en">Additional Mathematical Model</title>
-		<help lang="en">The following questions allow you to add additional Mathematical Models to MathModDB and relate them with each other and with existing Mathematical Models from MathModDB. You may select existing Mathematical Models from MathModDB or define new Mathematical Models yourself. For existing models, a new Research Problem can optionally be assigned, while it is mandatory for newly created models. All models selected or added here need to be related to existing or newly created models.</help>
+		<help lang="en">The following questions allow the definition of additional mathematical models in MathModDB. These models might be related with each other and with existing models from MathModDB. To do so, existing models from MathModDB, Wikidata or the MaRDI KG can be selected or new models can be defined. For existing models, a new research problem can optionally be assigned, while it is mandatory for newly created models. All models selected or added here need to be related to existing or newly created models.</help>
 		<verbose_name lang="en"/>
 		<title lang="de">Zusätzliches Mathematisches Modell</title>
-		<help lang="de">Mit den folgenden Fragen können Sie weitere mathematische Modelle zu MathModDB hinzufügen und diese untereinander und mit bestehenden mathematischen Modellen aus MathModDB in Beziehung setzen. Sie können bestehende Mathematische Modelle aus MathModDB auswählen oder selbst neue Mathematische Modelle definieren. Für bestehende Modelle kann optional ein neues Forschungsproblem zugewiesen werden, während dies für neu erstellte Modelle obligatorisch ist. Alle hier ausgewählten oder hinzugefügten Modelle müssen mit bestehenden oder neu erstellten Modellen verknüpft sein.</help>
+		<help lang="de">Mit den folgenden Fragen können Sie weitere mathematische Modelle zu MathModDB hinzufügen und diese untereinander und mit bestehenden mathematischen Modellen aus MathModDB in Beziehung setzen. Sie können bestehende Mathematische Modelle aus MathModDB, Wikidata oder dem MaRDI KG auswählen oder selbst neue Mathematische Modelle definieren. Für bestehende Modelle kann optional ein neues Forschungsproblem zugewiesen werden, während dies für neu erstellte Modelle obligatorisch ist. Alle hier ausgewählten oder hinzugefügten Modelle müssen mit bestehenden oder neu erstellten Modellen verknüpft sein.</help>
 		<verbose_name lang="de"/>
 		<questionsets>
 			<questionset dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_2/Set_1" order="1"/>
@@ -2034,11 +1940,11 @@ Falls keine geeigneten Quantitäten / Quantitätsarten in MathModDB vorhanden si
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_2/Set_1/Question_0"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">If no appropriate mathematical model is available, define it in the following questions.</help>
+		<help lang="en">For all models label and description is provided. If no appropriate model is available in Wikidata or MaRDI KG, define the model in the following.</help>
 		<text lang="en">Select an additional Mathematical Model from Wikidata or MaRDI KG.</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">Falls kein geeignetes mathematisches Modell verfügbar ist, definieren Sie es durch die folgenden Fragen.</help>
+		<help lang="de">Für alle Modelle wird das Label und eine Beschreibung angegeben. Falls kein passendes Modell in Wikidata oder dem MaRDI KG vorhanden ist, definieren Sie das Modell im Folgenden.</help>
 		<text lang="de">Wählen Sie ein zusätzliches Modell aus Wikidata oder dem MaRDI KG aus.</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -2064,7 +1970,7 @@ Falls keine geeigneten Quantitäten / Quantitätsarten in MathModDB vorhanden si
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en"/>
-		<text lang="en">Provide a name for the additional Mathematical Model.</text>
+		<text lang="en">Provide a Name for the additional Mathematical Model.</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de"/>
@@ -2093,7 +1999,7 @@ Falls keine geeigneten Quantitäten / Quantitätsarten in MathModDB vorhanden si
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en"/>
-		<text lang="en">Provide a description for the additional Mathematical Model.</text>
+		<text lang="en">Provide a Description for the additional Mathematical Model.</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de"/>
@@ -2121,7 +2027,7 @@ Falls keine geeigneten Quantitäten / Quantitätsarten in MathModDB vorhanden si
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_2/Set_1/Question_3"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">wikidata:, dbpedia:, doi:</help>
+		<help lang="en">Provided ID prefixes are: wikidata:, dbpedia:, doi:</help>
 		<text lang="en">Provide an ID for the additional Mathematical Model</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
@@ -2151,7 +2057,7 @@ Falls keine geeigneten Quantitäten / Quantitätsarten in MathModDB vorhanden si
 		<is_collection>True</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en"/>
-		<text lang="en">Assign appropriate properties to the additional Mathematical Model.</text>
+		<text lang="en">Assign appropriate Properties to the additional Mathematical Model.</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de"/>
@@ -2256,11 +2162,11 @@ Falls keine geeigneten Quantitäten / Quantitätsarten in MathModDB vorhanden si
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_2/Question_0"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">If you cannot find an appropriate Mathematical Model, define it in the following questions.</help>
+		<help lang="en">For all models the label is provided. If no appropriate model is available in MathModDB, define the model in the following.</help>
 		<text lang="en">Select an additional Mathematical Model from MathModDB!</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">Wenn Sie kein passendes mathematisches Modell finden, definieren Sie es in folgenden Fragen.</help>
+		<help lang="de">Für alle Modelle wird das Label angegeben. Falls kein passendes Modell in MathModDB vorhanden ist, definieren Sie es im Folgenden.</help>
 		<text lang="de">Wählen Sie ein zusätzliches mathematisches Modell aus MathModDB aus.</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -2285,7 +2191,7 @@ Falls keine geeigneten Quantitäten / Quantitätsarten in MathModDB vorhanden si
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_2/Question_4"/>
 		<is_collection>True</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">If a Mathematical Model is selected from MathModDB, a Research Problem can optionally be assigned. If no problem is assigned, MaRDMO will use the problem assigned in MathModDB. However, if a new Mathematical Model is defined, it is necessary to relate a Research Problem.</help>
+		<help lang="en">If a mathematical model is selected from MathModDB, a research problem can optionally be assigned. If no problem is assigned, the problem assigned in MathModDB will be used. For a new mathematical model a relation to a problem is mandatory.</help>
 		<text lang="en">Select a Research Problem related to the additional Mathematical Model?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
@@ -2313,31 +2219,171 @@ Falls keine geeigneten Quantitäten / Quantitätsarten in MathModDB vorhanden si
 		<dc:comment/>
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_3"/>
 		<is_collection>True</is_collection>
-		<title lang="en">New Quantity / Quantity Kind</title>
-		<help lang="en">The following questions allow you to add new Quantities / Quantity Kinds to MathModDB. To do so, you may select existing Quantities / Quantity Kinds from Wikidata / MaRDI KG or define new Quantities / Quantity Kinds by yourself. At the end, you should be able to assign Quantities to all variables, parameters, constants, indices, etc of your Mathematical Formulations, e.g., for the Michaelis Menten Equation v_0 = (V_max * c_S) / (K_m + c_S) you would have to select or define the following Quantites: initial reaction rate (v_0), maximal reaction rate (V_max), substrate concentration (c_S) and Michaelis constant (K_m) and Quantity Kinds: reaction rate and  concentration. OPTIONALLY you can also relate your quantities and quantity kinds to other existing or newly created quantities or quantity kinds. If these relations are missing, they are added by a curator.</help>
+		<title lang="en">New Quantity or Quantity Kind</title>
+		<help lang="en">The following questions allow you the definition of new quantities or quantity kinds in MathModDB. These quantities or quantity kinds might be related with each other or with existing quantities or quantity kinds from the MathModDB. To do so, existing quantities or quantity kinds from MathModDB, Wikidata or the MaRDI KG can be selected or new quantities or quantity kinds can be defined. 
+
+All variables, parameters, and constants of the mathematical model should correspond to specific quantities, which refer to particular properties of the system. These quantities are defined by general concepts known as quantity kinds. In some cases, it might be more appropriate to relate a certain element of a formulation directly to a quantity kind, which is allowed to avoid the creation of artificial quantities. Quantities and quantity kinds are not restricted to the natural sciences.
+
+For example, the Michaelis-Menten equation for a uni-uni reaction in the absence of product is given by &lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;
+  &lt;mrow&gt;
+    &lt;msub&gt;
+      &lt;mi&gt;v&lt;/mi&gt;
+      &lt;mn&gt;0&lt;/mn&gt;
+    &lt;/msub&gt;
+    &lt;mo&gt;=&lt;/mo&gt;
+    &lt;mfrac&gt;
+      &lt;mrow&gt;
+        &lt;msub&gt;
+          &lt;mi&gt;V&lt;/mi&gt;
+          &lt;mtext&gt;max&lt;/mtext&gt;
+        &lt;/msub&gt;
+        &lt;mo&gt;*&lt;/mo&gt;
+        &lt;mi&gt;c&lt;/mi&gt;
+        &lt;msub&gt;
+          &lt;mi&gt;s&lt;/mi&gt;
+        &lt;/msub&gt;
+      &lt;/mrow&gt;
+      &lt;mrow&gt;
+        &lt;msub&gt;
+          &lt;mi&gt;K&lt;/mi&gt;
+          &lt;mi&gt;m&lt;/mi&gt;
+        &lt;/msub&gt;
+        &lt;mo&gt;+&lt;/mo&gt;
+        &lt;mi&gt;c&lt;/mi&gt;
+        &lt;msub&gt;
+          &lt;mi&gt;s&lt;/mi&gt;
+        &lt;/msub&gt;
+      &lt;/mrow&gt;
+    &lt;/mfrac&gt;
+  &lt;/mrow&gt;
+&lt;/math&gt;
+. Here, the quantities are: initial reaction rate (&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;
+  &lt;msub&gt;
+    &lt;mi&gt;v&lt;/mi&gt;
+    &lt;mn&gt;0&lt;/mn&gt;
+  &lt;/msub&gt;
+&lt;/math&gt;), limiting reaction rate (&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;
+  &lt;msub&gt;
+    &lt;mi&gt;V&lt;/mi&gt;
+    &lt;mi&gt;max&lt;/mi&gt;
+  &lt;/msub&gt;
+&lt;/math&gt;), Michaelis constant (&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;
+  &lt;msub&gt;
+    &lt;mi&gt;K&lt;/mi&gt;
+    &lt;mi&gt;m&lt;/mi&gt;
+  &lt;/msub&gt;
+&lt;/math&gt;), and substrate concentration (&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;
+  &lt;msub&gt;
+    &lt;mi&gt;c&lt;/mi&gt;
+    &lt;mi&gt;s&lt;/mi&gt;
+  &lt;/msub&gt;
+&lt;/math&gt;). The corresponding quantity kinds are reaction rate (initial reaction rate and limiting reaction rate) and concentration (substrate concentration and Michaelis Constant).
+
+The relation of quantities or quantity kinds to other quantities or quantity kinds is OPTIONAL. If these relations are missing, they are added by a curator.</help>
 		<verbose_name lang="en"/>
-		<title lang="de">Neue Quantität</title>
-		<help lang="de">Mit den folgenden Fragen können Sie neue Quantitäten in die MathModDB aufnehmen. Dazu können Sie bestehende Quantitäten aus Wikidata / MaRDI KG auswählen oder selbst neue Quantitäten definieren. Für jede Menge müssen Sie auch eine Quantitätsart auswählen oder definieren. Am Ende sollten Sie in der Lage sein, allen Variablen, Parametern, Konstanten, Indizes usw. der mathematischen Formulierungen der mathematischen Modelle Quantitäten zuzuordnen, z.B. müssten Sie für die Michaelis-Menten-Gleichung v_0 = (V_max * c_S) / (K_m + c_S) die folgenden Quantitäten und Quantitätsarten auswählen oder definieren: Anfangsreaktionsrate (v_0) und maximale Reaktionsrate (V_max) als Reaktionsraten und Substratkonzentration (c_S) und Michaelis-Konstante (K_m) als Konzentrationen. OPTIONAL können Sie Ihre Quantitäten und Quantitätsarten auch in Beziehung zu anderen bestehenden oder neu erstellten Quantitäten oder Quantitätsarten setzen. Wenn diese Beziehungen fehlen, werden sie von einem Kurator hinzugefügt.</help>
+		<title lang="de">Neue Quantität oder Quantitätsart</title>
+		<help lang="de">Mit den folgenden Fragen können Sie weitere Quantitäten oder Quantitätsarten zu MathModDB hinzufügen und diese untereinander und mit bestehenden Quantitäten oder Quantitätsarten aus MathModDB in Beziehung setzen. Sie können bestehende Quantitäten oder Quantitätsarten aus MathModDB, Wikidata oder MaRDI KG auswählen oder selbst neue Quantitäten oder Quantitätsarten definieren. 
+
+Alle Variablen, Parameter und Konstanten des mathematischen Modells sollten bestimmten Quantitäten entsprechen, die sich auf bestimmte Eigenschaften des Systems beziehen. Diese Quantitäten werden durch allgemeine Konzepte definiert, die als Quantitätsarten bekannt sind. In einigen Fällen kann es sinnvoller sein, ein bestimmtes Element einer Formulierung direkt mit einer Quantitätsart zu verknüpfen, wodurch die Schaffung künstlicher Quantitäten vermieden werden kann. Quantitäten und Quantitätsarten sind nicht auf die Naturwissenschaften beschränkt.
+
+Die Michaelis-Menten-Gleichung für eine Uni-Uni-Reaktion in Abwesenheit eines Produkts ist beispielsweise gegeben durch &lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;
+  &lt;mrow&gt;
+    &lt;msub&gt;
+      &lt;mi&gt;v&lt;/mi&gt;
+      &lt;mn&gt;0&lt;/mn&gt;
+    &lt;/msub&gt;
+    &lt;mo&gt;=&lt;/mo&gt;
+    &lt;mfrac&gt;
+      &lt;mrow&gt;
+        &lt;msub&gt;
+          &lt;mi&gt;V&lt;/mi&gt;
+          &lt;mtext&gt;max&lt;/mtext&gt;
+        &lt;/msub&gt;
+        &lt;mo&gt;*&lt;/mo&gt;
+        &lt;mi&gt;c&lt;/mi&gt;
+        &lt;msub&gt;
+          &lt;mi&gt;s&lt;/mi&gt;
+        &lt;/msub&gt;
+      &lt;/mrow&gt;
+      &lt;mrow&gt;
+        &lt;msub&gt;
+          &lt;mi&gt;K&lt;/mi&gt;
+          &lt;mi&gt;m&lt;/mi&gt;
+        &lt;/msub&gt;
+        &lt;mo&gt;+&lt;/mo&gt;
+        &lt;mi&gt;c&lt;/mi&gt;
+        &lt;msub&gt;
+          &lt;mi&gt;s&lt;/mi&gt;
+        &lt;/msub&gt;
+      &lt;/mrow&gt;
+    &lt;/mfrac&gt;
+  &lt;/mrow&gt;
+&lt;/math&gt;
+. Hier sind die Quantitäten: initiale Reaktionsrate (&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;
+  &lt;msub&gt;
+    &lt;mi&gt;v&lt;/mi&gt;
+    &lt;mn&gt;0&lt;/mn&gt;
+  &lt;/msub&gt;
+&lt;/math&gt;), limitierende Reaktionsrate (&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;
+  &lt;msub&gt;
+    &lt;mi&gt;V&lt;/mi&gt;
+    &lt;mi&gt;max&lt;/mi&gt;
+  &lt;/msub&gt;
+&lt;/math&gt;), Michaelis Konstante (&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;
+  &lt;msub&gt;
+    &lt;mi&gt;K&lt;/mi&gt;
+    &lt;mi&gt;m&lt;/mi&gt;
+  &lt;/msub&gt;
+&lt;/math&gt;), und Substratekonzentration (&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;
+  &lt;msub&gt;
+    &lt;mi&gt;c&lt;/mi&gt;
+    &lt;mi&gt;s&lt;/mi&gt;
+  &lt;/msub&gt;
+&lt;/math&gt;). Die zugehörigen Quantitätsarten sind Reaktionsrate (initiale und limitierende Reaktionsrate) und Konzentration (Substratkonzentration und Michaelis Konstante).
+
+Die Verknüpfung von Quantitäten oder Quantitätsarten mit anderen Quantitäten oder Quantitätsarten ist OPTIONAL. Sollten diese Verknüpfungen fehlen, werden sie durch einen Kurator gesetzt.</help>
 		<verbose_name lang="de"/>
 		<questionsets>
-			<questionset dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_3/Set_0" order="12"/>
-			<questionset dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_4/Set_0" order="13"/>
-			<questionset dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_4/Set_1" order="14"/>
-			<questionset dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_3/Set_1" order="15"/>
+			<questionset dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_3/Set_2" order="1"/>
 		</questionsets>
 		<questions>
-			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_3/Question6" order="0"/>
-			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_3/Question_5" order="1"/>
-			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_3/Question_0" order="2"/>
-			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_3/Question_1" order="3"/>
-			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_3/Question_2" order="4"/>
-			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_3/Question_3" order="5"/>
-			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_3/Question_7" order="6"/>
+			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3/Set_0/Set_0/Question_07" order="0"/>
 		</questions>
 		<conditions>
 			<condition dc:uri="http://example.com/terms/conditions/Quantity_property"/>
 		</conditions>
 	</page>
+	<questionset dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_3/Set_2">
+		<uri_prefix>http://example.com/terms</uri_prefix>
+		<uri_path>MaRDI/Section_3a/Set_3/Set_2</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_3/Set_2"/>
+		<is_collection>False</is_collection>
+		<title lang="en">If not in MathModDB...</title>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<title lang="de">Falls nicht in MathModDB...</title>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<questionsets>
+			<questionset dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_3/Set_0" order="8"/>
+			<questionset dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_4/Set_0" order="9"/>
+			<questionset dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_4/Set_1" order="10"/>
+			<questionset dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_3/Set_1" order="11"/>
+		</questionsets>
+		<questions>
+			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_3/Question_6" order="0"/>
+			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_3/Question_5" order="1"/>
+			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_3/Question_0" order="2"/>
+			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_3/Question_1" order="3"/>
+			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_3/Question_2" order="5"/>
+			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_3/Question_3" order="6"/>
+			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_3/Question_7" order="7"/>
+		</questions>
+		<conditions>
+			<condition dc:uri="http://example.com/terms/conditions/QQKpresent"/>
+		</conditions>
+	</questionset>
 	<questionset dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_3/Set_0">
 		<uri_prefix>http://example.com/terms</uri_prefix>
 		<uri_path>MaRDI/Section_3a/Set_3/Set_0</uri_path>
@@ -2503,10 +2549,10 @@ Falls keine geeigneten Quantitäten / Quantitätsarten in MathModDB vorhanden si
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_4/Set_1"/>
 		<is_collection>True</is_collection>
 		<title lang="en">Quantity / Quantity Kind Connections</title>
-		<help lang="en">Quantity and Quantity Kind defined / selected in this set are automatically connected by MaRDMO using the 'generalized by' property. The following questions allow you to relate the new Quantity Kind to other Quantities from MathModDB or created here. This is OPTIONAL, if no relations are defined, they will be added through a curator.</help>
+		<help lang="en">The following questions allow you to relate the new Quantity to Quantity Kinds from MathModDB or created here. This is OPTIONAL, if no relations are defined, they will be added through a curator.</help>
 		<verbose_name lang="en"/>
 		<title lang="de">Quantität / Quantitätsart Verbindungen</title>
-		<help lang="de">Die Quantität und Quantitätsart, die in diesem Set definiert / ausgewählt wurde, wird automatisch durch MaRDMO mit der property 'generalisiert durch' verknüpft. Die folgenden Fragen ermöglichen es Ihnen zudem, die neue Quantitätsart mit anderen Quantitäten aus MathModDB oder hier erstellten Quantitäten in Relation zu setzen. Dies ist OPTIONAL, wenn keine Relationen definiert sind, werden sie durch einen Kurator hinzugefügt.</help>
+		<help lang="de">Die folgenden Fragen ermöglichen es Ihnen, die neue Quantität mit Quantitätsarten aus MathModDB oder hier erstellten Quantitätsarten in Relation zu setzen. Dies ist OPTIONAL, wenn keine Relationen definiert sind, werden sie durch einen Kurator hinzugefügt.</help>
 		<verbose_name lang="de"/>
 		<questionsets/>
 		<questions>
@@ -2582,10 +2628,10 @@ Falls keine geeigneten Quantitäten / Quantitätsarten in MathModDB vorhanden si
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_3/Set_1"/>
 		<is_collection>True</is_collection>
 		<title lang="en">Quantity Kind / Quantity Connections</title>
-		<help lang="en"/>
+		<help lang="en">The following questions allow you to relate the new Quantity Kind to Quantities from MathModDB or created here. This is OPTIONAL, if no relations are defined, they will be added through a curator.</help>
 		<verbose_name lang="en"/>
 		<title lang="de">Quantitätsart / Quantität Verbindungen</title>
-		<help lang="de"/>
+		<help lang="de">Die folgenden Fragen ermöglichen es Ihnen, die neue Quantitätsart mit Quantitäten aus MathModDB oder hier erstellten Quantitäten in Relation zu setzen. Dies ist OPTIONAL, wenn keine Relationen definiert sind, werden sie durch einen Kurator hinzugefügt.</help>
 		<verbose_name lang="de"/>
 		<questionsets/>
 		<questions>
@@ -2654,9 +2700,9 @@ Falls keine geeigneten Quantitäten / Quantitätsarten in MathModDB vorhanden si
 		</optionsets>
 		<conditions/>
 	</question>
-	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_3/Question6">
+	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_3/Question_6">
 		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/Section_3a/Set_3/Question6</uri_path>
+		<uri_path>MaRDI/Section_3a/Set_3/Question_6</uri_path>
 		<dc:comment/>
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_3/Question_6"/>
 		<is_collection>False</is_collection>
@@ -2690,12 +2736,12 @@ Falls keine geeigneten Quantitäten / Quantitätsarten in MathModDB vorhanden si
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_3/Question_5"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">If you cannot find an appropriate Quantity / Quantity Kind on Wikidata or the MaRDI KG, please describe it in the following questions.</help>
-		<text lang="en">Select an appropriate Quantity / Quantity Kind from Wikidata or the MaRDI KG!</text>
+		<help lang="en">For all quantities or quantity kinds label and description are provided. If no appropriate quantity or quantity kind is available in Wikidata or the MaRDI KG, define the quantity or quantity kind in the following.</help>
+		<text lang="en">Select an appropriate Quantity or Quantity Kind from Wikidata or the MaRDI KG!</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">Wenn Sie keine passende Quantität / Quantitätsart in Wikidata oder dem MaRDI KG finden, beschreiben Sie es bitte in den folgenden Fragen.</help>
-		<text lang="de">Wählen Sie eine geeignete Quantität / Quantitätsart aus Wikidata oder dem MaRDI KG aus!</text>
+		<help lang="de">Für alle Quantitäten oder Quantitätsarten wird das Label und eine Beschreibung angegeben. Sollte keine passende Quantität oder Quantitätsart in Wikdata oder dem MaRDI KG vorhanden sein, definieren Sie die Quantität oder Quantitätsart im Folgenden.</help>
+		<text lang="de">Wählen Sie eine geeignete Quantität oder Quantitätsart aus Wikidata oder dem MaRDI KG aus!</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
@@ -2720,11 +2766,11 @@ Falls keine geeigneten Quantitäten / Quantitätsarten in MathModDB vorhanden si
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en"/>
-		<text lang="en">Provide a name for the new Quantity / Quantity Kind.</text>
+		<text lang="en">Provide a Name for the new Quantity or Quantity Kind.</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de"/>
-		<text lang="de">Geben Sie einen Namen für die neue Quantität / Quantitätsart an.</text>
+		<text lang="de">Geben Sie einen Namen für die neue Quantität oder Quantitätsart an.</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
@@ -2738,7 +2784,7 @@ Falls keine geeigneten Quantitäten / Quantitätsarten in MathModDB vorhanden si
 		<width/>
 		<optionsets/>
 		<conditions>
-			<condition dc:uri="http://example.com/terms/conditions/QQKpresent"/>
+			<condition dc:uri="http://example.com/terms/conditions/QQKpresent2"/>
 		</conditions>
 	</question>
 	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_3/Question_1">
@@ -2749,11 +2795,11 @@ Falls keine geeigneten Quantitäten / Quantitätsarten in MathModDB vorhanden si
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en"/>
-		<text lang="en">Provide a description for the new Quantity / Quantity Kind.</text>
+		<text lang="en">Provide a Description for the new Quantity or Quantity Kind.</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de"/>
-		<text lang="de">Geben Sie eine Beschreibung für die neue Quantität / Quantitätsart an.</text>
+		<text lang="de">Geben Sie eine Beschreibung für die neue Quantität oder Quantitätsart an.</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
@@ -2767,7 +2813,7 @@ Falls keine geeigneten Quantitäten / Quantitätsarten in MathModDB vorhanden si
 		<width/>
 		<optionsets/>
 		<conditions>
-			<condition dc:uri="http://example.com/terms/conditions/QQKpresent"/>
+			<condition dc:uri="http://example.com/terms/conditions/QQKpresent2"/>
 		</conditions>
 	</question>
 	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_3/Question_2">
@@ -2777,12 +2823,12 @@ Falls keine geeigneten Quantitäten / Quantitätsarten in MathModDB vorhanden si
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_3/Question_2"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">dbpedia, doi:, qudt:</help>
-		<text lang="en">Provide an ID for the new Quantity / Quantity Kind.</text>
+		<help lang="en">Provided ID prefixes are: dbpedia, doi:, qudt:</help>
+		<text lang="en">Provide an ID for the new Quantity or Quantity Kind.</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">dbpedia, doi:, qudt:</help>
-		<text lang="de">Geben Sie eine ID für die neue Quantität / Quantitätsart an.</text>
+		<help lang="de">Vefügbare ID Präfixe sind: dbpedia, doi:, qudt:</help>
+		<text lang="de">Geben Sie eine ID für die neue Quantität oder Quantitätsart an.</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
@@ -2796,7 +2842,7 @@ Falls keine geeigneten Quantitäten / Quantitätsarten in MathModDB vorhanden si
 		<width/>
 		<optionsets/>
 		<conditions>
-			<condition dc:uri="http://example.com/terms/conditions/QQKpresent"/>
+			<condition dc:uri="http://example.com/terms/conditions/QQKpresent2"/>
 		</conditions>
 	</question>
 	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_3/Question_3">
@@ -2807,7 +2853,7 @@ Falls keine geeigneten Quantitäten / Quantitätsarten in MathModDB vorhanden si
 		<is_collection>True</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en"/>
-		<text lang="en">Assign appropriate properties to the new Quantity.</text>
+		<text lang="en">Assign appropriate Properties to the new Quantity.</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de"/>
@@ -2838,7 +2884,7 @@ Falls keine geeigneten Quantitäten / Quantitätsarten in MathModDB vorhanden si
 		<is_collection>True</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en"/>
-		<text lang="en">Assign appropriate properties to the new Quantity Kind.</text>
+		<text lang="en">Assign appropriate Properties to the new Quantity Kind.</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de"/>
@@ -2861,6 +2907,35 @@ Falls keine geeigneten Quantitäten / Quantitätsarten in MathModDB vorhanden si
 			<condition dc:uri="http://example.com/terms/conditions/QuantityKind"/>
 		</conditions>
 	</question>
+	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3/Set_0/Set_0/Question_07">
+		<uri_prefix>http://example.com/terms</uri_prefix>
+		<uri_path>MaRDI/Section_3/Set_0/Set_0/Question_07</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3/Set_0/Set_0/Question_07"/>
+		<is_collection>True</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en">For all quantities or quantity kinds the label is provided. Of no appropriate quantity or quantitiy kind is available in MathModDB, define the quantity or quantity kind in the following.</help>
+		<text lang="en">Select Quantities or Quantity Kinds related to the new Mathematical Model!</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de">Für alle Quantitäten oder Quantitätsarten wird das Label angegeben. Falls keine passende Quantität oder Quantitätsart in MathModDB vorhanden ist, definieren Sie die Quantität oder Quantitätsart im Folgenden.</help>
+		<text lang="de">Wählen Sie Quantitäten oder Quantitätsarten, die mit dem neuen mathematischen Modell im Zusammenhang stehen!</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>autocomplete</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="http://example.com/terms/options/MaRDI/Quantity"/>
+		</optionsets>
+		<conditions/>
+	</question>
 	<page dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_5">
 		<uri_prefix>http://example.com/terms</uri_prefix>
 		<uri_path>MaRDI/Section_3a/Set_5</uri_path>
@@ -2868,10 +2943,10 @@ Falls keine geeigneten Quantitäten / Quantitätsarten in MathModDB vorhanden si
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_5"/>
 		<is_collection>True</is_collection>
 		<title lang="en">Related Mathematical Formulation</title>
-		<help lang="en">The following questions allow you to add Mathematical Formulations to your new Mathematical Model. To do so, you may select existing Mathematical Formulations from MathModDB or define new Mathematical Formulations by yourself. For each new Mathematical Formulation, you have to add Quantities related to individual elements of the Mathematical Formulation. Furthermore, you have to define if and how the new Mathematical Formulation is contained in a Mathematical Model or another Mathematical Formulation or contains another Mathematical Formulation. OPTIONALLY you can provide further relations between the individual Mathematical Formulations, if these information are missing they will be added by a curator.</help>
+		<help lang="en">The following questions allow the addition of mathematical formulations to MathModDB.  These formulations might be related with each other and with existing relations from MathModDB. To do so, formulations can be selected from MathModDB, Wikidata or the MaRDI KG or new formulations are defined. For each new formulation, quantities related to the individual elements of the formulation have to be added. Furthermore, containment relations to a model and/or other formulations have to be defined. Additional relations between formulations are OPTIONAL and will be added by a curator if not provided.</help>
 		<verbose_name lang="en"/>
 		<title lang="de">Zugehörige Mathematische Formulierung</title>
-		<help lang="de">Mit den folgenden Fragen können Sie mathematische Formeln zu Ihrem neuen mathematischen Modell hinzufügen. Dazu können Sie vorhandene mathematische Formeln aus der MathModDB auswählen oder selbst neue mathematische Formeln definieren. Für jede neue mathematische Formulierung müssen Sie Quantitäten hinzufügen, die sich auf die einzelnen Elemente der mathematischen Formulierung beziehen. Außerdem müssen Sie festlegen, ob und wie die neue mathematische Formulierung in einem mathematischen Modell oder einer anderen mathematischen Formulierung enthalten ist oder eine andere mathematische Formulierung enthält. OPTIONAL können Sie weitere Beziehungen zwischen den einzelnen mathematischen Formeln angeben; wenn diese Informationen fehlen, werden sie von einem Kurator hinzugefügt.</help>
+		<help lang="de">Mit den folgenden Fragen können Sie mathematische Formulierungen zu MathModDB hinzufügen. Diese Formulierungen können mit Formulierungen aus der MathModDB in Verbindung gesetzt werden. Dazu können Sie vorhandene mathematische Formulierungen aus der MathModDB, Wikidata oder dem MaRDI KG auswählen oder selbst neue mathematische Formulierungen definieren. Für jede neue mathematische Formulierung müssen Sie Quantitäten hinzufügen, die sich auf die einzelnen Elemente der mathematischen Formulierung beziehen. Außerdem müssen Sie festlegen, ob und wie die neue mathematische Formulierung in einem mathematischen Modell oder einer anderen mathematischen Formulierung enthalten ist oder eine andere mathematische Formulierung enthält. OPTIONAL können Sie weitere Beziehungen zwischen den einzelnen mathematischen Formulierungen angeben; wenn diese Informationen fehlen, werden sie von einem Kurator hinzugefügt.</help>
 		<verbose_name lang="de"/>
 		<questionsets>
 			<questionset dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_5/Set_4" order="3"/>
@@ -2881,8 +2956,6 @@ Falls keine geeigneten Quantitäten / Quantitätsarten in MathModDB vorhanden si
 		</questionsets>
 		<questions>
 			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_5/Question_0" order="0"/>
-			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_5/Question_1" order="1"/>
-			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_5/Question_2" order="2"/>
 		</questions>
 		<conditions>
 			<condition dc:uri="http://example.com/terms/conditions/MathematicalFormulation_property"/>
@@ -2908,7 +2981,9 @@ Falls keine geeigneten Quantitäten / Quantitätsarten in MathModDB vorhanden si
 			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_5/Set_4/Question_1" order="1"/>
 			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_5/Set_4/Question_2" order="2"/>
 			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_5/Set_4/Question_3" order="3"/>
-			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_5/Set_4/Question_4" order="6"/>
+			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_5/Set_4/Question_4" order="4"/>
+			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_5/Question_1" order="5"/>
+			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_5/Question_2" order="6"/>
 			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_5/Set_4/Question_5" order="7"/>
 		</questions>
 		<conditions>
@@ -2941,12 +3016,12 @@ Falls keine geeigneten Quantitäten / Quantitätsarten in MathModDB vorhanden si
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_5/Set_4/Set_0/Question_0"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">Latex Math in $$...$$</help>
-		<text lang="en">Symbol of the Variable, Parameter, Constant, Indice, etc.</text>
+		<help lang="en">Use $$ for Latex Math</help>
+		<text lang="en">Symbol of the Variable, Parameter or Constant</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">Nutzen Sie Latex Mathe in $$...$$</help>
-		<text lang="de">Symbol der Varibalen, Parameter, Konstanten, Indizes, etc.</text>
+		<help lang="de">Nutzen Sie $$ für Latex Mathe</help>
+		<text lang="de">Symbol der Varibalen, Parameter oder Konstanten</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
@@ -2968,11 +3043,11 @@ Falls keine geeigneten Quantitäten / Quantitätsarten in MathModDB vorhanden si
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_5/Set_4/Set_0/Question_1"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">Choose a Quantity defined or selected in the previous section.</help>
+		<help lang="en">Choose Quantities entered before.</help>
 		<text lang="en">Encoded Quantity</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">Wählen Sie eine Quantität, die im vorigen Abschnitt definiert oder ausgewählt wurde.</help>
+		<help lang="de">Wählen Sie zuvor eingegebene Quntitäten.</help>
 		<text lang="de">Enkodierte Quantität</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -2997,11 +3072,11 @@ Falls keine geeigneten Quantitäten / Quantitätsarten in MathModDB vorhanden si
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_5/Set_4/Question_0"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">If you cannot find an appropriate Mathematical Formulation on Wikidata or the MaRDI KG, please describe it in the following questions.</help>
+		<help lang="en">For all mathematical formulations label and description are provided. If no appropriate formulation is available in Wikidata or the MaRDI KG, define it in the following.</help>
 		<text lang="en">Select an appropriate Mathematical Formulation from Wikidata or MaRDI KG.</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">Wenn Sie keine passende mathematische Formulierung in Wikidata oder dem MaRDI KG finden, beschreiben Sie diese bitte in den folgenden Fragen.</help>
+		<help lang="de">Für alle matschematischen Formulierungen wird das Label und eine Beschreibung angegeben. Sollte keine passende Formulierung in Wikidata oder dem MaRDI KG vorhanden sein, definieren Sie diese im Folgenden.</help>
 		<text lang="de">Wählen Sie eine geeignete mathematische Formulierung aus Wikidata oder dem MaRDI KG aus!</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -3027,7 +3102,7 @@ Falls keine geeigneten Quantitäten / Quantitätsarten in MathModDB vorhanden si
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en"/>
-		<text lang="en">Provide a name for the new Mathematical Formulation.</text>
+		<text lang="en">Provide a Name for the new Mathematical Formulation.</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de"/>
@@ -3056,7 +3131,7 @@ Falls keine geeigneten Quantitäten / Quantitätsarten in MathModDB vorhanden si
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en"/>
-		<text lang="en">Provide a description for the new Mathematical Formulation.</text>
+		<text lang="en">Provide a Description for the new Mathematical Formulation.</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de"/>
@@ -3084,7 +3159,7 @@ Falls keine geeigneten Quantitäten / Quantitätsarten in MathModDB vorhanden si
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_5/Set_4/Question_3"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">dbpedia:, doi:, wikidata:</help>
+		<help lang="en">Provided ID prefixes are: dbpedia:, doi:, wikidata:</help>
 		<text lang="en">Provide an ID for the new Mathematical Formulation.</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
@@ -3114,7 +3189,7 @@ Falls keine geeigneten Quantitäten / Quantitätsarten in MathModDB vorhanden si
 		<is_collection>True</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en"/>
-		<text lang="en">Assign appropriate properties to the new Mathematical Formulation.</text>
+		<text lang="en">Assign appropriate Properties to the new Mathematical Formulation.</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de"/>
@@ -3135,6 +3210,66 @@ Falls keine geeigneten Quantitäten / Quantitätsarten in MathModDB vorhanden si
 		</optionsets>
 		<conditions/>
 	</question>
+	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_5/Question_1">
+		<uri_prefix>http://example.com/terms</uri_prefix>
+		<uri_path>MaRDI/Section_3a/Set_5/Question_1</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_5/Question_1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en"/>
+		<text lang="en">Should the new Mathematical Formulation serve as a definition for a Quantity?</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Soll die neue mathematische Formulierung als Definition für eine Quantität dienen?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="http://example.com/terms/options/MaRDI/yes_no"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_5/Question_2">
+		<uri_prefix>http://example.com/terms</uri_prefix>
+		<uri_path>MaRDI/Section_3a/Set_5/Question_2</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_5/Question_2"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en"/>
+		<text lang="en">Select the Quantity to be defined by the new Mathematical Formulation.</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Wählen Sie die Quantität, die durch die neue mathematische Formulierung definiert wird.</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>autocomplete</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="http://example.com/terms/options/MaRDI/QuantityRelations"/>
+		</optionsets>
+		<conditions>
+			<condition dc:uri="http://example.com/terms/conditions/Definition"/>
+		</conditions>
+	</question>
 	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_5/Set_4/Question_5">
 		<uri_prefix>http://example.com/terms</uri_prefix>
 		<uri_path>MaRDI/Section_3a/Set_5/Set_4/Question_5</uri_path>
@@ -3142,11 +3277,11 @@ Falls keine geeigneten Quantitäten / Quantitätsarten in MathModDB vorhanden si
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_5/Set_4/Question_5"/>
 		<is_collection>True</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">Use Latex Math in $$...$$</help>
-		<text lang="en">Provide the formula of the new Mathematical Formulation</text>
+		<help lang="en">Use $$ for Latex Math</help>
+		<text lang="en">Provide the Formula of the new Mathematical Formulation</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">Nutzen Sie Latex Mathe in $$...$$</help>
+		<help lang="de">Nutzen Sie $$ für Latex Mathe</help>
 		<text lang="de">Geben Sie die Formel der neuern mathematischen Formulierung an</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -3179,9 +3314,7 @@ Falls keine geeigneten Quantitäten / Quantitätsarten in MathModDB vorhanden si
 			<question dc:uri="http://example.com/terms/questions/Section_3a/Set_5/Set_2/Question_1" order="0"/>
 			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_5/Set_2/Question_0" order="1"/>
 		</questions>
-		<conditions>
-			<condition dc:uri="http://example.com/terms/conditions/noDefinition"/>
-		</conditions>
+		<conditions/>
 	</questionset>
 	<question dc:uri="http://example.com/terms/questions/Section_3a/Set_5/Set_2/Question_1">
 		<uri_prefix>http://example.com/terms</uri_prefix>
@@ -3219,11 +3352,11 @@ Falls keine geeigneten Quantitäten / Quantitätsarten in MathModDB vorhanden si
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_5/Set_2/Question_0"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">Choose a Mathematical Model defined previously.</help>
+		<help lang="en">Choose a Mathematical Model entered before.</help>
 		<text lang="en">...a Mathematical Model.</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">Wählen Sie ein zuvor definiertes mathematisches Modell.</help>
+		<help lang="de">Wählen Sie ein zuvor eingegebenes mathematisches Modell.</help>
 		<text lang="de">...einem mathematischem Modell.</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -3258,9 +3391,7 @@ Falls keine geeigneten Quantitäten / Quantitätsarten in MathModDB vorhanden si
 			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_5/Set_1/Question_1" order="0"/>
 			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_5/Set_1/Question_0" order="1"/>
 		</questions>
-		<conditions>
-			<condition dc:uri="http://example.com/terms/conditions/noDefinition"/>
-		</conditions>
+		<conditions/>
 	</questionset>
 	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_5/Set_1/Question_1">
 		<uri_prefix>http://example.com/terms</uri_prefix>
@@ -3299,7 +3430,7 @@ Falls keine geeigneten Quantitäten / Quantitätsarten in MathModDB vorhanden si
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_5/Set_1/Question_0"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">Choose a Mathematical Formulation from MathModDB or a newly created one.</help>
+		<help lang="en">Choose a Mathematical Formulation from MathModDB or entered before.</help>
 		<text lang="en">...another Mathematical Formulation.</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
@@ -3338,9 +3469,7 @@ Falls keine geeigneten Quantitäten / Quantitätsarten in MathModDB vorhanden si
 			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_5/Set_3/Question_1" order="0"/>
 			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_5/Set_3/Question_0" order="1"/>
 		</questions>
-		<conditions>
-			<condition dc:uri="http://example.com/terms/conditions/noDefinition"/>
-		</conditions>
+		<conditions/>
 	</questionset>
 	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_5/Set_3/Question_1">
 		<uri_prefix>http://example.com/terms</uri_prefix>
@@ -3407,11 +3536,11 @@ Falls keine geeigneten Quantitäten / Quantitätsarten in MathModDB vorhanden si
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_5/Question_0"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">If you cannot find an appropriate Mathematical Formulation on MathModDB, please describe it in the following questions.</help>
+		<help lang="en">For all mathematical formulations the label is provided. If no appropriate formulation is available in MathModDB, define it in the following.</help>
 		<text lang="en">Select an appropriate Mathematical Formulation from MathModDB!</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">Wenn Sie keine passende mathematische Formulierung in MathModDB finden, beschreiben Sie diese bitte in den folgenden Fragen.</help>
+		<help lang="de">Für alle mathematischen Formulierungen wird das Label angegeben. Falls keine passende mathematische Formulierung in MathModDB verfügbar ist, definieren Sie diese im Folgenden.</help>
 		<text lang="de">Wählen Sie eine geeignete mathematische Formulierung aus MathModDB aus!</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -3429,66 +3558,6 @@ Falls keine geeigneten Quantitäten / Quantitätsarten in MathModDB vorhanden si
 		</optionsets>
 		<conditions/>
 	</question>
-	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_5/Question_1">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/Section_3a/Set_5/Question_1</uri_path>
-		<dc:comment/>
-		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_5/Question_1"/>
-		<is_collection>False</is_collection>
-		<is_optional>False</is_optional>
-		<help lang="en"/>
-		<text lang="en">Should the Mathematical Formulation serve as a definition for a Quantity?</text>
-		<default_text lang="en"/>
-		<verbose_name lang="en"/>
-		<help lang="de"/>
-		<text lang="de">Soll die mathematische Formulierung als Definition für eine Quantität dienen?</text>
-		<default_text lang="de"/>
-		<verbose_name lang="de"/>
-		<default_option/>
-		<default_external_id/>
-		<widget_type>radio</widget_type>
-		<value_type>text</value_type>
-		<maximum/>
-		<minimum/>
-		<step/>
-		<unit/>
-		<width/>
-		<optionsets>
-			<optionset dc:uri="http://example.com/terms/options/MaRDI/yes_no"/>
-		</optionsets>
-		<conditions/>
-	</question>
-	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_5/Question_2">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/Section_3a/Set_5/Question_2</uri_path>
-		<dc:comment/>
-		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_5/Question_2"/>
-		<is_collection>False</is_collection>
-		<is_optional>False</is_optional>
-		<help lang="en"/>
-		<text lang="en">Select the Quantity to be defined by the Mathematical Formulation.</text>
-		<default_text lang="en"/>
-		<verbose_name lang="en"/>
-		<help lang="de"/>
-		<text lang="de">Wählen Sie die Quantität, die durch die mathematische Formulierung definiert wird.</text>
-		<default_text lang="de"/>
-		<verbose_name lang="de"/>
-		<default_option/>
-		<default_external_id/>
-		<widget_type>autocomplete</widget_type>
-		<value_type>text</value_type>
-		<maximum/>
-		<minimum/>
-		<step/>
-		<unit/>
-		<width/>
-		<optionsets>
-			<optionset dc:uri="http://example.com/terms/options/MaRDI/QuantityRelations"/>
-		</optionsets>
-		<conditions>
-			<condition dc:uri="http://example.com/terms/conditions/Definition"/>
-		</conditions>
-	</question>
 	<page dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_6">
 		<uri_prefix>http://example.com/terms</uri_prefix>
 		<uri_path>MaRDI/Section_3a/Set_6</uri_path>
@@ -3496,10 +3565,10 @@ Falls keine geeigneten Quantitäten / Quantitätsarten in MathModDB vorhanden si
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_6"/>
 		<is_collection>True</is_collection>
 		<title lang="en">Related Task</title>
-		<help lang="en">The following questions allow you to add Tasks to your new Mathematical Model. To do so, you may select existing Tasks from MathModDB or define new Tasks by yourself. For each new Task, you have to select the type of Task and add Mathematical Formulations and Quantities related to the Task. OPTIONALLY you can provide further relations between the individual Tasks, if these information are missing they will be added by a curator.</help>
+		<help lang="en">The following questions allow the addition of tasks to MathModDB. These tasks might be related with each other and with existing task from the MathModDB. To do so, existing tasks from MathModDB, Wikidata or the MaRDI KG can be selected or new tasks can be defined. For each new task, the type of task, the related mathematical formulations and quantities and and the applied mathematical model have to be selected. OPTIONALLY tasks can be related to other tasks, if these information are missing they will be added by a curator.</help>
 		<verbose_name lang="en"/>
 		<title lang="de">Zugehörige Aufgabe</title>
-		<help lang="de">Mit den folgenden Fragen können Sie Aufgaben zu Ihrem neuen mathematischen Modell hinzufügen. Dazu können Sie bestehende Aufgaben aus der MathModDB auswählen oder selbst neue Aufgaben definieren. Für jede neue Aufgabe müssen Sie den Aufgabentyp auswählen und die mathematischen Formeln und Quantitäten für die Aufgabe hinzufügen. OPTIONAL können Sie weitere Beziehungen zwischen den einzelnen Aufgaben angeben. Wenn diese Informationen fehlen, werden sie von einem Kurator hinzugefügt.</help>
+		<help lang="de">Mit den folgenden Fragen können Sie Aufgaben zu MathModDB hinzufügen. Diese Aufgaben können untereinander und mit bestehenden Aufgaben aus der MathModDB in Verbindung gesetzt werden. Dazu können Sie bestehende Aufgaben aus der MathModDB, Wikidata oder dem MaRDI KG auswählen oder selbst neue Aufgaben definieren. Für jede neue Aufgabe müssen Sie den Aufgabentyp, die mathematischen Formeln und Quantitäten und das angewandte mathematische Modell auswählen. OPTIONAL können Sie weitere Beziehungen zwischen den einzelnen Aufgaben angeben. Wenn diese Informationen fehlen, werden sie von einem Kurator hinzugefügt.</help>
 		<verbose_name lang="de"/>
 		<questionsets>
 			<questionset dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_6/Set_0" order="1"/>
@@ -3508,7 +3577,6 @@ Falls keine geeigneten Quantitäten / Quantitätsarten in MathModDB vorhanden si
 		<questions>
 			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_6/Question_0" order="0"/>
 			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_6/Question_1" order="6"/>
-			<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_6/Question_2" order="7"/>
 		</questions>
 		<conditions>
 			<condition dc:uri="http://example.com/terms/conditions/MathematicalTask_property"/>
@@ -3704,11 +3772,11 @@ Falls keine geeigneten Quantitäten / Quantitätsarten in MathModDB vorhanden si
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_6/Set_0/Question_0"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en"/>
+		<help lang="en">For all task label and description is provided. If no appropriate task is available in Wikidata or the MaRDI KG, define it in the following.</help>
 		<text lang="en">Select an appropriate Task from Wikidata or MaRDI KG!</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de"/>
+		<help lang="de">Für alle Aufgaben wird das Label und eine Beschreibung angegeben. Falls Sie keine passende Aufgabe in Wikidata oder dem MaRDI KG finden, definieren Sie diese im Folgenden.</help>
 		<text lang="de">Wählen Sie eine geeignete Aufgabe aus Wikidata oder dem MaRDI KG aus!</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -3734,7 +3802,7 @@ Falls keine geeigneten Quantitäten / Quantitätsarten in MathModDB vorhanden si
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en"/>
-		<text lang="en">Provide a name for the new Task.</text>
+		<text lang="en">Provide a Name for the new Task.</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de"/>
@@ -3763,7 +3831,7 @@ Falls keine geeigneten Quantitäten / Quantitätsarten in MathModDB vorhanden si
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en"/>
-		<text lang="en">Provide a description for the new Task.</text>
+		<text lang="en">Provide a Description for the new Task.</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de"/>
@@ -3791,11 +3859,11 @@ Falls keine geeigneten Quantitäten / Quantitätsarten in MathModDB vorhanden si
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_6/Set_0/Question_3"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">dbpedia:, doi:, wikidata:</help>
+		<help lang="en">Provided Prefixes are: dbpedia:, doi:, wikidata:</help>
 		<text lang="en">Provide an ID for the new Task.</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">dbpedia:, doi:, wikidata:</help>
+		<help lang="de">Verfügbare Präfixe sind: dbpedia:, doi:, wikidata:</help>
 		<text lang="de">Geben Sie eine ID für die neue Aufgabe an.</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -3821,7 +3889,7 @@ Falls keine geeigneten Quantitäten / Quantitätsarten in MathModDB vorhanden si
 		<is_collection>True</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en"/>
-		<text lang="en">Assign appropriate properties to the new Task.</text>
+		<text lang="en">Assign appropriate Properties to the new Task.</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de"/>
@@ -3850,7 +3918,7 @@ Falls keine geeigneten Quantitäten / Quantitätsarten in MathModDB vorhanden si
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en"/>
-		<text lang="en">Which category does this Task fall into?</text>
+		<text lang="en">Which Category does this Task fall into?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de"/>
@@ -3955,11 +4023,11 @@ Falls keine geeigneten Quantitäten / Quantitätsarten in MathModDB vorhanden si
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_6/Question_0"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">If you cannot find an appropriate Task on MathModDB, please describe it in the following questions.</help>
+		<help lang="en">For all task the label is provided. If no appropriate task is available in MathModDB, define it in the following.</help>
 		<text lang="en">Select an appropriate Task from MathModDB!</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">Falls Sie keine passende Aufgabe in MathModDB finden, definieren Sie diese in den nächsten Fragen.</help>
+		<help lang="de">Für alle Aufgaben wird das Label angegeben. Falls Sie keine passende Aufgabe in MathModDB finden, definieren Sie diese im Folgenden.</help>
 		<text lang="de">Wählen Sie eine geeignete Aufgabe aus MathModDB aus!</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -4006,35 +4074,6 @@ Falls keine geeigneten Quantitäten / Quantitätsarten in MathModDB vorhanden si
 		</optionsets>
 		<conditions/>
 	</question>
-	<question dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_6/Question_2">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/Section_3a/Set_6/Question_2</uri_path>
-		<dc:comment/>
-		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_6/Question_2"/>
-		<is_collection>True</is_collection>
-		<is_optional>False</is_optional>
-		<help lang="en"/>
-		<text lang="en">To which Research Problem belongs the new Task?</text>
-		<default_text lang="en"/>
-		<verbose_name lang="en"/>
-		<help lang="de"/>
-		<text lang="de">Zu welchem Forschungsproblem gehört die neue Aufgabe?</text>
-		<default_text lang="de"/>
-		<verbose_name lang="de"/>
-		<default_option/>
-		<default_external_id/>
-		<widget_type>select</widget_type>
-		<value_type>text</value_type>
-		<maximum/>
-		<minimum/>
-		<step/>
-		<unit/>
-		<width/>
-		<optionsets>
-			<optionset dc:uri="http://example.com/terms/options/MaRDI/ResearchProblemRelations2"/>
-		</optionsets>
-		<conditions/>
-	</question>
 	<page dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_7">
 		<uri_prefix>http://example.com/terms</uri_prefix>
 		<uri_path>MaRDI/Section_3a/Set_7</uri_path>
@@ -4042,10 +4081,10 @@ Falls keine geeigneten Quantitäten / Quantitätsarten in MathModDB vorhanden si
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_7"/>
 		<is_collection>True</is_collection>
 		<title lang="en">Related Publication</title>
-		<help lang="en">The following questions allow you to add publication references to all entities you selected or defined before.</help>
+		<help lang="en">The following questions allow the addition of publication references to MathModDB. The publications have to related to entities entered before.</help>
 		<verbose_name lang="en"/>
 		<title lang="de">Zugehörige Publicaktion</title>
-		<help lang="de">Die folgenden Fragen erlauben es ihnen Publikationsreferenzen zu allen zuvor ausgewählten und definierten Entitäten hinzuzufügen.</help>
+		<help lang="de">Die folgenden Fragen erlauben es ihnen Publikationsreferenzen zur MathModDB hinzuzufügen. Diese Referenzen müssen mit den zuvor eingegeben Entitäten in Zusammenhang gebracht werden.</help>
 		<verbose_name lang="de"/>
 		<questionsets>
 			<questionset dc:uri="http://example.com/terms/questions/MaRDI/Section_3a/Set_7/Set_1" order="1"/>
@@ -4113,11 +4152,11 @@ Falls keine geeigneten Quantitäten / Quantitätsarten in MathModDB vorhanden si
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_7/Set_1/Question_0"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">Supported IDs: doi:, url:</help>
+		<help lang="en">Provided Prefixes are: doi:, url:</help>
 		<text lang="en">Provide an ID of the Publication</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">Mögliche IDs: doi:, url:</help>
+		<help lang="de">Verfügbare Präfixe sind: doi:, url:</help>
 		<text lang="de">Geben Sie eine ID für die Publikation an</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -4140,10 +4179,10 @@ Falls keine geeigneten Quantitäten / Quantitätsarten in MathModDB vorhanden si
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_7/Set_0"/>
 		<is_collection>True</is_collection>
 		<title lang="en">Publication Relation</title>
-		<help lang="en">The following questions allow you to add Publications to your new Mathematical Model. To do so, you may select existing Publications from MathModDB or define new Publications by yourself. For each Publication, you have to select the related entities of the new Mathematical Model.</help>
+		<help lang="en">The following questions allow the relation of the publication and a previously entered entity.</help>
 		<verbose_name lang="en"/>
 		<title lang="de">Publikation Relation</title>
-		<help lang="de">Mit den folgenden Fragen können Sie Veröffentlichungen zu Ihrem neuen mathematischen Modell hinzufügen. Dazu können Sie bestehende Publikationen aus der MathModDB auswählen oder selbst neue Publikationen definieren. Für jede Publikation müssen Sie die zugehörigen Entitäten des neuen mathematischen Modells auswählen.</help>
+		<help lang="de">Die folgenden Fragen erlauben die Relation zwischen der Publikation und den zuvor eingetragenen Entitäten.</help>
 		<verbose_name lang="de"/>
 		<questionsets/>
 		<questions>
@@ -4177,7 +4216,7 @@ Falls keine geeigneten Quantitäten / Quantitätsarten in MathModDB vorhanden si
 		<unit/>
 		<width/>
 		<optionsets>
-			<optionset dc:uri="http://example.com/terms/options/MaRDI/Publication_relations"/>
+			<optionset dc:uri="http://example.com/terms/options/MaRDI/MathModDB/PublicationRelations"/>
 		</optionsets>
 		<conditions/>
 	</question>
@@ -4217,11 +4256,11 @@ Falls keine geeigneten Quantitäten / Quantitätsarten in MathModDB vorhanden si
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_7/Question_0"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">If you cannot find an appropriate Publication on MathModDB, provide the DOI in the following question.</help>
+		<help lang="en">For all publications the label is provided. If not appropriate publication is available in MathModBD, define it in the following.</help>
 		<text lang="en">Select a Publication from MathModDB!</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">Falls Sie keine passende Publicaktion in MathModDB finden können, geben Sie in der nächsten Frage die DOI an.</help>
+		<help lang="de">Für alle Publikationen wird das Label angegeben. Falls keine passende Publikation in MathModDB vorhanden ist, definieren Sie diese im Folgenden.</help>
 		<text lang="de">Wählen Sie eine Publikation aus MathModDB aus.</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -4261,10 +4300,10 @@ Falls keine geeigneten Quantitäten / Quantitätsarten in MathModDB vorhanden si
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_3"/>
 		<is_collection>True</is_collection>
 		<title lang="en">Software</title>
-		<help lang="en">Describe the software applied in your workflow below. Use a separate entry for each software.</help>
+		<help lang="en">Describe the software applied in the workflow. Separate entry for each software.</help>
 		<verbose_name lang="en"/>
 		<title lang="de">Software</title>
-		<help lang="de">Beschreiben Sie im folgenden die verwendeten Software ihres Workflows. Verwenden Sie für jede Software einien separaten Eintrag.</help>
+		<help lang="de">Beschreiben Sie im folgenden die verwendeten Software des Workflows. Jede Software ein separater Eintrag.</help>
 		<verbose_name lang="de"/>
 		<questionsets/>
 		<questions>
@@ -4290,11 +4329,11 @@ Falls keine geeigneten Quantitäten / Quantitätsarten in MathModDB vorhanden si
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_3/Question_01"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">For all softwares the mardi/wikidata:QID, label and description are provided. For softwares that are included in mardi/wikidata, provide the connection to the workflow in the further questions. Softwares that are not included in mardi/wikidata must be described additionally.</help>
-		<text lang="en">Select an appropriate software from Wikidata or MaRDI KG!</text>
+		<help lang="en">For all software label and description are provided. If no appropriate software is available in Wikidata or the MaRDI KG define it in the following.</help>
+		<text lang="en">Select an appropriate Software from Wikidata or MaRDI KG!</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">Für alle Softwares wird die mardi/wikidata:QID, das Label und die Beschreibung angezeigt. Für Softwares, die in mardi/wikidata enthalten sind, stellen Sie in den weiteren Fragen den Zusammenhang zum Workflow dar. Softwares, die nicht in mardi/wikidata enthalten sind, müssen zusätzlich beschrieben werden.</help>
+		<help lang="de">Für alle Software wird das Label und eine Beschreibung angezeigt. Falls keine passende Software in Wikidata oder dem MaRDI KG vorhanden ist, definieren Sie diese im Folgenden.</help>
 		<text lang="de">Wählen Sie eine geeignete Software aus Wikidata oder dem MaRDI Knowledge Graph aus!</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -4320,7 +4359,7 @@ Falls keine geeigneten Quantitäten / Quantitätsarten in MathModDB vorhanden si
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en"/>
-		<text lang="en">Provide a name for the software.</text>
+		<text lang="en">Provide a Name for the Software.</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de"/>
@@ -4349,7 +4388,7 @@ Falls keine geeigneten Quantitäten / Quantitätsarten in MathModDB vorhanden si
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en"/>
-		<text lang="en">Provide a description for the software.</text>
+		<text lang="en">Provide a Description for the Software.</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de"/>
@@ -4378,7 +4417,7 @@ Falls keine geeigneten Quantitäten / Quantitätsarten in MathModDB vorhanden si
 		<is_collection>True</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en">For all programming languages the mardi/wikidata:QID, label and description are provided.</help>
-		<text lang="en">Provide the programming language(s) the software is based on.</text>
+		<text lang="en">Provide the Programming Language(s) the Software is based on.</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de">Für alle Programmiersprachen wird die mardi/wikidata:QID, das Label und die Beschreibung angezeigt.</help>
@@ -4408,12 +4447,12 @@ Falls keine geeigneten Quantitäten / Quantitätsarten in MathModDB vorhanden si
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_3/Question_00"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">IDs provided: 'doi:', 'sw:', 'url:'</help>
-		<text lang="en">Provide an appropriate reference.</text>
+		<help lang="en">Provided Prefixes are: 'doi:', 'sw:', 'url:'</help>
+		<text lang="en">Provide an appropriate Reference for the Software.</text>
 		<default_text lang="en">sw:</default_text>
 		<verbose_name lang="en"/>
-		<help lang="de">Mögliche IDs: 'doi:', 'swmath:', 'url:'</help>
-		<text lang="de">Geben Sie eine geeignete Referenz an.</text>
+		<help lang="de">Verfügbare Präfixe sind: 'doi:', 'swmath:', 'url:'</help>
+		<text lang="de">Geben Sie eine geeignete Referenz an für die Software an.</text>
 		<default_text lang="de">sw:</default_text>
 		<verbose_name lang="de"/>
 		<default_option/>
@@ -4437,12 +4476,12 @@ Falls keine geeigneten Quantitäten / Quantitätsarten in MathModDB vorhanden si
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_3/Question_04"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">As detailed as necessary to reproduce the workflow.</help>
-		<text lang="en">Provide the version of the software used</text>
+		<help lang="en"/>
+		<text lang="en">Provide the Version of the Software</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">So detailliert wie nötig um den Workflow zu reproduzieren.</help>
-		<text lang="de">Geben Sie die Version der verwendeten Software an.</text>
+		<help lang="de"/>
+		<text lang="de">Geben Sie die Version der Software an.</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
@@ -4465,7 +4504,7 @@ Falls keine geeigneten Quantitäten / Quantitätsarten in MathModDB vorhanden si
 		<is_collection>True</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en">Operating system, compiler, drivers, other software packages and other.</help>
-		<text lang="en">Provide the dependencies of the software used</text>
+		<text lang="en">Provide the Dependencies of the Software</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de">Betriebssystem, Kompilierer, Treiber, andere Software Pakete und sonstiges.</help>
@@ -4492,7 +4531,7 @@ Falls keine geeigneten Quantitäten / Quantitätsarten in MathModDB vorhanden si
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en">If yes, provide the full link to the version history.</help>
-		<text lang="en">Is the software versioned?</text>
+		<text lang="en">Is the Software versioned?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de">Falls ja geben Sie den kompletten Link zur Versionsübersicht an.</help>
@@ -4521,7 +4560,7 @@ Falls keine geeigneten Quantitäten / Quantitätsarten in MathModDB vorhanden si
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en">If yes, provide the full link where the software can be obtained.</help>
-		<text lang="en">Is the software published?</text>
+		<text lang="en">Is the Software published?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de">Falls ja geben Sie den kompletten Link an über den die Software bezogen werden kann.</help>
@@ -4550,7 +4589,7 @@ Falls keine geeigneten Quantitäten / Quantitätsarten in MathModDB vorhanden si
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en">If yes, provide the full link to the documentation.</help>
-		<text lang="en">Is the software documented?</text>
+		<text lang="en">Is the Software documented?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de">Falls ja geben Sie den kompletten Link zur Dokumentation an.</help>
@@ -4578,10 +4617,10 @@ Falls keine geeigneten Quantitäten / Quantitätsarten in MathModDB vorhanden si
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_4"/>
 		<is_collection>True</is_collection>
 		<title lang="en">Hardware</title>
-		<help lang="en">Describe the computational hardware of your workflow below. Use a separate entry for each hardware.</help>
+		<help lang="en">Describe the computational hardware of the workflow. Separate entry for each hardware.</help>
 		<verbose_name lang="en"/>
 		<title lang="de">Hardware</title>
-		<help lang="de">Beschreiben Sie im folgenden die Computer-Hardware ihres Workflows. Verwenden Sie für jede Hardware einen separaten Eintrag.</help>
+		<help lang="de">Beschreiben Sie im folgenden die Computer-Hardware des Workflows. Jede Hardware ein separater Eintrag.</help>
 		<verbose_name lang="de"/>
 		<questionsets/>
 		<questions>
@@ -4604,11 +4643,11 @@ Falls keine geeigneten Quantitäten / Quantitätsarten in MathModDB vorhanden si
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_4/Question_01"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">Please, select a specific hardware, not a series. Hardwares that are not included in mardi/wikidata must be described in the following questions.</help>
-		<text lang="en">Select an appropriate hardware from Wikidata or MaRDI KG!</text>
+		<help lang="en">For all Hardware label and description are provided. If not appropriate Hardware is available in Wikidata or the MaRDI KG, define it in the following.</help>
+		<text lang="en">Select an appropriate Hardware from Wikidata or MaRDI KG!</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">Bitte wählen Sie eine spezifische Hardware aus und keine Serie. Hardware, die nicht im MaRDI KG oder Wikidata enthalten ist, muss durch die folgenden Fragen beschrieben werden.</help>
+		<help lang="de">Für alle Hardware wir das Label und eine Beschreibung angezeigt. Falls keine passende Hardware in Wikidata oder dem MaRDI Portal vorhanden ist, definieren Sie diese im Folgenden.</help>
 		<text lang="de">Wählen Sie eine geeignete Hardware aus dem MaRDI KG oder Wikidata aus!</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -4634,7 +4673,7 @@ Falls keine geeigneten Quantitäten / Quantitätsarten in MathModDB vorhanden si
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en">Name of the computer hardware assigned by the producer.</help>
-		<text lang="en">Provide a name for the hardware</text>
+		<text lang="en">Provide a Name for the Hardware</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de">Vom Hersteller zugewiesener Name der Computer-Hardware</help>
@@ -4663,7 +4702,7 @@ Falls keine geeigneten Quantitäten / Quantitätsarten in MathModDB vorhanden si
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en"/>
-		<text lang="en">Provide a description for the hardware.</text>
+		<text lang="en">Provide a Description for the Hardware.</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de"/>
@@ -4692,7 +4731,7 @@ Falls keine geeigneten Quantitäten / Quantitätsarten in MathModDB vorhanden si
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en"/>
-		<text lang="en">Select a processor from WikiChip</text>
+		<text lang="en">Select a Processor from WikiChip</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de"/>
@@ -4720,11 +4759,11 @@ Falls keine geeigneten Quantitäten / Quantitätsarten in MathModDB vorhanden si
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_4/Question_04"/>
 		<is_collection>True</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">Specify as comma-separated list.</help>
-		<text lang="en">Provide the existing compiler of the hardware</text>
+		<help lang="en"/>
+		<text lang="en">Provide the existing Compiler of the Hardware</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">Als Komma-separierte Liste angeben.</help>
+		<help lang="de"/>
 		<text lang="de">Geben Sie die verfügbare Compiler der Hardware an</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -4749,11 +4788,11 @@ Falls keine geeigneten Quantitäten / Quantitätsarten in MathModDB vorhanden si
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_4/Question_05"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">Number that is available in total.</help>
-		<text lang="en">State the number of nodes of the hardware</text>
+		<help lang="en"/>
+		<text lang="en">State the Number of Nodes of the Hardware</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">Anzahl die insgesamt zur Verfügung steht.</help>
+		<help lang="de"/>
 		<text lang="de">Nennen Sie die Anzahl der Nodes der Hardware</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -4776,11 +4815,11 @@ Falls keine geeigneten Quantitäten / Quantitätsarten in MathModDB vorhanden si
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_4/Question_06"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">Number that is available in total.</help>
-		<text lang="en">State the number of cores of the hardware</text>
+		<help lang="en"/>
+		<text lang="en">State the Number of Cores of the Hardware</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">Anzahl die insgesamt zur Verfügung steht.</help>
+		<help lang="de"/>
 		<text lang="de">Nennen Sie die Anzahl der Cores der Hardware</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -4803,10 +4842,10 @@ Falls keine geeigneten Quantitäten / Quantitätsarten in MathModDB vorhanden si
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_5"/>
 		<is_collection>True</is_collection>
 		<title lang="en">Instruments</title>
-		<help lang="en">Describe the instruments of your workflow below. Use a separate entry for each instrument.</help>
+		<help lang="en">Describe the instruments of the workflow. Separate entry for each instrument.</help>
 		<verbose_name lang="en"/>
 		<title lang="de">Geräte</title>
-		<help lang="de">Beschreiben Sie im folgenden die Geräte ihres Workflows. Verwenden Sie für jedes Gerät einen separates Eintrag.</help>
+		<help lang="de">Beschreiben Sie im folgenden die Geräte des Workflows. Jedes Gerät ein separater Eintrag.</help>
 		<verbose_name lang="de"/>
 		<questionsets/>
 		<questions>
@@ -4830,11 +4869,11 @@ Falls keine geeigneten Quantitäten / Quantitätsarten in MathModDB vorhanden si
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_5/Question_01"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">Please, select a specific instrument, not a series. Instruments that are not included in mardi/wikidata must be described in the following questions.</help>
-		<text lang="en">Select an appropriate instrument from Wikidata or MaRDI KG!</text>
+		<help lang="en">For all instruments label and description is provided. If no appropriate instrument is available in Wikidata or the MaRDI KG, define it in the following.</help>
+		<text lang="en">Select an appropriate Instrument from Wikidata or MaRDI KG!</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">Bitte wählen Sie ein spezifisches Gerät aus und keine Serie. Ein Gerät, das nicht im MaRDI KG oder Wikidata enthalten ist, muss durch die folgenden Fragen beschrieben werden.</help>
+		<help lang="de">Für alle Geräte wird das Label und eine Beschreibung angegeben. Falls kein passendes Gerät in Wikidata oder dem MaRDI KG vorhanden ist, definieren Sie es im Folgenden.</help>
 		<text lang="de">Wählen Sie ein geeignete Gerät aus dem MaRDI KG oder Wikidata aus!</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -4859,11 +4898,11 @@ Falls keine geeigneten Quantitäten / Quantitätsarten in MathModDB vorhanden si
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_5/Question_02"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">Instrument name assigned by the producer.</help>
-		<text lang="en">Provide a name for the instrument</text>
+		<help lang="en"/>
+		<text lang="en">Provide a Name for the Instrument</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">Vom Hersteller vergebener Name des Geräts.</help>
+		<help lang="de"/>
 		<text lang="de">Geben Sie einen Namen für das Gerät an</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -4889,7 +4928,7 @@ Falls keine geeigneten Quantitäten / Quantitätsarten in MathModDB vorhanden si
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en"/>
-		<text lang="en">Provide a description for the instrument</text>
+		<text lang="en">Provide a Description for the Instrument</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de"/>
@@ -4918,7 +4957,7 @@ Falls keine geeigneten Quantitäten / Quantitätsarten in MathModDB vorhanden si
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en"/>
-		<text lang="en">State the version of the instrument</text>
+		<text lang="en">State the Version of the Instrument</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de"/>
@@ -4945,7 +4984,7 @@ Falls keine geeigneten Quantitäten / Quantitätsarten in MathModDB vorhanden si
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en"/>
-		<text lang="en">State the part number of the instrument</text>
+		<text lang="en">State the Part Number of the Instrument</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de"/>
@@ -4972,7 +5011,7 @@ Falls keine geeigneten Quantitäten / Quantitätsarten in MathModDB vorhanden si
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en"/>
-		<text lang="en">State the serial number of the instrument</text>
+		<text lang="en">State the Serial Number of the Instrument</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de"/>
@@ -4999,7 +5038,7 @@ Falls keine geeigneten Quantitäten / Quantitätsarten in MathModDB vorhanden si
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en">Research institute / university or the city the instrument is located in.</help>
-		<text lang="en">Select the location of the instrument from MaRDI KG or Wikidata</text>
+		<text lang="en">Select the Location of the Instrument from MaRDI KG or Wikidata</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de">Forschungsinstitut / Universität oder die Stadt in der sich das Gerät befindet.</help>
@@ -5028,7 +5067,7 @@ Falls keine geeigneten Quantitäten / Quantitätsarten in MathModDB vorhanden si
 		<is_collection>True</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en">If software is missing, define it in the software section and select it here.</help>
-		<text lang="en">Select the available software of the instrument from the MaRDI KG or Wikidata</text>
+		<text lang="en">Select the available Software of the Instrument from the MaRDI KG or Wikidata</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de">Falls eine Software fehlt, definieren Sie diese im Software Abschnitt und wählen Sie hier aus.</help>
@@ -5056,10 +5095,10 @@ Falls keine geeigneten Quantitäten / Quantitätsarten in MathModDB vorhanden si
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_6"/>
 		<is_collection>True</is_collection>
 		<title lang="en">Data Sets</title>
-		<help lang="en">Describe the data sets of your workflow below. Use a separate entry for each data set.</help>
+		<help lang="en">Describe the data sets of the workflow below. Separate entry for each data set.</help>
 		<verbose_name lang="en"/>
 		<title lang="de">Datensätze</title>
-		<help lang="de">Beschreiben Sie im folgenden die Datensätze ihres Workflows. Verwenden Sie für jeden Datensatz einen separaten Eintrag.</help>
+		<help lang="de">Beschreiben Sie im folgenden die Datensätze des Workflows. Jeder Datensatz ein separater Eintrag.</help>
 		<verbose_name lang="de"/>
 		<questionsets/>
 		<questions>
@@ -5087,11 +5126,11 @@ Falls keine geeigneten Quantitäten / Quantitätsarten in MathModDB vorhanden si
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_6/Question_00"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">For all data sets the mardi/wikidata:QID, label and description are provided. For data sets that are included in mardi/wikidata, provide the connection to the workflow in the further questions. Data sets that are not included in mardi/wikidata must be described additionally.</help>
-		<text lang="en">Select an appropriate data set from Wikidata or MaRDI KG!</text>
+		<help lang="en">For all data sets label and description are provided. If a data set is not available in Wikidata or the MaRDI KG, define it in the following.</help>
+		<text lang="en">Select an appropriate Data Set from Wikidata or MaRDI KG!</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">Für alle Datensätze wird die mardi/wikidata:QID, das Label und die Beschreibung angezeigt. Für Datensätze, die in mardi/wikidata enthalten sind, stellen Sie in den weiteren Fragen den Zusammenhang zum Workflow dar. Datensätze, die nicht in mardi/wikidata enthalten sind, müssen zusätzlich beschrieben werden.</help>
+		<help lang="de">Für alle Datensätze wird das Label und die Beschreibung angezeigt. Falls ein Datensatz nicht in Wikidata oder dem MaRDI Portal vorhanden ist, definieren Sie ihn im Folgenden.</help>
 		<text lang="de">Wählen Sie einen geeigneten Datensatz aus Wikidata oder dem MaRDI KG aus!</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -5117,7 +5156,7 @@ Falls keine geeigneten Quantitäten / Quantitätsarten in MathModDB vorhanden si
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en"/>
-		<text lang="en">Provide a name for the data set.</text>
+		<text lang="en">Provide a Name for the Data Set.</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de"/>
@@ -5146,7 +5185,7 @@ Falls keine geeigneten Quantitäten / Quantitätsarten in MathModDB vorhanden si
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en"/>
-		<text lang="en">Provide a description for the data set.</text>
+		<text lang="en">Provide a Description for the Data Set.</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de"/>
@@ -5174,11 +5213,11 @@ Falls keine geeigneten Quantitäten / Quantitätsarten in MathModDB vorhanden si
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_6/Question_10"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">IDs provided: 'doi:', 'url'</help>
-		<text lang="en">Provide an appropriate reference.</text>
+		<help lang="en">Provided ID Prefixes are: : 'doi:', 'url'</help>
+		<text lang="en">Provide an appropriate Reference for the Data Set.</text>
 		<default_text lang="en">doi:</default_text>
 		<verbose_name lang="en"/>
-		<help lang="de">Mögliche IDs: 'doi:', 'url'</help>
+		<help lang="de">Verfügbare ID Präfixe sind: 'doi:', 'url'</help>
 		<text lang="de">Geben Sie eine geeignete Referenz an.</text>
 		<default_text lang="de">doi:</default_text>
 		<verbose_name lang="de"/>
@@ -5204,7 +5243,7 @@ Falls keine geeigneten Quantitäten / Quantitätsarten in MathModDB vorhanden si
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en"/>
-		<text lang="en">Provide the size of the data set.</text>
+		<text lang="en">Provide the Size of the Data Set.</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de"/>
@@ -5233,7 +5272,7 @@ Falls keine geeigneten Quantitäten / Quantitätsarten in MathModDB vorhanden si
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en">e.g. numpy array, pandas dataframe, ...</help>
-		<text lang="en">Provide the data structure of the data set.</text>
+		<text lang="en">Provide the Data Structure of the Data Set.</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de">z.B. Numpy Array, Pandas Dataframe, ...</help>
@@ -5260,7 +5299,7 @@ Falls keine geeigneten Quantitäten / Quantitätsarten in MathModDB vorhanden si
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en">e.g. comma separated sparse matrix, ...</help>
-		<text lang="en">Provide the representation format of the data set.</text>
+		<text lang="en">Provide the Representation Format of the Data Set.</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de">z.B. komma-separierte dünnbesetzte Matrix, ...</help>
@@ -5287,7 +5326,7 @@ Falls keine geeigneten Quantitäten / Quantitätsarten in MathModDB vorhanden si
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en">e.g. .txt, .png, .csv, ...</help>
-		<text lang="en">Provide the exchange format of the data set.</text>
+		<text lang="en">Provide the Exchange Format of the Data Set.</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de">z.B. .txt, .png, .csv, ...</help>
@@ -5314,7 +5353,7 @@ Falls keine geeigneten Quantitäten / Quantitätsarten in MathModDB vorhanden si
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en"/>
-		<text lang="en">Is the data set binary or text?</text>
+		<text lang="en">Is the Data Set binary or text?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de"/>
@@ -5343,7 +5382,7 @@ Falls keine geeigneten Quantitäten / Quantitätsarten in MathModDB vorhanden si
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en"/>
-		<text lang="en">Is the format of the data set proprietary?</text>
+		<text lang="en">Is the Format of the Data Set proprietary?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de"/>
@@ -5372,7 +5411,7 @@ Falls keine geeigneten Quantitäten / Quantitätsarten in MathModDB vorhanden si
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en">If yes, data should be available via the identifier specified before.</help>
-		<text lang="en">Is a publication of the data set necessary?</text>
+		<text lang="en">Is a publication of the Data Set necessary?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de">Falls ja, sollten die Daten über den zuvor angegeben Identifier abrufbar sein.</help>
@@ -5401,7 +5440,7 @@ Falls keine geeigneten Quantitäten / Quantitätsarten in MathModDB vorhanden si
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en">If yes how long?</help>
-		<text lang="en">Is an archiving of the data set necessary?</text>
+		<text lang="en">Is an archiving of the Data Set necessary?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de">Falls ja wie lang?</help>
@@ -5429,10 +5468,10 @@ Falls keine geeigneten Quantitäten / Quantitätsarten in MathModDB vorhanden si
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_2"/>
 		<is_collection>True</is_collection>
 		<title lang="en">Methods</title>
-		<help lang="en">Describe the methods applied in your workflow below. Use a separate entry for each method.</help>
+		<help lang="en">Describe the methods applied in the workflow. Separate entry for each method.</help>
 		<verbose_name lang="en"/>
 		<title lang="de">Methoden des Workflows.</title>
-		<help lang="de">Beschreiben Sie im folgenden die verwendeten Methode ihres Workflows. Verwenden Sie für jede Methode einen separaten Eintrag.</help>
+		<help lang="de">Beschreiben Sie im folgenden die verwendeten Methode des Workflows. Jede Methode ein separater Eintrag.</help>
 		<verbose_name lang="de"/>
 		<questionsets/>
 		<questions>
@@ -5456,11 +5495,11 @@ Falls keine geeigneten Quantitäten / Quantitätsarten in MathModDB vorhanden si
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_2/Question_01"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">For all methods the mardi/wikidata:QID, label and description are provided. For methods that are included in mardi/wikidata, provide the connection to the workflow in the further questions. Methods that are not included in mardi/wikidata must be described additionally.</help>
-		<text lang="en">Select an appropriate method from Wikidata or MaRDI KG!</text>
+		<help lang="en">For all methods label and description are provided. If no appropriate method is available in Wikidata or the MaRDI KG, define it in the following.</help>
+		<text lang="en">Select an appropriate Method from Wikidata or MaRDI KG!</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">Für alle Methoden wird die mardi/wikidata:QID, das Label und die Beschreibung angezeigt. Für Methoden, die in mardi/wikidata enthalten sind, stellen Sie in den weiteren Fragen den Zusammenhang zum Workflow dar. Methoden, die nicht in mardi/wikidata enthalten sind, müssen zusätzlich beschrieben werden.</help>
+		<help lang="de">Für alle Methoden wird das Label und die Beschreibung angezeigt. Falls keine passende Methode in Wikidata oder dem MaRDI KG vorhanden ist, definieren Sie diese im Folgenden.</help>
 		<text lang="de">Wählen Sie eine geeignete Methode aus Wikidata oder dem MaRDI KG aus!</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -5486,7 +5525,7 @@ Falls keine geeigneten Quantitäten / Quantitätsarten in MathModDB vorhanden si
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en"/>
-		<text lang="en">Provide a name for the method.</text>
+		<text lang="en">Provide a Name for the Method.</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de"/>
@@ -5515,7 +5554,7 @@ Falls keine geeigneten Quantitäten / Quantitätsarten in MathModDB vorhanden si
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en"/>
-		<text lang="en">Provide a description for the method.</text>
+		<text lang="en">Provide a Description for the Method.</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de"/>
@@ -5543,11 +5582,11 @@ Falls keine geeigneten Quantitäten / Quantitätsarten in MathModDB vorhanden si
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_2/Wiki_03"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">For all subjects the mardi/wikidata:QID, label and description are provided.</help>
-		<text lang="en">Provide the main subject of the method.</text>
+		<help lang="en">For all subjects label and description are provided.</help>
+		<text lang="en">Provide the Main Subject of the Method.</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">Für alle Themen wird die mardi/wikidata:QID, das Label und die Beschreibung angezeigt.</help>
+		<help lang="de">Für alle Themen wird das Label und die Beschreibung angezeigt.</help>
 		<text lang="de">Geben Sie das Hauptthema der Methode an.</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -5574,11 +5613,11 @@ Falls keine geeigneten Quantitäten / Quantitätsarten in MathModDB vorhanden si
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_2/Wiki_04"/>
 		<is_collection>True</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">Use Latex Math in $$...$$ for the formulas. Check the rendering using the preview option.</help>
-		<text lang="en">Provide the defining formulas of the method.</text>
+		<help lang="en">Use $$ for Latex Math</help>
+		<text lang="en">Provide the Defining Formulas of the Method.</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">Nutzen Sie Latex Math in $$...$$ für die Formeln. Überprüfen Sie das Rendering über die Preview Option.</help>
+		<help lang="de">Nutze $$ für Latex Mathe</help>
 		<text lang="de">Geben Sie die relevanten Formeln der Methode an.</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -5603,11 +5642,11 @@ Falls keine geeigneten Quantitäten / Quantitätsarten in MathModDB vorhanden si
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_2/Question_00"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">IDs provided: 'doi:', 'url:'</help>
-		<text lang="en">Provide an appropriate reference.</text>
+		<help lang="en">Provided ID Prefixes are:: 'doi:', 'url:'</help>
+		<text lang="en">Provide an appropriate Reference for the Method.</text>
 		<default_text lang="en">doi:</default_text>
 		<verbose_name lang="en"/>
-		<help lang="de">Mögliche IDs: 'doi:', 'url:'</help>
+		<help lang="de">Verfügbare ID Präfixe sind: 'doi:', 'url:'</help>
 		<text lang="de">Geben Sie eine geeignete Referenz an.</text>
 		<default_text lang="de">doi:</default_text>
 		<verbose_name lang="de"/>
@@ -5633,7 +5672,7 @@ Falls keine geeigneten Quantitäten / Quantitätsarten in MathModDB vorhanden si
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en"/>
-		<text lang="en">Provide the relevant parameter(s) of the method</text>
+		<text lang="en">Provide the relevant Parameter(s) of the Method.</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de"/>
@@ -5660,7 +5699,7 @@ Falls keine geeigneten Quantitäten / Quantitätsarten in MathModDB vorhanden si
 		<is_collection>True</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en">Select previously defined software.</help>
-		<text lang="en">Provide the software(s) realizing or implementing the method</text>
+		<text lang="en">Provide the Software(s) realizing or implementing the Method.</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de">Wählen Sie zuvor definierte Software.</help>
@@ -5688,10 +5727,10 @@ Falls keine geeigneten Quantitäten / Quantitätsarten in MathModDB vorhanden si
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_1"/>
 		<is_collection>True</is_collection>
 		<title lang="en">Process steps</title>
-		<help lang="en">Describe the process steps of your workflow below. Use a separate entry for each process step.</help>
+		<help lang="en">Describe the process steps of the workflow. Separate entry for each process step.</help>
 		<verbose_name lang="en"/>
 		<title lang="de">Prozessschritte</title>
-		<help lang="de">Beschreiben Sie im folgenden die Prozessschritte ihres Workflows. Verwenden Sie für jeden Prozessschritt einen separaten Eintrag.</help>
+		<help lang="de">Beschreiben Sie im folgenden die Prozessschritte des Workflows. Jeder Prozessschritt ein separater Eintrag.</help>
 		<verbose_name lang="de"/>
 		<questionsets/>
 		<questions>
@@ -5715,11 +5754,11 @@ Falls keine geeigneten Quantitäten / Quantitätsarten in MathModDB vorhanden si
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_1/Question_01"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">Ideally referring to the workflow procedure described before.</help>
-		<text lang="en">Provide a name for the process step</text>
+		<help lang="en"/>
+		<text lang="en">Provide a Name for the Process Step</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">Idealerweise bezugnehmend auf die zuvor beschriebene Workflow Prozedur.</help>
+		<help lang="de"/>
 		<text lang="de">Geben Sie den Name des Prozessschrits an</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -5742,11 +5781,11 @@ Falls keine geeigneten Quantitäten / Quantitätsarten in MathModDB vorhanden si
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_1/Question_02"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">Short description of what happens in the process step.</help>
-		<text lang="en">Provide a description for the process step</text>
+		<help lang="en"/>
+		<text lang="en">Provide a Description for the Process Step</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">Kurze Beschreibung davon was in dem Prozessschritt passiert.</help>
+		<help lang="de"/>
 		<text lang="de">Geben Sie eine Beschreibung des Prozessschritts an</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -5769,17 +5808,17 @@ Falls keine geeigneten Quantitäten / Quantitätsarten in MathModDB vorhanden si
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_1/Question_03"/>
 		<is_collection>True</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">Choose previously defined Inputs.</help>
-		<text lang="en">State the inputs of the process step</text>
+		<help lang="en"/>
+		<text lang="en">State the Inputs of the Process Step</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">Wählen Sie zuvor definierte Eingabdaten.</help>
+		<help lang="de"/>
 		<text lang="de">Nennen Sie die Inputs des Prozessschritts</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
 		<default_external_id/>
-		<widget_type>freeautocomplete</widget_type>
+		<widget_type>select</widget_type>
 		<value_type>option</value_type>
 		<maximum/>
 		<minimum/>
@@ -5798,17 +5837,17 @@ Falls keine geeigneten Quantitäten / Quantitätsarten in MathModDB vorhanden si
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_1/Question_04"/>
 		<is_collection>True</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">Choose previously defined Outputs.</help>
-		<text lang="en">State the output of the process step</text>
+		<help lang="en"/>
+		<text lang="en">State the Output of the Process Step</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">Wählen Sie zuvor definierte Ausgabedaten.</help>
+		<help lang="de"/>
 		<text lang="de">Nennen Sie den Output des Prozessschritts</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
 		<default_external_id/>
-		<widget_type>freeautocomplete</widget_type>
+		<widget_type>select</widget_type>
 		<value_type>text</value_type>
 		<maximum/>
 		<minimum/>
@@ -5827,11 +5866,11 @@ Falls keine geeigneten Quantitäten / Quantitätsarten in MathModDB vorhanden si
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_1/Question_05"/>
 		<is_collection>True</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">Choose previously defined Methods.</help>
-		<text lang="en">State the methods used in this process step</text>
+		<help lang="en"/>
+		<text lang="en">State the Methods used in this Process Step</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">Wählen Sie zuvor definierte Methoden.</help>
+		<help lang="de"/>
 		<text lang="de">Nennen Sie die Methoden, die in diesem Prozessschritt verwendet werden</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -5857,7 +5896,7 @@ Falls keine geeigneten Quantitäten / Quantitätsarten in MathModDB vorhanden si
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en"/>
-		<text lang="en">State the parameter relevant for this process step</text>
+		<text lang="en">State the Parameters relevant for this Process Step</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de"/>
@@ -5883,11 +5922,11 @@ Falls keine geeigneten Quantitäten / Quantitätsarten in MathModDB vorhanden si
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_1/Question_07"/>
 		<is_collection>True</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">Choose previously defined Software and/or Experimental Devices.</help>
-		<text lang="en">State the environment of the process step</text>
+		<help lang="en"/>
+		<text lang="en">State the Environment of the Process Step</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">Wählen Sie zuvor definierte Software und/oder experimentelle Geräte.</help>
+		<help lang="de"/>
 		<text lang="de">Nennen Sie die Umgebung des Prozessschritts</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -5912,11 +5951,11 @@ Falls keine geeigneten Quantitäten / Quantitätsarten in MathModDB vorhanden si
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_1/Question_08"/>
 		<is_collection>True</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">Choose from the previously defined mathematical subjects involved in your workflow.</help>
-		<text lang="en">State the mathematical subject of the process step</text>
+		<help lang="en"/>
+		<text lang="en">State the Mathematical Subject of the Process Step</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">Wählen Sie aus den zuvor definierten mathematischen Themengebieten jenes, das an Ihrem Workflow beteiligt ist.</help>
+		<help lang="de"/>
 		<text lang="de">Nennen Sie das mathematische Themengebiet des Prozessschritts</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -6013,11 +6052,11 @@ Falls keine geeigneten Quantitäten / Quantitätsarten in MathModDB vorhanden si
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en"/>
-		<text lang="en">Provide detailed description of the conditions under which the workflow is mathematically reproducible.</text>
+		<text lang="en">Provide detailed Description of the Conditions under which the Workflow is mathematically reproducible.</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de"/>
-		<text lang="de"/>
+		<text lang="de">Beschreiben Sie unter welchen Bedingungen der Workflow mathematisch reproduzierbar ist.</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
@@ -6073,11 +6112,11 @@ Falls keine geeigneten Quantitäten / Quantitätsarten in MathModDB vorhanden si
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en"/>
-		<text lang="en">Provide detailed description of the conditions under which the workflow is runtime reproducible.</text>
+		<text lang="en">Provide detailed Description of the Conditions under which the Workflow is Runtime reproducible.</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de"/>
-		<text lang="de"/>
+		<text lang="de">Beschreiben Sie die Bedigungen unter denen der Workflow Laufzeit reproduzierbar ist.</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
@@ -6133,11 +6172,11 @@ Falls keine geeigneten Quantitäten / Quantitätsarten in MathModDB vorhanden si
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en"/>
-		<text lang="en">Provide detailed description of the conditions under which the workflow is result reproducible.</text>
+		<text lang="en">Provide detailed Description of the Conditions under which the Workflow is Result reproducible.</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de"/>
-		<text lang="de"/>
+		<text lang="de">Beschreiben Sie die Bedingungen unter denen der Workflow Ergebnis reproduzierbar ist.</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
@@ -6162,7 +6201,7 @@ Falls keine geeigneten Quantitäten / Quantitätsarten in MathModDB vorhanden si
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en">If yes under which conditions?</help>
-		<text lang="en">Is a reproduction on the original hardware/instrument possible?</text>
+		<text lang="en">Is a Reproduction on the original Hardware/Instrument possible?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de">Falls ja unter welchen Bedingungen?</help>
@@ -6191,11 +6230,11 @@ Falls keine geeigneten Quantitäten / Quantitätsarten in MathModDB vorhanden si
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en"/>
-		<text lang="en">Provide detailed description of the conditions under which a reproduction on the original hardware/instrument is possible.</text>
+		<text lang="en">Provide detailed Description of the Conditions under which a Reproduction on the original Hardware/Instrument is possible.</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de"/>
-		<text lang="de"/>
+		<text lang="de">Beschreiben Sie die Bedingungen unter denen der Workflow auf der originalen Hardware / dem originalen Instrument reproduzierbar ist.</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
@@ -6220,7 +6259,7 @@ Falls keine geeigneten Quantitäten / Quantitätsarten in MathModDB vorhanden si
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en">If yes under which conditions?</help>
-		<text lang="en">Is a reproduction on other hardware / other instruments possible?</text>
+		<text lang="en">Is a Reproduction on other Hardware / other Instruments possible?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de">Falls ja unter welchen Bedingungen?</help>
@@ -6249,11 +6288,11 @@ Falls keine geeigneten Quantitäten / Quantitätsarten in MathModDB vorhanden si
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en"/>
-		<text lang="en">Provide detailed description of the conditions under which a reproduction on other hardware/instrument is possible.</text>
+		<text lang="en">Provide detailed Description of the Conditions under which a Reproduction on other Hardware/Instrument is possible.</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de"/>
-		<text lang="de"/>
+		<text lang="de">Beschreiben Sie die Bedingungen unter denen der Workflow auf einer anderen Hardware / einem anderen Instrument reproduzierbar ist.</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
@@ -6335,16 +6374,12 @@ Falls keine geeigneten Quantitäten / Quantitätsarten in MathModDB vorhanden si
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_6/Set_1/Question_01"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">
-Export your documentation locally as markdown file (depreciated) or publish it on the MaRDI portal. To integrate the workflow in the Knowledge Graph additional may have to be answered. The RDMO project name will be used as title of the wikipage and label for the workflow entity.
-</help>
-		<text lang="en">Local Documentation or MaRDI portal export?</text>
+		<help lang="en">Export your documentation locally as markdown file (depreciated) or publish it through MaRDI Export.</help>
+		<text lang="en">Local Documentation or MaRDI Export?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">
-Exportieren Sie Ihre Dokumentation lokal als Markdown-Datei (nicht empfohlen) oder veröffentlichen Sie sie auf dem MaRDI Portal. Um den Workflow in den Knowledge Graph zu integrieren, müssen ggf. weitere Fragen beantwortet werden. Der RDMO-Projektname wird als Titel der Wikipage und als Bezeichnung für die Workflow-Entität verwendet.
-</help>
-		<text lang="de">Lokale Dokumentation oder MaRDI Portal Export?</text>
+		<help lang="de">Exportieren Sie Ihre Dokumentation lokal als Markdown-Datei (nicht empfohlen) oder veröffentlichen Sie es über den MaRDI Export.</help>
+		<text lang="de">Lokale Dokumentation oder MaRDI Export?</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option dc:uri="http://example.com/terms/options/MaRDI/publication_type/type_0"/>
@@ -6368,15 +6403,11 @@ Exportieren Sie Ihre Dokumentation lokal als Markdown-Datei (nicht empfohlen) od
 		<attribute dc:uri="http://example.com/terms/domain/MaRDI/Section_6/Set_1/Question_02"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">
-Get a preview of your documentation to check for errors. Once your documentation is correct, choose 'No'. This question is ignored for local export.
-</help>
-		<text lang="en">Get a preview of the documentation?</text>
+		<help lang="en">Get a preview of your documentation to check for errors before the MaRDI Export. Once your documentation is correct, choose 'No'. This question is ignored for local export.</help>
+		<text lang="en">Get a Preview of the Documentation?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">
-Lassen Sie sich eine Vorschau Ihrer Dokumentation anzeigen, um sie auf Fehler zu überprüfen. Sobald Ihre Dokumentation korrekt ist, wählen Sie &quot;Nein&quot;. Diese Frage wird beim lokalen Export ignoriert.
-</help>
+		<help lang="de">Lassen Sie sich eine Vorschau Ihrer Dokumentation anzeigen, um sie vor dem MaRDI Export auf Fehler zu überprüfen. Sobald Ihre Dokumentation korrekt ist, wählen Sie &quot;Nein&quot;. Diese Frage wird beim lokalen Export ignoriert.</help>
 		<text lang="de">Eine Dokumentations-Vorschau erhalten?</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
