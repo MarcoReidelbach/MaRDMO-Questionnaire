@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2024-07-11T22:16:47.839172+02:00" version="2.1.3">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2024-07-16T20:06:31.622014+02:00" version="2.1.3">
 	<catalog dc:uri="http://example.com/terms/questions/MaRDMO">
 		<uri_prefix>http://example.com/terms</uri_prefix>
 		<uri_path>MaRDMO</uri_path>
@@ -2180,7 +2180,7 @@
 		<unit/>
 		<width/>
 		<optionsets>
-			<optionset dc:uri="http://example.com/terms/options/MaRDI/MathematicalModel"/>
+			<optionset dc:uri="http://example.com/terms/options/MaRDI/MathematicalModel2"/>
 		</optionsets>
 		<conditions/>
 	</question>
