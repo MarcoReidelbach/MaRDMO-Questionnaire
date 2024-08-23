@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2024-07-16T20:06:39.518319+02:00" version="2.1.3">
-	<optionset dc:uri="http://example.com/terms/options/MaRDI/AllEntities">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/AllEntities</uri_path>
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2024-08-23T15:25:06.369596+02:00" version="2.1.3">
+	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/AllEntities">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>AllEntities</uri_path>
 		<dc:comment/>
 		<provider_key>AllEntities</provider_key>
 		<options/>
 		<conditions/>
 	</optionset>
-	<optionset dc:uri="http://example.com/terms/options/MaRDI/ContainedInObjectives">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/ContainedInObjectives</uri_path>
+	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/ContainedInObjectives">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>ContainedInObjectives</uri_path>
 		<dc:comment/>
 		<provider_key/>
 		<options>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/ContainedAsAssumptionIn" order="0"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/ContainedAsBoundaryConditionIn" order="2"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/ContainedAsConstraintConditionIn" order="4"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/ContainedAsCouplingConditionIn" order="6"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/ContainedAsFormulationIn" order="8"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/ContainedAsInitialConditionIn" order="10"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/ContainedAsFinalConditionIn" order="12"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/ContainedAsAssumptionIn" order="0"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/ContainedAsBoundaryConditionIn" order="2"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/ContainedAsConstraintConditionIn" order="4"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/ContainedAsCouplingConditionIn" order="6"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/ContainedAsFormulationIn" order="8"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/ContainedAsInitialConditionIn" order="10"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/ContainedAsFinalConditionIn" order="12"/>
 		</options>
 		<conditions/>
 	</optionset>
-	<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/ContainedAsAssumptionIn">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/MathModDB/ContainedAsAssumptionIn</uri_path>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/ContainedAsAssumptionIn">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>MathModDB/ContainedAsAssumptionIn</uri_path>
 		<dc:comment/>
 		<text lang="en">is contained as assumption in</text>
 		<help lang="en"/>
@@ -36,9 +36,9 @@
 		<view_text lang="de"/>
 		<additional_input/>
 	</option>
-	<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/ContainedAsBoundaryConditionIn">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/MathModDB/ContainedAsBoundaryConditionIn</uri_path>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/ContainedAsBoundaryConditionIn">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>MathModDB/ContainedAsBoundaryConditionIn</uri_path>
 		<dc:comment/>
 		<text lang="en">is contained as boundary condition in</text>
 		<help lang="en"/>
@@ -48,9 +48,9 @@
 		<view_text lang="de"/>
 		<additional_input/>
 	</option>
-	<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/ContainedAsConstraintConditionIn">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/MathModDB/ContainedAsConstraintConditionIn</uri_path>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/ContainedAsConstraintConditionIn">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>MathModDB/ContainedAsConstraintConditionIn</uri_path>
 		<dc:comment/>
 		<text lang="en">is contained as constraint condition in</text>
 		<help lang="en"/>
@@ -60,9 +60,9 @@
 		<view_text lang="de"/>
 		<additional_input/>
 	</option>
-	<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/ContainedAsCouplingConditionIn">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/MathModDB/ContainedAsCouplingConditionIn</uri_path>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/ContainedAsCouplingConditionIn">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>MathModDB/ContainedAsCouplingConditionIn</uri_path>
 		<dc:comment/>
 		<text lang="en">is contained as coupling condition in</text>
 		<help lang="en"/>
@@ -72,9 +72,9 @@
 		<view_text lang="de"/>
 		<additional_input/>
 	</option>
-	<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/ContainedAsFormulationIn">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/MathModDB/ContainedAsFormulationIn</uri_path>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/ContainedAsFormulationIn">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>MathModDB/ContainedAsFormulationIn</uri_path>
 		<dc:comment/>
 		<text lang="en">is contained as formulation in</text>
 		<help lang="en"/>
@@ -84,9 +84,9 @@
 		<view_text lang="de"/>
 		<additional_input/>
 	</option>
-	<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/ContainedAsInitialConditionIn">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/MathModDB/ContainedAsInitialConditionIn</uri_path>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/ContainedAsInitialConditionIn">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>MathModDB/ContainedAsInitialConditionIn</uri_path>
 		<dc:comment/>
 		<text lang="en">is contained as initial condition in</text>
 		<help lang="en"/>
@@ -96,9 +96,9 @@
 		<view_text lang="de"/>
 		<additional_input/>
 	</option>
-	<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/ContainedAsFinalConditionIn">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/MathModDB/ContainedAsFinalConditionIn</uri_path>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/ContainedAsFinalConditionIn">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>MathModDB/ContainedAsFinalConditionIn</uri_path>
 		<dc:comment/>
 		<text lang="en">is contained as final condition in</text>
 		<help lang="en"/>
@@ -108,25 +108,25 @@
 		<view_text lang="de"/>
 		<additional_input/>
 	</option>
-	<optionset dc:uri="http://example.com/terms/options/MaRDI/ContainsObjectives">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/ContainsObjectives</uri_path>
+	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/ContainsObjectives">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>ContainsObjectives</uri_path>
 		<dc:comment/>
 		<provider_key/>
 		<options>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/ContainsAssumption" order="0"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/ContainsBoundaryCondition" order="1"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/ContainsConstraintCondition" order="2"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/ContainsCouplingCondition" order="3"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/ContainsFormulation" order="4"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/ContainsInitialCondition" order="5"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/ContainsFinalCondition" order="6"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/ContainsAssumption" order="0"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/ContainsBoundaryCondition" order="1"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/ContainsConstraintCondition" order="2"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/ContainsCouplingCondition" order="3"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/ContainsFormulation" order="4"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/ContainsInitialCondition" order="5"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/ContainsFinalCondition" order="6"/>
 		</options>
 		<conditions/>
 	</optionset>
-	<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/ContainsAssumption">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/MathModDB/ContainsAssumption</uri_path>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/ContainsAssumption">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>MathModDB/ContainsAssumption</uri_path>
 		<dc:comment/>
 		<text lang="en">contains as assumption</text>
 		<help lang="en"/>
@@ -136,9 +136,9 @@
 		<view_text lang="de"/>
 		<additional_input/>
 	</option>
-	<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/ContainsBoundaryCondition">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/MathModDB/ContainsBoundaryCondition</uri_path>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/ContainsBoundaryCondition">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>MathModDB/ContainsBoundaryCondition</uri_path>
 		<dc:comment/>
 		<text lang="en">contains as boundary condition</text>
 		<help lang="en"/>
@@ -148,9 +148,9 @@
 		<view_text lang="de"/>
 		<additional_input/>
 	</option>
-	<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/ContainsConstraintCondition">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/MathModDB/ContainsConstraintCondition</uri_path>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/ContainsConstraintCondition">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>MathModDB/ContainsConstraintCondition</uri_path>
 		<dc:comment/>
 		<text lang="en">contains as constraint condition</text>
 		<help lang="en"/>
@@ -160,9 +160,9 @@
 		<view_text lang="de"/>
 		<additional_input/>
 	</option>
-	<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/ContainsCouplingCondition">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/MathModDB/ContainsCouplingCondition</uri_path>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/ContainsCouplingCondition">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>MathModDB/ContainsCouplingCondition</uri_path>
 		<dc:comment/>
 		<text lang="en">contains as coupling condition</text>
 		<help lang="en"/>
@@ -172,9 +172,9 @@
 		<view_text lang="de"/>
 		<additional_input/>
 	</option>
-	<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/ContainsFormulation">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/MathModDB/ContainsFormulation</uri_path>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/ContainsFormulation">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>MathModDB/ContainsFormulation</uri_path>
 		<dc:comment/>
 		<text lang="en">contains as formulation</text>
 		<help lang="en"/>
@@ -184,9 +184,9 @@
 		<view_text lang="de"/>
 		<additional_input/>
 	</option>
-	<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/ContainsInitialCondition">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/MathModDB/ContainsInitialCondition</uri_path>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/ContainsInitialCondition">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>MathModDB/ContainsInitialCondition</uri_path>
 		<dc:comment/>
 		<text lang="en">contains as initial condition</text>
 		<help lang="en"/>
@@ -196,9 +196,9 @@
 		<view_text lang="de"/>
 		<additional_input/>
 	</option>
-	<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/ContainsFinalCondition">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/MathModDB/ContainsFinalCondition</uri_path>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/ContainsFinalCondition">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>MathModDB/ContainsFinalCondition</uri_path>
 		<dc:comment/>
 		<text lang="en">contains as final condition</text>
 		<help lang="en"/>
@@ -208,34 +208,34 @@
 		<view_text lang="de"/>
 		<additional_input/>
 	</option>
-	<optionset dc:uri="http://example.com/terms/options/MaRDI/DataPropertiesSet1">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/DataPropertiesSet1</uri_path>
+	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/DataPropertiesSet1">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>DataPropertiesSet1</uri_path>
 		<dc:comment/>
 		<provider_key/>
 		<options>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/IsConvex" order="0"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/IsNotConvex" order="1"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/IsDeterministic" order="2"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/IsStochastic" order="3"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/IsDimensionless" order="4"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/IsDimensional" order="5"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/IsDynamic" order="6"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/IsStatic" order="7"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/IsLinear" order="8"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/IsNotLinear" order="9"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/IsSpaceContinuous" order="10"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/IsSpaceDiscrete" order="11"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/IsSpaceIndependent" order="12"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/IsTimeContinuous" order="13"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/IsTimeDiscrete" order="14"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/IsTimeIndependent" order="15"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/IsConvex" order="0"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/IsNotConvex" order="1"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/IsDeterministic" order="2"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/IsStochastic" order="3"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/IsDimensionless" order="4"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/IsDimensional" order="5"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/IsDynamic" order="6"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/IsStatic" order="7"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/IsLinear" order="8"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/IsNotLinear" order="9"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/IsSpaceContinuous" order="10"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/IsSpaceDiscrete" order="11"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/IsSpaceIndependent" order="12"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/IsTimeContinuous" order="13"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/IsTimeDiscrete" order="14"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/IsTimeIndependent" order="15"/>
 		</options>
 		<conditions/>
 	</optionset>
-	<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/IsConvex">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/MathModDB/IsConvex</uri_path>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/IsConvex">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>MathModDB/IsConvex</uri_path>
 		<dc:comment/>
 		<text lang="en">is convex</text>
 		<help lang="en"/>
@@ -245,9 +245,9 @@
 		<view_text lang="de"/>
 		<additional_input/>
 	</option>
-	<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/IsNotConvex">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/MathModDB/IsNotConvex</uri_path>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/IsNotConvex">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>MathModDB/IsNotConvex</uri_path>
 		<dc:comment/>
 		<text lang="en">is not convex</text>
 		<help lang="en"/>
@@ -257,9 +257,9 @@
 		<view_text lang="de"/>
 		<additional_input/>
 	</option>
-	<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/IsDeterministic">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/MathModDB/IsDeterministic</uri_path>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/IsDeterministic">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>MathModDB/IsDeterministic</uri_path>
 		<dc:comment/>
 		<text lang="en">is deterministic</text>
 		<help lang="en"/>
@@ -269,9 +269,9 @@
 		<view_text lang="de"/>
 		<additional_input/>
 	</option>
-	<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/IsStochastic">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/MathModDB/IsStochastic</uri_path>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/IsStochastic">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>MathModDB/IsStochastic</uri_path>
 		<dc:comment/>
 		<text lang="en">is stochastic</text>
 		<help lang="en"/>
@@ -281,9 +281,9 @@
 		<view_text lang="de"/>
 		<additional_input/>
 	</option>
-	<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/IsDimensionless">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/MathModDB/IsDimensionless</uri_path>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/IsDimensionless">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>MathModDB/IsDimensionless</uri_path>
 		<dc:comment/>
 		<text lang="en">is dimensionless</text>
 		<help lang="en"/>
@@ -293,9 +293,9 @@
 		<view_text lang="de"/>
 		<additional_input/>
 	</option>
-	<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/IsDimensional">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/MathModDB/IsDimensional</uri_path>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/IsDimensional">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>MathModDB/IsDimensional</uri_path>
 		<dc:comment/>
 		<text lang="en">is dimensional</text>
 		<help lang="en"/>
@@ -305,9 +305,9 @@
 		<view_text lang="de"/>
 		<additional_input/>
 	</option>
-	<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/IsDynamic">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/MathModDB/IsDynamic</uri_path>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/IsDynamic">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>MathModDB/IsDynamic</uri_path>
 		<dc:comment/>
 		<text lang="en">is dynamic</text>
 		<help lang="en"/>
@@ -317,9 +317,9 @@
 		<view_text lang="de"/>
 		<additional_input/>
 	</option>
-	<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/IsStatic">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/MathModDB/IsStatic</uri_path>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/IsStatic">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>MathModDB/IsStatic</uri_path>
 		<dc:comment/>
 		<text lang="en">is static</text>
 		<help lang="en"/>
@@ -329,9 +329,9 @@
 		<view_text lang="de"/>
 		<additional_input/>
 	</option>
-	<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/IsLinear">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/MathModDB/IsLinear</uri_path>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/IsLinear">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>MathModDB/IsLinear</uri_path>
 		<dc:comment/>
 		<text lang="en">is linear</text>
 		<help lang="en"/>
@@ -341,9 +341,9 @@
 		<view_text lang="de"/>
 		<additional_input/>
 	</option>
-	<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/IsNotLinear">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/MathModDB/IsNotLinear</uri_path>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/IsNotLinear">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>MathModDB/IsNotLinear</uri_path>
 		<dc:comment/>
 		<text lang="en">is not linear</text>
 		<help lang="en"/>
@@ -353,9 +353,9 @@
 		<view_text lang="de"/>
 		<additional_input/>
 	</option>
-	<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/IsSpaceContinuous">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/MathModDB/IsSpaceContinuous</uri_path>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/IsSpaceContinuous">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>MathModDB/IsSpaceContinuous</uri_path>
 		<dc:comment/>
 		<text lang="en">is space-continuous</text>
 		<help lang="en"/>
@@ -365,9 +365,9 @@
 		<view_text lang="de"/>
 		<additional_input/>
 	</option>
-	<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/IsSpaceDiscrete">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/MathModDB/IsSpaceDiscrete</uri_path>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/IsSpaceDiscrete">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>MathModDB/IsSpaceDiscrete</uri_path>
 		<dc:comment/>
 		<text lang="en">is space-discrete</text>
 		<help lang="en"/>
@@ -377,9 +377,9 @@
 		<view_text lang="de"/>
 		<additional_input/>
 	</option>
-	<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/IsSpaceIndependent">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/MathModDB/IsSpaceIndependent</uri_path>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/IsSpaceIndependent">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>MathModDB/IsSpaceIndependent</uri_path>
 		<dc:comment/>
 		<text lang="en">is space-independent</text>
 		<help lang="en"/>
@@ -389,9 +389,9 @@
 		<view_text lang="de"/>
 		<additional_input/>
 	</option>
-	<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/IsTimeContinuous">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/MathModDB/IsTimeContinuous</uri_path>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/IsTimeContinuous">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>MathModDB/IsTimeContinuous</uri_path>
 		<dc:comment/>
 		<text lang="en">is time-continuous</text>
 		<help lang="en"/>
@@ -401,9 +401,9 @@
 		<view_text lang="de"/>
 		<additional_input/>
 	</option>
-	<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/IsTimeDiscrete">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/MathModDB/IsTimeDiscrete</uri_path>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/IsTimeDiscrete">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>MathModDB/IsTimeDiscrete</uri_path>
 		<dc:comment/>
 		<text lang="en">is time-discrete</text>
 		<help lang="en"/>
@@ -413,9 +413,9 @@
 		<view_text lang="de"/>
 		<additional_input/>
 	</option>
-	<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/IsTimeIndependent">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/MathModDB/IsTimeIndependent</uri_path>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/IsTimeIndependent">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>MathModDB/IsTimeIndependent</uri_path>
 		<dc:comment/>
 		<text lang="en">is time-independent</text>
 		<help lang="en"/>
@@ -425,57 +425,58 @@
 		<view_text lang="de"/>
 		<additional_input/>
 	</option>
-	<optionset dc:uri="http://example.com/terms/options/MaRDI/DataPropertiesSet2">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/DataPropertiesSet2</uri_path>
+	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/DataPropertiesSet2">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>DataPropertiesSet2</uri_path>
 		<dc:comment/>
 		<provider_key/>
 		<options>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/IsDimensionless" order="1"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/IsDimensional" order="2"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/IsLinear" order="3"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/IsNotLinear" order="4"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/IsDimensionless" order="1"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/IsDimensional" order="2"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/IsLinear" order="3"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/IsNotLinear" order="4"/>
 		</options>
 		<conditions/>
 	</optionset>
-	<optionset dc:uri="http://example.com/terms/options/MaRDI/DataPropertiesSet3">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/DataPropertiesSet3</uri_path>
+	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/DataPropertiesSet3">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>DataPropertiesSet3</uri_path>
 		<dc:comment/>
 		<provider_key/>
 		<options>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/IsDimensionless" order="1"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/IsDimensional" order="2"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/IsDimensionless" order="1"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/IsDimensional" order="2"/>
 		</options>
 		<conditions/>
 	</optionset>
-	<optionset dc:uri="http://example.com/terms/options/MaRDI/DataPropertiesSet4">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/DataPropertiesSet4</uri_path>
+	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/DataPropertiesSet4">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>DataPropertiesSet4</uri_path>
 		<dc:comment/>
 		<provider_key/>
 		<options>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/IsLinear" order="1"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/IsNotLinear" order="2"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/IsLinear" order="1"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/IsNotLinear" order="2"/>
 		</options>
 		<conditions/>
 	</optionset>
-	<optionset dc:uri="http://example.com/terms/options/MaRDI/InputOutputObjectiveParameter">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/InputOutputObjectiveParameter</uri_path>
+	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/InputOutputObjectiveParameterConstant">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>InputOutputObjectiveParameterConstant</uri_path>
 		<dc:comment/>
 		<provider_key/>
 		<options>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/ContainsInput" order="1"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/ContainsOutput" order="2"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/ContainsObjective" order="3"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/ContainsParameter" order="4"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/ContainsInput" order="1"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/ContainsOutput" order="2"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/ContainsObjective" order="3"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/ContainsParameter" order="4"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/ContainsConstant" order="5"/>
 		</options>
 		<conditions/>
 	</optionset>
-	<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/ContainsInput">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/MathModDB/ContainsInput</uri_path>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/ContainsInput">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>MathModDB/ContainsInput</uri_path>
 		<dc:comment/>
 		<text lang="en">contains as input</text>
 		<help lang="en"/>
@@ -485,9 +486,9 @@
 		<view_text lang="de"/>
 		<additional_input/>
 	</option>
-	<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/ContainsOutput">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/MathModDB/ContainsOutput</uri_path>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/ContainsOutput">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>MathModDB/ContainsOutput</uri_path>
 		<dc:comment/>
 		<text lang="en">contains as output</text>
 		<help lang="en"/>
@@ -497,9 +498,9 @@
 		<view_text lang="de"/>
 		<additional_input/>
 	</option>
-	<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/ContainsObjective">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/MathModDB/ContainsObjective</uri_path>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/ContainsObjective">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>MathModDB/ContainsObjective</uri_path>
 		<dc:comment/>
 		<text lang="en">contains as objective</text>
 		<help lang="en"/>
@@ -509,9 +510,9 @@
 		<view_text lang="de"/>
 		<additional_input/>
 	</option>
-	<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/ContainsParameter">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/MathModDB/ContainsParameter</uri_path>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/ContainsParameter">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>MathModDB/ContainsParameter</uri_path>
 		<dc:comment/>
 		<text lang="en">contains as parameter</text>
 		<help lang="en"/>
@@ -521,69 +522,59 @@
 		<view_text lang="de"/>
 		<additional_input/>
 	</option>
-	<optionset dc:uri="http://example.com/terms/options/MaRDI/MFQ">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/MFQ</uri_path>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/ContainsConstant">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>MathModDB/ContainsConstant</uri_path>
 		<dc:comment/>
-		<provider_key/>
-		<options>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MFQ0" order="1"/>
-		</options>
-		<conditions/>
-	</optionset>
-	<option dc:uri="http://example.com/terms/options/MaRDI/MFQ0">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/MFQ0</uri_path>
-		<dc:comment/>
-		<text lang="en">defines</text>
+		<text lang="en">contains as constant</text>
 		<help lang="en"/>
 		<view_text lang="en"/>
-		<text lang="de">definiert</text>
+		<text lang="de">enthält als Konstante</text>
 		<help lang="de"/>
 		<view_text lang="de"/>
 		<additional_input/>
 	</option>
-	<optionset dc:uri="http://example.com/terms/options/MaRDI/MFRelations2">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/MFRelations2</uri_path>
+	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MFRelations2">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>MFRelations2</uri_path>
 		<dc:comment/>
 		<provider_key>MathematicalFormulation2</provider_key>
 		<options/>
 		<conditions/>
 	</optionset>
-	<optionset dc:uri="http://example.com/terms/options/MaRDI/MMRelations">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/MMRelations</uri_path>
+	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MMRelations">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>MMRelations</uri_path>
 		<dc:comment/>
 		<provider_key>MathematicalModelRelation</provider_key>
 		<options/>
 		<conditions/>
 	</optionset>
-	<optionset dc:uri="http://example.com/terms/options/MaRDI/MMRelations2">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/MMRelations2</uri_path>
+	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MMRelations2">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>MMRelations2</uri_path>
 		<dc:comment/>
 		<provider_key>MathematicalModelRelation2</provider_key>
 		<options/>
 		<conditions/>
 	</optionset>
-	<optionset dc:uri="http://example.com/terms/options/MaRDI/MathModDB/PublicationRelations">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/MathModDB/PublicationRelations</uri_path>
+	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/PublicationRelations">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>MathModDB/PublicationRelations</uri_path>
 		<dc:comment/>
 		<provider_key/>
 		<options>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/Documents" order="1"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/Invents" order="2"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/Studies" order="3"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/Surveys" order="4"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/Uses" order="5"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/Documents" order="1"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/Invents" order="2"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/Studies" order="3"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/Surveys" order="4"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/Uses" order="5"/>
 		</options>
 		<conditions/>
 	</optionset>
-	<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/Documents">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/MathModDB/Documents</uri_path>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/Documents">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>MathModDB/Documents</uri_path>
 		<dc:comment/>
 		<text lang="en">documents</text>
 		<help lang="en"/>
@@ -593,9 +584,9 @@
 		<view_text lang="de"/>
 		<additional_input/>
 	</option>
-	<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/Invents">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/MathModDB/Invents</uri_path>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/Invents">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>MathModDB/Invents</uri_path>
 		<dc:comment/>
 		<text lang="en">invents</text>
 		<help lang="en"/>
@@ -605,9 +596,9 @@
 		<view_text lang="de"/>
 		<additional_input/>
 	</option>
-	<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/Studies">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/MathModDB/Studies</uri_path>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/Studies">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>MathModDB/Studies</uri_path>
 		<dc:comment/>
 		<text lang="en">studies</text>
 		<help lang="en"/>
@@ -617,9 +608,9 @@
 		<view_text lang="de"/>
 		<additional_input/>
 	</option>
-	<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/Surveys">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/MathModDB/Surveys</uri_path>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/Surveys">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>MathModDB/Surveys</uri_path>
 		<dc:comment/>
 		<text lang="en">surveys</text>
 		<help lang="en"/>
@@ -629,9 +620,9 @@
 		<view_text lang="de"/>
 		<additional_input/>
 	</option>
-	<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/Uses">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/MathModDB/Uses</uri_path>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/Uses">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>MathModDB/Uses</uri_path>
 		<dc:comment/>
 		<text lang="en">uses</text>
 		<help lang="en"/>
@@ -641,53 +632,53 @@
 		<view_text lang="de"/>
 		<additional_input/>
 	</option>
-	<optionset dc:uri="http://example.com/terms/options/MaRDI/MathematicalFormulation">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/MathematicalFormulation</uri_path>
+	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathematicalFormulation">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>MathematicalFormulation</uri_path>
 		<dc:comment/>
 		<provider_key>MathematicalFormulation</provider_key>
 		<options/>
 		<conditions/>
 	</optionset>
-	<optionset dc:uri="http://example.com/terms/options/MaRDI/MathematicalFormulation_kinds2">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/MathematicalFormulation_kinds2</uri_path>
+	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathematicalFormulation_kinds2">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>MathematicalFormulation_kinds2</uri_path>
 		<dc:comment/>
 		<provider_key/>
 		<options>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/ContainedAsAssumptionIn" order="0"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/ContainedAsBoundaryConditionIn" order="2"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/ContainedAsConstraintConditionIn" order="4"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/ContainedAsCouplingConditionIn" order="6"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/ContainedAsFormulationIn" order="8"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/ContainedAsInitialConditionIn" order="10"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/ContainedAsFinalConditionIn" order="12"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/ContainedAsAssumptionIn" order="0"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/ContainedAsBoundaryConditionIn" order="2"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/ContainedAsConstraintConditionIn" order="4"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/ContainedAsCouplingConditionIn" order="6"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/ContainedAsFormulationIn" order="8"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/ContainedAsInitialConditionIn" order="10"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/ContainedAsFinalConditionIn" order="12"/>
 		</options>
 		<conditions/>
 	</optionset>
-	<optionset dc:uri="http://example.com/terms/options/MaRDI/MathematicalFormulation_relations">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/MathematicalFormulation_relations</uri_path>
+	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathematicalFormulation_relations">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>MathematicalFormulation_relations</uri_path>
 		<dc:comment/>
 		<provider_key/>
 		<options>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/ApproximatedBy" order="0"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/Approximates" order="1"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/DiscretizedBy" order="2"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/Discretizes" order="3"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/GeneralizedBy" order="4"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/Generalizes" order="5"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/NondimensionalizedBy" order="6"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/Nondimensionalizes" order="7"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/LinearizedBy" order="8"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/Linearizes" order="9"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/SimilarTo" order="10"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/ApproximatedBy" order="0"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/Approximates" order="1"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/DiscretizedBy" order="2"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/Discretizes" order="3"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/GeneralizedBy" order="4"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/Generalizes" order="5"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/NondimensionalizedBy" order="6"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/Nondimensionalizes" order="7"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/LinearizedBy" order="8"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/Linearizes" order="9"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/SimilarTo" order="10"/>
 		</options>
 		<conditions/>
 	</optionset>
-	<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/ApproximatedBy">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/MathModDB/ApproximatedBy</uri_path>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/ApproximatedBy">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>MathModDB/ApproximatedBy</uri_path>
 		<dc:comment/>
 		<text lang="en">is approximated by</text>
 		<help lang="en"/>
@@ -697,9 +688,9 @@
 		<view_text lang="de"/>
 		<additional_input/>
 	</option>
-	<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/Approximates">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/MathModDB/Approximates</uri_path>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/Approximates">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>MathModDB/Approximates</uri_path>
 		<dc:comment/>
 		<text lang="en">approximates</text>
 		<help lang="en"/>
@@ -709,9 +700,9 @@
 		<view_text lang="de"/>
 		<additional_input/>
 	</option>
-	<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/DiscretizedBy">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/MathModDB/DiscretizedBy</uri_path>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/DiscretizedBy">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>MathModDB/DiscretizedBy</uri_path>
 		<dc:comment/>
 		<text lang="en">is discretized by</text>
 		<help lang="en"/>
@@ -721,9 +712,9 @@
 		<view_text lang="de"/>
 		<additional_input/>
 	</option>
-	<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/Discretizes">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/MathModDB/Discretizes</uri_path>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/Discretizes">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>MathModDB/Discretizes</uri_path>
 		<dc:comment/>
 		<text lang="en">discretizes</text>
 		<help lang="en"/>
@@ -733,9 +724,9 @@
 		<view_text lang="de"/>
 		<additional_input/>
 	</option>
-	<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/GeneralizedBy">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/MathModDB/GeneralizedBy</uri_path>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/GeneralizedBy">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>MathModDB/GeneralizedBy</uri_path>
 		<dc:comment/>
 		<text lang="en">is generalized by</text>
 		<help lang="en"/>
@@ -745,9 +736,9 @@
 		<view_text lang="de"/>
 		<additional_input/>
 	</option>
-	<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/Generalizes">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/MathModDB/Generalizes</uri_path>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/Generalizes">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>MathModDB/Generalizes</uri_path>
 		<dc:comment/>
 		<text lang="en">generalizes</text>
 		<help lang="en"/>
@@ -757,9 +748,9 @@
 		<view_text lang="de"/>
 		<additional_input/>
 	</option>
-	<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/NondimensionalizedBy">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/MathModDB/NondimensionalizedBy</uri_path>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/NondimensionalizedBy">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>MathModDB/NondimensionalizedBy</uri_path>
 		<dc:comment/>
 		<text lang="en">is nondimensionalized by</text>
 		<help lang="en"/>
@@ -769,9 +760,9 @@
 		<view_text lang="de"/>
 		<additional_input/>
 	</option>
-	<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/Nondimensionalizes">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/MathModDB/Nondimensionalizes</uri_path>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/Nondimensionalizes">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>MathModDB/Nondimensionalizes</uri_path>
 		<dc:comment/>
 		<text lang="en">nondimensionalizes</text>
 		<help lang="en"/>
@@ -781,9 +772,9 @@
 		<view_text lang="de"/>
 		<additional_input/>
 	</option>
-	<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/LinearizedBy">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/MathModDB/LinearizedBy</uri_path>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/LinearizedBy">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>MathModDB/LinearizedBy</uri_path>
 		<dc:comment/>
 		<text lang="en">is linearized by</text>
 		<help lang="en"/>
@@ -793,9 +784,9 @@
 		<view_text lang="de"/>
 		<additional_input/>
 	</option>
-	<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/Linearizes">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/MathModDB/Linearizes</uri_path>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/Linearizes">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>MathModDB/Linearizes</uri_path>
 		<dc:comment/>
 		<text lang="en">linearizes</text>
 		<help lang="en"/>
@@ -805,9 +796,9 @@
 		<view_text lang="de"/>
 		<additional_input/>
 	</option>
-	<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/SimilarTo">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/MathModDB/SimilarTo</uri_path>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/SimilarTo">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>MathModDB/SimilarTo</uri_path>
 		<dc:comment/>
 		<text lang="en">is similar to</text>
 		<help lang="en"/>
@@ -817,61 +808,45 @@
 		<view_text lang="de"/>
 		<additional_input/>
 	</option>
-	<optionset dc:uri="http://example.com/terms/options/MaRDI/MathematicalModel">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/MathematicalModel</uri_path>
+	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathematicalModel">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>MathematicalModel</uri_path>
 		<dc:comment/>
 		<provider_key>MathematicalModel</provider_key>
 		<options/>
 		<conditions/>
 	</optionset>
-	<optionset dc:uri="http://example.com/terms/options/MaRDI/MathematicalModel2">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/MathematicalModel2</uri_path>
-		<dc:comment/>
-		<provider_key>MathematicalModel2</provider_key>
-		<options/>
-		<conditions/>
-	</optionset>
-	<optionset dc:uri="http://example.com/terms/options/MaRDI/MathematicalTask">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/MathematicalTask</uri_path>
-		<dc:comment/>
-		<provider_key>Task</provider_key>
-		<options/>
-		<conditions/>
-	</optionset>
-	<optionset dc:uri="http://example.com/terms/options/MaRDI/MathematicalTask2">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/MathematicalTask2</uri_path>
+	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathematicalTask2">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>MathematicalTask2</uri_path>
 		<dc:comment/>
 		<provider_key>Task2</provider_key>
 		<options/>
 		<conditions/>
 	</optionset>
-	<optionset dc:uri="http://example.com/terms/options/MaRDI/ModelRelations">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/ModelRelations</uri_path>
+	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/ModelRelations">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>ModelRelations</uri_path>
 		<dc:comment/>
 		<provider_key/>
 		<options>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/GeneralizedBy" order="0"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/Generalizes" order="1"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/DiscretizedBy" order="2"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/Discretizes" order="3"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/ContainedIn" order="4"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/Contains" order="5"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/ApproximatedBy" order="6"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/Approximates" order="7"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/LinearizedBy" order="8"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/Linearizes" order="9"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/SimilarTo" order="10"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/GeneralizedBy" order="0"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/Generalizes" order="1"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/DiscretizedBy" order="2"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/Discretizes" order="3"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/ContainedIn" order="4"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/Contains" order="5"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/ApproximatedBy" order="6"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/Approximates" order="7"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/LinearizedBy" order="8"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/Linearizes" order="9"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/SimilarTo" order="10"/>
 		</options>
 		<conditions/>
 	</optionset>
-	<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/ContainedIn">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/MathModDB/ContainedIn</uri_path>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/ContainedIn">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>MathModDB/ContainedIn</uri_path>
 		<dc:comment/>
 		<text lang="en">is contained in</text>
 		<help lang="en"/>
@@ -881,9 +856,9 @@
 		<view_text lang="de"/>
 		<additional_input/>
 	</option>
-	<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/Contains">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/MathModDB/Contains</uri_path>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/Contains">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>MathModDB/Contains</uri_path>
 		<dc:comment/>
 		<text lang="en">contains</text>
 		<help lang="en"/>
@@ -893,108 +868,108 @@
 		<view_text lang="de"/>
 		<additional_input/>
 	</option>
-	<optionset dc:uri="http://example.com/terms/options/MaRDI/Publication">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/Publication</uri_path>
+	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/Publication">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>Publication</uri_path>
 		<dc:comment/>
 		<provider_key>Publication</provider_key>
 		<options/>
 		<conditions/>
 	</optionset>
-	<optionset dc:uri="http://example.com/terms/options/MaRDI/QKQKRelations">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/QKQKRelations</uri_path>
+	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/QKQKRelations">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>QKQKRelations</uri_path>
 		<dc:comment/>
 		<provider_key/>
 		<options>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/NondimensionalizedBy" order="1"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/Nondimensionalizes" order="2"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/SimilarTo" order="3"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/NondimensionalizedBy" order="1"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/Nondimensionalizes" order="2"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/SimilarTo" order="3"/>
 		</options>
 		<conditions/>
 	</optionset>
-	<optionset dc:uri="http://example.com/terms/options/MaRDI/QKQRelations">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/QKQRelations</uri_path>
+	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/QKQRelations">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>QKQRelations</uri_path>
 		<dc:comment/>
 		<provider_key/>
 		<options>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/Generalizes" order="0"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/NondimensionalizedBy" order="1"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/Nondimensionalizes" order="2"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/SimilarTo" order="3"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/Generalizes" order="0"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/NondimensionalizedBy" order="1"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/Nondimensionalizes" order="2"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/SimilarTo" order="3"/>
 		</options>
 		<conditions/>
 	</optionset>
-	<optionset dc:uri="http://example.com/terms/options/MaRDI/QQKRelations">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/QQKRelations</uri_path>
+	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/QQKRelations">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>QQKRelations</uri_path>
 		<dc:comment/>
 		<provider_key/>
 		<options>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/GeneralizedBy" order="0"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/NondimensionalizedBy" order="1"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/Nondimensionalizes" order="2"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/SimilarTo" order="3"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/GeneralizedBy" order="0"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/NondimensionalizedBy" order="1"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/Nondimensionalizes" order="2"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/SimilarTo" order="3"/>
 		</options>
 		<conditions/>
 	</optionset>
-	<optionset dc:uri="http://example.com/terms/options/MaRDI/QQRelations">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/QQRelations</uri_path>
+	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/QQRelations">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>QQRelations</uri_path>
 		<dc:comment/>
 		<provider_key/>
 		<options>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/GeneralizedBy" order="0"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/Generalizes" order="1"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/ApproximatedBy" order="2"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/Approximates" order="3"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/LinearizedBy" order="4"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/Linearizes" order="5"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/NondimensionalizedBy" order="6"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/Nondimensionalizes" order="7"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/SimilarTo" order="8"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/GeneralizedBy" order="0"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/Generalizes" order="1"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/ApproximatedBy" order="2"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/Approximates" order="3"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/LinearizedBy" order="4"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/Linearizes" order="5"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/NondimensionalizedBy" order="6"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/Nondimensionalizes" order="7"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/SimilarTo" order="8"/>
 		</options>
 		<conditions/>
 	</optionset>
-	<optionset dc:uri="http://example.com/terms/options/MaRDI/Quantity">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/Quantity</uri_path>
+	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/Quantity">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>Quantity</uri_path>
 		<dc:comment/>
 		<provider_key>Quantity</provider_key>
 		<options/>
 		<conditions/>
 	</optionset>
-	<optionset dc:uri="http://example.com/terms/options/MaRDI/QuantityAll">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/QuantityAll</uri_path>
+	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/QuantityAll">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>QuantityAll</uri_path>
 		<dc:comment/>
 		<provider_key>QuantityAll</provider_key>
 		<options/>
 		<conditions/>
 	</optionset>
-	<optionset dc:uri="http://example.com/terms/options/MaRDI/QuantityKindRelations">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/QuantityKindRelations</uri_path>
+	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/QuantityKindRelations">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>QuantityKindRelations</uri_path>
 		<dc:comment/>
 		<provider_key>QuantityKindRelations</provider_key>
 		<options/>
 		<conditions/>
 	</optionset>
-	<optionset dc:uri="http://example.com/terms/options/MaRDI/QuantityOrQuantityKind">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/QuantityOrQuantityKind</uri_path>
+	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/QuantityOrQuantityKind">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>QuantityOrQuantityKind</uri_path>
 		<dc:comment/>
 		<provider_key/>
 		<options>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/Quantity" order="0"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/QuantityKind" order="1"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/Quantity" order="0"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/QuantityKind" order="1"/>
 		</options>
 		<conditions/>
 	</optionset>
-	<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/Quantity">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/MathModDB/Quantity</uri_path>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/Quantity">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>MathModDB/Quantity</uri_path>
 		<dc:comment/>
 		<text lang="en">Quantity</text>
 		<help lang="en"/>
@@ -1004,9 +979,9 @@
 		<view_text lang="de"/>
 		<additional_input/>
 	</option>
-	<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/QuantityKind">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/MathModDB/QuantityKind</uri_path>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/QuantityKind">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>MathModDB/QuantityKind</uri_path>
 		<dc:comment/>
 		<text lang="en">Quantity Kind</text>
 		<help lang="en"/>
@@ -1016,99 +991,99 @@
 		<view_text lang="de"/>
 		<additional_input/>
 	</option>
-	<optionset dc:uri="http://example.com/terms/options/MaRDI/QuantityRelations">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/QuantityRelations</uri_path>
+	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/QuantityRelations">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>QuantityRelations</uri_path>
 		<dc:comment/>
 		<provider_key>QuantityRelations</provider_key>
 		<options/>
 		<conditions/>
 	</optionset>
-	<optionset dc:uri="http://example.com/terms/options/MaRDI/RFUser">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/RFUser</uri_path>
+	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/RFUser">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>RFUser</uri_path>
 		<dc:comment/>
 		<provider_key>ResearchFieldUser</provider_key>
 		<options/>
 		<conditions/>
 	</optionset>
-	<optionset dc:uri="http://example.com/terms/options/MaRDI/ResearchField">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/ResearchField</uri_path>
+	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/ResearchField">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>ResearchField</uri_path>
 		<dc:comment/>
 		<provider_key>ResearchField</provider_key>
 		<options/>
 		<conditions/>
 	</optionset>
-	<optionset dc:uri="http://example.com/terms/options/MaRDI/ResearchFieldRelations">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/ResearchFieldRelations</uri_path>
+	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/ResearchFieldRelations">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>ResearchFieldRelations</uri_path>
 		<dc:comment/>
 		<provider_key>ResearchFieldRelations</provider_key>
 		<options/>
 		<conditions/>
 	</optionset>
-	<optionset dc:uri="http://example.com/terms/options/MaRDI/ResearchField_Relations">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/ResearchField_Relations</uri_path>
+	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/ResearchField_Relations">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>ResearchField_Relations</uri_path>
 		<dc:comment/>
 		<provider_key/>
 		<options>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/GeneralizedBy" order="1"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/Generalizes" order="2"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/SimilarTo" order="3"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/GeneralizedBy" order="1"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/Generalizes" order="2"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/SimilarTo" order="3"/>
 		</options>
 		<conditions/>
 	</optionset>
-	<optionset dc:uri="http://example.com/terms/options/MaRDI/ResearchProblem">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/ResearchProblem</uri_path>
+	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/ResearchProblem">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>ResearchProblem</uri_path>
 		<dc:comment/>
 		<provider_key>ResearchProblem</provider_key>
 		<options/>
 		<conditions/>
 	</optionset>
-	<optionset dc:uri="http://example.com/terms/options/MaRDI/ResearchProblemRelations">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/ResearchProblemRelations</uri_path>
+	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/ResearchProblemRelations">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>ResearchProblemRelations</uri_path>
 		<dc:comment/>
 		<provider_key>ResearchProblemRelations</provider_key>
 		<options/>
 		<conditions/>
 	</optionset>
-	<optionset dc:uri="http://example.com/terms/options/MaRDI/ResearchProblemRelations2">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/ResearchProblemRelations2</uri_path>
+	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/ResearchProblem_Relations">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>ResearchProblem_Relations</uri_path>
 		<dc:comment/>
-		<provider_key>ResearchProblemRelations2</provider_key>
+		<provider_key/>
+		<options>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/GeneralizedBy" order="1"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/Generalizes" order="2"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/SimilarTo" order="3"/>
+		</options>
+		<conditions/>
+	</optionset>
+	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/Task">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>Task</uri_path>
+		<dc:comment/>
+		<provider_key>Task</provider_key>
 		<options/>
 		<conditions/>
 	</optionset>
-	<optionset dc:uri="http://example.com/terms/options/MaRDI/ResearchProblem_Relations">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/ResearchProblem_Relations</uri_path>
+	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/TaskCategory">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>TaskCategory</uri_path>
 		<dc:comment/>
 		<provider_key/>
 		<options>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/GeneralizedBy" order="1"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/Generalizes" order="2"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/SimilarTo" order="3"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/ComputationalTask" order="1"/>
 		</options>
 		<conditions/>
 	</optionset>
-	<optionset dc:uri="http://example.com/terms/options/MaRDI/TaskCategory">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/TaskCategory</uri_path>
-		<dc:comment/>
-		<provider_key/>
-		<options>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/ComputationalTask" order="1"/>
-		</options>
-		<conditions/>
-	</optionset>
-	<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/ComputationalTask">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/MathModDB/ComputationalTask</uri_path>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/ComputationalTask">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>MathModDB/ComputationalTask</uri_path>
 		<dc:comment/>
 		<text lang="en">Computational Task</text>
 		<help lang="en"/>
@@ -1118,70 +1093,72 @@
 		<view_text lang="de"/>
 		<additional_input/>
 	</option>
-	<optionset dc:uri="http://example.com/terms/options/MaRDI/Task_relations">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/Task_relations</uri_path>
+	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/Task_relations">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>Task_relations</uri_path>
 		<dc:comment/>
 		<provider_key/>
 		<options>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/GeneralizedBy" order="0"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/Generalizes" order="1"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/DiscretizedBy" order="2"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/Discretizes" order="3"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/ApproximatedBy" order="4"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/Approximates" order="5"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/LinearizedBy" order="6"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/Linearizes" order="7"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/SimilarTo" order="8"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/GeneralizedBy" order="0"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/Generalizes" order="1"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/DiscretizedBy" order="2"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/Discretizes" order="3"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/ContainedIn" order="4"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/Contains" order="5"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/ApproximatedBy" order="6"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/Approximates" order="7"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/LinearizedBy" order="8"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/Linearizes" order="9"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/SimilarTo" order="10"/>
 		</options>
 		<conditions/>
 	</optionset>
-	<optionset dc:uri="http://example.com/terms/options/MaRDI/WorkflowTask">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/WorkflowTask</uri_path>
+	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/WorkflowTask">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>WorkflowTask</uri_path>
 		<dc:comment/>
 		<provider_key>WorkflowTask</provider_key>
 		<options/>
 		<conditions/>
 	</optionset>
-	<optionset dc:uri="http://example.com/terms/options/MaRDI/available_software">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/available_software</uri_path>
+	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/available_software">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>available_software</uri_path>
 		<dc:comment/>
 		<provider_key>AvailableSoftware</provider_key>
 		<options/>
 		<conditions/>
 	</optionset>
-	<optionset dc:uri="http://example.com/terms/options/MaRDI/component_search">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/component_search</uri_path>
+	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/component_search">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>component_search</uri_path>
 		<dc:comment/>
 		<provider_key>ComponentSearch</provider_key>
 		<options/>
 		<conditions/>
 	</optionset>
-	<optionset dc:uri="http://example.com/terms/options/MaRDI/data">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/data</uri_path>
+	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/data">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>data</uri_path>
 		<dc:comment/>
 		<provider_key>DataProvider</provider_key>
 		<options/>
 		<conditions/>
 	</optionset>
-	<optionset dc:uri="http://example.com/terms/options/MaRDI/data_type">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/data_type</uri_path>
+	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/data_type">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>data_type</uri_path>
 		<dc:comment/>
 		<provider_key/>
 		<options>
-			<option dc:uri="http://example.com/terms/options/MaRDI/data_type/type_0" order="0"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/data_type/type_1" order="0"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/data_type/type_0" order="0"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/data_type/type_1" order="0"/>
 		</options>
 		<conditions/>
 	</optionset>
-	<option dc:uri="http://example.com/terms/options/MaRDI/data_type/type_0">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/data_type/type_0</uri_path>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/data_type/type_0">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>data_type/type_0</uri_path>
 		<dc:comment/>
 		<text lang="en">Binary</text>
 		<help lang="en"/>
@@ -1191,9 +1168,9 @@
 		<view_text lang="de"/>
 		<additional_input/>
 	</option>
-	<option dc:uri="http://example.com/terms/options/MaRDI/data_type/type_1">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/data_type/type_1</uri_path>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/data_type/type_1">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>data_type/type_1</uri_path>
 		<dc:comment/>
 		<text lang="en">Text</text>
 		<help lang="en"/>
@@ -1203,28 +1180,28 @@
 		<view_text lang="de"/>
 		<additional_input/>
 	</option>
-	<optionset dc:uri="http://example.com/terms/options/MaRDI/environment">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/environment</uri_path>
+	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/environment">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>environment</uri_path>
 		<dc:comment/>
 		<provider_key>EnvironmentProvider</provider_key>
 		<options/>
 		<conditions/>
 	</optionset>
-	<optionset dc:uri="http://example.com/terms/options/MaRDI/languages">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/languages</uri_path>
+	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/languages">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>languages</uri_path>
 		<dc:comment/>
 		<provider_key/>
 		<options>
-			<option dc:uri="http://example.com/terms/options/MaRDI/languages/english" order="1"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/languages/german" order="2"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/languages/english" order="1"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/languages/german" order="2"/>
 		</options>
 		<conditions/>
 	</optionset>
-	<option dc:uri="http://example.com/terms/options/MaRDI/languages/english">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/languages/english</uri_path>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/languages/english">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>languages/english</uri_path>
 		<dc:comment/>
 		<text lang="en">English</text>
 		<help lang="en"/>
@@ -1234,9 +1211,9 @@
 		<view_text lang="de"/>
 		<additional_input/>
 	</option>
-	<option dc:uri="http://example.com/terms/options/MaRDI/languages/german">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/languages/german</uri_path>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/languages/german">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>languages/german</uri_path>
 		<dc:comment/>
 		<text lang="en">German</text>
 		<help lang="en"/>
@@ -1246,44 +1223,44 @@
 		<view_text lang="de"/>
 		<additional_input/>
 	</option>
-	<optionset dc:uri="http://example.com/terms/options/MaRDI/matharea">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/matharea</uri_path>
+	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/matharea">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>matharea</uri_path>
 		<dc:comment/>
 		<provider_key>MathAreaProvider</provider_key>
 		<options/>
 		<conditions/>
 	</optionset>
-	<optionset dc:uri="http://example.com/terms/options/MaRDI/method">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/method</uri_path>
+	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/method">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>method</uri_path>
 		<dc:comment/>
 		<provider_key>MethodProvider</provider_key>
 		<options/>
 		<conditions/>
 	</optionset>
-	<optionset dc:uri="http://example.com/terms/options/MaRDI/msc">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/msc</uri_path>
+	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/msc">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>msc</uri_path>
 		<dc:comment/>
 		<provider_key>MSCProvider</provider_key>
 		<options/>
 		<conditions/>
 	</optionset>
-	<optionset dc:uri="http://example.com/terms/options/MaRDI/operation_modus">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/operation_modus</uri_path>
+	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/operation_modus">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>operation_modus</uri_path>
 		<dc:comment/>
 		<provider_key/>
 		<options>
-			<option dc:uri="http://example.com/terms/options/MaRDI/operation_modus/modus_1" order="0"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/operation_modus/modus_0" order="1"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/operation_modus/modus_1" order="0"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/operation_modus/modus_0" order="1"/>
 		</options>
 		<conditions/>
 	</optionset>
-	<option dc:uri="http://example.com/terms/options/MaRDI/operation_modus/modus_1">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/operation_modus/modus_1</uri_path>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/operation_modus/modus_1">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>operation_modus/modus_1</uri_path>
 		<dc:comment/>
 		<text lang="en">Search</text>
 		<help lang="en"/>
@@ -1293,9 +1270,9 @@
 		<view_text lang="de"/>
 		<additional_input/>
 	</option>
-	<option dc:uri="http://example.com/terms/options/MaRDI/operation_modus/modus_0">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/operation_modus/modus_0</uri_path>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/operation_modus/modus_0">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>operation_modus/modus_0</uri_path>
 		<dc:comment/>
 		<text lang="en">Document</text>
 		<help lang="en"/>
@@ -1305,20 +1282,20 @@
 		<view_text lang="de"/>
 		<additional_input/>
 	</option>
-	<optionset dc:uri="http://example.com/terms/options/MaRDI/operation_modus_2">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/operation_modus_2</uri_path>
+	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/operation_modus_2">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>operation_modus_2</uri_path>
 		<dc:comment/>
 		<provider_key/>
 		<options>
-			<option dc:uri="http://example.com/terms/options/MaRDI/operation_modus_2/workflow" order="1"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/operation_modus_2/model" order="2"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/operation_modus_2/workflow" order="1"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/operation_modus_2/model" order="2"/>
 		</options>
 		<conditions/>
 	</optionset>
-	<option dc:uri="http://example.com/terms/options/MaRDI/operation_modus_2/workflow">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/operation_modus_2/workflow</uri_path>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/operation_modus_2/workflow">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>operation_modus_2/workflow</uri_path>
 		<dc:comment/>
 		<text lang="en">Workflow</text>
 		<help lang="en"/>
@@ -1328,9 +1305,9 @@
 		<view_text lang="de"/>
 		<additional_input/>
 	</option>
-	<option dc:uri="http://example.com/terms/options/MaRDI/operation_modus_2/model">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/operation_modus_2/model</uri_path>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/operation_modus_2/model">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>operation_modus_2/model</uri_path>
 		<dc:comment/>
 		<text lang="en">Mathematical Model</text>
 		<help lang="en"/>
@@ -1340,28 +1317,28 @@
 		<view_text lang="de"/>
 		<additional_input/>
 	</option>
-	<optionset dc:uri="http://example.com/terms/options/MaRDI/processor">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/processor</uri_path>
+	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/processor">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>processor</uri_path>
 		<dc:comment/>
 		<provider_key>ProcessorProvider</provider_key>
 		<options/>
 		<conditions/>
 	</optionset>
-	<optionset dc:uri="http://example.com/terms/options/MaRDI/publication_type">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/publication_type</uri_path>
+	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/publication_type">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>publication_type</uri_path>
 		<dc:comment/>
 		<provider_key/>
 		<options>
-			<option dc:uri="http://example.com/terms/options/MaRDI/publication_type/type_0" order="0"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/publication_type/type_1" order="1"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/publication_type/type_0" order="0"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/publication_type/type_1" order="1"/>
 		</options>
 		<conditions/>
 	</optionset>
-	<option dc:uri="http://example.com/terms/options/MaRDI/publication_type/type_0">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/publication_type/type_0</uri_path>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/publication_type/type_0">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>publication_type/type_0</uri_path>
 		<dc:comment/>
 		<text lang="en">MaRDI Export</text>
 		<help lang="en"/>
@@ -1371,9 +1348,9 @@
 		<view_text lang="de"/>
 		<additional_input/>
 	</option>
-	<option dc:uri="http://example.com/terms/options/MaRDI/publication_type/type_1">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/publication_type/type_1</uri_path>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/publication_type/type_1">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>publication_type/type_1</uri_path>
 		<dc:comment/>
 		<text lang="en">Markdown File</text>
 		<help lang="en"/>
@@ -1383,22 +1360,22 @@
 		<view_text lang="de"/>
 		<additional_input/>
 	</option>
-	<optionset dc:uri="http://example.com/terms/options/MaRDI/size">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/size</uri_path>
+	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/size">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>size</uri_path>
 		<dc:comment/>
 		<provider_key/>
 		<options>
-			<option dc:uri="http://example.com/terms/options/MaRDI/size/KB" order="0"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/size/MB" order="1"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/size/GB" order="2"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/size/TB" order="3"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/size/KB" order="0"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/size/MB" order="1"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/size/GB" order="2"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/size/TB" order="3"/>
 		</options>
 		<conditions/>
 	</optionset>
-	<option dc:uri="http://example.com/terms/options/MaRDI/size/KB">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/size/KB</uri_path>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/size/KB">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>size/KB</uri_path>
 		<dc:comment/>
 		<text lang="en">Small (KB - MB)</text>
 		<help lang="en"/>
@@ -1408,9 +1385,9 @@
 		<view_text lang="de"/>
 		<additional_input/>
 	</option>
-	<option dc:uri="http://example.com/terms/options/MaRDI/size/MB">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/size/MB</uri_path>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/size/MB">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>size/MB</uri_path>
 		<dc:comment/>
 		<text lang="en">Medium (MB - GB)</text>
 		<help lang="en"/>
@@ -1420,9 +1397,9 @@
 		<view_text lang="de"/>
 		<additional_input/>
 	</option>
-	<option dc:uri="http://example.com/terms/options/MaRDI/size/GB">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/size/GB</uri_path>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/size/GB">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>size/GB</uri_path>
 		<dc:comment/>
 		<text lang="en">Large (GB - TB)</text>
 		<help lang="en"/>
@@ -1432,9 +1409,9 @@
 		<view_text lang="de"/>
 		<additional_input/>
 	</option>
-	<option dc:uri="http://example.com/terms/options/MaRDI/size/TB">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/size/TB</uri_path>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/size/TB">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>size/TB</uri_path>
 		<dc:comment/>
 		<text lang="en">Very Large (&gt;TB)</text>
 		<help lang="en"/>
@@ -1444,36 +1421,36 @@
 		<view_text lang="de"/>
 		<additional_input/>
 	</option>
-	<optionset dc:uri="http://example.com/terms/options/MaRDI/software">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/software</uri_path>
+	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/software">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>software</uri_path>
 		<dc:comment/>
 		<provider_key>SoftwareProvider</provider_key>
 		<options/>
 		<conditions/>
 	</optionset>
-	<optionset dc:uri="http://example.com/terms/options/MaRDI/wikidata_search">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/wikidata_search</uri_path>
+	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/wikidata_search">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>wikidata_search</uri_path>
 		<dc:comment/>
 		<provider_key>WikidataSearch</provider_key>
 		<options/>
 		<conditions/>
 	</optionset>
-	<optionset dc:uri="http://example.com/terms/options/MaRDI/workflow_type">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/workflow_type</uri_path>
+	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/workflow_type">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>workflow_type</uri_path>
 		<dc:comment>Type of the MaRDI Workflow</dc:comment>
 		<provider_key/>
 		<options>
-			<option dc:uri="http://example.com/terms/options/MaRDI/workflow_type/type_1" order="0"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/workflow_type/type_0" order="1"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/workflow_type/type_1" order="0"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/workflow_type/type_0" order="1"/>
 		</options>
 		<conditions/>
 	</optionset>
-	<option dc:uri="http://example.com/terms/options/MaRDI/workflow_type/type_1">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/workflow_type/type_1</uri_path>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/workflow_type/type_1">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>workflow_type/type_1</uri_path>
 		<dc:comment/>
 		<text lang="en">Computational Workflow</text>
 		<help lang="en"/>
@@ -1483,9 +1460,9 @@
 		<view_text lang="de"/>
 		<additional_input/>
 	</option>
-	<option dc:uri="http://example.com/terms/options/MaRDI/workflow_type/type_0">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/workflow_type/type_0</uri_path>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/workflow_type/type_0">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>workflow_type/type_0</uri_path>
 		<dc:comment/>
 		<text lang="en">(Measurement) Data Analysis Workflow</text>
 		<help lang="en"/>
@@ -1495,20 +1472,20 @@
 		<view_text lang="de"/>
 		<additional_input/>
 	</option>
-	<optionset dc:uri="http://example.com/terms/options/MaRDI/yes_no">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/yes_no</uri_path>
+	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/yes_no">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>yes_no</uri_path>
 		<dc:comment/>
 		<provider_key/>
 		<options>
-			<option dc:uri="http://example.com/terms/options/MaRDI/yes_no/yes" order="0"/>
-			<option dc:uri="http://example.com/terms/options/MaRDI/yes_no/no" order="1"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/yes_no/yes" order="0"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/yes_no/no" order="1"/>
 		</options>
 		<conditions/>
 	</optionset>
-	<option dc:uri="http://example.com/terms/options/MaRDI/yes_no/yes">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/yes_no/yes</uri_path>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/yes_no/yes">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>yes_no/yes</uri_path>
 		<dc:comment/>
 		<text lang="en">Yes</text>
 		<help lang="en"/>
@@ -1518,9 +1495,9 @@
 		<view_text lang="de"/>
 		<additional_input/>
 	</option>
-	<option dc:uri="http://example.com/terms/options/MaRDI/yes_no/no">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MaRDI/yes_no/no</uri_path>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/yes_no/no">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>yes_no/no</uri_path>
 		<dc:comment/>
 		<text lang="en">No</text>
 		<help lang="en"/>
@@ -1565,52 +1542,4 @@
 		<view_text lang="de"/>
 		<additional_input/>
 	</option>
-       <optionset dc:uri="https://rdmorganiser.github.io/terms/options/yes_no_not_yet">
-                <uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
-                <uri_path>yes_no_not_yet</uri_path>
-                <dc:comment/>
-                <provider_key/>
-                <options>
-                        <option dc:uri="https://rdmorganiser.github.io/terms/options/yes_no_not_yet/yes" order="1"/>
-                        <option dc:uri="https://rdmorganiser.github.io/terms/options/yes_no_not_yet/no" order="2"/>
-                        <option dc:uri="https://rdmorganiser.github.io/terms/options/yes_no_not_yet/not_yet" order="3"/>
-                </options>
-                <conditions/>
-        </optionset>
-        <option dc:uri="https://rdmorganiser.github.io/terms/options/yes_no_not_yet/yes">
-                <uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
-                <uri_path>yes_no_not_yet/yes</uri_path>
-                <dc:comment/>
-                <text lang="en">Yes</text>
-                <help lang="en"/>
-                <view_text lang="en"/>
-                <text lang="de">Ja</text>
-                <help lang="de"/>
-                <view_text lang="de"/>
-                <additional_input>text</additional_input>
-        </option>
-        <option dc:uri="https://rdmorganiser.github.io/terms/options/yes_no_not_yet/no">
-                <uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
-                <uri_path>yes_no_not_yet/no</uri_path>
-                <dc:comment/>
-                <text lang="en">No</text>
-                <help lang="en"/>
-                <view_text lang="en"/>
-                <text lang="de">Nein</text>
-                <help lang="de"/>
-                <view_text lang="de"/>
-                <additional_input/>
-        </option>
-                <option dc:uri="https://rdmorganiser.github.io/terms/options/yes_no_not_yet/not_yet">
-                <uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
-                <uri_path>yes_no_not_yet/not_yet</uri_path>
-                <dc:comment/>
-                <text lang="en">Not yet</text>
-                <help lang="en"/>
-                <view_text lang="en"/>
-                <text lang="de">Noch nicht</text>
-                <help lang="de"/>
-                <view_text lang="de"/>
-                <additional_input/>
-        </option>
 </rdmo>

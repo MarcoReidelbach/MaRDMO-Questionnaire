@@ -1,489 +1,480 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2024-07-16T20:06:49.415665+02:00" version="2.1.3">
-	<condition dc:uri="http://example.com/terms/conditions/Definition">
-		<uri_prefix>http://example.com/terms</uri_prefix>
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2024-08-23T15:25:11.093936+02:00" version="2.1.3">
+	<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/Definition">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>Definition</uri_path>
 		<dc:comment/>
-		<source dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_5/Question_1"/>
+		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_5/Question_1"/>
 		<relation>eq</relation>
 		<target_text/>
-		<target_option dc:uri="http://example.com/terms/options/MaRDI/yes_no/yes"/>
+		<target_option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/yes_no/yes"/>
 	</condition>
-	<condition dc:uri="http://example.com/terms/conditions/MFpresent">
-		<uri_prefix>http://example.com/terms</uri_prefix>
+	<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/MFpresent">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>MFpresent</uri_path>
 		<dc:comment/>
-		<source dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_5/Question_0"/>
-		<relation>empty</relation>
-		<target_text/>
+		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_5/Question_0"/>
+		<relation>eq</relation>
+		<target_text>not in MathModDB</target_text>
 		<target_option/>
 	</condition>
-	<condition dc:uri="http://example.com/terms/conditions/MFpresent2">
-		<uri_prefix>http://example.com/terms</uri_prefix>
+	<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/MFpresent2">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>MFpresent2</uri_path>
 		<dc:comment/>
-		<source dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_5/Set_4/Question_0"/>
+		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_5/Set_4/Question_0"/>
 		<relation>empty</relation>
 		<target_text/>
 		<target_option/>
 	</condition>
-	<condition dc:uri="http://example.com/terms/conditions/MMpresent">
-		<uri_prefix>http://example.com/terms</uri_prefix>
+	<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/MMpresent">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>MMpresent</uri_path>
 		<dc:comment/>
-		<source dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_2/Question_0"/>
-		<relation>empty</relation>
-		<target_text/>
+		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_2/Question_0"/>
+		<relation>eq</relation>
+		<target_text>not in MathModDB</target_text>
 		<target_option/>
 	</condition>
-	<condition dc:uri="http://example.com/terms/conditions/MMpresent2">
-		<uri_prefix>http://example.com/terms</uri_prefix>
+	<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/MMpresent2">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>MMpresent2</uri_path>
 		<dc:comment/>
-		<source dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_2/Set_1/Question_0"/>
+		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_2/Set_1/Question_0"/>
 		<relation>empty</relation>
 		<target_text/>
 		<target_option/>
 	</condition>
-	<condition dc:uri="http://example.com/terms/conditions/MTpresent">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MTpresent</uri_path>
+	<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/Ppresent">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>Ppresent</uri_path>
 		<dc:comment/>
-		<source dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_6/Question_0"/>
-		<relation>empty</relation>
-		<target_text/>
+		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_7/Question_0"/>
+		<relation>eq</relation>
+		<target_text>not in MathModDB</target_text>
 		<target_option/>
 	</condition>
-	<condition dc:uri="http://example.com/terms/conditions/MTpresent2">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MTpresent2</uri_path>
-		<dc:comment/>
-		<source dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_6/Set_0/Question_0"/>
-		<relation>empty</relation>
-		<target_text/>
-		<target_option/>
-	</condition>
-	<condition dc:uri="http://example.com/terms/conditions/MathematicalFormulation_property">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MathematicalFormulation_property</uri_path>
-		<dc:comment/>
-		<source dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_5_hidden"/>
-		<relation>neq</relation>
-		<target_text>1</target_text>
-		<target_option/>
-	</condition>
-	<condition dc:uri="http://example.com/terms/conditions/MathematicalModel_property">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MathematicalModel_property</uri_path>
-		<dc:comment/>
-		<source dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_2_hidden"/>
-		<relation>neq</relation>
-		<target_text>1</target_text>
-		<target_option/>
-	</condition>
-	<condition dc:uri="http://example.com/terms/conditions/MathematicalTask_property">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>MathematicalTask_property</uri_path>
-		<dc:comment/>
-		<source dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_6_hidden"/>
-		<relation>neq</relation>
-		<target_text>1</target_text>
-		<target_option/>
-	</condition>
-	<condition dc:uri="http://example.com/terms/conditions/Publication_property">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>Publication_property</uri_path>
-		<dc:comment/>
-		<source dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_7_hidden"/>
-		<relation>neq</relation>
-		<target_text>1</target_text>
-		<target_option/>
-	</condition>
-	<condition dc:uri="http://example.com/terms/conditions/Pubpresent">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>Pubpresent</uri_path>
-		<dc:comment/>
-		<source dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_7/Question_0"/>
-		<relation>empty</relation>
-		<target_text/>
-		<target_option/>
-	</condition>
-	<condition dc:uri="http://example.com/terms/conditions/QQKpresent">
-		<uri_prefix>http://example.com/terms</uri_prefix>
+	<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/QQKpresent">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>QQKpresent</uri_path>
 		<dc:comment/>
-		<source dc:uri="http://example.com/terms/domain/MaRDI/Section_3/Set_0/Set_0/Question_07"/>
-		<relation>empty</relation>
-		<target_text/>
+		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3/Set_0/Set_0/Question_07"/>
+		<relation>eq</relation>
+		<target_text>not in MathModDB</target_text>
 		<target_option/>
 	</condition>
-	<condition dc:uri="http://example.com/terms/conditions/QQKpresent2">
-		<uri_prefix>http://example.com/terms</uri_prefix>
+	<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/QQKpresent2">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>QQKpresent2</uri_path>
 		<dc:comment/>
-		<source dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_3/Question_5"/>
+		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_3/Question_5"/>
 		<relation>empty</relation>
 		<target_text/>
 		<target_option/>
 	</condition>
-	<condition dc:uri="http://example.com/terms/conditions/Quantity">
-		<uri_prefix>http://example.com/terms</uri_prefix>
+	<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/Quantity">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>Quantity</uri_path>
 		<dc:comment/>
-		<source dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_3/Question_6"/>
+		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_3/Question_6"/>
 		<relation>eq</relation>
 		<target_text/>
-		<target_option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/Quantity"/>
+		<target_option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/Quantity"/>
 	</condition>
-	<condition dc:uri="http://example.com/terms/conditions/QuantityKind">
-		<uri_prefix>http://example.com/terms</uri_prefix>
+	<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/QuantityKind">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>QuantityKind</uri_path>
 		<dc:comment/>
-		<source dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_3/Question_6"/>
+		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_3/Question_6"/>
 		<relation>eq</relation>
 		<target_text/>
-		<target_option dc:uri="http://example.com/terms/options/MaRDI/MathModDB/QuantityKind"/>
+		<target_option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/QuantityKind"/>
 	</condition>
-	<condition dc:uri="http://example.com/terms/conditions/Quantity_property">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>Quantity_property</uri_path>
-		<dc:comment/>
-		<source dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_3_hidden"/>
-		<relation>neq</relation>
-		<target_text>1</target_text>
-		<target_option/>
-	</condition>
-	<condition dc:uri="http://example.com/terms/conditions/RFpresent">
-		<uri_prefix>http://example.com/terms</uri_prefix>
+	<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/RFpresent">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>RFpresent</uri_path>
 		<dc:comment/>
-		<source dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_0/Question_3"/>
+		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3/Set_0/Set_0/Question_04"/>
+		<relation>eq</relation>
+		<target_text>not in MathModDB</target_text>
+		<target_option/>
+	</condition>
+	<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/RFpresent2">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>RFpresent2</uri_path>
+		<dc:comment/>
+		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_0/Question_3"/>
 		<relation>empty</relation>
 		<target_text/>
 		<target_option/>
 	</condition>
-	<condition dc:uri="http://example.com/terms/conditions/RPpresent">
-		<uri_prefix>http://example.com/terms</uri_prefix>
+	<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/RPpresent">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>RPpresent</uri_path>
 		<dc:comment/>
-		<source dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_1/Question_5"/>
+		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3/Set_0/Set_0/Question_05"/>
+		<relation>eq</relation>
+		<target_text>not in MathModDB</target_text>
+		<target_option/>
+	</condition>
+	<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/RPpresent2">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>RPpresent2</uri_path>
+		<dc:comment/>
+		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_1/Question_5"/>
 		<relation>empty</relation>
 		<target_text/>
 		<target_option/>
 	</condition>
-	<condition dc:uri="http://example.com/terms/conditions/ResearchField_property">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>ResearchField_property</uri_path>
+	<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/Tpresent">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>Tpresent</uri_path>
 		<dc:comment/>
-		<source dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_0_hidden"/>
-		<relation>neq</relation>
-		<target_text>1</target_text>
+		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_6/Question_0"/>
+		<relation>eq</relation>
+		<target_text>not in MathModDB</target_text>
 		<target_option/>
 	</condition>
-	<condition dc:uri="http://example.com/terms/conditions/ResearchProblem_property">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>ResearchProblem_property</uri_path>
+	<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/Tpresent2">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>Tpresent2</uri_path>
 		<dc:comment/>
-		<source dc:uri="http://example.com/terms/domain/MaRDI/Section_3a/Set_1_hidden"/>
-		<relation>neq</relation>
-		<target_text>1</target_text>
-		<target_option/>
-	</condition>
-	<condition dc:uri="http://example.com/terms/conditions/WorkflowTask">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>WorkflowTask</uri_path>
-		<dc:comment/>
-		<source dc:uri="http://example.com/terms/domain/MaRDI/Section_3/Set_0/Wiki_01"/>
-		<relation>notempty</relation>
+		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_6/Set_0/Question_0"/>
+		<relation>empty</relation>
 		<target_text/>
 		<target_option/>
 	</condition>
-	<condition dc:uri="http://example.com/terms/conditions/author_property">
-		<uri_prefix>http://example.com/terms</uri_prefix>
+	<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/author_property">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>author_property</uri_path>
 		<dc:comment/>
-		<source dc:uri="http://example.com/terms/domain/MaRDI/Section_0a/Set_1"/>
+		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_0a/Set_1"/>
 		<relation>eq</relation>
 		<target_text>1</target_text>
 		<target_option/>
 	</condition>
-	<condition dc:uri="http://example.com/terms/conditions/data_present">
-		<uri_prefix>http://example.com/terms</uri_prefix>
+	<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/data_present">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>data_present</uri_path>
 		<dc:comment/>
-		<source dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_6/Question_00"/>
+		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_4/Set_6/Question_00"/>
 		<relation>empty</relation>
 		<target_text/>
 		<target_option/>
 	</condition>
-	<condition dc:uri="http://example.com/terms/conditions/data_property">
-		<uri_prefix>http://example.com/terms</uri_prefix>
+	<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/data_property">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>data_property</uri_path>
 		<dc:comment/>
-		<source dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_6_hidden"/>
+		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_4/Set_6_hidden"/>
 		<relation>eq</relation>
 		<target_text>1</target_text>
 		<target_option/>
 	</condition>
-	<condition dc:uri="http://example.com/terms/conditions/export_property">
-		<uri_prefix>http://example.com/terms</uri_prefix>
+	<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/export_property">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>export_property</uri_path>
 		<dc:comment/>
-		<source dc:uri="http://example.com/terms/domain/MaRDI/Section_6/Set_1"/>
+		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_6/Set_1"/>
 		<relation>eq</relation>
 		<target_text>1</target_text>
 		<target_option/>
 	</condition>
-	<condition dc:uri="http://example.com/terms/conditions/hardware_present">
-		<uri_prefix>http://example.com/terms</uri_prefix>
+	<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/hardware_present">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>hardware_present</uri_path>
 		<dc:comment/>
-		<source dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_4/Question_01"/>
+		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_4/Set_4/Question_01"/>
 		<relation>empty</relation>
 		<target_text/>
 		<target_option/>
 	</condition>
-	<condition dc:uri="http://example.com/terms/conditions/hardware_property">
-		<uri_prefix>http://example.com/terms</uri_prefix>
+	<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/hardware_property">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>hardware_property</uri_path>
 		<dc:comment/>
-		<source dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_4_hidden"/>
+		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_4/Set_4_hidden"/>
 		<relation>eq</relation>
 		<target_text>1</target_text>
 		<target_option/>
 	</condition>
-	<condition dc:uri="http://example.com/terms/conditions/instrument_present">
-		<uri_prefix>http://example.com/terms</uri_prefix>
+	<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/instrument_present">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>instrument_present</uri_path>
 		<dc:comment/>
-		<source dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_5/Question_01"/>
+		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_4/Set_5/Question_01"/>
 		<relation>empty</relation>
 		<target_text/>
 		<target_option/>
 	</condition>
-	<condition dc:uri="http://example.com/terms/conditions/instrument_property">
-		<uri_prefix>http://example.com/terms</uri_prefix>
+	<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/instrument_property">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>instrument_property</uri_path>
 		<dc:comment/>
-		<source dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_5_hidden"/>
+		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_4/Set_5_hidden"/>
 		<relation>eq</relation>
 		<target_text>1</target_text>
 		<target_option/>
 	</condition>
-	<condition dc:uri="http://example.com/terms/conditions/method_present">
-		<uri_prefix>http://example.com/terms</uri_prefix>
+	<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/mathematicalformulation_property">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mathematicalformulation_property</uri_path>
+		<dc:comment/>
+		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_5_hidden"/>
+		<relation>eq</relation>
+		<target_text>1</target_text>
+		<target_option/>
+	</condition>
+	<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/mathematicalmodel_property">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mathematicalmodel_property</uri_path>
+		<dc:comment/>
+		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_2_hidden"/>
+		<relation>eq</relation>
+		<target_text>1</target_text>
+		<target_option/>
+	</condition>
+	<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/method_present">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>method_present</uri_path>
 		<dc:comment/>
-		<source dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_2/Question_01"/>
+		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_4/Set_2/Question_01"/>
 		<relation>empty</relation>
 		<target_text/>
 		<target_option/>
 	</condition>
-	<condition dc:uri="http://example.com/terms/conditions/method_property">
-		<uri_prefix>http://example.com/terms</uri_prefix>
+	<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/method_property">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>method_property</uri_path>
 		<dc:comment/>
-		<source dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_2_hidden"/>
+		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_4/Set_2_hidden"/>
 		<relation>eq</relation>
 		<target_text>1</target_text>
 		<target_option/>
 	</condition>
-	<condition dc:uri="http://example.com/terms/conditions/model_present">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>model_present</uri_path>
-		<dc:comment/>
-		<source dc:uri="http://example.com/terms/domain/MaRDI/Section_3/Set_0/Wiki_01"/>
-		<relation>empty</relation>
-		<target_text/>
-		<target_option/>
-	</condition>
-	<condition dc:uri="http://example.com/terms/conditions/model_present2">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>model_present2</uri_path>
-		<dc:comment/>
-		<source dc:uri="http://example.com/terms/domain/MaRDI/Section_3/Set_0/Set_0/Question_00"/>
-		<relation>empty</relation>
-		<target_text/>
-		<target_option/>
-	</condition>
-	<condition dc:uri="http://example.com/terms/conditions/model_property">
-		<uri_prefix>http://example.com/terms</uri_prefix>
+	<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/model_property">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>model_property</uri_path>
 		<dc:comment/>
-		<source dc:uri="http://example.com/terms/domain/MaRDI/Section_3/Set_0"/>
+		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3/Set_0"/>
 		<relation>eq</relation>
 		<target_text>1</target_text>
 		<target_option/>
 	</condition>
-	<condition dc:uri="http://example.com/terms/conditions/modus_0">
-		<uri_prefix>http://example.com/terms</uri_prefix>
+	<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/modelpublication_property">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>modelpublication_property</uri_path>
+		<dc:comment/>
+		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_7_hidden"/>
+		<relation>eq</relation>
+		<target_text>1</target_text>
+		<target_option/>
+	</condition>
+	<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/modus_0">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>modus_0</uri_path>
 		<dc:comment/>
-		<source dc:uri="http://example.com/terms/domain/MaRDI/Section_0/Set_1/Question_01"/>
+		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_0/Set_1/Question_01"/>
 		<relation>eq</relation>
 		<target_text/>
-		<target_option dc:uri="http://example.com/terms/options/MaRDI/operation_modus/modus_0"/>
+		<target_option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/operation_modus/modus_0"/>
 	</condition>
-	<condition dc:uri="http://example.com/terms/conditions/problem_property">
-		<uri_prefix>http://example.com/terms</uri_prefix>
+	<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/problem_property">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>problem_property</uri_path>
 		<dc:comment/>
-		<source dc:uri="http://example.com/terms/domain/MaRDI/Section_2/Set_1"/>
+		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_2/Set_1"/>
 		<relation>eq</relation>
 		<target_text>1</target_text>
 		<target_option/>
 	</condition>
-	<condition dc:uri="http://example.com/terms/conditions/publication_property">
-		<uri_prefix>http://example.com/terms</uri_prefix>
+	<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/publication_property">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>publication_property</uri_path>
 		<dc:comment/>
-		<source dc:uri="http://example.com/terms/domain/MaRDI/Section_2/Set_2"/>
+		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_2/Set_2"/>
 		<relation>eq</relation>
 		<target_text>1</target_text>
 		<target_option/>
 	</condition>
-	<condition dc:uri="http://example.com/terms/conditions/reproducibility_property">
-		<uri_prefix>http://example.com/terms</uri_prefix>
+	<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/quantityquantitiykind_property">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>quantityquantitiykind_property</uri_path>
+		<dc:comment/>
+		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_3_hidden"/>
+		<relation>eq</relation>
+		<target_text>1</target_text>
+		<target_option/>
+	</condition>
+	<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/relevanttask_property">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>relevanttask_property</uri_path>
+		<dc:comment/>
+		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_8_hidden"/>
+		<relation>eq</relation>
+		<target_text>1</target_text>
+		<target_option/>
+	</condition>
+	<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/reproducibility_property">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>reproducibility_property</uri_path>
 		<dc:comment/>
-		<source dc:uri="http://example.com/terms/domain/MaRDI/Section_5/Set_1"/>
+		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_5/Set_1"/>
 		<relation>eq</relation>
 		<target_text>1</target_text>
 		<target_option/>
 	</condition>
-	<condition dc:uri="http://example.com/terms/conditions/reproducible_mathematically">
-		<uri_prefix>http://example.com/terms</uri_prefix>
+	<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/reproducible_mathematically">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>reproducible_mathematically</uri_path>
 		<dc:comment/>
-		<source dc:uri="http://example.com/terms/domain/MaRDI/Section_5/Set_1/Question_01"/>
+		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_5/Set_1/Question_01"/>
 		<relation>eq</relation>
 		<target_text/>
-		<target_option dc:uri="http://example.com/terms/options/MaRDI/yes_no/yes"/>
+		<target_option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/yes_no/yes"/>
 	</condition>
-	<condition dc:uri="http://example.com/terms/conditions/reproducible_original">
-		<uri_prefix>http://example.com/terms</uri_prefix>
+	<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/reproducible_original">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>reproducible_original</uri_path>
 		<dc:comment/>
-		<source dc:uri="http://example.com/terms/domain/MaRDI/Section_5/Set_1/Question_04"/>
+		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_5/Set_1/Question_04"/>
 		<relation>eq</relation>
 		<target_text/>
-		<target_option dc:uri="http://example.com/terms/options/MaRDI/yes_no/yes"/>
+		<target_option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/yes_no/yes"/>
 	</condition>
-	<condition dc:uri="http://example.com/terms/conditions/reproducible_other">
-		<uri_prefix>http://example.com/terms</uri_prefix>
+	<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/reproducible_other">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>reproducible_other</uri_path>
 		<dc:comment/>
-		<source dc:uri="http://example.com/terms/domain/MaRDI/Section_5/Set_1/Question_05"/>
+		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_5/Set_1/Question_05"/>
 		<relation>eq</relation>
 		<target_text/>
-		<target_option dc:uri="http://example.com/terms/options/MaRDI/yes_no/yes"/>
+		<target_option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/yes_no/yes"/>
 	</condition>
-	<condition dc:uri="http://example.com/terms/conditions/reproducible_result">
-		<uri_prefix>http://example.com/terms</uri_prefix>
+	<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/reproducible_result">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>reproducible_result</uri_path>
 		<dc:comment/>
-		<source dc:uri="http://example.com/terms/domain/MaRDI/Section_5/Set_1/Question_03"/>
+		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_5/Set_1/Question_03"/>
 		<relation>eq</relation>
 		<target_text/>
-		<target_option dc:uri="http://example.com/terms/options/MaRDI/yes_no/yes"/>
+		<target_option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/yes_no/yes"/>
 	</condition>
-	<condition dc:uri="http://example.com/terms/conditions/reproducible_runtime">
-		<uri_prefix>http://example.com/terms</uri_prefix>
+	<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/reproducible_runtime">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>reproducible_runtime</uri_path>
 		<dc:comment/>
-		<source dc:uri="http://example.com/terms/domain/MaRDI/Section_5/Set_1/Question_02"/>
+		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_5/Set_1/Question_02"/>
 		<relation>eq</relation>
 		<target_text/>
-		<target_option dc:uri="http://example.com/terms/options/MaRDI/yes_no/yes"/>
+		<target_option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/yes_no/yes"/>
 	</condition>
-	<condition dc:uri="http://example.com/terms/conditions/search_0">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>search_0</uri_path>
+	<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/researchfield_property">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>researchfield_property</uri_path>
 		<dc:comment/>
-		<source dc:uri="http://example.com/terms/domain/MaRDI/Section_1/Set_1/Question_00"/>
-		<relation>eq</relation>
-		<target_text/>
-		<target_option dc:uri="http://example.com/terms/options/MaRDI/yes_no/yes"/>
-	</condition>
-	<condition dc:uri="http://example.com/terms/conditions/search_1">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>search_1</uri_path>
-		<dc:comment/>
-		<source dc:uri="http://example.com/terms/domain/MaRDI/Section_1/Set_1/Question_02"/>
-		<relation>eq</relation>
-		<target_text/>
-		<target_option dc:uri="http://example.com/terms/options/MaRDI/yes_no/yes"/>
-	</condition>
-	<condition dc:uri="http://example.com/terms/conditions/search_2">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>search_2</uri_path>
-		<dc:comment/>
-		<source dc:uri="http://example.com/terms/domain/MaRDI/Section_1/Set_1/Question_04"/>
-		<relation>eq</relation>
-		<target_text/>
-		<target_option dc:uri="http://example.com/terms/options/MaRDI/yes_no/yes"/>
-	</condition>
-	<condition dc:uri="http://example.com/terms/conditions/search_proerpty">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>search_proerpty</uri_path>
-		<dc:comment/>
-		<source dc:uri="http://example.com/terms/domain/MaRDI/Section_1/Set_1"/>
+		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_0_hidden"/>
 		<relation>eq</relation>
 		<target_text>1</target_text>
 		<target_option/>
 	</condition>
-	<condition dc:uri="http://example.com/terms/conditions/software_present">
-		<uri_prefix>http://example.com/terms</uri_prefix>
+	<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/researchproblem_property">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>researchproblem_property</uri_path>
+		<dc:comment/>
+		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_1_hidden"/>
+		<relation>eq</relation>
+		<target_text>1</target_text>
+		<target_option/>
+	</condition>
+	<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/search_0">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>search_0</uri_path>
+		<dc:comment/>
+		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_1/Set_1/Question_00"/>
+		<relation>eq</relation>
+		<target_text/>
+		<target_option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/yes_no/yes"/>
+	</condition>
+	<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/search_1">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>search_1</uri_path>
+		<dc:comment/>
+		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_1/Set_1/Question_02"/>
+		<relation>eq</relation>
+		<target_text/>
+		<target_option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/yes_no/yes"/>
+	</condition>
+	<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/search_2">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>search_2</uri_path>
+		<dc:comment/>
+		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_1/Set_1/Question_04"/>
+		<relation>eq</relation>
+		<target_text/>
+		<target_option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/yes_no/yes"/>
+	</condition>
+	<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/search_properpty">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>search_properpty</uri_path>
+		<dc:comment/>
+		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_1/Set_1"/>
+		<relation>eq</relation>
+		<target_text>1</target_text>
+		<target_option/>
+	</condition>
+	<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/software_present">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>software_present</uri_path>
 		<dc:comment/>
-		<source dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_3/Question_01"/>
+		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_4/Set_3/Question_01"/>
 		<relation>empty</relation>
 		<target_text/>
 		<target_option/>
 	</condition>
-	<condition dc:uri="http://example.com/terms/conditions/software_property">
-		<uri_prefix>http://example.com/terms</uri_prefix>
+	<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/software_property">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>software_property</uri_path>
 		<dc:comment/>
-		<source dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_3_hidden"/>
+		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_4/Set_3_hidden"/>
 		<relation>eq</relation>
 		<target_text>1</target_text>
 		<target_option/>
 	</condition>
-	<condition dc:uri="http://example.com/terms/conditions/step_property">
-		<uri_prefix>http://example.com/terms</uri_prefix>
+	<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/step_property">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>step_property</uri_path>
 		<dc:comment/>
-		<source dc:uri="http://example.com/terms/domain/MaRDI/Section_4/Set_1_hidden"/>
+		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_4/Set_1_hidden"/>
 		<relation>eq</relation>
 		<target_text>1</target_text>
 		<target_option/>
 	</condition>
-	<condition dc:uri="http://example.com/terms/conditions/subjects_property">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>subjects_property</uri_path>
+	<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/task_property">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>task_property</uri_path>
 		<dc:comment/>
-		<source dc:uri="http://example.com/terms/domain/MaRDI/Section_2/Set_3"/>
+		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_6_hidden"/>
 		<relation>eq</relation>
 		<target_text>1</target_text>
 		<target_option/>
 	</condition>
-	<condition dc:uri="http://example.com/terms/conditions/workflow_documentation">
-		<uri_prefix>http://example.com/terms</uri_prefix>
+	<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/workflow_documentation">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>workflow_documentation</uri_path>
 		<dc:comment/>
-		<source dc:uri="http://example.com/terms/domain/MaRDI/Section_0/Set_1/Question_02"/>
+		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_0/Set_1/Question_02"/>
 		<relation>eq</relation>
 		<target_text/>
-		<target_option dc:uri="http://example.com/terms/options/MaRDI/operation_modus_2/workflow"/>
+		<target_option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/operation_modus_2/workflow"/>
 	</condition>
-	<condition dc:uri="http://example.com/terms/conditions/workflow_type">
-		<uri_prefix>http://example.com/terms</uri_prefix>
+	<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/workflow_type">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>workflow_type</uri_path>
 		<dc:comment/>
-		<source dc:uri="http://example.com/terms/domain/MaRDI/Section_2/Set_1/Question_03"/>
+		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_2/Set_1/Question_03"/>
 		<relation>eq</relation>
 		<target_text/>
-		<target_option dc:uri="http://example.com/terms/options/MaRDI/workflow_type/type_1"/>
+		<target_option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/workflow_type/type_1"/>
 	</condition>
 </rdmo>
