@@ -1,1865 +1,1732 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2024-08-23T15:24:53.459697+02:00" version="2.1.3">
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_0">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2024-09-12T21:19:23.587338+02:00" version="2.1.3">
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/CreatorID">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Section_0</key>
-		<path>Section_0</path>
+		<key>CreatorID</key>
+		<path>CreatorID</path>
 		<dc:comment/>
 		<parent/>
 	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_0/Set_1">
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/CreatorName">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Set_1</key>
-		<path>Section_0/Set_1</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_0"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_0/Set_1/Question_01">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_01</key>
-		<path>Section_0/Set_1/Question_01</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_0/Set_1"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_0/Set_1/Question_02">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_02</key>
-		<path>Section_0/Set_1/Question_02</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_0/Set_1"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_0a">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Section_0a</key>
-		<path>Section_0a</path>
+		<key>CreatorName</key>
+		<path>CreatorName</path>
 		<dc:comment/>
 		<parent/>
 	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_0a/Set_1">
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/DataSetBinaryOrText">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Set_1</key>
-		<path>Section_0a/Set_1</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_0a"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_0a/Set_1/Question_01">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_01</key>
-		<path>Section_0a/Set_1/Question_01</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_0a/Set_1"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_0a/Set_1/Question_02">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_02</key>
-		<path>Section_0a/Set_1/Question_02</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_0a/Set_1"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_1">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Section_1</key>
-		<path>Section_1</path>
+		<key>DataSetBinaryOrText</key>
+		<path>DataSetBinaryOrText</path>
 		<dc:comment/>
 		<parent/>
 	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_1/Set_1">
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/DataSetDataStructure">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Set_1</key>
-		<path>Section_1/Set_1</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_1"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_1/Set_1/Question_00">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_00</key>
-		<path>Section_1/Set_1/Question_00</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_1/Set_1"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_1/Set_1/Question_01">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_01</key>
-		<path>Section_1/Set_1/Question_01</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_1/Set_1"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_1/Set_1/Question_02">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_02</key>
-		<path>Section_1/Set_1/Question_02</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_1/Set_1"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_1/Set_1/Question_03">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_03</key>
-		<path>Section_1/Set_1/Question_03</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_1/Set_1"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_1/Set_1/Question_04">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_04</key>
-		<path>Section_1/Set_1/Question_04</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_1/Set_1"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_1/Set_1/Question_05">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_05</key>
-		<path>Section_1/Set_1/Question_05</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_1/Set_1"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_2">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Section_2</key>
-		<path>Section_2</path>
+		<key>DataSetDataStructure</key>
+		<path>DataSetDataStructure</path>
 		<dc:comment/>
 		<parent/>
 	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_2/Set_1">
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/DataSetDescription">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Set_1</key>
-		<path>Section_2/Set_1</path>
+		<key>DataSetDescription</key>
+		<path>DataSetDescription</path>
 		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_2"/>
+		<parent/>
 	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_2/Set_1/Question_01">
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/DataSetExchangeFormat">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_01</key>
-		<path>Section_2/Set_1/Question_01</path>
+		<key>DataSetExchangeFormat</key>
+		<path>DataSetExchangeFormat</path>
 		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_2/Set_1"/>
+		<parent/>
 	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_2/Set_1/Question_02">
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/DataSetName">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_02</key>
-		<path>Section_2/Set_1/Question_02</path>
+		<key>DataSetName</key>
+		<path>DataSetName</path>
 		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_2/Set_1"/>
+		<parent/>
 	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_2/Set_1/Question_03">
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/DataSetOtherID">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_03</key>
-		<path>Section_2/Set_1/Question_03</path>
+		<key>DataSetOtherID</key>
+		<path>DataSetOtherID</path>
 		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_2/Set_1"/>
+		<parent/>
 	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_2/Set_1/Question_04">
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/DataSetQID">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_04</key>
-		<path>Section_2/Set_1/Question_04</path>
+		<key>DataSetQID</key>
+		<path>DataSetQID</path>
 		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_2/Set_1"/>
+		<parent/>
 	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_2/Set_1/Question_05">
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/DataSetRepresentationFormat">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_05</key>
-		<path>Section_2/Set_1/Question_05</path>
+		<key>DataSetRepresentationFormat</key>
+		<path>DataSetRepresentationFormat</path>
 		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_2/Set_1"/>
+		<parent/>
 	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_2/Set_2">
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/DataSetSize">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>DataSetSize</key>
+		<path>DataSetSize</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/DataSets">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>DataSets</key>
+		<path>DataSets</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/DataSets/DataSetArchiving">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>DataSetArchiving</key>
+		<path>DataSets/DataSetArchiving</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/DataSets"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/DataSets/DataSetProprietary">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>DataSetProprietary</key>
+		<path>DataSets/DataSetProprietary</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/DataSets"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/DataSets/DataSetPublication">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>DataSetPublication</key>
+		<path>DataSets/DataSetPublication</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/DataSets"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/DataSets_hidden">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>DataSets_hidden</key>
+		<path>DataSets_hidden</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/DataStreams">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>DataStreams</key>
+		<path>DataStreams</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/DocumentationType">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>DocumentationType</key>
+		<path>DocumentationType</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/ElementsOfMathematicalFormulation">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>ElementsOfMathematicalFormulation</key>
+		<path>ElementsOfMathematicalFormulation</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/ExportType">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>ExportType</key>
+		<path>ExportType</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/GeneralWorkflowInformation">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>GeneralWorkflowInformation</key>
+		<path>GeneralWorkflowInformation</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Hardware">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>Hardware</key>
+		<path>Hardware</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/HardwareCompiler">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>HardwareCompiler</key>
+		<path>HardwareCompiler</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/HardwareCores">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>HardwareCores</key>
+		<path>HardwareCores</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/HardwareDescription">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>HardwareDescription</key>
+		<path>HardwareDescription</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/HardwareName">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>HardwareName</key>
+		<path>HardwareName</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/HardwareNodes">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>HardwareNodes</key>
+		<path>HardwareNodes</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/HardwareProcessor">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>HardwareProcessor</key>
+		<path>HardwareProcessor</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/HardwareQID">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>HardwareQID</key>
+		<path>HardwareQID</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Hardware_hidden">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>Hardware_hidden</key>
+		<path>Hardware_hidden</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/IdentificationInformation">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>IdentificationInformation</key>
+		<path>IdentificationInformation</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/InstrumentAvailableSoftware">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>InstrumentAvailableSoftware</key>
+		<path>InstrumentAvailableSoftware</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/InstrumentDescription">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>InstrumentDescription</key>
+		<path>InstrumentDescription</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/InstrumentLocation">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>InstrumentLocation</key>
+		<path>InstrumentLocation</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/InstrumentName">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>InstrumentName</key>
+		<path>InstrumentName</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/InstrumentPartNumber">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>InstrumentPartNumber</key>
+		<path>InstrumentPartNumber</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/InstrumentQID">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>InstrumentQID</key>
+		<path>InstrumentQID</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/InstrumentVersion">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>InstrumentVersion</key>
+		<path>InstrumentVersion</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Instruments">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>Instruments</key>
+		<path>Instruments</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Instruments/InstrumentSerialNumber">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>InstrumentSerialNumber</key>
+		<path>Instruments/InstrumentSerialNumber</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Instruments"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Instruments_hidden">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>Instruments_hidden</key>
+		<path>Instruments_hidden</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/IsMathematicalModelMainMathematicalModel">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>IsMathematicalModelMainMathematicalModel</key>
+		<path>IsMathematicalModelMainMathematicalModel</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/IsQuantityOrQuantityKind">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>IsQuantityOrQuantityKind</key>
+		<path>IsQuantityOrQuantityKind</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/LocalOrPublic">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>LocalOrPublic</key>
+		<path>LocalOrPublic</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/MainMathematicalModel">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>MainMathematicalModel</key>
+		<path>MainMathematicalModel</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/MainMathematicalModel/RelevantTask">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>RelevantTask</key>
+		<path>MainMathematicalModel/RelevantTask</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/MainMathematicalModel"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/MainMathematicalModel/RelevantTask/Question_1">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>Question_1</key>
+		<path>MainMathematicalModel/RelevantTask/Question_1</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/MainMathematicalModel/RelevantTask"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/MainMathematicalModel/Set_0">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>Set_0</key>
+		<path>MainMathematicalModel/Set_0</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/MainMathematicalModel"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/MainMathematicalModelMathModDBID">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>MainMathematicalModelMathModDBID</key>
+		<path>MainMathematicalModelMathModDBID</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/MathematicalFormulation">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>MathematicalFormulation</key>
+		<path>MathematicalFormulation</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/MathematicalFormulationAsDefinition">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>MathematicalFormulationAsDefinition</key>
+		<path>MathematicalFormulationAsDefinition</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/MathematicalFormulationDescription">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>MathematicalFormulationDescription</key>
+		<path>MathematicalFormulationDescription</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/MathematicalFormulationElementEncoding">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>MathematicalFormulationElementEncoding</key>
+		<path>MathematicalFormulationElementEncoding</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/MathematicalFormulationElementSymbol">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>MathematicalFormulationElementSymbol</key>
+		<path>MathematicalFormulationElementSymbol</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/MathematicalFormulationFormula">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>MathematicalFormulationFormula</key>
+		<path>MathematicalFormulationFormula</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/MathematicalFormulationMathModDBID">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>MathematicalFormulationMathModDBID</key>
+		<path>MathematicalFormulationMathModDBID</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/MathematicalFormulationName">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>MathematicalFormulationName</key>
+		<path>MathematicalFormulationName</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/MathematicalFormulationNotInMathModDB">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>MathematicalFormulationNotInMathModDB</key>
+		<path>MathematicalFormulationNotInMathModDB</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/MathematicalFormulationOtherID">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>MathematicalFormulationOtherID</key>
+		<path>MathematicalFormulationOtherID</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/MathematicalFormulationProperties">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>MathematicalFormulationProperties</key>
+		<path>MathematicalFormulationProperties</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/MathematicalFormulationQID">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>MathematicalFormulationQID</key>
+		<path>MathematicalFormulationQID</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/MathematicalFormulationRelatedToMathematicalFormulation1">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>MathematicalFormulationRelatedToMathematicalFormulation1</key>
+		<path>MathematicalFormulationRelatedToMathematicalFormulation1</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/MathematicalFormulationRelatedToMathematicalFormulation2">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>MathematicalFormulationRelatedToMathematicalFormulation2</key>
+		<path>MathematicalFormulationRelatedToMathematicalFormulation2</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/MathematicalFormulationRelatedToTask">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>MathematicalFormulationRelatedToTask</key>
+		<path>MathematicalFormulationRelatedToTask</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/MathematicalFormulationToMathematicalFormulationConnection1">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>MathematicalFormulationToMathematicalFormulationConnection1</key>
+		<path>MathematicalFormulationToMathematicalFormulationConnection1</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/MathematicalFormulationToMathematicalFormulationConnection2">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>MathematicalFormulationToMathematicalFormulationConnection2</key>
+		<path>MathematicalFormulationToMathematicalFormulationConnection2</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/MathematicalFormulationToMathematicalFormulationRelation1">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>MathematicalFormulationToMathematicalFormulationRelation1</key>
+		<path>MathematicalFormulationToMathematicalFormulationRelation1</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/MathematicalFormulationToMathematicalFormulationRelation2">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>MathematicalFormulationToMathematicalFormulationRelation2</key>
+		<path>MathematicalFormulationToMathematicalFormulationRelation2</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/MathematicalFormulationToMathematicalModelConnection">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>MathematicalFormulationToMathematicalModelConnection</key>
+		<path>MathematicalFormulationToMathematicalModelConnection</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/MathematicalFormulationToMathematicalModelRelation">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>MathematicalFormulationToMathematicalModelRelation</key>
+		<path>MathematicalFormulationToMathematicalModelRelation</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/MathematicalFormulation_hidden">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>MathematicalFormulation_hidden</key>
+		<path>MathematicalFormulation_hidden</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/MathematicalModel">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>MathematicalModel</key>
+		<path>MathematicalModel</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/MathematicalModel/Set_2">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<key>Set_2</key>
-		<path>Section_2/Set_2</path>
+		<path>MathematicalModel/Set_2</path>
 		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_2"/>
+		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/MathematicalModel"/>
 	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_2/Set_2/Question_00">
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/MathematicalModelDescription">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_00</key>
-		<path>Section_2/Set_2/Question_00</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_2/Set_2"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_2/Set_2/Question_00_hidden">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_00_hidden</key>
-		<path>Section_2/Set_2/Question_00_hidden</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_2/Set_2"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_2/Set_2/Question_01">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_01</key>
-		<path>Section_2/Set_2/Question_01</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_2/Set_2"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_2/Set_2/Question_01_hidden">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_01_hidden</key>
-		<path>Section_2/Set_2/Question_01_hidden</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_2/Set_2"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_2/Set_2/Question_02">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_02</key>
-		<path>Section_2/Set_2/Question_02</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_2/Set_2"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_2/Set_2/Question_02_hidden">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_02_hidden</key>
-		<path>Section_2/Set_2/Question_02_hidden</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_2/Set_2"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_2/Set_2/Question_03">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_03</key>
-		<path>Section_2/Set_2/Question_03</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_2/Set_2"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_2/Set_2/Question_03_hidden">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_03_hidden</key>
-		<path>Section_2/Set_2/Question_03_hidden</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_2/Set_2"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_2/Set_2/Question_04">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_04</key>
-		<path>Section_2/Set_2/Question_04</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_2/Set_2"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_2/Set_2/Question_04_hidden">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_04_hidden</key>
-		<path>Section_2/Set_2/Question_04_hidden</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_2/Set_2"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_2/Set_2/Question_05">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_05</key>
-		<path>Section_2/Set_2/Question_05</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_2/Set_2"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_2/Set_2/Question_05_hidden">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_05_hidden</key>
-		<path>Section_2/Set_2/Question_05_hidden</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_2/Set_2"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_2/Set_2/Question_06">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_06</key>
-		<path>Section_2/Set_2/Question_06</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_2/Set_2"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_2/Set_2/Question_06_hidden">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_06_hidden</key>
-		<path>Section_2/Set_2/Question_06_hidden</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_2/Set_2"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_2/Set_2/Question_07">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_07</key>
-		<path>Section_2/Set_2/Question_07</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_2/Set_2"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_2/Set_2/Question_07_hidden">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_07_hidden</key>
-		<path>Section_2/Set_2/Question_07_hidden</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_2/Set_2"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_2/Set_2/Question_08">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_08</key>
-		<path>Section_2/Set_2/Question_08</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_2/Set_2"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_2/Set_2/Question_08_hidden">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_08_hidden</key>
-		<path>Section_2/Set_2/Question_08_hidden</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_2/Set_2"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_2/Set_2/Question_09">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_09</key>
-		<path>Section_2/Set_2/Question_09</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_2/Set_2"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_2/Set_2/Question_09_hidden">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_09_hidden</key>
-		<path>Section_2/Set_2/Question_09_hidden</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_2/Set_2"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_2/Set_3">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Set_3</key>
-		<path>Section_2/Set_3</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_2"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_2/Set_3/Question_00">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_00</key>
-		<path>Section_2/Set_3/Question_00</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_2/Set_3"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_2/Set_3/Question_01">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_01</key>
-		<path>Section_2/Set_3/Question_01</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_2/Set_3"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_2/Set_3/Question_02">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_02</key>
-		<path>Section_2/Set_3/Question_02</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_2/Set_3"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Section_3</key>
-		<path>Section_3</path>
+		<key>MathematicalModelDescription</key>
+		<path>MathematicalModelDescription</path>
 		<dc:comment/>
 		<parent/>
 	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3/Set_0">
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/MathematicalModelMathModDBID">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Set_0</key>
-		<path>Section_3/Set_0</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3/Set_0/Set_0">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Set_0</key>
-		<path>Section_3/Set_0/Set_0</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3/Set_0"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3/Set_0/Set_0/Question_00">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_00</key>
-		<path>Section_3/Set_0/Set_0/Question_00</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3/Set_0/Set_0"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3/Set_0/Set_0/Question_01">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_01</key>
-		<path>Section_3/Set_0/Set_0/Question_01</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3/Set_0/Set_0"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3/Set_0/Set_0/Question_02">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_02</key>
-		<path>Section_3/Set_0/Set_0/Question_02</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3/Set_0/Set_0"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3/Set_0/Set_0/Question_03">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_03</key>
-		<path>Section_3/Set_0/Set_0/Question_03</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3/Set_0/Set_0"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3/Set_0/Set_0/Question_04">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_04</key>
-		<path>Section_3/Set_0/Set_0/Question_04</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3/Set_0/Set_0"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3/Set_0/Set_0/Question_05">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_05</key>
-		<path>Section_3/Set_0/Set_0/Question_05</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3/Set_0/Set_0"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3/Set_0/Set_0/Question_06">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_06</key>
-		<path>Section_3/Set_0/Set_0/Question_06</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3/Set_0/Set_0"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3/Set_0/Set_0/Question_07">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_07</key>
-		<path>Section_3/Set_0/Set_0/Question_07</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3/Set_0/Set_0"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3/Set_0/Set_0/Question_08">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_08</key>
-		<path>Section_3/Set_0/Set_0/Question_08</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3/Set_0/Set_0"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3/Set_0/Set_0/Wiki_02">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Wiki_02</key>
-		<path>Section_3/Set_0/Set_0/Wiki_02</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3/Set_0/Set_0"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3/Set_0/Set_1">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Set_1</key>
-		<path>Section_3/Set_0/Set_1</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3/Set_0"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3/Set_0/Set_1/Question_0">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_0</key>
-		<path>Section_3/Set_0/Set_1/Question_0</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3/Set_0/Set_1"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3/Set_0/Set_1/Question_1">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_1</key>
-		<path>Section_3/Set_0/Set_1/Question_1</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3/Set_0/Set_1"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3/Set_0/Wiki_01">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Wiki_01</key>
-		<path>Section_3/Set_0/Wiki_01</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3/Set_0"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Section_3a</key>
-		<path>Section_3a</path>
+		<key>MathematicalModelMathModDBID</key>
+		<path>MathematicalModelMathModDBID</path>
 		<dc:comment/>
 		<parent/>
 	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_0">
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/MathematicalModelName">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Set_0</key>
-		<path>Section_3a/Set_0</path>
+		<key>MathematicalModelName</key>
+		<path>MathematicalModelName</path>
 		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a"/>
+		<parent/>
 	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_0/Question_0">
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/MathematicalModelNotInMathModDB">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_0</key>
-		<path>Section_3a/Set_0/Question_0</path>
+		<key>MathematicalModelNotInMathModDB</key>
+		<path>MathematicalModelNotInMathModDB</path>
 		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_0"/>
+		<parent/>
 	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_0/Question_1">
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/MathematicalModelOtherID">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_1</key>
-		<path>Section_3a/Set_0/Question_1</path>
+		<key>MathematicalModelOtherID</key>
+		<path>MathematicalModelOtherID</path>
 		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_0"/>
+		<parent/>
 	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_0/Question_2">
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/MathematicalModelProperties">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_2</key>
-		<path>Section_3a/Set_0/Question_2</path>
+		<key>MathematicalModelProperties</key>
+		<path>MathematicalModelProperties</path>
 		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_0"/>
+		<parent/>
 	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_0/Question_3">
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/MathematicalModelQID">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_3</key>
-		<path>Section_3a/Set_0/Question_3</path>
+		<key>MathematicalModelQID</key>
+		<path>MathematicalModelQID</path>
 		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_0"/>
+		<parent/>
 	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_0/Set_0">
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/MathematicalModelRelatedToMathematicalFormulation">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Set_0</key>
-		<path>Section_3a/Set_0/Set_0</path>
+		<key>MathematicalModelRelatedToMathematicalFormulation</key>
+		<path>MathematicalModelRelatedToMathematicalFormulation</path>
 		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_0"/>
+		<parent/>
 	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_0/Set_0/Question_0">
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/MathematicalModelRelatedToMathematicalModel">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_0</key>
-		<path>Section_3a/Set_0/Set_0/Question_0</path>
+		<key>MathematicalModelRelatedToMathematicalModel</key>
+		<path>MathematicalModelRelatedToMathematicalModel</path>
 		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_0/Set_0"/>
+		<parent/>
 	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_0/Set_0/Question_1">
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/MathematicalModelRelatedToTask">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_1</key>
-		<path>Section_3a/Set_0/Set_0/Question_1</path>
+		<key>MathematicalModelRelatedToTask</key>
+		<path>MathematicalModelRelatedToTask</path>
 		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_0/Set_0"/>
+		<parent/>
 	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_0/Set_1">
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/MathematicalModelToMathematicalModelConnection">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Set_1</key>
-		<path>Section_3a/Set_0/Set_1</path>
+		<key>MathematicalModelToMathematicalModelConnection</key>
+		<path>MathematicalModelToMathematicalModelConnection</path>
 		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_0"/>
+		<parent/>
 	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_0/Set_2">
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/MathematicalModelToMathematicalModelRelation">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>MathematicalModelToMathematicalModelRelation</key>
+		<path>MathematicalModelToMathematicalModelRelation</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/MathematicalModel_hidden">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>MathematicalModel_hidden</key>
+		<path>MathematicalModel_hidden</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/MathematicalReproducibility">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>MathematicalReproducibility</key>
+		<path>MathematicalReproducibility</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/MathematicalReproducibilityCondition">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>MathematicalReproducibilityCondition</key>
+		<path>MathematicalReproducibilityCondition</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/MathematicalSubject">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>MathematicalSubject</key>
+		<path>MathematicalSubject</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/MethodDefiningFormula">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>MethodDefiningFormula</key>
+		<path>MethodDefiningFormula</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/MethodDescription">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>MethodDescription</key>
+		<path>MethodDescription</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/MethodImplementedInSoftware">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>MethodImplementedInSoftware</key>
+		<path>MethodImplementedInSoftware</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/MethodMainSubject">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>MethodMainSubject</key>
+		<path>MethodMainSubject</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/MethodOtherID">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>MethodOtherID</key>
+		<path>MethodOtherID</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/MethodParameter">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>MethodParameter</key>
+		<path>MethodParameter</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/MethodQID">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>MethodQID</key>
+		<path>MethodQID</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Methods">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>Methods</key>
+		<path>Methods</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Methods/MethodName">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>MethodName</key>
+		<path>Methods/MethodName</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Methods"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Methods_hidden">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>Methods_hidden</key>
+		<path>Methods_hidden</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/ModelEntityRelatedToPublication">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>ModelEntityRelatedToPublication</key>
+		<path>ModelEntityRelatedToPublication</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/NonMathematicalSubject">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>NonMathematicalSubject</key>
+		<path>NonMathematicalSubject</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/OperationType">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>OperationType</key>
+		<path>OperationType</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/OriginalHardwareReproducibility">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>OriginalHardwareReproducibility</key>
+		<path>OriginalHardwareReproducibility</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/OriginalHardwareReproducibilityCondition">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>OriginalHardwareReproducibilityCondition</key>
+		<path>OriginalHardwareReproducibilityCondition</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/OtherHardwareReproducibility">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>OtherHardwareReproducibility</key>
+		<path>OtherHardwareReproducibility</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/OtherHardwareReproducibilityCondition">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>OtherHardwareReproducibilityCondition</key>
+		<path>OtherHardwareReproducibilityCondition</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Preview">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>Preview</key>
+		<path>Preview</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Problem">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>Problem</key>
+		<path>Problem</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Procedure">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>Procedure</key>
+		<path>Procedure</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/ProcessStepDescription">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>ProcessStepDescription</key>
+		<path>ProcessStepDescription</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/ProcessStepEnvironment">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>ProcessStepEnvironment</key>
+		<path>ProcessStepEnvironment</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/ProcessStepInput">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>ProcessStepInput</key>
+		<path>ProcessStepInput</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/ProcessStepMathematicalSubject">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>ProcessStepMathematicalSubject</key>
+		<path>ProcessStepMathematicalSubject</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/ProcessStepMethod">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>ProcessStepMethod</key>
+		<path>ProcessStepMethod</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/ProcessStepName">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>ProcessStepName</key>
+		<path>ProcessStepName</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/ProcessStepOutput">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>ProcessStepOutput</key>
+		<path>ProcessStepOutput</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/ProcessStepParameter">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>ProcessStepParameter</key>
+		<path>ProcessStepParameter</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/ProcessSteps">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>ProcessSteps</key>
+		<path>ProcessSteps</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/ProcessSteps_hidden">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>ProcessSteps_hidden</key>
+		<path>ProcessSteps_hidden</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Publication">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>Publication</key>
+		<path>Publication</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/PublicationAuthor">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>PublicationAuthor</key>
+		<path>PublicationAuthor</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/PublicationAuthor_hidden">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>PublicationAuthor_hidden</key>
+		<path>PublicationAuthor_hidden</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/PublicationCitation">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>PublicationCitation</key>
+		<path>PublicationCitation</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/PublicationDate">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>PublicationDate</key>
+		<path>PublicationDate</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/PublicationDate_hidden">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>PublicationDate_hidden</key>
+		<path>PublicationDate_hidden</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/PublicationID">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>PublicationID</key>
+		<path>PublicationID</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/PublicationInformation">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>PublicationInformation</key>
+		<path>PublicationInformation</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/PublicationIssue">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>PublicationIssue</key>
+		<path>PublicationIssue</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/PublicationIssue_hidden">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>PublicationIssue_hidden</key>
+		<path>PublicationIssue_hidden</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/PublicationJournal">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>PublicationJournal</key>
+		<path>PublicationJournal</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/PublicationJournal_hidden">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>PublicationJournal_hidden</key>
+		<path>PublicationJournal_hidden</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/PublicationLanguage">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>PublicationLanguage</key>
+		<path>PublicationLanguage</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/PublicationLanguage_hidden">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>PublicationLanguage_hidden</key>
+		<path>PublicationLanguage_hidden</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/PublicationMathModDBID">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>PublicationMathModDBID</key>
+		<path>PublicationMathModDBID</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/PublicationNotInMathModDB">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>PublicationNotInMathModDB</key>
+		<path>PublicationNotInMathModDB</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/PublicationPage">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>PublicationPage</key>
+		<path>PublicationPage</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/PublicationPage_hidden">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>PublicationPage_hidden</key>
+		<path>PublicationPage_hidden</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/PublicationQID">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>PublicationQID</key>
+		<path>PublicationQID</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/PublicationQID_hidden">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>PublicationQID_hidden</key>
+		<path>PublicationQID_hidden</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/PublicationTitle">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>PublicationTitle</key>
+		<path>PublicationTitle</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/PublicationTitle_hidden">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>PublicationTitle_hidden</key>
+		<path>PublicationTitle_hidden</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/PublicationToModelEntityConnection">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>PublicationToModelEntityConnection</key>
+		<path>PublicationToModelEntityConnection</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/PublicationToModelEntityRelation">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>PublicationToModelEntityRelation</key>
+		<path>PublicationToModelEntityRelation</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/PublicationType">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>PublicationType</key>
+		<path>PublicationType</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/PublicationType_hidden">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>PublicationType_hidden</key>
+		<path>PublicationType_hidden</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/PublicationVolume">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>PublicationVolume</key>
+		<path>PublicationVolume</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/PublicationVolume_hidden">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>PublicationVolume_hidden</key>
+		<path>PublicationVolume_hidden</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Publication_hidden">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>Publication_hidden</key>
+		<path>Publication_hidden</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Published">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>Published</key>
+		<path>Published</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/QuantityDefinedByMathematicalFormulation">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>QuantityDefinedByMathematicalFormulation</key>
+		<path>QuantityDefinedByMathematicalFormulation</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/QuantityKindProperties">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>QuantityKindProperties</key>
+		<path>QuantityKindProperties</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/QuantityKindRelatedToQuantity">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>QuantityKindRelatedToQuantity</key>
+		<path>QuantityKindRelatedToQuantity</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/QuantityKindRelatedToQuantityKind">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>QuantityKindRelatedToQuantityKind</key>
+		<path>QuantityKindRelatedToQuantityKind</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/QuantityKindToQuantityConnection">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>QuantityKindToQuantityConnection</key>
+		<path>QuantityKindToQuantityConnection</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/QuantityKindToQuantityKindConnection">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>QuantityKindToQuantityKindConnection</key>
+		<path>QuantityKindToQuantityKindConnection</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/QuantityKindToQuantityKindRelation">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>QuantityKindToQuantityKindRelation</key>
+		<path>QuantityKindToQuantityKindRelation</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/QuantityKindToQuantityRelation">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>QuantityKindToQuantityRelation</key>
+		<path>QuantityKindToQuantityRelation</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/QuantityOrQuantityKind">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>QuantityOrQuantityKind</key>
+		<path>QuantityOrQuantityKind</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/QuantityOrQuantityKindDescription">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>QuantityOrQuantityKindDescription</key>
+		<path>QuantityOrQuantityKindDescription</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/QuantityOrQuantityKindMathModDBID">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>QuantityOrQuantityKindMathModDBID</key>
+		<path>QuantityOrQuantityKindMathModDBID</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/QuantityOrQuantityKindName">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>QuantityOrQuantityKindName</key>
+		<path>QuantityOrQuantityKindName</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/QuantityOrQuantityKindNotInMathModDB">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>QuantityOrQuantityKindNotInMathModDB</key>
+		<path>QuantityOrQuantityKindNotInMathModDB</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/QuantityOrQuantityKindOtherID">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>QuantityOrQuantityKindOtherID</key>
+		<path>QuantityOrQuantityKindOtherID</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/QuantityOrQuantityKindQID">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>QuantityOrQuantityKindQID</key>
+		<path>QuantityOrQuantityKindQID</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/QuantityOrQuantityKindRelatedToTask">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>QuantityOrQuantityKindRelatedToTask</key>
+		<path>QuantityOrQuantityKindRelatedToTask</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/QuantityOrQuantityKind_hidden">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>QuantityOrQuantityKind_hidden</key>
+		<path>QuantityOrQuantityKind_hidden</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/QuantityProperties">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>QuantityProperties</key>
+		<path>QuantityProperties</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/QuantityRelatedToQuantity">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>QuantityRelatedToQuantity</key>
+		<path>QuantityRelatedToQuantity</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/QuantityRelatedToQuantityKind">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>QuantityRelatedToQuantityKind</key>
+		<path>QuantityRelatedToQuantityKind</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/QuantityToQuantityConnection">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>QuantityToQuantityConnection</key>
+		<path>QuantityToQuantityConnection</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/QuantityToQuantityKindConnection">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>QuantityToQuantityKindConnection</key>
+		<path>QuantityToQuantityKindConnection</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/QuantityToQuantityKindRelation">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>QuantityToQuantityKindRelation</key>
+		<path>QuantityToQuantityKindRelation</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/QuantityToQuantityRelation">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>QuantityToQuantityRelation</key>
+		<path>QuantityToQuantityRelation</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Reproducibility">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>Reproducibility</key>
+		<path>Reproducibility</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/ResearchDisciplineToSearch">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>ResearchDisciplineToSearch</key>
+		<path>ResearchDisciplineToSearch</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/ResearchFiedlOtherID">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>ResearchFiedlOtherID</key>
+		<path>ResearchFiedlOtherID</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/ResearchField">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>ResearchField</key>
+		<path>ResearchField</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/ResearchField/Set_2">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<key>Set_2</key>
-		<path>Section_3a/Set_0/Set_2</path>
+		<path>ResearchField/Set_2</path>
 		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_0"/>
+		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/ResearchField"/>
 	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_0_hidden">
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/ResearchFieldDescription">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Set_0_hidden</key>
-		<path>Section_3a/Set_0_hidden</path>
+		<key>ResearchFieldDescription</key>
+		<path>ResearchFieldDescription</path>
 		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a"/>
+		<parent/>
 	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_1">
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/ResearchFieldMathModDBID">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Set_1</key>
-		<path>Section_3a/Set_1</path>
+		<key>ResearchFieldMathModDBID</key>
+		<path>ResearchFieldMathModDBID</path>
 		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a"/>
+		<parent/>
 	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_1/Question_0">
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/ResearchFieldName">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_0</key>
-		<path>Section_3a/Set_1/Question_0</path>
+		<key>ResearchFieldName</key>
+		<path>ResearchFieldName</path>
 		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_1"/>
+		<parent/>
 	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_1/Question_1">
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/ResearchFieldNotInMathModDB">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_1</key>
-		<path>Section_3a/Set_1/Question_1</path>
+		<key>ResearchFieldNotInMathModDB</key>
+		<path>ResearchFieldNotInMathModDB</path>
 		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_1"/>
+		<parent/>
 	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_1/Question_2">
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/ResearchFieldQID">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_2</key>
-		<path>Section_3a/Set_1/Question_2</path>
+		<key>ResearchFieldQID</key>
+		<path>ResearchFieldQID</path>
 		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_1"/>
+		<parent/>
 	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_1/Question_3">
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/ResearchFieldRelatedToResearchField">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_3</key>
-		<path>Section_3a/Set_1/Question_3</path>
+		<key>ResearchFieldRelatedToResearchField</key>
+		<path>ResearchFieldRelatedToResearchField</path>
 		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_1"/>
+		<parent/>
 	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_1/Question_4">
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/ResearchFieldRelatedToResearchProblem">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>ResearchFieldRelatedToResearchProblem</key>
+		<path>ResearchFieldRelatedToResearchProblem</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/ResearchFieldToResearchFieldConnection">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>ResearchFieldToResearchFieldConnection</key>
+		<path>ResearchFieldToResearchFieldConnection</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/ResearchFieldToResearchFieldRelation">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>ResearchFieldToResearchFieldRelation</key>
+		<path>ResearchFieldToResearchFieldRelation</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/ResearchField_hidden">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>ResearchField_hidden</key>
+		<path>ResearchField_hidden</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/ResearchObjective">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>ResearchObjective</key>
+		<path>ResearchObjective</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/ResearchObjectiveToSearch">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>ResearchObjectiveToSearch</key>
+		<path>ResearchObjectiveToSearch</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/ResearchProblem">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>ResearchProblem</key>
+		<path>ResearchProblem</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/ResearchProblem/Question_4">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<key>Question_4</key>
-		<path>Section_3a/Set_1/Question_4</path>
+		<path>ResearchProblem/Question_4</path>
 		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_1"/>
+		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/ResearchProblem"/>
 	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_1/Question_5">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_5</key>
-		<path>Section_3a/Set_1/Question_5</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_1"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_1/Set_0">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Set_0</key>
-		<path>Section_3a/Set_1/Set_0</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_1"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_1/Set_0/Question_0">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_0</key>
-		<path>Section_3a/Set_1/Set_0/Question_0</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_1/Set_0"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_1/Set_0/Question_1">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_1</key>
-		<path>Section_3a/Set_1/Set_0/Question_1</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_1/Set_0"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_1/Set_1">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Set_1</key>
-		<path>Section_3a/Set_1/Set_1</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_1"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_1/Set_2">
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/ResearchProblem/Set_2">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<key>Set_2</key>
-		<path>Section_3a/Set_1/Set_2</path>
+		<path>ResearchProblem/Set_2</path>
 		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_1"/>
+		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/ResearchProblem"/>
 	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_1_hidden">
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/ResearchProblemDescription">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Set_1_hidden</key>
-		<path>Section_3a/Set_1_hidden</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_2">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Set_2</key>
-		<path>Section_3a/Set_2</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_2/Question_0">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_0</key>
-		<path>Section_3a/Set_2/Question_0</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_2"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_2/Question_1">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_1</key>
-		<path>Section_3a/Set_2/Question_1</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_2"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_2/Question_4">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_4</key>
-		<path>Section_3a/Set_2/Question_4</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_2"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_2/Set_0">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Set_0</key>
-		<path>Section_3a/Set_2/Set_0</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_2"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_2/Set_0/Question_0">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_0</key>
-		<path>Section_3a/Set_2/Set_0/Question_0</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_2/Set_0"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_2/Set_0/Question_1">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_1</key>
-		<path>Section_3a/Set_2/Set_0/Question_1</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_2/Set_0"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_2/Set_1">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Set_1</key>
-		<path>Section_3a/Set_2/Set_1</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_2"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_2/Set_1/Question_0">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_0</key>
-		<path>Section_3a/Set_2/Set_1/Question_0</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_2/Set_1"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_2/Set_1/Question_1">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_1</key>
-		<path>Section_3a/Set_2/Set_1/Question_1</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_2/Set_1"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_2/Set_1/Question_2">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_2</key>
-		<path>Section_3a/Set_2/Set_1/Question_2</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_2/Set_1"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_2/Set_1/Question_3">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_3</key>
-		<path>Section_3a/Set_2/Set_1/Question_3</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_2/Set_1"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_2/Set_1/Question_4">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_4</key>
-		<path>Section_3a/Set_2/Set_1/Question_4</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_2/Set_1"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_2/Set_2">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Set_2</key>
-		<path>Section_3a/Set_2/Set_2</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_2"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_2_hidden">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Set_2_hidden</key>
-		<path>Section_3a/Set_2_hidden</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_3">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Set_3</key>
-		<path>Section_3a/Set_3</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_3/Question_0">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_0</key>
-		<path>Section_3a/Set_3/Question_0</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_3"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_3/Question_1">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_1</key>
-		<path>Section_3a/Set_3/Question_1</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_3"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_3/Question_2">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_2</key>
-		<path>Section_3a/Set_3/Question_2</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_3"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_3/Question_3">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_3</key>
-		<path>Section_3a/Set_3/Question_3</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_3"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_3/Question_5">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_5</key>
-		<path>Section_3a/Set_3/Question_5</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_3"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_3/Question_6">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_6</key>
-		<path>Section_3a/Set_3/Question_6</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_3"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_3/Question_7">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_7</key>
-		<path>Section_3a/Set_3/Question_7</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_3"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_3/Set_0">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Set_0</key>
-		<path>Section_3a/Set_3/Set_0</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_3"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_3/Set_0/Question_0">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_0</key>
-		<path>Section_3a/Set_3/Set_0/Question_0</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_3/Set_0"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_3/Set_0/Question_1">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_1</key>
-		<path>Section_3a/Set_3/Set_0/Question_1</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_3/Set_0"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_3/Set_1">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Set_1</key>
-		<path>Section_3a/Set_3/Set_1</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_3"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_3/Set_1/Question_0">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_0</key>
-		<path>Section_3a/Set_3/Set_1/Question_0</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_3/Set_1"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_3/Set_1/Question_1">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_1</key>
-		<path>Section_3a/Set_3/Set_1/Question_1</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_3/Set_1"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_3/Set_2">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Set_2</key>
-		<path>Section_3a/Set_3/Set_2</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_3"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_3_hidden">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Set_3_hidden</key>
-		<path>Section_3a/Set_3_hidden</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_4">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Set_4</key>
-		<path>Section_3a/Set_4</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_4/Set_0">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Set_0</key>
-		<path>Section_3a/Set_4/Set_0</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_4"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_4/Set_0/Question_0">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_0</key>
-		<path>Section_3a/Set_4/Set_0/Question_0</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_4/Set_0"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_4/Set_0/Question_1">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_1</key>
-		<path>Section_3a/Set_4/Set_0/Question_1</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_4/Set_0"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_4/Set_1">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Set_1</key>
-		<path>Section_3a/Set_4/Set_1</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_4"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_4/Set_1/Question_0">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_0</key>
-		<path>Section_3a/Set_4/Set_1/Question_0</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_4/Set_1"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_4/Set_1/Question_1">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_1</key>
-		<path>Section_3a/Set_4/Set_1/Question_1</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_4/Set_1"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_5">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Set_5</key>
-		<path>Section_3a/Set_5</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_5/Question_0">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_0</key>
-		<path>Section_3a/Set_5/Question_0</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_5"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_5/Question_1">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_1</key>
-		<path>Section_3a/Set_5/Question_1</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_5"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_5/Question_2">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_2</key>
-		<path>Section_3a/Set_5/Question_2</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_5"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_5/Set_1">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Set_1</key>
-		<path>Section_3a/Set_5/Set_1</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_5"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_5/Set_1/Question_0">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_0</key>
-		<path>Section_3a/Set_5/Set_1/Question_0</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_5/Set_1"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_5/Set_1/Question_1">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_1</key>
-		<path>Section_3a/Set_5/Set_1/Question_1</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_5/Set_1"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_5/Set_2">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Set_2</key>
-		<path>Section_3a/Set_5/Set_2</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_5"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_5/Set_2/Question_0">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_0</key>
-		<path>Section_3a/Set_5/Set_2/Question_0</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_5/Set_2"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_5/Set_2/Question_1">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_1</key>
-		<path>Section_3a/Set_5/Set_2/Question_1</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_5/Set_2"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_5/Set_3">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Set_3</key>
-		<path>Section_3a/Set_5/Set_3</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_5"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_5/Set_3/Question_0">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_0</key>
-		<path>Section_3a/Set_5/Set_3/Question_0</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_5/Set_3"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_5/Set_3/Question_1">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_1</key>
-		<path>Section_3a/Set_5/Set_3/Question_1</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_5/Set_3"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_5/Set_4">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Set_4</key>
-		<path>Section_3a/Set_5/Set_4</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_5"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_5/Set_4/Question_0">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_0</key>
-		<path>Section_3a/Set_5/Set_4/Question_0</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_5/Set_4"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_5/Set_4/Question_1">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_1</key>
-		<path>Section_3a/Set_5/Set_4/Question_1</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_5/Set_4"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_5/Set_4/Question_2">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_2</key>
-		<path>Section_3a/Set_5/Set_4/Question_2</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_5/Set_4"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_5/Set_4/Question_3">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_3</key>
-		<path>Section_3a/Set_5/Set_4/Question_3</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_5/Set_4"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_5/Set_4/Question_4">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_4</key>
-		<path>Section_3a/Set_5/Set_4/Question_4</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_5/Set_4"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_5/Set_4/Question_5">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_5</key>
-		<path>Section_3a/Set_5/Set_4/Question_5</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_5/Set_4"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_5/Set_4/Set_0">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Set_0</key>
-		<path>Section_3a/Set_5/Set_4/Set_0</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_5/Set_4"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_5/Set_4/Set_0/Question_0">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_0</key>
-		<path>Section_3a/Set_5/Set_4/Set_0/Question_0</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_5/Set_4/Set_0"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_5/Set_4/Set_0/Question_1">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_1</key>
-		<path>Section_3a/Set_5/Set_4/Set_0/Question_1</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_5/Set_4/Set_0"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_5_hidden">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Set_5_hidden</key>
-		<path>Section_3a/Set_5_hidden</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_6">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Set_6</key>
-		<path>Section_3a/Set_6</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_6/Question_0">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_0</key>
-		<path>Section_3a/Set_6/Question_0</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_6"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_6/Question_1">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_1</key>
-		<path>Section_3a/Set_6/Question_1</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_6"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_6/Set_0">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Set_0</key>
-		<path>Section_3a/Set_6/Set_0</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_6"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_6/Set_0/Question_0">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_0</key>
-		<path>Section_3a/Set_6/Set_0/Question_0</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_6/Set_0"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_6/Set_0/Question_1">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_1</key>
-		<path>Section_3a/Set_6/Set_0/Question_1</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_6/Set_0"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_6/Set_0/Question_2">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_2</key>
-		<path>Section_3a/Set_6/Set_0/Question_2</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_6/Set_0"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_6/Set_0/Question_3">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_3</key>
-		<path>Section_3a/Set_6/Set_0/Question_3</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_6/Set_0"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_6/Set_0/Question_4">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_4</key>
-		<path>Section_3a/Set_6/Set_0/Question_4</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_6/Set_0"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_6/Set_0/Question_5">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_5</key>
-		<path>Section_3a/Set_6/Set_0/Question_5</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_6/Set_0"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_6/Set_0/Set_0">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Set_0</key>
-		<path>Section_3a/Set_6/Set_0/Set_0</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_6/Set_0"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_6/Set_0/Set_0/Question_0">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_0</key>
-		<path>Section_3a/Set_6/Set_0/Set_0/Question_0</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_6/Set_0/Set_0"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_6/Set_0/Set_0/Question_1">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_1</key>
-		<path>Section_3a/Set_6/Set_0/Set_0/Question_1</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_6/Set_0/Set_0"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_6/Set_0/Set_1">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Set_1</key>
-		<path>Section_3a/Set_6/Set_0/Set_1</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_6/Set_0"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_6/Set_0/Set_1/Question_0">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_0</key>
-		<path>Section_3a/Set_6/Set_0/Set_1/Question_0</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_6/Set_0/Set_1"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_6/Set_0/Set_1/Question_1">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_1</key>
-		<path>Section_3a/Set_6/Set_0/Set_1/Question_1</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_6/Set_0/Set_1"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_6/Set_1">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Set_1</key>
-		<path>Section_3a/Set_6/Set_1</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_6"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_6/Set_1/Question_0">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_0</key>
-		<path>Section_3a/Set_6/Set_1/Question_0</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_6/Set_1"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_6/Set_1/Question_1">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_1</key>
-		<path>Section_3a/Set_6/Set_1/Question_1</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_6/Set_1"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_6_hidden">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Set_6_hidden</key>
-		<path>Section_3a/Set_6_hidden</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_7">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Set_7</key>
-		<path>Section_3a/Set_7</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_7/Question_0">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_0</key>
-		<path>Section_3a/Set_7/Question_0</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_7"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_7/Set_0">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Set_0</key>
-		<path>Section_3a/Set_7/Set_0</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_7"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_7/Set_0/Question_0">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_0</key>
-		<path>Section_3a/Set_7/Set_0/Question_0</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_7/Set_0"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_7/Set_0/Question_1">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_1</key>
-		<path>Section_3a/Set_7/Set_0/Question_1</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_7/Set_0"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_7/Set_1">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Set_1</key>
-		<path>Section_3a/Set_7/Set_1</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_7"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_7/Set_1/Question_0">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_0</key>
-		<path>Section_3a/Set_7/Set_1/Question_0</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_7/Set_1"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_7/Set_1/Question_1">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_1</key>
-		<path>Section_3a/Set_7/Set_1/Question_1</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_7/Set_1"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_7_hidden">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Set_7_hidden</key>
-		<path>Section_3a/Set_7_hidden</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_8">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Set_8</key>
-		<path>Section_3a/Set_8</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a/Set_8_hidden">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Set_8_hidden</key>
-		<path>Section_3a/Set_8_hidden</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_3a"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_4">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Section_4</key>
-		<path>Section_4</path>
+		<key>ResearchProblemDescription</key>
+		<path>ResearchProblemDescription</path>
 		<dc:comment/>
 		<parent/>
 	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_4/Set_1">
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/ResearchProblemMathModDBID">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Set_1</key>
-		<path>Section_4/Set_1</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_4"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_4/Set_1/Question_01">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_01</key>
-		<path>Section_4/Set_1/Question_01</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_4/Set_1"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_4/Set_1/Question_02">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_02</key>
-		<path>Section_4/Set_1/Question_02</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_4/Set_1"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_4/Set_1/Question_03">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_03</key>
-		<path>Section_4/Set_1/Question_03</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_4/Set_1"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_4/Set_1/Question_04">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_04</key>
-		<path>Section_4/Set_1/Question_04</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_4/Set_1"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_4/Set_1/Question_05">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_05</key>
-		<path>Section_4/Set_1/Question_05</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_4/Set_1"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_4/Set_1/Question_06">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_06</key>
-		<path>Section_4/Set_1/Question_06</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_4/Set_1"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_4/Set_1/Question_07">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_07</key>
-		<path>Section_4/Set_1/Question_07</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_4/Set_1"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_4/Set_1/Question_08">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_08</key>
-		<path>Section_4/Set_1/Question_08</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_4/Set_1"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_4/Set_1_hidden">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Set_1_hidden</key>
-		<path>Section_4/Set_1_hidden</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_4"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_4/Set_2">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Set_2</key>
-		<path>Section_4/Set_2</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_4"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_4/Set_2/Question_00">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_00</key>
-		<path>Section_4/Set_2/Question_00</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_4/Set_2"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_4/Set_2/Question_01">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_01</key>
-		<path>Section_4/Set_2/Question_01</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_4/Set_2"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_4/Set_2/Question_02">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_02</key>
-		<path>Section_4/Set_2/Question_02</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_4/Set_2"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_4/Set_2/Question_04">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_04</key>
-		<path>Section_4/Set_2/Question_04</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_4/Set_2"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_4/Set_2/Question_05">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_05</key>
-		<path>Section_4/Set_2/Question_05</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_4/Set_2"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_4/Set_2/Wiki_02">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Wiki_02</key>
-		<path>Section_4/Set_2/Wiki_02</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_4/Set_2"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_4/Set_2/Wiki_03">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Wiki_03</key>
-		<path>Section_4/Set_2/Wiki_03</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_4/Set_2"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_4/Set_2/Wiki_04">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Wiki_04</key>
-		<path>Section_4/Set_2/Wiki_04</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_4/Set_2"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_4/Set_2_hidden">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Set_2_hidden</key>
-		<path>Section_4/Set_2_hidden</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_4"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_4/Set_3">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Set_3</key>
-		<path>Section_4/Set_3</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_4"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_4/Set_3/Question_00">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_00</key>
-		<path>Section_4/Set_3/Question_00</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_4/Set_3"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_4/Set_3/Question_01">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_01</key>
-		<path>Section_4/Set_3/Question_01</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_4/Set_3"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_4/Set_3/Question_02">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_02</key>
-		<path>Section_4/Set_3/Question_02</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_4/Set_3"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_4/Set_3/Question_03">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_03</key>
-		<path>Section_4/Set_3/Question_03</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_4/Set_3"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_4/Set_3/Question_04">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_04</key>
-		<path>Section_4/Set_3/Question_04</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_4/Set_3"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_4/Set_3/Question_05">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_05</key>
-		<path>Section_4/Set_3/Question_05</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_4/Set_3"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_4/Set_3/Question_06">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_06</key>
-		<path>Section_4/Set_3/Question_06</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_4/Set_3"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_4/Set_3/Question_07">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_07</key>
-		<path>Section_4/Set_3/Question_07</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_4/Set_3"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_4/Set_3/Question_08">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_08</key>
-		<path>Section_4/Set_3/Question_08</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_4/Set_3"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_4/Set_3/Question_09">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_09</key>
-		<path>Section_4/Set_3/Question_09</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_4/Set_3"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_4/Set_3_hidden">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Set_3_hidden</key>
-		<path>Section_4/Set_3_hidden</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_4"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_4/Set_4">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Set_4</key>
-		<path>Section_4/Set_4</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_4"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_4/Set_4/Question_01">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_01</key>
-		<path>Section_4/Set_4/Question_01</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_4/Set_4"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_4/Set_4/Question_02">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_02</key>
-		<path>Section_4/Set_4/Question_02</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_4/Set_4"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_4/Set_4/Question_03">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_03</key>
-		<path>Section_4/Set_4/Question_03</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_4/Set_4"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_4/Set_4/Question_04">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_04</key>
-		<path>Section_4/Set_4/Question_04</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_4/Set_4"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_4/Set_4/Question_05">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_05</key>
-		<path>Section_4/Set_4/Question_05</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_4/Set_4"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_4/Set_4/Question_06">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_06</key>
-		<path>Section_4/Set_4/Question_06</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_4/Set_4"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_4/Set_4/Question_07">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_07</key>
-		<path>Section_4/Set_4/Question_07</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_4/Set_4"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_4/Set_4_hidden">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Set_4_hidden</key>
-		<path>Section_4/Set_4_hidden</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_4"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_4/Set_5">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Set_5</key>
-		<path>Section_4/Set_5</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_4"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_4/Set_5/Question_01">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_01</key>
-		<path>Section_4/Set_5/Question_01</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_4/Set_5"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_4/Set_5/Question_02">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_02</key>
-		<path>Section_4/Set_5/Question_02</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_4/Set_5"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_4/Set_5/Question_03">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_03</key>
-		<path>Section_4/Set_5/Question_03</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_4/Set_5"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_4/Set_5/Question_04">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_04</key>
-		<path>Section_4/Set_5/Question_04</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_4/Set_5"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_4/Set_5/Question_05">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_05</key>
-		<path>Section_4/Set_5/Question_05</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_4/Set_5"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_4/Set_5/Question_06">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_06</key>
-		<path>Section_4/Set_5/Question_06</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_4/Set_5"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_4/Set_5/Question_07">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_07</key>
-		<path>Section_4/Set_5/Question_07</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_4/Set_5"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_4/Set_5/Question_08">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_08</key>
-		<path>Section_4/Set_5/Question_08</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_4/Set_5"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_4/Set_5_hidden">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Set_5_hidden</key>
-		<path>Section_4/Set_5_hidden</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_4"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_4/Set_6">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Set_6</key>
-		<path>Section_4/Set_6</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_4"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_4/Set_6/Question_00">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_00</key>
-		<path>Section_4/Set_6/Question_00</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_4/Set_6"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_4/Set_6/Question_01">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_01</key>
-		<path>Section_4/Set_6/Question_01</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_4/Set_6"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_4/Set_6/Question_02">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_02</key>
-		<path>Section_4/Set_6/Question_02</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_4/Set_6"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_4/Set_6/Question_03">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_03</key>
-		<path>Section_4/Set_6/Question_03</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_4/Set_6"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_4/Set_6/Question_04">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_04</key>
-		<path>Section_4/Set_6/Question_04</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_4/Set_6"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_4/Set_6/Question_05">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_05</key>
-		<path>Section_4/Set_6/Question_05</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_4/Set_6"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_4/Set_6/Question_06">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_06</key>
-		<path>Section_4/Set_6/Question_06</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_4/Set_6"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_4/Set_6/Question_07">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_07</key>
-		<path>Section_4/Set_6/Question_07</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_4/Set_6"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_4/Set_6/Question_08">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_08</key>
-		<path>Section_4/Set_6/Question_08</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_4/Set_6"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_4/Set_6/Question_09">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_09</key>
-		<path>Section_4/Set_6/Question_09</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_4/Set_6"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_4/Set_6/Question_10">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_10</key>
-		<path>Section_4/Set_6/Question_10</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_4/Set_6"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_4/Set_6/Question_11">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_11</key>
-		<path>Section_4/Set_6/Question_11</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_4/Set_6"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_4/Set_6_hidden">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Set_6_hidden</key>
-		<path>Section_4/Set_6_hidden</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_4"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_5">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Section_5</key>
-		<path>Section_5</path>
+		<key>ResearchProblemMathModDBID</key>
+		<path>ResearchProblemMathModDBID</path>
 		<dc:comment/>
 		<parent/>
 	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_5/Set_1">
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/ResearchProblemName">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Set_1</key>
-		<path>Section_5/Set_1</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_5"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_5/Set_1/Question_01">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_01</key>
-		<path>Section_5/Set_1/Question_01</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_5/Set_1"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_5/Set_1/Question_01a">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_01a</key>
-		<path>Section_5/Set_1/Question_01a</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_5/Set_1"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_5/Set_1/Question_02">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_02</key>
-		<path>Section_5/Set_1/Question_02</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_5/Set_1"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_5/Set_1/Question_02a">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_02a</key>
-		<path>Section_5/Set_1/Question_02a</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_5/Set_1"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_5/Set_1/Question_03">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_03</key>
-		<path>Section_5/Set_1/Question_03</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_5/Set_1"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_5/Set_1/Question_03a">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_03a</key>
-		<path>Section_5/Set_1/Question_03a</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_5/Set_1"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_5/Set_1/Question_04">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_04</key>
-		<path>Section_5/Set_1/Question_04</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_5/Set_1"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_5/Set_1/Question_04a">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_04a</key>
-		<path>Section_5/Set_1/Question_04a</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_5/Set_1"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_5/Set_1/Question_05">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_05</key>
-		<path>Section_5/Set_1/Question_05</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_5/Set_1"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_5/Set_1/Question_05a">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_05a</key>
-		<path>Section_5/Set_1/Question_05a</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_5/Set_1"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_5/Set_1/Question_06">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_06</key>
-		<path>Section_5/Set_1/Question_06</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_5/Set_1"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_6">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Section_6</key>
-		<path>Section_6</path>
+		<key>ResearchProblemName</key>
+		<path>ResearchProblemName</path>
 		<dc:comment/>
 		<parent/>
 	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_6/Set_1">
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/ResearchProblemNotInMathModDB">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Set_1</key>
-		<path>Section_6/Set_1</path>
+		<key>ResearchProblemNotInMathModDB</key>
+		<path>ResearchProblemNotInMathModDB</path>
 		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_6"/>
+		<parent/>
 	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_6/Set_1/Question_01">
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/ResearchProblemOtherID">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_01</key>
-		<path>Section_6/Set_1/Question_01</path>
+		<key>ResearchProblemOtherID</key>
+		<path>ResearchProblemOtherID</path>
 		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_6/Set_1"/>
+		<parent/>
 	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_6/Set_1/Question_02">
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/ResearchProblemQID">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Question_02</key>
-		<path>Section_6/Set_1/Question_02</path>
+		<key>ResearchProblemQID</key>
+		<path>ResearchProblemQID</path>
 		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Section_6/Set_1"/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/ResearchProblemRelatedToMathematicalModel">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>ResearchProblemRelatedToMathematicalModel</key>
+		<path>ResearchProblemRelatedToMathematicalModel</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/ResearchProblemRelatedToResearchProblem">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>ResearchProblemRelatedToResearchProblem</key>
+		<path>ResearchProblemRelatedToResearchProblem</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/ResearchProblemToResearchProblemConnection">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>ResearchProblemToResearchProblemConnection</key>
+		<path>ResearchProblemToResearchProblemConnection</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/ResearchProblemToResearchProblemRelation">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>ResearchProblemToResearchProblemRelation</key>
+		<path>ResearchProblemToResearchProblemRelation</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/ResearchProblem_hidden">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>ResearchProblem_hidden</key>
+		<path>ResearchProblem_hidden</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/ResultReproducibility">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>ResultReproducibility</key>
+		<path>ResultReproducibility</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/ResultReproducibilityCondition">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>ResultReproducibilityCondition</key>
+		<path>ResultReproducibilityCondition</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/RuntimeReproducibility">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>RuntimeReproducibility</key>
+		<path>RuntimeReproducibility</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/RuntimeReproducibilityCondition">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>RuntimeReproducibilityCondition</key>
+		<path>RuntimeReproducibilityCondition</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/SearchViaResearchDiscipline">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>SearchViaResearchDiscipline</key>
+		<path>SearchViaResearchDiscipline</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/SearchViaResearchObjective">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>SearchViaResearchObjective</key>
+		<path>SearchViaResearchObjective</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/SearchViaWorkflowEntity">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>SearchViaWorkflowEntity</key>
+		<path>SearchViaWorkflowEntity</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Software">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>Software</key>
+		<path>Software</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/SoftwareDependencies">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>SoftwareDependencies</key>
+		<path>SoftwareDependencies</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/SoftwareDescription">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>SoftwareDescription</key>
+		<path>SoftwareDescription</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/SoftwareDocumented">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>SoftwareDocumented</key>
+		<path>SoftwareDocumented</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/SoftwareName">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>SoftwareName</key>
+		<path>SoftwareName</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/SoftwareOtherID">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>SoftwareOtherID</key>
+		<path>SoftwareOtherID</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/SoftwareProgrammingLanguages">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>SoftwareProgrammingLanguages</key>
+		<path>SoftwareProgrammingLanguages</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/SoftwarePublished">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>SoftwarePublished</key>
+		<path>SoftwarePublished</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/SoftwareQID">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>SoftwareQID</key>
+		<path>SoftwareQID</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/SoftwareVersion">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>SoftwareVersion</key>
+		<path>SoftwareVersion</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/SoftwareVersioned">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>SoftwareVersioned</key>
+		<path>SoftwareVersioned</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Software_hidden">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>Software_hidden</key>
+		<path>Software_hidden</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Task">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>Task</key>
+		<path>Task</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/TaskCategory">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>TaskCategory</key>
+		<path>TaskCategory</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/TaskDescription">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>TaskDescription</key>
+		<path>TaskDescription</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/TaskMathModDBID">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>TaskMathModDBID</key>
+		<path>TaskMathModDBID</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/TaskName">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>TaskName</key>
+		<path>TaskName</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/TaskNotInMathModDB">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>TaskNotInMathModDB</key>
+		<path>TaskNotInMathModDB</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/TaskNotInMathModDB/TaskOtherID">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>TaskOtherID</key>
+		<path>TaskNotInMathModDB/TaskOtherID</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/TaskNotInMathModDB"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/TaskProperties">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>TaskProperties</key>
+		<path>TaskProperties</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/TaskQID">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>TaskQID</key>
+		<path>TaskQID</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/TaskRelatedToTask">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>TaskRelatedToTask</key>
+		<path>TaskRelatedToTask</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/TaskToMathematicalFormulationConnection">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>TaskToMathematicalFormulationConnection</key>
+		<path>TaskToMathematicalFormulationConnection</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/TaskToMathematicalFormulationRelation">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>TaskToMathematicalFormulationRelation</key>
+		<path>TaskToMathematicalFormulationRelation</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/TaskToQuantityOrQuantityKindConnection">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>TaskToQuantityOrQuantityKindConnection</key>
+		<path>TaskToQuantityOrQuantityKindConnection</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/TaskToQuantityOrQuantityKindRelation">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>TaskToQuantityOrQuantityKindRelation</key>
+		<path>TaskToQuantityOrQuantityKindRelation</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/TaskToTaskConnection">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>TaskToTaskConnection</key>
+		<path>TaskToTaskConnection</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/TaskToTaskRelation">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>TaskToTaskRelation</key>
+		<path>TaskToTaskRelation</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/TaskWorkflowRelevant">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>TaskWorkflowRelevant</key>
+		<path>TaskWorkflowRelevant</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/TaskWorkflowRelevantMathModDBID">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>TaskWorkflowRelevantMathModDBID</key>
+		<path>TaskWorkflowRelevantMathModDBID</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/TaskWorkflowRelevant_hidden">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>TaskWorkflowRelevant_hidden</key>
+		<path>TaskWorkflowRelevant_hidden</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Task_hidden">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>Task_hidden</key>
+		<path>Task_hidden</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Transferability">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>Transferability</key>
+		<path>Transferability</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/WorkflowEntityToSearch">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>WorkflowEntityToSearch</key>
+		<path>WorkflowEntityToSearch</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/WorkflowSearchOptions">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>WorkflowSearchOptions</key>
+		<path>WorkflowSearchOptions</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/WorkflowType">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>WorkflowType</key>
+		<path>WorkflowType</path>
+		<dc:comment/>
+		<parent/>
 	</attribute>
 </rdmo>
