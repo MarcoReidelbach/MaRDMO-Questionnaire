@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2024-09-12T21:19:23.587338+02:00" version="2.1.3">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2024-09-13T13:35:34.022366+02:00" version="2.1.3">
 	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/CreatorID">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<key>CreatorID</key>
@@ -1684,13 +1684,6 @@
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<key>TaskWorkflowRelevantMathModDBID</key>
 		<path>TaskWorkflowRelevantMathModDBID</path>
-		<dc:comment/>
-		<parent/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/TaskWorkflowRelevant_hidden">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>TaskWorkflowRelevant_hidden</key>
-		<path>TaskWorkflowRelevant_hidden</path>
 		<dc:comment/>
 		<parent/>
 	</attribute>
