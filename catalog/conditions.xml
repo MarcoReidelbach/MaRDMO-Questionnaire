@@ -1,14 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2024-09-13T13:35:41.827037+02:00" version="2.1.3">
-	<condition dc:uri="http://example.com/terms/conditions/Preview">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>Preview</uri_path>
-		<dc:comment/>
-		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/ExportType"/>
-		<relation>eq</relation>
-		<target_text/>
-		<target_option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/ExportType/Public"/>
-	</condition>
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2024-09-30T09:53:10.708637+02:00" version="2.2.1">
 	<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/DataSetNotInMaRDIWikidata">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>DataSetNotInMaRDIWikidata</uri_path>
@@ -63,11 +54,11 @@
 		<target_text/>
 		<target_option/>
 	</condition>
-	<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/IdentificationInformation">
+	<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/Identification">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>IdentificationInformation</uri_path>
+		<uri_path>Identification</uri_path>
 		<dc:comment/>
-		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/IdentificationInformation"/>
+		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Identification"/>
 		<relation>neq</relation>
 		<target_text>1</target_text>
 		<target_option/>
@@ -233,6 +224,15 @@
 		<relation>eq</relation>
 		<target_text/>
 		<target_option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/yes_no/yes"/>
+	</condition>
+	<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/Preview">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>Preview</uri_path>
+		<dc:comment/>
+		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/ExportType"/>
+		<relation>eq</relation>
+		<target_text/>
+		<target_option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/ExportType/Public"/>
 	</condition>
 	<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/ProcessSteps">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
@@ -468,11 +468,11 @@
 		<target_text/>
 		<target_option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/DocumentationType/Workflow"/>
 	</condition>
-	<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/WorkflowSearchOptions">
+	<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/WorkflowSearch">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>WorkflowSearchOptions</uri_path>
+		<uri_path>WorkflowSearch</uri_path>
 		<dc:comment/>
-		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/WorkflowSearchOptions"/>
+		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/WorkflowSearch"/>
 		<relation>eq</relation>
 		<target_text>1</target_text>
 		<target_option/>
