@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2024-09-30T09:54:08.491602+02:00" version="2.2.1">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2024-11-05T14:19:59.411347+01:00" version="2.2.1">
 	<catalog dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>MaRDMO</uri_path>
@@ -1907,7 +1907,7 @@
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>MaRDMO/MathematicalModel/QuantityOrQuantityKind</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/QuantityOrQuantityKind"/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Quantity"/>
 		<is_collection>True</is_collection>
 		<title lang="en">Quantity or Quantity Kind</title>
 		<short_title lang="en"/>
@@ -1931,7 +1931,7 @@
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>MaRDMO/MathematicalModel/QuantityOrQuantityKind/QuantityOrQuantityKindNotInMathModDB</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/QuantityOrQuantityKindNotInMathModDB"/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/QuantityNotInMathModDB"/>
 		<is_collection>False</is_collection>
 		<title lang="en">If not in MathModDB...</title>
 		<help lang="en"/>
@@ -2307,7 +2307,7 @@
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>MaRDMO/MathematicalModel/QuantityOrQuantityKind/QuantityOrQuantityKindNotInMathModDB/QuantityOrQuantityKindQID</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/QuantityOrQuantityKindQID"/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/QuantityQID"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en">For all items label and description are provided. If no appropriate quantity or quantity kind is available in the MaRDI KG or Wikidata, define it in the following.</help>
@@ -2336,7 +2336,7 @@
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>MaRDMO/MathematicalModel/QuantityOrQuantityKind/QuantityOrQuantityKindNotInMathModDB/QuantityOrQuantityKindName</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/QuantityOrQuantityKindName"/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/QuantityName"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en"/>
@@ -2365,7 +2365,7 @@
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>MaRDMO/MathematicalModel/QuantityOrQuantityKind/QuantityOrQuantityKindNotInMathModDB/QuantityOrQuantityKindDescription</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/QuantityOrQuantityKindDescription"/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/QuantityDescription"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en"/>
@@ -2394,7 +2394,7 @@
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>MaRDMO/MathematicalModel/QuantityOrQuantityKind/QuantityOrQuantityKindNotInMathModDB/QuantityOrQuantityKindOtherID</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/QuantityOrQuantityKindOtherID"/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/QuantityOtherID"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en">Provided Prefix qudt:</help>
@@ -2485,7 +2485,7 @@
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>MaRDMO/MathematicalModel/QuantityOrQuantityKind/QuantityOrQuantityKindMathModDBID</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/QuantityOrQuantityKindMathModDBID"/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/QuantityMathModDBID"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en">For all quantities or quantity kinds the label is provided. If no appropriate quantity or quantitiy kind is available in MathModDB choose 'not in MathModDB' and define the quantity or quantity kind in the following.</help>
@@ -3619,7 +3619,7 @@
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>MaRDMO/MathematicalModel/Publication/PublicationNotInMathModDB</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/PublicationNotInMathModDB"/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/PublicationModelNotInMathModDB"/>
 		<is_collection>False</is_collection>
 		<title lang="en">...if not in MathModDB.</title>
 		<help lang="en"/>
@@ -3640,7 +3640,7 @@
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>MaRDMO/MathematicalModel/Publication/PublicationNotInMathModDB/PublicationCitation</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/PublicationCitation"/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/PublicationModelCitation"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en">Expected Format: Last Name First Author (Publication Year) Publication Title</help>
@@ -3667,7 +3667,7 @@
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>MaRDMO/MathematicalModel/Publication/PublicationNotInMathModDB/PublicationID</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/PublicationID"/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/PublicationModelID"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en">Provided Prefixes are: doi:</help>
@@ -3771,7 +3771,7 @@
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>MaRDMO/MathematicalModel/Publication/PubliactionMathModDBID</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/PublicationMathModDBID"/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/PublicationModelMathModDBID"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en">For all publications the label is provided. If no appropriate publication is available in MathModBD choose 'not in MathModDB' and define it in the following.</help>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2024-09-30T09:53:10.708637+02:00" version="2.2.1">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2024-11-05T14:20:11.579915+01:00" version="2.2.1">
 	<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/DataSetNotInMaRDIWikidata">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>DataSetNotInMaRDIWikidata</uri_path>
@@ -265,7 +265,7 @@
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>PublicationNotInMathModDB</uri_path>
 		<dc:comment/>
-		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/PublicationMathModDBID"/>
+		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/PublicationModelMathModDBID"/>
 		<relation>eq</relation>
 		<target_text>not in MathModDB</target_text>
 		<target_option/>
@@ -274,7 +274,7 @@
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>QuantityNotInMaRDIWikidata</uri_path>
 		<dc:comment/>
-		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/QuantityOrQuantityKindQID"/>
+		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/QuantityQID"/>
 		<relation>empty</relation>
 		<target_text/>
 		<target_option/>
@@ -283,7 +283,7 @@
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>QuantityOrQuantityKind</uri_path>
 		<dc:comment/>
-		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/QuantityOrQuantityKind_hidden"/>
+		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Quantity_hidden"/>
 		<relation>eq</relation>
 		<target_text>1</target_text>
 		<target_option/>
@@ -292,7 +292,7 @@
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>QuantityOrQuantityKindNotInMathModDB</uri_path>
 		<dc:comment/>
-		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/QuantityOrQuantityKindMathModDBID"/>
+		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/QuantityMathModDBID"/>
 		<relation>eq</relation>
 		<target_text>not in MathModDB</target_text>
 		<target_option/>
