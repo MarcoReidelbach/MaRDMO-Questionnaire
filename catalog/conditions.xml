@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2024-11-05T14:20:11.579915+01:00" version="2.2.1">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2024-11-06T11:10:07.838519+01:00" version="2.2.1">
 	<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/DataSetNotInMaRDIWikidata">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>DataSetNotInMaRDIWikidata</uri_path>
@@ -104,15 +104,6 @@
 		<uri_path>LocalOrPublic</uri_path>
 		<dc:comment/>
 		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/LocalOrPublic"/>
-		<relation>eq</relation>
-		<target_text>1</target_text>
-		<target_option/>
-	</condition>
-	<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/MainMathematicalModel">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>MainMathematicalModel</uri_path>
-		<dc:comment/>
-		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/MainMathematicalModel"/>
 		<relation>eq</relation>
 		<target_text>1</target_text>
 		<target_option/>
@@ -306,15 +297,6 @@
 		<target_text>1</target_text>
 		<target_option/>
 	</condition>
-	<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/ResearchField">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>ResearchField</uri_path>
-		<dc:comment/>
-		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/ResearchField_hidden"/>
-		<relation>eq</relation>
-		<target_text>1</target_text>
-		<target_option/>
-	</condition>
 	<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/ResearchFieldNotInMaRDIWikidata">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>ResearchFieldNotInMaRDIWikidata</uri_path>
@@ -328,7 +310,7 @@
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>ResearchFieldNotInMathModDB</uri_path>
 		<dc:comment/>
-		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/ResearchFieldMathModDBID"/>
+		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/research-field/id"/>
 		<relation>eq</relation>
 		<target_text>not in MathModDB</target_text>
 		<target_option/>
@@ -485,5 +467,23 @@
 		<relation>eq</relation>
 		<target_text/>
 		<target_option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/WorkflowType/Computational"/>
+	</condition>
+	<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/main-mathematical-model">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>main-mathematical-model</uri_path>
+		<dc:comment/>
+		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/main-mathematical-model"/>
+		<relation>eq</relation>
+		<target_text>1</target_text>
+		<target_option/>
+	</condition>
+	<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/research-field">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>research-field</uri_path>
+		<dc:comment/>
+		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/ResearchField_hidden"/>
+		<relation>eq</relation>
+		<target_text>1</target_text>
+		<target_option/>
 	</condition>
 </rdmo>

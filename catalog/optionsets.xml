@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2024-11-02T21:20:34.806438+01:00" version="2.2.1">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2024-11-06T11:10:04.277506+01:00" version="2.2.1">
 	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/BinaryOrText">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>BinaryOrText</uri_path>
@@ -873,14 +873,6 @@
 		</options>
 		<conditions/>
 	</optionset>
-	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathematicalModel">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>MathematicalModel</uri_path>
-		<dc:comment/>
-		<provider_key>MathematicalModel</provider_key>
-		<options/>
-		<conditions/>
-	</optionset>
 	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathematicalModelProperties">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>MathematicalModelProperties</uri_path>
@@ -1470,70 +1462,6 @@
 		<view_text lang="de"/>
 		<additional_input/>
 	</option>
-	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/ResearchField">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>ResearchField</uri_path>
-		<dc:comment/>
-		<provider_key>ResearchField</provider_key>
-		<options/>
-		<conditions/>
-	</optionset>
-	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/ResearchFieldRelatedToResearchField">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>ResearchFieldRelatedToResearchField</uri_path>
-		<dc:comment/>
-		<provider_key>RelatedResearchField</provider_key>
-		<options/>
-		<conditions/>
-	</optionset>
-	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/ResearchFieldToResearchFieldRelation">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>ResearchFieldToResearchFieldRelation</uri_path>
-		<dc:comment/>
-		<provider_key/>
-		<options>
-			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/generalizedByField" order="1"/>
-			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/generalizesField" order="2"/>
-			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/similarToField" order="3"/>
-		</options>
-		<conditions/>
-	</optionset>
-	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/generalizedByField">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>MathModDB/generalizedByField</uri_path>
-		<dc:comment/>
-		<text lang="en">is generalized by</text>
-		<help lang="en"/>
-		<view_text lang="en"/>
-		<text lang="de">wird generalisiert durch</text>
-		<help lang="de"/>
-		<view_text lang="de"/>
-		<additional_input/>
-	</option>
-	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/generalizesField">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>MathModDB/generalizesField</uri_path>
-		<dc:comment/>
-		<text lang="en">generalizes</text>
-		<help lang="en"/>
-		<view_text lang="en"/>
-		<text lang="de">generalisiert</text>
-		<help lang="de"/>
-		<view_text lang="de"/>
-		<additional_input/>
-	</option>
-	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/similarToField">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>MathModDB/similarToField</uri_path>
-		<dc:comment/>
-		<text lang="en">is similar to</text>
-		<help lang="en"/>
-		<view_text lang="en"/>
-		<text lang="de">ist ähnlich zu</text>
-		<help lang="de"/>
-		<view_text lang="de"/>
-		<additional_input/>
-	</option>
 	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/ResearchFieldWithUserAddition">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>ResearchFieldWithUserAddition</uri_path>
@@ -1952,6 +1880,78 @@
 		<help lang="en"/>
 		<view_text lang="en"/>
 		<text lang="de">(Mess-)datenanalyse Workflow</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/main-mathematical-model">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>main-mathematical-model</uri_path>
+		<dc:comment/>
+		<provider_key>MainMathematicalModel</provider_key>
+		<options/>
+		<conditions/>
+	</optionset>
+	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/research-field">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>research-field</uri_path>
+		<dc:comment/>
+		<provider_key>ResearchField</provider_key>
+		<options/>
+		<conditions/>
+	</optionset>
+	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/research-field-related-to-research-field">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>research-field-related-to-research-field</uri_path>
+		<dc:comment/>
+		<provider_key>RelatedResearchField</provider_key>
+		<options/>
+		<conditions/>
+	</optionset>
+	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/research-field-to-research-field-relation">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>research-field-to-research-field-relation</uri_path>
+		<dc:comment/>
+		<provider_key/>
+		<options>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/generalizedByField" order="1"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/generalizesField" order="2"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/similarToField" order="3"/>
+		</options>
+		<conditions/>
+	</optionset>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/generalizedByField">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>MathModDB/generalizedByField</uri_path>
+		<dc:comment/>
+		<text lang="en">is generalized by</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">wird generalisiert durch</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/generalizesField">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>MathModDB/generalizesField</uri_path>
+		<dc:comment/>
+		<text lang="en">generalizes</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">generalisiert</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/similarToField">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>MathModDB/similarToField</uri_path>
+		<dc:comment/>
+		<text lang="en">is similar to</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">ist ähnlich zu</text>
 		<help lang="de"/>
 		<view_text lang="de"/>
 		<additional_input/>

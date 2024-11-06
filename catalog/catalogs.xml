@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2024-11-05T14:19:59.411347+01:00" version="2.2.1">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2024-11-06T11:09:50.443842+01:00" version="2.2.1">
 	<catalog dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>MaRDMO</uri_path>
@@ -14,7 +14,7 @@
 			<section dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/Identification" order="1"/>
 			<section dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/WorkflowSearch" order="2"/>
 			<section dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/GeneralDescription" order="3"/>
-			<section dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel" order="5"/>
+			<section dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/mathematical-model" order="5"/>
 			<section dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/ProcessInformation" order="6"/>
 			<section dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/Reproducibility" order="7"/>
 			<section dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/Export" order="8"/>
@@ -990,17 +990,17 @@
 		<optionsets/>
 		<conditions/>
 	</question>
-	<section dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel">
+	<section dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/mathematical-model">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>MaRDMO/MathematicalModel</uri_path>
+		<uri_path>mardmo/mathematical-model</uri_path>
 		<dc:comment/>
 		<title lang="en">Mathematical Model</title>
 		<short_title lang="en"/>
 		<title lang="de">Mathematisches Modell</title>
 		<short_title lang="de"/>
 		<pages>
-			<page dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/MainMathematicalModel" order="0"/>
-			<page dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/ResearchField" order="1"/>
+			<page dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/mathematical-model/main-mathematical-model" order="0"/>
+			<page dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/mathematical-model/research-field" order="1"/>
 			<page dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/ResearchProblem" order="2"/>
 			<page dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/MathematicalModel" order="3"/>
 			<page dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/QuantityOrQuantityKind" order="4"/>
@@ -1010,11 +1010,11 @@
 			<page dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/TaskWorkflowRelevant" order="8"/>
 		</pages>
 	</section>
-	<page dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/MainMathematicalModel">
+	<page dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/mathematical-model/main-mathematical-model">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>MaRDMO/MathematicalModel/MainMathematicalModel</uri_path>
+		<uri_path>mardmo/mathematical-model/main-mathematical-model</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/MainMathematicalModel"/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/main-mathematical-model"/>
 		<is_collection>False</is_collection>
 		<title lang="en">Mathematical Model in MathModDB?</title>
 		<short_title lang="en"/>
@@ -1026,17 +1026,17 @@
 		<verbose_name lang="de"/>
 		<questionsets/>
 		<questions>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/MainMathematicalModel/MainMathematicalModelMathModDBID" order="-2"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/mathematical-model/main-mathematical-model/id" order="-2"/>
 		</questions>
 		<conditions>
-			<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/MainMathematicalModel"/>
+			<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/main-mathematical-model"/>
 		</conditions>
 	</page>
-	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/MainMathematicalModel/MainMathematicalModelMathModDBID">
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/mathematical-model/main-mathematical-model/id">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>MaRDMO/MathematicalModel/MainMathematicalModel/MainMathematicalModelMathModDBID</uri_path>
+		<uri_path>mardmo/mathematical-model/main-mathematical-model/id</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/MainMathematicalModelMathModDBID"/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/main-mathematical-model/id"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en">For all models the label is provided. When a mathematical model is selected, MaRDMO will fetch all relevant information from MathModDB. Please wait until the additions are shown in the interface. If no appropriate model is available in MathModDB choose 'not in MathModDB' and define the model in the following section.</help>
@@ -1057,86 +1057,136 @@
 		<unit/>
 		<width/>
 		<optionsets>
-			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathematicalModel"/>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/main-mathematical-model"/>
 		</optionsets>
 		<conditions/>
 	</question>
-	<page dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/ResearchField">
+	<page dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/mathematical-model/research-field">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>MaRDMO/MathematicalModel/ResearchField</uri_path>
+		<uri_path>mardmo/mathematical-model/research-field</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/ResearchField"/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/research-field"/>
 		<is_collection>True</is_collection>
 		<title lang="en">Research Field</title>
 		<short_title lang="en"/>
-		<help lang="en">The following questions allow the selection of existing Research Fields from MathModDB. If no appropriate Research Field is present in MathModDB, suitable Research Fields might be selected from the MaRDI KG or Wikidata. Alternatively, new Research Fields can be defined providing a Name, Description and ID. All Research Fields selected or defined here can OPTIONALLY be related to each other and to existing Research Fields from MathModDB. At least one Research Field needs to be selected or defined in this section!</help>
+		<help lang="en">Select, define and relate research fields associated with the mathematical model.</help>
 		<verbose_name lang="en"/>
 		<title lang="de">Forschungsgebiet</title>
 		<short_title lang="de"/>
-		<help lang="de">Die folgenden Fragen erlauben die Auswahl von bestehenden Forschungsgebieten aus MathModDB. Ist in MathModDB kein passendes Forschungsgebiet vorhanden, können geeignete Forschungsgebiete aus dem MaRDI KG oder Wikidata ausgewählt werden. Alternativ können auch neue Forschungsgebiete definiert werden, die einen Namen, eine Beschreibung und eine ID erhalten. Alle hier ausgewählten oder definierten Forschungsgebiete können OPTIONAL miteinander und mit bestehenden Forschungsgebieten aus MathModDB in Beziehung gesetzt werden. Mindestens ein Forschungsgebiet muss in diesem Abschnitt ausgewählt oder definiert werden!</help>
+		<help lang="de">Wählen, definieren und verknüpfen Sie die mit dem mathematischen Modell verbundenen Forschungsgebiete.</help>
 		<verbose_name lang="de"/>
 		<questionsets>
-			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/ResearchField/ResearchFieldNotInMathModDB" order="4"/>
+			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/mathematical-model/research-field/information" order="1"/>
+			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/mathematical-model/research-field/research-field-to-research-field" order="2"/>
 		</questionsets>
 		<questions>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/ResearchField/ResearchFieldMathModDBID" order="3"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/mathematical-model/research-field/id" order="0"/>
 		</questions>
 		<conditions>
-			<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/ResearchField"/>
+			<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/research-field"/>
 		</conditions>
 	</page>
-	<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/ResearchField/ResearchFieldNotInMathModDB">
+	<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/mathematical-model/research-field/information">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>MaRDMO/MathematicalModel/ResearchField/ResearchFieldNotInMathModDB</uri_path>
+		<uri_path>mardmo/mathematical-model/research-field/information</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/ResearchFieldNotInMathModDB"/>
+		<attribute/>
 		<is_collection>False</is_collection>
-		<title lang="en">If not in MathModDB...</title>
+		<title lang="en">Research Field Information</title>
 		<help lang="en"/>
 		<verbose_name lang="en"/>
-		<title lang="de">Falls nicht in MathModDB...</title>
+		<title lang="de">Forschungsgebiet Informationen</title>
 		<help lang="de"/>
-		<verbose_name lang="de"/>
-		<questionsets>
-			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/ResearchField/ResearchFieldNotInMathModDB/ResearchFieldToResearchFieldConnection" order="4"/>
-		</questionsets>
-		<questions>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/ResearchField/ResearchFieldNotInMathModDB/ResearchFieldQID" order="0"/>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/ResearchField/ResearchFieldNotInMathModDB/ResearchFieldName" order="1"/>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/ResearchField/ResearchFieldNotInMathModDB/ResearchFieldDescription" order="2"/>
-		</questions>
-		<conditions>
-			<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/ResearchFieldNotInMathModDB"/>
-		</conditions>
-	</questionset>
-	<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/ResearchField/ResearchFieldNotInMathModDB/ResearchFieldToResearchFieldConnection">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>MaRDMO/MathematicalModel/ResearchField/ResearchFieldNotInMathModDB/ResearchFieldToResearchFieldConnection</uri_path>
-		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/ResearchFieldToResearchFieldConnection"/>
-		<is_collection>True</is_collection>
-		<title lang="en">Research Field Connections</title>
-		<help lang="en">The following questions allow you to relate the new Research Field to other Research Fields from MathModDB or created here. This is OPTIONAL, if no relations are defined, they will be added through a curator.</help>
-		<verbose_name lang="en"/>
-		<title lang="de">Forschungsgebiet Verbindungen</title>
-		<help lang="de">Die folgenden Fragen ermöglichen es Ihnen, das neue Forschungsgebiet mit anderen Forschungsgebieten aus MathModDB oder hier erstellten Forschungsgebieten in Relation zu setzen. Dies ist OPTIONAL, wenn keine Relationen definiert sind, werden sie durch einen Kurator hinzugefügt.</help>
 		<verbose_name lang="de"/>
 		<questionsets/>
 		<questions>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/ResearchField/ResearchFieldNotInMathModDB/ResearchFieldToResearchFieldConnection/ResearchFieldToResearchFieldRelation" order="0"/>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/ResearchField/ResearchFieldNotInMathModDB/ResearchFieldToResearchFieldConnection/ResearchFieldRelatedToResearchField" order="1"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/mathematical-model/research-field/name" order="0"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/mathematical-model/research-field/description" order="1"/>
 		</questions>
 		<conditions/>
 	</questionset>
-	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/ResearchField/ResearchFieldNotInMathModDB/ResearchFieldToResearchFieldConnection/ResearchFieldToResearchFieldRelation">
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/mathematical-model/research-field/name">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>MaRDMO/MathematicalModel/ResearchField/ResearchFieldNotInMathModDB/ResearchFieldToResearchFieldConnection/ResearchFieldToResearchFieldRelation</uri_path>
+		<uri_path>mardmo/mathematical-model/research-field/name</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/ResearchFieldToResearchFieldRelation"/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/research-field/name"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en"/>
+		<text lang="en">Name of the Research Field</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de"/>
+		<text lang="de"/>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/mathematical-model/research-field/description">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/mathematical-model/research-field/description</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/research-field/description"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en"/>
+		<text lang="en">Description of the Research Field</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de"/>
+		<text lang="de"/>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/mathematical-model/research-field/research-field-to-research-field">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/mathematical-model/research-field/research-field-to-research-field</uri_path>
+		<dc:comment/>
+		<attribute/>
+		<is_collection>True</is_collection>
+		<title lang="en">Research Field - Research Field Relations</title>
+		<help lang="en">Optionally, user-defined research fields and research fields from MathModDB can be related to each other.</help>
+		<verbose_name lang="en"/>
+		<title lang="de">Forschungsgebiet - Forschungsgebiet Beziehungen</title>
+		<help lang="de">Optional können benutzerdefinierte Forschungsgebiete und Forschungsgebiete aus MathModDB miteinander verknüpft werden.</help>
+		<verbose_name lang="de"/>
+		<questionsets/>
+		<questions>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/mathematical-model/research-field/research-field-to-research-field/relation" order="0"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/mathematical-model/research-field/research-field-to-research-field/relatant" order="1"/>
+		</questions>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/mathematical-model/research-field/research-field-to-research-field/relation">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/mathematical-model/research-field/research-field-to-research-field/relation</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/research-field/relation"/>
 		<is_collection>False</is_collection>
 		<is_optional>True</is_optional>
 		<help lang="en"/>
-		<text lang="en">The new Research Field...</text>
+		<text lang="en">The Research Field...</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de"/>
@@ -1153,15 +1203,15 @@
 		<unit/>
 		<width/>
 		<optionsets>
-			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/ResearchFieldToResearchFieldRelation"/>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/research-field-to-research-field-relation"/>
 		</optionsets>
 		<conditions/>
 	</question>
-	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/ResearchField/ResearchFieldNotInMathModDB/ResearchFieldToResearchFieldConnection/ResearchFieldRelatedToResearchField">
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/mathematical-model/research-field/research-field-to-research-field/relatant">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>MaRDMO/MathematicalModel/ResearchField/ResearchFieldNotInMathModDB/ResearchFieldToResearchFieldConnection/ResearchFieldRelatedToResearchField</uri_path>
+		<uri_path>mardmo/mathematical-model/research-field/research-field-to-research-field/relatant</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/ResearchFieldRelatedToResearchField"/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/research-field/relatant"/>
 		<is_collection>False</is_collection>
 		<is_optional>True</is_optional>
 		<help lang="en"/>
@@ -1182,23 +1232,23 @@
 		<unit/>
 		<width/>
 		<optionsets>
-			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/ResearchFieldRelatedToResearchField"/>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/research-field-related-to-research-field"/>
 		</optionsets>
 		<conditions/>
 	</question>
-	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/ResearchField/ResearchFieldNotInMathModDB/ResearchFieldQID">
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/mathematical-model/research-field/id">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>MaRDMO/MathematicalModel/ResearchField/ResearchFieldNotInMathModDB/ResearchFieldQID</uri_path>
+		<uri_path>mardmo/mathematical-model/research-field/id</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/ResearchFieldQID"/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/research-field/id"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">For all items label and description are provided. If no appropriate research field is available in MaRDI KG or Wikidata, define it in the following.</help>
-		<text lang="en">Select an appropriate Research Field from MaRDI KG or Wikidata!</text>
+		<help lang="en">For all research fields &quot;label (description) [source]&quot; is provided. If a research field is chosen, WAIT until further information are added to the questionnaire. If no appropriate research field is present in MathModDB, the MaRDI Portal or Wikidata, choose 'not found'.</help>
+		<text lang="en">Select a Research Field related to the Mathematical Model!</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">Für alle Suchergebnisse wird das Label und eine Beschreibung angegeben. Falls kein passendes Forschungsgebiet im MaRDI KG oder Wikidata vorhanden ist, definieren Sie es im Folgenden.</help>
-		<text lang="de">Wählen Sie ein geeignetes Forschungsfeld aus dem MaRDI KG oder Wikidata aus!</text>
+		<help lang="de">Für alle Forschungsgebiete wird „Name (Beschreibung) [Quelle]“ angegeben. Wenn ein Forschungsgebiet ausgewählt wird, WARTEN Sie, bis weitere Informationen zum Fragebogen hinzugefügt werden. Falls kein passendes Forschungsgebiet in MathModDB, dem MaRDI-Portal oder Wikidata vorhanden ist, wählen Sie „not found“.</help>
+		<text lang="de">Wählen Sie ein Forschungsgebiet aus, das mit dem mathematischen Modell im Zusammenhang steht!</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
@@ -1211,94 +1261,7 @@
 		<unit/>
 		<width/>
 		<optionsets>
-			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MaRDIAndWikidataSearch"/>
-		</optionsets>
-		<conditions/>
-	</question>
-	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/ResearchField/ResearchFieldNotInMathModDB/ResearchFieldName">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>MaRDMO/MathematicalModel/ResearchField/ResearchFieldNotInMathModDB/ResearchFieldName</uri_path>
-		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/ResearchFieldName"/>
-		<is_collection>False</is_collection>
-		<is_optional>False</is_optional>
-		<help lang="en"/>
-		<text lang="en">Provide a Name for the new Research Field.</text>
-		<default_text lang="en"/>
-		<verbose_name lang="en"/>
-		<help lang="de"/>
-		<text lang="de">Geben Sie einen Namen für das neue Forschungsgebiet an.</text>
-		<default_text lang="de"/>
-		<verbose_name lang="de"/>
-		<default_option/>
-		<default_external_id/>
-		<widget_type>text</widget_type>
-		<value_type>text</value_type>
-		<maximum/>
-		<minimum/>
-		<step/>
-		<unit/>
-		<width/>
-		<optionsets/>
-		<conditions>
-			<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/ResearchFieldNotInMaRDIWikidata"/>
-		</conditions>
-	</question>
-	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/ResearchField/ResearchFieldNotInMathModDB/ResearchFieldDescription">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>MaRDMO/MathematicalModel/ResearchField/ResearchFieldNotInMathModDB/ResearchFieldDescription</uri_path>
-		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/ResearchFieldDescription"/>
-		<is_collection>False</is_collection>
-		<is_optional>False</is_optional>
-		<help lang="en"/>
-		<text lang="en">Provide a Description for the new Research Field.</text>
-		<default_text lang="en"/>
-		<verbose_name lang="en"/>
-		<help lang="de"/>
-		<text lang="de">Geben Sie eine Beschreibung für das neue Forschungsgebiet an.</text>
-		<default_text lang="de"/>
-		<verbose_name lang="de"/>
-		<default_option/>
-		<default_external_id/>
-		<widget_type>text</widget_type>
-		<value_type>text</value_type>
-		<maximum/>
-		<minimum/>
-		<step/>
-		<unit/>
-		<width/>
-		<optionsets/>
-		<conditions>
-			<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/ResearchFieldNotInMaRDIWikidata"/>
-		</conditions>
-	</question>
-	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/ResearchField/ResearchFieldMathModDBID">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>MaRDMO/MathematicalModel/ResearchField/ResearchFieldMathModDBID</uri_path>
-		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/ResearchFieldMathModDBID"/>
-		<is_collection>False</is_collection>
-		<is_optional>False</is_optional>
-		<help lang="en">For all research fields the label is provided. If no appropriate research field is available in MathModDB choose 'not in MathModDB' and define the research field in the following.</help>
-		<text lang="en">Select a Research Field related to the new Mathematical Model!</text>
-		<default_text lang="en"/>
-		<verbose_name lang="en"/>
-		<help lang="de">Für alle Forschungsgebiete wird das Label angezeigt. Sollte kein geeignetes Forschungsgebiet in MathModDB vorhanden sein, wählen Sie 'not in MathModDB' und definieren Sie das Forschungsgebiet im Folgenden.</help>
-		<text lang="de">Wählen Sie ein Forschungsgebiet aus, das mit dem neuen mathematischen Modell im Zusammenhang steht!</text>
-		<default_text lang="de"/>
-		<verbose_name lang="de"/>
-		<default_option/>
-		<default_external_id/>
-		<widget_type>autocomplete</widget_type>
-		<value_type>text</value_type>
-		<maximum/>
-		<minimum/>
-		<step/>
-		<unit/>
-		<width/>
-		<optionsets>
-			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/ResearchField"/>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/research-field"/>
 		</optionsets>
 		<conditions/>
 	</question>
@@ -1841,7 +1804,7 @@
 		<unit/>
 		<width/>
 		<optionsets>
-			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathematicalModel"/>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/main-mathematical-model"/>
 		</optionsets>
 		<conditions/>
 	</question>
