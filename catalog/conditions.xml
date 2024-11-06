@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2024-11-06T11:10:07.838519+01:00" version="2.2.1">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2024-11-06T22:46:05.882994+01:00" version="2.2.1">
 	<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/DataSetNotInMaRDIWikidata">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>DataSetNotInMaRDIWikidata</uri_path>
@@ -315,15 +315,6 @@
 		<target_text>not in MathModDB</target_text>
 		<target_option/>
 	</condition>
-	<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/ResearchProblem">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>ResearchProblem</uri_path>
-		<dc:comment/>
-		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/ResearchProblem_hidden"/>
-		<relation>eq</relation>
-		<target_text>1</target_text>
-		<target_option/>
-	</condition>
 	<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/ResearchProblemNotInMaRDIWikidata">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>ResearchProblemNotInMaRDIWikidata</uri_path>
@@ -337,7 +328,7 @@
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>ResearchProblemNotInMathModDB</uri_path>
 		<dc:comment/>
-		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/ResearchProblemMathModDBID"/>
+		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/research-problem/id"/>
 		<relation>eq</relation>
 		<target_text>not in MathModDB</target_text>
 		<target_option/>
@@ -481,7 +472,16 @@
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>research-field</uri_path>
 		<dc:comment/>
-		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/ResearchField_hidden"/>
+		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/research-field-hidden"/>
+		<relation>eq</relation>
+		<target_text>1</target_text>
+		<target_option/>
+	</condition>
+	<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/research-problem">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>research-problem</uri_path>
+		<dc:comment/>
+		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/research-problem-hidden"/>
 		<relation>eq</relation>
 		<target_text>1</target_text>
 		<target_option/>

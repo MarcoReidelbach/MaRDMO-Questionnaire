@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2024-11-06T11:09:59.376294+01:00" version="2.2.1">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2024-11-06T22:45:54.799918+01:00" version="2.2.1">
 	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/CreatorID">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<key>CreatorID</key>
@@ -1190,24 +1190,10 @@
 		<dc:comment/>
 		<parent/>
 	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/ResearchFieldRelatedToResearchProblem">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>ResearchFieldRelatedToResearchProblem</key>
-		<path>ResearchFieldRelatedToResearchProblem</path>
-		<dc:comment/>
-		<parent/>
-	</attribute>
 	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/ResearchFieldToResearchFieldConnection">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<key>ResearchFieldToResearchFieldConnection</key>
 		<path>ResearchFieldToResearchFieldConnection</path>
-		<dc:comment/>
-		<parent/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/ResearchField_hidden">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>ResearchField_hidden</key>
-		<path>ResearchField_hidden</path>
 		<dc:comment/>
 		<parent/>
 	</attribute>
@@ -1222,34 +1208,6 @@
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<key>ResearchObjectiveToSearch</key>
 		<path>ResearchObjectiveToSearch</path>
-		<dc:comment/>
-		<parent/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/ResearchProblem">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>ResearchProblem</key>
-		<path>ResearchProblem</path>
-		<dc:comment/>
-		<parent/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/ResearchProblemDescription">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>ResearchProblemDescription</key>
-		<path>ResearchProblemDescription</path>
-		<dc:comment/>
-		<parent/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/ResearchProblemMathModDBID">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>ResearchProblemMathModDBID</key>
-		<path>ResearchProblemMathModDBID</path>
-		<dc:comment/>
-		<parent/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/ResearchProblemName">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>ResearchProblemName</key>
-		<path>ResearchProblemName</path>
 		<dc:comment/>
 		<parent/>
 	</attribute>
@@ -1274,38 +1232,10 @@
 		<dc:comment/>
 		<parent/>
 	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/ResearchProblemRelatedToResearchProblem">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>ResearchProblemRelatedToResearchProblem</key>
-		<path>ResearchProblemRelatedToResearchProblem</path>
-		<dc:comment/>
-		<parent/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/ResearchProblemToResearchFieldRelation">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>ResearchProblemToResearchFieldRelation</key>
-		<path>ResearchProblemToResearchFieldRelation</path>
-		<dc:comment/>
-		<parent/>
-	</attribute>
 	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/ResearchProblemToResearchProblemConnection">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<key>ResearchProblemToResearchProblemConnection</key>
 		<path>ResearchProblemToResearchProblemConnection</path>
-		<dc:comment/>
-		<parent/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/ResearchProblemToResearchProblemRelation">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>ResearchProblemToResearchProblemRelation</key>
-		<path>ResearchProblemToResearchProblemRelation</path>
-		<dc:comment/>
-		<parent/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/ResearchProblem_hidden">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>ResearchProblem_hidden</key>
-		<path>ResearchProblem_hidden</path>
 		<dc:comment/>
 		<parent/>
 	</attribute>
@@ -1624,6 +1554,13 @@
 		<dc:comment/>
 		<parent/>
 	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/research-field-hidden">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>research-field-hidden</key>
+		<path>research-field-hidden</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
 	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/research-field/description">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<key>description</key>
@@ -1658,5 +1595,68 @@
 		<path>research-field/relation</path>
 		<dc:comment/>
 		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/research-field"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/research-problem">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>research-problem</key>
+		<path>research-problem</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/research-problem-hidden">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>research-problem-hidden</key>
+		<path>research-problem-hidden</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/research-problem/description">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>description</key>
+		<path>research-problem/description</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/research-problem"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/research-problem/id">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>id</key>
+		<path>research-problem/id</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/research-problem"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/research-problem/name">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>name</key>
+		<path>research-problem/name</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/research-problem"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/research-problem/relatant">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>relatant</key>
+		<path>research-problem/relatant</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/research-problem"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/research-problem/relation">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>relation</key>
+		<path>research-problem/relation</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/research-problem"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/research-problem/research-field-relatant">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>research-field-relatant</key>
+		<path>research-problem/research-field-relatant</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/research-problem"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/research-problem/research-field-relation">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>research-field-relation</key>
+		<path>research-problem/research-field-relation</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/research-problem"/>
 	</attribute>
 </rdmo>

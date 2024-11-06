@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2024-11-06T11:09:50.443842+01:00" version="2.2.1">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2024-11-06T22:45:48.855932+01:00" version="2.2.1">
 	<catalog dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>MaRDMO</uri_path>
@@ -1001,7 +1001,7 @@
 		<pages>
 			<page dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/mathematical-model/main-mathematical-model" order="0"/>
 			<page dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/mathematical-model/research-field" order="1"/>
-			<page dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/ResearchProblem" order="2"/>
+			<page dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/mathematical-model/research-problem" order="2"/>
 			<page dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/MathematicalModel" order="3"/>
 			<page dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/QuantityOrQuantityKind" order="4"/>
 			<page dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/MathematicalFormulation" order="5"/>
@@ -1117,7 +1117,7 @@
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de"/>
-		<text lang="de"/>
+		<text lang="de">Name des Forschungsgebiets</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
@@ -1144,7 +1144,7 @@
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de"/>
-		<text lang="de"/>
+		<text lang="de">Beschreibung des Forschungsgebiets</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
@@ -1203,7 +1203,7 @@
 		<unit/>
 		<width/>
 		<optionsets>
-			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/research-field-to-research-field-relation"/>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/research-field-relation"/>
 		</optionsets>
 		<conditions/>
 	</question>
@@ -1232,7 +1232,7 @@
 		<unit/>
 		<width/>
 		<optionsets>
-			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/research-field-related-to-research-field"/>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/research-field-relatant"/>
 		</optionsets>
 		<conditions/>
 	</question>
@@ -1265,87 +1265,166 @@
 		</optionsets>
 		<conditions/>
 	</question>
-	<page dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/ResearchProblem">
+	<page dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/mathematical-model/research-problem">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>MaRDMO/MathematicalModel/ResearchProblem</uri_path>
+		<uri_path>mardmo/mathematical-model/research-problem</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/ResearchProblem"/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/research-problem"/>
 		<is_collection>True</is_collection>
 		<title lang="en">Research Problem</title>
 		<short_title lang="en"/>
-		<help lang="en">The following questions allow the selection of existing Research Problems from MathModDB. If no appropriate Research Problem is present in MathModDB, suitable Research Problems might be selected from the MaRDI KG or Wikidata. Alternatively, new Research Problems can be defined providing a Name, Description, ID, and Research Field the Research Problem is contained in. All Research Problems selected or defined here can OPTIONALLY be related to each other and to existing Research Problems from MathModDB. At least one Research Problem needs to be selected or defined in this section!</help>
+		<help lang="en">Select, define and relate research problem associated with the mathematical model.</help>
 		<verbose_name lang="en"/>
 		<title lang="de">Forschungsproblem</title>
 		<short_title lang="de"/>
-		<help lang="de">Die folgenden Fragen erlauben die Auswahl von bestehenden Forschungsproblemen aus MathModDB. Wenn kein passendes Forschungsproblem in MathModDB vorhanden ist, können geeignete Forschungsprobleme aus dem MaRDI KG oder Wikidata ausgewählt werden. Alternativ können neue Forschungsprobleme definiert werden, indem ein Name, eine Beschreibung, eine ID und ein Forschungsfeld, in dem das Forschungsproblem enthalten ist, angegeben werden. Alle hier ausgewählten oder definierten Forschungsprobleme können OPTIONAL miteinander und mit bestehenden Forschungsproblemen aus MathModDB in Beziehung gesetzt werden. Mindestens ein Forschungsproblem muss in diesem Abschnitt ausgewählt oder definiert werden!</help>
+		<help lang="de">Wählen, definieren und verknüpfen Sie die mit dem mathematischen Modell verbundene Forschungsprobleme.</help>
 		<verbose_name lang="de"/>
 		<questionsets>
-			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/ResearchProblem/ResearchProblemNotInMathModDB" order="4"/>
+			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/mathematical-model/research-problem/information" order="1"/>
+			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/mathematical-model/research-problem/research-problem-to-research-problem" order="2"/>
 		</questionsets>
 		<questions>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/ResearchProblem/ResearchProblemMathModDBID" order="3"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/mathematical-model/research-problem/id" order="0"/>
 		</questions>
 		<conditions>
-			<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/ResearchProblem"/>
+			<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/research-problem"/>
 		</conditions>
 	</page>
-	<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/ResearchProblem/ResearchProblemNotInMathModDB">
+	<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/mathematical-model/research-problem/information">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>MaRDMO/MathematicalModel/ResearchProblem/ResearchProblemNotInMathModDB</uri_path>
+		<uri_path>mardmo/mathematical-model/research-problem/information</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/ResearchProblemNotInMathModDB"/>
+		<attribute/>
 		<is_collection>False</is_collection>
-		<title lang="en">If not in MathModDB...</title>
+		<title lang="en">Research Problem Information</title>
 		<help lang="en"/>
 		<verbose_name lang="en"/>
-		<title lang="de">Falls nicht in MathModDB...</title>
+		<title lang="de">Forschungsproblem Informationen</title>
 		<help lang="de"/>
-		<verbose_name lang="de"/>
-		<questionsets>
-			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/ResearchProblem/ResearchProblemNotInMathModDB/ResearchProblemToResearchProblemConection" order="6"/>
-		</questionsets>
-		<questions>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/ResearchProblem/ResearchProblemNotInMathModDB/ResearchProblemQID" order="0"/>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/ResearchProblem/ResearchProblemNotInMathModDB/ResearchProblemName" order="1"/>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/ResearchProblem/ResearchProblemNotInMathModDB/ResearchProblemDescription" order="2"/>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/ResearchProblem/ResearchProblemNotInMathModDB/ResearchFieldRelatedToResearchProblem" order="4"/>
-		</questions>
-		<conditions>
-			<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/ResearchProblemNotInMathModDB"/>
-		</conditions>
-	</questionset>
-	<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/ResearchProblem/ResearchProblemNotInMathModDB/ResearchProblemToResearchProblemConection">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>MaRDMO/MathematicalModel/ResearchProblem/ResearchProblemNotInMathModDB/ResearchProblemToResearchProblemConection</uri_path>
-		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/ResearchProblemToResearchProblemConnection"/>
-		<is_collection>True</is_collection>
-		<title lang="en">Research Problem Connections</title>
-		<help lang="en">The following questions allow you to relate the new Research Problem to other Research Problems from MathModDB or created here. This is OPTIONAL, if no relations are defined, they will be added through a curator.</help>
-		<verbose_name lang="en"/>
-		<title lang="de">Forschungsproblem Verbindungen</title>
-		<help lang="de">Die folgenden Fragen ermöglichen es Ihnen, das neue Forschungsproblem mit anderen Forschungsproblemen aus MathModDB oder hier erstellten Forschungsproblemen in Relation zu setzen. Dies ist OPTIONAL, wenn keine Relationen definiert sind, werden sie durch einen Kurator hinzugefügt.</help>
 		<verbose_name lang="de"/>
 		<questionsets/>
 		<questions>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/ResearchProblem/ResearchProblemNotInMathModDB/ResearchProblemToResearchProblemConection/ResearchProblemToResearchProblemRelation" order="0"/>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/ResearchProblem/ResearchProblemNotInMathModDB/ResearchProblemToResearchProblemConection/ResearchProblemRelatedToResearchProblem" order="1"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/mathematical-model/research-problem/name" order="0"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/mathematical-model/research-problem/description" order="1"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/mathematical-model/research-problem/research-field-relatant" order="2"/>
 		</questions>
 		<conditions/>
 	</questionset>
-	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/ResearchProblem/ResearchProblemNotInMathModDB/ResearchProblemToResearchProblemConection/ResearchProblemToResearchProblemRelation">
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/mathematical-model/research-problem/name">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>MaRDMO/MathematicalModel/ResearchProblem/ResearchProblemNotInMathModDB/ResearchProblemToResearchProblemConection/ResearchProblemToResearchProblemRelation</uri_path>
+		<uri_path>mardmo/mathematical-model/research-problem/name</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/ResearchProblemToResearchProblemRelation"/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/research-problem/name"/>
 		<is_collection>False</is_collection>
-		<is_optional>True</is_optional>
+		<is_optional>False</is_optional>
 		<help lang="en"/>
-		<text lang="en">The new Research Problem...</text>
+		<text lang="en">Name of the Research Problem</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de"/>
-		<text lang="de">Das neue Forschungsproblem...</text>
+		<text lang="de">Name des Forschungsproblems</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/mathematical-model/research-problem/description">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/mathematical-model/research-problem/description</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/research-problem/description"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en"/>
+		<text lang="en">Description of the Research Problem</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Beschreibung des Forschungsproblems</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/mathematical-model/research-problem/research-field-relatant">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/mathematical-model/research-problem/research-field-relatant</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/research-problem/research-field-relatant"/>
+		<is_collection>True</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en"/>
+		<text lang="en">Research Field containing the Research Problem?</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Forschungsgebiet welches das Forschungsproblem enthält?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>autocomplete</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/research-field-relatant"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/mathematical-model/research-problem/research-problem-to-research-problem">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/mathematical-model/research-problem/research-problem-to-research-problem</uri_path>
+		<dc:comment/>
+		<attribute/>
+		<is_collection>True</is_collection>
+		<title lang="en">Research Problem - Research Problem Relations</title>
+		<help lang="en">Optionally, user-defined research problems and research problems from MathModDB can be related to each other.</help>
+		<verbose_name lang="en"/>
+		<title lang="de">Forschungsproblem - Forschungsproblem Beziehungen</title>
+		<help lang="de">Optional können benutzerdefinierte Forschungsprobleme und Forschungsprobleme aus MathModDB miteinander verknüpft werden.</help>
+		<verbose_name lang="de"/>
+		<questionsets/>
+		<questions>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/mathematical-model/research-problem/research-problem-to-research-problem/relation" order="0"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/mathematical-model/research-problem/research-problem-to-research-problem/relatant" order="1"/>
+		</questions>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/mathematical-model/research-problem/research-problem-to-research-problem/relation">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/mathematical-model/research-problem/research-problem-to-research-problem/relation</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/research-problem/relation"/>
+		<is_collection>False</is_collection>
+		<is_optional>True</is_optional>
+		<help lang="en"/>
+		<text lang="en">The Research Problem...</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Das Forschungsproblem...</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
@@ -1358,15 +1437,15 @@
 		<unit/>
 		<width/>
 		<optionsets>
-			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/ResearchProblemToResearchProblemRelation"/>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/research-problem-relation"/>
 		</optionsets>
 		<conditions/>
 	</question>
-	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/ResearchProblem/ResearchProblemNotInMathModDB/ResearchProblemToResearchProblemConection/ResearchProblemRelatedToResearchProblem">
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/mathematical-model/research-problem/research-problem-to-research-problem/relatant">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>MaRDMO/MathematicalModel/ResearchProblem/ResearchProblemNotInMathModDB/ResearchProblemToResearchProblemConection/ResearchProblemRelatedToResearchProblem</uri_path>
+		<uri_path>mardmo/mathematical-model/research-problem/research-problem-to-research-problem/relatant</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/ResearchProblemRelatedToResearchProblem"/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/research-problem/relatant"/>
 		<is_collection>False</is_collection>
 		<is_optional>True</is_optional>
 		<help lang="en"/>
@@ -1387,23 +1466,23 @@
 		<unit/>
 		<width/>
 		<optionsets>
-			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/ResearchProblemRelatedToResearchProblem"/>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/research-problem-relatant"/>
 		</optionsets>
 		<conditions/>
 	</question>
-	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/ResearchProblem/ResearchProblemNotInMathModDB/ResearchProblemQID">
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/mathematical-model/research-problem/id">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>MaRDMO/MathematicalModel/ResearchProblem/ResearchProblemNotInMathModDB/ResearchProblemQID</uri_path>
+		<uri_path>mardmo/mathematical-model/research-problem/id</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/ResearchProblemQID"/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/research-problem/id"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">For all items label and description are provided. If no appropriate research problem is available in MaRDI KG or Wikidata, define it in the following.</help>
-		<text lang="en">Select an appropriate Research Problem from MaRDI KG or Wikidata!</text>
+		<help lang="en">For all research problems &quot;label (description) [source]&quot; is provided. If a research problem is chosen, WAIT until further information are added to the questionnaire. If no appropriate research problem is present in MathModDB, the MaRDI Portal or Wikidata, choose 'not found'.</help>
+		<text lang="en">Select a Research Problem related to the Mathematical Model!</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">Für alle Suchergebnisse  werden das Label und eine Beschreibung angegeben. Falls kein passendes Forschungsroblem im MaRDI KG oder Wikidata vorhanden ist, definieren Sie es im Folgenden.</help>
-		<text lang="de">Wählen Sie ein geeignetes Forschungsproblem aus dem MaRDI KG oder Wikidata aus!</text>
+		<help lang="de">Für alle Forschungsprobleme wird „Name (Beschreibung) [Quelle]“ angegeben. Wenn ein Forschungsproblem ausgewählt wird, WARTEN Sie, bis weitere Informationen zum Fragebogen hinzugefügt werden. Falls kein passendes Forschungsproblem in MathModDB, dem MaRDI-Portal oder Wikidata vorhanden ist, wählen Sie „not found“.</help>
+		<text lang="de">Wählen Sie ein Forschungsproblem, das mit dem mathematischen Modell im Zusammenhang steht!</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
@@ -1416,123 +1495,7 @@
 		<unit/>
 		<width/>
 		<optionsets>
-			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MaRDIAndWikidataSearch"/>
-		</optionsets>
-		<conditions/>
-	</question>
-	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/ResearchProblem/ResearchProblemNotInMathModDB/ResearchProblemName">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>MaRDMO/MathematicalModel/ResearchProblem/ResearchProblemNotInMathModDB/ResearchProblemName</uri_path>
-		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/ResearchProblemName"/>
-		<is_collection>False</is_collection>
-		<is_optional>False</is_optional>
-		<help lang="en"/>
-		<text lang="en">Provide a Name for the new Research Problem.</text>
-		<default_text lang="en"/>
-		<verbose_name lang="en"/>
-		<help lang="de"/>
-		<text lang="de">Geben Sie einen Namen für das neue Forschungsproblem an.</text>
-		<default_text lang="de"/>
-		<verbose_name lang="de"/>
-		<default_option/>
-		<default_external_id/>
-		<widget_type>text</widget_type>
-		<value_type>text</value_type>
-		<maximum/>
-		<minimum/>
-		<step/>
-		<unit/>
-		<width/>
-		<optionsets/>
-		<conditions>
-			<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/ResearchProblemNotInMaRDIWikidata"/>
-		</conditions>
-	</question>
-	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/ResearchProblem/ResearchProblemNotInMathModDB/ResearchProblemDescription">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>MaRDMO/MathematicalModel/ResearchProblem/ResearchProblemNotInMathModDB/ResearchProblemDescription</uri_path>
-		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/ResearchProblemDescription"/>
-		<is_collection>False</is_collection>
-		<is_optional>False</is_optional>
-		<help lang="en"/>
-		<text lang="en">Provide a Description for the new Research Problem.</text>
-		<default_text lang="en"/>
-		<verbose_name lang="en"/>
-		<help lang="de"/>
-		<text lang="de">Geben Sie eine Beschreibung für das neue Forschungsproblem an.</text>
-		<default_text lang="de"/>
-		<verbose_name lang="de"/>
-		<default_option/>
-		<default_external_id/>
-		<widget_type>text</widget_type>
-		<value_type>text</value_type>
-		<maximum/>
-		<minimum/>
-		<step/>
-		<unit/>
-		<width/>
-		<optionsets/>
-		<conditions>
-			<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/ResearchProblemNotInMaRDIWikidata"/>
-		</conditions>
-	</question>
-	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/ResearchProblem/ResearchProblemNotInMathModDB/ResearchFieldRelatedToResearchProblem">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>MaRDMO/MathematicalModel/ResearchProblem/ResearchProblemNotInMathModDB/ResearchFieldRelatedToResearchProblem</uri_path>
-		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/ResearchFieldRelatedToResearchProblem"/>
-		<is_collection>True</is_collection>
-		<is_optional>False</is_optional>
-		<help lang="en">Select a previously selected or defined Research Field.</help>
-		<text lang="en">To which Research Field belongs the new Research Problem?</text>
-		<default_text lang="en"/>
-		<verbose_name lang="en"/>
-		<help lang="de">Wählen Sie ein zuvor ausgewähltes oder definiertes Forschungsgebiet.</help>
-		<text lang="de">Zu welchem Forschungsgebiet gehört das neue Forschungsproblem?</text>
-		<default_text lang="de"/>
-		<verbose_name lang="de"/>
-		<default_option/>
-		<default_external_id/>
-		<widget_type>select</widget_type>
-		<value_type>text</value_type>
-		<maximum/>
-		<minimum/>
-		<step/>
-		<unit/>
-		<width/>
-		<optionsets>
-			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/ResearchFieldWithUserAddition"/>
-		</optionsets>
-		<conditions/>
-	</question>
-	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/ResearchProblem/ResearchProblemMathModDBID">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>MaRDMO/MathematicalModel/ResearchProblem/ResearchProblemMathModDBID</uri_path>
-		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/ResearchProblemMathModDBID"/>
-		<is_collection>False</is_collection>
-		<is_optional>False</is_optional>
-		<help lang="en">For all research problems the label is provided. If no appropriate research problem is available in MathModDB choose 'not in MathModDB' and define the research problem in the following.</help>
-		<text lang="en">Select a Research Problem related to the new Mathematical Model!</text>
-		<default_text lang="en"/>
-		<verbose_name lang="en"/>
-		<help lang="de">Für alle Forschungsprobleme wird das Label angezeigt. Falls kein geeignetes Forschungsproblem in MathModDB vorhanden ist, wählen Sie 'not in MathModDB' und definieren Sie das Forschungsproblem im Folgenden.</help>
-		<text lang="de">Wählen Sie ein Forschungsproblem, das mit dem neuen mathematischen Modell im Zusammenhang steht!</text>
-		<default_text lang="de"/>
-		<verbose_name lang="de"/>
-		<default_option/>
-		<default_external_id/>
-		<widget_type>autocomplete</widget_type>
-		<value_type>text</value_type>
-		<maximum/>
-		<minimum/>
-		<step/>
-		<unit/>
-		<width/>
-		<optionsets>
-			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/ResearchProblem"/>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/research-problem"/>
 		</optionsets>
 		<conditions/>
 	</question>
@@ -1804,7 +1767,7 @@
 		<unit/>
 		<width/>
 		<optionsets>
-			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/main-mathematical-model"/>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathematical-model"/>
 		</optionsets>
 		<conditions/>
 	</question>
