@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2024-11-15T09:29:50.053257+01:00" version="2.2.1">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2024-11-15T09:51:14.011859+01:00" version="2.2.1">
 	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/CreatorID">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<key>CreatorID</key>
@@ -952,13 +952,6 @@
 		<dc:comment/>
 		<parent/>
 	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Quantity_hidden">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>Quantity_hidden</key>
-		<path>Quantity_hidden</path>
-		<dc:comment/>
-		<parent/>
-	</attribute>
 	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Reproducibility">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<key>Reproducibility</key>
@@ -1418,6 +1411,13 @@
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<key>quantity</key>
 		<path>quantity</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/quantity-hidden">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>quantity-hidden</key>
+		<path>quantity-hidden</path>
 		<dc:comment/>
 		<parent/>
 	</attribute>
