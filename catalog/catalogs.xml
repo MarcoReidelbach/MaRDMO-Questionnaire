@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2024-11-06T22:45:48.855932+01:00" version="2.2.1">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2024-11-15T09:29:42.028465+01:00" version="2.2.1">
 	<catalog dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>MaRDMO</uri_path>
@@ -1002,8 +1002,8 @@
 			<page dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/mathematical-model/main-mathematical-model" order="0"/>
 			<page dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/mathematical-model/research-field" order="1"/>
 			<page dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/mathematical-model/research-problem" order="2"/>
-			<page dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/MathematicalModel" order="3"/>
-			<page dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/QuantityOrQuantityKind" order="4"/>
+			<page dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/mathematical-model/mathematical-model" order="3"/>
+			<page dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/mathematical-model/quantity" order="4"/>
 			<page dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/MathematicalFormulation" order="5"/>
 			<page dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/Task" order="6"/>
 			<page dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/Publication" order="7"/>
@@ -1214,11 +1214,11 @@
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/research-field/relatant"/>
 		<is_collection>False</is_collection>
 		<is_optional>True</is_optional>
-		<help lang="en"/>
+		<help lang="en">For all research fields &quot;label (description) [source]&quot; is provided.</help>
 		<text lang="en">...another Research Field.</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de"/>
+		<help lang="de">Für alle Forschungsgebiete wird „Name (Beschreibung) [Quelle]“ angegeben.</help>
 		<text lang="de">...ein weiteres Forschungsgebiet.</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -1273,7 +1273,7 @@
 		<is_collection>True</is_collection>
 		<title lang="en">Research Problem</title>
 		<short_title lang="en"/>
-		<help lang="en">Select, define and relate research problem associated with the mathematical model.</help>
+		<help lang="en">Select, define and relate research problems associated with the mathematical model.</help>
 		<verbose_name lang="en"/>
 		<title lang="de">Forschungsproblem</title>
 		<short_title lang="de"/>
@@ -1371,11 +1371,11 @@
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/research-problem/research-field-relatant"/>
 		<is_collection>True</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en"/>
+		<help lang="en">For all research fields &quot;label (description) [source]&quot; is provided.</help>
 		<text lang="en">Research Field containing the Research Problem?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de"/>
+		<help lang="de">Für alle Forschungsgebiete wird „Name (Beschreibung) [Quelle]“ angegeben.</help>
 		<text lang="de">Forschungsgebiet welches das Forschungsproblem enthält?</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -1448,11 +1448,11 @@
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/research-problem/relatant"/>
 		<is_collection>False</is_collection>
 		<is_optional>True</is_optional>
-		<help lang="en"/>
+		<help lang="en">For all research problems &quot;label (description) [source]&quot; is provided.</help>
 		<text lang="en">...another Research Problem.</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de"/>
+		<help lang="de">Für alle Forschungsprobleme wird „Name (Beschreibung) [Quelle]“ angegeben.</help>
 		<text lang="de">...ein weiteres Forschungsproblem.</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -1499,98 +1499,93 @@
 		</optionsets>
 		<conditions/>
 	</question>
-	<page dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/MathematicalModel">
+	<page dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/mathematical-model/mathematical-model">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>MaRDMO/MathematicalModel/MathematicalModel</uri_path>
+		<uri_path>mardmo/mathematical-model/mathematical-model</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/MathematicalModel"/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/mathematical-model"/>
 		<is_collection>True</is_collection>
 		<title lang="en">Mathematical Model</title>
 		<short_title lang="en"/>
-		<help lang="en">The following questions allow the selection of existing Mathematical Models from MathModDB. If no appropriate Mathematical Model is present in MathModDB, suitable Mathematical Models might be selected from the MaRDI KG or Wikidata. Alternatively, new Mathematical Models can be defined providing a Name, Description, ID, and Properties. For either Mathematical Model the modeled Research Problem has to be selected. All Mathematical Models selected or defined here can OPTIONALLY be related to each other and to existing Mathematical Models from MathModDB. At least one Mathematical Model needs to be selected or defined in this section!</help>
+		<help lang="en">Select, define and relate mathematical models.</help>
 		<verbose_name lang="en"/>
 		<title lang="de">Mathematisches Modell</title>
 		<short_title lang="de"/>
-		<help lang="de">Die folgenden Fragen ermöglichen die Auswahl bestehender Mathematischer Modelle aus MathModDB. Wenn kein passendes mathematisches Modell in MathModDB vorhanden ist, können geeignete mathematische Modelle aus dem MaRDI KG oder Wikidata ausgewählt werden. Alternativ können neue mathematische Modelle unter Angabe von Name, Beschreibung, ID und Eigenschaften definiert werden. Für jedes mathematische Modell muss das modellierte Forschungsproblem ausgewählt werden. Alle hier ausgewählten oder definierten mathematischen Modelle können optional miteinander und mit bestehenden mathematischen Modellen aus der MathModDB verknüpft werden. Mindestens ein mathematisches Modell muss in diesem Abschnitt ausgewählt oder definiert werden!</help>
+		<help lang="de">Wählen, definieren und verknüpfen Sie mathematischen Modelle.</help>
 		<verbose_name lang="de"/>
 		<questionsets>
-			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/MathematicalModel/MathematicalModelNotInMathModDB" order="1"/>
-			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/MathematicalModel/MathematicalModelToMathematicalModelConnection" order="4"/>
+			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/mathematical-model/mathematical-model/information" order="1"/>
+			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/mathematical-model/mathematical-model/mathematical-model-to-mathematical-model" order="3"/>
 		</questionsets>
 		<questions>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/MathematicalModel/MathematicalModelMathModDBID" order="0"/>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/MathematicalModel/IsMathematicalModelMainMathematicalModel" order="2"/>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/MathematicalModel/ResearchProblemRelatedToMathematicalModel" order="3"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/mathematical-model/mathematical-model/id" order="0"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/mathematical-model/mathematical-model/is-main" order="2"/>
 		</questions>
 		<conditions>
-			<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/MathematicalModel"/>
+			<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/mathematical-model"/>
 		</conditions>
 	</page>
-	<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/MathematicalModel/MathematicalModelNotInMathModDB">
+	<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/mathematical-model/mathematical-model/information">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>MaRDMO/MathematicalModel/MathematicalModel/MathematicalModelNotInMathModDB</uri_path>
+		<uri_path>mardmo/mathematical-model/mathematical-model/information</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/MathematicalModelNotInMathModDB"/>
+		<attribute/>
 		<is_collection>False</is_collection>
-		<title lang="en">If not in MathModDB...</title>
+		<title lang="en">Mathematical Model Information</title>
 		<help lang="en"/>
 		<verbose_name lang="en"/>
-		<title lang="de">Falls nicht in MathModDB...</title>
+		<title lang="de">Mathematisches Modell Informationen</title>
 		<help lang="de"/>
 		<verbose_name lang="de"/>
 		<questionsets/>
 		<questions>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/MathematicalModel/MathematicalModelNotInMathModDB/MathematicalModelQID" order="0"/>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/MathematicalModel/MathematicalModelNotInMathModDB/MathematicalModelName" order="1"/>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/MathematicalModel/MathematicalModelNotInMathModDB/MathematicalModelDescription" order="2"/>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/MathematicalModel/MathematicalModelNotInMathModDB/MathematicalModelProperties" order="4"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/mathematical-model/mathematical-model/name" order="0"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/mathematical-model/mathematical-model/description" order="1"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/mathematical-model/mathematical-model/properties" order="2"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/mathematical-model/mathematical-model/research-problem-relatant" order="3"/>
 		</questions>
-		<conditions>
-			<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/MathematicalModelNotInMathModDB"/>
-		</conditions>
+		<conditions/>
 	</questionset>
-	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/MathematicalModel/MathematicalModelNotInMathModDB/MathematicalModelQID">
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/mathematical-model/mathematical-model/name">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>MaRDMO/MathematicalModel/MathematicalModel/MathematicalModelNotInMathModDB/MathematicalModelQID</uri_path>
+		<uri_path>mardmo/mathematical-model/mathematical-model/name</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/MathematicalModelQID"/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/mathematical-model/name"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">For all items label and description are provided. If no appropriate model is available in MaRDI KG or Wikidata, define the model in the following.</help>
-		<text lang="en">Select a Mathematical Model from MaRDI KG or Wikidata.</text>
+		<help lang="en"/>
+		<text lang="en">Name of the Mathematical Model.</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">Für alle Suchergebnisse werden das Label und eine Beschreibung angegeben. Falls kein passendes Modell im MaRDI KG oder Wikidata vorhanden ist, definieren Sie es im Folgenden.</help>
-		<text lang="de">Wählen Sie ein Modell aus dem MaRDI KG oder Wikidata aus.</text>
+		<help lang="de"/>
+		<text lang="de">Namen des mathematischen Modells</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
 		<default_external_id/>
-		<widget_type>autocomplete</widget_type>
+		<widget_type>text</widget_type>
 		<value_type>text</value_type>
 		<maximum/>
 		<minimum/>
 		<step/>
 		<unit/>
 		<width/>
-		<optionsets>
-			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MaRDIAndWikidataSearch"/>
-		</optionsets>
+		<optionsets/>
 		<conditions/>
 	</question>
-	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/MathematicalModel/MathematicalModelNotInMathModDB/MathematicalModelName">
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/mathematical-model/mathematical-model/description">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>MaRDMO/MathematicalModel/MathematicalModel/MathematicalModelNotInMathModDB/MathematicalModelName</uri_path>
+		<uri_path>mardmo/mathematical-model/mathematical-model/description</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/MathematicalModelName"/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/mathematical-model/description"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en"/>
-		<text lang="en">Provide a Name for the new Mathematical Model.</text>
+		<text lang="en">Description of the Mathematical Model</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de"/>
-		<text lang="de">Geben Sie einen Namen für das neue mathematische Model an.</text>
+		<text lang="de">Beschreibung des mathematischen Modells</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
@@ -1603,52 +1598,21 @@
 		<unit/>
 		<width/>
 		<optionsets/>
-		<conditions>
-			<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/MathematicalModelNotInMaRDIWikidata"/>
-		</conditions>
+		<conditions/>
 	</question>
-	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/MathematicalModel/MathematicalModelNotInMathModDB/MathematicalModelDescription">
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/mathematical-model/mathematical-model/properties">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>MaRDMO/MathematicalModel/MathematicalModel/MathematicalModelNotInMathModDB/MathematicalModelDescription</uri_path>
+		<uri_path>mardmo/mathematical-model/mathematical-model/properties</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/MathematicalModelDescription"/>
-		<is_collection>False</is_collection>
-		<is_optional>False</is_optional>
-		<help lang="en"/>
-		<text lang="en">Provide a Description for the new Mathematical Model.</text>
-		<default_text lang="en"/>
-		<verbose_name lang="en"/>
-		<help lang="de"/>
-		<text lang="de">Geben Sie eine Beschreibung für das neue mathematische Modell an.</text>
-		<default_text lang="de"/>
-		<verbose_name lang="de"/>
-		<default_option/>
-		<default_external_id/>
-		<widget_type>text</widget_type>
-		<value_type>text</value_type>
-		<maximum/>
-		<minimum/>
-		<step/>
-		<unit/>
-		<width/>
-		<optionsets/>
-		<conditions>
-			<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/MathematicalModelNotInMaRDIWikidata"/>
-		</conditions>
-	</question>
-	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/MathematicalModel/MathematicalModelNotInMathModDB/MathematicalModelProperties">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>MaRDMO/MathematicalModel/MathematicalModel/MathematicalModelNotInMathModDB/MathematicalModelProperties</uri_path>
-		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/MathematicalModelProperties"/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/mathematical-model/properties"/>
 		<is_collection>True</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en"/>
-		<text lang="en">Assign appropriate Properties to the new Mathematical Model.</text>
+		<text lang="en">Properties of the Mathematical Model</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de"/>
-		<text lang="de">Ordnen Sie dem neuen mathematischen Modell passende Eigenschaften zu.</text>
+		<text lang="de">Eigenschaften des mathematischen Modells</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
@@ -1661,34 +1625,63 @@
 		<unit/>
 		<width/>
 		<optionsets>
-			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathematicalModelProperties"/>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathematical-model-properties"/>
 		</optionsets>
 		<conditions/>
 	</question>
-	<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/MathematicalModel/MathematicalModelToMathematicalModelConnection">
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/mathematical-model/mathematical-model/research-problem-relatant">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>MaRDMO/MathematicalModel/MathematicalModel/MathematicalModelToMathematicalModelConnection</uri_path>
+		<uri_path>mardmo/mathematical-model/mathematical-model/research-problem-relatant</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/MathematicalModelToMathematicalModelConnection"/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/mathematical-model/research-problem-relatant"/>
 		<is_collection>True</is_collection>
-		<title lang="en">Mathematical Model Connections</title>
-		<help lang="en">The following questions allow you to relate the Mathematical Model to other Mathematical Models from MathModDB or created here.</help>
+		<is_optional>False</is_optional>
+		<help lang="en">For all research problems &quot;label (description) [source]&quot; is provided.</help>
+		<text lang="en">Research Problem modelled by the Mathematical Model?</text>
+		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<title lang="de">Mathematisches Modell Verbindungen</title>
-		<help lang="de">Die folgenden Fragen ermöglichen es Ihnen, das mathematische Modell mit anderen mathematischen Modellen aus MathModDB oder hier erstellten mathematischen Modellen in Relation zu setzen.</help>
+		<help lang="de">Für alle Forschungsprobleme wird „Name (Beschreibung) [Quelle]“ angegeben.</help>
+		<text lang="de">Forschungsproblem welches durch das mathematische Modell modelliert wird?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>autocomplete</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/research-problem-relatant"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/mathematical-model/mathematical-model/mathematical-model-to-mathematical-model">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/mathematical-model/mathematical-model/mathematical-model-to-mathematical-model</uri_path>
+		<dc:comment/>
+		<attribute/>
+		<is_collection>True</is_collection>
+		<title lang="en">Mathematical Model - Mathematical Model Relations</title>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<title lang="de">Mathematisches Modell - Mathematisches Modell Beziehungen</title>
+		<help lang="de"/>
 		<verbose_name lang="de"/>
 		<questionsets/>
 		<questions>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/MathematicalModel/MathematicalModelToMathematicalModelConnection/MathematicalModelToMathematicalModelRelation" order="0"/>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/MathematicalModel/MathematicalModelToMathematicalModelConnection/MathematicalModelRelatedToMathematicalModel" order="1"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/mathematical-model/mathematical-model/mathematical-model-to-mathematical-model/relation" order="0"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/mathematical-model/mathematical-model/mathematical-model-to-mathematical-model/relatant" order="1"/>
 		</questions>
 		<conditions/>
 	</questionset>
-	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/MathematicalModel/MathematicalModelToMathematicalModelConnection/MathematicalModelToMathematicalModelRelation">
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/mathematical-model/mathematical-model/mathematical-model-to-mathematical-model/relation">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>MaRDMO/MathematicalModel/MathematicalModel/MathematicalModelToMathematicalModelConnection/MathematicalModelToMathematicalModelRelation</uri_path>
+		<uri_path>mardmo/mathematical-model/mathematical-model/mathematical-model-to-mathematical-model/relation</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/MathematicalModelToMathematicalModelRelation"/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/mathematical-model/relation"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en"/>
@@ -1709,22 +1702,22 @@
 		<unit/>
 		<width/>
 		<optionsets>
-			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathematicalModelToMathematicalModelRelation"/>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathematical-model-relation"/>
 		</optionsets>
 		<conditions/>
 	</question>
-	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/MathematicalModel/MathematicalModelToMathematicalModelConnection/MathematicalModelRelatedToMathematicalModel">
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/mathematical-model/mathematical-model/mathematical-model-to-mathematical-model/relatant">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>MaRDMO/MathematicalModel/MathematicalModel/MathematicalModelToMathematicalModelConnection/MathematicalModelRelatedToMathematicalModel</uri_path>
+		<uri_path>mardmo/mathematical-model/mathematical-model/mathematical-model-to-mathematical-model/relatant</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/MathematicalModelRelatedToMathematicalModel"/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/mathematical-model/relatant"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en"/>
+		<help lang="en">For all mathematical models &quot;label (description) [source]&quot; is provided.</help>
 		<text lang="en">...another Mathematical Model.</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de"/>
+		<help lang="de">Für alle mathematischen Modelle wird „Name (Beschreibung) [Quelle]“ angegeben.</help>
 		<text lang="de">...ein weiteres mathematisches Modell.</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -1738,23 +1731,23 @@
 		<unit/>
 		<width/>
 		<optionsets>
-			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathematicalModelRelatedToMathematicalModel"/>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathematical-model-relatant"/>
 		</optionsets>
 		<conditions/>
 	</question>
-	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/MathematicalModel/MathematicalModelMathModDBID">
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/mathematical-model/mathematical-model/id">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>MaRDMO/MathematicalModel/MathematicalModel/MathematicalModelMathModDBID</uri_path>
+		<uri_path>mardmo/mathematical-model/mathematical-model/id</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/MathematicalModelMathModDBID"/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/mathematical-model/id"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">For all models the label is provided. If no appropriate model is available in MathModDB choose 'not in MathModDB' and define the model in the following.</help>
-		<text lang="en">Select a Mathematical Model from MathModDB!</text>
+		<help lang="en">For all mathematical models &quot;label (description) [source]&quot; is provided. If a mathematical model is chosen, WAIT until further information are added to the questionnaire. If no appropriate mathematical model is present in MathModDB, the MaRDI Portal or Wikidata, choose 'not found'.</help>
+		<text lang="en">Select a Mathematical Model!</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">Für alle Modelle wird das Label angegeben. Falls kein passendes Modell in MathModDB vorhanden ist, wählen Sie 'not in MathModDB' und definieren Sie das Modell im Folgenden.</help>
-		<text lang="de">Wählen Sie ein mathematisches Modell aus MathModDB aus.</text>
+		<help lang="de">Für alle mathematischen Modelle wird „Name (Beschreibung) [Quelle]“ angegeben. Wenn ein mathematisches Modell ausgewählt wird, WARTEN Sie, bis weitere Informationen zum Fragebogen hinzugefügt werden. Falls kein passendes mathematisches Modell in MathModDB, dem MaRDI-Portal oder Wikidata vorhanden ist, wählen Sie „not found“.</help>
+		<text lang="de">Wählen Sie ein mathematisches Modell aus.</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
@@ -1771,18 +1764,18 @@
 		</optionsets>
 		<conditions/>
 	</question>
-	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/MathematicalModel/IsMathematicalModelMainMathematicalModel">
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/mathematical-model/mathematical-model/is-main">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>MaRDMO/MathematicalModel/MathematicalModel/IsMathematicalModelMainMathematicalModel</uri_path>
+		<uri_path>mardmo/mathematical-model/mathematical-model/is-main</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/IsMathematicalModelMainMathematicalModel"/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/mathematical-model/is-main"/>
 		<is_collection>False</is_collection>
-		<is_optional>True</is_optional>
-		<help lang="en">If more than one mathematical model is defined or selected in this section, you have to indicate the main mathematical model.</help>
+		<is_optional>False</is_optional>
+		<help lang="en"/>
 		<text lang="en">Is the Mathematical Model the main Mathematical Model?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">Wenn in diesem Abschnitt mehr als ein mathematisches Modell definiert oder ausgewählt wird, müssen Sie das zentrale mathematische Modell kennzeichnen.</help>
+		<help lang="de"/>
 		<text lang="de">Ist das mathematische Modell das zentrale mathematische Modell?</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -1800,124 +1793,92 @@
 		</optionsets>
 		<conditions/>
 	</question>
-	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/MathematicalModel/ResearchProblemRelatedToMathematicalModel">
+	<page dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/mathematical-model/quantity">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>MaRDMO/MathematicalModel/MathematicalModel/ResearchProblemRelatedToMathematicalModel</uri_path>
+		<uri_path>mardmo/mathematical-model/quantity</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/ResearchProblemRelatedToMathematicalModel"/>
-		<is_collection>True</is_collection>
-		<is_optional>False</is_optional>
-		<help lang="en"/>
-		<text lang="en">Select a Research Problem related to the Mathematical Model.</text>
-		<default_text lang="en"/>
-		<verbose_name lang="en"/>
-		<help lang="de"/>
-		<text lang="de">Wählen Sie ein Forschungsproblem aus, das mit dem mathematischen Modell im Zusammenhang steht.</text>
-		<default_text lang="de"/>
-		<verbose_name lang="de"/>
-		<default_option/>
-		<default_external_id/>
-		<widget_type>autocomplete</widget_type>
-		<value_type>text</value_type>
-		<maximum/>
-		<minimum/>
-		<step/>
-		<unit/>
-		<width/>
-		<optionsets>
-			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/ResearchProblemRelatedToMathematicalModel"/>
-		</optionsets>
-		<conditions/>
-	</question>
-	<page dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/QuantityOrQuantityKind">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>MaRDMO/MathematicalModel/QuantityOrQuantityKind</uri_path>
-		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Quantity"/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/quantity"/>
 		<is_collection>True</is_collection>
 		<title lang="en">Quantity or Quantity Kind</title>
 		<short_title lang="en"/>
-		<help lang="en">The following questions allow the selection of existing Quantities or Quantity Kinds from MathModDB. If no appropriate Quantity or Quantity Kind is present in MathModDB, suitable Quantities or Quantity Kinds might be selected from the MaRDI KG or Wikidata. Alternatively, new Quantities or Quantity Kinds can be defined providing a Name, Description, ID, and Properties. All Quantities or Quantity Kinds selected or defined here can OPTIONALLY be related to each other and to existing Quantities or Quantity Kinds from MathModDB. All terms of the Mathematical Formulations, related to the Mathematical Model(s), need to be assigned to a Quantity or Quantity Kind.</help>
+		<help lang="en">Select, define and relate quantities and quantity kinds.</help>
 		<verbose_name lang="en"/>
 		<title lang="de">Quantität oder Quantitätsart</title>
 		<short_title lang="de"/>
-		<help lang="de">Die folgenden Fragen erlauben die Auswahl vorhandener Quantitäten oder Quantitätsarten aus MathModDB. Ist in MathModDB keine geeignete Quantität oder Quantitätsart vorhanden, können geeignete Quantitäten oder Quantitätsarten aus dem MaRDI KG oder Wikidata ausgewählt werden. Alternativ können auch neue Quantitäten oder Quantitätsarten definiert werden, indem ein Name, eine Beschreibung, eine ID und Eigenschaften angegeben werden. Alle hier ausgewählten oder definierten Quantitäten oder Quantitätsarten können OPTIONAL miteinander und mit bestehenden Quantitäten oder Quantitätsarten aus MathModDB in Beziehung gesetzt werden. Alle Terme der mathematischen Formulierungen, die sich auf das/die ausgewählte(n) oder definierte(n) mathematische(n) Modell(e) beziehen, müssen einer Quantität oder Quantitätsart zugeordnet werden können.</help>
+		<help lang="de">Wählen, definieren und verknüpfen Sie Quantitäten oder Quantitätsarten.</help>
 		<verbose_name lang="de"/>
 		<questionsets>
-			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/QuantityOrQuantityKind/QuantityOrQuantityKindNotInMathModDB" order="1"/>
+			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/mathematical-model/quantity/information" order="1"/>
 		</questionsets>
 		<questions>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/QuantityOrQuantityKind/QuantityOrQuantityKindMathModDBID" order="0"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/mathematical-model/quantity/id" order="0"/>
 		</questions>
 		<conditions>
-			<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/QuantityOrQuantityKind"/>
+			<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/quantity"/>
 		</conditions>
 	</page>
-	<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/QuantityOrQuantityKind/QuantityOrQuantityKindNotInMathModDB">
+	<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/mathematical-model/quantity/information">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>MaRDMO/MathematicalModel/QuantityOrQuantityKind/QuantityOrQuantityKindNotInMathModDB</uri_path>
+		<uri_path>mardmo/mathematical-model/quantity/information</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/QuantityNotInMathModDB"/>
+		<attribute/>
 		<is_collection>False</is_collection>
-		<title lang="en">If not in MathModDB...</title>
+		<title lang="en">Quantity or Quantity Kind Information</title>
 		<help lang="en"/>
 		<verbose_name lang="en"/>
-		<title lang="de">Falls nicht in MathModDB...</title>
+		<title lang="de">Quantität oder Quantitätsart Informationen</title>
 		<help lang="de"/>
 		<verbose_name lang="de"/>
 		<questionsets>
-			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/QuantityOrQuantityKind/QuantityOrQuantityKindNotInMathModDB/QuantityToQuantityConnection" order="8"/>
-			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/QuantityOrQuantityKind/QuantityOrQuantityKindNotInMathModDB/QuantityKindToQuantityKindConnection" order="9"/>
-			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/QuantityOrQuantityKind/QuantityOrQuantityKindNotInMathModDB/QuantityToQuantityKindConnection" order="10"/>
-			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/QuantityOrQuantityKind/QuantityOrQuantityKindNotInMathModDB/QuantityKindToQuantityConnection" order="11"/>
+			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/mathematical-model/quantity/quantity-to-quantity" order="6"/>
+			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/mathematical-model/quantity/quantity-kind-to-quantity-kind" order="7"/>
+			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/mathematical-model/quantity/quantity-to-quantity-kind" order="8"/>
+			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/mathematical-model/quantity/quantity-kind-to-quantity" order="9"/>
 		</questionsets>
 		<questions>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/QuantityOrQuantityKind/QuantityOrQuantityKindNotInMathModDB/IsQuantityOrQuantityKind" order="0"/>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/QuantityOrQuantityKind/QuantityOrQuantityKindNotInMathModDB/QuantityOrQuantityKindQID" order="1"/>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/QuantityOrQuantityKind/QuantityOrQuantityKindNotInMathModDB/QuantityOrQuantityKindName" order="2"/>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/QuantityOrQuantityKind/QuantityOrQuantityKindNotInMathModDB/QuantityOrQuantityKindDescription" order="3"/>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/QuantityOrQuantityKind/QuantityOrQuantityKindNotInMathModDB/QuantityOrQuantityKindOtherID" order="5"/>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/QuantityOrQuantityKind/QuantityOrQuantityKindNotInMathModDB/QuantityProperties" order="6"/>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/QuantityOrQuantityKind/QuantityOrQuantityKindNotInMathModDB/QuantityKindProperties" order="7"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/mathematical-model/quantity/is-quantity-or-quantity-kind" order="0"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/mathematical-model/quantity/name" order="1"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/mathematical-model/quantity/description" order="2"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/mathematical-model/quantity/other-id" order="3"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/mathematical-model/quantity/quantity-properties" order="4"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/mathematical-model/quantity/quantity-kind-properties" order="5"/>
 		</questions>
-		<conditions>
-			<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/QuantityOrQuantityKindNotInMathModDB"/>
-		</conditions>
+		<conditions/>
 	</questionset>
-	<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/QuantityOrQuantityKind/QuantityOrQuantityKindNotInMathModDB/QuantityToQuantityConnection">
+	<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/mathematical-model/quantity/quantity-to-quantity">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>MaRDMO/MathematicalModel/QuantityOrQuantityKind/QuantityOrQuantityKindNotInMathModDB/QuantityToQuantityConnection</uri_path>
+		<uri_path>mardmo/mathematical-model/quantity/quantity-to-quantity</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/QuantityToQuantityConnection"/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/quantity/quantity-to-quantity"/>
 		<is_collection>True</is_collection>
-		<title lang="en">Quantity Connections</title>
-		<help lang="en">The following questions allow you to relate the new Quantity to other Quantites from MathModDB or created here. This is OPTIONAL, if no relations are defined, they will be added through a curator.</help>
+		<title lang="en">Quantity - Quantity Relations</title>
+		<help lang="en"/>
 		<verbose_name lang="en"/>
-		<title lang="de">Quantität Verbindungen</title>
-		<help lang="de">Die folgenden Fragen ermöglichen es Ihnen, die neue Quantität mit anderen Quantitäten aus MathModDB oder hier erstellten Quantitäten in Relation zu setzen. Dies ist OPTIONAL, wenn keine Relationen definiert sind, werden sie durch einen Kurator hinzugefügt.</help>
+		<title lang="de">Quantität - Quantität Beziehungen</title>
+		<help lang="de"/>
 		<verbose_name lang="de"/>
 		<questionsets/>
 		<questions>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/QuantityOrQuantityKind/QuantityOrQuantityKindNotInMathModDB/QuantityToQuantityConnection/QuantityToQuantityRelation" order="0"/>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/QuantityOrQuantityKind/QuantityOrQuantityKindNotInMathModDB/QuantityToQuantityConnection/QuantityRelatedToQuantity" order="1"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/mathematical-model/quantity/quantity-to-quantity/relation" order="0"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/mathematical-model/quantity/quantity-to-quantity/relatant" order="1"/>
 		</questions>
 		<conditions>
-			<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/IsQuantity"/>
+			<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/is-quantity"/>
 		</conditions>
 	</questionset>
-	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/QuantityOrQuantityKind/QuantityOrQuantityKindNotInMathModDB/QuantityToQuantityConnection/QuantityToQuantityRelation">
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/mathematical-model/quantity/quantity-to-quantity/relation">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>MaRDMO/MathematicalModel/QuantityOrQuantityKind/QuantityOrQuantityKindNotInMathModDB/QuantityToQuantityConnection/QuantityToQuantityRelation</uri_path>
+		<uri_path>mardmo/mathematical-model/quantity/quantity-to-quantity/relation</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/QuantityToQuantityRelation"/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/quantity/quantity-to-quantity/relation"/>
 		<is_collection>False</is_collection>
 		<is_optional>True</is_optional>
 		<help lang="en"/>
-		<text lang="en">The new Quantity...</text>
+		<text lang="en">The Quantity...</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de"/>
-		<text lang="de">Die neue Quantität...</text>
+		<text lang="de">Die Quantität...</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
@@ -1930,22 +1891,22 @@
 		<unit/>
 		<width/>
 		<optionsets>
-			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/QuantityToQuantityRelation"/>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/quantity-to-quantity-relation"/>
 		</optionsets>
 		<conditions/>
 	</question>
-	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/QuantityOrQuantityKind/QuantityOrQuantityKindNotInMathModDB/QuantityToQuantityConnection/QuantityRelatedToQuantity">
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/mathematical-model/quantity/quantity-to-quantity/relatant">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>MaRDMO/MathematicalModel/QuantityOrQuantityKind/QuantityOrQuantityKindNotInMathModDB/QuantityToQuantityConnection/QuantityRelatedToQuantity</uri_path>
+		<uri_path>mardmo/mathematical-model/quantity/quantity-to-quantity/relatant</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/QuantityRelatedToQuantity"/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/quantity/quantity-to-quantity/relatant"/>
 		<is_collection>False</is_collection>
 		<is_optional>True</is_optional>
-		<help lang="en"/>
+		<help lang="en">For all quantities / quantity kinds &quot;label (description) [source]&quot; is provided.</help>
 		<text lang="en">...another Quantity.</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de"/>
+		<help lang="de">Für alle Quantitäten wird „Name (Beschreibung) [Quelle]“ angegeben.</help>
 		<text lang="de">...eine weitere Quantität.</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -1959,44 +1920,44 @@
 		<unit/>
 		<width/>
 		<optionsets>
-			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/QuantityRelatedToQuantity"/>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/quantity"/>
 		</optionsets>
 		<conditions/>
 	</question>
-	<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/QuantityOrQuantityKind/QuantityOrQuantityKindNotInMathModDB/QuantityKindToQuantityKindConnection">
+	<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/mathematical-model/quantity/quantity-kind-to-quantity-kind">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>MaRDMO/MathematicalModel/QuantityOrQuantityKind/QuantityOrQuantityKindNotInMathModDB/QuantityKindToQuantityKindConnection</uri_path>
+		<uri_path>mardmo/mathematical-model/quantity/quantity-kind-to-quantity-kind</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/QuantityKindToQuantityKindConnection"/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/quantity/quantity-kind-to-quantity-kind"/>
 		<is_collection>True</is_collection>
-		<title lang="en">Quantity Kind Connections</title>
-		<help lang="en">The following questions allow you to relate the new Quantity Kind to other Quantity Kinds from MathModDB or created here. This is OPTIONAL, if no relations are defined, they will be added through a curator.</help>
+		<title lang="en">Quantity Kind - Quantity Kind Relations</title>
+		<help lang="en"/>
 		<verbose_name lang="en"/>
-		<title lang="de">Quantitätsart Verbindungen</title>
-		<help lang="de">Die folgenden Fragen ermöglichen es Ihnen, die neue Quantitätsart mit anderen Quantitätsarten aus MathModDB oder hier erstellten Quantitätsarten in Relation zu setzen. Dies ist OPTIONAL, wenn keine Relationen definiert sind, werden sie durch einen Kurator hinzugefügt.</help>
+		<title lang="de">Quantitätsart - Quantitätsart Beziehungen</title>
+		<help lang="de"/>
 		<verbose_name lang="de"/>
 		<questionsets/>
 		<questions>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/QuantityOrQuantityKind/QuantityOrQuantityKindNotInMathModDB/QuantityKindToQuantityKindConnection/QuantityKindToQuantityKindRelation" order="0"/>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/QuantityOrQuantityKind/QuantityOrQuantityKindNotInMathModDB/QuantityKindToQuantityKindConnection/QuantityKindRelatedToQuantityKind" order="1"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/mathematical-model/quantity/quantity-kind-to-quantity-kind/relation" order="0"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/mathematical-model/quantity/quantity-kind-to-quantity-kind/relatant" order="1"/>
 		</questions>
 		<conditions>
-			<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/IsQuantityKind"/>
+			<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/is-quantity-kind"/>
 		</conditions>
 	</questionset>
-	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/QuantityOrQuantityKind/QuantityOrQuantityKindNotInMathModDB/QuantityKindToQuantityKindConnection/QuantityKindToQuantityKindRelation">
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/mathematical-model/quantity/quantity-kind-to-quantity-kind/relation">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>MaRDMO/MathematicalModel/QuantityOrQuantityKind/QuantityOrQuantityKindNotInMathModDB/QuantityKindToQuantityKindConnection/QuantityKindToQuantityKindRelation</uri_path>
+		<uri_path>mardmo/mathematical-model/quantity/quantity-kind-to-quantity-kind/relation</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/QuantityKindToQuantityKindRelation"/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/quantity/quantity-kind-to-quantity-kind/relation"/>
 		<is_collection>False</is_collection>
 		<is_optional>True</is_optional>
 		<help lang="en"/>
-		<text lang="en">The new Quantity Kind...</text>
+		<text lang="en">The Quantity Kind...</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de"/>
-		<text lang="de">Die neue Quantitätsart...</text>
+		<text lang="de">Die Quantitätsart...</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
@@ -2009,22 +1970,22 @@
 		<unit/>
 		<width/>
 		<optionsets>
-			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/QuantityKindToQuantityKindRelation"/>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/quantity-kind-to-quantity-kind-relation"/>
 		</optionsets>
 		<conditions/>
 	</question>
-	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/QuantityOrQuantityKind/QuantityOrQuantityKindNotInMathModDB/QuantityKindToQuantityKindConnection/QuantityKindRelatedToQuantityKind">
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/mathematical-model/quantity/quantity-kind-to-quantity-kind/relatant">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>MaRDMO/MathematicalModel/QuantityOrQuantityKind/QuantityOrQuantityKindNotInMathModDB/QuantityKindToQuantityKindConnection/QuantityKindRelatedToQuantityKind</uri_path>
+		<uri_path>mardmo/mathematical-model/quantity/quantity-kind-to-quantity-kind/relatant</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/QuantityKindRelatedToQuantityKind"/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/quantity/quantity-kind-to-quantity-kind/relatant"/>
 		<is_collection>False</is_collection>
 		<is_optional>True</is_optional>
-		<help lang="en"/>
+		<help lang="en">For all quantity kinds &quot;label (description) [source]&quot; is provided.</help>
 		<text lang="en">...another Quantity Kind.</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de"/>
+		<help lang="de">Für alle Quantitätsarten wird „Name (Beschreibung) [Quelle]“ angegeben.</help>
 		<text lang="de">...eine weitere Quantitätsart.</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -2038,44 +1999,44 @@
 		<unit/>
 		<width/>
 		<optionsets>
-			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/QuantityKindRelatedToQuantityKind"/>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/quantity-kind"/>
 		</optionsets>
 		<conditions/>
 	</question>
-	<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/QuantityOrQuantityKind/QuantityOrQuantityKindNotInMathModDB/QuantityToQuantityKindConnection">
+	<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/mathematical-model/quantity/quantity-to-quantity-kind">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>MaRDMO/MathematicalModel/QuantityOrQuantityKind/QuantityOrQuantityKindNotInMathModDB/QuantityToQuantityKindConnection</uri_path>
+		<uri_path>mardmo/mathematical-model/quantity/quantity-to-quantity-kind</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/QuantityToQuantityKindConnection"/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/quantity/quantity-to-quantity-kind"/>
 		<is_collection>True</is_collection>
-		<title lang="en">Quantity / Quantity Kind Connections</title>
-		<help lang="en">The following questions allow you to relate the new Quantity to Quantity Kinds from MathModDB or created here. This is OPTIONAL, if no relations are defined, they will be added through a curator.</help>
+		<title lang="en">Quantity - Quantity Kind Relations</title>
+		<help lang="en"/>
 		<verbose_name lang="en"/>
-		<title lang="de">Quantität / Quantitätsart Verbindungen</title>
-		<help lang="de">Die folgenden Fragen ermöglichen es Ihnen, die neue Quantität mit Quantitätsarten aus MathModDB oder hier erstellten Quantitätsarten in Relation zu setzen. Dies ist OPTIONAL, wenn keine Relationen definiert sind, werden sie durch einen Kurator hinzugefügt.</help>
+		<title lang="de">Quantität - Quantitätsart Beziehungen</title>
+		<help lang="de"/>
 		<verbose_name lang="de"/>
 		<questionsets/>
 		<questions>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/QuantityOrQuantityKind/QuantityOrQuantityKindNotInMathModDB/QuantityToQuantityKindConnection/QuantityToQuantityKindRelation" order="0"/>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/QuantityOrQuantityKind/QuantityOrQuantityKindNotInMathModDB/QuantityToQuantityKindConnection/QuantityKindRelatedToQuantity" order="1"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/mathematical-model/quantity/quantity-to-quantity-kind/relation" order="0"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/mathematical-model/quantity/quantity-to-quantity-kind/relatant" order="1"/>
 		</questions>
 		<conditions>
-			<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/IsQuantity"/>
+			<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/is-quantity"/>
 		</conditions>
 	</questionset>
-	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/QuantityOrQuantityKind/QuantityOrQuantityKindNotInMathModDB/QuantityToQuantityKindConnection/QuantityToQuantityKindRelation">
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/mathematical-model/quantity/quantity-to-quantity-kind/relation">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>MaRDMO/MathematicalModel/QuantityOrQuantityKind/QuantityOrQuantityKindNotInMathModDB/QuantityToQuantityKindConnection/QuantityToQuantityKindRelation</uri_path>
+		<uri_path>mardmo/mathematical-model/quantity/quantity-to-quantity-kind/relation</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/QuantityToQuantityKindRelation"/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/quantity/quantity-to-quantity-kind/relation"/>
 		<is_collection>False</is_collection>
 		<is_optional>True</is_optional>
 		<help lang="en"/>
-		<text lang="en">The new Quantity...</text>
+		<text lang="en">The Quantity...</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de"/>
-		<text lang="de">Die neue Quantität...</text>
+		<text lang="de">Die Quantität...</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
@@ -2088,22 +2049,22 @@
 		<unit/>
 		<width/>
 		<optionsets>
-			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/QuantityToQuantityKindRelation"/>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/quantity-to-quantity-kind-relation"/>
 		</optionsets>
 		<conditions/>
 	</question>
-	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/QuantityOrQuantityKind/QuantityOrQuantityKindNotInMathModDB/QuantityToQuantityKindConnection/QuantityKindRelatedToQuantity">
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/mathematical-model/quantity/quantity-to-quantity-kind/relatant">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>MaRDMO/MathematicalModel/QuantityOrQuantityKind/QuantityOrQuantityKindNotInMathModDB/QuantityToQuantityKindConnection/QuantityKindRelatedToQuantity</uri_path>
+		<uri_path>mardmo/mathematical-model/quantity/quantity-to-quantity-kind/relatant</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/QuantityKindRelatedToQuantity"/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/quantity/quantity-to-quantity-kind/relatant"/>
 		<is_collection>False</is_collection>
 		<is_optional>True</is_optional>
-		<help lang="en"/>
+		<help lang="en">For all quantity kinds &quot;label (description) [source]&quot; is provided.</help>
 		<text lang="en">...a Quantity Kind.</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de"/>
+		<help lang="de">Für alle Quantitätsarten wird „Name (Beschreibung) [Quelle]“ angegeben.</help>
 		<text lang="de">...eine Quantitätsart.</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -2117,44 +2078,44 @@
 		<unit/>
 		<width/>
 		<optionsets>
-			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/QuantityKindRelatedToQuantity"/>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/quantity-kind"/>
 		</optionsets>
 		<conditions/>
 	</question>
-	<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/QuantityOrQuantityKind/QuantityOrQuantityKindNotInMathModDB/QuantityKindToQuantityConnection">
+	<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/mathematical-model/quantity/quantity-kind-to-quantity">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>MaRDMO/MathematicalModel/QuantityOrQuantityKind/QuantityOrQuantityKindNotInMathModDB/QuantityKindToQuantityConnection</uri_path>
+		<uri_path>mardmo/mathematical-model/quantity/quantity-kind-to-quantity</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/QuantityKindToQuantityConnection"/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/quantity/quantity-kind-to-quantity"/>
 		<is_collection>True</is_collection>
-		<title lang="en">Quantity Kind / Quantity Connections</title>
-		<help lang="en">The following questions allow you to relate the new Quantity Kind to Quantities from MathModDB or created here. This is OPTIONAL, if no relations are defined, they will be added through a curator.</help>
+		<title lang="en">Quantity Kind - Quantity Relations</title>
+		<help lang="en"/>
 		<verbose_name lang="en"/>
-		<title lang="de">Quantitätsart / Quantität Verbindungen</title>
-		<help lang="de">Die folgenden Fragen ermöglichen es Ihnen, die neue Quantitätsart mit Quantitäten aus MathModDB oder hier erstellten Quantitäten in Relation zu setzen. Dies ist OPTIONAL, wenn keine Relationen definiert sind, werden sie durch einen Kurator hinzugefügt.</help>
+		<title lang="de">Quantitätsart - Quantität Beziehungen</title>
+		<help lang="de"/>
 		<verbose_name lang="de"/>
 		<questionsets/>
 		<questions>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/QuantityOrQuantityKind/QuantityOrQuantityKindNotInMathModDB/QuantityKindToQuantityConnection/QuantityKindToQuantityRelation" order="1"/>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/QuantityOrQuantityKind/QuantityOrQuantityKindNotInMathModDB/QuantityKindToQuantityConnection/QuantityRelatedToQuantityKind" order="2"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/mathematical-model/quantity/quantity-kind-to-quantity/relation" order="1"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/mathematical-model/quantity/quantity-kind-to-quantity/relatant" order="2"/>
 		</questions>
 		<conditions>
-			<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/IsQuantityKind"/>
+			<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/is-quantity-kind"/>
 		</conditions>
 	</questionset>
-	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/QuantityOrQuantityKind/QuantityOrQuantityKindNotInMathModDB/QuantityKindToQuantityConnection/QuantityKindToQuantityRelation">
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/mathematical-model/quantity/quantity-kind-to-quantity/relation">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>MaRDMO/MathematicalModel/QuantityOrQuantityKind/QuantityOrQuantityKindNotInMathModDB/QuantityKindToQuantityConnection/QuantityKindToQuantityRelation</uri_path>
+		<uri_path>mardmo/mathematical-model/quantity/quantity-kind-to-quantity/relation</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/QuantityKindToQuantityRelation"/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/quantity/quantity-kind-to-quantity/relation"/>
 		<is_collection>False</is_collection>
 		<is_optional>True</is_optional>
 		<help lang="en"/>
-		<text lang="en">The new Quantity Kind...</text>
+		<text lang="en">The Quantity Kind...</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de"/>
-		<text lang="de">Die neue Quantitätsart...</text>
+		<text lang="de">Die Quantitätsart...</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
@@ -2167,22 +2128,22 @@
 		<unit/>
 		<width/>
 		<optionsets>
-			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/QuantityKindToQuantityRelation"/>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/quantity-kind-to-quantity-relation"/>
 		</optionsets>
 		<conditions/>
 	</question>
-	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/QuantityOrQuantityKind/QuantityOrQuantityKindNotInMathModDB/QuantityKindToQuantityConnection/QuantityRelatedToQuantityKind">
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/mathematical-model/quantity/quantity-kind-to-quantity/relatant">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>MaRDMO/MathematicalModel/QuantityOrQuantityKind/QuantityOrQuantityKindNotInMathModDB/QuantityKindToQuantityConnection/QuantityRelatedToQuantityKind</uri_path>
+		<uri_path>mardmo/mathematical-model/quantity/quantity-kind-to-quantity/relatant</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/QuantityRelatedToQuantityKind"/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/quantity/quantity-kind-to-quantity/relatant"/>
 		<is_collection>False</is_collection>
 		<is_optional>True</is_optional>
-		<help lang="en"/>
+		<help lang="en">For all quantities &quot;label (description) [source]&quot; is provided.</help>
 		<text lang="en">...a Quantity.</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de"/>
+		<help lang="de">Für alle Quantitäten wird „Name (Beschreibung) [Quelle]“ angegeben.</help>
 		<text lang="de">...eine Quantität.</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -2196,23 +2157,23 @@
 		<unit/>
 		<width/>
 		<optionsets>
-			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/QuantityRelatedToQuantityKind"/>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/quantity"/>
 		</optionsets>
 		<conditions/>
 	</question>
-	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/QuantityOrQuantityKind/QuantityOrQuantityKindNotInMathModDB/IsQuantityOrQuantityKind">
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/mathematical-model/quantity/is-quantity-or-quantity-kind">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>MaRDMO/MathematicalModel/QuantityOrQuantityKind/QuantityOrQuantityKindNotInMathModDB/IsQuantityOrQuantityKind</uri_path>
+		<uri_path>mardmo/mathematical-model/quantity/is-quantity-or-quantity-kind</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/IsQuantityOrQuantityKind"/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/quantity/is-quantity-or-quantity-kind"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en"/>
-		<text lang="en">Add a new Quantity or Quantity Kind?</text>
+		<text lang="en">Quantity or Quantity Kind?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de"/>
-		<text lang="de">Soll eine neue Quantität oder Quantitätsart hinzugefügt werden?</text>
+		<text lang="de">Quantität oder Quantitätsart?</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
@@ -2225,52 +2186,50 @@
 		<unit/>
 		<width/>
 		<optionsets>
-			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/IsQuantityOrQuantityKind"/>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/is-quantity-or-quantity-kind"/>
 		</optionsets>
 		<conditions/>
 	</question>
-	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/QuantityOrQuantityKind/QuantityOrQuantityKindNotInMathModDB/QuantityOrQuantityKindQID">
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/mathematical-model/quantity/name">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>MaRDMO/MathematicalModel/QuantityOrQuantityKind/QuantityOrQuantityKindNotInMathModDB/QuantityOrQuantityKindQID</uri_path>
+		<uri_path>mardmo/mathematical-model/quantity/name</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/QuantityQID"/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/quantity/name"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">For all items label and description are provided. If no appropriate quantity or quantity kind is available in the MaRDI KG or Wikidata, define it in the following.</help>
-		<text lang="en">Select an appropriate Quantity or Quantity Kind from the MaRDI KG or Wikidata!</text>
+		<help lang="en"/>
+		<text lang="en">Name of the Quantity or Quantity Kind</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">Für alle Suchergebnisse werden das Label und eine Beschreibung angegeben. Sollte keine passende Quantität oder Quantitätsart im MaRDI KG oder Wikdata vorhanden sein, definieren Sie es im Folgenden.</help>
-		<text lang="de">Wählen Sie eine geeignete Quantität oder Quantitätsart aus dem MaRDI KG oder Wikidata aus!</text>
+		<help lang="de"/>
+		<text lang="de">Name der Quantität oder Quantitätsart</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
 		<default_external_id/>
-		<widget_type>autocomplete</widget_type>
+		<widget_type>text</widget_type>
 		<value_type>text</value_type>
 		<maximum/>
 		<minimum/>
 		<step/>
 		<unit/>
 		<width/>
-		<optionsets>
-			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MaRDIAndWikidataSearch"/>
-		</optionsets>
+		<optionsets/>
 		<conditions/>
 	</question>
-	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/QuantityOrQuantityKind/QuantityOrQuantityKindNotInMathModDB/QuantityOrQuantityKindName">
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/mathematical-model/quantity/description">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>MaRDMO/MathematicalModel/QuantityOrQuantityKind/QuantityOrQuantityKindNotInMathModDB/QuantityOrQuantityKindName</uri_path>
+		<uri_path>mardmo/mathematical-model/quantity/description</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/QuantityName"/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/quantity/description"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en"/>
-		<text lang="en">Provide a Name for the new Quantity or Quantity Kind.</text>
+		<text lang="en">Description of the Quantity or Quantity Kind.</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de"/>
-		<text lang="de">Geben Sie einen Namen für die neue Quantität oder Quantitätsart an.</text>
+		<text lang="de">Beschreibung der Quantität oder Quantitätsart.</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
@@ -2283,23 +2242,21 @@
 		<unit/>
 		<width/>
 		<optionsets/>
-		<conditions>
-			<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/QuantityNotInMaRDIWikidata"/>
-		</conditions>
+		<conditions/>
 	</question>
-	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/QuantityOrQuantityKind/QuantityOrQuantityKindNotInMathModDB/QuantityOrQuantityKindDescription">
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/mathematical-model/quantity/other-id">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>MaRDMO/MathematicalModel/QuantityOrQuantityKind/QuantityOrQuantityKindNotInMathModDB/QuantityOrQuantityKindDescription</uri_path>
+		<uri_path>mardmo/mathematical-model/quantity/other-id</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/QuantityDescription"/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/quantity/other-id"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en"/>
-		<text lang="en">Provide a Description for the new Quantity or Quantity Kind.</text>
+		<text lang="en">QUDT ID of the Quantity or Quantity Kind.</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de"/>
-		<text lang="de">Geben Sie eine Beschreibung für die neue Quantität oder Quantitätsart an.</text>
+		<text lang="de">QUDT ID der Quantität oder Quantitätsart.</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
@@ -2312,52 +2269,21 @@
 		<unit/>
 		<width/>
 		<optionsets/>
-		<conditions>
-			<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/QuantityNotInMaRDIWikidata"/>
-		</conditions>
+		<conditions/>
 	</question>
-	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/QuantityOrQuantityKind/QuantityOrQuantityKindNotInMathModDB/QuantityOrQuantityKindOtherID">
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/mathematical-model/quantity/quantity-properties">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>MaRDMO/MathematicalModel/QuantityOrQuantityKind/QuantityOrQuantityKindNotInMathModDB/QuantityOrQuantityKindOtherID</uri_path>
+		<uri_path>mardmo/mathematical-model/quantity/quantity-properties</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/QuantityOtherID"/>
-		<is_collection>False</is_collection>
-		<is_optional>False</is_optional>
-		<help lang="en">Provided Prefix qudt:</help>
-		<text lang="en">Provide a QUDT ID for the new Quantity or Quantity Kind.</text>
-		<default_text lang="en"/>
-		<verbose_name lang="en"/>
-		<help lang="de">Vefügbarer ID Präfix: qudt:</help>
-		<text lang="de">Geben Sie eine QUDT ID für die neue Quantität oder Quantitätsart an.</text>
-		<default_text lang="de"/>
-		<verbose_name lang="de"/>
-		<default_option/>
-		<default_external_id/>
-		<widget_type>text</widget_type>
-		<value_type>text</value_type>
-		<maximum/>
-		<minimum/>
-		<step/>
-		<unit/>
-		<width/>
-		<optionsets/>
-		<conditions>
-			<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/QuantityNotInMaRDIWikidata"/>
-		</conditions>
-	</question>
-	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/QuantityOrQuantityKind/QuantityOrQuantityKindNotInMathModDB/QuantityProperties">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>MaRDMO/MathematicalModel/QuantityOrQuantityKind/QuantityOrQuantityKindNotInMathModDB/QuantityProperties</uri_path>
-		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/QuantityProperties"/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/quantity/quantity-properties"/>
 		<is_collection>True</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en"/>
-		<text lang="en">Assign appropriate Properties to the new Quantity.</text>
+		<text lang="en">Properties of the Quantity</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de"/>
-		<text lang="de">Wählen Sie geeignete Eigenschaften für die neue Quantität aus.</text>
+		<text lang="de">Eigenschaften der Quantität</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
@@ -2370,25 +2296,25 @@
 		<unit/>
 		<width/>
 		<optionsets>
-			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/QuantityProperties"/>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/quantity-properties"/>
 		</optionsets>
 		<conditions>
-			<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/IsQuantity"/>
+			<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/is-quantity"/>
 		</conditions>
 	</question>
-	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/QuantityOrQuantityKind/QuantityOrQuantityKindNotInMathModDB/QuantityKindProperties">
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/mathematical-model/quantity/quantity-kind-properties">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>MaRDMO/MathematicalModel/QuantityOrQuantityKind/QuantityOrQuantityKindNotInMathModDB/QuantityKindProperties</uri_path>
+		<uri_path>mardmo/mathematical-model/quantity/quantity-kind-properties</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/QuantityKindProperties"/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/quantity/quantity-kind-properties"/>
 		<is_collection>True</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en"/>
-		<text lang="en">Assign appropriate Properties to the new Quantity Kind.</text>
+		<text lang="en">Properties of the Quantity Kind</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de"/>
-		<text lang="de">Wählen Sie geeignete Eigenschaften für die neue Quantitätsart aus.</text>
+		<text lang="de">Eigenschaften der Quantitätsart</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
@@ -2401,25 +2327,25 @@
 		<unit/>
 		<width/>
 		<optionsets>
-			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/QuantityKindProperties"/>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/quantity-kind-properties"/>
 		</optionsets>
 		<conditions>
-			<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/IsQuantityKind"/>
+			<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/is-quantity-kind"/>
 		</conditions>
 	</question>
-	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/QuantityOrQuantityKind/QuantityOrQuantityKindMathModDBID">
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/mathematical-model/quantity/id">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>MaRDMO/MathematicalModel/QuantityOrQuantityKind/QuantityOrQuantityKindMathModDBID</uri_path>
+		<uri_path>mardmo/mathematical-model/quantity/id</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/QuantityMathModDBID"/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/quantity/id"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">For all quantities or quantity kinds the label is provided. If no appropriate quantity or quantitiy kind is available in MathModDB choose 'not in MathModDB' and define the quantity or quantity kind in the following.</help>
-		<text lang="en">Select Quantities or Quantity Kinds related to the Mathematical Model!</text>
+		<help lang="en">For all quantities or quantity kinds &quot;label (description) [source]&quot; is provided. If a quantity or quantity kind is chosen, WAIT until further information are added to the questionnaire. If no appropriate quantity or quantity kind is present in MathModDB, the MaRDI Portal or Wikidata, choose 'not found'.</help>
+		<text lang="en">Select a Quantity or Quantity Kind related to the Mathematical Model!</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">Für alle Quantitäten oder Quantitätsarten wird das Label angegeben. Falls keine passende Quantität oder Quantitätsart in MathModDB vorhanden ist, wählen Sie 'not in MathModDB' und definieren Sie die Quantität oder Quantitätsart im Folgenden.</help>
-		<text lang="de">Wählen Sie Quantitäten oder Quantitätsarten, die mit dem mathematischen Modell im Zusammenhang stehen!</text>
+		<help lang="de">Für alle Quantitäten oder Quantitätsarten wird „Name (Beschreibung) [Quelle]“ angegeben. Wenn eine Quantität oder Quantitätsart ausgewählt wird, WARTEN Sie, bis weitere Informationen zum Fragebogen hinzugefügt werden. Falls keine passende Quantität oder Quantitätsart in MathModDB, dem MaRDI-Portal oder Wikidata vorhanden ist, wählen Sie „not found“.</help>
+		<text lang="de">Wählen Sie eine Quantität oder Quantitätsart, die mit dem mathematischen Modell im Zusammenhang stehen!</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
@@ -2432,7 +2358,7 @@
 		<unit/>
 		<width/>
 		<optionsets>
-			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/QuantityOrQuantityKind"/>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/quantity-or-quantity-kind"/>
 		</optionsets>
 		<conditions/>
 	</question>
