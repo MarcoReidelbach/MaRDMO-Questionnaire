@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2024-11-22T14:49:42.249180+01:00" version="2.2.1">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2024-11-22T20:12:33.450861+01:00" version="2.2.1">
 	<catalog dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>MaRDMO</uri_path>
@@ -2467,11 +2467,11 @@
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/formulation/element-quantity"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en"/>
+		<help lang="en">For all quantities or quantity kind &quot;label (description) [source]&quot; is provided.</help>
 		<text lang="en">Encoded Quantity or Quantity Kind</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de"/>
+		<help lang="de">Für alle Quantitäten oder Quantitätsarten wird „Name (Beschreibung) [Quelle]“ angegeben.</help>
 		<text lang="de">Enkodierte Quantität oder Quantitätsart</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -2927,11 +2927,11 @@
 		<is_collection>True</is_collection>
 		<title lang="en">Task</title>
 		<short_title lang="en"/>
-		<help lang="en"/>
+		<help lang="en">Select, define and relate tasks.</help>
 		<verbose_name lang="en"/>
 		<title lang="de">Aufgabe</title>
 		<short_title lang="de"/>
-		<help lang="de"/>
+		<help lang="de">Wählen, definieren und verknüpfen Sie Aufgaben.</help>
 		<verbose_name lang="de"/>
 		<questionsets>
 			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task/information" order="1"/>
@@ -3024,11 +3024,11 @@
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/task/formulation-relatant"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en"/>
+		<help lang="en">For all mathematical formulations &quot;label (description) [source]&quot; is provided.</help>
 		<text lang="en">...a Mathematical Formulation.</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de"/>
+		<help lang="de">Für alle mathematischen Formulierungen wird „Name (Beschreibung) [Quelle]“ angegeben.</help>
 		<text lang="de">...eine mathematische Formulierung.</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -3101,11 +3101,11 @@
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/task/quantity-relatant"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en"/>
+		<help lang="en">For all quantity or quantity kind &quot;label (description) [source]&quot; is provided.</help>
 		<text lang="en">...a Quantity / Quantity Kind.</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de"/>
+		<help lang="de">Für alle Quantitäten oder Quantitätsarten wird „Name (Beschreibung) [Quelle]“ angegeben.</help>
 		<text lang="de">...eine Quantität / Quantitätsart.</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -3242,11 +3242,11 @@
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/task/model-relatant"/>
 		<is_collection>True</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en"/>
+		<help lang="en">For all mathematical models &quot;label (description) [source]&quot; is provided.</help>
 		<text lang="en">Mathematical Model applied by the Task.</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de"/>
+		<help lang="de">Für alle mathematischen Modelle wird „Name (Beschreibung) [Quelle]“ angegeben.</help>
 		<text lang="de">Mathematische Modell das durch die Aufgabe angewandt wird</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -3319,11 +3319,11 @@
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/task/task-relatant"/>
 		<is_collection>False</is_collection>
 		<is_optional>True</is_optional>
-		<help lang="en"/>
+		<help lang="en">For all tasks &quot;label (description) [source]&quot; is provided.</help>
 		<text lang="en">...another Task.</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de"/>
+		<help lang="de">Für alle Aufgaben wird „Name (Beschreibung) [Quelle]“ angegeben.</help>
 		<text lang="de">...eine weitere Aufgabe.</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -3348,11 +3348,11 @@
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/task/id"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en"/>
+		<help lang="en">For all tasks &quot;label (description) [source]&quot; is provided. If a task is chosen, WAIT until further information are added to the questionnaire. If no appropriate task is present in MathModDB, the MaRDI Portal or Wikidata, choose 'not found'.</help>
 		<text lang="en">Select a Task related to the Mathematical Model!</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de"/>
+		<help lang="de">Für alle Aufgabe wird „Name (Beschreibung) [Quelle]“ angegeben. Wenn eine Aufgabe ausgewählt wird, WARTEN Sie, bis weitere Informationen zum Fragebogen hinzugefügt werden. Falls keine passende Aufgabe in MathModDB, dem MaRDI-Portal oder Wikidata vorhanden ist, wählen Sie „not found“.</help>
 		<text lang="de">Wählen Sie eine Aufgabe die mit dem mathematischen Modell im Zusammenhang steht!</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
