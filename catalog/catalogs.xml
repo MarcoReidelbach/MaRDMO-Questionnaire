@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2024-11-21T13:01:11.799124+01:00" version="2.2.1">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2024-11-22T14:49:42.249180+01:00" version="2.2.1">
 	<catalog dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>MaRDMO</uri_path>
@@ -1005,7 +1005,7 @@
 			<page dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/model" order="3"/>
 			<page dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity" order="4"/>
 			<page dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/formulation" order="5"/>
-			<page dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/Task" order="6"/>
+			<page dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task" order="6"/>
 			<page dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/Publication" order="7"/>
 			<page dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/TaskWorkflowRelevant" order="8"/>
 		</pages>
@@ -2919,91 +2919,88 @@
 		</optionsets>
 		<conditions/>
 	</question>
-	<page dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/Task">
+	<page dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>MaRDMO/MathematicalModel/Task</uri_path>
+		<uri_path>mardmo/model/task</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Task"/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/task"/>
 		<is_collection>True</is_collection>
 		<title lang="en">Task</title>
 		<short_title lang="en"/>
-		<help lang="en">The following questions allow the selection of existing Tasks from MathModDB. If no appropriate Task is present in MathModDB, suitable Tasks might be selected from the MaRDI KG or Wikidata. Alternatively, new Tasks can be defined providing a Name, Description, ID, Properties, Category, related Mathematical Formulations and Quantities or Quantity Kinds. All Tasks selected or defined here have to be assigned to a Mathematical Model and can OPTIONALLY be related to previously defined or existing Task from MathModDB.</help>
+		<help lang="en"/>
 		<verbose_name lang="en"/>
 		<title lang="de">Aufgabe</title>
 		<short_title lang="de"/>
-		<help lang="de">Die folgenden Fragen erlauben die Auswahl bestehender Aufgaben aus MathModDB. Wenn keine passende Aufgabe in MathModDB vorhanden ist, können geeignete Aufgaben aus dem MaRDI KG oder Wikidata ausgewählt werden. Alternativ können neue Aufgaben definiert werden, indem Name, Beschreibung, ID, Eigenschaften, Kategorie, zugehörige mathematische Formeln und Quantitäten oder Quantitätsarten angegeben werden. Alle hier ausgewählten oder definierten Aufgaben müssen einem mathematischen Modell zugeordnet werden und können OPTIONAL mit einer zuvor definierten oder bestehenden Aufgabe aus der MathModDB verknüpft werden.</help>
-		<verbose_name lang="de"/>
-		<questionsets>
-			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/Task/TaskNotInMathModDB" order="1"/>
-			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/Task/TaskToTaskConnection" order="10"/>
-		</questionsets>
-		<questions>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/Task/TaskMathModDBID" order="0"/>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/Task/MathematicalModelRelatedToTask" order="6"/>
-		</questions>
-		<conditions>
-			<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/Task"/>
-		</conditions>
-	</page>
-	<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/Task/TaskNotInMathModDB">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>MaRDMO/MathematicalModel/Task/TaskNotInMathModDB</uri_path>
-		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/TaskNotInMathModDB"/>
-		<is_collection>False</is_collection>
-		<title lang="en">If not in MathModDB...</title>
-		<help lang="en"/>
-		<verbose_name lang="en"/>
-		<title lang="de">Falls nicht in MathModDB...</title>
 		<help lang="de"/>
 		<verbose_name lang="de"/>
 		<questionsets>
-			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/Task/TaskNotInMathModDB/TaskToMathematicalFormulationConnection" order="6"/>
-			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/Task/TaskNotInMathModDB/TaskToQuantityOrQuantityKindConnection" order="7"/>
+			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task/information" order="1"/>
+			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task/task-to-task" order="2"/>
 		</questionsets>
 		<questions>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/Task/TaskNotInMathModDB/TaskQID" order="0"/>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/Task/TaskNotInMathModDB/TaskName" order="1"/>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/Task/TaskNotInMathModDB/TaskDescription" order="2"/>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/Task/TaskNotInMathModDB/TaskProperties" order="4"/>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/Task/TaskNotInMathModDB/TaskCategory" order="5"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task/id" order="0"/>
 		</questions>
 		<conditions>
-			<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/TaskNotInMathModDB"/>
+			<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/task"/>
 		</conditions>
-	</questionset>
-	<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/Task/TaskNotInMathModDB/TaskToMathematicalFormulationConnection">
+	</page>
+	<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task/information">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>MaRDMO/MathematicalModel/Task/TaskNotInMathModDB/TaskToMathematicalFormulationConnection</uri_path>
+		<uri_path>mardmo/model/task/information</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/TaskToMathematicalFormulationConnection"/>
-		<is_collection>True</is_collection>
-		<title lang="en">Contains Mathematical Formulation</title>
-		<help lang="en">The following questions allow you to specify which Mathematical Formulations are related to the new Task and how.</help>
+		<attribute/>
+		<is_collection>False</is_collection>
+		<title lang="en">Task Information</title>
+		<help lang="en"/>
 		<verbose_name lang="en"/>
-		<title lang="de">Beinhaltet mathematische Formulierung</title>
-		<help lang="de">Die folgenden Fragen erlauben es Ihnen zu definieren welche mathematischen Formulierungen im Zusammenhang mit dieser Aufgabe stehen und wie.</help>
+		<title lang="de">Aufgaben Informationen</title>
+		<help lang="de"/>
 		<verbose_name lang="de"/>
-		<questionsets/>
+		<questionsets>
+			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task/task-to-formulation" order="5"/>
+			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task/task-to-quantity" order="6"/>
+		</questionsets>
 		<questions>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/Task/TaskNotInMathModDB/TaskToMathematicalFormulationConnection/TaskToMathematicalFormulationRelation" order="0"/>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/Task/TaskNotInMathModDB/TaskToMathematicalFormulationConnection/MathematicalFormulationRelatedToTask" order="1"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task/name" order="0"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task/description" order="1"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task/properties" order="2"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task/category" order="3"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task/model-relatant" order="4"/>
 		</questions>
 		<conditions/>
 	</questionset>
-	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/Task/TaskNotInMathModDB/TaskToMathematicalFormulationConnection/TaskToMathematicalFormulationRelation">
+	<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task/task-to-formulation">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>MaRDMO/MathematicalModel/Task/TaskNotInMathModDB/TaskToMathematicalFormulationConnection/TaskToMathematicalFormulationRelation</uri_path>
+		<uri_path>mardmo/model/task/task-to-formulation</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/TaskToMathematicalFormulationRelation"/>
+		<attribute/>
+		<is_collection>True</is_collection>
+		<title lang="en">Mathematical Formulation Relations</title>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<title lang="de">Mathematische Formulierung Beziehungen</title>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<questionsets/>
+		<questions>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task/task-to-formulation/relation" order="0"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task/formulation-relatant" order="1"/>
+		</questions>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task/task-to-formulation/relation">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/model/task/task-to-formulation/relation</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/task/formulation-relation"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en"/>
-		<text lang="en">The new Task...</text>
+		<text lang="en">The Task...</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de"/>
-		<text lang="de">Die neue Aufgabe...</text>
+		<text lang="de">Die Aufgabe...</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
@@ -3016,15 +3013,15 @@
 		<unit/>
 		<width/>
 		<optionsets>
-			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/TaskToMathematicalFormulationRelation"/>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/task-to-formulation-relation"/>
 		</optionsets>
 		<conditions/>
 	</question>
-	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/Task/TaskNotInMathModDB/TaskToMathematicalFormulationConnection/MathematicalFormulationRelatedToTask">
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task/formulation-relatant">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>MaRDMO/MathematicalModel/Task/TaskNotInMathModDB/TaskToMathematicalFormulationConnection/MathematicalFormulationRelatedToTask</uri_path>
+		<uri_path>mardmo/model/task/formulation-relatant</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/MathematicalFormulationRelatedToTask"/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/task/formulation-relatant"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en"/>
@@ -3045,42 +3042,42 @@
 		<unit/>
 		<width/>
 		<optionsets>
-			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathematicalFormulationRelatedToTask"/>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/formulation-relatant"/>
 		</optionsets>
 		<conditions/>
 	</question>
-	<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/Task/TaskNotInMathModDB/TaskToQuantityOrQuantityKindConnection">
+	<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task/task-to-quantity">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>MaRDMO/MathematicalModel/Task/TaskNotInMathModDB/TaskToQuantityOrQuantityKindConnection</uri_path>
+		<uri_path>mardmo/model/task/task-to-quantity</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/TaskToQuantityOrQuantityKindConnection"/>
+		<attribute/>
 		<is_collection>True</is_collection>
-		<title lang="en">Contains Quantity / Quantity Kind</title>
-		<help lang="en">The following questions allow you to specify which Quantities are related to the new task and how.</help>
+		<title lang="en">Quantity / Quantity Kind Relations</title>
+		<help lang="en"/>
 		<verbose_name lang="en"/>
-		<title lang="de">Beinhaltet Quantität / Quantitätsart</title>
-		<help lang="de">Die folgenden Fragen erlauben es Ihnen zu definieren, welche Quantitäten mit der Aufgabe in Verbindung stehen und wie.</help>
+		<title lang="de">Quantität / Quantitätsart Beziehungen</title>
+		<help lang="de"/>
 		<verbose_name lang="de"/>
 		<questionsets/>
 		<questions>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/Task/TaskNotInMathModDB/TaskToQuantityOrQuantityKindConnection/TaskToQuantityOrQuantityKindRelation" order="0"/>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/Task/TaskNotInMathModDB/TaskToQuantityOrQuantityKindConnection/QuantityOrQuantityKindRelatedToTask" order="1"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task/task-to-quantity/relation" order="0"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task/task-to-quantity/relatant" order="1"/>
 		</questions>
 		<conditions/>
 	</questionset>
-	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/Task/TaskNotInMathModDB/TaskToQuantityOrQuantityKindConnection/TaskToQuantityOrQuantityKindRelation">
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task/task-to-quantity/relation">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>MaRDMO/MathematicalModel/Task/TaskNotInMathModDB/TaskToQuantityOrQuantityKindConnection/TaskToQuantityOrQuantityKindRelation</uri_path>
+		<uri_path>mardmo/model/task/task-to-quantity/relation</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/TaskToQuantityOrQuantityKindRelation"/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/task/quantity-relation"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en"/>
-		<text lang="en">The new Task...</text>
+		<text lang="en">The Task...</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de"/>
-		<text lang="de">Die neue Aufgabe...</text>
+		<text lang="de">Die Aufgabe...</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
@@ -3093,15 +3090,15 @@
 		<unit/>
 		<width/>
 		<optionsets>
-			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/TaskToQuantityOrQuantityKindRelation"/>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/task-to-quantity-relation"/>
 		</optionsets>
 		<conditions/>
 	</question>
-	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/Task/TaskNotInMathModDB/TaskToQuantityOrQuantityKindConnection/QuantityOrQuantityKindRelatedToTask">
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task/task-to-quantity/relatant">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>MaRDMO/MathematicalModel/Task/TaskNotInMathModDB/TaskToQuantityOrQuantityKindConnection/QuantityOrQuantityKindRelatedToTask</uri_path>
+		<uri_path>mardmo/model/task/task-to-quantity/relatant</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/QuantityOrQuantityKindRelatedToTask"/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/task/quantity-relatant"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en"/>
@@ -3114,7 +3111,7 @@
 		<verbose_name lang="de"/>
 		<default_option/>
 		<default_external_id/>
-		<widget_type>select</widget_type>
+		<widget_type>autocomplete</widget_type>
 		<value_type>text</value_type>
 		<maximum/>
 		<minimum/>
@@ -3126,48 +3123,46 @@
 		</optionsets>
 		<conditions/>
 	</question>
-	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/Task/TaskNotInMathModDB/TaskQID">
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task/name">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>MaRDMO/MathematicalModel/Task/TaskNotInMathModDB/TaskQID</uri_path>
+		<uri_path>mardmo/model/task/name</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/TaskQID"/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/task/name"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">For all items label and description are provided. If no appropriate task is available in the MaRDI KG or Wikidata, define it in the following.</help>
-		<text lang="en">Select an appropriate Task from the MaRDI KG or Wikidata!</text>
+		<help lang="en"/>
+		<text lang="en">Name of the Task</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">Für alle Suchergebnisse werden das Label und eine Beschreibung angegeben. Falls Sie keine passende Aufgabe im MaRDI KG oder Wikidata finden, definieren Sie diese im Folgenden.</help>
-		<text lang="de">Wählen Sie eine geeignete Aufgabe aus dem MaRDI KG oder Wikidata aus!</text>
+		<help lang="de"/>
+		<text lang="de">Name der Aufgabe</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
 		<default_external_id/>
-		<widget_type>autocomplete</widget_type>
+		<widget_type>text</widget_type>
 		<value_type>text</value_type>
 		<maximum/>
 		<minimum/>
 		<step/>
 		<unit/>
 		<width/>
-		<optionsets>
-			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MaRDIAndWikidataSearch"/>
-		</optionsets>
+		<optionsets/>
 		<conditions/>
 	</question>
-	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/Task/TaskNotInMathModDB/TaskName">
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task/description">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>MaRDMO/MathematicalModel/Task/TaskNotInMathModDB/TaskName</uri_path>
+		<uri_path>mardmo/model/task/description</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/TaskName"/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/task/description"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en"/>
-		<text lang="en">Provide a Name for the new Task.</text>
+		<text lang="en">Description of the Task</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de"/>
-		<text lang="de">Geben Sie einen Namen für die neue Aufgabe an.</text>
+		<text lang="de">Beschreibung der Aufgabe</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
@@ -3180,52 +3175,21 @@
 		<unit/>
 		<width/>
 		<optionsets/>
-		<conditions>
-			<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/TaskNotInMaRDIWikidata"/>
-		</conditions>
+		<conditions/>
 	</question>
-	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/Task/TaskNotInMathModDB/TaskDescription">
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task/properties">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>MaRDMO/MathematicalModel/Task/TaskNotInMathModDB/TaskDescription</uri_path>
+		<uri_path>mardmo/model/task/properties</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/TaskDescription"/>
-		<is_collection>False</is_collection>
-		<is_optional>False</is_optional>
-		<help lang="en"/>
-		<text lang="en">Provide a Description for the new Task.</text>
-		<default_text lang="en"/>
-		<verbose_name lang="en"/>
-		<help lang="de"/>
-		<text lang="de">Geben Sie eine Beschreibung für die neue Aufgabe an.</text>
-		<default_text lang="de"/>
-		<verbose_name lang="de"/>
-		<default_option/>
-		<default_external_id/>
-		<widget_type>text</widget_type>
-		<value_type>text</value_type>
-		<maximum/>
-		<minimum/>
-		<step/>
-		<unit/>
-		<width/>
-		<optionsets/>
-		<conditions>
-			<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/TaskNotInMaRDIWikidata"/>
-		</conditions>
-	</question>
-	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/Task/TaskNotInMathModDB/TaskProperties">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>MaRDMO/MathematicalModel/Task/TaskNotInMathModDB/TaskProperties</uri_path>
-		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/TaskProperties"/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/task/properties"/>
 		<is_collection>True</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en"/>
-		<text lang="en">Assign appropriate Properties to the new Task.</text>
+		<text lang="en">Properties of the Task</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de"/>
-		<text lang="de">Fügen Sie der neuen Aufgabe passende Eigenschaften hinzu.</text>
+		<text lang="de">Eigenschaften der Aufgabe</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
@@ -3238,23 +3202,23 @@
 		<unit/>
 		<width/>
 		<optionsets>
-			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/TaskProperties"/>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/task-properties"/>
 		</optionsets>
 		<conditions/>
 	</question>
-	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/Task/TaskNotInMathModDB/TaskCategory">
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task/category">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>MaRDMO/MathematicalModel/Task/TaskNotInMathModDB/TaskCategory</uri_path>
+		<uri_path>mardmo/model/task/category</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/TaskCategory"/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/task/category"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en"/>
-		<text lang="en">Which Category does this Task fall into?</text>
+		<text lang="en">Task Category</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de"/>
-		<text lang="de">In welche Kategorie fällt diese Aufgabe?</text>
+		<text lang="de">Aufgabenkategorie</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
@@ -3267,42 +3231,71 @@
 		<unit/>
 		<width/>
 		<optionsets>
-			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/TaskCategory"/>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/task-category"/>
 		</optionsets>
 		<conditions/>
 	</question>
-	<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/Task/TaskToTaskConnection">
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task/model-relatant">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>MaRDMO/MathematicalModel/Task/TaskToTaskConnection</uri_path>
+		<uri_path>mardmo/model/task/model-relatant</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/TaskToTaskConnection"/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/task/model-relatant"/>
 		<is_collection>True</is_collection>
-		<title lang="en">Task Connection</title>
-		<help lang="en">The following questions allow you to relate the new Task to other Task from MathModDB or created here. This is OPTIONAL, if no relations are defined, they will be added through a curator.</help>
-		<verbose_name lang="en"/>
-		<title lang="de">Aufgabe Verbindungen</title>
-		<help lang="de">Die folgenden Fragen ermöglichen es Ihnen, die neue Aufgabe mit anderen Aufgabe aus MathModDB oder hier erstellten Aufgaben in Relation zu setzen. Dies ist OPTIONAL, wenn keine Relationen definiert sind, werden sie durch einen Kurator hinzugefügt.</help>
-		<verbose_name lang="de"/>
-		<questionsets/>
-		<questions>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/Task/TaskToTaskConnection/TaskToTaskRelation" order="0"/>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/Task/TaskToTaskConnection/TaskRelatedToTask" order="1"/>
-		</questions>
-		<conditions/>
-	</questionset>
-	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/Task/TaskToTaskConnection/TaskToTaskRelation">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>MaRDMO/MathematicalModel/Task/TaskToTaskConnection/TaskToTaskRelation</uri_path>
-		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/TaskToTaskRelation"/>
-		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en"/>
-		<text lang="en">The new Task...</text>
+		<text lang="en">Mathematical Model applied by the Task.</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de"/>
-		<text lang="de">Die neue Aufgabe...</text>
+		<text lang="de">Mathematische Modell das durch die Aufgabe angewandt wird</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>autocomplete</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/model-relatant"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task/task-to-task">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/model/task/task-to-task</uri_path>
+		<dc:comment/>
+		<attribute/>
+		<is_collection>True</is_collection>
+		<title lang="en">Task Relations</title>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<title lang="de">Aufgabe Verbindungen</title>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<questionsets/>
+		<questions>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task/task-relation" order="0"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task/task-to-task/relatant" order="1"/>
+		</questions>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task/task-relation">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/model/task/task-relation</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/task/task-relation"/>
+		<is_collection>False</is_collection>
+		<is_optional>True</is_optional>
+		<help lang="en"/>
+		<text lang="en">The Task...</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Die Aufgabe...</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
@@ -3315,17 +3308,17 @@
 		<unit/>
 		<width/>
 		<optionsets>
-			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/TaskToTaskRelation"/>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/task-to-task-relation"/>
 		</optionsets>
 		<conditions/>
 	</question>
-	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/Task/TaskToTaskConnection/TaskRelatedToTask">
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task/task-to-task/relatant">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>MaRDMO/MathematicalModel/Task/TaskToTaskConnection/TaskRelatedToTask</uri_path>
+		<uri_path>mardmo/model/task/task-to-task/relatant</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/TaskRelatedToTask"/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/task/task-relatant"/>
 		<is_collection>False</is_collection>
-		<is_optional>False</is_optional>
+		<is_optional>True</is_optional>
 		<help lang="en"/>
 		<text lang="en">...another Task.</text>
 		<default_text lang="en"/>
@@ -3344,23 +3337,23 @@
 		<unit/>
 		<width/>
 		<optionsets>
-			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/TaskRelatedToTask"/>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/task-relatant"/>
 		</optionsets>
 		<conditions/>
 	</question>
-	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/Task/TaskMathModDBID">
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task/id">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>MaRDMO/MathematicalModel/Task/TaskMathModDBID</uri_path>
+		<uri_path>mardmo/model/task/id</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/TaskMathModDBID"/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/task/id"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">For all task the label is provided. If no appropriate task is available in MathModDB choose 'not in MathModDB' and define it in the following.</help>
-		<text lang="en">Select an appropriate Task from MathModDB!</text>
+		<help lang="en"/>
+		<text lang="en">Select a Task related to the Mathematical Model!</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">Für alle Aufgaben wird das Label angegeben. Falls Sie keine passende Aufgabe in MathModDB finden, wählen Sie 'not in MathModDB' und definieren Sie diese im Folgenden.</help>
-		<text lang="de">Wählen Sie eine geeignete Aufgabe aus MathModDB aus!</text>
+		<help lang="de"/>
+		<text lang="de">Wählen Sie eine Aufgabe die mit dem mathematischen Modell im Zusammenhang steht!</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
@@ -3373,36 +3366,7 @@
 		<unit/>
 		<width/>
 		<optionsets>
-			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/Task"/>
-		</optionsets>
-		<conditions/>
-	</question>
-	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/Task/MathematicalModelRelatedToTask">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>MaRDMO/MathematicalModel/Task/MathematicalModelRelatedToTask</uri_path>
-		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/MathematicalModelRelatedToTask"/>
-		<is_collection>True</is_collection>
-		<is_optional>False</is_optional>
-		<help lang="en"/>
-		<text lang="en">Select a Mathematical Model applied by the new Task.</text>
-		<default_text lang="en"/>
-		<verbose_name lang="en"/>
-		<help lang="de"/>
-		<text lang="de">Wählen Sie ein mathematische Modell aus, das durch die neue Aufgabe angewandt wird.</text>
-		<default_text lang="de"/>
-		<verbose_name lang="de"/>
-		<default_option/>
-		<default_external_id/>
-		<widget_type>select</widget_type>
-		<value_type>text</value_type>
-		<maximum/>
-		<minimum/>
-		<step/>
-		<unit/>
-		<width/>
-		<optionsets>
-			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathematicalModelWithUserAddition"/>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/task"/>
 		</optionsets>
 		<conditions/>
 	</question>
