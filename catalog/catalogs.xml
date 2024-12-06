@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2024-11-22T20:12:33.450861+01:00" version="2.2.1">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2024-12-06T14:34:38.745649+01:00" version="2.2.1">
 	<catalog dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>MaRDMO</uri_path>
@@ -851,7 +851,7 @@
 		<unit/>
 		<width/>
 		<optionsets>
-			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/PublicationLanguage"/>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/publication-language"/>
 		</optionsets>
 		<conditions/>
 	</question>
@@ -1006,7 +1006,7 @@
 			<page dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity" order="4"/>
 			<page dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/formulation" order="5"/>
 			<page dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task" order="6"/>
-			<page dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/Publication" order="7"/>
+			<page dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/publication" order="7"/>
 			<page dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/TaskWorkflowRelevant" order="8"/>
 		</pages>
 	</section>
@@ -3273,7 +3273,7 @@
 		<title lang="en">Task Relations</title>
 		<help lang="en"/>
 		<verbose_name lang="en"/>
-		<title lang="de">Aufgabe Verbindungen</title>
+		<title lang="de">Aufgabe Beziehungen</title>
 		<help lang="de"/>
 		<verbose_name lang="de"/>
 		<questionsets/>
@@ -3370,65 +3370,76 @@
 		</optionsets>
 		<conditions/>
 	</question>
-	<page dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/Publication">
+	<page dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/publication">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>MaRDMO/MathematicalModel/Publication</uri_path>
+		<uri_path>mardmo/model/publication</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Publication"/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/publication"/>
 		<is_collection>True</is_collection>
 		<title lang="en">Publication</title>
 		<short_title lang="en"/>
-		<help lang="en">The following questions allow the selection of existing Publications from MathModDB. Alternatively, new Publications can be defined providing a Citation and an Identifier. All Publications selected or defined here have to be assigned to previously defined entities of the mathematical model.</help>
+		<help lang="en">Select, define and relate publications.</help>
 		<verbose_name lang="en"/>
 		<title lang="de">Publikation</title>
 		<short_title lang="de"/>
-		<help lang="de">Die folgenden Fragen erlauben die Auswahl bestehender Publikationen aus MathModDB. Alternativ können neue Publikationen unter Angabe einer Zitation und eines Identifikators definiert werden. Alle hier ausgewählten oder definierten Publikationen müssen den zuvor definierten Entitäten des mathematischen Models zugeordnet werden.</help>
+		<help lang="de">Wählen, definieren und verknüpfen Sie Publikationen.</help>
 		<verbose_name lang="de"/>
 		<questionsets>
-			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/Publication/PublicationNotInMathModDB" order="1"/>
-			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/Publication/PublicationToModelEntityConnection" order="3"/>
+			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/publication/information" order="3"/>
+			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/publication/publication-to-entity" order="4"/>
 		</questionsets>
 		<questions>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/Publication/PubliactionMathModDBID" order="0"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/publication/doi" order="0"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/publication/automatic-or-manual" order="1"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/publication/get-details" order="2"/>
 		</questions>
 		<conditions>
-			<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/Publication"/>
+			<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/publication"/>
 		</conditions>
 	</page>
-	<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/Publication/PublicationNotInMathModDB">
+	<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/publication/information">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>MaRDMO/MathematicalModel/Publication/PublicationNotInMathModDB</uri_path>
+		<uri_path>mardmo/model/publication/information</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/PublicationModelNotInMathModDB"/>
+		<attribute/>
 		<is_collection>False</is_collection>
-		<title lang="en">...if not in MathModDB.</title>
+		<title lang="en">Publication Information</title>
 		<help lang="en"/>
 		<verbose_name lang="en"/>
-		<title lang="de">...falls nicht in MathModDB.</title>
+		<title lang="de">Publikation Informationen</title>
 		<help lang="de"/>
 		<verbose_name lang="de"/>
 		<questionsets/>
 		<questions>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/Publication/PublicationNotInMathModDB/PublicationCitation" order="0"/>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/Publication/PublicationNotInMathModDB/PublicationID" order="1"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/publication/id" order="0"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/publication/type" order="1"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/publication/title" order="2"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/publication/author" order="3"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/publication/language" order="4"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/publication/journal" order="5"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/publication/volume" order="6"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/publication/issue" order="7"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/publication/page" order="8"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/publication/date" order="9"/>
 		</questions>
 		<conditions>
-			<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/PublicationNotInMathModDB"/>
+			<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/get-details"/>
+			<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/manual-details"/>
 		</conditions>
 	</questionset>
-	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/Publication/PublicationNotInMathModDB/PublicationCitation">
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/publication/id">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>MaRDMO/MathematicalModel/Publication/PublicationNotInMathModDB/PublicationCitation</uri_path>
+		<uri_path>mardmo/model/publication/id</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/PublicationModelCitation"/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/publication/id"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">Expected Format: Last Name First Author (Publication Year) Publication Title</help>
-		<text lang="en">Provide the Citation of the Publication.</text>
+		<help lang="en"/>
+		<text lang="en">Publication Item</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">Erwartetes Format: Nachname des Erstautors (Publikationsjahr) Titel der Publikation</help>
-		<text lang="de">Geben Sie die Zitation der Publikation an.</text>
+		<help lang="de"/>
+		<text lang="de">Publikationsitem</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
@@ -3441,21 +3452,56 @@
 		<unit/>
 		<width/>
 		<optionsets/>
-		<conditions/>
+		<conditions>
+			<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/get-details"/>
+		</conditions>
 	</question>
-	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/Publication/PublicationNotInMathModDB/PublicationID">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>MaRDMO/MathematicalModel/Publication/PublicationNotInMathModDB/PublicationID</uri_path>
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/publication/type">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms/</uri_prefix>
+		<uri_path>mardmo/model/publication/type</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/PublicationModelID"/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/publication/type"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">Provided Prefixes are: doi:</help>
-		<text lang="en">Provide a DOI for the Publication</text>
+		<help lang="en"/>
+		<text lang="en">Type of the Publication</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">Verfügbare Präfixe sind: doi:</help>
-		<text lang="de">Geben Sie eine DOI für die Publikation an</text>
+		<help lang="de"/>
+		<text lang="de">Art der Publikation</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>select</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/publication-type"/>
+		</optionsets>
+		<conditions>
+			<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/from-all-available-resources"/>
+			<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/from-mardi-portal-or-wikidata"/>
+			<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/manual-details"/>
+		</conditions>
+	</question>
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/publication/title">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/model/publication/title</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/publication/title"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en"/>
+		<text lang="en">Title of the Publication</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Titel der Publikation</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
@@ -3468,32 +3514,255 @@
 		<unit/>
 		<width/>
 		<optionsets/>
-		<conditions/>
+		<conditions>
+			<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/from-all-available-resources"/>
+			<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/from-mardi-portal-or-wikidata"/>
+			<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/manual-details"/>
+		</conditions>
 	</question>
-	<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/Publication/PublicationToModelEntityConnection">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>MaRDMO/MathematicalModel/Publication/PublicationToModelEntityConnection</uri_path>
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/publication/author">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms/</uri_prefix>
+		<uri_path>mardmo/model/publication/author</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/PublicationToModelEntityConnection"/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/publication/author"/>
 		<is_collection>True</is_collection>
-		<title lang="en">Publication Connection</title>
-		<help lang="en">The following questions allow the relation of the publication and a previously defined or selected entity of the mathematical model.</help>
+		<is_optional>False</is_optional>
+		<help lang="en"/>
+		<text lang="en">Author(s) of the Publication</text>
+		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<title lang="de">Publikation Verbindungen</title>
-		<help lang="de">Die folgenden Fragen erlauben die Relation zwischen der Publikation und den zuvor ausgewählten oder definierten Entitäten des mathematischen Models.</help>
+		<help lang="de"/>
+		<text lang="de">Autor(en) der Publikation</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions>
+			<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/from-all-available-resources"/>
+			<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/from-mardi-portal-or-wikidata"/>
+			<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/manual-details"/>
+		</conditions>
+	</question>
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/publication/language">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms/</uri_prefix>
+		<uri_path>mardmo/model/publication/language</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/publication/language"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en"/>
+		<text lang="en">Language of the Publication</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Sprache der Publikation</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>select</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/publication-language"/>
+		</optionsets>
+		<conditions>
+			<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/from-all-available-resources"/>
+			<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/from-mardi-portal-or-wikidata"/>
+			<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/manual-details"/>
+		</conditions>
+	</question>
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/publication/journal">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms/</uri_prefix>
+		<uri_path>mardmo/model/publication/journal</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/publication/journal"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en"/>
+		<text lang="en">Journal of the Publication</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Journal der Publikation</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions>
+			<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/from-all-available-resources"/>
+			<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/from-mardi-portal-or-wikidata"/>
+			<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/manual-details"/>
+		</conditions>
+	</question>
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/publication/volume">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms/</uri_prefix>
+		<uri_path>mardmo/model/publication/volume</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/publication/volume"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en"/>
+		<text lang="en">Volume of the Journal</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Band des Journals</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions>
+			<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/from-all-available-resources"/>
+			<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/from-mardi-portal-or-wikidata"/>
+			<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/manual-details"/>
+		</conditions>
+	</question>
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/publication/issue">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms/</uri_prefix>
+		<uri_path>mardmo/model/publication/issue</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/publication/issue"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en"/>
+		<text lang="en">Issue of the Journal</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Ausgabe des Journals</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions>
+			<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/from-all-available-resources"/>
+			<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/from-mardi-portal-or-wikidata"/>
+			<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/manual-details"/>
+		</conditions>
+	</question>
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/publication/page">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms/</uri_prefix>
+		<uri_path>mardmo/model/publication/page</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/publication/page"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en"/>
+		<text lang="en">Pages of the Journal</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Seiten des Journals</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions>
+			<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/from-all-available-resources"/>
+			<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/from-mardi-portal-or-wikidata"/>
+			<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/manual-details"/>
+		</conditions>
+	</question>
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/publication/date">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms/</uri_prefix>
+		<uri_path>mardmo/model/publication/date</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/publication/date"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en"/>
+		<text lang="en">Date of the Publication</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Datum der Publikation</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions>
+			<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/from-all-available-resources"/>
+			<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/from-mardi-portal-or-wikidata"/>
+			<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/manual-details"/>
+		</conditions>
+	</question>
+	<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/publication/publication-to-entity">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/model/publication/publication-to-entity</uri_path>
+		<dc:comment/>
+		<attribute/>
+		<is_collection>True</is_collection>
+		<title lang="en">Publication Relations</title>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<title lang="de">Publikation Beziehungen</title>
+		<help lang="de"/>
 		<verbose_name lang="de"/>
 		<questionsets/>
 		<questions>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/Publication/PublicationToModelEntityConnection/PublicationToModelEntityRelation" order="0"/>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/Publication/PublicationToModelEntityConnection/ModelEntityRelatedToPublication" order="1"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/publication/entity-relation" order="0"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/publication/entity-relatant" order="1"/>
 		</questions>
 		<conditions/>
 	</questionset>
-	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/Publication/PublicationToModelEntityConnection/PublicationToModelEntityRelation">
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/publication/entity-relation">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>MaRDMO/MathematicalModel/Publication/PublicationToModelEntityConnection/PublicationToModelEntityRelation</uri_path>
+		<uri_path>mardmo/model/publication/entity-relation</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/PublicationToModelEntityRelation"/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/publication/entity-relation"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en"/>
@@ -3514,15 +3783,15 @@
 		<unit/>
 		<width/>
 		<optionsets>
-			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/PublicationToModelEntityRelation"/>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/entity-relation"/>
 		</optionsets>
 		<conditions/>
 	</question>
-	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/Publication/PublicationToModelEntityConnection/ModelEntityRelatedToPublication">
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/publication/entity-relatant">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>MaRDMO/MathematicalModel/Publication/PublicationToModelEntityConnection/ModelEntityRelatedToPublication</uri_path>
+		<uri_path>mardmo/model/publication/entity-relatant</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/ModelEntityRelatedToPublication"/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/publication/entity-relatant"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en"/>
@@ -3543,28 +3812,55 @@
 		<unit/>
 		<width/>
 		<optionsets>
-			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MallModelEntities"/>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/entity-relatant"/>
 		</optionsets>
 		<conditions/>
 	</question>
-	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/Publication/PubliactionMathModDBID">
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/publication/doi">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>MaRDMO/MathematicalModel/Publication/PubliactionMathModDBID</uri_path>
+		<uri_path>mardmo/model/publication/doi</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/PublicationModelMathModDBID"/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/publication/doi"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">For all publications the label is provided. If no appropriate publication is available in MathModBD choose 'not in MathModDB' and define it in the following.</help>
-		<text lang="en">Select a Publication from MathModDB!</text>
+		<help lang="en">Provided Prefixes are: 'doi:', 'url:'. If a url is provided, no citation information will be requested automatically.</help>
+		<text lang="en">Provide an identifier for the Publication!</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">Für alle Publikationen wird das Label angegeben. Falls keine passende Publikation in MathModDB vorhanden ist, wählen Sie 'not in MathModDB' und definieren Sie diese im Folgenden.</help>
-		<text lang="de">Wählen Sie eine Publikation aus MathModDB aus.</text>
+		<help lang="de">Verfügbare Präfixe sind: 'doi:', 'url:'. Falls eine URL angegeben wird, werden die Zitationsinformationen nicht automatisch abgerufen.</help>
+		<text lang="de">Geben Sie einen Identifier für die Publikation an!</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
 		<default_external_id/>
-		<widget_type>autocomplete</widget_type>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/publication/automatic-or-manual">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms/</uri_prefix>
+		<uri_path>mardmo/model/publication/automatic-or-manual</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/publication/automatic-or-manual"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en">If a DOI is provided, 'MaRDMO' should be chosen to retrieve further citation information. For URLs (and DOIs for which MaRDMO is unable to retrieve further citation information) 'User' should be selected.</help>
+		<text lang="en">Citation Information provided by...</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de">Wenn eine DOI angegeben ist, sollte 'MaRDMO' ausgewählt werden, um weitere Zitationsinformationen abzurufen. Für URLs (und DOIs, für die MaRDMO keine weiteren Zitationsinformationen abrufen kann) sollte 'Nutzenden' ausgewählt werden.</help>
+		<text lang="de">Informationen zum Artikeln werden bereitgestellt durch...</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>select</widget_type>
 		<value_type>text</value_type>
 		<maximum/>
 		<minimum/>
@@ -3572,9 +3868,40 @@
 		<unit/>
 		<width/>
 		<optionsets>
-			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/Publication"/>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/automatic-or-manual"/>
 		</optionsets>
 		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/publication/get-details">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms/</uri_prefix>
+		<uri_path>mardmo/model/publication/get-details</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/publication/get-details"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en">Further citation information can be retrieved from the MathModDB Knowledge Graph, the MathAlgoDB Knowledge Graph, the MaRDI Portal, Wikidata or all available resources (the aforementioned sources + CrossRef, DataCite, DOI and zbMath). If the MathModDB or MathAlgoDB KG is chosen only the the Knowledge Graph Item is returned without further details, since they are not provided in these sources.</help>
+		<text lang="en">Further Information from...</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de">Weitere Zitationsinformationen können aus dem MathModDB Knowledge Graph, dem MathAlgoDB Knowledge Graph, dem MaRDI-Portal, Wikidata oder allen verfügbaren Quellen (den zuvor genannten Quellen + CrossRef, DataCite, DOI und zbMath) abgerufen werden. Wenn der MathModDB oder MathAlgoDB Knowledge Graph ausgewählt wird, wird nur das Knowledge-Graph-Item zurückgegeben, ohne weitere Details, da diese in diesen Quellen nicht bereitgestellt werden.</help>
+		<text lang="de">Weitere Informationen aus...</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>select</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/get-details"/>
+		</optionsets>
+		<conditions>
+			<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/get-details"/>
+		</conditions>
 	</question>
 	<page dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/MaRDMO/MathematicalModel/TaskWorkflowRelevant">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>

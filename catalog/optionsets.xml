@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2024-11-22T14:49:54.193097+01:00" version="2.2.1">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2024-12-06T14:34:52.931028+01:00" version="2.2.1">
 	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/BinaryOrText">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>BinaryOrText</uri_path>
@@ -230,14 +230,6 @@
 		<options/>
 		<conditions/>
 	</optionset>
-	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MallModelEntities">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>MallModelEntities</uri_path>
-		<dc:comment/>
-		<provider_key>AllEntities</provider_key>
-		<options/>
-		<conditions/>
-	</optionset>
 	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathematicalFormulationRelatedToTask">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>MathematicalFormulationRelatedToTask</uri_path>
@@ -293,123 +285,6 @@
 		<help lang="en"/>
 		<view_text lang="en"/>
 		<text lang="de">Dokumentieren</text>
-		<help lang="de"/>
-		<view_text lang="de"/>
-		<additional_input/>
-	</option>
-	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/Publication">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>Publication</uri_path>
-		<dc:comment/>
-		<provider_key>Publication</provider_key>
-		<options/>
-		<conditions/>
-	</optionset>
-	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/PublicationLanguage">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>PublicationLanguage</uri_path>
-		<dc:comment/>
-		<provider_key/>
-		<options>
-			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/PublicationLanguage/English" order="1"/>
-			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/PublicationLanguage/German" order="2"/>
-		</options>
-		<conditions/>
-	</optionset>
-	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/PublicationLanguage/English">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>PublicationLanguage/English</uri_path>
-		<dc:comment/>
-		<text lang="en">English</text>
-		<help lang="en"/>
-		<view_text lang="en"/>
-		<text lang="de">Englisch</text>
-		<help lang="de"/>
-		<view_text lang="de"/>
-		<additional_input/>
-	</option>
-	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/PublicationLanguage/German">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>PublicationLanguage/German</uri_path>
-		<dc:comment/>
-		<text lang="en">German</text>
-		<help lang="en"/>
-		<view_text lang="en"/>
-		<text lang="de">Deutsch</text>
-		<help lang="de"/>
-		<view_text lang="de"/>
-		<additional_input/>
-	</option>
-	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/PublicationToModelEntityRelation">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>PublicationToModelEntityRelation</uri_path>
-		<dc:comment/>
-		<provider_key/>
-		<options>
-			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/documents" order="1"/>
-			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/invents" order="2"/>
-			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/studies" order="3"/>
-			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/surveys" order="4"/>
-			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/uses" order="5"/>
-		</options>
-		<conditions/>
-	</optionset>
-	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/documents">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>MathModDB/documents</uri_path>
-		<dc:comment/>
-		<text lang="en">documents</text>
-		<help lang="en"/>
-		<view_text lang="en"/>
-		<text lang="de">dokumentiert</text>
-		<help lang="de"/>
-		<view_text lang="de"/>
-		<additional_input/>
-	</option>
-	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/invents">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>MathModDB/invents</uri_path>
-		<dc:comment/>
-		<text lang="en">invents</text>
-		<help lang="en"/>
-		<view_text lang="en"/>
-		<text lang="de">erfindet</text>
-		<help lang="de"/>
-		<view_text lang="de"/>
-		<additional_input/>
-	</option>
-	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/studies">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>MathModDB/studies</uri_path>
-		<dc:comment/>
-		<text lang="en">studies</text>
-		<help lang="en"/>
-		<view_text lang="en"/>
-		<text lang="de">untersucht</text>
-		<help lang="de"/>
-		<view_text lang="de"/>
-		<additional_input/>
-	</option>
-	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/surveys">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>MathModDB/surveys</uri_path>
-		<dc:comment/>
-		<text lang="en">surveys</text>
-		<help lang="en"/>
-		<view_text lang="en"/>
-		<text lang="de">erhebt</text>
-		<help lang="de"/>
-		<view_text lang="de"/>
-		<additional_input/>
-	</option>
-	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/uses">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>MathModDB/uses</uri_path>
-		<dc:comment/>
-		<text lang="en">uses</text>
-		<help lang="en"/>
-		<view_text lang="en"/>
-		<text lang="de">nutzt</text>
 		<help lang="de"/>
 		<view_text lang="de"/>
 		<additional_input/>
@@ -493,6 +368,123 @@
 		<help lang="en"/>
 		<view_text lang="en"/>
 		<text lang="de">(Mess-)datenanalyse Workflow</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/automatic-or-manual">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms/</uri_prefix>
+		<uri_path>automatic-or-manual</uri_path>
+		<dc:comment/>
+		<provider_key/>
+		<options>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/automatic-or-manual/mardmo" order="1"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/automatic-or-manual/user" order="2"/>
+		</options>
+		<conditions/>
+	</optionset>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/automatic-or-manual/mardmo">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms/</uri_prefix>
+		<uri_path>automatic-or-manual/mardmo</uri_path>
+		<dc:comment/>
+		<text lang="en">MaRDMO</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">MaRDMO</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/automatic-or-manual/user">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms/</uri_prefix>
+		<uri_path>automatic-or-manual/user</uri_path>
+		<dc:comment/>
+		<text lang="en">User</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Nutzenden</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/entity-relatant">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>entity-relatant</uri_path>
+		<dc:comment/>
+		<provider_key>AllEntities</provider_key>
+		<options/>
+		<conditions/>
+	</optionset>
+	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/entity-relation">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>entity-relation</uri_path>
+		<dc:comment/>
+		<provider_key/>
+		<options>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/documents" order="1"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/invents" order="2"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/studies" order="3"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/surveys" order="4"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/uses" order="5"/>
+		</options>
+		<conditions/>
+	</optionset>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/documents">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>MathModDB/documents</uri_path>
+		<dc:comment/>
+		<text lang="en">documents</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">dokumentiert</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/invents">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>MathModDB/invents</uri_path>
+		<dc:comment/>
+		<text lang="en">invents</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">erfindet</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/studies">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>MathModDB/studies</uri_path>
+		<dc:comment/>
+		<text lang="en">studies</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">untersucht</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/surveys">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>MathModDB/surveys</uri_path>
+		<dc:comment/>
+		<text lang="en">surveys</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">erhebt</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/uses">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>MathModDB/uses</uri_path>
+		<dc:comment/>
+		<text lang="en">uses</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">nutzt</text>
 		<help lang="de"/>
 		<view_text lang="de"/>
 		<additional_input/>
@@ -1153,6 +1145,14 @@
 		</options>
 		<conditions/>
 	</optionset>
+	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/get-details">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms/</uri_prefix>
+		<uri_path>get-details</uri_path>
+		<dc:comment/>
+		<provider_key>GetDetails</provider_key>
+		<options/>
+		<conditions/>
+	</optionset>
 	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/is-quantity-or-quantity-kind">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>is-quantity-or-quantity-kind</uri_path>
@@ -1449,6 +1449,773 @@
 		<help lang="en"/>
 		<view_text lang="en"/>
 		<text lang="de">ist ähnlich zu</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/publication">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>publication</uri_path>
+		<dc:comment/>
+		<provider_key>Publication</provider_key>
+		<options/>
+		<conditions/>
+	</optionset>
+	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/publication-language">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>publication-language</uri_path>
+		<dc:comment/>
+		<provider_key/>
+		<options>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/publication-language/afrikaans" order="0"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/publication-language/albanian" order="1"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/publication-language/arabic" order="2"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/publication-language/bengali" order="3"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/publication-language/bulgarian" order="4"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/publication-language/catalan" order="5"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/publication-language/croatian" order="6"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/publication-language/czech" order="7"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/publication-language/danish" order="8"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/publication-language/dutch" order="9"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/publication-language/english" order="10"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/publication-language/estonian" order="11"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/publication-language/finnish" order="12"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/publication-language/french" order="13"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/publication-language/german" order="14"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/publication-language/greek" order="15"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/publication-language/gujarati" order="16"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/publication-language/hebrew" order="17"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/publication-language/hindi" order="18"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/publication-language/hungarian" order="19"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/publication-language/indonesian" order="20"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/publication-language/italian" order="21"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/publication-language/japanese" order="22"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/publication-language/kannada" order="23"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/publication-language/korean" order="24"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/publication-language/latvian" order="25"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/publication-language/lithuanian" order="26"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/publication-language/macedonian" order="27"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/publication-language/malayalam" order="28"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/publication-language/mandarin" order="29"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/publication-language/marathi" order="30"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/publication-language/nepali" order="31"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/publication-language/norwegian" order="32"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/publication-language/persian" order="33"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/publication-language/polish" order="34"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/publication-language/portuguese" order="35"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/publication-language/punjabi" order="36"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/publication-language/romanian" order="37"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/publication-language/russian" order="38"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/publication-language/slovak" order="39"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/publication-language/slovene" order="40"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/publication-language/somali" order="41"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/publication-language/spanish" order="42"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/publication-language/swahili" order="43"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/publication-language/swedish" order="44"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/publication-language/tagalog" order="45"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/publication-language/taiwanesian-mandarin" order="46"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/publication-language/tamil" order="47"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/publication-language/telugu" order="48"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/publication-language/thai" order="49"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/publication-language/turkish" order="50"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/publication-language/ukrainian" order="51"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/publication-language/urdu" order="52"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/publication-language/vietnamese" order="53"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/publication-language/welsh" order="54"/>
+		</options>
+		<conditions/>
+	</optionset>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/publication-language/afrikaans">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>publication-language/afrikaans</uri_path>
+		<dc:comment/>
+		<text lang="en">Afrikaans</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Afrikaans</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/publication-language/albanian">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms/</uri_prefix>
+		<uri_path>publication-language/albanian</uri_path>
+		<dc:comment/>
+		<text lang="en">Albanian</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Albanisch</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/publication-language/arabic">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms/</uri_prefix>
+		<uri_path>publication-language/arabic</uri_path>
+		<dc:comment/>
+		<text lang="en">Arabic</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Arabisch</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/publication-language/bengali">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms/</uri_prefix>
+		<uri_path>publication-language/bengali</uri_path>
+		<dc:comment/>
+		<text lang="en">Bengali</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Bengalisch</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/publication-language/bulgarian">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms/</uri_prefix>
+		<uri_path>publication-language/bulgarian</uri_path>
+		<dc:comment/>
+		<text lang="en">Bulgarian</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Bulgarisch</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/publication-language/catalan">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms/</uri_prefix>
+		<uri_path>publication-language/catalan</uri_path>
+		<dc:comment/>
+		<text lang="en">Catalan</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Katalanisch</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/publication-language/croatian">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms/</uri_prefix>
+		<uri_path>publication-language/croatian</uri_path>
+		<dc:comment/>
+		<text lang="en">Croatian</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Kroatisch</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/publication-language/czech">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms/</uri_prefix>
+		<uri_path>publication-language/czech</uri_path>
+		<dc:comment/>
+		<text lang="en">Czech</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Tschechisch</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/publication-language/danish">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms/</uri_prefix>
+		<uri_path>publication-language/danish</uri_path>
+		<dc:comment/>
+		<text lang="en">Danish</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Dänisch</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/publication-language/dutch">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms/</uri_prefix>
+		<uri_path>publication-language/dutch</uri_path>
+		<dc:comment/>
+		<text lang="en">Dutch</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Niederländisch</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/publication-language/english">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>publication-language/english</uri_path>
+		<dc:comment/>
+		<text lang="en">English</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Englisch</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/publication-language/estonian">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms/</uri_prefix>
+		<uri_path>publication-language/estonian</uri_path>
+		<dc:comment/>
+		<text lang="en">Estonian</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Estnisch</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/publication-language/finnish">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms/</uri_prefix>
+		<uri_path>publication-language/finnish</uri_path>
+		<dc:comment/>
+		<text lang="en">Finnish</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Finnisch</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/publication-language/french">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms/</uri_prefix>
+		<uri_path>publication-language/french</uri_path>
+		<dc:comment/>
+		<text lang="en">French</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Französisch</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/publication-language/german">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>publication-language/german</uri_path>
+		<dc:comment/>
+		<text lang="en">German</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Deutsch</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/publication-language/greek">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms/</uri_prefix>
+		<uri_path>publication-language/greek</uri_path>
+		<dc:comment/>
+		<text lang="en">Greek</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Griechisch</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/publication-language/gujarati">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms/</uri_prefix>
+		<uri_path>publication-language/gujarati</uri_path>
+		<dc:comment/>
+		<text lang="en">Gujarati</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Gujarati</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/publication-language/hebrew">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms/</uri_prefix>
+		<uri_path>publication-language/hebrew</uri_path>
+		<dc:comment/>
+		<text lang="en">Hebrew</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Hebräisch</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/publication-language/hindi">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms/</uri_prefix>
+		<uri_path>publication-language/hindi</uri_path>
+		<dc:comment/>
+		<text lang="en">Hindi</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Hindi</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/publication-language/hungarian">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms/</uri_prefix>
+		<uri_path>publication-language/hungarian</uri_path>
+		<dc:comment/>
+		<text lang="en">Hungarian</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Ungarisch</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/publication-language/indonesian">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms/</uri_prefix>
+		<uri_path>publication-language/indonesian</uri_path>
+		<dc:comment/>
+		<text lang="en">Indonesian</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Indonesisch</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/publication-language/italian">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms/</uri_prefix>
+		<uri_path>publication-language/italian</uri_path>
+		<dc:comment/>
+		<text lang="en">Italian</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Italienisch</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/publication-language/japanese">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms/</uri_prefix>
+		<uri_path>publication-language/japanese</uri_path>
+		<dc:comment/>
+		<text lang="en">Japanese</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Japanisch</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/publication-language/kannada">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms/</uri_prefix>
+		<uri_path>publication-language/kannada</uri_path>
+		<dc:comment/>
+		<text lang="en">Kannada</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Kannada</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/publication-language/korean">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms/</uri_prefix>
+		<uri_path>publication-language/korean</uri_path>
+		<dc:comment/>
+		<text lang="en">Korean</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Koreanisch</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/publication-language/latvian">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms/</uri_prefix>
+		<uri_path>publication-language/latvian</uri_path>
+		<dc:comment/>
+		<text lang="en">Latvian</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Lettisch</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/publication-language/lithuanian">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms/</uri_prefix>
+		<uri_path>publication-language/lithuanian</uri_path>
+		<dc:comment/>
+		<text lang="en">Lithuanian</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Litauisch</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/publication-language/macedonian">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms/</uri_prefix>
+		<uri_path>publication-language/macedonian</uri_path>
+		<dc:comment/>
+		<text lang="en">Macedonian</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Mazedonisch</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/publication-language/malayalam">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms/</uri_prefix>
+		<uri_path>publication-language/malayalam</uri_path>
+		<dc:comment/>
+		<text lang="en">Malayalam</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Malayalam</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/publication-language/mandarin">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms/</uri_prefix>
+		<uri_path>publication-language/mandarin</uri_path>
+		<dc:comment/>
+		<text lang="en">Mandarin</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Mandarin</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/publication-language/marathi">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms/</uri_prefix>
+		<uri_path>publication-language/marathi</uri_path>
+		<dc:comment/>
+		<text lang="en">Marathi</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Marathi</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/publication-language/nepali">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms/</uri_prefix>
+		<uri_path>publication-language/nepali</uri_path>
+		<dc:comment/>
+		<text lang="en">Nepali</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Nepalesisch</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/publication-language/norwegian">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms/</uri_prefix>
+		<uri_path>publication-language/norwegian</uri_path>
+		<dc:comment/>
+		<text lang="en">Norwegian</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Norwegisch</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/publication-language/persian">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms/</uri_prefix>
+		<uri_path>publication-language/persian</uri_path>
+		<dc:comment/>
+		<text lang="en">Persian</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Persisch</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/publication-language/polish">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms/</uri_prefix>
+		<uri_path>publication-language/polish</uri_path>
+		<dc:comment/>
+		<text lang="en">Polish</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Polnisch</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/publication-language/portuguese">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms/</uri_prefix>
+		<uri_path>publication-language/portuguese</uri_path>
+		<dc:comment/>
+		<text lang="en">Portuguese</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Portugisisch</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/publication-language/punjabi">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms/</uri_prefix>
+		<uri_path>publication-language/punjabi</uri_path>
+		<dc:comment/>
+		<text lang="en">Punjabi</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Panjabi</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/publication-language/romanian">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms/</uri_prefix>
+		<uri_path>publication-language/romanian</uri_path>
+		<dc:comment/>
+		<text lang="en">Romanian</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Rumänisch</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/publication-language/russian">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms/</uri_prefix>
+		<uri_path>publication-language/russian</uri_path>
+		<dc:comment/>
+		<text lang="en">Russian</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Russisch</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/publication-language/slovak">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms/</uri_prefix>
+		<uri_path>publication-language/slovak</uri_path>
+		<dc:comment/>
+		<text lang="en">Slovak</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Slovakisch</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/publication-language/slovene">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms/</uri_prefix>
+		<uri_path>publication-language/slovene</uri_path>
+		<dc:comment/>
+		<text lang="en">Slovene</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Slovenisch</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/publication-language/somali">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms/</uri_prefix>
+		<uri_path>publication-language/somali</uri_path>
+		<dc:comment/>
+		<text lang="en">Somali</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Somalisch</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/publication-language/spanish">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms/</uri_prefix>
+		<uri_path>publication-language/spanish</uri_path>
+		<dc:comment/>
+		<text lang="en">Spanish</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Spanisch</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/publication-language/swahili">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms/</uri_prefix>
+		<uri_path>publication-language/swahili</uri_path>
+		<dc:comment/>
+		<text lang="en">Swahili</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Swahili</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/publication-language/swedish">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms/</uri_prefix>
+		<uri_path>publication-language/swedish</uri_path>
+		<dc:comment/>
+		<text lang="en">Swedish</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Schwedisch</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/publication-language/tagalog">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms/</uri_prefix>
+		<uri_path>publication-language/tagalog</uri_path>
+		<dc:comment/>
+		<text lang="en">Tagalog</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Tagalog</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/publication-language/taiwanesian-mandarin">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms/</uri_prefix>
+		<uri_path>publication-language/taiwanesian-mandarin</uri_path>
+		<dc:comment/>
+		<text lang="en">Taiwanesian Mandarin</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Taiwanesisches Mandarin</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/publication-language/tamil">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms/</uri_prefix>
+		<uri_path>publication-language/tamil</uri_path>
+		<dc:comment/>
+		<text lang="en">Tamil</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Tamil</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/publication-language/telugu">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms/</uri_prefix>
+		<uri_path>publication-language/telugu</uri_path>
+		<dc:comment/>
+		<text lang="en">Telugu</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Telugu</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/publication-language/thai">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms/</uri_prefix>
+		<uri_path>publication-language/thai</uri_path>
+		<dc:comment/>
+		<text lang="en">Thai</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Thailändisch</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/publication-language/turkish">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms/</uri_prefix>
+		<uri_path>publication-language/turkish</uri_path>
+		<dc:comment/>
+		<text lang="en">Turkish</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Türkisch</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/publication-language/ukrainian">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms/</uri_prefix>
+		<uri_path>publication-language/ukrainian</uri_path>
+		<dc:comment/>
+		<text lang="en">Ukrainian</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Ukrainisch</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/publication-language/urdu">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms/</uri_prefix>
+		<uri_path>publication-language/urdu</uri_path>
+		<dc:comment/>
+		<text lang="en">Urdu</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Urdu</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/publication-language/vietnamese">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms/</uri_prefix>
+		<uri_path>publication-language/vietnamese</uri_path>
+		<dc:comment/>
+		<text lang="en">Vietnamese</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Vietnamesisch</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/publication-language/welsh">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms/</uri_prefix>
+		<uri_path>publication-language/welsh</uri_path>
+		<dc:comment/>
+		<text lang="en">Welsh</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Walisisch</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/publication-type">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms/</uri_prefix>
+		<uri_path>publication-type</uri_path>
+		<dc:comment/>
+		<provider_key/>
+		<options>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/publication-type/scholarly-article" order="1"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/publication-type/general-publication" order="2"/>
+		</options>
+		<conditions/>
+	</optionset>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/publication-type/scholarly-article">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms/</uri_prefix>
+		<uri_path>publication-type/scholarly-article</uri_path>
+		<dc:comment/>
+		<text lang="en">scholarly article</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">wissenschaftlicher Artikel</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/publication-type/general-publication">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms/</uri_prefix>
+		<uri_path>publication-type/general-publication</uri_path>
+		<dc:comment/>
+		<text lang="en">publication</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Publikation</text>
 		<help lang="de"/>
 		<view_text lang="de"/>
 		<additional_input/>
