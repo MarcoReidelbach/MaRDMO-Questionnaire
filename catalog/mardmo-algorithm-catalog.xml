@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2025-01-24T20:40:50.313393+01:00" version="2.2.1">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2025-01-24T21:51:40.070804+01:00" version="2.2.1">
 	<catalog dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo-algorithm-catalog">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms/</uri_prefix>
 		<uri_path>mardmo-algorithm-catalog</uri_path>
@@ -280,7 +280,9 @@
 		<step/>
 		<unit/>
 		<width/>
-		<optionsets/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/algorithm"/>
+		</optionsets>
 		<conditions/>
 	</question>
 	<page dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/algorithm/algorithmic-problem">
@@ -506,7 +508,9 @@
 		<step/>
 		<unit/>
 		<width/>
-		<optionsets/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/algorithmic-problem"/>
+		</optionsets>
 		<conditions/>
 	</question>
 	<page dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/algorithm/software">
@@ -684,7 +688,9 @@
 		<step/>
 		<unit/>
 		<width/>
-		<optionsets/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/software-algorithm"/>
+		</optionsets>
 		<conditions/>
 	</question>
 	<page dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/algorithm/benchmark">
@@ -834,7 +840,9 @@
 		<step/>
 		<unit/>
 		<width/>
-		<optionsets/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/benchmark"/>
+		</optionsets>
 		<conditions/>
 	</question>
 	<section dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/publication-algorithm">
