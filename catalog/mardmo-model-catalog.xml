@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2025-01-24T09:02:19.371074+01:00" version="2.2.1">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2025-01-24T20:40:31.504762+01:00" version="2.2.1">
 	<catalog dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo-model-catalog">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mardmo-model-catalog</uri_path>
@@ -927,7 +927,7 @@
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de">Für alle mathematischen Modelle wird „Name (Beschreibung) [Quelle]“ angegeben.</help>
-		<text lang="de">...einem mathematischem Modell.</text>
+		<text lang="de">...einem mathematischen Modell.</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
