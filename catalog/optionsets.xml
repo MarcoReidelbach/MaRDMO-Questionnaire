@@ -1,10 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2025-01-24T21:50:58.241321+01:00" version="2.2.1">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2025-01-26T21:38:56.622510+01:00" version="2.2.1">
 	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/algorithm">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>algorithm</uri_path>
 		<dc:comment/>
 		<provider_key>Algorithm</provider_key>
+		<options/>
+		<conditions/>
+	</optionset>
+	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/algorithm-relatant">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>algorithm-relatant</uri_path>
+		<dc:comment/>
+		<provider_key>RelatedAlgorithm</provider_key>
 		<options/>
 		<conditions/>
 	</optionset>
@@ -160,7 +168,15 @@
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>algorithmic-problem</uri_path>
 		<dc:comment/>
-		<provider_key>AlgorithmicProblme</provider_key>
+		<provider_key>AlgorithmicProblem</provider_key>
+		<options/>
+		<conditions/>
+	</optionset>
+	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/algorithmic-problem-relatant">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms/</uri_prefix>
+		<uri_path>algorithmic-problem-relatant</uri_path>
+		<dc:comment/>
+		<provider_key>RelatedAlgorithmicProblem</provider_key>
 		<options/>
 		<conditions/>
 	</optionset>
@@ -242,6 +258,14 @@
 		<view_text lang="de"/>
 		<additional_input/>
 	</option>
+	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/benchmark-relatant">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>benchmark-relatant</uri_path>
+		<dc:comment/>
+		<provider_key>RelatedBenchmark</provider_key>
+		<options/>
+		<conditions/>
+	</optionset>
 	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/binary-or-text">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>binary-or-text</uri_path>
@@ -1755,6 +1779,14 @@
 		<uri_path>software-algorithm</uri_path>
 		<dc:comment/>
 		<provider_key>SoftwareAL</provider_key>
+		<options/>
+		<conditions/>
+	</optionset>
+	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/software-relatant">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>software-relatant</uri_path>
+		<dc:comment/>
+		<provider_key>RelatedSoftwareAL</provider_key>
 		<options/>
 		<conditions/>
 	</optionset>
