@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2025-01-26T21:38:56.622510+01:00" version="2.2.1">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2025-01-28T09:47:16.693596+01:00" version="2.2.1">
 	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/algorithm">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>algorithm</uri_path>
@@ -22,17 +22,17 @@
 		<dc:comment/>
 		<provider_key/>
 		<options>
-			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/algorithm-relation/has-as-component" order="1"/>
-			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/algorithm-relation/is-component-of" order="2"/>
-			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/algorithm-relation/has-as-subclass" order="3"/>
-			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/algorithm-relation/is-subclass-of" order="4"/>
-			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/algorithm-relation/is-related-to" order="5"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathAlgoDB/hasComponent" order="1"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathAlgoDB/componentOf" order="2"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathAlgoDB/hasSubclass" order="3"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathAlgoDB/subclassOf" order="4"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathAlgoDB/relatedTo" order="5"/>
 		</options>
 		<conditions/>
 	</optionset>
-	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/algorithm-relation/has-as-component">
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathAlgoDB/hasComponent">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>algorithm-relation/has-as-component</uri_path>
+		<uri_path>MathAlgoDB/hasComponent</uri_path>
 		<dc:comment/>
 		<text lang="en">has as component</text>
 		<help lang="en"/>
@@ -42,9 +42,9 @@
 		<view_text lang="de"/>
 		<additional_input/>
 	</option>
-	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/algorithm-relation/is-component-of">
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathAlgoDB/componentOf">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>algorithm-relation/is-component-of</uri_path>
+		<uri_path>MathAlgoDB/componentOf</uri_path>
 		<dc:comment/>
 		<text lang="en">is component of</text>
 		<help lang="en"/>
@@ -54,9 +54,9 @@
 		<view_text lang="de"/>
 		<additional_input/>
 	</option>
-	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/algorithm-relation/has-as-subclass">
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathAlgoDB/hasSubclass">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>algorithm-relation/has-as-subclass</uri_path>
+		<uri_path>MathAlgoDB/hasSubclass</uri_path>
 		<dc:comment/>
 		<text lang="en">has as subclass</text>
 		<help lang="en"/>
@@ -66,11 +66,11 @@
 		<view_text lang="de"/>
 		<additional_input/>
 	</option>
-	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/algorithm-relation/is-subclass-of">
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathAlgoDB/subclassOf">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>algorithm-relation/is-subclass-of</uri_path>
+		<uri_path>MathAlgoDB/subclassOf</uri_path>
 		<dc:comment/>
-		<text lang="en">si subclass of</text>
+		<text lang="en">is subclass of</text>
 		<help lang="en"/>
 		<view_text lang="en"/>
 		<text lang="de">ist eine Subklasse von</text>
@@ -78,9 +78,9 @@
 		<view_text lang="de"/>
 		<additional_input/>
 	</option>
-	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/algorithm-relation/is-related-to">
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathAlgoDB/relatedTo">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>algorithm-relation/is-related-to</uri_path>
+		<uri_path>MathAlgoDB/relatedTo</uri_path>
 		<dc:comment/>
 		<text lang="en">is related to</text>
 		<help lang="en"/>
@@ -96,17 +96,17 @@
 		<dc:comment/>
 		<provider_key/>
 		<options>
-			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/algorithm-relation-2/analyzes" order="0"/>
-			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/algorithm-relations-2/applies" order="1"/>
-			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/invents" order="2"/>
-			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/studies" order="3"/>
-			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/surveys" order="4"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathAlgoDB/analyzes" order="0"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathAlgoDB/applies" order="1"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathAlgoDB/invents" order="2"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathAlgoDB/studies" order="3"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathAlgoDB/surveys" order="4"/>
 		</options>
 		<conditions/>
 	</optionset>
-	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/algorithm-relation-2/analyzes">
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathAlgoDB/analyzes">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>algorithm-relation-2/analyzes</uri_path>
+		<uri_path>MathAlgoDB/analyzes</uri_path>
 		<dc:comment/>
 		<text lang="en">analyzes</text>
 		<help lang="en"/>
@@ -116,9 +116,9 @@
 		<view_text lang="de"/>
 		<additional_input/>
 	</option>
-	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/algorithm-relations-2/applies">
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathAlgoDB/applies">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>algorithm-relations-2/applies</uri_path>
+		<uri_path>MathAlgoDB/applies</uri_path>
 		<dc:comment/>
 		<text lang="en">applies</text>
 		<help lang="en"/>
@@ -128,9 +128,9 @@
 		<view_text lang="de"/>
 		<additional_input/>
 	</option>
-	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/invents">
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathAlgoDB/invents">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>MathModDB/invents</uri_path>
+		<uri_path>MathAlgoDB/invents</uri_path>
 		<dc:comment/>
 		<text lang="en">invents</text>
 		<help lang="en"/>
@@ -140,9 +140,9 @@
 		<view_text lang="de"/>
 		<additional_input/>
 	</option>
-	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/studies">
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathAlgoDB/studies">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>MathModDB/studies</uri_path>
+		<uri_path>MathAlgoDB/studies</uri_path>
 		<dc:comment/>
 		<text lang="en">studies</text>
 		<help lang="en"/>
@@ -152,9 +152,9 @@
 		<view_text lang="de"/>
 		<additional_input/>
 	</option>
-	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/surveys">
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathAlgoDB/surveys">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>MathModDB/surveys</uri_path>
+		<uri_path>MathAlgoDB/surveys</uri_path>
 		<dc:comment/>
 		<text lang="en">surveys</text>
 		<help lang="en"/>
@@ -186,14 +186,14 @@
 		<dc:comment/>
 		<provider_key/>
 		<options>
-			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/algorithmic-problem-relation/specializes" order="0"/>
-			<option dc:uri="http://example.com/terms/options/algorithmic-problem-relation/is-specialized-by" order="1"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathAlgoDB/specializes" order="0"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathAlgoDB/specializedBy" order="1"/>
 		</options>
 		<conditions/>
 	</optionset>
-	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/algorithmic-problem-relation/specializes">
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathAlgoDB/specializes">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>algorithmic-problem-relation/specializes</uri_path>
+		<uri_path>MathAlgoDB/specializes</uri_path>
 		<dc:comment/>
 		<text lang="en">specializes</text>
 		<help lang="en"/>
@@ -203,9 +203,9 @@
 		<view_text lang="de"/>
 		<additional_input/>
 	</option>
-	<option dc:uri="http://example.com/terms/options/algorithmic-problem-relation/is-specialized-by">
-		<uri_prefix>http://example.com/terms</uri_prefix>
-		<uri_path>algorithmic-problem-relation/is-specialized-by</uri_path>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathAlgoDB/specializedBy">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>MathAlgoDB/specializedBy</uri_path>
 		<dc:comment/>
 		<text lang="en">is specialized by</text>
 		<help lang="en"/>
@@ -229,14 +229,14 @@
 		<dc:comment/>
 		<provider_key/>
 		<options>
-			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/documents" order="0"/>
-			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/uses" order="1"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathAlgoDB/documents" order="0"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathAlgoDB/uses" order="1"/>
 		</options>
 		<conditions/>
 	</optionset>
-	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/documents">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>MathModDB/documents</uri_path>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathAlgoDB/documents">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms/</uri_prefix>
+		<uri_path>MathAlgoDB/documents</uri_path>
 		<dc:comment/>
 		<text lang="en">documents</text>
 		<help lang="en"/>
@@ -246,9 +246,9 @@
 		<view_text lang="de"/>
 		<additional_input/>
 	</option>
-	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/uses">
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathAlgoDB/uses">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>MathModDB/uses</uri_path>
+		<uri_path>MathAlgoDB/uses</uri_path>
 		<dc:comment/>
 		<text lang="en">uses</text>
 		<help lang="en"/>
@@ -413,6 +413,66 @@
 		</options>
 		<conditions/>
 	</optionset>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/documents">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>MathModDB/documents</uri_path>
+		<dc:comment/>
+		<text lang="en">documents</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">dokumentiert</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/invents">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>MathModDB/invents</uri_path>
+		<dc:comment/>
+		<text lang="en">invents</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">erfindet</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/studies">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>MathModDB/studies</uri_path>
+		<dc:comment/>
+		<text lang="en">studies</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">untersucht</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/surveys">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>MathModDB/surveys</uri_path>
+		<dc:comment/>
+		<text lang="en">surveys</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">erhebt</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/uses">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>MathModDB/uses</uri_path>
+		<dc:comment/>
+		<text lang="en">uses</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">nutzt</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
 	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/field">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>field</uri_path>
