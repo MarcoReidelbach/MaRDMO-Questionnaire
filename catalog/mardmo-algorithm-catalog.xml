@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2025-01-28T09:47:54.039751+01:00" version="2.2.1">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2025-01-31T11:42:39.379502+01:00" version="2.2.1">
 	<catalog dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo-algorithm-catalog">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms/</uri_prefix>
 		<uri_path>mardmo-algorithm-catalog</uri_path>
@@ -625,9 +625,9 @@
 		<uri_path>mardmo/algorithm/software/reference</uri_path>
 		<dc:comment/>
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/software/reference"/>
-		<is_collection>False</is_collection>
+		<is_collection>True</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">provided prefixes are: swmath, doi, url</help>
+		<help lang="en">provided prefixes are: swmath, doi</help>
 		<text lang="en">Reference of the Software</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
@@ -637,14 +637,16 @@
 		<verbose_name lang="de"/>
 		<default_option/>
 		<default_external_id/>
-		<widget_type>text</widget_type>
+		<widget_type>checkbox</widget_type>
 		<value_type>text</value_type>
 		<maximum/>
 		<minimum/>
 		<step/>
 		<unit/>
 		<width/>
-		<optionsets/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/software-reference"/>
+		</optionsets>
 		<conditions/>
 	</question>
 	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/algorithm/software/benchmark-relatant">
@@ -806,26 +808,28 @@
 		<uri_path>mardmo/algorithm/benchmark/reference</uri_path>
 		<dc:comment/>
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/benchmark/reference"/>
-		<is_collection>False</is_collection>
+		<is_collection>True</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">provided prefixes are: doi, url</help>
+		<help lang="en">provided prefixes are: doi, morwiki</help>
 		<text lang="en">Reference of the Benchmark</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">verfügbare Präfixe sind: doi, url</help>
+		<help lang="de">verfügbare Präfixe sind: doi, morwiki</help>
 		<text lang="de">Referenz des Benchmarks</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
 		<default_external_id/>
-		<widget_type>text</widget_type>
+		<widget_type>checkbox</widget_type>
 		<value_type>text</value_type>
 		<maximum/>
 		<minimum/>
 		<step/>
 		<unit/>
 		<width/>
-		<optionsets/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/benchmark-reference"/>
+		</optionsets>
 		<conditions/>
 	</question>
 	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/algorithm/benchmark/id">
@@ -885,7 +889,8 @@
 		<verbose_name lang="de"/>
 		<questionsets>
 			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/publication/publication-to-algorithm" order="3"/>
-			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/publication/publication-to-benchmark-or-software" order="4"/>
+			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/publication/publication-to-benchmark" order="4"/>
+			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/publication/publication-to-software" order="5"/>
 		</questionsets>
 		<questions>
 			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/publication/id" order="0"/>
@@ -971,30 +976,30 @@
 		</optionsets>
 		<conditions/>
 	</question>
-	<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/publication/publication-to-benchmark-or-software">
+	<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/publication/publication-to-benchmark">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>mardmo/publication/publication-to-benchmark-or-software</uri_path>
+		<uri_path>mardmo/publication/publication-to-benchmark</uri_path>
 		<dc:comment/>
 		<attribute/>
 		<is_collection>True</is_collection>
-		<title lang="en">Publication - Benchmark / Software Relations</title>
+		<title lang="en">Publication - Benchmark Relations</title>
 		<help lang="en"/>
 		<verbose_name lang="en"/>
-		<title lang="de">Publikation - Benchmark / Software Beziehungen</title>
+		<title lang="de">Publikation - Benchmark Beziehungen</title>
 		<help lang="de"/>
 		<verbose_name lang="de"/>
 		<questionsets/>
 		<questions>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/publication/benchmark-or-software-relation" order="0"/>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/publication/publication/benchmark-or-software-relatant" order="1"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/publication/benchmark-relation" order="0"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/publication/benchmark-relatant" order="1"/>
 		</questions>
 		<conditions/>
 	</questionset>
-	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/publication/benchmark-or-software-relation">
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/publication/benchmark-relation">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms/</uri_prefix>
-		<uri_path>mardmo/publication/benchmark-or-software-relation</uri_path>
+		<uri_path>mardmo/publication/benchmark-relation</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/publication/benchmark-or-software-relation"/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/publication/benchmark-relation"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en"/>
@@ -1019,19 +1024,19 @@
 		</optionsets>
 		<conditions/>
 	</question>
-	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/publication/publication/benchmark-or-software-relatant">
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/publication/benchmark-relatant">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>mardmo/publication/publication/benchmark-or-software-relatant</uri_path>
+		<uri_path>mardmo/publication/benchmark-relatant</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/publication/benchmark-or-software-relatant"/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/publication/benchmark-relatant"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">For all benchmarks or software &quot;label (description) [source]&quot; is provided.</help>
-		<text lang="en">...a Benchmark or Software.</text>
+		<help lang="en">For all benchmarks &quot;label (description) [source]&quot; is provided.</help>
+		<text lang="en">...a Benchmark.</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">Für alle Benchmarks oder Software wird „Name (Beschreibung) [Quelle]“ angegeben.</help>
-		<text lang="de">...einen Benchmark oder Software.</text>
+		<help lang="de">Für alle Benchmarks wird „Name (Beschreibung) [Quelle]“ angegeben.</help>
+		<text lang="de">...einen Benchmark.</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
@@ -1045,6 +1050,82 @@
 		<width/>
 		<optionsets>
 			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/benchmark-relatant"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/publication/publication-to-software">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/publication/publication-to-software</uri_path>
+		<dc:comment/>
+		<attribute/>
+		<is_collection>True</is_collection>
+		<title lang="en">Publication - Software Relations</title>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<title lang="de">Publikation - Software Beziehungen</title>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<questionsets/>
+		<questions>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/publication/software-relation" order="0"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/publication/software-relatant" order="1"/>
+		</questions>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/publication/software-relation">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms/</uri_prefix>
+		<uri_path>mardmo/publication/software-relation</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/publication/software-relation"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en"/>
+		<text lang="en">The Publication...</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Der Algorithmus...</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>select</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/benchmark-or-software-relation"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/publication/software-relatant">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/publication/software-relatant</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/publication/software-relatant"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en">For all software &quot;label (description) [source]&quot; is provided.</help>
+		<text lang="en">...a Software.</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de">Für alle Software wird „Name (Beschreibung) [Quelle]“ angegeben.</help>
+		<text lang="de">...eine Software.</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>autocomplete</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
 			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/software-relatant"/>
 		</optionsets>
 		<conditions/>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2025-01-30T11:30:10.802927+01:00" version="2.2.1">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2025-01-31T11:42:02.854910+01:00" version="2.2.1">
 	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/algorithm">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>algorithm</uri_path>
@@ -257,6 +257,41 @@
 		<help lang="de"/>
 		<view_text lang="de"/>
 		<additional_input/>
+	</option>
+	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/benchmark-reference">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>benchmark-reference</uri_path>
+		<dc:comment/>
+		<provider_key/>
+		<options>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/morwiki" order="1"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/doi" order="2"/>
+		</options>
+		<conditions/>
+	</optionset>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/morwiki">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>morwiki</uri_path>
+		<dc:comment/>
+		<text lang="en">morwiki</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">morwiki</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input>text</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/doi">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>doi</uri_path>
+		<dc:comment/>
+		<text lang="en">doi</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">doi</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input>text</additional_input>
 	</option>
 	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/benchmark-relatant">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
@@ -1483,26 +1518,14 @@
 		<dc:comment/>
 		<provider_key/>
 		<options>
-			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/publication-reference/doi" order="0"/>
-			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/publication-reference/url" order="1"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/doi" order="0"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/url" order="1"/>
 		</options>
 		<conditions/>
 	</optionset>
-	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/publication-reference/doi">
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/url">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>publication-reference/doi</uri_path>
-		<dc:comment/>
-		<text lang="en">doi</text>
-		<help lang="en"/>
-		<view_text lang="en"/>
-		<text lang="de">doi</text>
-		<help lang="de"/>
-		<view_text lang="de"/>
-		<additional_input>text</additional_input>
-	</option>
-	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/publication-reference/url">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>publication-reference/url</uri_path>
+		<uri_path>url</uri_path>
 		<dc:comment/>
 		<text lang="en">url</text>
 		<help lang="en"/>
@@ -1639,13 +1662,13 @@
 		<dc:comment/>
 		<provider_key/>
 		<options>
-			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/quantity-reference/qudt" order="1"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/qudt" order="1"/>
 		</options>
 		<conditions/>
 	</optionset>
-	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/quantity-reference/qudt">
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/qudt">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>quantity-reference/qudt</uri_path>
+		<uri_path>qudt</uri_path>
 		<dc:comment/>
 		<text lang="en">qudt</text>
 		<help lang="en"/>
@@ -1834,6 +1857,29 @@
 		<options/>
 		<conditions/>
 	</optionset>
+	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/software-reference">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>software-reference</uri_path>
+		<dc:comment/>
+		<provider_key/>
+		<options>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/swmath" order="0"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/doi" order="1"/>
+		</options>
+		<conditions/>
+	</optionset>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/swmath">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>swmath</uri_path>
+		<dc:comment/>
+		<text lang="en">swmath</text>
+		<help lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">swmath</text>
+		<help lang="de"/>
+		<view_text lang="de"/>
+		<additional_input>text</additional_input>
+	</option>
 	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/software-relatant">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>software-relatant</uri_path>
