@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2025-01-31T11:42:39.379502+01:00" version="2.2.1">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2025-02-07T14:38:56.793933+01:00" version="2.2.1">
 	<catalog dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo-algorithm-catalog">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms/</uri_prefix>
 		<uri_path>mardmo-algorithm-catalog</uri_path>
@@ -627,11 +627,11 @@
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/software/reference"/>
 		<is_collection>True</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">provided prefixes are: swmath, doi</help>
+		<help lang="en"/>
 		<text lang="en">Reference of the Software</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">verfügbare Präfixe sind: swmath, doi, url</help>
+		<help lang="de"/>
 		<text lang="de">Referenz der Software</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
