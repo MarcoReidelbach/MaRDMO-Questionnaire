@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2025-01-24T21:51:31.278979+01:00" version="2.2.1">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2025-02-12T14:50:26.313904+01:00" version="2.2.1">
 	<catalog dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo-interdisciplinary-workflow-catalog">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mardmo-interdisciplinary-workflow-catalog</uri_path>
@@ -281,7 +281,7 @@
 		<short_title lang="de"/>
 		<pages>
 			<page dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/process-information/process-step" order="0"/>
-			<page dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/proces-information/main-algorithm" order="1"/>
+			<page dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/proces-information/method" order="1"/>
 			<page dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/process-information/software" order="2"/>
 			<page dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/process-information/hardware" order="3"/>
 			<page dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/process-information/instrument" order="4"/>
@@ -302,50 +302,40 @@
 		<short_title lang="de"/>
 		<help lang="de">Beschreiben Sie im folgenden die Prozessschritte des Workflows. Jeder Prozessschritt ein separater Eintrag.</help>
 		<verbose_name lang="de"/>
-		<questionsets/>
+		<questionsets>
+			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/process-information/process-step/info" order="1"/>
+		</questionsets>
 		<questions>
 			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/process-information/process-step/id" order="0"/>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/process-information/process-step/name" order="1"/>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/process-information/process-step/description" order="2"/>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/process-information/process-step/input" order="3"/>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/process-information/process-step/output" order="4"/>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/process-information/process-step/algorithm" order="5"/>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/process-information/process-step/parameter" order="6"/>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/process-information/process-step/environment-software" order="7"/>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/process-information/process-step/environment-instrument" order="8"/>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/process-information/process-step/discipline" order="9"/>
 		</questions>
 		<conditions/>
 	</page>
-	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/process-information/process-step/id">
+	<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/process-information/process-step/info">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>mardmo/process-information/process-step/id</uri_path>
+		<uri_path>mardmo/process-information/process-step/info</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/process-step/id"/>
+		<attribute/>
 		<is_collection>False</is_collection>
-		<is_optional>False</is_optional>
-		<help lang="en">For all process steps &quot;label (description) [source]&quot; is provided. If no appropriate process step is present in the MaRDI Portal or Wikidata, choose 'not found'.</help>
-		<text lang="en">Select a Process Step!</text>
-		<default_text lang="en"/>
+		<title lang="en">Process Stepp Information</title>
+		<help lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">Für alle Prozessschritte wird „Name (Beschreibung) [Quelle]“ angegeben. Falls kein passender Prozessschritt im MaRDI Portal oder Wikidata vorhanden ist, wählen Sie „not found“.</help>
-		<text lang="de">Wählen Sie einen Prozessschritt aus!</text>
-		<default_text lang="de"/>
+		<title lang="de">Prozessschritt Information</title>
+		<help lang="de"/>
 		<verbose_name lang="de"/>
-		<default_option/>
-		<default_external_id/>
-		<widget_type>autocomplete</widget_type>
-		<value_type>text</value_type>
-		<maximum/>
-		<minimum/>
-		<step/>
-		<unit/>
-		<width/>
-		<optionsets>
-			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/process-step"/>
-		</optionsets>
+		<questionsets/>
+		<questions>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/process-information/process-step/name" order="0"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/process-information/process-step/description" order="1"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/process-information/process-step/input" order="2"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/process-information/process-step/output" order="3"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/process-information/process-step/algorithm" order="4"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/process-information/process-step/parameter" order="5"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/process-information/process-step/environment-software" order="6"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/process-information/process-step/environment-instrument" order="7"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/process-information/process-step/discipline" order="8"/>
+		</questions>
 		<conditions/>
-	</question>
+	</questionset>
 	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/process-information/process-step/name">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mardmo/process-information/process-step/name</uri_path>
@@ -407,11 +397,11 @@
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/process-step/input/id"/>
 		<is_collection>True</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en"/>
+		<help lang="en">For all input data sets &quot;label (description) [source]&quot; is provided.</help>
 		<text lang="en">Input of the Process Step</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de"/>
+		<help lang="de">Für alle Input Datensätze wird „Name (Beschreibung) [Quelle]“ angegeben.</help>
 		<text lang="de">Input des Prozessschrittes</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -436,11 +426,11 @@
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/process-step/output/id"/>
 		<is_collection>True</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en"/>
+		<help lang="en">For all output data sets &quot;label (description) [source]&quot; is provided.</help>
 		<text lang="en">Output of the Process Step</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de"/>
+		<help lang="de">Für alle Output Datensätze wird „Name (Beschreibung) [Quelle]“ angegeben.</help>
 		<text lang="de">Output des Prozessschrittes</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -462,15 +452,15 @@
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mardmo/process-information/process-step/algorithm</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/process-step/algorithm/id"/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/process-step/method/id"/>
 		<is_collection>True</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en"/>
-		<text lang="en">Algorithms applied in Process Step</text>
+		<help lang="en">For all methods &quot;label (description) [source]&quot; is provided. For computational methods, select entries from the MathAlgoDB Knowledge Graph; for experimental approaches, use entries from the MaRDI Portal or Wikidata.</help>
+		<text lang="en">Methods applied in the Process Step</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de"/>
-		<text lang="de">Algorithmen, die im Prozessschritt verwendet werden</text>
+		<help lang="de">Für alle Methoden wird „Name (Beschreibung) [Quelle]“ angegeben. Für computergestützte Methoden wählen Sie Einträge aus dem MathAlgoDB Knowledge Graph; für experimentelle Ansätze nutzen Sie Einträge aus dem MaRDI-Portal oder Wikidata.</help>
+		<text lang="de">Methoden, die im Prozessschritt verwendet werden</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
@@ -483,7 +473,7 @@
 		<unit/>
 		<width/>
 		<optionsets>
-			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/main-algorithm"/>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/related-method"/>
 		</optionsets>
 		<conditions/>
 	</question>
@@ -521,11 +511,11 @@
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/process-step/environment-software/id"/>
 		<is_collection>True</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en"/>
+		<help lang="en">For all software environments &quot;label (description) [source]&quot; is provided.</help>
 		<text lang="en">Software Environment of the Process Step</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de"/>
+		<help lang="de">Für alle Software Umgebungen wird „Name (Beschreibung) [Quelle]“ angegeben.</help>
 		<text lang="de">Software-Umgebung des Prozessschrittes</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -550,11 +540,11 @@
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/process-step/environment-instrument/id"/>
 		<is_collection>True</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en"/>
+		<help lang="en">For all instrument environments &quot;label (description) [source]&quot; is provided.</help>
 		<text lang="en">Instrument Environment of the Process Step</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de"/>
+		<help lang="de">Für alle Instrument-Umgebungen wird „Name (Beschreibung) [Quelle]“ angegeben.</help>
 		<text lang="de">Instrument-Umgebung des Prozessschrittes</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -579,11 +569,11 @@
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/process-step/discipline/id"/>
 		<is_collection>True</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">Use MaRDI Portal or Wikidata entries for the non-mathematical disciplines and Mathematical Subject Classification (MSC) entries for the mathematical areas.</help>
+		<help lang="en">Use MaRDI Portal or Wikidata entries for the non-mathematical disciplines and Mathematical Subject Classification (MSC) entries for the mathematical areas. For all MaRDI Portal and Wikidata entries &quot;label (description) [source]&quot; is provided. For MSC entries &quot;label (MSC ID) [source]&quot; is provided.</help>
 		<text lang="en">Mathematical Area or Non-Mathematical Discipline related to the Process Step</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">Verwenden Sie Einträge vom MaRDI-Portal oder Wikidata für die nicht-mathematischen Disziplinen und Einträge der Mathematical Subject Classification (MSC)  für die mathematischen Bereiche.</help>
+		<help lang="de">Verwenden Sie Einträge vom MaRDI-Portal oder Wikidata für die nicht-mathematischen Disziplinen und Einträge der Mathematical Subject Classification (MSC)  für die mathematischen Bereiche. Für alle Einträge vom MaRDI Portal oder Wikidata wird &quot;Name (Beschreibungen) [Quelle]&quot; angegeben. Für allem Einträge der MSC wird &quot;Name (MSC ID) [Quelle]&quot; angegeben.</help>
 		<text lang="de">Mathematischer Bereich oder nicht-mathematische Diszipline, die mit dem Prozessschritt im Zusammenhang steht.</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -601,41 +591,19 @@
 		</optionsets>
 		<conditions/>
 	</question>
-	<page dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/proces-information/main-algorithm">
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/process-information/process-step/id">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>mardmo/proces-information/main-algorithm</uri_path>
+		<uri_path>mardmo/process-information/process-step/id</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/main-algorithm"/>
-		<is_collection>True</is_collection>
-		<title lang="en">Algorithms</title>
-		<short_title lang="en"/>
-		<help lang="en">Describe the algorithms applied in the workflow. Separate entry for each algorithm.</help>
-		<verbose_name lang="en"/>
-		<title lang="de">Algorithmen</title>
-		<short_title lang="de"/>
-		<help lang="de">Beschreiben Sie im folgenden die verwendeten Algorithmen des Workflows. Jeder Algorithmus ein separater Eintrag.</help>
-		<verbose_name lang="de"/>
-		<questionsets/>
-		<questions>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/process-information/main-algorithm/id" order="0"/>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/process-information/main-algorithm/parameter" order="1"/>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/process-information/main-algorithm/software" order="2"/>
-		</questions>
-		<conditions/>
-	</page>
-	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/process-information/main-algorithm/id">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>mardmo/process-information/main-algorithm/id</uri_path>
-		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/main-algorithm/id"/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/process-step/id"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">For all algorithms &quot;label (description) [source]&quot; is provided. If no appropriate algorithm is present in the MathAlgoDB Knowledge Graph, choose 'not found'.</help>
-		<text lang="en">Select an Algorithm!</text>
+		<help lang="en">For all process steps &quot;label (description) [source]&quot; is provided. If a process step is chosen, WAIT until further information are added to the questionnaire. If no appropriate process step is present in the MaRDI Portal or Wikidata, choose 'not found'.</help>
+		<text lang="en">Select a Process Step!</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">Für alle Algorithmen wird „Name (Beschreibung) [Quelle]“ angegeben. Falls kein passender Algorithmus im MathAlgoDB Knowledge Graph vorhanden ist, wählen Sie „not found“.</help>
-		<text lang="de">Wählen Sie einen Algorithmus aus!</text>
+		<help lang="de">Für alle Prozessschritte wird „Name (Beschreibung) [Quelle]“ angegeben. Wenn ein Prozessschritt ausgewählt wird, WARTEN Sie, bis weitere Informationen zum Fragebogen hinzugefügt werden. Falls kein passender Prozessschritt im MaRDI-Portal oder Wikidata vorhanden ist, wählen Sie „not found“.</help>
+		<text lang="de">Wählen Sie einen Prozessschritt aus!</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
@@ -648,23 +616,74 @@
 		<unit/>
 		<width/>
 		<optionsets>
-			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/main-algorithm"/>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/process-step"/>
 		</optionsets>
 		<conditions/>
 	</question>
-	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/process-information/main-algorithm/parameter">
+	<page dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/proces-information/method">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>mardmo/process-information/main-algorithm/parameter</uri_path>
+		<uri_path>mardmo/proces-information/method</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/main-algorithm/parameter"/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/method"/>
+		<is_collection>True</is_collection>
+		<title lang="en">Methods</title>
+		<short_title lang="en"/>
+		<help lang="en">Describe the methods applied in the workflow. Separate entry for each method.</help>
+		<verbose_name lang="en"/>
+		<title lang="de">Methoden</title>
+		<short_title lang="de"/>
+		<help lang="de">Beschreiben Sie im folgenden die verwendeten Methoden des Workflows. Jede Methode ein separater Eintrag.</help>
+		<verbose_name lang="de"/>
+		<questionsets/>
+		<questions>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/process-information/method/id" order="0"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/process-information/method/parameter" order="1"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/process-information/main-algorithm/software" order="2"/>
+		</questions>
+		<conditions/>
+	</page>
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/process-information/method/id">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/process-information/method/id</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/method/id"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en">For all methods &quot;label (description) [source]&quot; is provided. If no appropriate method is present in the MathAlgoDB Knowledge Graph, choose 'not found'.</help>
+		<text lang="en">Select a Method!</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de">Für alle Methoden wird „Name (Beschreibung) [Quelle]“ angegeben. Falls keine passende Methode im MathAlgoDB Knowledge Graph vorhanden ist, wählen Sie „not found“.</help>
+		<text lang="de">Wählen Sie eine Methode aus!</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>autocomplete</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/method"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/process-information/method/parameter">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/process-information/method/parameter</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/method/parameter"/>
 		<is_collection>True</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en"/>
-		<text lang="en">Relevant Parameter of the Algorithm.</text>
+		<text lang="en">Relevant Parameter of the Method.</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de"/>
-		<text lang="de">Relevante Parameter des Algorithmus</text>
+		<text lang="de">Relevante Parameter der Methode</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
@@ -683,7 +702,7 @@
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mardmo/process-information/main-algorithm/software</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/main-algorithm/software/id"/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/method/software/id"/>
 		<is_collection>True</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en">For all items &quot;label (description) [source]&quot; is provided.</help>

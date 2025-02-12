@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2025-02-07T14:38:13.065818+01:00" version="2.2.1">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2025-02-12T14:49:54.676761+01:00" version="2.2.1">
 	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/algorithm">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>algorithm</uri_path>
@@ -1220,14 +1220,6 @@
 		<view_text lang="de"/>
 		<additional_input/>
 	</option>
-	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/main-algorithm">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>main-algorithm</uri_path>
-		<dc:comment/>
-		<provider_key>MainAlgorithm</provider_key>
-		<options/>
-		<conditions/>
-	</optionset>
 	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/main-model">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>main-model</uri_path>
@@ -1249,6 +1241,14 @@
 		<uri_path>mardi-search</uri_path>
 		<dc:comment/>
 		<provider_key>MaRDISearch</provider_key>
+		<options/>
+		<conditions/>
+	</optionset>
+	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/method">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>method</uri_path>
+		<dc:comment/>
+		<provider_key>Method</provider_key>
 		<options/>
 		<conditions/>
 	</optionset>
@@ -1791,6 +1791,14 @@
 		<uri_path>related-instrument</uri_path>
 		<dc:comment/>
 		<provider_key>RelatedInstrument</provider_key>
+		<options/>
+		<conditions/>
+	</optionset>
+	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/related-method">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms/</uri_prefix>
+		<uri_path>related-method</uri_path>
+		<dc:comment/>
+		<provider_key>RelatedMethod</provider_key>
 		<options/>
 		<conditions/>
 	</optionset>
