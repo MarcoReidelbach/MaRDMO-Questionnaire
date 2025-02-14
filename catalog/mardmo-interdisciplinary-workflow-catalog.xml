@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2025-02-14T12:40:37.682965+01:00" version="2.2.1">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2025-02-14T20:41:42.581001+01:00" version="2.2.1">
 	<catalog dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo-interdisciplinary-workflow-catalog">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mardmo-interdisciplinary-workflow-catalog</uri_path>
@@ -1140,55 +1140,45 @@
 		<dc:comment/>
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/hardware"/>
 		<is_collection>True</is_collection>
-		<title lang="en">Hardware</title>
+		<title lang="en">Computer-Hardware</title>
 		<short_title lang="en"/>
 		<help lang="en">Describe the computational hardware applied in the workflow. Separate entry for each hardware.</help>
 		<verbose_name lang="en"/>
-		<title lang="de">Hardware</title>
+		<title lang="de">Computer-Hardware</title>
 		<short_title lang="de"/>
 		<help lang="de">Beschreiben Sie im folgenden die Computer-Hardware des Workflows. Jede Hardware ein separater Eintrag.</help>
 		<verbose_name lang="de"/>
-		<questionsets/>
+		<questionsets>
+			<questionset dc:uri="http://example.com/terms/questions/mardmo/process-information/hardware/info" order="1"/>
+		</questionsets>
 		<questions>
 			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/process-information/hardware/id" order="0"/>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/process-information/hardware/name" order="1"/>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/process-information/hardware/description" order="2"/>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/process-information/hardware/cpu" order="3"/>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/process-information/hardware/compiler" order="5"/>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/process-information/hardware/nodes" order="6"/>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/process-information/hardware/core" order="7"/>
 		</questions>
 		<conditions/>
 	</page>
-	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/process-information/hardware/id">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>mardmo/process-information/hardware/id</uri_path>
+	<questionset dc:uri="http://example.com/terms/questions/mardmo/process-information/hardware/info">
+		<uri_prefix>http://example.com/terms</uri_prefix>
+		<uri_path>mardmo/process-information/hardware/info</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/hardware/id"/>
+		<attribute/>
 		<is_collection>False</is_collection>
-		<is_optional>False</is_optional>
-		<help lang="en">For all hardwares &quot;label (description) [source]&quot; is provided. If a hardware is chosen, WAIT until further information are added to the questionnaire. If no appropriate hardware is present in the MaRDI Portal or Wikidata, choose 'not found'.</help>
-		<text lang="en">Select a Computer-Hardware!</text>
-		<default_text lang="en"/>
+		<title lang="en">Computer-Hardware Information</title>
+		<help lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">Für alle Hardwares wird „Name (Beschreibung) [Quelle]“ angegeben. Wenn eine Hardware ausgewählt wird, WARTEN Sie, bis weitere Informationen zum Fragebogen hinzugefügt werden. Falls keine passende Hardware im MaRDI-Portal oder Wikidata vorhanden ist, wählen Sie „not found“.</help>
-		<text lang="de">Wählen Sie eine Computer-Hardware aus!</text>
-		<default_text lang="de"/>
+		<title lang="de">Computer-Hardware Information</title>
+		<help lang="de"/>
 		<verbose_name lang="de"/>
-		<default_option/>
-		<default_external_id/>
-		<widget_type>autocomplete</widget_type>
-		<value_type>text</value_type>
-		<maximum/>
-		<minimum/>
-		<step/>
-		<unit/>
-		<width/>
-		<optionsets>
-			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/hardware"/>
-		</optionsets>
+		<questionsets/>
+		<questions>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/process-information/hardware/name" order="0"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/process-information/hardware/description" order="1"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/process-information/hardware/cpu" order="2"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/process-information/hardware/compiler" order="3"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/process-information/hardware/nodes" order="4"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/process-information/hardware/core" order="5"/>
+		</questions>
 		<conditions/>
-	</question>
+	</questionset>
 	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/process-information/hardware/name">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mardmo/process-information/hardware/name</uri_path>
@@ -1336,7 +1326,7 @@
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en"/>
-		<text lang="en">State the Number of Cores of the Hardware</text>
+		<text lang="en">State the Number of Cores of the Computer-Hardware</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de"/>
@@ -1353,6 +1343,35 @@
 		<unit/>
 		<width/>
 		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/process-information/hardware/id">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/process-information/hardware/id</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/hardware/id"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en">For all hardwares &quot;label (description) [source]&quot; is provided. If a hardware is chosen, WAIT until further information are added to the questionnaire. If no appropriate hardware is present in the MaRDI Portal or Wikidata, choose 'not found'.</help>
+		<text lang="en">Select a Computer-Hardware!</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de">Für alle Hardwares wird „Name (Beschreibung) [Quelle]“ angegeben. Wenn eine Hardware ausgewählt wird, WARTEN Sie, bis weitere Informationen zum Fragebogen hinzugefügt werden. Falls keine passende Hardware im MaRDI-Portal oder Wikidata vorhanden ist, wählen Sie „not found“.</help>
+		<text lang="de">Wählen Sie eine Computer-Hardware aus!</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>autocomplete</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/hardware"/>
+		</optionsets>
 		<conditions/>
 	</question>
 	<page dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/process-information/instrument">
