@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2025-02-14T20:41:42.581001+01:00" version="2.2.1">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2025-02-17T08:36:18.534592+01:00" version="2.2.1">
 	<catalog dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo-interdisciplinary-workflow-catalog">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mardmo-interdisciplinary-workflow-catalog</uri_path>
@@ -1388,50 +1388,38 @@
 		<short_title lang="de"/>
 		<help lang="de">Beschreiben Sie im folgenden die Geräte des Workflows. Jedes Gerät ein separater Eintrag.</help>
 		<verbose_name lang="de"/>
-		<questionsets/>
+		<questionsets>
+			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/process-information/instrument/info" order="1"/>
+		</questionsets>
 		<questions>
 			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/process-information/instrument/id" order="0"/>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/process-information/instrument/name" order="1"/>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/process-information/instrument/description" order="2"/>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/process-information/instrument/version" order="3"/>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/process-information/instrument/part-number" order="4"/>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/process-information/instrument/serial-number" order="5"/>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/process-information/instrument/location" order="6"/>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/process-information/instrument/software" order="7"/>
 		</questions>
 		<conditions/>
 	</page>
-	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/process-information/instrument/id">
+	<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/process-information/instrument/info">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>mardmo/process-information/instrument/id</uri_path>
+		<uri_path>mardmo/process-information/instrument/info</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/instrument/id"/>
+		<attribute/>
 		<is_collection>False</is_collection>
-		<is_optional>False</is_optional>
-		<help lang="en">For all instruments &quot;label (description) [source]&quot; is provided. If an instrument is chosen, WAIT until further information are added to the questionnaire. If no appropriate instrument is present in the MaRDI Portal or Wikidata, choose 'not found'.
-
-Für alle Instrumente wird „Name (Beschreibung) [Quelle]“ angegeben. Wenn ein Instrument ausgewählt wird, WARTEN Sie, bis weitere Informationen zum Fragebogen hinzugefügt werden. Falls kein passendes Instrument im MaRDI-Portal oder Wikidata vorhanden ist, wählen Sie „not found“.</help>
-		<text lang="en">Select an Instrument!</text>
-		<default_text lang="en"/>
+		<title lang="en">Instrument Information</title>
+		<help lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">Für alle Instrumente wird „Name (Beschreibung) [Quelle]“ angegeben. Wenn ein Instrument ausgewählt wird, WARTEN Sie, bis weitere Informationen zum Fragebogen hinzugefügt werden. Falls kein passendes Instrument im MaRDI-Portal oder Wikidata vorhanden ist, wählen Sie „not found“.</help>
-		<text lang="de">Wählen Sie ein Gerät aus!</text>
-		<default_text lang="de"/>
+		<title lang="de">Instrument Information</title>
+		<help lang="de"/>
 		<verbose_name lang="de"/>
-		<default_option/>
-		<default_external_id/>
-		<widget_type>autocomplete</widget_type>
-		<value_type>text</value_type>
-		<maximum/>
-		<minimum/>
-		<step/>
-		<unit/>
-		<width/>
-		<optionsets>
-			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/instrument"/>
-		</optionsets>
+		<questionsets/>
+		<questions>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/process-information/instrument/name" order="0"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/process-information/instrument/description" order="1"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/process-information/instrument/version" order="2"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/process-information/instrument/part-number" order="3"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/process-information/instrument/serial-number" order="4"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/process-information/instrument/location" order="5"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/process-information/instrument/software" order="6"/>
+		</questions>
 		<conditions/>
-	</question>
+	</questionset>
 	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/process-information/instrument/name">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mardmo/process-information/instrument/name</uri_path>
@@ -1622,6 +1610,37 @@ Für alle Instrumente wird „Name (Beschreibung) [Quelle]“ angegeben. Wenn ei
 		<width/>
 		<optionsets>
 			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/related-software"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/process-information/instrument/id">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/process-information/instrument/id</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/instrument/id"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en">For all instruments &quot;label (description) [source]&quot; is provided. If an instrument is chosen, WAIT until further information are added to the questionnaire. If no appropriate instrument is present in the MaRDI Portal or Wikidata, choose 'not found'.
+
+Für alle Instrumente wird „Name (Beschreibung) [Quelle]“ angegeben. Wenn ein Instrument ausgewählt wird, WARTEN Sie, bis weitere Informationen zum Fragebogen hinzugefügt werden. Falls kein passendes Instrument im MaRDI-Portal oder Wikidata vorhanden ist, wählen Sie „not found“.</help>
+		<text lang="en">Select an Instrument!</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de">Für alle Instrumente wird „Name (Beschreibung) [Quelle]“ angegeben. Wenn ein Instrument ausgewählt wird, WARTEN Sie, bis weitere Informationen zum Fragebogen hinzugefügt werden. Falls kein passendes Instrument im MaRDI-Portal oder Wikidata vorhanden ist, wählen Sie „not found“.</help>
+		<text lang="de">Wählen Sie ein Gerät aus!</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>autocomplete</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/instrument"/>
 		</optionsets>
 		<conditions/>
 	</question>
