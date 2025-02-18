@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2025-02-17T08:36:18.534592+01:00" version="2.2.1">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2025-02-18T13:19:29.493029+01:00" version="2.2.1">
 	<catalog dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo-interdisciplinary-workflow-catalog">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mardmo-interdisciplinary-workflow-catalog</uri_path>
@@ -1658,51 +1658,41 @@ Für alle Instrumente wird „Name (Beschreibung) [Quelle]“ angegeben. Wenn ei
 		<short_title lang="de"/>
 		<help lang="de">Beschreiben Sie im folgenden die Datensätze des Workflows. Jeder Datensatz ein separater Eintrag.</help>
 		<verbose_name lang="de"/>
-		<questionsets/>
+		<questionsets>
+			<questionset dc:uri="http://example.com/terms/questions/mardmo/process-information/data-set/info" order="1"/>
+		</questionsets>
 		<questions>
 			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/process-information/data-set/id" order="0"/>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/process-information/data-set/name" order="1"/>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/process-information/data-set/description" order="2"/>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/process-information/data-set/size" order="4"/>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/process-information/data-set/data-type" order="5"/>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/process-information/data-set/representation-format" order="6"/>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/process-information/data-set/file-format" order="7"/>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/process-information/data-set/binary-or-text" order="8"/>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/process-information/data-set/proprietary" order="9"/>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/process-information/data-set/to-publish" order="10"/>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/process-information/data-set/to-archive" order="11"/>
 		</questions>
 		<conditions/>
 	</page>
-	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/process-information/data-set/id">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>mardmo/process-information/data-set/id</uri_path>
+	<questionset dc:uri="http://example.com/terms/questions/mardmo/process-information/data-set/info">
+		<uri_prefix>http://example.com/terms</uri_prefix>
+		<uri_path>mardmo/process-information/data-set/info</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/data-set/id"/>
+		<attribute/>
 		<is_collection>False</is_collection>
-		<is_optional>False</is_optional>
-		<help lang="en">For all data sets &quot;label (description) [source]&quot; is provided. If a data set is chosen, WAIT until further information are added to the questionnaire. If no appropriate data set is present in the MaRDI Portal or Wikidata, choose 'not found'.</help>
-		<text lang="en">Select a Data Set!</text>
-		<default_text lang="en"/>
+		<title lang="en">Data Set Information</title>
+		<help lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">Für alle Datensätze wird „Name (Beschreibung) [Quelle]“ angegeben. Wenn ein Datensatz ausgewählt wird, WARTEN Sie, bis weitere Informationen zum Fragebogen hinzugefügt werden. Falls kein passender Datensatz im MaRDI-Portal oder Wikidata vorhanden ist, wählen Sie „not found“.</help>
-		<text lang="de">Wählen Sie einen Datensatz aus!</text>
-		<default_text lang="de"/>
+		<title lang="de">Datensatz Information</title>
+		<help lang="de"/>
 		<verbose_name lang="de"/>
-		<default_option/>
-		<default_external_id/>
-		<widget_type>autocomplete</widget_type>
-		<value_type>text</value_type>
-		<maximum/>
-		<minimum/>
-		<step/>
-		<unit/>
-		<width/>
-		<optionsets>
-			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/data-set"/>
-		</optionsets>
+		<questionsets/>
+		<questions>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/process-information/data-set/name" order="0"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/process-information/data-set/description" order="1"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/process-information/data-set/size" order="2"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/process-information/data-set/data-type" order="3"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/process-information/data-set/representation-format" order="4"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/process-information/data-set/file-format" order="5"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/process-information/data-set/binary-or-text" order="6"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/process-information/data-set/proprietary" order="7"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/process-information/data-set/to-publish" order="8"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/process-information/data-set/to-archive" order="9"/>
+		</questions>
 		<conditions/>
-	</question>
+	</questionset>
 	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/process-information/data-set/name">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mardmo/process-information/data-set/name</uri_path>
@@ -1934,19 +1924,19 @@ Für alle Instrumente wird „Name (Beschreibung) [Quelle]“ angegeben. Wenn ei
 		<uri_path>mardmo/process-information/data-set/to-publish</uri_path>
 		<dc:comment/>
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/data-set/to-publish"/>
-		<is_collection>False</is_collection>
+		<is_collection>True</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">If already published, provide the 'doi:' or 'url' of the data set.</help>
+		<help lang="en">Select 'Yes' if the dataset is published or needs to be published in the future. If already published, also provide the DOI and / or URL where it can be accessed. Select 'No' if no publication is necessary.</help>
 		<text lang="en">Publication of the Data Set necessary?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">Falls bereits publiziert, geben Sie die 'doi:' oder 'url:' des Datensatzes an.</help>
+		<help lang="de">Wählen Sie 'Ja', wenn der Datensatz bereits veröffentlicht wurde oder in Zukunft veröffentlicht werden muss. Falls er bereits veröffentlicht wurde, geben Sie zudem die DOI und/oder die URL an, unter der er abgerufen werden kann. Wählen Sie 'Nein', wenn keine Veröffentlichung erforderlich ist.</help>
 		<text lang="de">Veröffentlichung des Datensatzes notwendig?</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
 		<default_external_id/>
-		<widget_type>radio</widget_type>
+		<widget_type>checkbox</widget_type>
 		<value_type>text</value_type>
 		<maximum/>
 		<minimum/>
@@ -1954,7 +1944,7 @@ Für alle Instrumente wird „Name (Beschreibung) [Quelle]“ angegeben. Wenn ei
 		<unit/>
 		<width/>
 		<optionsets>
-			<optionset dc:uri="https://rdmorganiser.github.io/terms/options/yes_with_text_no"/>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/to-publish"/>
 		</optionsets>
 		<conditions/>
 	</question>
@@ -1984,6 +1974,35 @@ Für alle Instrumente wird „Name (Beschreibung) [Quelle]“ angegeben. Wenn ei
 		<width/>
 		<optionsets>
 			<optionset dc:uri="https://rdmorganiser.github.io/terms/options/yes_with_text_no"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/process-information/data-set/id">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/process-information/data-set/id</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/data-set/id"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en">For all data sets &quot;label (description) [source]&quot; is provided. If a data set is chosen, WAIT until further information are added to the questionnaire. If no appropriate data set is present in the MaRDI Portal or Wikidata, choose 'not found'.</help>
+		<text lang="en">Select a Data Set!</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de">Für alle Datensätze wird „Name (Beschreibung) [Quelle]“ angegeben. Wenn ein Datensatz ausgewählt wird, WARTEN Sie, bis weitere Informationen zum Fragebogen hinzugefügt werden. Falls kein passender Datensatz im MaRDI-Portal oder Wikidata vorhanden ist, wählen Sie „not found“.</help>
+		<text lang="de">Wählen Sie einen Datensatz aus!</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>autocomplete</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/data-set"/>
 		</optionsets>
 		<conditions/>
 	</question>
