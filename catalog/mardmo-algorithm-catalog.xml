@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2025-02-07T14:38:56.793933+01:00" version="2.2.1">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2025-03-24T15:28:57.151206+01:00" version="2.2.1">
 	<catalog dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo-algorithm-catalog">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms/</uri_prefix>
 		<uri_path>mardmo-algorithm-catalog</uri_path>
@@ -24,7 +24,7 @@
 		<short_title lang="de"/>
 		<pages>
 			<page dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/algorithm/algorithm" order="1"/>
-			<page dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/algorithm/algorithmic-problem" order="2"/>
+			<page dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/algorithm/problem" order="2"/>
 			<page dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/algorithm/software" order="3"/>
 			<page dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/algorithm/benchmark" order="4"/>
 		</pages>
@@ -131,7 +131,7 @@
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mardmo/algorithm/algorithm/algorithmic-problem-relatant</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/algorithm/algorithmic-problem-relatant"/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/algorithm/problem-relatant"/>
 		<is_collection>True</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en">For all algorithms &quot;label (description) [source]&quot; is provided.</help>
@@ -291,11 +291,11 @@
 		</optionsets>
 		<conditions/>
 	</question>
-	<page dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/algorithm/algorithmic-problem">
+	<page dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/algorithm/problem">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>mardmo/algorithm/algorithmic-problem</uri_path>
+		<uri_path>mardmo/algorithm/problem</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/algorithmic-problem"/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/problem"/>
 		<is_collection>True</is_collection>
 		<title lang="en">Algorithmic Problem</title>
 		<short_title lang="en"/>
@@ -306,17 +306,17 @@
 		<help lang="de">Wählen, definieren und verknüpfen Sie algorithmische Probleme.</help>
 		<verbose_name lang="de"/>
 		<questionsets>
-			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/algorithm/algorithmic-problem/information" order="1"/>
-			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/algorithm/algorithmic-problem/algorithmic-problem-to-algorithmic-problem" order="2"/>
+			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/algorithm/problem/information" order="1"/>
+			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/algorithm/problem/problem-to-problem" order="2"/>
 		</questionsets>
 		<questions>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/algorithm/algorithmic-problem/id" order="0"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/algorithm/problem/id" order="0"/>
 		</questions>
 		<conditions/>
 	</page>
-	<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/algorithm/algorithmic-problem/information">
+	<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/algorithm/problem/information">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>mardmo/algorithm/algorithmic-problem/information</uri_path>
+		<uri_path>mardmo/algorithm/problem/information</uri_path>
 		<dc:comment/>
 		<attribute/>
 		<is_collection>False</is_collection>
@@ -328,17 +328,17 @@
 		<verbose_name lang="de"/>
 		<questionsets/>
 		<questions>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/algorithm/algorithmic-problem/name" order="1"/>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/algorithm/algorithmic-problem/description" order="2"/>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/algorithm/algorithmic-problem/benchmark-relatant" order="3"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/algorithm/problem/name" order="1"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/algorithm/problem/description" order="2"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/algorithm/problem/benchmark-relatant" order="3"/>
 		</questions>
 		<conditions/>
 	</questionset>
-	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/algorithm/algorithmic-problem/name">
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/algorithm/problem/name">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>mardmo/algorithm/algorithmic-problem/name</uri_path>
+		<uri_path>mardmo/algorithm/problem/name</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/algorithmic-problem/name"/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/problem/name"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en"/>
@@ -361,11 +361,11 @@
 		<optionsets/>
 		<conditions/>
 	</question>
-	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/algorithm/algorithmic-problem/description">
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/algorithm/problem/description">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>mardmo/algorithm/algorithmic-problem/description</uri_path>
+		<uri_path>mardmo/algorithm/problem/description</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/algorithmic-problem/description"/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/problem/description"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en"/>
@@ -388,11 +388,11 @@
 		<optionsets/>
 		<conditions/>
 	</question>
-	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/algorithm/algorithmic-problem/benchmark-relatant">
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/algorithm/problem/benchmark-relatant">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>mardmo/algorithm/algorithmic-problem/benchmark-relatant</uri_path>
+		<uri_path>mardmo/algorithm/problem/benchmark-relatant</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/algorithmic-problem/benchmark-relatant"/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/problem/benchmark-relatant"/>
 		<is_collection>True</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en">For all benchmarks &quot;label (description) [source]&quot; is provided.</help>
@@ -417,9 +417,9 @@
 		</optionsets>
 		<conditions/>
 	</question>
-	<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/algorithm/algorithmic-problem/algorithmic-problem-to-algorithmic-problem">
+	<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/algorithm/problem/problem-to-problem">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>mardmo/algorithm/algorithmic-problem/algorithmic-problem-to-algorithmic-problem</uri_path>
+		<uri_path>mardmo/algorithm/problem/problem-to-problem</uri_path>
 		<dc:comment/>
 		<attribute/>
 		<is_collection>True</is_collection>
@@ -431,16 +431,16 @@
 		<verbose_name lang="de"/>
 		<questionsets/>
 		<questions>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/algorithm/algorithmic-problem/algorithmic-problem-to-algorithmic-problem/algorithmic-problem-relation" order="1"/>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/algorithm/algorithmic-problem/algorithmic-problem-to-algorithmic-problem/algorithmic-problem-relatant" order="2"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/algorithm/problem/problem-to-problem/problem-relation" order="1"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/algorithm/problem/problem-to-problem/problem-relatant" order="2"/>
 		</questions>
 		<conditions/>
 	</questionset>
-	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/algorithm/algorithmic-problem/algorithmic-problem-to-algorithmic-problem/algorithmic-problem-relation">
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/algorithm/problem/problem-to-problem/problem-relation">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>mardmo/algorithm/algorithmic-problem/algorithmic-problem-to-algorithmic-problem/algorithmic-problem-relation</uri_path>
+		<uri_path>mardmo/algorithm/problem/problem-to-problem/problem-relation</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/algorithmic-problem/algorithmic-problem-relation"/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/problem/problem-relation"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en"/>
@@ -465,11 +465,11 @@
 		</optionsets>
 		<conditions/>
 	</question>
-	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/algorithm/algorithmic-problem/algorithmic-problem-to-algorithmic-problem/algorithmic-problem-relatant">
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/algorithm/problem/problem-to-problem/problem-relatant">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>mardmo/algorithm/algorithmic-problem/algorithmic-problem-to-algorithmic-problem/algorithmic-problem-relatant</uri_path>
+		<uri_path>mardmo/algorithm/problem/problem-to-problem/problem-relatant</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/algorithmic-problem/algorithmic-problem-relatant"/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/problem/problem-relatant"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en">For all algorithmic problems &quot;label (description) [source]&quot; is provided.</help>
@@ -494,11 +494,11 @@
 		</optionsets>
 		<conditions/>
 	</question>
-	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/algorithm/algorithmic-problem/id">
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/algorithm/problem/id">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms/</uri_prefix>
-		<uri_path>mardmo/algorithm/algorithmic-problem/id</uri_path>
+		<uri_path>mardmo/algorithm/problem/id</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/algorithmic-problem/id"/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/problem/id"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en">For all algorithmic problems &quot;label (description) [source]&quot; is provided. If an algorithmic problem is chosen, WAIT until further information are added to the questionnaire. If no appropriate algorithmic problem is present in MathAlgoDB, the MaRDI Portal or Wikidata, choose 'not found'.</help>

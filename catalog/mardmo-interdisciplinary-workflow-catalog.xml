@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2025-02-18T13:19:29.493029+01:00" version="2.2.1">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2025-03-24T15:28:51.047052+01:00" version="2.2.1">
 	<catalog dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo-interdisciplinary-workflow-catalog">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mardmo-interdisciplinary-workflow-catalog</uri_path>
@@ -45,40 +45,11 @@
 		<verbose_name lang="de"/>
 		<questionsets/>
 		<questions>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/general/information/problem" order="0"/>
 			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/general/information/research-objective" order="1"/>
 			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/general/information/procedure" order="5"/>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/general/information/data-streams" order="6"/>
 		</questions>
 		<conditions/>
 	</page>
-	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/general/information/problem">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>mardmo/general/information/problem</uri_path>
-		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/general/problem"/>
-		<is_collection>False</is_collection>
-		<is_optional>False</is_optional>
-		<help lang="en">A concise sentence is sufficient.</help>
-		<text lang="en">State the Workflow Problem</text>
-		<default_text lang="en"/>
-		<verbose_name lang="en"/>
-		<help lang="de">Ein prägnanter Satz ist ausreichend.</help>
-		<text lang="de">Geben Sie Problemstellung des Workflows an</text>
-		<default_text lang="de"/>
-		<verbose_name lang="de"/>
-		<default_option/>
-		<default_external_id/>
-		<widget_type>text</widget_type>
-		<value_type>text</value_type>
-		<maximum/>
-		<minimum/>
-		<step/>
-		<unit/>
-		<width/>
-		<optionsets/>
-		<conditions/>
-	</question>
 	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/general/information/research-objective">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mardmo/general/information/research-objective</uri_path>
@@ -124,33 +95,6 @@
 		<default_option/>
 		<default_external_id/>
 		<widget_type>textarea</widget_type>
-		<value_type>text</value_type>
-		<maximum/>
-		<minimum/>
-		<step/>
-		<unit/>
-		<width/>
-		<optionsets/>
-		<conditions/>
-	</question>
-	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/general/information/data-streams">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>mardmo/general/information/data-streams</uri_path>
-		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/general/data-streams"/>
-		<is_collection>True</is_collection>
-		<is_optional>False</is_optional>
-		<help lang="en">Data streams between individual disciplines, e.g. time-resolved Raman spectrum from chemistry to mathematics.</help>
-		<text lang="en">Indicate the Data Streams of the Workflow</text>
-		<default_text lang="en"/>
-		<verbose_name lang="en"/>
-		<help lang="de">Datenströme zwischen einzelnen Disziplinen, z. B. zeitaufgelöstes Raman-Spektrum von der Chemie zur Mathematik.</help>
-		<text lang="de">Geben Sie die Datenströme des Workflows an</text>
-		<default_text lang="de"/>
-		<verbose_name lang="de"/>
-		<default_option/>
-		<default_external_id/>
-		<widget_type>text</widget_type>
 		<value_type>text</value_type>
 		<maximum/>
 		<minimum/>
@@ -482,7 +426,7 @@
 		<uri_path>mardmo/process-information/process-step/parameter</uri_path>
 		<dc:comment/>
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/process-step/parameter"/>
-		<is_collection>False</is_collection>
+		<is_collection>True</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en"/>
 		<text lang="en">Parameter of the Process Step</text>
@@ -1176,6 +1120,7 @@
 			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/process-information/hardware/compiler" order="3"/>
 			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/process-information/hardware/nodes" order="4"/>
 			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/process-information/hardware/core" order="5"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/process-information/hardware/software" order="6"/>
 		</questions>
 		<conditions/>
 	</questionset>
@@ -1343,6 +1288,35 @@
 		<unit/>
 		<width/>
 		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/process-information/hardware/software">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/process-information/hardware/software</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/hardware/software/id"/>
+		<is_collection>True</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en"/>
+		<text lang="en">Available Software on the Computer-Hardware</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Verfügbare Software auf der Hardware</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>autocomplete</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/related-software"/>
+		</optionsets>
 		<conditions/>
 	</question>
 	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/process-information/hardware/id">
