@@ -1,0 +1,2508 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2025-01-30T11:30:32.333374+01:00" version="2.2.1">
+	<catalog dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo-model-catalog">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo-model-catalog</uri_path>
+		<dc:comment/>
+		<order>0</order>
+		<title lang="en">MaRDMO: Questionnaire for Mathematical Models</title>
+		<help lang="en"/>
+		<title lang="de">MaRDMO: Fragenkatalog für mathematische Modelle</title>
+		<help lang="de"/>
+		<sections>
+			<section dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model-definition" order="1"/>
+			<section dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/publication-model" order="2"/>
+		</sections>
+	</catalog>
+	<section dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model-definition">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/model-definition</uri_path>
+		<dc:comment/>
+		<title lang="en">Mathematical Model</title>
+		<short_title lang="en"/>
+		<title lang="de">Mathematisches Modell</title>
+		<short_title lang="de"/>
+		<pages>
+			<page dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/model" order="0"/>
+			<page dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task" order="1"/>
+			<page dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/formulation" order="2"/>
+			<page dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity" order="3"/>
+			<page dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/problem" order="4"/>
+			<page dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/field" order="5"/>
+		</pages>
+	</section>
+	<page dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/model">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/model/model</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/model"/>
+		<is_collection>True</is_collection>
+		<title lang="en">Mathematical Model</title>
+		<short_title lang="en"/>
+		<help lang="en">Select, define and relate mathematical models.</help>
+		<verbose_name lang="en"/>
+		<title lang="de">Mathematisches Modell</title>
+		<short_title lang="de"/>
+		<help lang="de">Wählen, definieren und verknüpfen Sie mathematischen Modelle.</help>
+		<verbose_name lang="de"/>
+		<questionsets>
+			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/model/information" order="1"/>
+			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/model/model-to-model" order="3"/>
+		</questionsets>
+		<questions>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/model/id" order="0"/>
+		</questions>
+		<conditions/>
+	</page>
+	<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/model/information">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/model/model/information</uri_path>
+		<dc:comment/>
+		<attribute/>
+		<is_collection>False</is_collection>
+		<title lang="en">Mathematical Model Information</title>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<title lang="de">Mathematisches Modell Informationen</title>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<questionsets/>
+		<questions>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/model/name" order="0"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/model/description" order="1"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/model/properties" order="2"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/model/problem-relatant" order="3"/>
+		</questions>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/model/name">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/model/model/name</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/model/name"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en"/>
+		<text lang="en">Name of the Mathematical Model.</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Namen des mathematischen Modells</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/model/description">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/model/model/description</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/model/description"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en"/>
+		<text lang="en">Description of the Mathematical Model</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Beschreibung des mathematischen Modells</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/model/properties">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/model/model/properties</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/model/properties"/>
+		<is_collection>True</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en"/>
+		<text lang="en">Properties of the Mathematical Model</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Eigenschaften des mathematischen Modells</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>checkbox</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/model-properties"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/model/problem-relatant">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/model/model/problem-relatant</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/model/problem-relatant"/>
+		<is_collection>True</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en">For all research problems &quot;label (description) [source]&quot; is provided.</help>
+		<text lang="en">Research Problem modelled by the Mathematical Model?</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de">Für alle Forschungsprobleme wird „Name (Beschreibung) [Quelle]“ angegeben.</help>
+		<text lang="de">Forschungsproblem welches durch das mathematische Modell modelliert wird?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>autocomplete</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/problem-relatant"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/model/model-to-model">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/model/model/model-to-model</uri_path>
+		<dc:comment/>
+		<attribute/>
+		<is_collection>True</is_collection>
+		<title lang="en">Mathematical Model - Mathematical Model Relations</title>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<title lang="de">Mathematisches Modell - Mathematisches Modell Beziehungen</title>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<questionsets/>
+		<questions>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/model/model-to-model/model-relation" order="0"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/model/model-to-model/model-relatant" order="1"/>
+		</questions>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/model/model-to-model/model-relation">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/model/model/model-to-model/model-relation</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/model/model-relation"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en"/>
+		<text lang="en">The Mathematical Model...</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Das mathematische Modell...</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>select</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/model-relation"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/model/model-to-model/model-relatant">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/model/model/model-to-model/model-relatant</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/model/model-relatant"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en">For all mathematical models &quot;label (description) [source]&quot; is provided.</help>
+		<text lang="en">...another Mathematical Model.</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de">Für alle mathematischen Modelle wird „Name (Beschreibung) [Quelle]“ angegeben.</help>
+		<text lang="de">...ein weiteres mathematisches Modell.</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>autocomplete</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/model-relatant"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/model/id">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/model/model/id</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/model/id"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en">For all mathematical models &quot;label (description) [source]&quot; is provided. If a mathematical model is chosen, WAIT until further information are added to the questionnaire. If no appropriate mathematical model is present in MathModDB, the MaRDI Portal or Wikidata, choose 'not found'.</help>
+		<text lang="en">Select a Mathematical Model!</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de">Für alle mathematischen Modelle wird „Name (Beschreibung) [Quelle]“ angegeben. Wenn ein mathematisches Modell ausgewählt wird, WARTEN Sie, bis weitere Informationen zum Fragebogen hinzugefügt werden. Falls kein passendes mathematisches Modell in MathModDB, dem MaRDI-Portal oder Wikidata vorhanden ist, wählen Sie „not found“.</help>
+		<text lang="de">Wählen Sie ein mathematisches Modell aus.</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>autocomplete</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/model"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<page dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/model/task</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/task"/>
+		<is_collection>True</is_collection>
+		<title lang="en">Task</title>
+		<short_title lang="en"/>
+		<help lang="en">Select, define and relate tasks.</help>
+		<verbose_name lang="en"/>
+		<title lang="de">Aufgabe</title>
+		<short_title lang="de"/>
+		<help lang="de">Wählen, definieren und verknüpfen Sie Aufgaben.</help>
+		<verbose_name lang="de"/>
+		<questionsets>
+			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task/information" order="1"/>
+			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task/task-to-task" order="2"/>
+		</questionsets>
+		<questions>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task/id" order="0"/>
+		</questions>
+		<conditions/>
+	</page>
+	<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task/information">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/model/task/information</uri_path>
+		<dc:comment/>
+		<attribute/>
+		<is_collection>False</is_collection>
+		<title lang="en">Task Information</title>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<title lang="de">Aufgaben Informationen</title>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<questionsets>
+			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task/task-to-formulation" order="5"/>
+			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task/task-to-quantity" order="6"/>
+		</questionsets>
+		<questions>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task/name" order="0"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task/description" order="1"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task/properties" order="2"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task/category" order="3"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task/model-relatant" order="4"/>
+		</questions>
+		<conditions/>
+	</questionset>
+	<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task/task-to-formulation">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/model/task/task-to-formulation</uri_path>
+		<dc:comment/>
+		<attribute/>
+		<is_collection>True</is_collection>
+		<title lang="en">Mathematical Formulation Relations</title>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<title lang="de">Mathematische Formulierung Beziehungen</title>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<questionsets/>
+		<questions>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task/task-to-formulation/relation" order="0"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task/formulation-relatant" order="1"/>
+		</questions>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task/task-to-formulation/relation">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/model/task/task-to-formulation/relation</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/task/formulation-relation"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en"/>
+		<text lang="en">The Task...</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Die Aufgabe...</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>select</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/task-to-formulation-relation"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task/formulation-relatant">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/model/task/formulation-relatant</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/task/formulation-relatant"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en">For all mathematical formulations &quot;label (description) [source]&quot; is provided.</help>
+		<text lang="en">...a Mathematical Formulation.</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de">Für alle mathematischen Formulierungen wird „Name (Beschreibung) [Quelle]“ angegeben.</help>
+		<text lang="de">...eine mathematische Formulierung.</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>autocomplete</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/formulation-relatant"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task/task-to-quantity">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/model/task/task-to-quantity</uri_path>
+		<dc:comment/>
+		<attribute/>
+		<is_collection>True</is_collection>
+		<title lang="en">Quantity / Quantity Kind Relations</title>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<title lang="de">Quantität / Quantitätsart Beziehungen</title>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<questionsets/>
+		<questions>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task/task-to-quantity/relation" order="0"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task/task-to-quantity/relatant" order="1"/>
+		</questions>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task/task-to-quantity/relation">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/model/task/task-to-quantity/relation</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/task/quantity-relation"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en"/>
+		<text lang="en">The Task...</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Die Aufgabe...</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>select</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/task-to-quantity-relation"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task/task-to-quantity/relatant">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/model/task/task-to-quantity/relatant</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/task/quantity-relatant"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en">For all quantity or quantity kind &quot;label (description) [source]&quot; is provided.</help>
+		<text lang="en">...a Quantity / Quantity Kind.</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de">Für alle Quantitäten oder Quantitätsarten wird „Name (Beschreibung) [Quelle]“ angegeben.</help>
+		<text lang="de">...eine Quantität / Quantitätsart.</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>autocomplete</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/quantity-or-quantity-kind-relatant"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task/name">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/model/task/name</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/task/name"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en"/>
+		<text lang="en">Name of the Task</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Name der Aufgabe</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task/description">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/model/task/description</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/task/description"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en"/>
+		<text lang="en">Description of the Task</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Beschreibung der Aufgabe</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task/properties">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/model/task/properties</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/task/properties"/>
+		<is_collection>True</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en"/>
+		<text lang="en">Properties of the Task</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Eigenschaften der Aufgabe</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>checkbox</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/task-properties"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task/category">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/model/task/category</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/task/category"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en"/>
+		<text lang="en">Task Category</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Aufgabenkategorie</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/task-category"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task/model-relatant">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/model/task/model-relatant</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/task/model-relatant"/>
+		<is_collection>True</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en">For all mathematical models &quot;label (description) [source]&quot; is provided.</help>
+		<text lang="en">Mathematical Model applied by the Task.</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de">Für alle mathematischen Modelle wird „Name (Beschreibung) [Quelle]“ angegeben.</help>
+		<text lang="de">Mathematische Modell das durch die Aufgabe angewandt wird</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>autocomplete</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/model-relatant"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task/task-to-task">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/model/task/task-to-task</uri_path>
+		<dc:comment/>
+		<attribute/>
+		<is_collection>True</is_collection>
+		<title lang="en">Task Relations</title>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<title lang="de">Aufgabe Beziehungen</title>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<questionsets/>
+		<questions>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task/task-relation" order="0"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task/task-to-task/relatant" order="1"/>
+		</questions>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task/task-relation">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/model/task/task-relation</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/task/task-relation"/>
+		<is_collection>False</is_collection>
+		<is_optional>True</is_optional>
+		<help lang="en"/>
+		<text lang="en">The Task...</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Die Aufgabe...</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>select</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/task-to-task-relation"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task/task-to-task/relatant">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/model/task/task-to-task/relatant</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/task/task-relatant"/>
+		<is_collection>False</is_collection>
+		<is_optional>True</is_optional>
+		<help lang="en">For all tasks &quot;label (description) [source]&quot; is provided.</help>
+		<text lang="en">...another Task.</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de">Für alle Aufgaben wird „Name (Beschreibung) [Quelle]“ angegeben.</help>
+		<text lang="de">...eine weitere Aufgabe.</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>autocomplete</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/task-relatant"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task/id">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/model/task/id</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/task/id"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en">For all tasks &quot;label (description) [source]&quot; is provided. If a task is chosen, WAIT until further information are added to the questionnaire. If no appropriate task is present in MathModDB, the MaRDI Portal or Wikidata, choose 'not found'.</help>
+		<text lang="en">Select a Task related to the Mathematical Model!</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de">Für alle Aufgabe wird „Name (Beschreibung) [Quelle]“ angegeben. Wenn eine Aufgabe ausgewählt wird, WARTEN Sie, bis weitere Informationen zum Fragebogen hinzugefügt werden. Falls keine passende Aufgabe in MathModDB, dem MaRDI-Portal oder Wikidata vorhanden ist, wählen Sie „not found“.</help>
+		<text lang="de">Wählen Sie eine Aufgabe die mit dem mathematischen Modell im Zusammenhang steht!</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>autocomplete</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/task"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<page dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/formulation">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/model/formulation</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/formulation"/>
+		<is_collection>True</is_collection>
+		<title lang="en">Mathematical Formulation</title>
+		<short_title lang="en"/>
+		<help lang="en">Select, define and relate mathematical formulations.</help>
+		<verbose_name lang="en"/>
+		<title lang="de">Mathematische Formulierung</title>
+		<short_title lang="de"/>
+		<help lang="de">Wählen, definieren und verknüpfen Sie mathematische Formulierungen.</help>
+		<verbose_name lang="de"/>
+		<questionsets>
+			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/formulation/information" order="1"/>
+			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/formulation/formulation-to-formulation-2" order="2"/>
+		</questionsets>
+		<questions>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/formulation/id" order="0"/>
+		</questions>
+		<conditions/>
+	</page>
+	<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/formulation/information">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/model/formulation/information</uri_path>
+		<dc:comment/>
+		<attribute/>
+		<is_collection>False</is_collection>
+		<title lang="en">Mathematical Formulation Information</title>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<title lang="de">Mathematische Formulierung Informationen</title>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<questionsets>
+			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/formulation/element" order="6"/>
+			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/formulation/formulation-to-model" order="7"/>
+			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/formulation/formulation-to-formulation-1" order="8"/>
+		</questionsets>
+		<questions>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/formulation/name" order="0"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/formulation/description" order="1"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/formulation/properties" order="2"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/formulation/is-definition" order="3"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/formulation/defined-quantity" order="4"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/formulation/formula" order="5"/>
+		</questions>
+		<conditions/>
+	</questionset>
+	<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/formulation/element">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/model/formulation/element</uri_path>
+		<dc:comment/>
+		<attribute/>
+		<is_collection>True</is_collection>
+		<title lang="en">Elements of the Mathematical Formulation</title>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<title lang="de">Elemente der mathematischen Formulierung</title>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<questionsets/>
+		<questions>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/formulation/element-symbol" order="1"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/formulation/element-quantity" order="2"/>
+		</questions>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/formulation/element-symbol">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/model/formulation/element-symbol</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/formulation/element/symbol"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en"/>
+		<text lang="en">Symbol of the Element</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Symbol des Elements</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/formulation/element-quantity">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/model/formulation/element-quantity</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/formulation/element/quantity"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en">For all quantities or quantity kind &quot;label (description) [source]&quot; is provided.</help>
+		<text lang="en">Encoded Quantity or Quantity Kind</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de">Für alle Quantitäten oder Quantitätsarten wird „Name (Beschreibung) [Quelle]“ angegeben.</help>
+		<text lang="de">Enkodierte Quantität oder Quantitätsart</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>autocomplete</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/quantity-or-quantity-kind-relatant"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/formulation/formulation-to-model">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/model/formulation/formulation-to-model</uri_path>
+		<dc:comment/>
+		<attribute/>
+		<is_collection>True</is_collection>
+		<title lang="en">Mathematical Formulation - Mathematical Model Relations</title>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<title lang="de">Mathematische Formulierung - Mathematisches Modell Beziehungen</title>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<questionsets/>
+		<questions>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/formulation/formulation-to-model/model-relation" order="0"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/formulation/formulation-to-model/model-relatant" order="1"/>
+		</questions>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/formulation/formulation-to-model/model-relation">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/model/formulation/formulation-to-model/model-relation</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/formulation/model-relation"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en"/>
+		<text lang="en">The Mathematical Formulation...</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Die mathematische Formulierung...</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>select</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/formulation-to-model-relation"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/formulation/formulation-to-model/model-relatant">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/model/formulation/formulation-to-model/model-relatant</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/formulation/model-relatant"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en">For all mathematical models &quot;label (description) [source]&quot; is provided.</help>
+		<text lang="en">...a Mathematical Model.</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de">Für alle mathematischen Modelle wird „Name (Beschreibung) [Quelle]“ angegeben.</help>
+		<text lang="de">...einem mathematischen Modell.</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>autocomplete</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/model-relatant"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/formulation/formulation-to-formulation-1">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/model/formulation/formulation-to-formulation-1</uri_path>
+		<dc:comment/>
+		<attribute/>
+		<is_collection>True</is_collection>
+		<title lang="en">Mathematical Formulation - Mathematical Formulation Relations I</title>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<title lang="de">Mathematische Formulierung - Mathematische Formulierung Beziehungen I</title>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<questionsets/>
+		<questions>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/formulation/formulation-to-formulation-1/formulation-relation" order="0"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/formulation/formulation-to-formulation-1/formulation-relatant" order="1"/>
+		</questions>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/formulation/formulation-to-formulation-1/formulation-relation">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/model/formulation/formulation-to-formulation-1/formulation-relation</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/formulation/formulation-relation-1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en"/>
+		<text lang="en">The Mathematical Formulation...</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Die mathematische Formulierung...</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>select</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/formulation-to-formulation-relation-1"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/formulation/formulation-to-formulation-1/formulation-relatant">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/model/formulation/formulation-to-formulation-1/formulation-relatant</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/formulation/formulation-relatant-1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en">For all mathematical formulations &quot;label (description) [source]&quot; is provided.</help>
+		<text lang="en">...another Mathematical Formulation.</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de">Für alle mathematischen Formulierungen wird „Name (Beschreibung) [Quelle]“ angegeben.</help>
+		<text lang="de">...einer weiteren mathematischen Formulierung.</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>autocomplete</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/formulation-relatant"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/formulation/name">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/model/formulation/name</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/formulation/name"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en"/>
+		<text lang="en">Name of the Mathematical Formulation.</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Name der mathematischen Formulierung.</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/formulation/description">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/model/formulation/description</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/formulation/description"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en"/>
+		<text lang="en">Description of the Mathematical Formulation.</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Beschreibung der mathematischen Formulierung.</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/formulation/properties">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/model/formulation/properties</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/formulation/properties"/>
+		<is_collection>True</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en"/>
+		<text lang="en">Properties of the Mathematical Formulation</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Eigenschaften der mathematischen Formulierung</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>checkbox</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/formulation-properties"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/formulation/is-definition">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/model/formulation/is-definition</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/formulation/is-definition"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en"/>
+		<text lang="en">Definition of Quantity or Quantity Kind?</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Definition einer Quantität oder Quantitätsart?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/yes_no"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/formulation/defined-quantity">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/model/formulation/defined-quantity</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/formulation/defined-quantity"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en">For all quantities / quantity kinds &quot;label (description) [source]&quot; is provided.</help>
+		<text lang="en">Quantity or Quantity Kind defined by the Mathematical Formulation.</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de">Für alle Quantitäten / Quantitätsarten wird „Name (Beschreibung) [Quelle]“ angegeben.</help>
+		<text lang="de">Quantität oder Quantitätsart, die durch die mathematische Formulierung definiert wird.</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>autocomplete</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/quantity-or-quantity-kind-relatant"/>
+		</optionsets>
+		<conditions>
+			<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/is-definition"/>
+		</conditions>
+	</question>
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/formulation/formula">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/model/formulation/formula</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/formulation/formula"/>
+		<is_collection>True</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en"/>
+		<text lang="en">Formula of the Mathematical Formulation</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Formel der neuen mathematischen Formulierung</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/formulation/formulation-to-formulation-2">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/model/formulation/formulation-to-formulation-2</uri_path>
+		<dc:comment/>
+		<attribute/>
+		<is_collection>True</is_collection>
+		<title lang="en">Mathematical Formulation - Mathematical Formulation Relations  II</title>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<title lang="de">Mathematische Formulierung - Mathematische Formulierung Beziehungen  II</title>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<questionsets/>
+		<questions>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/formulation/formulation-to-formulation-2/formulation-relation" order="0"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/formulation/formulation-to-formulation-2/formulation-relatant" order="1"/>
+		</questions>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/formulation/formulation-to-formulation-2/formulation-relation">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/model/formulation/formulation-to-formulation-2/formulation-relation</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/formulation/formulation-relation-2"/>
+		<is_collection>False</is_collection>
+		<is_optional>True</is_optional>
+		<help lang="en"/>
+		<text lang="en">The Mathematical Formulation...</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Die mathematische Formulierung...</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>select</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/formulation-to-formulation-relation-2"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/formulation/formulation-to-formulation-2/formulation-relatant">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/model/formulation/formulation-to-formulation-2/formulation-relatant</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/formulation/formulation-relatant-2"/>
+		<is_collection>False</is_collection>
+		<is_optional>True</is_optional>
+		<help lang="en">For all mathematical formulations &quot;label (description) [source]&quot; is provided.</help>
+		<text lang="en">...another Mathematical Formulation.</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de">Für alle mathematischen Formulierungen wird „Name (Beschreibung) [Quelle]“ angegeben.</help>
+		<text lang="de">...eine weitere mathematische Formulierung.</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>autocomplete</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/formulation-relatant"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/formulation/id">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/model/formulation/id</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/formulation/id"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en">For all mathematical formulations &quot;label (description) [source]&quot; is provided. If a mathematical formulations is chosen, WAIT until further information are added to the questionnaire. If no appropriate mathematical formulation is present in MathModDB, the MaRDI Portal or Wikidata, choose 'not found'.</help>
+		<text lang="en">Select a Mathematical Formulation related to the Mathematical Model!</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de">Für alle mathematischen Formulierungen wird „Name (Beschreibung) [Quelle]“ angegeben. Wenn eine mathematische Formulierung ausgewählt wird, WARTEN Sie, bis weitere Informationen zum Fragebogen hinzugefügt werden. Falls keine passende mathematische Formulierung in MathModDB, dem MaRDI-Portal oder Wikidata vorhanden ist, wählen Sie „not found“.</help>
+		<text lang="de">Wählen Sie eine mathematische Formulierung die mit dem mathematischen Modell im Zusammenhang steht!</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>autocomplete</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/formulation"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<page dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/model/quantity</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/quantity"/>
+		<is_collection>True</is_collection>
+		<title lang="en">Quantity or Quantity Kind</title>
+		<short_title lang="en"/>
+		<help lang="en">Select, define and relate quantities and quantity kinds.</help>
+		<verbose_name lang="en"/>
+		<title lang="de">Quantität oder Quantitätsart</title>
+		<short_title lang="de"/>
+		<help lang="de">Wählen, definieren und verknüpfen Sie Quantitäten oder Quantitätsarten.</help>
+		<verbose_name lang="de"/>
+		<questionsets>
+			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/information" order="1"/>
+		</questionsets>
+		<questions>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/id" order="0"/>
+		</questions>
+		<conditions/>
+	</page>
+	<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/information">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/model/quantity/information</uri_path>
+		<dc:comment/>
+		<attribute/>
+		<is_collection>False</is_collection>
+		<title lang="en">Quantity or Quantity Kind Information</title>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<title lang="de">Quantität oder Quantitätsart Informationen</title>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<questionsets>
+			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/quantity-to-quantity" order="6"/>
+			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/quantity-kind-to-quantity-kind" order="7"/>
+			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/quantity-to-quantity-kind" order="8"/>
+			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/quantity-kind-to-quantity" order="9"/>
+		</questionsets>
+		<questions>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/is-quantity-or-quantity-kind" order="0"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/name" order="1"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/description" order="2"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/reference" order="3"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/quantity-properties" order="4"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/quantity-kind-properties" order="5"/>
+		</questions>
+		<conditions/>
+	</questionset>
+	<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/quantity-to-quantity">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/model/quantity/quantity-to-quantity</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/quantity/quantity-to-quantity"/>
+		<is_collection>True</is_collection>
+		<title lang="en">Quantity - Quantity Relations</title>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<title lang="de">Quantität - Quantität Beziehungen</title>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<questionsets/>
+		<questions>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/quantity-to-quantity/relation" order="0"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/quantity-to-quantity/relatant" order="1"/>
+		</questions>
+		<conditions>
+			<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/is-quantity"/>
+		</conditions>
+	</questionset>
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/quantity-to-quantity/relation">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/model/quantity/quantity-to-quantity/relation</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/quantity/quantity-to-quantity/relation"/>
+		<is_collection>False</is_collection>
+		<is_optional>True</is_optional>
+		<help lang="en"/>
+		<text lang="en">The Quantity...</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Die Quantität...</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>select</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/quantity-to-quantity-relation"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/quantity-to-quantity/relatant">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/model/quantity/quantity-to-quantity/relatant</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/quantity/quantity-to-quantity/relatant"/>
+		<is_collection>False</is_collection>
+		<is_optional>True</is_optional>
+		<help lang="en">For all quantities &quot;label (description) [source]&quot; is provided.</help>
+		<text lang="en">...another Quantity.</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de">Für alle Quantitäten wird „Name (Beschreibung) [Quelle]“ angegeben.</help>
+		<text lang="de">...eine weitere Quantität.</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>autocomplete</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/quantity-relatant"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/quantity-kind-to-quantity-kind">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/model/quantity/quantity-kind-to-quantity-kind</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/quantity/quantity-kind-to-quantity-kind"/>
+		<is_collection>True</is_collection>
+		<title lang="en">Quantity Kind - Quantity Kind Relations</title>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<title lang="de">Quantitätsart - Quantitätsart Beziehungen</title>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<questionsets/>
+		<questions>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/quantity-kind-to-quantity-kind/relation" order="0"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/quantity-kind-to-quantity-kind/relatant" order="1"/>
+		</questions>
+		<conditions>
+			<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/is-quantity-kind"/>
+		</conditions>
+	</questionset>
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/quantity-kind-to-quantity-kind/relation">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/model/quantity/quantity-kind-to-quantity-kind/relation</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/quantity/quantity-kind-to-quantity-kind/relation"/>
+		<is_collection>False</is_collection>
+		<is_optional>True</is_optional>
+		<help lang="en"/>
+		<text lang="en">The Quantity Kind...</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Die Quantitätsart...</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>select</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/quantity-kind-to-quantity-kind-relation"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/quantity-kind-to-quantity-kind/relatant">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/model/quantity/quantity-kind-to-quantity-kind/relatant</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/quantity/quantity-kind-to-quantity-kind/relatant"/>
+		<is_collection>False</is_collection>
+		<is_optional>True</is_optional>
+		<help lang="en">For all quantity kinds &quot;label (description) [source]&quot; is provided.</help>
+		<text lang="en">...another Quantity Kind.</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de">Für alle Quantitätsarten wird „Name (Beschreibung) [Quelle]“ angegeben.</help>
+		<text lang="de">...eine weitere Quantitätsart.</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>autocomplete</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/quantity-kind-relatant"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/quantity-to-quantity-kind">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/model/quantity/quantity-to-quantity-kind</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/quantity/quantity-to-quantity-kind"/>
+		<is_collection>True</is_collection>
+		<title lang="en">Quantity - Quantity Kind Relations</title>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<title lang="de">Quantität - Quantitätsart Beziehungen</title>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<questionsets/>
+		<questions>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/quantity-to-quantity-kind/relation" order="0"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/quantity-to-quantity-kind/relatant" order="1"/>
+		</questions>
+		<conditions>
+			<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/is-quantity"/>
+		</conditions>
+	</questionset>
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/quantity-to-quantity-kind/relation">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/model/quantity/quantity-to-quantity-kind/relation</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/quantity/quantity-to-quantity-kind/relation"/>
+		<is_collection>False</is_collection>
+		<is_optional>True</is_optional>
+		<help lang="en"/>
+		<text lang="en">The Quantity...</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Die Quantität...</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>select</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/quantity-to-quantity-kind-relation"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/quantity-to-quantity-kind/relatant">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/model/quantity/quantity-to-quantity-kind/relatant</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/quantity/quantity-to-quantity-kind/relatant"/>
+		<is_collection>False</is_collection>
+		<is_optional>True</is_optional>
+		<help lang="en">For all quantity kinds &quot;label (description) [source]&quot; is provided.</help>
+		<text lang="en">...a Quantity Kind.</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de">Für alle Quantitätsarten wird „Name (Beschreibung) [Quelle]“ angegeben.</help>
+		<text lang="de">...eine Quantitätsart.</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>autocomplete</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/quantity-kind-relatant"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/quantity-kind-to-quantity">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/model/quantity/quantity-kind-to-quantity</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/quantity/quantity-kind-to-quantity"/>
+		<is_collection>True</is_collection>
+		<title lang="en">Quantity Kind - Quantity Relations</title>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<title lang="de">Quantitätsart - Quantität Beziehungen</title>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<questionsets/>
+		<questions>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/quantity-kind-to-quantity/relation" order="1"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/quantity-kind-to-quantity/relatant" order="2"/>
+		</questions>
+		<conditions>
+			<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/is-quantity-kind"/>
+		</conditions>
+	</questionset>
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/quantity-kind-to-quantity/relation">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/model/quantity/quantity-kind-to-quantity/relation</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/quantity/quantity-kind-to-quantity/relation"/>
+		<is_collection>False</is_collection>
+		<is_optional>True</is_optional>
+		<help lang="en"/>
+		<text lang="en">The Quantity Kind...</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Die Quantitätsart...</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>select</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/quantity-kind-to-quantity-relation"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/quantity-kind-to-quantity/relatant">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/model/quantity/quantity-kind-to-quantity/relatant</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/quantity/quantity-kind-to-quantity/relatant"/>
+		<is_collection>False</is_collection>
+		<is_optional>True</is_optional>
+		<help lang="en">For all quantities &quot;label (description) [source]&quot; is provided.</help>
+		<text lang="en">...a Quantity.</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de">Für alle Quantitäten wird „Name (Beschreibung) [Quelle]“ angegeben.</help>
+		<text lang="de">...eine Quantität.</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>autocomplete</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/quantity-relatant"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/is-quantity-or-quantity-kind">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/model/quantity/is-quantity-or-quantity-kind</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/quantity/is-quantity-or-quantity-kind"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en"/>
+		<text lang="en">Quantity or Quantity Kind?</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Quantität oder Quantitätsart?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/is-quantity-or-quantity-kind"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/name">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/model/quantity/name</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/quantity/name"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en"/>
+		<text lang="en">Name of the Quantity or Quantity Kind</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Name der Quantität oder Quantitätsart</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/description">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/model/quantity/description</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/quantity/description"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en"/>
+		<text lang="en">Description of the Quantity or Quantity Kind.</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Beschreibung der Quantität oder Quantitätsart.</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/reference">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/model/quantity/reference</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/quantity/reference"/>
+		<is_collection>True</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en"/>
+		<text lang="en">Other ID of the Quantity or Quantity Kind.</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Andere ID der Quantität oder Quantitätsart.</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>checkbox</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/quantity-reference"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/quantity-properties">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/model/quantity/quantity-properties</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/quantity/quantity-properties"/>
+		<is_collection>True</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en"/>
+		<text lang="en">Properties of the Quantity</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Eigenschaften der Quantität</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>checkbox</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/quantity-properties"/>
+		</optionsets>
+		<conditions>
+			<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/is-quantity"/>
+		</conditions>
+	</question>
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/quantity-kind-properties">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/model/quantity/quantity-kind-properties</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/quantity/quantity-kind-properties"/>
+		<is_collection>True</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en"/>
+		<text lang="en">Properties of the Quantity Kind</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Eigenschaften der Quantitätsart</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>checkbox</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/quantity-kind-properties"/>
+		</optionsets>
+		<conditions>
+			<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/is-quantity-kind"/>
+		</conditions>
+	</question>
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/id">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/model/quantity/id</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/quantity/id"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en">For all quantities or quantity kinds &quot;label (description) [source]&quot; is provided. If a quantity or quantity kind is chosen, WAIT until further information are added to the questionnaire. If no appropriate quantity or quantity kind is present in MathModDB, the MaRDI Portal or Wikidata, choose 'not found'.</help>
+		<text lang="en">Select a Quantity or Quantity Kind related to the Mathematical Model!</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de">Für alle Quantitäten oder Quantitätsarten wird „Name (Beschreibung) [Quelle]“ angegeben. Wenn eine Quantität oder Quantitätsart ausgewählt wird, WARTEN Sie, bis weitere Informationen zum Fragebogen hinzugefügt werden. Falls keine passende Quantität oder Quantitätsart in MathModDB, dem MaRDI-Portal oder Wikidata vorhanden ist, wählen Sie „not found“.</help>
+		<text lang="de">Wählen Sie eine Quantität oder Quantitätsart, die mit dem mathematischen Modell im Zusammenhang steht!</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>autocomplete</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/quantity-or-quantity-kind"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<page dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/problem">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/model/problem</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/problem"/>
+		<is_collection>True</is_collection>
+		<title lang="en">Research Problem</title>
+		<short_title lang="en"/>
+		<help lang="en">Select, define and relate research problems associated with the mathematical model.</help>
+		<verbose_name lang="en"/>
+		<title lang="de">Forschungsproblem</title>
+		<short_title lang="de"/>
+		<help lang="de">Wählen, definieren und verknüpfen Sie die mit dem mathematischen Modell verbundene Forschungsprobleme.</help>
+		<verbose_name lang="de"/>
+		<questionsets>
+			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/problem/information" order="1"/>
+			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/problem/problem-to-problem" order="2"/>
+		</questionsets>
+		<questions>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/problem/id" order="0"/>
+		</questions>
+		<conditions/>
+	</page>
+	<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/problem/information">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/model/problem/information</uri_path>
+		<dc:comment/>
+		<attribute/>
+		<is_collection>False</is_collection>
+		<title lang="en">Research Problem Information</title>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<title lang="de">Forschungsproblem Informationen</title>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<questionsets/>
+		<questions>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/problem/name" order="0"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/problem/description" order="1"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/problem/field-relatant" order="2"/>
+		</questions>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/problem/name">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/model/problem/name</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/problem/name"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en"/>
+		<text lang="en">Name of the Research Problem</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Name des Forschungsproblems</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/problem/description">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/model/problem/description</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/problem/description"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en"/>
+		<text lang="en">Description of the Research Problem</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Beschreibung des Forschungsproblems</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/problem/field-relatant">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/model/problem/field-relatant</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/problem/field-relatant"/>
+		<is_collection>True</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en">For all research fields &quot;label (description) [source]&quot; is provided.</help>
+		<text lang="en">Research Field containing the Research Problem?</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de">Für alle Forschungsgebiete wird „Name (Beschreibung) [Quelle]“ angegeben.</help>
+		<text lang="de">Forschungsgebiet welches das Forschungsproblem enthält?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>autocomplete</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/field-relatant"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/problem/problem-to-problem">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/model/problem/problem-to-problem</uri_path>
+		<dc:comment/>
+		<attribute/>
+		<is_collection>True</is_collection>
+		<title lang="en">Research Problem - Research Problem Relations</title>
+		<help lang="en">Optionally, user-defined research problems and research problems from MathModDB can be related to each other.</help>
+		<verbose_name lang="en"/>
+		<title lang="de">Forschungsproblem - Forschungsproblem Beziehungen</title>
+		<help lang="de">Optional können benutzerdefinierte Forschungsprobleme und Forschungsprobleme aus MathModDB miteinander verknüpft werden.</help>
+		<verbose_name lang="de"/>
+		<questionsets/>
+		<questions>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/problem/problem-to-problem/problem-relation" order="0"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/problem/problem-to-problem/problem-relatant" order="1"/>
+		</questions>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/problem/problem-to-problem/problem-relation">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/model/problem/problem-to-problem/problem-relation</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/problem/problem-relation"/>
+		<is_collection>False</is_collection>
+		<is_optional>True</is_optional>
+		<help lang="en"/>
+		<text lang="en">The Research Problem...</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Das Forschungsproblem...</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>select</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/problem-relation"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/problem/problem-to-problem/problem-relatant">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/model/problem/problem-to-problem/problem-relatant</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/problem/problem-relatant"/>
+		<is_collection>False</is_collection>
+		<is_optional>True</is_optional>
+		<help lang="en">For all research problems &quot;label (description) [source]&quot; is provided.</help>
+		<text lang="en">...another Research Problem.</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de">Für alle Forschungsprobleme wird „Name (Beschreibung) [Quelle]“ angegeben.</help>
+		<text lang="de">...ein weiteres Forschungsproblem.</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>autocomplete</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/problem-relatant"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/problem/id">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/model/problem/id</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/problem/id"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en">For all research problems &quot;label (description) [source]&quot; is provided. If a research problem is chosen, WAIT until further information are added to the questionnaire. If no appropriate research problem is present in MathModDB, the MaRDI Portal or Wikidata, choose 'not found'.</help>
+		<text lang="en">Select a Research Problem related to the Mathematical Model!</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de">Für alle Forschungsprobleme wird „Name (Beschreibung) [Quelle]“ angegeben. Wenn ein Forschungsproblem ausgewählt wird, WARTEN Sie, bis weitere Informationen zum Fragebogen hinzugefügt werden. Falls kein passendes Forschungsproblem in MathModDB, dem MaRDI-Portal oder Wikidata vorhanden ist, wählen Sie „not found“.</help>
+		<text lang="de">Wählen Sie ein Forschungsproblem, das mit dem mathematischen Modell im Zusammenhang steht!</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>autocomplete</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/problem"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<page dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/field">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/model/field</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/field"/>
+		<is_collection>True</is_collection>
+		<title lang="en">Research Field</title>
+		<short_title lang="en"/>
+		<help lang="en">Select, define and relate research fields associated with the mathematical model.</help>
+		<verbose_name lang="en"/>
+		<title lang="de">Forschungsgebiet</title>
+		<short_title lang="de"/>
+		<help lang="de">Wählen, definieren und verknüpfen Sie die mit dem mathematischen Modell verbundenen Forschungsgebiete.</help>
+		<verbose_name lang="de"/>
+		<questionsets>
+			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/field/information" order="1"/>
+			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/field/field-to-field" order="2"/>
+		</questionsets>
+		<questions>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/field/id" order="0"/>
+		</questions>
+		<conditions/>
+	</page>
+	<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/field/information">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/model/field/information</uri_path>
+		<dc:comment/>
+		<attribute/>
+		<is_collection>False</is_collection>
+		<title lang="en">Research Field Information</title>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<title lang="de">Forschungsgebiet Informationen</title>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<questionsets/>
+		<questions>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/field/name" order="0"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/field/description" order="1"/>
+		</questions>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/field/name">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/model/field/name</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/field/name"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en"/>
+		<text lang="en">Name of the Research Field</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Name des Forschungsgebiets</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/field/description">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/model/field/description</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/field/description"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en"/>
+		<text lang="en">Description of the Research Field</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Beschreibung des Forschungsgebiets</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/field/field-to-field">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/model/field/field-to-field</uri_path>
+		<dc:comment/>
+		<attribute/>
+		<is_collection>True</is_collection>
+		<title lang="en">Research Field - Research Field Relations</title>
+		<help lang="en">Optionally, user-defined research fields and research fields from MathModDB can be related to each other.</help>
+		<verbose_name lang="en"/>
+		<title lang="de">Forschungsgebiet - Forschungsgebiet Beziehungen</title>
+		<help lang="de">Optional können benutzerdefinierte Forschungsgebiete und Forschungsgebiete aus MathModDB miteinander verknüpft werden.</help>
+		<verbose_name lang="de"/>
+		<questionsets/>
+		<questions>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/field/field-to-field/field-relation" order="0"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/field/field-to-field/field-relatant" order="1"/>
+		</questions>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/field/field-to-field/field-relation">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/model/field/field-to-field/field-relation</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/field/field-relation"/>
+		<is_collection>False</is_collection>
+		<is_optional>True</is_optional>
+		<help lang="en"/>
+		<text lang="en">The Research Field...</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Das neue Forschungsgebiet...</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>select</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/field-relation"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/field/field-to-field/field-relatant">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/model/field/field-to-field/field-relatant</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/field/field-relatant"/>
+		<is_collection>False</is_collection>
+		<is_optional>True</is_optional>
+		<help lang="en">For all research fields &quot;label (description) [source]&quot; is provided.</help>
+		<text lang="en">...another Research Field.</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de">Für alle Forschungsgebiete wird „Name (Beschreibung) [Quelle]“ angegeben.</help>
+		<text lang="de">...ein weiteres Forschungsgebiet.</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>autocomplete</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/field-relatant"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/field/id">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/model/field/id</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/field/id"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en">For all research fields &quot;label (description) [source]&quot; is provided. If a research field is chosen, WAIT until further information are added to the questionnaire. If no appropriate research field is present in MathModDB, the MaRDI Portal or Wikidata, choose 'not found'.</help>
+		<text lang="en">Select a Research Field related to the Mathematical Model!</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de">Für alle Forschungsgebiete wird „Name (Beschreibung) [Quelle]“ angegeben. Wenn ein Forschungsgebiet ausgewählt wird, WARTEN Sie, bis weitere Informationen zum Fragebogen hinzugefügt werden. Falls kein passendes Forschungsgebiet in MathModDB, dem MaRDI-Portal oder Wikidata vorhanden ist, wählen Sie „not found“.</help>
+		<text lang="de">Wählen Sie ein Forschungsgebiet aus, das mit dem mathematischen Modell im Zusammenhang steht!</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>autocomplete</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/field"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<section dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/publication-model">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/publication-model</uri_path>
+		<dc:comment/>
+		<title lang="en">Publication</title>
+		<short_title lang="en"/>
+		<title lang="de">Publikation</title>
+		<short_title lang="de"/>
+		<pages>
+			<page dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/publication/citation-and-relation-model" order="0"/>
+		</pages>
+	</section>
+	<page dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/publication/citation-and-relation-model">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/publication/citation-and-relation-model</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/publication"/>
+		<is_collection>True</is_collection>
+		<title lang="en">Citation and Relation</title>
+		<short_title lang="en"/>
+		<help lang="en">Select, define and relate publications.</help>
+		<verbose_name lang="en"/>
+		<title lang="de">Zitation und Verknüpfungen</title>
+		<short_title lang="de"/>
+		<help lang="de">Wählen, definieren und verknüpfen Sie Publikationen.</help>
+		<verbose_name lang="de"/>
+		<questionsets>
+			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/publication/publication-to-entity" order="3"/>
+		</questionsets>
+		<questions>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/publication/id" order="0"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/publication/reference" order="1"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/publication/url-citation" order="2"/>
+		</questions>
+		<conditions/>
+	</page>
+	<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/publication/publication-to-entity">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/model/publication/publication-to-entity</uri_path>
+		<dc:comment/>
+		<attribute/>
+		<is_collection>True</is_collection>
+		<title lang="en">Publication Relations</title>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<title lang="de">Publikation Beziehungen</title>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<questionsets/>
+		<questions>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/publication/entity-relation" order="0"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/publication/entity-relatant" order="1"/>
+		</questions>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/publication/entity-relation">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/model/publication/entity-relation</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/publication/entity-relation"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en"/>
+		<text lang="en">The publication...</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Die Publikation...</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>select</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/entity-relation"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/publication/entity-relatant">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/model/publication/entity-relatant</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/publication/entity-relatant"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en"/>
+		<text lang="en">...a previously selected or defined entity of the mathematical model.</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de"/>
+		<text lang="de">...eine zuvor ausgewählte oder definierte Entität des mathematischen Models.</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>autocomplete</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/field-relatant"/>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/formulation-relatant"/>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/model-relatant"/>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/problem-relatant"/>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/quantity-or-quantity-kind-relatant"/>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/task-relatant"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/publication/id">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/publication/id</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/publication/id"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en">For all publications &quot;label (description) [source]&quot; is provided. If a publication is chosen, WAIT until further information are added to the questionnaire. If no appropriate publication is present in the MathmodDB, MathAlgoDB, MaRDI Portal or Wikidata, choose 'not found'.</help>
+		<text lang="en">Select a Publication!</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de">Für alle Publikationen wird „Name (Beschreibung) [Quelle]“ angegeben. Wenn eine Publikation ausgewählt wird, WARTEN Sie, bis weitere Informationen zum Fragebogen hinzugefügt werden. Falls keine passende Publikation in MathModDB, MathAlgoDB, dem MaRDI-Portal oder Wikidata vorhanden ist, wählen Sie „not found“.</help>
+		<text lang="de">Wählen Sie eine Publikation aus!</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>autocomplete</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/publication"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/publication/reference">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/publication/reference</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/publication/reference"/>
+		<is_collection>True</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en">Provided Prefixes are: 'doi:', 'url:'.</help>
+		<text lang="en">Provide a Reference for the Publication!</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de">Verfügbare Präfixe sind: 'doi:', 'url:'.</help>
+		<text lang="de">Geben Sie eine Referenz für die Publikation an!</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>checkbox</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/publication-reference"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/publication/url-citation">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/publication/url-citation</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/publication/url-citation"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en">Expected Format: Surname of (First) Author (Year) Title</help>
+		<text lang="en">Provide further Information about the Publication!</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de">Erwartetes Format: Nachname des (Erst)-Autors (Jahr) Titel</help>
+		<text lang="de">Geben Sie weitere Information über die Publikation an!</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions>
+			<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/publication-via-url"/>
+		</conditions>
+	</question>
+</rdmo>

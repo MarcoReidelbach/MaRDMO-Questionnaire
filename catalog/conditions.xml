@@ -1,489 +1,183 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2024-09-30T09:53:10.708637+02:00" version="2.2.1">
-	<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/DataSetNotInMaRDIWikidata">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2025-03-24T16:46:16.395684+01:00" version="2.2.1">
+	<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/algorithm-search">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>DataSetNotInMaRDIWikidata</uri_path>
+		<uri_path>algorithm-search</uri_path>
 		<dc:comment/>
-		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/DataSetQID"/>
-		<relation>empty</relation>
-		<target_text/>
-		<target_option/>
-	</condition>
-	<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/DataSets">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>DataSets</uri_path>
-		<dc:comment/>
-		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/DataSets_hidden"/>
-		<relation>eq</relation>
-		<target_text>1</target_text>
-		<target_option/>
-	</condition>
-	<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/Documentation">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>Documentation</uri_path>
-		<dc:comment/>
-		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/OperationType"/>
+		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/search/options"/>
 		<relation>eq</relation>
 		<target_text/>
-		<target_option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/OperationType/Document"/>
+		<target_option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/search-options/algorithm"/>
 	</condition>
-	<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/GeneralWorkflowInformation">
+	<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/is-definition">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>GeneralWorkflowInformation</uri_path>
+		<uri_path>is-definition</uri_path>
 		<dc:comment/>
-		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/GeneralWorkflowInformation"/>
+		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/formulation/is-definition"/>
 		<relation>eq</relation>
-		<target_text>1</target_text>
-		<target_option/>
-	</condition>
-	<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/Hardware">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>Hardware</uri_path>
-		<dc:comment/>
-		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Hardware_hidden"/>
-		<relation>eq</relation>
-		<target_text>1</target_text>
-		<target_option/>
-	</condition>
-	<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/HardwareNotInMaRDIWikidata">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>HardwareNotInMaRDIWikidata</uri_path>
-		<dc:comment/>
-		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/HardwareQID"/>
-		<relation>empty</relation>
 		<target_text/>
-		<target_option/>
+		<target_option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/yes_no/yes"/>
 	</condition>
-	<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/Identification">
+	<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/is-quantity">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>Identification</uri_path>
+		<uri_path>is-quantity</uri_path>
 		<dc:comment/>
-		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Identification"/>
-		<relation>neq</relation>
-		<target_text>1</target_text>
-		<target_option/>
-	</condition>
-	<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/InstrumentNotInMaRDIWikidata">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>InstrumentNotInMaRDIWikidata</uri_path>
-		<dc:comment/>
-		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/InstrumentQID"/>
-		<relation>empty</relation>
-		<target_text/>
-		<target_option/>
-	</condition>
-	<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/Instruments">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>Instruments</uri_path>
-		<dc:comment/>
-		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Instruments_hidden"/>
-		<relation>eq</relation>
-		<target_text>1</target_text>
-		<target_option/>
-	</condition>
-	<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/IsQuantity">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>IsQuantity</uri_path>
-		<dc:comment/>
-		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/IsQuantityOrQuantityKind"/>
+		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/quantity/is-quantity-or-quantity-kind"/>
 		<relation>eq</relation>
 		<target_text/>
 		<target_option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/Quantity"/>
 	</condition>
-	<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/IsQuantityKind">
+	<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/is-quantity-kind">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>IsQuantityKind</uri_path>
+		<uri_path>is-quantity-kind</uri_path>
 		<dc:comment/>
-		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/IsQuantityOrQuantityKind"/>
+		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/quantity/is-quantity-or-quantity-kind"/>
 		<relation>eq</relation>
 		<target_text/>
 		<target_option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/QuantityKind"/>
 	</condition>
-	<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/LocalOrPublic">
+	<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/model-search">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>LocalOrPublic</uri_path>
+		<uri_path>model-search</uri_path>
 		<dc:comment/>
-		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/LocalOrPublic"/>
+		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/search/options"/>
 		<relation>eq</relation>
-		<target_text>1</target_text>
-		<target_option/>
+		<target_text/>
+		<target_option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/search-options/mathematical-model"/>
 	</condition>
-	<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/MainMathematicalModel">
+	<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/publication-via-url">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>MainMathematicalModel</uri_path>
+		<uri_path>publication-via-url</uri_path>
 		<dc:comment/>
-		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/MainMathematicalModel"/>
+		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/publication/reference"/>
 		<relation>eq</relation>
-		<target_text>1</target_text>
-		<target_option/>
+		<target_text/>
+		<target_option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/url"/>
 	</condition>
-	<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/MathematicalFormulation">
+	<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/reproducibility-mathematical">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>MathematicalFormulation</uri_path>
+		<uri_path>reproducibility-mathematical</uri_path>
 		<dc:comment/>
-		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/MathematicalFormulation_hidden"/>
-		<relation>eq</relation>
-		<target_text>1</target_text>
-		<target_option/>
-	</condition>
-	<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/MathematicalFormulationAsDefinition">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>MathematicalFormulationAsDefinition</uri_path>
-		<dc:comment/>
-		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/MathematicalFormulationAsDefinition"/>
+		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/reproducibility/mathematical"/>
 		<relation>eq</relation>
 		<target_text/>
 		<target_option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/yes_no/yes"/>
 	</condition>
-	<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/MathematicalFormulationNotInMaRDIWikidata">
+	<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/reproducibility-original-platform">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>MathematicalFormulationNotInMaRDIWikidata</uri_path>
+		<uri_path>reproducibility-original-platform</uri_path>
 		<dc:comment/>
-		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/MathematicalFormulationQID"/>
-		<relation>empty</relation>
-		<target_text/>
-		<target_option/>
-	</condition>
-	<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/MathematicalFormulationNotInMathModDB">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>MathematicalFormulationNotInMathModDB</uri_path>
-		<dc:comment/>
-		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/MathematicalFormulationMathModDBID"/>
-		<relation>eq</relation>
-		<target_text>not in MathModDB</target_text>
-		<target_option/>
-	</condition>
-	<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/MathematicalModel">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>MathematicalModel</uri_path>
-		<dc:comment/>
-		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/MathematicalModel_hidden"/>
-		<relation>eq</relation>
-		<target_text>1</target_text>
-		<target_option/>
-	</condition>
-	<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/MathematicalModelNotInMaRDIWikidata">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>MathematicalModelNotInMaRDIWikidata</uri_path>
-		<dc:comment/>
-		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/MathematicalModelQID"/>
-		<relation>empty</relation>
-		<target_text/>
-		<target_option/>
-	</condition>
-	<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/MathematicalModelNotInMathModDB">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>MathematicalModelNotInMathModDB</uri_path>
-		<dc:comment/>
-		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/MathematicalModelMathModDBID"/>
-		<relation>eq</relation>
-		<target_text>not in MathModDB</target_text>
-		<target_option/>
-	</condition>
-	<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/MathematicalReproducibility">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>MathematicalReproducibility</uri_path>
-		<dc:comment/>
-		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/MathematicalReproducibility"/>
+		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/reproducibility/original-platform"/>
 		<relation>eq</relation>
 		<target_text/>
 		<target_option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/yes_no/yes"/>
 	</condition>
-	<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/MethodNotInMaRDIWikidata">
+	<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/reproducibility-other-platform">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>MethodNotInMaRDIWikidata</uri_path>
+		<uri_path>reproducibility-other-platform</uri_path>
 		<dc:comment/>
-		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/MethodQID"/>
-		<relation>empty</relation>
-		<target_text/>
-		<target_option/>
-	</condition>
-	<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/Methods">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>Methods</uri_path>
-		<dc:comment/>
-		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Methods_hidden"/>
-		<relation>eq</relation>
-		<target_text>1</target_text>
-		<target_option/>
-	</condition>
-	<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/OriginalHardwareReproducibility">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>OriginalHardwareReproducibility</uri_path>
-		<dc:comment/>
-		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/OriginalHardwareReproducibility"/>
+		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/reproducibility/other-platform"/>
 		<relation>eq</relation>
 		<target_text/>
 		<target_option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/yes_no/yes"/>
 	</condition>
-	<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/OtherHardwareReproducibility">
+	<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/reproducibility-result">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>OtherHardwareReproducibility</uri_path>
+		<uri_path>reproducibility-result</uri_path>
 		<dc:comment/>
-		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/OtherHardwareReproducibility"/>
+		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/reproducibility/result"/>
 		<relation>eq</relation>
 		<target_text/>
 		<target_option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/yes_no/yes"/>
 	</condition>
-	<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/Preview">
+	<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/reproducibility-runtime">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>Preview</uri_path>
+		<uri_path>reproducibility-runtime</uri_path>
 		<dc:comment/>
-		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/ExportType"/>
-		<relation>eq</relation>
-		<target_text/>
-		<target_option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/ExportType/Public"/>
-	</condition>
-	<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/ProcessSteps">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>ProcessSteps</uri_path>
-		<dc:comment/>
-		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/ProcessSteps_hidden"/>
-		<relation>eq</relation>
-		<target_text>1</target_text>
-		<target_option/>
-	</condition>
-	<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/Publication">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>Publication</uri_path>
-		<dc:comment/>
-		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Publication_hidden"/>
-		<relation>eq</relation>
-		<target_text>1</target_text>
-		<target_option/>
-	</condition>
-	<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/PublicationInformation">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>PublicationInformation</uri_path>
-		<dc:comment/>
-		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/PublicationInformation"/>
-		<relation>eq</relation>
-		<target_text>1</target_text>
-		<target_option/>
-	</condition>
-	<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/PublicationNotInMathModDB">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>PublicationNotInMathModDB</uri_path>
-		<dc:comment/>
-		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/PublicationMathModDBID"/>
-		<relation>eq</relation>
-		<target_text>not in MathModDB</target_text>
-		<target_option/>
-	</condition>
-	<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/QuantityNotInMaRDIWikidata">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>QuantityNotInMaRDIWikidata</uri_path>
-		<dc:comment/>
-		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/QuantityOrQuantityKindQID"/>
-		<relation>empty</relation>
-		<target_text/>
-		<target_option/>
-	</condition>
-	<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/QuantityOrQuantityKind">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>QuantityOrQuantityKind</uri_path>
-		<dc:comment/>
-		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/QuantityOrQuantityKind_hidden"/>
-		<relation>eq</relation>
-		<target_text>1</target_text>
-		<target_option/>
-	</condition>
-	<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/QuantityOrQuantityKindNotInMathModDB">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>QuantityOrQuantityKindNotInMathModDB</uri_path>
-		<dc:comment/>
-		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/QuantityOrQuantityKindMathModDBID"/>
-		<relation>eq</relation>
-		<target_text>not in MathModDB</target_text>
-		<target_option/>
-	</condition>
-	<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/Reproducibility">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>Reproducibility</uri_path>
-		<dc:comment/>
-		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Reproducibility"/>
-		<relation>eq</relation>
-		<target_text>1</target_text>
-		<target_option/>
-	</condition>
-	<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/ResearchField">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>ResearchField</uri_path>
-		<dc:comment/>
-		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/ResearchField_hidden"/>
-		<relation>eq</relation>
-		<target_text>1</target_text>
-		<target_option/>
-	</condition>
-	<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/ResearchFieldNotInMaRDIWikidata">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>ResearchFieldNotInMaRDIWikidata</uri_path>
-		<dc:comment/>
-		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/ResearchFieldQID"/>
-		<relation>empty</relation>
-		<target_text/>
-		<target_option/>
-	</condition>
-	<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/ResearchFieldNotInMathModDB">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>ResearchFieldNotInMathModDB</uri_path>
-		<dc:comment/>
-		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/ResearchFieldMathModDBID"/>
-		<relation>eq</relation>
-		<target_text>not in MathModDB</target_text>
-		<target_option/>
-	</condition>
-	<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/ResearchProblem">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>ResearchProblem</uri_path>
-		<dc:comment/>
-		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/ResearchProblem_hidden"/>
-		<relation>eq</relation>
-		<target_text>1</target_text>
-		<target_option/>
-	</condition>
-	<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/ResearchProblemNotInMaRDIWikidata">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>ResearchProblemNotInMaRDIWikidata</uri_path>
-		<dc:comment/>
-		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/ResearchProblemQID"/>
-		<relation>empty</relation>
-		<target_text/>
-		<target_option/>
-	</condition>
-	<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/ResearchProblemNotInMathModDB">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>ResearchProblemNotInMathModDB</uri_path>
-		<dc:comment/>
-		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/ResearchProblemMathModDBID"/>
-		<relation>eq</relation>
-		<target_text>not in MathModDB</target_text>
-		<target_option/>
-	</condition>
-	<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/ResultReproducibility">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>ResultReproducibility</uri_path>
-		<dc:comment/>
-		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/ResultReproducibility"/>
+		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/reproducibility/runtime"/>
 		<relation>eq</relation>
 		<target_text/>
 		<target_option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/yes_no/yes"/>
 	</condition>
-	<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/RuntimeReproducibility">
+	<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/via-algorithmic-problem">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>RuntimeReproducibility</uri_path>
+		<uri_path>via-algorithmic-problem</uri_path>
 		<dc:comment/>
-		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/RuntimeReproducibility"/>
+		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/search/algorithm-search/via-algorithmic-problem"/>
 		<relation>eq</relation>
 		<target_text/>
 		<target_option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/yes_no/yes"/>
 	</condition>
-	<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/SearchViaResearchDiscipline">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>SearchViaResearchDiscipline</uri_path>
+	<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/via-model-entity">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms/</uri_prefix>
+		<uri_path>via-model-entity</uri_path>
 		<dc:comment/>
-		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/SearchViaResearchDiscipline"/>
+		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/search/model-search/via-model-entity"/>
 		<relation>eq</relation>
 		<target_text/>
 		<target_option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/yes_no/yes"/>
 	</condition>
-	<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/SearchViaResearchObjectives">
+	<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/via-research-discipline">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>SearchViaResearchObjectives</uri_path>
+		<uri_path>via-research-discipline</uri_path>
 		<dc:comment/>
-		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/SearchViaResearchObjective"/>
+		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/search/workflow-search/via-research-discipline"/>
 		<relation>eq</relation>
 		<target_text/>
 		<target_option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/yes_no/yes"/>
 	</condition>
-	<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/SearchViaWorkflowEntity">
+	<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/via-research-field">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>SearchViaWorkflowEntity</uri_path>
+		<uri_path>via-research-field</uri_path>
 		<dc:comment/>
-		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/SearchViaWorkflowEntity"/>
+		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/search/model-search/via-research-field"/>
 		<relation>eq</relation>
 		<target_text/>
 		<target_option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/yes_no/yes"/>
 	</condition>
-	<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/Software">
+	<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/via-research-objective">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>Software</uri_path>
+		<uri_path>via-research-objective</uri_path>
 		<dc:comment/>
-		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Software_hidden"/>
-		<relation>eq</relation>
-		<target_text>1</target_text>
-		<target_option/>
-	</condition>
-	<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/SoftwareNotInMaRDIWikidata">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>SoftwareNotInMaRDIWikidata</uri_path>
-		<dc:comment/>
-		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/SoftwareQID"/>
-		<relation>empty</relation>
-		<target_text/>
-		<target_option/>
-	</condition>
-	<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/Task">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>Task</uri_path>
-		<dc:comment/>
-		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/Task_hidden"/>
-		<relation>eq</relation>
-		<target_text>1</target_text>
-		<target_option/>
-	</condition>
-	<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/TaskNotInMaRDIWikidata">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>TaskNotInMaRDIWikidata</uri_path>
-		<dc:comment/>
-		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/TaskQID"/>
-		<relation>empty</relation>
-		<target_text/>
-		<target_option/>
-	</condition>
-	<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/TaskNotInMathModDB">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>TaskNotInMathModDB</uri_path>
-		<dc:comment/>
-		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/TaskMathModDBID"/>
-		<relation>eq</relation>
-		<target_text>not in MathModDB</target_text>
-		<target_option/>
-	</condition>
-	<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/TaskWorkflowRelevant">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>TaskWorkflowRelevant</uri_path>
-		<dc:comment/>
-		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/TaskWorkflowRelevant"/>
-		<relation>eq</relation>
-		<target_text>1</target_text>
-		<target_option/>
-	</condition>
-	<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/WorkflowDocumentation">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>WorkflowDocumentation</uri_path>
-		<dc:comment/>
-		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/DocumentationType"/>
+		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/search/workflow-search/via-research-objective"/>
 		<relation>eq</relation>
 		<target_text/>
-		<target_option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/DocumentationType/Workflow"/>
+		<target_option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/yes_no/yes"/>
 	</condition>
-	<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/WorkflowSearch">
+	<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/via-research-problem">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>WorkflowSearch</uri_path>
+		<uri_path>via-research-problem</uri_path>
 		<dc:comment/>
-		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/WorkflowSearch"/>
-		<relation>eq</relation>
-		<target_text>1</target_text>
-		<target_option/>
-	</condition>
-	<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/WorkflowType">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>WorkflowType</uri_path>
-		<dc:comment/>
-		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/WorkflowType"/>
+		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/search/model-search/via-research-problem"/>
 		<relation>eq</relation>
 		<target_text/>
-		<target_option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/WorkflowType/Computational"/>
+		<target_option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/yes_no/yes"/>
+	</condition>
+	<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/via-software">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>via-software</uri_path>
+		<dc:comment/>
+		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/search/algorithm-search/via-software"/>
+		<relation>eq</relation>
+		<target_text/>
+		<target_option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/yes_no/yes"/>
+	</condition>
+	<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/via-workflow-entity">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>via-workflow-entity</uri_path>
+		<dc:comment/>
+		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/search/workflow-search/via-workflow-entity"/>
+		<relation>eq</relation>
+		<target_text/>
+		<target_option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/yes_no/yes"/>
+	</condition>
+	<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/workflow-search">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>workflow-search</uri_path>
+		<dc:comment/>
+		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/search/options"/>
+		<relation>eq</relation>
+		<target_text/>
+		<target_option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/search-options/interdisciplinary-workflow"/>
 	</condition>
 </rdmo>

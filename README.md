@@ -9,8 +9,11 @@ This repository contains the questionnaire for the [MaRDMO-Export-Plugin](https:
 ├── catalog - Questionnaire Files 
 │   ├── conditions.xml - individual conditions of Questionnaire 
 │   ├── attributes.xml - individual domains of Questionnaire 
-│   ├── optionsets.xml - individual options of Questionnaire 
-│   └── catalogs.xml - individual questions for Questionnaire 
+│   ├── optionsets.xml - individual options of Questionnaire
+│   ├── mardmo-model-catalog.xml - Model Questionnaire
+│   ├── mardmo-algorithm-catalog.xml - Algorithm Questionnaire
+│   ├── mardmo-interdisciplinary-workflow-catalog.xml - Interdisciplinary Workflow Questionnaire 
+│   └── mardmo-search-catalog.xml - Search Questionnaire
 │ 
 └── LICENSE.md 
 ```
