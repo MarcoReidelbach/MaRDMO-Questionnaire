@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2025-03-24T15:28:57.151206+01:00" version="2.2.1">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2025-04-27T11:50:53.432759+02:00" required="2.1.0" version="2.3.0rc2">
 	<catalog dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo-algorithm-catalog">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms/</uri_prefix>
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mardmo-algorithm-catalog</uri_path>
 		<dc:comment/>
 		<order>0</order>
@@ -15,7 +15,7 @@
 		</sections>
 	</catalog>
 	<section dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/algorithm">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms/</uri_prefix>
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mardmo/algorithm</uri_path>
 		<dc:comment/>
 		<title lang="en">Algorithm</title>
@@ -30,7 +30,7 @@
 		</pages>
 	</section>
 	<page dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/algorithm/algorithm">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms/</uri_prefix>
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mardmo/algorithm/algorithm</uri_path>
 		<dc:comment/>
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/algorithm"/>
@@ -144,7 +144,7 @@
 		<verbose_name lang="de"/>
 		<default_option/>
 		<default_external_id/>
-		<widget_type>autocomplete</widget_type>
+		<widget_type>select</widget_type>
 		<value_type>text</value_type>
 		<maximum/>
 		<minimum/>
@@ -173,7 +173,7 @@
 		<verbose_name lang="de"/>
 		<default_option/>
 		<default_external_id/>
-		<widget_type>autocomplete</widget_type>
+		<widget_type>select</widget_type>
 		<value_type>text</value_type>
 		<maximum/>
 		<minimum/>
@@ -250,7 +250,7 @@
 		<verbose_name lang="de"/>
 		<default_option/>
 		<default_external_id/>
-		<widget_type>autocomplete</widget_type>
+		<widget_type>select</widget_type>
 		<value_type>text</value_type>
 		<maximum/>
 		<minimum/>
@@ -263,7 +263,7 @@
 		<conditions/>
 	</question>
 	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/algorithm/algorithm/id">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms/</uri_prefix>
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mardmo/algorithm/algorithm/id</uri_path>
 		<dc:comment/>
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/algorithm/id"/>
@@ -279,7 +279,7 @@
 		<verbose_name lang="de"/>
 		<default_option/>
 		<default_external_id/>
-		<widget_type>autocomplete</widget_type>
+		<widget_type>select</widget_type>
 		<value_type>text</value_type>
 		<maximum/>
 		<minimum/>
@@ -405,7 +405,7 @@
 		<verbose_name lang="de"/>
 		<default_option/>
 		<default_external_id/>
-		<widget_type>autocomplete</widget_type>
+		<widget_type>select</widget_type>
 		<value_type>text</value_type>
 		<maximum/>
 		<minimum/>
@@ -482,7 +482,7 @@
 		<verbose_name lang="de"/>
 		<default_option/>
 		<default_external_id/>
-		<widget_type>autocomplete</widget_type>
+		<widget_type>select</widget_type>
 		<value_type>text</value_type>
 		<maximum/>
 		<minimum/>
@@ -495,7 +495,7 @@
 		<conditions/>
 	</question>
 	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/algorithm/problem/id">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms/</uri_prefix>
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mardmo/algorithm/problem/id</uri_path>
 		<dc:comment/>
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/problem/id"/>
@@ -511,7 +511,7 @@
 		<verbose_name lang="de"/>
 		<default_option/>
 		<default_external_id/>
-		<widget_type>autocomplete</widget_type>
+		<widget_type>select</widget_type>
 		<value_type>text</value_type>
 		<maximum/>
 		<minimum/>
@@ -666,7 +666,7 @@
 		<verbose_name lang="de"/>
 		<default_option/>
 		<default_external_id/>
-		<widget_type>autocomplete</widget_type>
+		<widget_type>select</widget_type>
 		<value_type>text</value_type>
 		<maximum/>
 		<minimum/>
@@ -679,7 +679,7 @@
 		<conditions/>
 	</question>
 	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/algorithm/software/id">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms/</uri_prefix>
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mardmo/algorithm/software/id</uri_path>
 		<dc:comment/>
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/software/id"/>
@@ -695,7 +695,7 @@
 		<verbose_name lang="de"/>
 		<default_option/>
 		<default_external_id/>
-		<widget_type>autocomplete</widget_type>
+		<widget_type>select</widget_type>
 		<value_type>text</value_type>
 		<maximum/>
 		<minimum/>
@@ -833,7 +833,7 @@
 		<conditions/>
 	</question>
 	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/algorithm/benchmark/id">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms/</uri_prefix>
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mardmo/algorithm/benchmark/id</uri_path>
 		<dc:comment/>
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/benchmark/id"/>
@@ -849,7 +849,7 @@
 		<verbose_name lang="de"/>
 		<default_option/>
 		<default_external_id/>
-		<widget_type>autocomplete</widget_type>
+		<widget_type>select</widget_type>
 		<value_type>text</value_type>
 		<maximum/>
 		<minimum/>
@@ -919,7 +919,7 @@
 		<conditions/>
 	</questionset>
 	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/publication/algorithm-relation">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms/</uri_prefix>
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mardmo/publication/algorithm-relation</uri_path>
 		<dc:comment/>
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/publication/algorithm-relation"/>
@@ -948,7 +948,7 @@
 		<conditions/>
 	</question>
 	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/publication/algorithm-relatant">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms/</uri_prefix>
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mardmo/publication/algorithm-relatant</uri_path>
 		<dc:comment/>
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/publication/algorithm-relatant"/>
@@ -964,7 +964,7 @@
 		<verbose_name lang="de"/>
 		<default_option/>
 		<default_external_id/>
-		<widget_type>autocomplete</widget_type>
+		<widget_type>select</widget_type>
 		<value_type>text</value_type>
 		<maximum/>
 		<minimum/>
@@ -996,7 +996,7 @@
 		<conditions/>
 	</questionset>
 	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/publication/benchmark-relation">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms/</uri_prefix>
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mardmo/publication/benchmark-relation</uri_path>
 		<dc:comment/>
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/publication/benchmark-relation"/>
@@ -1041,7 +1041,7 @@
 		<verbose_name lang="de"/>
 		<default_option/>
 		<default_external_id/>
-		<widget_type>autocomplete</widget_type>
+		<widget_type>select</widget_type>
 		<value_type>text</value_type>
 		<maximum/>
 		<minimum/>
@@ -1073,7 +1073,7 @@
 		<conditions/>
 	</questionset>
 	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/publication/software-relation">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms/</uri_prefix>
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mardmo/publication/software-relation</uri_path>
 		<dc:comment/>
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/publication/software-relation"/>
@@ -1118,7 +1118,7 @@
 		<verbose_name lang="de"/>
 		<default_option/>
 		<default_external_id/>
-		<widget_type>autocomplete</widget_type>
+		<widget_type>select</widget_type>
 		<value_type>text</value_type>
 		<maximum/>
 		<minimum/>
@@ -1147,7 +1147,7 @@
 		<verbose_name lang="de"/>
 		<default_option/>
 		<default_external_id/>
-		<widget_type>autocomplete</widget_type>
+		<widget_type>select</widget_type>
 		<value_type>text</value_type>
 		<maximum/>
 		<minimum/>
