@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2025-04-30T23:16:42.943978+02:00" required="2.1.0" version="2.3.0">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2025-05-02T13:24:08.072014+02:00" required="2.1.0" version="2.3.0">
 	<catalog dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo-model-catalog">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mardmo-model-catalog</uri_path>
@@ -312,7 +312,7 @@
 		<questions>
 			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/model/model-to-model/model-relation" order="0"/>
 			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/model/model-to-model/model-relatant" order="1"/>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/model/model-to-model/model-assumption" order="2"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/model/model-to-model/assumption" order="2"/>
 		</questions>
 		<conditions/>
 	</questionset>
@@ -322,7 +322,7 @@
 		<dc:comment/>
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/model/model-relation"/>
 		<is_collection>False</is_collection>
-		<is_optional>False</is_optional>
+		<is_optional>True</is_optional>
 		<help lang="en"/>
 		<text lang="en">The Mathematical Model...</text>
 		<default_text lang="en"/>
@@ -351,7 +351,7 @@
 		<dc:comment/>
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/model/model-relatant"/>
 		<is_collection>False</is_collection>
-		<is_optional>False</is_optional>
+		<is_optional>True</is_optional>
 		<help lang="en">For all mathematical models &quot;label (description) [source]&quot; is provided.</help>
 		<text lang="en">...another Mathematical Model.</text>
 		<default_text lang="en"/>
@@ -374,13 +374,13 @@
 		</optionsets>
 		<conditions/>
 	</question>
-	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/model/model-to-model/model-assumption">
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/model/model-to-model/assumption">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>mardmo/model/model/model-to-model/model-assumption</uri_path>
+		<uri_path>mardmo/model/model/model-to-model/assumption</uri_path>
 		<dc:comment/>
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/model/model-assumption"/>
 		<is_collection>True</is_collection>
-		<is_optional>False</is_optional>
+		<is_optional>True</is_optional>
 		<help lang="en"/>
 		<text lang="en">Assumption to reduce the general Mathematical Model to its specialized form.</text>
 		<default_text lang="en"/>
@@ -441,11 +441,11 @@
 		<dc:comment/>
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/task"/>
 		<is_collection>True</is_collection>
-		<title lang="en">Task</title>
+		<title lang="en">Computational Task</title>
 		<short_title lang="en"/>
 		<help lang="en">Select, define and relate tasks.</help>
 		<verbose_name lang="en"/>
-		<title lang="de">Aufgabe</title>
+		<title lang="de">Berechnungsaufgabe</title>
 		<short_title lang="de"/>
 		<help lang="de">Wählen, definieren und verknüpfen Sie Aufgaben.</help>
 		<verbose_name lang="de"/>
@@ -464,10 +464,10 @@
 		<dc:comment/>
 		<attribute/>
 		<is_collection>False</is_collection>
-		<title lang="en">Task Information</title>
+		<title lang="en">Computational Task Information</title>
 		<help lang="en"/>
 		<verbose_name lang="en"/>
-		<title lang="de">Aufgaben Informationen</title>
+		<title lang="de">Berechnungsaufgabe Informationen</title>
 		<help lang="de"/>
 		<verbose_name lang="de"/>
 		<questionsets>
@@ -478,8 +478,6 @@
 			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task/name" order="0"/>
 			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task/description" order="1"/>
 			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task/properties" order="2"/>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task/category" order="3"/>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task/model-relatant" order="4"/>
 		</questions>
 		<conditions/>
 	</questionset>
@@ -510,11 +508,11 @@
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en"/>
-		<text lang="en">The Task...</text>
+		<text lang="en">The Computational Task...</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de"/>
-		<text lang="de">Die Aufgabe...</text>
+		<text lang="de">Die Berechnungsaufgabe...</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
@@ -548,7 +546,7 @@
 		<verbose_name lang="de"/>
 		<default_option/>
 		<default_external_id/>
-		<widget_type>select</widget_type>
+		<widget_type>select_creatable</widget_type>
 		<value_type>text</value_type>
 		<maximum/>
 		<minimum/>
@@ -587,11 +585,11 @@
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en"/>
-		<text lang="en">The Task...</text>
+		<text lang="en">The Computational Task...</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de"/>
-		<text lang="de">Die Aufgabe...</text>
+		<text lang="de">Die Berechnungsaufgabe...</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
@@ -615,7 +613,7 @@
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/task/quantity-relatant"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">For all quantity or quantity kind &quot;label (description) [source]&quot; is provided.</help>
+		<help lang="en">For all quantities or quantity kinds &quot;label (description) [source]&quot; is provided.</help>
 		<text lang="en">...a Quantity / Quantity Kind.</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
@@ -625,7 +623,7 @@
 		<verbose_name lang="de"/>
 		<default_option/>
 		<default_external_id/>
-		<widget_type>select</widget_type>
+		<widget_type>select_creatable</widget_type>
 		<value_type>text</value_type>
 		<maximum/>
 		<minimum/>
@@ -633,7 +631,7 @@
 		<unit/>
 		<width/>
 		<optionsets>
-			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/quantity-or-quantity-kind-relatant"/>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/quantity-or-quantity-kind-relatant-with-creation"/>
 		</optionsets>
 		<conditions/>
 	</question>
@@ -645,11 +643,11 @@
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en"/>
-		<text lang="en">Name of the Task</text>
+		<text lang="en">Name of the Computational Task</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de"/>
-		<text lang="de">Name der Aufgabe</text>
+		<text lang="de">Name der Berechnungsufgabe</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
@@ -672,11 +670,11 @@
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en"/>
-		<text lang="en">Description of the Task</text>
+		<text lang="en">Description of the Computational Task</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de"/>
-		<text lang="de">Beschreibung der Aufgabe</text>
+		<text lang="de">Beschreibung der Berechnungsaufgabe</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
@@ -699,16 +697,16 @@
 		<is_collection>True</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en"/>
-		<text lang="en">Properties of the Task</text>
+		<text lang="en">Properties of the Computational Task</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de"/>
-		<text lang="de">Eigenschaften der Aufgabe</text>
+		<text lang="de">Eigenschaften der Berechnungsaufgabe</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
 		<default_external_id/>
-		<widget_type>checkbox</widget_type>
+		<widget_type>select</widget_type>
 		<value_type>text</value_type>
 		<maximum/>
 		<minimum/>
@@ -720,96 +718,39 @@
 		</optionsets>
 		<conditions/>
 	</question>
-	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task/category">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>mardmo/model/task/category</uri_path>
-		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/task/category"/>
-		<is_collection>False</is_collection>
-		<is_optional>False</is_optional>
-		<help lang="en"/>
-		<text lang="en">Task Category</text>
-		<default_text lang="en"/>
-		<verbose_name lang="en"/>
-		<help lang="de"/>
-		<text lang="de">Aufgabenkategorie</text>
-		<default_text lang="de"/>
-		<verbose_name lang="de"/>
-		<default_option/>
-		<default_external_id/>
-		<widget_type>radio</widget_type>
-		<value_type>text</value_type>
-		<maximum/>
-		<minimum/>
-		<step/>
-		<unit/>
-		<width/>
-		<optionsets>
-			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/task-category"/>
-		</optionsets>
-		<conditions/>
-	</question>
-	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task/model-relatant">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>mardmo/model/task/model-relatant</uri_path>
-		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/task/model-relatant"/>
-		<is_collection>True</is_collection>
-		<is_optional>False</is_optional>
-		<help lang="en">For all mathematical models &quot;label (description) [source]&quot; is provided.</help>
-		<text lang="en">Mathematical Model applied by the Task.</text>
-		<default_text lang="en"/>
-		<verbose_name lang="en"/>
-		<help lang="de">Für alle mathematischen Modelle wird „Name (Beschreibung) [Quelle]“ angegeben.</help>
-		<text lang="de">Mathematische Modell das durch die Aufgabe angewandt wird</text>
-		<default_text lang="de"/>
-		<verbose_name lang="de"/>
-		<default_option/>
-		<default_external_id/>
-		<widget_type>select</widget_type>
-		<value_type>text</value_type>
-		<maximum/>
-		<minimum/>
-		<step/>
-		<unit/>
-		<width/>
-		<optionsets>
-			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/model-relatant-without-creation"/>
-		</optionsets>
-		<conditions/>
-	</question>
 	<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task/task-to-task">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mardmo/model/task/task-to-task</uri_path>
 		<dc:comment/>
 		<attribute/>
 		<is_collection>True</is_collection>
-		<title lang="en">Task Relations</title>
+		<title lang="en">Computational Task Relations</title>
 		<help lang="en"/>
 		<verbose_name lang="en"/>
-		<title lang="de">Aufgabe Beziehungen</title>
+		<title lang="de">Berechnungsaufgabe Beziehungen</title>
 		<help lang="de"/>
 		<verbose_name lang="de"/>
 		<questionsets/>
 		<questions>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task/task-relation" order="0"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task/task-to-task/relation" order="0"/>
 			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task/task-to-task/relatant" order="1"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task/task-to-task/assumption" order="2"/>
 		</questions>
 		<conditions/>
 	</questionset>
-	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task/task-relation">
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task/task-to-task/relation">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>mardmo/model/task/task-relation</uri_path>
+		<uri_path>mardmo/model/task/task-to-task/relation</uri_path>
 		<dc:comment/>
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/task/task-relation"/>
 		<is_collection>False</is_collection>
 		<is_optional>True</is_optional>
 		<help lang="en"/>
-		<text lang="en">The Task...</text>
+		<text lang="en">The Computational Task...</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de"/>
-		<text lang="de">Die Aufgabe...</text>
+		<text lang="de">Die Berechnungsaufgabe...</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
@@ -822,7 +763,7 @@
 		<unit/>
 		<width/>
 		<optionsets>
-			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/task-to-task-relation"/>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/task-relation"/>
 		</optionsets>
 		<conditions/>
 	</question>
@@ -833,8 +774,8 @@
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/task/task-relatant"/>
 		<is_collection>False</is_collection>
 		<is_optional>True</is_optional>
-		<help lang="en">For all tasks &quot;label (description) [source]&quot; is provided.</help>
-		<text lang="en">...another Task.</text>
+		<help lang="en">For all computational tasks &quot;label (description) [source]&quot; is provided.</help>
+		<text lang="en">...another Computational Task.</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de">Für alle Aufgaben wird „Name (Beschreibung) [Quelle]“ angegeben.</help>
@@ -851,9 +792,41 @@
 		<unit/>
 		<width/>
 		<optionsets>
-			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/task-relatant-with-creation"/>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/task-relatant-without-creation"/>
 		</optionsets>
 		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task/task-to-task/assumption">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/model/task/task-to-task/assumption</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/task/task-assumption"/>
+		<is_collection>True</is_collection>
+		<is_optional>True</is_optional>
+		<help lang="en"/>
+		<text lang="en">Assumption to reduce the general Computational Task to its specialized form.</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Annahme zur Reduzierung der allgemeinen Berechnungsaufgabe auf seine spezielle Form.</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>select_creatable</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/formulation-relatant-with-creation"/>
+		</optionsets>
+		<conditions>
+			<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/specialized-by-task"/>
+			<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/specializes-task"/>
+		</conditions>
 	</question>
 	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task/id">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
@@ -862,12 +835,12 @@
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/task/id"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">For all tasks &quot;label (description) [source]&quot; is provided. If a task is chosen, WAIT until further information are added to the questionnaire. If no appropriate task is present in MathModDB, the MaRDI Portal or Wikidata, choose 'not found'.</help>
-		<text lang="en">Select a Task related to the Mathematical Model!</text>
+		<help lang="en">For all computational tasks &quot;label (description) [source]&quot; is provided. If a computational task is chosen, WAIT until further information are added to the questionnaire. If no appropriate computational task is present in the MaRDI Portal or Wikidata, choose 'not found'.</help>
+		<text lang="en">Select a Computational Task related to the Mathematical Model!</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">Für alle Aufgabe wird „Name (Beschreibung) [Quelle]“ angegeben. Wenn eine Aufgabe ausgewählt wird, WARTEN Sie, bis weitere Informationen zum Fragebogen hinzugefügt werden. Falls keine passende Aufgabe in MathModDB, dem MaRDI-Portal oder Wikidata vorhanden ist, wählen Sie „not found“.</help>
-		<text lang="de">Wählen Sie eine Aufgabe die mit dem mathematischen Modell im Zusammenhang steht!</text>
+		<help lang="de">Für alle Berechnungsaufgaben wird „Name (Beschreibung) [Quelle]“ angegeben. Wenn eine Berechnungsaufgabe ausgewählt wird, WARTEN Sie, bis weitere Informationen zum Fragebogen hinzugefügt werden. Falls keine passende Berechnungsaufgabe im MaRDI-Portal oder Wikidata vorhanden ist, wählen Sie „not found“.</help>
+		<text lang="de">Wählen Sie eine Berechnungsaufgabe die mit dem mathematischen Modell im Zusammenhang steht!</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
@@ -1004,7 +977,7 @@
 		<unit/>
 		<width/>
 		<optionsets>
-			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/quantity-or-quantity-kind-relatant"/>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/quantity-or-quantity-kind-relatant-with-creation"/>
 		</optionsets>
 		<conditions/>
 	</question>
@@ -1222,7 +1195,7 @@
 		<unit/>
 		<width/>
 		<optionsets>
-			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/quantity-or-quantity-kind-relatant"/>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/quantity-or-quantity-kind-relatant-with-creation"/>
 		</optionsets>
 		<conditions>
 			<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/is-definition"/>
@@ -1339,11 +1312,11 @@
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/formulation/id"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">For all mathematical formulations &quot;label (description) [source]&quot; is provided. If a mathematical formulations is chosen, WAIT until further information are added to the questionnaire. If no appropriate mathematical formulation is present in MathModDB, the MaRDI Portal or Wikidata, choose 'not found'.</help>
+		<help lang="en">For all mathematical formulations &quot;label (description) [source]&quot; is provided. If a mathematical formulations is chosen, WAIT until further information are added to the questionnaire. If no appropriate mathematical formulation is present in the MaRDI Portal or Wikidata, choose 'not found'.</help>
 		<text lang="en">Select a Mathematical Formulation related to the Mathematical Model!</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">Für alle mathematischen Formulierungen wird „Name (Beschreibung) [Quelle]“ angegeben. Wenn eine mathematische Formulierung ausgewählt wird, WARTEN Sie, bis weitere Informationen zum Fragebogen hinzugefügt werden. Falls keine passende mathematische Formulierung in MathModDB, dem MaRDI-Portal oder Wikidata vorhanden ist, wählen Sie „not found“.</help>
+		<help lang="de">Für alle mathematischen Formulierungen wird „Name (Beschreibung) [Quelle]“ angegeben. Wenn eine mathematische Formulierung ausgewählt wird, WARTEN Sie, bis weitere Informationen zum Fragebogen hinzugefügt werden. Falls keine passende mathematische Formulierung im MaRDI-Portal oder Wikidata vorhanden ist, wählen Sie „not found“.</help>
 		<text lang="de">Wählen Sie eine mathematische Formulierung die mit dem mathematischen Modell im Zusammenhang steht!</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -2477,7 +2450,7 @@
 			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/formulation-relatant-with-creation"/>
 			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/model-relatant-without-creation"/>
 			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/problem-relatant-with-creation"/>
-			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/quantity-or-quantity-kind-relatant"/>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/quantity-or-quantity-kind-relatant-with-creation"/>
 			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/task-relatant-with-creation"/>
 		</optionsets>
 		<conditions/>

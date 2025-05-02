@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2025-04-30T23:15:42.893700+02:00" required="2.1.0" version="2.3.0">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2025-05-02T13:23:38.328275+02:00" required="2.1.0" version="2.3.0">
 	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/algorithm">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>algorithm</uri_path>
@@ -1804,11 +1804,11 @@
 		<options/>
 		<conditions/>
 	</optionset>
-	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/quantity-or-quantity-kind-relatant">
+	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/quantity-or-quantity-kind-relatant-with-creation">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>quantity-or-quantity-kind-relatant</uri_path>
+		<uri_path>quantity-or-quantity-kind-relatant-with-creation</uri_path>
 		<dc:comment/>
-		<provider_key>RelatedQuantityOrQuantityKind</provider_key>
+		<provider_key>RelatedQuantityOrQuantityKindWithCreation</provider_key>
 		<options/>
 		<conditions/>
 	</optionset>
@@ -2145,6 +2145,34 @@
 		<options/>
 		<conditions/>
 	</optionset>
+	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/task-relatant-without-creation">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>task-relatant-without-creation</uri_path>
+		<dc:comment/>
+		<provider_key>RelatedTaskWithoutCreation</provider_key>
+		<options/>
+		<conditions/>
+	</optionset>
+	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/task-relation">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>task-relation</uri_path>
+		<dc:comment/>
+		<provider_key/>
+		<options>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/approximates" order="0"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/approximated-by" order="1"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/contains" order="2"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/contained-in" order="3"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/discretizes" order="4"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/discretized-by" order="5"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/linearizes" order="6"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/linearized-by" order="7"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/similar-to" order="8"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/specializes" order="9"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/specialized-by" order="10"/>
+		</options>
+		<conditions/>
+	</optionset>
 	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/task-to-formulation-relation">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>task-to-formulation-relation</uri_path>
@@ -2152,12 +2180,12 @@
 		<provider_key/>
 		<options>
 			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/assumes" order="0"/>
-			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/containsBoundaryCondition" order="1"/>
-			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/containsConstraintCondition" order="2"/>
-			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/containsCouplingCondition" order="3"/>
-			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/containsFormulation" order="4"/>
-			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/containsInitialCondition" order="5"/>
-			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/containsFinalCondition" order="6"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/contains-boundary-condition" order="7"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/contains-constraint-condition" order="8"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/contains-coupling-condition" order="9"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/contains" order="10"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/contains-initial-condition" order="11"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/contains-final-condition" order="12"/>
 		</options>
 		<conditions/>
 	</optionset>
@@ -2167,17 +2195,17 @@
 		<dc:comment/>
 		<provider_key/>
 		<options>
-			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/containsInput" order="1"/>
-			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/containsOutput" order="2"/>
-			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/containsObjective" order="3"/>
-			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/containsParameter" order="4"/>
-			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/containsConstant" order="5"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/contains-input" order="0"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/contains-constant" order="1"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/contains-objective" order="2"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/contains-output" order="3"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/contains-parameter" order="4"/>
 		</options>
 		<conditions/>
 	</optionset>
-	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/containsInput">
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/contains-input">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>MathModDB/containsInput</uri_path>
+		<uri_path>mathmoddb/contains-input</uri_path>
 		<dc:comment/>
 		<text lang="en">contains as input</text>
 		<help lang="en"/>
@@ -2189,51 +2217,9 @@
 		<view_text lang="de"/>
 		<additional_input/>
 	</option>
-	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/containsOutput">
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/contains-constant">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>MathModDB/containsOutput</uri_path>
-		<dc:comment/>
-		<text lang="en">contains as output</text>
-		<help lang="en"/>
-		<default_text lang="en"/>
-		<view_text lang="en"/>
-		<text lang="de">beinhaltet als Ausgabe</text>
-		<help lang="de"/>
-		<default_text lang="de"/>
-		<view_text lang="de"/>
-		<additional_input/>
-	</option>
-	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/containsObjective">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>MathModDB/containsObjective</uri_path>
-		<dc:comment/>
-		<text lang="en">contains as objective</text>
-		<help lang="en"/>
-		<default_text lang="en"/>
-		<view_text lang="en"/>
-		<text lang="de">beinhaltet als Zielgröße</text>
-		<help lang="de"/>
-		<default_text lang="de"/>
-		<view_text lang="de"/>
-		<additional_input/>
-	</option>
-	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/containsParameter">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>MathModDB/containsParameter</uri_path>
-		<dc:comment/>
-		<text lang="en">contains as parameter</text>
-		<help lang="en"/>
-		<default_text lang="en"/>
-		<view_text lang="en"/>
-		<text lang="de">beinhaltet als Parameter</text>
-		<help lang="de"/>
-		<default_text lang="de"/>
-		<view_text lang="de"/>
-		<additional_input/>
-	</option>
-	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/containsConstant">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>MathModDB/containsConstant</uri_path>
+		<uri_path>mathmoddb/contains-constant</uri_path>
 		<dc:comment/>
 		<text lang="en">contains as constant</text>
 		<help lang="en"/>
@@ -2245,175 +2231,43 @@
 		<view_text lang="de"/>
 		<additional_input/>
 	</option>
-	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/task-to-task-relation">
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/contains-objective">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>task-to-task-relation</uri_path>
+		<uri_path>mathmoddb/contains-objective</uri_path>
 		<dc:comment/>
-		<provider_key/>
-		<options>
-			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/generalizedByTask" order="0"/>
-			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/generalizesTask" order="1"/>
-			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/discretizedByTask" order="2"/>
-			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/discretizesTask" order="3"/>
-			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/containedInTask" order="4"/>
-			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/containsTask" order="5"/>
-			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/approximatedByTask" order="6"/>
-			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/approximatesTask" order="7"/>
-			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/linearizedByTask" order="8"/>
-			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/linearizesTask" order="9"/>
-			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/similarToTask" order="10"/>
-		</options>
-		<conditions/>
-	</optionset>
-	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/generalizedByTask">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>MathModDB/generalizedByTask</uri_path>
-		<dc:comment/>
-		<text lang="en">is generalized by</text>
+		<text lang="en">contains as objective</text>
 		<help lang="en"/>
 		<default_text lang="en"/>
 		<view_text lang="en"/>
-		<text lang="de">wird generalisiert durch</text>
+		<text lang="de">beinhaltet als Zielgröße</text>
 		<help lang="de"/>
 		<default_text lang="de"/>
 		<view_text lang="de"/>
 		<additional_input/>
 	</option>
-	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/generalizesTask">
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/contains-output">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>MathModDB/generalizesTask</uri_path>
+		<uri_path>mathmoddb/contains-output</uri_path>
 		<dc:comment/>
-		<text lang="en">generalizes</text>
+		<text lang="en">contains as output</text>
 		<help lang="en"/>
 		<default_text lang="en"/>
 		<view_text lang="en"/>
-		<text lang="de">generalisiert</text>
+		<text lang="de">beinhaltet als Ausgabe</text>
 		<help lang="de"/>
 		<default_text lang="de"/>
 		<view_text lang="de"/>
 		<additional_input/>
 	</option>
-	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/discretizedByTask">
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/contains-parameter">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>MathModDB/discretizedByTask</uri_path>
+		<uri_path>mathmoddb/contains-parameter</uri_path>
 		<dc:comment/>
-		<text lang="en">is discretized by</text>
+		<text lang="en">contains as parameter</text>
 		<help lang="en"/>
 		<default_text lang="en"/>
 		<view_text lang="en"/>
-		<text lang="de">wird diskretisiert durch</text>
-		<help lang="de"/>
-		<default_text lang="de"/>
-		<view_text lang="de"/>
-		<additional_input/>
-	</option>
-	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/discretizesTask">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>MathModDB/discretizesTask</uri_path>
-		<dc:comment/>
-		<text lang="en">discretizes</text>
-		<help lang="en"/>
-		<default_text lang="en"/>
-		<view_text lang="en"/>
-		<text lang="de">diskretisiert</text>
-		<help lang="de"/>
-		<default_text lang="de"/>
-		<view_text lang="de"/>
-		<additional_input/>
-	</option>
-	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/containedInTask">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>MathModDB/containedInTask</uri_path>
-		<dc:comment/>
-		<text lang="en">is contained in</text>
-		<help lang="en"/>
-		<default_text lang="en"/>
-		<view_text lang="en"/>
-		<text lang="de">ist enthalten in</text>
-		<help lang="de"/>
-		<default_text lang="de"/>
-		<view_text lang="de"/>
-		<additional_input/>
-	</option>
-	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/containsTask">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>MathModDB/containsTask</uri_path>
-		<dc:comment/>
-		<text lang="en">contains</text>
-		<help lang="en"/>
-		<default_text lang="en"/>
-		<view_text lang="en"/>
-		<text lang="de">beinhaltet</text>
-		<help lang="de"/>
-		<default_text lang="de"/>
-		<view_text lang="de"/>
-		<additional_input/>
-	</option>
-	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/approximatedByTask">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>MathModDB/approximatedByTask</uri_path>
-		<dc:comment/>
-		<text lang="en">is approximated by</text>
-		<help lang="en"/>
-		<default_text lang="en"/>
-		<view_text lang="en"/>
-		<text lang="de">wird approximiert durch</text>
-		<help lang="de"/>
-		<default_text lang="de"/>
-		<view_text lang="de"/>
-		<additional_input/>
-	</option>
-	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/approximatesTask">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>MathModDB/approximatesTask</uri_path>
-		<dc:comment/>
-		<text lang="en">approximates</text>
-		<help lang="en"/>
-		<default_text lang="en"/>
-		<view_text lang="en"/>
-		<text lang="de">approximiert</text>
-		<help lang="de"/>
-		<default_text lang="de"/>
-		<view_text lang="de"/>
-		<additional_input/>
-	</option>
-	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/linearizedByTask">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>MathModDB/linearizedByTask</uri_path>
-		<dc:comment/>
-		<text lang="en">is linearized by</text>
-		<help lang="en"/>
-		<default_text lang="en"/>
-		<view_text lang="en"/>
-		<text lang="de">wird linearisiert durch</text>
-		<help lang="de"/>
-		<default_text lang="de"/>
-		<view_text lang="de"/>
-		<additional_input/>
-	</option>
-	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/linearizesTask">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>MathModDB/linearizesTask</uri_path>
-		<dc:comment/>
-		<text lang="en">linearizes</text>
-		<help lang="en"/>
-		<default_text lang="en"/>
-		<view_text lang="en"/>
-		<text lang="de">linearisiert</text>
-		<help lang="de"/>
-		<default_text lang="de"/>
-		<view_text lang="de"/>
-		<additional_input/>
-	</option>
-	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/similarToTask">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>MathModDB/similarToTask</uri_path>
-		<dc:comment/>
-		<text lang="en">is similar to</text>
-		<help lang="en"/>
-		<default_text lang="en"/>
-		<view_text lang="en"/>
-		<text lang="de">ist ähnlich zu</text>
+		<text lang="de">beinhaltet als Parameter</text>
 		<help lang="de"/>
 		<default_text lang="de"/>
 		<view_text lang="de"/>
