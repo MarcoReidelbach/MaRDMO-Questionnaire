@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2025-05-02T13:23:31.827155+02:00" required="2.1.0" version="2.3.0">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2025-05-04T06:15:56.729939+02:00" required="2.1.0" version="2.3.0">
 	<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/algorithm-search">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>algorithm-search</uri_path>
@@ -25,7 +25,7 @@
 		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/quantity/is-quantity-or-quantity-kind"/>
 		<relation>eq</relation>
 		<target_text/>
-		<target_option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/Quantity"/>
+		<target_option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/quantity"/>
 	</condition>
 	<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/is-quantity-kind">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
@@ -34,7 +34,7 @@
 		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/quantity/is-quantity-or-quantity-kind"/>
 		<relation>eq</relation>
 		<target_text/>
-		<target_option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/QuantityKind"/>
+		<target_option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/quantitykind"/>
 	</condition>
 	<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/model-search">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
@@ -99,6 +99,15 @@
 		<target_text/>
 		<target_option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/yes_no/yes"/>
 	</condition>
+	<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/specialized-by-formulation">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>specialized-by-formulation</uri_path>
+		<dc:comment/>
+		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/formulation/formulation-relation-2"/>
+		<relation>eq</relation>
+		<target_text/>
+		<target_option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/specialized-by"/>
+	</condition>
 	<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/specialized-by-model">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>specialized-by-model</uri_path>
@@ -116,6 +125,15 @@
 		<relation>eq</relation>
 		<target_text/>
 		<target_option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/specialized-by"/>
+	</condition>
+	<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/specializes-formulation">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>specializes-formulation</uri_path>
+		<dc:comment/>
+		<source dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/formulation/formulation-relation-2"/>
+		<relation>eq</relation>
+		<target_text/>
+		<target_option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/specializes"/>
 	</condition>
 	<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/specializes-model">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
