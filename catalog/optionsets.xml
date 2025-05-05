@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2025-05-04T06:16:01.850727+02:00" required="2.1.0" version="2.3.0">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2025-05-05T13:16:23.148699+02:00" required="2.1.0" version="2.3.0">
 	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/algorithm">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>algorithm</uri_path>
@@ -579,11 +579,11 @@
 		<options/>
 		<conditions/>
 	</optionset>
-	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/field-relatant">
+	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/field-relatant-with-creation">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>field-relatant</uri_path>
+		<uri_path>field-relatant-with-creation</uri_path>
 		<dc:comment/>
-		<provider_key>RelatedResearchField</provider_key>
+		<provider_key>RelatedResearchFieldWithCreation</provider_key>
 		<options/>
 		<conditions/>
 	</optionset>
@@ -1165,7 +1165,7 @@
 		<provider_key/>
 		<options>
 			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/quantity" order="0"/>
-			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/quantitykind" order="1"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/quantity-kind" order="1"/>
 		</options>
 		<conditions/>
 	</optionset>
@@ -1183,9 +1183,9 @@
 		<view_text lang="de"/>
 		<additional_input/>
 	</option>
-	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/quantitykind">
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/quantity-kind">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>mathmoddb/quantitykind</uri_path>
+		<uri_path>mathmoddb/quantity-kind</uri_path>
 		<dc:comment/>
 		<text lang="en">Quantity Kind</text>
 		<help lang="en"/>
@@ -1338,54 +1338,12 @@
 		<dc:comment/>
 		<provider_key/>
 		<options>
-			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/generalizedByProblem" order="1"/>
-			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/generalizesProblem" order="2"/>
-			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/similarToProblem" order="3"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/specialized-by" order="4"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/specializes" order="5"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/similar-to" order="6"/>
 		</options>
 		<conditions/>
 	</optionset>
-	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/generalizedByProblem">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>MathModDB/generalizedByProblem</uri_path>
-		<dc:comment/>
-		<text lang="en">is generalized by</text>
-		<help lang="en"/>
-		<default_text lang="en"/>
-		<view_text lang="en"/>
-		<text lang="de">wird generalisiert durch</text>
-		<help lang="de"/>
-		<default_text lang="de"/>
-		<view_text lang="de"/>
-		<additional_input/>
-	</option>
-	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/generalizesProblem">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>MathModDB/generalizesProblem</uri_path>
-		<dc:comment/>
-		<text lang="en">generalizes</text>
-		<help lang="en"/>
-		<default_text lang="en"/>
-		<view_text lang="en"/>
-		<text lang="de">generalisiert</text>
-		<help lang="de"/>
-		<default_text lang="de"/>
-		<view_text lang="de"/>
-		<additional_input/>
-	</option>
-	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/similarToProblem">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>MathModDB/similarToProblem</uri_path>
-		<dc:comment/>
-		<text lang="en">is similar to</text>
-		<help lang="en"/>
-		<default_text lang="en"/>
-		<view_text lang="en"/>
-		<text lang="de">ist ähnlich zu</text>
-		<help lang="de"/>
-		<default_text lang="de"/>
-		<view_text lang="de"/>
-		<additional_input/>
-	</option>
 	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/process-step">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>process-step</uri_path>
@@ -1413,22 +1371,11 @@
 		</options>
 		<conditions/>
 	</optionset>
-	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/quantity-kind-properties">
+	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/quantity-kind-relatant-without-creation">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>quantity-kind-properties</uri_path>
+		<uri_path>quantity-kind-relatant-without-creation</uri_path>
 		<dc:comment/>
-		<provider_key/>
-		<options>
-			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/is-dimensionless" order="1"/>
-			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/is-dimensional" order="2"/>
-		</options>
-		<conditions/>
-	</optionset>
-	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/quantity-kind-relatant">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>quantity-kind-relatant</uri_path>
-		<dc:comment/>
-		<provider_key>RelatedQuantityKind</provider_key>
+		<provider_key>RelatedQuantityKindWithoutCreation</provider_key>
 		<options/>
 		<conditions/>
 	</optionset>
@@ -1438,81 +1385,22 @@
 		<dc:comment/>
 		<provider_key/>
 		<options>
-			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/nondimensionalizedByQuantity" order="1"/>
-			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/nondimensionalizesQuantity" order="2"/>
-			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/similarToQuantity" order="3"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/nondimensionalized-by" order="4"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/nondimensionalizes" order="5"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/similar-to" order="6"/>
 		</options>
 		<conditions/>
 	</optionset>
-	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/nondimensionalizedByQuantity">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>MathModDB/nondimensionalizedByQuantity</uri_path>
-		<dc:comment/>
-		<text lang="en">is nondimensionalized by</text>
-		<help lang="en"/>
-		<default_text lang="en"/>
-		<view_text lang="en"/>
-		<text lang="de">wird entdimensionalisiert durch</text>
-		<help lang="de"/>
-		<default_text lang="de"/>
-		<view_text lang="de"/>
-		<additional_input/>
-	</option>
-	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/nondimensionalizesQuantity">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>MathModDB/nondimensionalizesQuantity</uri_path>
-		<dc:comment/>
-		<text lang="en">nondimensionalizes</text>
-		<help lang="en"/>
-		<default_text lang="en"/>
-		<view_text lang="en"/>
-		<text lang="de">entdimensionalisiert</text>
-		<help lang="de"/>
-		<default_text lang="de"/>
-		<view_text lang="de"/>
-		<additional_input/>
-	</option>
-	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/similarToQuantity">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>MathModDB/similarToQuantity</uri_path>
-		<dc:comment/>
-		<text lang="en">similar to</text>
-		<help lang="en"/>
-		<default_text lang="en"/>
-		<view_text lang="en"/>
-		<text lang="de">ähnlich zu</text>
-		<help lang="de"/>
-		<default_text lang="de"/>
-		<view_text lang="de"/>
-		<additional_input/>
-	</option>
 	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/quantity-kind-to-quantity-relation">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>quantity-kind-to-quantity-relation</uri_path>
 		<dc:comment/>
 		<provider_key/>
 		<options>
-			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/generalizesQuantity" order="0"/>
-			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/nondimensionalizedByQuantity" order="1"/>
-			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/nondimensionalizesQuantity" order="2"/>
-			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/similarToQuantity" order="3"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/specialized-by" order="4"/>
 		</options>
 		<conditions/>
 	</optionset>
-	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/generalizesQuantity">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>MathModDB/generalizesQuantity</uri_path>
-		<dc:comment/>
-		<text lang="en">generalizes</text>
-		<help lang="en"/>
-		<default_text lang="en"/>
-		<view_text lang="en"/>
-		<text lang="de">generalisiert</text>
-		<help lang="de"/>
-		<default_text lang="de"/>
-		<view_text lang="de"/>
-		<additional_input/>
-	</option>
 	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/quantity-or-quantity-kind">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>quantity-or-quantity-kind</uri_path>
@@ -1535,13 +1423,64 @@
 		<dc:comment/>
 		<provider_key/>
 		<options>
-			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/is-dimensionless" order="1"/>
-			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/is-dimensional" order="2"/>
-			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/is-linear" order="3"/>
-			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/is-not-linear" order="4"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/is-chemical-constant" order="0"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/is-mathematical-constant" order="1"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/is-physical-constant" order="2"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/is-deterministic" order="3"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/is-stochastic" order="4"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/is-dimensionless" order="5"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/is-dimensional" order="6"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/is-dynamic" order="7"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/is-static" order="8"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/is-space-continuous" order="11"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/is-space-discrete" order="12"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/is-time-continuous" order="13"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/is-time-discrete" order="14"/>
 		</options>
 		<conditions/>
 	</optionset>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/is-chemical-constant">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mathmoddb/is-chemical-constant</uri_path>
+		<dc:comment/>
+		<text lang="en">is chemical constant</text>
+		<help lang="en"/>
+		<default_text lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">ist chemische Konstante</text>
+		<help lang="de"/>
+		<default_text lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/is-mathematical-constant">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mathmoddb/is-mathematical-constant</uri_path>
+		<dc:comment/>
+		<text lang="en">is mathematical constant</text>
+		<help lang="en"/>
+		<default_text lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">ist mathematische Konstante</text>
+		<help lang="de"/>
+		<default_text lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/is-physical-constant">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mathmoddb/is-physical-constant</uri_path>
+		<dc:comment/>
+		<text lang="en">is physical constant</text>
+		<help lang="en"/>
+		<default_text lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">ist physikalische Konstante</text>
+		<help lang="de"/>
+		<default_text lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
 	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/quantity-reference">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>quantity-reference</uri_path>
@@ -1566,11 +1505,11 @@
 		<view_text lang="de"/>
 		<additional_input>text</additional_input>
 	</option>
-	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/quantity-relatant">
+	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/quantity-relatant-without-creation">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>quantity-relatant</uri_path>
+		<uri_path>quantity-relatant-without-creation</uri_path>
 		<dc:comment/>
-		<provider_key>RelatedQuantity</provider_key>
+		<provider_key>RelatedQuantityWithoutCreation</provider_key>
 		<options/>
 		<conditions/>
 	</optionset>
@@ -1580,101 +1519,28 @@
 		<dc:comment/>
 		<provider_key/>
 		<options>
-			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/generalizedByQuantity" order="0"/>
-			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/nondimensionalizedByQuantity" order="1"/>
-			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/nondimensionalizesQuantity" order="2"/>
-			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/similarToQuantity" order="3"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/specializes" order="4"/>
 		</options>
 		<conditions/>
 	</optionset>
-	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/generalizedByQuantity">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>MathModDB/generalizedByQuantity</uri_path>
-		<dc:comment/>
-		<text lang="en">is generalized by</text>
-		<help lang="en"/>
-		<default_text lang="en"/>
-		<view_text lang="en"/>
-		<text lang="de">wird generalisiert durch</text>
-		<help lang="de"/>
-		<default_text lang="de"/>
-		<view_text lang="de"/>
-		<additional_input/>
-	</option>
 	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/quantity-to-quantity-relation">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>quantity-to-quantity-relation</uri_path>
 		<dc:comment/>
 		<provider_key/>
 		<options>
-			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/generalizedByQuantity" order="0"/>
-			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/generalizesQuantity" order="1"/>
-			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/approximatedByQuantity" order="2"/>
-			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/approximatesQuantity" order="3"/>
-			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/linearizedByQuantity" order="4"/>
-			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/linearizesQuantity" order="5"/>
-			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/nondimensionalizedByQuantity" order="6"/>
-			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/nondimensionalizesQuantity" order="7"/>
-			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/similarToQuantity" order="8"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/approximated-by" order="9"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/approximates" order="10"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/linearized-by" order="11"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/linearizes" order="12"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/nondimensionalized-by" order="13"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/nondimensionalizes" order="14"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/similar-to" order="15"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/specialized-by" order="16"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/specializes" order="17"/>
 		</options>
 		<conditions/>
 	</optionset>
-	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/approximatedByQuantity">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>MathModDB/approximatedByQuantity</uri_path>
-		<dc:comment/>
-		<text lang="en">is approximated by</text>
-		<help lang="en"/>
-		<default_text lang="en"/>
-		<view_text lang="en"/>
-		<text lang="de">wird approximiert durch</text>
-		<help lang="de"/>
-		<default_text lang="de"/>
-		<view_text lang="de"/>
-		<additional_input/>
-	</option>
-	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/approximatesQuantity">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>MathModDB/approximatesQuantity</uri_path>
-		<dc:comment/>
-		<text lang="en">approximates</text>
-		<help lang="en"/>
-		<default_text lang="en"/>
-		<view_text lang="en"/>
-		<text lang="de">approximiert</text>
-		<help lang="de"/>
-		<default_text lang="de"/>
-		<view_text lang="de"/>
-		<additional_input/>
-	</option>
-	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/linearizedByQuantity">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>MathModDB/linearizedByQuantity</uri_path>
-		<dc:comment/>
-		<text lang="en">is linearized by</text>
-		<help lang="en"/>
-		<default_text lang="en"/>
-		<view_text lang="en"/>
-		<text lang="de">wird linearisiert durch</text>
-		<help lang="de"/>
-		<default_text lang="de"/>
-		<view_text lang="de"/>
-		<additional_input/>
-	</option>
-	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/MathModDB/linearizesQuantity">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>MathModDB/linearizesQuantity</uri_path>
-		<dc:comment/>
-		<text lang="en">linearizes</text>
-		<help lang="en"/>
-		<default_text lang="en"/>
-		<view_text lang="en"/>
-		<text lang="de">linearisiert</text>
-		<help lang="de"/>
-		<default_text lang="de"/>
-		<view_text lang="de"/>
-		<additional_input/>
-	</option>
 	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/related-data-set">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>related-data-set</uri_path>
@@ -1851,6 +1717,10 @@
 		<options>
 			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/is-linear" order="1"/>
 			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/is-not-linear" order="2"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/is-space-continuous" order="3"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/is-space-discrete" order="4"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/is-time-continuous" order="5"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/is-time-discrete" order="6"/>
 		</options>
 		<conditions/>
 	</optionset>

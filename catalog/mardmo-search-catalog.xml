@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2025-05-02T13:23:56.740688+02:00" required="2.1.0" version="2.3.0">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2025-05-05T13:16:38.004210+02:00" required="2.1.0" version="2.3.0">
 	<catalog dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo-search-catalog">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mardmo-search-catalog</uri_path>
@@ -423,7 +423,7 @@
 		<unit/>
 		<width/>
 		<optionsets>
-			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/field-relatant"/>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/field-relatant-with-creation"/>
 		</optionsets>
 		<conditions>
 			<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/via-research-field"/>

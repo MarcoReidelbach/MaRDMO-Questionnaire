@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2025-05-04T06:16:58.343453+02:00" required="2.1.0" version="2.3.0">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2025-05-05T13:16:46.584728+02:00" required="2.1.0" version="2.3.0">
 	<catalog dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo-model-catalog">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mardmo-model-catalog</uri_path>
@@ -1321,6 +1321,10 @@
 		<verbose_name lang="de"/>
 		<questionsets>
 			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/information" order="1"/>
+			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/quantity-to-quantity" order="2"/>
+			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/quantity-to-quantity-kind" order="3"/>
+			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/quantity-kind-to-quantity-kind" order="4"/>
+			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/quantity-kind-to-quantity" order="5"/>
 		</questionsets>
 		<questions>
 			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/id" order="0"/>
@@ -1340,89 +1344,82 @@
 		<help lang="de"/>
 		<verbose_name lang="de"/>
 		<questionsets>
-			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/quantity-to-quantity" order="6"/>
-			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/quantity-kind-to-quantity-kind" order="7"/>
-			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/quantity-to-quantity-kind" order="8"/>
-			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/quantity-kind-to-quantity" order="9"/>
+			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/element" order="6"/>
 		</questionsets>
 		<questions>
 			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/is-quantity-or-quantity-kind" order="0"/>
 			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/name" order="1"/>
 			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/description" order="2"/>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/reference" order="3"/>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/quantity-properties" order="4"/>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/quantity-kind-properties" order="5"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/quantity-properties" order="3"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/reference" order="4"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/formula" order="5"/>
 		</questions>
 		<conditions/>
 	</questionset>
-	<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/quantity-to-quantity">
+	<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/element">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>mardmo/model/quantity/quantity-to-quantity</uri_path>
+		<uri_path>mardmo/model/quantity/element</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/quantity/quantity-to-quantity"/>
+		<attribute/>
 		<is_collection>True</is_collection>
-		<title lang="en">Quantity - Quantity Relations</title>
+		<title lang="en">Elements of the Definition</title>
 		<help lang="en"/>
 		<verbose_name lang="en"/>
-		<title lang="de">Quantität - Quantität Beziehungen</title>
+		<title lang="de">Elemente der Definition</title>
 		<help lang="de"/>
 		<verbose_name lang="de"/>
 		<questionsets/>
 		<questions>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/quantity-to-quantity/relation" order="0"/>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/quantity-to-quantity/relatant" order="1"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/element-symbol" order="3"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/element-quantity" order="4"/>
 		</questions>
-		<conditions>
-			<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/is-quantity"/>
-		</conditions>
+		<conditions/>
 	</questionset>
-	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/quantity-to-quantity/relation">
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/element-symbol">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>mardmo/model/quantity/quantity-to-quantity/relation</uri_path>
+		<uri_path>mardmo/model/quantity/element-symbol</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/quantity/quantity-to-quantity/relation"/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/quantity/element/symbol"/>
 		<is_collection>False</is_collection>
 		<is_optional>True</is_optional>
 		<help lang="en"/>
-		<text lang="en">The Quantity...</text>
+		<text lang="en">Symbol of the Element</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de"/>
-		<text lang="de">Die Quantität...</text>
+		<help lang="de">$$..$$</help>
+		<text lang="de">Symbol des Elements</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
 		<default_external_id/>
-		<widget_type>select</widget_type>
+		<widget_type>text</widget_type>
 		<value_type>text</value_type>
 		<maximum/>
 		<minimum/>
 		<step/>
 		<unit/>
 		<width/>
-		<optionsets>
-			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/quantity-to-quantity-relation"/>
-		</optionsets>
+		<optionsets/>
 		<conditions/>
 	</question>
-	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/quantity-to-quantity/relatant">
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/element-quantity">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>mardmo/model/quantity/quantity-to-quantity/relatant</uri_path>
+		<uri_path>mardmo/model/quantity/element-quantity</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/quantity/quantity-to-quantity/relatant"/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/quantity/element/quantity"/>
 		<is_collection>False</is_collection>
 		<is_optional>True</is_optional>
-		<help lang="en">For all quantities &quot;label (description) [source]&quot; is provided.</help>
-		<text lang="en">...another Quantity.</text>
+		<help lang="en">For all quantities or quantity kind &quot;label (description) [source]&quot; is provided.</help>
+		<text lang="en">Encoded Quantity or Quantity Kind</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">Für alle Quantitäten wird „Name (Beschreibung) [Quelle]“ angegeben.</help>
-		<text lang="de">...eine weitere Quantität.</text>
+		<help lang="de">Für alle Quantitäten oder Quantitätsarten wird „Name (Beschreibung) [Quelle]“ angegeben.</help>
+		<text lang="de">Enkodierte Quantität oder Quantitätsart</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
 		<default_external_id/>
-		<widget_type>select</widget_type>
+		<widget_type>select_creatable</widget_type>
 		<value_type>text</value_type>
 		<maximum/>
 		<minimum/>
@@ -1430,244 +1427,7 @@
 		<unit/>
 		<width/>
 		<optionsets>
-			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/quantity-relatant"/>
-		</optionsets>
-		<conditions/>
-	</question>
-	<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/quantity-kind-to-quantity-kind">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>mardmo/model/quantity/quantity-kind-to-quantity-kind</uri_path>
-		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/quantity/quantity-kind-to-quantity-kind"/>
-		<is_collection>True</is_collection>
-		<title lang="en">Quantity Kind - Quantity Kind Relations</title>
-		<help lang="en"/>
-		<verbose_name lang="en"/>
-		<title lang="de">Quantitätsart - Quantitätsart Beziehungen</title>
-		<help lang="de"/>
-		<verbose_name lang="de"/>
-		<questionsets/>
-		<questions>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/quantity-kind-to-quantity-kind/relation" order="0"/>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/quantity-kind-to-quantity-kind/relatant" order="1"/>
-		</questions>
-		<conditions>
-			<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/is-quantity-kind"/>
-		</conditions>
-	</questionset>
-	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/quantity-kind-to-quantity-kind/relation">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>mardmo/model/quantity/quantity-kind-to-quantity-kind/relation</uri_path>
-		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/quantity/quantity-kind-to-quantity-kind/relation"/>
-		<is_collection>False</is_collection>
-		<is_optional>True</is_optional>
-		<help lang="en"/>
-		<text lang="en">The Quantity Kind...</text>
-		<default_text lang="en"/>
-		<verbose_name lang="en"/>
-		<help lang="de"/>
-		<text lang="de">Die Quantitätsart...</text>
-		<default_text lang="de"/>
-		<verbose_name lang="de"/>
-		<default_option/>
-		<default_external_id/>
-		<widget_type>select</widget_type>
-		<value_type>text</value_type>
-		<maximum/>
-		<minimum/>
-		<step/>
-		<unit/>
-		<width/>
-		<optionsets>
-			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/quantity-kind-to-quantity-kind-relation"/>
-		</optionsets>
-		<conditions/>
-	</question>
-	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/quantity-kind-to-quantity-kind/relatant">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>mardmo/model/quantity/quantity-kind-to-quantity-kind/relatant</uri_path>
-		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/quantity/quantity-kind-to-quantity-kind/relatant"/>
-		<is_collection>False</is_collection>
-		<is_optional>True</is_optional>
-		<help lang="en">For all quantity kinds &quot;label (description) [source]&quot; is provided.</help>
-		<text lang="en">...another Quantity Kind.</text>
-		<default_text lang="en"/>
-		<verbose_name lang="en"/>
-		<help lang="de">Für alle Quantitätsarten wird „Name (Beschreibung) [Quelle]“ angegeben.</help>
-		<text lang="de">...eine weitere Quantitätsart.</text>
-		<default_text lang="de"/>
-		<verbose_name lang="de"/>
-		<default_option/>
-		<default_external_id/>
-		<widget_type>select</widget_type>
-		<value_type>text</value_type>
-		<maximum/>
-		<minimum/>
-		<step/>
-		<unit/>
-		<width/>
-		<optionsets>
-			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/quantity-kind-relatant"/>
-		</optionsets>
-		<conditions/>
-	</question>
-	<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/quantity-to-quantity-kind">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>mardmo/model/quantity/quantity-to-quantity-kind</uri_path>
-		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/quantity/quantity-to-quantity-kind"/>
-		<is_collection>True</is_collection>
-		<title lang="en">Quantity - Quantity Kind Relations</title>
-		<help lang="en"/>
-		<verbose_name lang="en"/>
-		<title lang="de">Quantität - Quantitätsart Beziehungen</title>
-		<help lang="de"/>
-		<verbose_name lang="de"/>
-		<questionsets/>
-		<questions>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/quantity-to-quantity-kind/relation" order="0"/>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/quantity-to-quantity-kind/relatant" order="1"/>
-		</questions>
-		<conditions>
-			<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/is-quantity"/>
-		</conditions>
-	</questionset>
-	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/quantity-to-quantity-kind/relation">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>mardmo/model/quantity/quantity-to-quantity-kind/relation</uri_path>
-		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/quantity/quantity-to-quantity-kind/relation"/>
-		<is_collection>False</is_collection>
-		<is_optional>True</is_optional>
-		<help lang="en"/>
-		<text lang="en">The Quantity...</text>
-		<default_text lang="en"/>
-		<verbose_name lang="en"/>
-		<help lang="de"/>
-		<text lang="de">Die Quantität...</text>
-		<default_text lang="de"/>
-		<verbose_name lang="de"/>
-		<default_option/>
-		<default_external_id/>
-		<widget_type>select</widget_type>
-		<value_type>text</value_type>
-		<maximum/>
-		<minimum/>
-		<step/>
-		<unit/>
-		<width/>
-		<optionsets>
-			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/quantity-to-quantity-kind-relation"/>
-		</optionsets>
-		<conditions/>
-	</question>
-	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/quantity-to-quantity-kind/relatant">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>mardmo/model/quantity/quantity-to-quantity-kind/relatant</uri_path>
-		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/quantity/quantity-to-quantity-kind/relatant"/>
-		<is_collection>False</is_collection>
-		<is_optional>True</is_optional>
-		<help lang="en">For all quantity kinds &quot;label (description) [source]&quot; is provided.</help>
-		<text lang="en">...a Quantity Kind.</text>
-		<default_text lang="en"/>
-		<verbose_name lang="en"/>
-		<help lang="de">Für alle Quantitätsarten wird „Name (Beschreibung) [Quelle]“ angegeben.</help>
-		<text lang="de">...eine Quantitätsart.</text>
-		<default_text lang="de"/>
-		<verbose_name lang="de"/>
-		<default_option/>
-		<default_external_id/>
-		<widget_type>select</widget_type>
-		<value_type>text</value_type>
-		<maximum/>
-		<minimum/>
-		<step/>
-		<unit/>
-		<width/>
-		<optionsets>
-			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/quantity-kind-relatant"/>
-		</optionsets>
-		<conditions/>
-	</question>
-	<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/quantity-kind-to-quantity">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>mardmo/model/quantity/quantity-kind-to-quantity</uri_path>
-		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/quantity/quantity-kind-to-quantity"/>
-		<is_collection>True</is_collection>
-		<title lang="en">Quantity Kind - Quantity Relations</title>
-		<help lang="en"/>
-		<verbose_name lang="en"/>
-		<title lang="de">Quantitätsart - Quantität Beziehungen</title>
-		<help lang="de"/>
-		<verbose_name lang="de"/>
-		<questionsets/>
-		<questions>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/quantity-kind-to-quantity/relation" order="1"/>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/quantity-kind-to-quantity/relatant" order="2"/>
-		</questions>
-		<conditions>
-			<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/is-quantity-kind"/>
-		</conditions>
-	</questionset>
-	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/quantity-kind-to-quantity/relation">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>mardmo/model/quantity/quantity-kind-to-quantity/relation</uri_path>
-		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/quantity/quantity-kind-to-quantity/relation"/>
-		<is_collection>False</is_collection>
-		<is_optional>True</is_optional>
-		<help lang="en"/>
-		<text lang="en">The Quantity Kind...</text>
-		<default_text lang="en"/>
-		<verbose_name lang="en"/>
-		<help lang="de"/>
-		<text lang="de">Die Quantitätsart...</text>
-		<default_text lang="de"/>
-		<verbose_name lang="de"/>
-		<default_option/>
-		<default_external_id/>
-		<widget_type>select</widget_type>
-		<value_type>text</value_type>
-		<maximum/>
-		<minimum/>
-		<step/>
-		<unit/>
-		<width/>
-		<optionsets>
-			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/quantity-kind-to-quantity-relation"/>
-		</optionsets>
-		<conditions/>
-	</question>
-	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/quantity-kind-to-quantity/relatant">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>mardmo/model/quantity/quantity-kind-to-quantity/relatant</uri_path>
-		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/quantity/quantity-kind-to-quantity/relatant"/>
-		<is_collection>False</is_collection>
-		<is_optional>True</is_optional>
-		<help lang="en">For all quantities &quot;label (description) [source]&quot; is provided.</help>
-		<text lang="en">...a Quantity.</text>
-		<default_text lang="en"/>
-		<verbose_name lang="en"/>
-		<help lang="de">Für alle Quantitäten wird „Name (Beschreibung) [Quelle]“ angegeben.</help>
-		<text lang="de">...eine Quantität.</text>
-		<default_text lang="de"/>
-		<verbose_name lang="de"/>
-		<default_option/>
-		<default_external_id/>
-		<widget_type>select</widget_type>
-		<value_type>text</value_type>
-		<maximum/>
-		<minimum/>
-		<step/>
-		<unit/>
-		<width/>
-		<optionsets>
-			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/quantity-relatant"/>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/quantity-or-quantity-kind-relatant-with-creation"/>
 		</optionsets>
 		<conditions/>
 	</question>
@@ -1754,19 +1514,48 @@
 		<optionsets/>
 		<conditions/>
 	</question>
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/quantity-properties">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/model/quantity/quantity-properties</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/quantity/properties"/>
+		<is_collection>True</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en"/>
+		<text lang="en">Properties of the Quantity or Quantity Kind</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Eigenschaften der Quantität oder Quantitätsart</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>select</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/quantity-properties"/>
+		</optionsets>
+		<conditions/>
+	</question>
 	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/reference">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mardmo/model/quantity/reference</uri_path>
 		<dc:comment/>
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/quantity/reference"/>
 		<is_collection>True</is_collection>
-		<is_optional>False</is_optional>
+		<is_optional>True</is_optional>
 		<help lang="en"/>
-		<text lang="en">Other ID of the Quantity or Quantity Kind.</text>
+		<text lang="en">External Identifier of the Quantity Kind.</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de"/>
-		<text lang="de">Andere ID der Quantität oder Quantitätsart.</text>
+		<text lang="de">Externe Identifier für die Quantitätsart.</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
@@ -1783,55 +1572,70 @@
 		</optionsets>
 		<conditions/>
 	</question>
-	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/quantity-properties">
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/formula">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>mardmo/model/quantity/quantity-properties</uri_path>
+		<uri_path>mardmo/model/quantity/formula</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/quantity/quantity-properties"/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/quantity/formula"/>
 		<is_collection>True</is_collection>
-		<is_optional>False</is_optional>
-		<help lang="en"/>
-		<text lang="en">Properties of the Quantity</text>
+		<is_optional>True</is_optional>
+		<help lang="en">Use ≡ (\equiv) in defining formulation.</help>
+		<text lang="en">Definition of the Quantity or Quantity Kind</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de"/>
-		<text lang="de">Eigenschaften der Quantität</text>
+		<help lang="de">Verwenden Sie ≡ (\equiv) in der definierenden Formulierung.</help>
+		<text lang="de">Definition der Quantität oder Quantitätsart</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
 		<default_external_id/>
-		<widget_type>checkbox</widget_type>
+		<widget_type>text</widget_type>
 		<value_type>text</value_type>
 		<maximum/>
 		<minimum/>
 		<step/>
 		<unit/>
 		<width/>
-		<optionsets>
-			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/quantity-properties"/>
-		</optionsets>
-		<conditions>
-			<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/is-quantity"/>
-		</conditions>
+		<optionsets/>
+		<conditions/>
 	</question>
-	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/quantity-kind-properties">
+	<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/quantity-to-quantity">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>mardmo/model/quantity/quantity-kind-properties</uri_path>
+		<uri_path>mardmo/model/quantity/quantity-to-quantity</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/quantity/quantity-kind-properties"/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/quantity/quantity-to-quantity"/>
 		<is_collection>True</is_collection>
-		<is_optional>False</is_optional>
+		<title lang="en">Quantity - Quantity Relations</title>
 		<help lang="en"/>
-		<text lang="en">Properties of the Quantity Kind</text>
+		<verbose_name lang="en"/>
+		<title lang="de">Quantität - Quantität Beziehungen</title>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<questionsets/>
+		<questions>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/quantity-to-quantity/relation" order="0"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/quantity-to-quantity/relatant" order="1"/>
+		</questions>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/quantity-to-quantity/relation">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/model/quantity/quantity-to-quantity/relation</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/quantity/quantity-to-quantity/relation"/>
+		<is_collection>False</is_collection>
+		<is_optional>True</is_optional>
+		<help lang="en"/>
+		<text lang="en">The Quantity...</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de"/>
-		<text lang="de">Eigenschaften der Quantitätsart</text>
+		<text lang="de">Die Quantität...</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
 		<default_external_id/>
-		<widget_type>checkbox</widget_type>
+		<widget_type>select</widget_type>
 		<value_type>text</value_type>
 		<maximum/>
 		<minimum/>
@@ -1839,11 +1643,269 @@
 		<unit/>
 		<width/>
 		<optionsets>
-			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/quantity-kind-properties"/>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/quantity-to-quantity-relation"/>
 		</optionsets>
-		<conditions>
-			<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/is-quantity-kind"/>
-		</conditions>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/quantity-to-quantity/relatant">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/model/quantity/quantity-to-quantity/relatant</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/quantity/quantity-to-quantity/relatant"/>
+		<is_collection>False</is_collection>
+		<is_optional>True</is_optional>
+		<help lang="en">For all quantities &quot;label (description) [source]&quot; is provided.</help>
+		<text lang="en">...another Quantity.</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de">Für alle Quantitäten wird „Name (Beschreibung) [Quelle]“ angegeben.</help>
+		<text lang="de">...eine weitere Quantität.</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>select_creatable</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/quantity-relatant-without-creation"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/quantity-to-quantity-kind">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/model/quantity/quantity-to-quantity-kind</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/quantity/quantity-to-quantity-kind"/>
+		<is_collection>True</is_collection>
+		<title lang="en">Quantity - Quantity Kind Relations</title>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<title lang="de">Quantität - Quantitätsart Beziehungen</title>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<questionsets/>
+		<questions>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/quantity-to-quantity-kind/relation" order="0"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/quantity-to-quantity-kind/relatant" order="1"/>
+		</questions>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/quantity-to-quantity-kind/relation">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/model/quantity/quantity-to-quantity-kind/relation</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/quantity/quantity-to-quantity-kind/relation"/>
+		<is_collection>False</is_collection>
+		<is_optional>True</is_optional>
+		<help lang="en"/>
+		<text lang="en">The Quantity...</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Die Quantität...</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>select</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/quantity-to-quantity-kind-relation"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/quantity-to-quantity-kind/relatant">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/model/quantity/quantity-to-quantity-kind/relatant</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/quantity/quantity-to-quantity-kind/relatant"/>
+		<is_collection>False</is_collection>
+		<is_optional>True</is_optional>
+		<help lang="en">For all quantity kinds &quot;label (description) [source]&quot; is provided.</help>
+		<text lang="en">...a Quantity Kind.</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de">Für alle Quantitätsarten wird „Name (Beschreibung) [Quelle]“ angegeben.</help>
+		<text lang="de">...eine Quantitätsart.</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>select_creatable</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/quantity-kind-relatant-without-creation"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/quantity-kind-to-quantity-kind">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/model/quantity/quantity-kind-to-quantity-kind</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/quantity/quantity-kind-to-quantity-kind"/>
+		<is_collection>True</is_collection>
+		<title lang="en">Quantity Kind - Quantity Kind Relations</title>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<title lang="de">Quantitätsart - Quantitätsart Beziehungen</title>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<questionsets/>
+		<questions>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/quantity-kind-to-quantity-kind/relation" order="0"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/quantity-kind-to-quantity-kind/relatant" order="1"/>
+		</questions>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/quantity-kind-to-quantity-kind/relation">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/model/quantity/quantity-kind-to-quantity-kind/relation</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/quantity/quantity-kind-to-quantity-kind/relation"/>
+		<is_collection>False</is_collection>
+		<is_optional>True</is_optional>
+		<help lang="en"/>
+		<text lang="en">The Quantity Kind...</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Die Quantitätsart...</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>select</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/quantity-kind-to-quantity-kind-relation"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/quantity-kind-to-quantity-kind/relatant">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/model/quantity/quantity-kind-to-quantity-kind/relatant</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/quantity/quantity-kind-to-quantity-kind/relatant"/>
+		<is_collection>False</is_collection>
+		<is_optional>True</is_optional>
+		<help lang="en">For all quantity kinds &quot;label (description) [source]&quot; is provided.</help>
+		<text lang="en">...another Quantity Kind.</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de">Für alle Quantitätsarten wird „Name (Beschreibung) [Quelle]“ angegeben.</help>
+		<text lang="de">...eine weitere Quantitätsart.</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>select_creatable</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/quantity-kind-relatant-without-creation"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/quantity-kind-to-quantity">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/model/quantity/quantity-kind-to-quantity</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/quantity/quantity-kind-to-quantity"/>
+		<is_collection>True</is_collection>
+		<title lang="en">Quantity Kind - Quantity Relations</title>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<title lang="de">Quantitätsart - Quantität Beziehungen</title>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<questionsets/>
+		<questions>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/quantity-kind-to-quantity/relation" order="1"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/quantity-kind-to-quantity/relatant" order="2"/>
+		</questions>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/quantity-kind-to-quantity/relation">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/model/quantity/quantity-kind-to-quantity/relation</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/quantity/quantity-kind-to-quantity/relation"/>
+		<is_collection>False</is_collection>
+		<is_optional>True</is_optional>
+		<help lang="en"/>
+		<text lang="en">The Quantity Kind...</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Die Quantitätsart...</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>select</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/quantity-kind-to-quantity-relation"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/quantity-kind-to-quantity/relatant">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/model/quantity/quantity-kind-to-quantity/relatant</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/quantity/quantity-kind-to-quantity/relatant"/>
+		<is_collection>False</is_collection>
+		<is_optional>True</is_optional>
+		<help lang="en">For all quantities &quot;label (description) [source]&quot; is provided.</help>
+		<text lang="en">...a Quantity.</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de">Für alle Quantitäten wird „Name (Beschreibung) [Quelle]“ angegeben.</help>
+		<text lang="de">...eine Quantität.</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>select_creatable</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/quantity-relatant-without-creation"/>
+		</optionsets>
+		<conditions/>
 	</question>
 	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/id">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
@@ -1996,7 +2058,7 @@
 		<unit/>
 		<width/>
 		<optionsets>
-			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/field-relatant"/>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/field-relatant-with-creation"/>
 		</optionsets>
 		<conditions/>
 	</question>
@@ -2084,11 +2146,11 @@
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/problem/id"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">For all research problems &quot;label (description) [source]&quot; is provided. If a research problem is chosen, WAIT until further information are added to the questionnaire. If no appropriate research problem is present in MathModDB, the MaRDI Portal or Wikidata, choose 'not found'.</help>
+		<help lang="en">For all research problems &quot;label (description) [source]&quot; is provided. If a research problem is chosen, WAIT until further information are added to the questionnaire. If no appropriate research problem is present in the MaRDI Portal or Wikidata, choose 'not found'.</help>
 		<text lang="en">Select a Research Problem related to the Mathematical Model!</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">Für alle Forschungsprobleme wird „Name (Beschreibung) [Quelle]“ angegeben. Wenn ein Forschungsproblem ausgewählt wird, WARTEN Sie, bis weitere Informationen zum Fragebogen hinzugefügt werden. Falls kein passendes Forschungsproblem in MathModDB, dem MaRDI-Portal oder Wikidata vorhanden ist, wählen Sie „not found“.</help>
+		<help lang="de">Für alle Forschungsprobleme wird „Name (Beschreibung) [Quelle]“ angegeben. Wenn ein Forschungsproblem ausgewählt wird, WARTEN Sie, bis weitere Informationen zum Fragebogen hinzugefügt werden. Falls kein passendes Forschungsproblem im MaRDI-Portal oder Wikidata vorhanden ist, wählen Sie „not found“.</help>
 		<text lang="de">Wählen Sie ein Forschungsproblem, das mit dem mathematischen Modell im Zusammenhang steht!</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -2275,7 +2337,7 @@
 		<unit/>
 		<width/>
 		<optionsets>
-			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/field-relatant"/>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/field-relatant-with-creation"/>
 		</optionsets>
 		<conditions/>
 	</question>
@@ -2417,7 +2479,7 @@
 		<unit/>
 		<width/>
 		<optionsets>
-			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/field-relatant"/>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/field-relatant-with-creation"/>
 			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/formulation-relatant-with-creation"/>
 			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/model-relatant-without-creation"/>
 			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/problem-relatant-with-creation"/>

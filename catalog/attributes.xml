@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2025-05-04T06:16:18.323211+02:00" required="2.1.0" version="2.3.0">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2025-05-05T13:16:29.090935+02:00" required="2.1.0" version="2.3.0">
 	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/algorithm">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<key>algorithm</key>
@@ -1442,6 +1442,34 @@
 		<dc:comment/>
 		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/quantity"/>
 	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/quantity/element">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>element</key>
+		<path>quantity/element</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/quantity"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/quantity/element/quantity">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>quantity</key>
+		<path>quantity/element/quantity</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/quantity/element"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/quantity/element/symbol">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>symbol</key>
+		<path>quantity/element/symbol</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/quantity/element"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/quantity/formula">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>formula</key>
+		<path>quantity/formula</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/quantity"/>
+	</attribute>
 	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/quantity/id">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<key>id</key>
@@ -1460,6 +1488,13 @@
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<key>name</key>
 		<path>quantity/name</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/quantity"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/quantity/properties">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>properties</key>
+		<path>quantity/properties</path>
 		<dc:comment/>
 		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/quantity"/>
 	</attribute>
@@ -1511,13 +1546,6 @@
 		<path>quantity/quantity-kind-to-quantity/relation</path>
 		<dc:comment/>
 		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/quantity/quantity-kind-to-quantity"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/quantity/quantity-properties">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>quantity-properties</key>
-		<path>quantity/quantity-properties</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/quantity"/>
 	</attribute>
 	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/quantity/quantity-to-quantity">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
