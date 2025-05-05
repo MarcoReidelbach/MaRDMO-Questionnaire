@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2025-04-27T11:50:38.536882+02:00" required="2.1.0" version="2.3.0rc2">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2025-05-05T15:18:31.068375+02:00" required="2.1.0" version="2.3.0">
 	<catalog dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo-interdisciplinary-workflow-catalog">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mardmo-interdisciplinary-workflow-catalog</uri_path>
@@ -260,7 +260,7 @@
 		<dc:comment/>
 		<attribute/>
 		<is_collection>False</is_collection>
-		<title lang="en">Process Stepp Information</title>
+		<title lang="en">Process Step Information</title>
 		<help lang="en"/>
 		<verbose_name lang="en"/>
 		<title lang="de">Prozessschritt Information</title>
