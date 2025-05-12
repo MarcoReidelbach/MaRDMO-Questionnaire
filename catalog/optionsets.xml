@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2025-05-05T15:17:53.785565+02:00" required="2.1.0" version="2.3.0">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2025-05-12T09:28:00.577171+02:00" required="2.1.0" version="2.3.0">
 	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/algorithm">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>algorithm</uri_path>
@@ -1256,7 +1256,7 @@
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mathmoddb/contained-in</uri_path>
 		<dc:comment/>
-		<text lang="en">ist contained in</text>
+		<text lang="en">is contained in</text>
 		<help lang="en"/>
 		<default_text lang="en"/>
 		<view_text lang="en"/>
@@ -1359,9 +1359,11 @@
 		<dc:comment/>
 		<provider_key/>
 		<options>
-			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/nondimensionalized-by" order="4"/>
-			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/nondimensionalizes" order="5"/>
-			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/similar-to" order="6"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/discretized-by" order="0"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/discretizes" order="1"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/nondimensionalized-by" order="2"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/nondimensionalizes" order="3"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/similar-to" order="4"/>
 		</options>
 		<conditions/>
 	</optionset>
@@ -1503,15 +1505,15 @@
 		<dc:comment/>
 		<provider_key/>
 		<options>
-			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/approximated-by" order="9"/>
-			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/approximates" order="10"/>
-			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/linearized-by" order="11"/>
-			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/linearizes" order="12"/>
-			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/nondimensionalized-by" order="13"/>
-			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/nondimensionalizes" order="14"/>
-			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/similar-to" order="15"/>
-			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/specialized-by" order="16"/>
-			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/specializes" order="17"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/approximated-by" order="0"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/approximates" order="1"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/discretized-by" order="2"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/discretizes" order="3"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/nondimensionalized-by" order="4"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/nondimensionalizes" order="5"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/similar-to" order="6"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/specialized-by" order="7"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/specializes" order="8"/>
 		</options>
 		<conditions/>
 	</optionset>
@@ -1741,12 +1743,12 @@
 		<provider_key/>
 		<options>
 			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/assumes" order="0"/>
-			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/contains-boundary-condition" order="7"/>
-			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/contains-constraint-condition" order="8"/>
-			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/contains-coupling-condition" order="9"/>
-			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/contains" order="10"/>
-			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/contains-initial-condition" order="11"/>
-			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/contains-final-condition" order="12"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/contains" order="1"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/contains-boundary-condition" order="2"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/contains-constraint-condition" order="3"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/contains-coupling-condition" order="4"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/contains-initial-condition" order="5"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/contains-final-condition" order="6"/>
 		</options>
 		<conditions/>
 	</optionset>

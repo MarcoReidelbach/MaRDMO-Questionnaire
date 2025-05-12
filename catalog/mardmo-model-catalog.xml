@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2025-05-05T15:18:16.401572+02:00" required="2.1.0" version="2.3.0">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2025-05-12T09:28:25.082064+02:00" required="2.1.0" version="2.3.0">
 	<catalog dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo-model-catalog">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mardmo-model-catalog</uri_path>
@@ -934,7 +934,7 @@
 		<text lang="en">Symbol of the Element</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">$$..$$</help>
+		<help lang="de"/>
 		<text lang="de">Symbol des Elements</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -1146,11 +1146,11 @@
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/formulation/formula"/>
 		<is_collection>True</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">$$...$$</help>
+		<help lang="en"/>
 		<text lang="en">Formula of the Mathematical Formulation</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">$$...$$</help>
+		<help lang="de"/>
 		<text lang="de">Formel der neuen mathematischen Formulierung</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -2479,12 +2479,13 @@
 		<unit/>
 		<width/>
 		<optionsets>
-			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/field-relatant-with-creation"/>
-			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/formulation-relatant-with-creation"/>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/field-relatant-without-creation"/>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/formulation-relatant-without-creation"/>
 			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/model-relatant-without-creation"/>
-			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/problem-relatant-with-creation"/>
-			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/quantity-or-quantity-kind-relatant-with-creation"/>
-			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/task-relatant-with-creation"/>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/problem-relatant-without-creation"/>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/quantity-kind-relatant-without-creation"/>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/quantity-relatant-without-creation"/>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/task-relatant-without-creation"/>
 		</optionsets>
 		<conditions/>
 	</question>
