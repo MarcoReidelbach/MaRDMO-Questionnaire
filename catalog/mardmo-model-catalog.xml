@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2025-05-12T09:28:25.082064+02:00" required="2.1.0" version="2.3.0">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2025-05-22T20:50:34.512841+02:00" required="2.1.0" version="2.3.1">
 	<catalog dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo-model-catalog">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mardmo-model-catalog</uri_path>
@@ -67,14 +67,15 @@
 		<help lang="de"/>
 		<verbose_name lang="de"/>
 		<questionsets>
-			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/model/model-to-formulation" order="4"/>
+			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/model/model-to-formulation" order="6"/>
 		</questionsets>
 		<questions>
 			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/model/name" order="0"/>
 			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/model/description" order="1"/>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/model/properties" order="2"/>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/model/problem-relatant" order="3"/>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/model/task-relatant" order="4"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/model/long-description" order="2"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/model/properties" order="3"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/model/problem-relatant" order="4"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/model/task-relatant" order="5"/>
 		</questions>
 		<conditions/>
 	</questionset>
@@ -84,10 +85,10 @@
 		<dc:comment/>
 		<attribute/>
 		<is_collection>True</is_collection>
-		<title lang="en">Mathematical Model - Mathematical Formulation Relations</title>
+		<title lang="en">Mathematical Model - Mathematical Expression Relations</title>
 		<help lang="en"/>
 		<verbose_name lang="en"/>
-		<title lang="de">Mathematisches Modell - Mathematische Formulierung Beziehungen</title>
+		<title lang="de">Mathematisches Modell - Mathematischer Ausdruck Beziehungen</title>
 		<help lang="de"/>
 		<verbose_name lang="de"/>
 		<questionsets/>
@@ -133,12 +134,12 @@
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/model/formulation-relatant"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">For all mathematical formulations &quot;label (description) [source]&quot; is provided.</help>
-		<text lang="en">...a Mathematical Formulation.</text>
+		<help lang="en">For all mathematical expressions &quot;label (description) [source]&quot; is provided.</help>
+		<text lang="en">...a Mathematical Expression.</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">Für alle mathematischen Formulierungen wird „Name (Beschreibung) [Quelle]“ angegeben.</help>
-		<text lang="de">...eine mathematische Formulierung.</text>
+		<help lang="de">Für alle mathematischen Ausdrücke wird „Name (Beschreibung) [Quelle]“ angegeben.</help>
+		<text lang="de">...einen mathematischen Ausdruck.</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
@@ -190,16 +191,43 @@
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en"/>
-		<text lang="en">Description of the Mathematical Model</text>
+		<text lang="en">Short Description of the Mathematical Model</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de"/>
-		<text lang="de">Beschreibung des mathematischen Modells</text>
+		<text lang="de">Kurze Beschreibung des mathematischen Modells</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/model/long-description">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/model/model/long-description</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/model/long-description"/>
+		<is_collection>True</is_collection>
+		<is_optional>True</is_optional>
+		<help lang="en"/>
+		<text lang="en">Detailed Description of the Mathematical Model</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Detaillierte Beschreibung des mathematischen Modells</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>textarea</widget_type>
 		<value_type>text</value_type>
 		<maximum/>
 		<minimum/>
@@ -471,13 +499,14 @@
 		<help lang="de"/>
 		<verbose_name lang="de"/>
 		<questionsets>
-			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task/task-to-formulation" order="5"/>
-			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task/task-to-quantity" order="6"/>
+			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task/task-to-formulation" order="4"/>
+			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task/task-to-quantity" order="5"/>
 		</questionsets>
 		<questions>
 			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task/name" order="0"/>
 			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task/description" order="1"/>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task/properties" order="2"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task/long-description" order="2"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task/properties" order="3"/>
 		</questions>
 		<conditions/>
 	</questionset>
@@ -487,10 +516,10 @@
 		<dc:comment/>
 		<attribute/>
 		<is_collection>True</is_collection>
-		<title lang="en">Mathematical Formulation Relations</title>
+		<title lang="en">Mathematical Expression Relations</title>
 		<help lang="en"/>
 		<verbose_name lang="en"/>
-		<title lang="de">Mathematische Formulierung Beziehungen</title>
+		<title lang="de">Mathematischer Ausdruck Beziehungen</title>
 		<help lang="de"/>
 		<verbose_name lang="de"/>
 		<questionsets/>
@@ -536,12 +565,12 @@
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/task/formulation-relatant"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">For all mathematical formulations &quot;label (description) [source]&quot; is provided.</help>
-		<text lang="en">...a Mathematical Formulation.</text>
+		<help lang="en">For all mathematical expressions &quot;label (description) [source]&quot; is provided.</help>
+		<text lang="en">...a Mathematical Expression.</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">Für alle mathematischen Formulierungen wird „Name (Beschreibung) [Quelle]“ angegeben.</help>
-		<text lang="de">...eine mathematische Formulierung.</text>
+		<help lang="de">Für alle mathematischen Ausdrücke wird „Name (Beschreibung) [Quelle]“ angegeben.</help>
+		<text lang="de">...einen mathematischen Ausdruck.</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
@@ -670,16 +699,43 @@
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en"/>
-		<text lang="en">Description of the Computational Task</text>
+		<text lang="en">Short Description of the Computational Task</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de"/>
-		<text lang="de">Beschreibung der Berechnungsaufgabe</text>
+		<text lang="de">Kurze Beschreibung der Berechnungsaufgabe</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task/long-description">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/model/task/long-description</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/task/long-description"/>
+		<is_collection>True</is_collection>
+		<is_optional>True</is_optional>
+		<help lang="en"/>
+		<text lang="en">Detailed Description of the Computational Task</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Detaillierte Beschreibung der Berechnungsaufgabe</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>textarea</widget_type>
 		<value_type>text</value_type>
 		<maximum/>
 		<minimum/>
@@ -735,6 +791,7 @@
 			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task/task-to-task/relation" order="0"/>
 			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task/task-to-task/relatant" order="1"/>
 			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task/task-to-task/assumption" order="2"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task/task-to-task/order-number" order="3"/>
 		</questions>
 		<conditions/>
 	</questionset>
@@ -828,6 +885,36 @@
 			<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/specializes-task"/>
 		</conditions>
 	</question>
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task/task-to-task/order-number">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/model/task/task-to-task/order-number</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/task/task-order-number"/>
+		<is_collection>False</is_collection>
+		<is_optional>True</is_optional>
+		<help lang="en"/>
+		<text lang="en">Order Number of the Computational Task within the Series of contained Computational Tasks.</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Positionsnummer der Berechnungsaufgabe innerhalb der Reihe enthaltener Berechnungsaufgaben.</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum>1.0</minimum>
+		<step>1.0</step>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions>
+			<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/contained-in-task"/>
+			<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/contains-task"/>
+		</conditions>
+	</question>
 	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task/id">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mardmo/model/task/id</uri_path>
@@ -863,13 +950,13 @@
 		<dc:comment/>
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/formulation"/>
 		<is_collection>True</is_collection>
-		<title lang="en">Mathematical Formulation</title>
+		<title lang="en">Mathematical Expression</title>
 		<short_title lang="en"/>
-		<help lang="en">Select, define and relate mathematical formulations.</help>
+		<help lang="en">Select, define and relate mathematical expressions.</help>
 		<verbose_name lang="en"/>
-		<title lang="de">Mathematische Formulierung</title>
+		<title lang="de">Mathematischer Ausdruck</title>
 		<short_title lang="de"/>
-		<help lang="de">Wählen, definieren und verknüpfen Sie mathematische Formulierungen.</help>
+		<help lang="de">Wählen, definieren und verknüpfen Sie mathematische Ausdrücke.</help>
 		<verbose_name lang="de"/>
 		<questionsets>
 			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/formulation/information" order="1"/>
@@ -886,21 +973,22 @@
 		<dc:comment/>
 		<attribute/>
 		<is_collection>False</is_collection>
-		<title lang="en">Mathematical Formulation Information</title>
+		<title lang="en">Mathematical Expression Information</title>
 		<help lang="en"/>
 		<verbose_name lang="en"/>
-		<title lang="de">Mathematische Formulierung Informationen</title>
+		<title lang="de">Mathematischer Ausdruck Informationen</title>
 		<help lang="de"/>
 		<verbose_name lang="de"/>
 		<questionsets>
-			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/formulation/element" order="6"/>
-			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/formulation/formulation-to-formulation-1" order="8"/>
+			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/formulation/element" order="5"/>
+			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/formulation/formulation-to-formulation-1" order="6"/>
 		</questionsets>
 		<questions>
 			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/formulation/name" order="0"/>
 			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/formulation/description" order="1"/>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/formulation/properties" order="2"/>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/formulation/formula" order="5"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/formulation/long-description" order="2"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/formulation/properties" order="3"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/formulation/formula" order="4"/>
 		</questions>
 		<conditions/>
 	</questionset>
@@ -910,10 +998,10 @@
 		<dc:comment/>
 		<attribute/>
 		<is_collection>True</is_collection>
-		<title lang="en">Elements of the Mathematical Formulation</title>
+		<title lang="en">Elements of the Mathematical Expression</title>
 		<help lang="en"/>
 		<verbose_name lang="en"/>
-		<title lang="de">Elemente der mathematischen Formulierung</title>
+		<title lang="de">Elemente des mathematischen Ausdrucks</title>
 		<help lang="de"/>
 		<verbose_name lang="de"/>
 		<questionsets/>
@@ -985,10 +1073,10 @@
 		<dc:comment/>
 		<attribute/>
 		<is_collection>True</is_collection>
-		<title lang="en">Mathematical Formulation - Mathematical Formulation Relations I</title>
+		<title lang="en">Mathematical Expression - Mathematical Expression Relations I</title>
 		<help lang="en"/>
 		<verbose_name lang="en"/>
-		<title lang="de">Mathematische Formulierung - Mathematische Formulierung Beziehungen I</title>
+		<title lang="de">Mathematischer Ausdruck - Mathematischer Ausdruck Beziehungen I</title>
 		<help lang="de"/>
 		<verbose_name lang="de"/>
 		<questionsets/>
@@ -1006,11 +1094,11 @@
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en"/>
-		<text lang="en">The Mathematical Formulation...</text>
+		<text lang="en">The Mathematical Expression...</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de"/>
-		<text lang="de">Die mathematische Formulierung...</text>
+		<text lang="de">Der mathematische Ausdruck...</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
@@ -1034,12 +1122,12 @@
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/formulation/formulation-relatant-1"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">For all mathematical formulations &quot;label (description) [source]&quot; is provided.</help>
-		<text lang="en">...another Mathematical Formulation.</text>
+		<help lang="en">For all mathematical expressions &quot;label (description) [source]&quot; is provided.</help>
+		<text lang="en">...another Mathematical Expression.</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">Für alle mathematischen Formulierungen wird „Name (Beschreibung) [Quelle]“ angegeben.</help>
-		<text lang="de">...einer weiteren mathematischen Formulierung.</text>
+		<help lang="de">Für alle mathematischen Ausdrücke wird „Name (Beschreibung) [Quelle]“ angegeben.</help>
+		<text lang="de">...einer weiteren mathematischen Ausdruck.</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
@@ -1064,11 +1152,11 @@
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en"/>
-		<text lang="en">Name of the Mathematical Formulation.</text>
+		<text lang="en">Name of the Mathematical Expression</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de"/>
-		<text lang="de">Name der mathematischen Formulierung.</text>
+		<text lang="de">Name des mathematischen Ausdrucks</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
@@ -1091,16 +1179,43 @@
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en"/>
-		<text lang="en">Description of the Mathematical Formulation.</text>
+		<text lang="en">Short Description of the Mathematical Expression</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de"/>
-		<text lang="de">Beschreibung der mathematischen Formulierung.</text>
+		<text lang="de">Kurze Beschreibung des mathematischen Ausdrucks</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/formulation/long-description">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/model/formulation/long-description</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/formulation/long-description"/>
+		<is_collection>True</is_collection>
+		<is_optional>True</is_optional>
+		<help lang="en"/>
+		<text lang="en">Detailed Description of the Mathematical Expression</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Detaillierte Beschreibung des mathematischen Ausdrucks</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>textarea</widget_type>
 		<value_type>text</value_type>
 		<maximum/>
 		<minimum/>
@@ -1118,11 +1233,11 @@
 		<is_collection>True</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en"/>
-		<text lang="en">Properties of the Mathematical Formulation</text>
+		<text lang="en">Properties of the Mathematical Expression</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de"/>
-		<text lang="de">Eigenschaften der mathematischen Formulierung</text>
+		<text lang="de">Eigenschaften des mathematischen Ausdrucks</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
@@ -1147,11 +1262,11 @@
 		<is_collection>True</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en"/>
-		<text lang="en">Formula of the Mathematical Formulation</text>
+		<text lang="en">Formula of the Mathematical Expression</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de"/>
-		<text lang="de">Formel der neuen mathematischen Formulierung</text>
+		<text lang="de">Formel des neuen mathematischen Ausdrucks</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
@@ -1172,10 +1287,10 @@
 		<dc:comment/>
 		<attribute/>
 		<is_collection>True</is_collection>
-		<title lang="en">Mathematical Formulation - Mathematical Formulation Relations  II</title>
+		<title lang="en">Mathematical Expression - Mathematical Expression Relations  II</title>
 		<help lang="en"/>
 		<verbose_name lang="en"/>
-		<title lang="de">Mathematische Formulierung - Mathematische Formulierung Beziehungen  II</title>
+		<title lang="de">Mathematischer Ausdruck - Mathematischer Ausdruck Beziehungen  II</title>
 		<help lang="de"/>
 		<verbose_name lang="de"/>
 		<questionsets/>
@@ -1194,11 +1309,11 @@
 		<is_collection>False</is_collection>
 		<is_optional>True</is_optional>
 		<help lang="en"/>
-		<text lang="en">The Mathematical Formulation...</text>
+		<text lang="en">The Mathematical Expression...</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de"/>
-		<text lang="de">Die mathematische Formulierung...</text>
+		<text lang="de">Der mathematische Ausdruck...</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
@@ -1222,12 +1337,12 @@
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/formulation/formulation-relatant-2"/>
 		<is_collection>False</is_collection>
 		<is_optional>True</is_optional>
-		<help lang="en">For all mathematical formulations &quot;label (description) [source]&quot; is provided.</help>
-		<text lang="en">...another Mathematical Formulation.</text>
+		<help lang="en">For all mathematical expressions &quot;label (description) [source]&quot; is provided.</help>
+		<text lang="en">...another Mathematical Expression.</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">Für alle mathematischen Formulierungen wird „Name (Beschreibung) [Quelle]“ angegeben.</help>
-		<text lang="de">...eine weitere mathematische Formulierung.</text>
+		<help lang="de">Für alle mathematischen Ausdrücke wird „Name (Beschreibung) [Quelle]“ angegeben.</help>
+		<text lang="de">...einen weiteren mathematischen Ausdruck.</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
@@ -1252,11 +1367,11 @@
 		<is_collection>True</is_collection>
 		<is_optional>True</is_optional>
 		<help lang="en"/>
-		<text lang="en">Assumption to reduce the general Mathematical Formulation to its specialized form.</text>
+		<text lang="en">Assumption to reduce the general Mathematical Expression to its specialized form.</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de"/>
-		<text lang="de">Annahme zur Reduzierung der allgemeinen mathematischen Formulierung auf seine spezielle Form.</text>
+		<text lang="de">Annahme zur Reduzierung des allgemeinen mathematischen Ausdrucks auf seine spezielle Form.</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
@@ -1283,12 +1398,12 @@
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/formulation/id"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">For all mathematical formulations &quot;label (description) [source]&quot; is provided. If a mathematical formulations is chosen, WAIT until further information are added to the questionnaire. If no appropriate mathematical formulation is present in the MaRDI Portal or Wikidata, choose 'not found'.</help>
-		<text lang="en">Select a Mathematical Formulation related to the Mathematical Model!</text>
+		<help lang="en">For all mathematical expressions &quot;label (description) [source]&quot; is provided. If a mathematical expression is chosen, WAIT until further information are added to the questionnaire. If no appropriate mathematical expression is present in the MaRDI Portal or Wikidata, choose 'not found'.</help>
+		<text lang="en">Select a Mathematical Expression related to the Mathematical Model!</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">Für alle mathematischen Formulierungen wird „Name (Beschreibung) [Quelle]“ angegeben. Wenn eine mathematische Formulierung ausgewählt wird, WARTEN Sie, bis weitere Informationen zum Fragebogen hinzugefügt werden. Falls keine passende mathematische Formulierung im MaRDI-Portal oder Wikidata vorhanden ist, wählen Sie „not found“.</help>
-		<text lang="de">Wählen Sie eine mathematische Formulierung die mit dem mathematischen Modell im Zusammenhang steht!</text>
+		<help lang="de">Für alle mathematischen Ausdrücke wird „Name (Beschreibung) [Quelle]“ angegeben. Wenn ein mathematischer Ausdruck ausgewählt wird, WARTEN Sie, bis weitere Informationen zum Fragebogen hinzugefügt werden. Falls kein passender mathematischer Ausdruck im MaRDI-Portal oder Wikidata vorhanden ist, wählen Sie „not found“.</help>
+		<text lang="de">Wählen Sie einen mathematischen Ausdruck der mit dem mathematischen Modell im Zusammenhang steht!</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
@@ -1344,15 +1459,16 @@
 		<help lang="de"/>
 		<verbose_name lang="de"/>
 		<questionsets>
-			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/element" order="6"/>
+			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/element" order="7"/>
 		</questionsets>
 		<questions>
 			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/is-quantity-or-quantity-kind" order="0"/>
 			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/name" order="1"/>
 			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/description" order="2"/>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/quantity-properties" order="3"/>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/reference" order="4"/>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/formula" order="5"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/long-description" order="3"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/quantity-properties" order="4"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/reference" order="5"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/formula" order="6"/>
 		</questions>
 		<conditions/>
 	</questionset>
@@ -1495,16 +1611,43 @@
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en"/>
-		<text lang="en">Description of the Quantity or Quantity Kind.</text>
+		<text lang="en">Short Description of the Quantity or Quantity Kind.</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de"/>
-		<text lang="de">Beschreibung der Quantität oder Quantitätsart.</text>
+		<text lang="de">Kurze Beschreibung der Quantität oder Quantitätsart.</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/long-description">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/model/quantity/long-description</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/quantity/long-description"/>
+		<is_collection>True</is_collection>
+		<is_optional>True</is_optional>
+		<help lang="en"/>
+		<text lang="en">Detailed Description of the Quantity or Quantity Kind.</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Detaillierte Beschreibung der Quantität oder Quantitätsart.</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>textarea</widget_type>
 		<value_type>text</value_type>
 		<maximum/>
 		<minimum/>
@@ -1975,7 +2118,8 @@
 		<questions>
 			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/problem/name" order="0"/>
 			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/problem/description" order="1"/>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/problem/field-relatant" order="2"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/problem/long-description" order="2"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/problem/field-relatant" order="3"/>
 		</questions>
 		<conditions/>
 	</questionset>
@@ -2014,16 +2158,43 @@
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en"/>
-		<text lang="en">Description of the Research Problem</text>
+		<text lang="en">Short Description of the Research Problem</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de"/>
-		<text lang="de">Beschreibung des Forschungsproblems</text>
+		<text lang="de">Kurze Beschreibung des Forschungsproblems</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/problem/long-description">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/model/problem/long-description</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/problem/long-description"/>
+		<is_collection>True</is_collection>
+		<is_optional>True</is_optional>
+		<help lang="en"/>
+		<text lang="en">Detailed Description of the Research Problem</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Detaillierte Beschreibung des Forschungsproblems</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>textarea</widget_type>
 		<value_type>text</value_type>
 		<maximum/>
 		<minimum/>
@@ -2040,12 +2211,12 @@
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/problem/field-relatant"/>
 		<is_collection>True</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">For all research fields &quot;label (description) [source]&quot; is provided.</help>
-		<text lang="en">Research Field containing the Research Problem?</text>
+		<help lang="en">For all academic disciplines &quot;label (description) [source]&quot; is provided.</help>
+		<text lang="en">Academic Discipline containing the Research Problem?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">Für alle Forschungsgebiete wird „Name (Beschreibung) [Quelle]“ angegeben.</help>
-		<text lang="de">Forschungsgebiet welches das Forschungsproblem enthält?</text>
+		<help lang="de">Für alle akademischen Disziplinen wird „Name (Beschreibung) [Quelle]“ angegeben.</help>
+		<text lang="de">Akademische Disziplin welche das Forschungsproblem enthält?</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
@@ -2069,10 +2240,10 @@
 		<attribute/>
 		<is_collection>True</is_collection>
 		<title lang="en">Research Problem - Research Problem Relations</title>
-		<help lang="en">Optionally, user-defined research problems and research problems from MathModDB can be related to each other.</help>
+		<help lang="en"/>
 		<verbose_name lang="en"/>
 		<title lang="de">Forschungsproblem - Forschungsproblem Beziehungen</title>
-		<help lang="de">Optional können benutzerdefinierte Forschungsprobleme und Forschungsprobleme aus MathModDB miteinander verknüpft werden.</help>
+		<help lang="de"/>
 		<verbose_name lang="de"/>
 		<questionsets/>
 		<questions>
@@ -2174,13 +2345,13 @@
 		<dc:comment/>
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/field"/>
 		<is_collection>True</is_collection>
-		<title lang="en">Research Field</title>
+		<title lang="en">Academic Discipline</title>
 		<short_title lang="en"/>
-		<help lang="en">Select, define and relate research fields associated with the mathematical model.</help>
+		<help lang="en">Select, define and relate academic disciplines associated with the mathematical model.</help>
 		<verbose_name lang="en"/>
-		<title lang="de">Forschungsgebiet</title>
+		<title lang="de">Akademische Disziplin</title>
 		<short_title lang="de"/>
-		<help lang="de">Wählen, definieren und verknüpfen Sie die mit dem mathematischen Modell verbundenen Forschungsgebiete.</help>
+		<help lang="de">Wählen, definieren und verknüpfen Sie die mit dem mathematischen Modell verbundenen akademischen Disziplinen.</help>
 		<verbose_name lang="de"/>
 		<questionsets>
 			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/field/information" order="1"/>
@@ -2197,16 +2368,17 @@
 		<dc:comment/>
 		<attribute/>
 		<is_collection>False</is_collection>
-		<title lang="en">Research Field Information</title>
+		<title lang="en">Academic Discipline Information</title>
 		<help lang="en"/>
 		<verbose_name lang="en"/>
-		<title lang="de">Forschungsgebiet Informationen</title>
+		<title lang="de">Akademische Disziplin Informationen</title>
 		<help lang="de"/>
 		<verbose_name lang="de"/>
 		<questionsets/>
 		<questions>
 			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/field/name" order="0"/>
 			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/field/description" order="1"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/field/long-description" order="2"/>
 		</questions>
 		<conditions/>
 	</questionset>
@@ -2218,11 +2390,11 @@
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en"/>
-		<text lang="en">Name of the Research Field</text>
+		<text lang="en">Name of the Academic Discipline</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de"/>
-		<text lang="de">Name des Forschungsgebiets</text>
+		<text lang="de">Name der akademischen Disziplin</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
@@ -2245,16 +2417,43 @@
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en"/>
-		<text lang="en">Description of the Research Field</text>
+		<text lang="en">Short Description of the Academic Discipline</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de"/>
-		<text lang="de">Beschreibung des Forschungsgebiets</text>
+		<text lang="de">Kurze Beschreibung der akademischen Disziplin</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/field/long-description">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/model/field/long-description</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/field/long-description"/>
+		<is_collection>True</is_collection>
+		<is_optional>True</is_optional>
+		<help lang="en"/>
+		<text lang="en">Detailed Description of the Academic Discipline</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Detaillierte Beschreibung der akademischen Disziplin</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>textarea</widget_type>
 		<value_type>text</value_type>
 		<maximum/>
 		<minimum/>
@@ -2270,11 +2469,11 @@
 		<dc:comment/>
 		<attribute/>
 		<is_collection>True</is_collection>
-		<title lang="en">Research Field - Research Field Relations</title>
-		<help lang="en">Optionally, user-defined research fields and research fields from MathModDB can be related to each other.</help>
+		<title lang="en">Academic Discipline - Academic Discipline Relations</title>
+		<help lang="en"/>
 		<verbose_name lang="en"/>
-		<title lang="de">Forschungsgebiet - Forschungsgebiet Beziehungen</title>
-		<help lang="de">Optional können benutzerdefinierte Forschungsgebiete und Forschungsgebiete aus MathModDB miteinander verknüpft werden.</help>
+		<title lang="de">Akademische Disziplin - Akademische Disziplin Beziehungen</title>
+		<help lang="de"/>
 		<verbose_name lang="de"/>
 		<questionsets/>
 		<questions>
@@ -2291,11 +2490,11 @@
 		<is_collection>False</is_collection>
 		<is_optional>True</is_optional>
 		<help lang="en"/>
-		<text lang="en">The Research Field...</text>
+		<text lang="en">The Academic Discipline...</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de"/>
-		<text lang="de">Das neue Forschungsgebiet...</text>
+		<text lang="de">Die akademische Disziplin...</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
@@ -2319,12 +2518,12 @@
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/field/field-relatant"/>
 		<is_collection>False</is_collection>
 		<is_optional>True</is_optional>
-		<help lang="en">For all research fields &quot;label (description) [source]&quot; is provided.</help>
-		<text lang="en">...another Research Field.</text>
+		<help lang="en">For all academic disciplines &quot;label (description) [source]&quot; is provided.</help>
+		<text lang="en">...another Academic Discipline.</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">Für alle Forschungsgebiete wird „Name (Beschreibung) [Quelle]“ angegeben.</help>
-		<text lang="de">...ein weiteres Forschungsgebiet.</text>
+		<help lang="de">Für alle akademischen Disziplinen wird „Name (Beschreibung) [Quelle]“ angegeben.</help>
+		<text lang="de">...eine weitere akademische Disziplin.</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
@@ -2348,12 +2547,12 @@
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/field/id"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">For all research fields &quot;label (description) [source]&quot; is provided. If a research field is chosen, WAIT until further information are added to the questionnaire. If no appropriate research field is present in the MaRDI Portal or Wikidata, choose 'not found'.</help>
-		<text lang="en">Select a Research Field related to the Mathematical Model!</text>
+		<help lang="en">For all academic disciplines &quot;label (description) [source]&quot; is provided. If an academic discipline is chosen, WAIT until further information are added to the questionnaire. If no appropriate academic discipline is present in the MaRDI Portal or Wikidata, choose 'not found'.</help>
+		<text lang="en">Select an Academic Discipline related to the Mathematical Model!</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">Für alle Forschungsgebiete wird „Name (Beschreibung) [Quelle]“ angegeben. Wenn ein Forschungsgebiet ausgewählt wird, WARTEN Sie, bis weitere Informationen zum Fragebogen hinzugefügt werden. Falls kein passendes Forschungsgebiet im MaRDI-Portal oder Wikidata vorhanden ist, wählen Sie „not found“.</help>
-		<text lang="de">Wählen Sie ein Forschungsgebiet aus, das mit dem mathematischen Modell im Zusammenhang steht!</text>
+		<help lang="de">Für alle akademischen Disziplinen wird „Name (Beschreibung) [Quelle]“ angegeben. Wenn eine akademische Disziplin ausgewählt wird, WARTEN Sie, bis weitere Informationen zum Fragebogen hinzugefügt werden. Falls keine passende akademische Disziplin im MaRDI-Portal oder Wikidata vorhanden ist, wählen Sie „not found“.</help>
+		<text lang="de">Wählen Sie eine akademische Disziplin aus, die mit dem mathematischen Modell im Zusammenhang steht!</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
@@ -2479,13 +2678,7 @@
 		<unit/>
 		<width/>
 		<optionsets>
-			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/field-relatant-without-creation"/>
-			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/formulation-relatant-without-creation"/>
-			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/model-relatant-without-creation"/>
-			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/problem-relatant-without-creation"/>
-			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/quantity-kind-relatant-without-creation"/>
-			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/quantity-relatant-without-creation"/>
-			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/task-relatant-without-creation"/>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/entity-relatant-without-creation"/>
 		</optionsets>
 		<conditions/>
 	</question>
