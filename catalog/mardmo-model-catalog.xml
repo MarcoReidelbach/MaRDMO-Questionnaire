@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2025-05-22T20:50:34.512841+02:00" required="2.1.0" version="2.3.1">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2025-05-30T08:22:27.581184+02:00" required="2.1.0" version="2.3.1">
 	<catalog dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo-model-catalog">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mardmo-model-catalog</uri_path>
@@ -95,6 +95,7 @@
 		<questions>
 			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/model/model-to-formulation/model-relation" order="0"/>
 			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/model/formulation-to-model/model-relatant" order="1"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/model/model-to-formulation/order-number" order="2"/>
 		</questions>
 		<conditions/>
 	</questionset>
@@ -154,6 +155,33 @@
 		<optionsets>
 			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/formulation-relatant-with-creation"/>
 		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/model/model-to-formulation/order-number">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/model/model/model-to-formulation/order-number</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/model/formulation-order-number"/>
+		<is_collection>False</is_collection>
+		<is_optional>True</is_optional>
+		<help lang="en">Order numbers, starting from 1, to  can be used to define the sequence in which the related mathematical expressions are displayed on the MaRDI Portal. If order numbers are provided, all mathematical expressions within the mathematical model must have one. If no order numbers are given, mathematical expressions linked via 'contains' and 'assumes' are shown first, followed by the individual conditions.</help>
+		<text lang="en">Order Number of the Mathematical Expression within the Mathematical Model.</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de">Positionsnummern, von 1 an, können verwendet werden, um die Reihenfolge festzulegen, in der die zugehörigen mathematischen Ausdrücke auf dem MaRDI-Portal angezeigt werden. Wenn Positionsnummern angegeben werden, muss jeder mathematische Ausdruck innerhalb des mathematischen Modells eine haben. Werden keine Positionsnummern vergeben, werden zuerst die über 'beinhaltet' und 'nimmt an' verknüpften Ausdrücke angezeigt, gefolgt von den einzelnen Bedingungen.</help>
+		<text lang="de">Positionsnummer des mathematischen Ausdrucks im mathematischen Modell.</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum>1.0</minimum>
+		<step>1.0</step>
+		<unit/>
+		<width/>
+		<optionsets/>
 		<conditions/>
 	</question>
 	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/model/name">
