@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2025-05-22T20:50:19.527238+02:00" required="2.1.0" version="2.3.1">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2025-06-12T10:57:28.999179+02:00" required="2.1.0" version="2.3.1">
 	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/algorithm">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>algorithm</uri_path>
@@ -8,11 +8,11 @@
 		<options/>
 		<conditions/>
 	</optionset>
-	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/algorithm-relatant">
+	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/algorithm-relatant-without-creation">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>algorithm-relatant</uri_path>
+		<uri_path>algorithm-relatant-without-creation</uri_path>
 		<dc:comment/>
-		<provider_key>RelatedAlgorithm</provider_key>
+		<provider_key>RelatedAlgorithmWithoutCreation</provider_key>
 		<options/>
 		<conditions/>
 	</optionset>
@@ -192,11 +192,19 @@
 		<options/>
 		<conditions/>
 	</optionset>
-	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/algorithmic-problem-relatant">
+	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/algorithmic-problem-relatant-with-creation">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>algorithmic-problem-relatant</uri_path>
+		<uri_path>algorithmic-problem-relatant-with-creation</uri_path>
 		<dc:comment/>
-		<provider_key>RelatedAlgorithmicProblem</provider_key>
+		<provider_key>RelatedAlgorithmicProblemWithCreation</provider_key>
+		<options/>
+		<conditions/>
+	</optionset>
+	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/algorithmic-problem-relatant-without-creation">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>algorithmic-problem-relatant-without-creation</uri_path>
+		<dc:comment/>
+		<provider_key>RelatedAlgorithmicProblemWithoutCreation</provider_key>
 		<options/>
 		<conditions/>
 	</optionset>
@@ -340,11 +348,11 @@
 		<view_text lang="de"/>
 		<additional_input>text</additional_input>
 	</option>
-	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/benchmark-relatant">
+	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/benchmark-relatant-with-creation">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>benchmark-relatant</uri_path>
+		<uri_path>benchmark-relatant-with-creation</uri_path>
 		<dc:comment/>
-		<provider_key>RelatedBenchmark</provider_key>
+		<provider_key>RelatedBenchmarkWithCreation</provider_key>
 		<options/>
 		<conditions/>
 	</optionset>
@@ -1645,11 +1653,11 @@
 		<view_text lang="de"/>
 		<additional_input>text</additional_input>
 	</option>
-	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/software-relatant">
+	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/software-relatant-with-creation">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>software-relatant</uri_path>
+		<uri_path>software-relatant-with-creation</uri_path>
 		<dc:comment/>
-		<provider_key>RelatedSoftwareAL</provider_key>
+		<provider_key>RelatedSoftwareALWithCreation</provider_key>
 		<options/>
 		<conditions/>
 	</optionset>

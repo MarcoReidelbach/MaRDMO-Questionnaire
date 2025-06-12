@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2025-06-11T13:27:09.367300+02:00" required="2.1.0" version="2.3.1">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2025-06-12T10:57:52.346015+02:00" required="2.1.0" version="2.3.1">
 	<catalog dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo-algorithm-catalog">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mardmo-algorithm-catalog</uri_path>
@@ -144,7 +144,7 @@
 		<verbose_name lang="de"/>
 		<default_option/>
 		<default_external_id/>
-		<widget_type>select</widget_type>
+		<widget_type>select_creatable</widget_type>
 		<value_type>text</value_type>
 		<maximum/>
 		<minimum/>
@@ -152,7 +152,7 @@
 		<unit/>
 		<width/>
 		<optionsets>
-			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/algorithmic-problem-relatant"/>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/algorithmic-problem-relatant-with-creation"/>
 		</optionsets>
 		<conditions/>
 	</question>
@@ -173,7 +173,7 @@
 		<verbose_name lang="de"/>
 		<default_option/>
 		<default_external_id/>
-		<widget_type>select</widget_type>
+		<widget_type>select_creatable</widget_type>
 		<value_type>text</value_type>
 		<maximum/>
 		<minimum/>
@@ -181,7 +181,7 @@
 		<unit/>
 		<width/>
 		<optionsets>
-			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/software-relatant"/>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/software-relatant-with-creation"/>
 		</optionsets>
 		<conditions/>
 	</question>
@@ -258,7 +258,7 @@
 		<unit/>
 		<width/>
 		<optionsets>
-			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/algorithm-relatant"/>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/algorithm-relatant-without-creation"/>
 		</optionsets>
 		<conditions/>
 	</question>
@@ -413,7 +413,7 @@
 		<unit/>
 		<width/>
 		<optionsets>
-			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/benchmark-relatant"/>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/benchmark-relatant-with-creation"/>
 		</optionsets>
 		<conditions/>
 	</question>
@@ -490,7 +490,7 @@
 		<unit/>
 		<width/>
 		<optionsets>
-			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/algorithmic-problem-relatant"/>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/algorithmic-problem-relatant-without-creation"/>
 		</optionsets>
 		<conditions/>
 	</question>
@@ -674,7 +674,7 @@
 		<unit/>
 		<width/>
 		<optionsets>
-			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/benchmark-relatant"/>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/benchmark-relatant-with-creation"/>
 		</optionsets>
 		<conditions/>
 	</question>
@@ -972,7 +972,7 @@
 		<unit/>
 		<width/>
 		<optionsets>
-			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/algorithm-relatant"/>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/algorithm-relatant-without-creation"/>
 		</optionsets>
 		<conditions/>
 	</question>
@@ -1049,7 +1049,7 @@
 		<unit/>
 		<width/>
 		<optionsets>
-			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/benchmark-relatant"/>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/benchmark-relatant-with-creation"/>
 		</optionsets>
 		<conditions/>
 	</question>
@@ -1126,7 +1126,7 @@
 		<unit/>
 		<width/>
 		<optionsets>
-			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/software-relatant"/>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/software-relatant-with-creation"/>
 		</optionsets>
 		<conditions/>
 	</question>
