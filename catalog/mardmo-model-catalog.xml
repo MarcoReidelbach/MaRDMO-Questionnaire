@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2025-06-11T13:27:02.642756+02:00" required="2.1.0" version="2.3.1">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2025-06-13T10:42:28.389362+02:00" required="2.1.0" version="2.3.1">
 	<catalog dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo-model-catalog">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mardmo-model-catalog</uri_path>
@@ -41,7 +41,7 @@
 		<title lang="en">Welcome to the MathModDB Interview</title>
 		<short_title lang="en">Introduction</short_title>
 		<help lang="en">&lt;p&gt;This guided interview helps you document mathematical models using the &lt;em&gt;&lt;a href=&quot;https://mardi4nfdi.github.io/MathModDB/&quot; target=&quot;_blank&quot;&gt;MathModDB ontology&lt;/a&gt;&lt;/em&gt;.&lt;/p&gt;
-  &lt;p&gt;The interview is structured by the key classes of the ontology:&lt;/p&gt; 
+  &lt;p&gt;The interview is structured by the classes of the ontology:&lt;/p&gt; 
 &lt;ul&gt; 
 &lt;li&gt;&lt;em&gt;Mathematical Model&lt;/em&gt;&lt;/li&gt;
 &lt;li&gt;&lt;em&gt;Computational Task&lt;/em&gt;&lt;/li&gt; 
@@ -59,12 +59,12 @@
     &lt;li&gt;Adding a computational task to an existing model&lt;/li&gt;
   &lt;/ul&gt;
   &lt;p&gt;All information is structured to support the FAIR principles — making your models &lt;strong&gt;Findable, Accessible, Interoperable, and Reusable&lt;/strong&gt;.&lt;/p&gt;
-  &lt;p&gt;This catalog is part of &lt;strong&gt;&lt;a href=&quot;https://github.com/MarcoReidelbach/MaRDMO-Plugin&quot; target=&quot;_blank&quot;&gt;MaRDMO&lt;/a&gt;&lt;/strong&gt; and developed within Task Area 4 of the &lt;strong&gt;&lt;a href=&quot;https://www.mardi4nfdi.de/&quot; target=&quot;_blank&quot;&gt;Mathematical Research Data Initiative (MaRDI)&lt;/a&gt;&lt;/strong&gt;. It aims to help researchers across all disciplines to systematically document their mathematical models.&lt;/p&gt;</help>
+  &lt;p&gt;This catalog is part of &lt;strong&gt;&lt;a href=&quot;https://github.com/MarcoReidelbach/MaRDMO-Plugin&quot; target=&quot;_blank&quot;&gt;MaRDMO&lt;/a&gt;&lt;/strong&gt; and developed within Task Area 4 of the &lt;strong&gt;&lt;a href=&quot;https://www.mardi4nfdi.de/&quot; target=&quot;_blank&quot;&gt;Mathematical Research Data Initiative (MaRDI)&lt;/a&gt;&lt;/strong&gt;. It aims to help researchers across all disciplines to systematically document their mathematical research data.&lt;/p&gt;</help>
 		<verbose_name lang="en"/>
 		<title lang="de">Willkommen zum MathModDB-Interview</title>
 		<short_title lang="de">Einführung</short_title>
 		<help lang="de">&lt;p&gt;Dieses geführte Interview unterstützt Sie bei der Dokumentation mathematischer Modelle mithilfe der &lt;em&gt;&lt;a href=&quot;https://mardi4nfdi.github.io/MathModDB/&quot; target=&quot;_blank&quot;&gt;MathModDB-Ontologie&lt;/a&gt;&lt;/em&gt;.&lt;/p&gt;
-&lt;p&gt;Das Interview orientiert sich an den zentralen Klassen der Ontologie:&lt;/p&gt; 
+&lt;p&gt;Das Interview orientiert sich an den Klassen der Ontologie:&lt;/p&gt; 
 &lt;ul&gt; 
 &lt;li&gt;&lt;em&gt;Mathematisches Modell&lt;/em&gt;&lt;/li&gt;
 &lt;li&gt;&lt;em&gt;Berechnungsaufgabe&lt;/em&gt;&lt;/li&gt; 
@@ -82,7 +82,7 @@
   &lt;li&gt;Hinzufügen einer Berechnungsaufgabe zu einem bestehenden Modell&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Alle Informationen sind gemäß den FAIR-Prinzipien strukturiert – Ihre Modelle werden dadurch &lt;strong&gt;auffindbar, zugänglich, interoperabel und wiederverwendbar&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;Dieser Katalog ist Teil von &lt;strong&gt;&lt;a href=&quot;https://github.com/MarcoReidelbach/MaRDMO-Plugin&quot; target=&quot;_blank&quot;&gt;MaRDMO&lt;/a&gt;&lt;/strong&gt; und wird im Rahmen des Task Area 4 der &lt;strong&gt;&lt;a href=&quot;https://www.mardi4nfdi.de/&quot; target=&quot;_blank&quot;&gt;Mathematical Research Data Initiative (MaRDI)&lt;/a&gt;&lt;/strong&gt; entwickelt. Ziel ist es, Forschende aller Disziplinen bei der systematischen Dokumentation mathematischer Modelle zu unterstützen.&lt;/p&gt;</help>
+&lt;p&gt;Dieser Katalog ist Teil von &lt;strong&gt;&lt;a href=&quot;https://github.com/MarcoReidelbach/MaRDMO-Plugin&quot; target=&quot;_blank&quot;&gt;MaRDMO&lt;/a&gt;&lt;/strong&gt; und wird im Rahmen des Task Area 4 der &lt;strong&gt;&lt;a href=&quot;https://www.mardi4nfdi.de/&quot; target=&quot;_blank&quot;&gt;Mathematical Research Data Initiative (MaRDI)&lt;/a&gt;&lt;/strong&gt; entwickelt. Ziel ist es, Forschende aller Disziplinen bei der systematischen Dokumentation mathematischer Forschungsdaten zu unterstützen.&lt;/p&gt;</help>
 		<verbose_name lang="de"/>
 		<questionsets/>
 		<questions/>
@@ -2971,7 +2971,7 @@
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de">Erwartetes Format: Nachname des (Erst)-Autors (Jahr) Titel</help>
-		<text lang="de">Geben Sie weitere Information über die Publikation an!</text>
+		<text lang="de">Geben Sie weitere Informationen über die Publikation an!</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
