@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2025-06-13T10:42:34.338906+02:00" required="2.1.0" version="2.3.1">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2025-06-13T12:39:50.623678+02:00" required="2.1.0" version="2.3.1">
 	<catalog dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo-algorithm-catalog">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mardmo-algorithm-catalog</uri_path>
 		<dc:comment/>
 		<order>0</order>
 		<title lang="en">MaRDMO: Questionnaire for Algorithms</title>
-		<help lang="en"/>
+		<help lang="en">This catalog helps you document algorithms using the MathAlgoDB ontology. It covers key aspects such as the algorithm itself, algorithmic tasks, software, benchmarks, and publications. You can reuse existing entries from the MathAlgoDB Knowledge Graph, MaRDI Portal or Wikidata, or create new ones. The catalog supports documenting new algorithms, adding tasks, software, or benchmarks to existing ones. It follows the FAIR principles to make algorithms findable, accessible, interoperable, and reusable, and is part of the MaRDMO project developed within the MaRDI initiative.</help>
 		<title lang="de">MaRDMO: Fragenkatalog für Algorithmen</title>
-		<help lang="de"/>
+		<help lang="de">Dieser Katalog hilft dabei, Algorithmen anhand der MathAlgoDB-Ontologie zu dokumentieren. Er umfasst zentrale Elemente wie den Algorithmus selbst, algorithmische Aufgaben, Software, Benchmarks und Publikationen. Bestehende Einträge aus dem MathAlgoDB Knowledge Graph, MaRDI Portal oder Wikidata können wiederverwendet oder neue erstellt werden. Der Katalog unterstützt die Dokumentation neuer Algorithmen sowie das Hinzufügen von Aufgaben, Software oder Benchmarks zu bestehenden Einträgen. Er folgt den FAIR-Prinzipien, um Algorithmen auffindbar, zugänglich, interoperabel und wiederverwendbar zu machen, und ist Teil des MaRDMO-Projekts innerhalb der MaRDI-Initiative.</help>
 		<sections>
 			<section dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/algorithm" order="1"/>
 			<section dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/publication-algorithm" order="2"/>

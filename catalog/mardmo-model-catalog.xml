@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2025-06-13T10:42:28.389362+02:00" required="2.1.0" version="2.3.1">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2025-06-13T12:39:43.558981+02:00" required="2.1.0" version="2.3.1">
 	<catalog dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo-model-catalog">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mardmo-model-catalog</uri_path>
 		<dc:comment/>
 		<order>0</order>
 		<title lang="en">MaRDMO: Questionnaire for Mathematical Models</title>
-		<help lang="en"/>
+		<help lang="en">This catalog helps you describe mathematical models using the MathModDB ontology. It covers key elements such as the model itself, computational tasks, mathematical expressions, quantities, research problems, academic disciplines, and publications. You can reuse existing entries from the MaRDI Portal or Wikidata, or create new ones. The catalog supports documenting new models, adding research problems, or adding computational tasks. It follows the FAIR principles to make models findable, accessible, interoperable, and reusable, and is part of the MaRDMO project developed within the MaRDI initiative.</help>
 		<title lang="de">MaRDMO: Fragenkatalog für mathematische Modelle</title>
-		<help lang="de"/>
+		<help lang="de">Dieser Katalog hilft dabei, mathematische Modelle anhand der MathModDB-Ontologie zu beschreiben. Er umfasst zentrale Elemente wie das Modell selbst, Berechnungsaufgaben, mathematische Ausdrücke, Größen, Forschungsprobleme, wissenschaftliche Disziplinen und Publikationen. Bestehende Einträge aus dem MaRDI-Portal oder Wikidata können wiederverwendet oder neue erstellt werden. Der Katalog unterstützt die Dokumentation neuer Modelle, das Hinzufügen von Forschungsproblemen oder Berechnungsaufgaben. Er folgt den FAIR-Prinzipien, um Modelle auffindbar, zugänglich, interoperabel und wiederverwendbar zu machen, und ist Teil des MaRDMO-Projekts innerhalb der MaRDI-Initiative.</help>
 		<sections>
 			<section dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model-definition" order="1"/>
 			<section dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/publication-model" order="2"/>
