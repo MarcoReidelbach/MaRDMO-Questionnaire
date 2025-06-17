@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2025-06-11T13:27:16.144520+02:00" required="2.1.0" version="2.3.1">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2025-06-17T10:43:37.203261+02:00" required="2.1.0" version="2.3.1">
 	<catalog dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo-interdisciplinary-workflow-catalog">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mardmo-interdisciplinary-workflow-catalog</uri_path>
@@ -141,7 +141,7 @@
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mardmo/model-selection/main-model/id</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/main-model/id"/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/main-model"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en">For all mathematical models &quot;label (description) [source]&quot; is provided. If no appropriate mathematical model is present in the MathModDB Knowledge Graph, choose 'not found'.</help>
@@ -190,7 +190,7 @@
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mardmo/model-selection/workflow-relevant-task/id</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/main-model/workflow-relevant-task/id"/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/main-model/workflow-relevant-task"/>
 		<is_collection>True</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en"/>
@@ -338,7 +338,7 @@
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mardmo/process-information/process-step/input</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/process-step/input/id"/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/process-step/input"/>
 		<is_collection>True</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en">For all input data sets &quot;label (description) [source]&quot; is provided.</help>
@@ -367,7 +367,7 @@
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mardmo/process-information/process-step/output</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/process-step/output/id"/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/process-step/output"/>
 		<is_collection>True</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en">For all output data sets &quot;label (description) [source]&quot; is provided.</help>
@@ -396,7 +396,7 @@
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mardmo/process-information/process-step/algorithm</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/process-step/method/id"/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/process-step/method"/>
 		<is_collection>True</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en">For all methods &quot;label (description) [source]&quot; is provided. For computational methods, select entries from the MathAlgoDB Knowledge Graph; for experimental approaches, use entries from the MaRDI Portal or Wikidata.</help>
@@ -452,7 +452,7 @@
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mardmo/process-information/process-step/environment-software</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/process-step/environment-software/id"/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/process-step/environment-software"/>
 		<is_collection>True</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en">For all software environments &quot;label (description) [source]&quot; is provided.</help>
@@ -481,7 +481,7 @@
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mardmo/process-information/process-step/environment-instrument</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/process-step/environment-instrument/id"/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/process-step/environment-instrument"/>
 		<is_collection>True</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en">For all instrument environments &quot;label (description) [source]&quot; is provided.</help>
@@ -510,7 +510,7 @@
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mardmo/process-information/process-step/discipline</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/process-step/discipline/id"/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/process-step/discipline"/>
 		<is_collection>True</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en">Use MaRDI Portal or Wikidata entries for the non-mathematical disciplines and Mathematical Subject Classification (MSC) entries for the mathematical areas. For all MaRDI Portal and Wikidata entries &quot;label (description) [source]&quot; is provided. For MSC entries &quot;label (MSC ID) [source]&quot; is provided.</help>
@@ -693,7 +693,7 @@
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mardmo/process-information/method/software</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/method/software/id"/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/method/software"/>
 		<is_collection>True</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en">For all items &quot;label (description) [source]&quot; is provided.</help>
@@ -722,7 +722,7 @@
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mardmo/process-information/method/instrument</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/method/instrument/id"/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/method/instrument"/>
 		<is_collection>True</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en">For all items &quot;label (description) [source]&quot; is provided.</help>
@@ -910,7 +910,7 @@
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mardmo/process-information/software/programming-language</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/software/programming-language/id"/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/software/programming-language"/>
 		<is_collection>True</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en">For all items &quot;label (description) [source]&quot; is provided.</help>
@@ -939,7 +939,7 @@
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mardmo/process-information/software/dependency</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/software/dependency/id"/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/software/dependency"/>
 		<is_collection>True</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en">For all items &quot;label (description) [source]&quot; is provided.</help>
@@ -1182,7 +1182,7 @@
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mardmo/process-information/hardware/cpu</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/hardware/cpu/id"/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/hardware/cpu"/>
 		<is_collection>True</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en">For all items &quot;label (description) [source]&quot; is provided.</help>
@@ -1211,7 +1211,7 @@
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mardmo/process-information/hardware/compiler</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/hardware/compiler/id"/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/hardware/compiler"/>
 		<is_collection>True</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en">For all items &quot;label (description) [source]&quot; is provided.</help>
@@ -1294,7 +1294,7 @@
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mardmo/process-information/hardware/software</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/hardware/software/id"/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/hardware/software"/>
 		<is_collection>True</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en"/>
@@ -1562,7 +1562,7 @@
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mardmo/process-information/instrument/software</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/instrument/software/id"/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/instrument/software"/>
 		<is_collection>True</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en">For all items &quot;label (description) [source]&quot; is provided.</help>
@@ -1754,7 +1754,7 @@ Für alle Instrumente wird „Name (Beschreibung) [Quelle]“ angegeben. Wenn ei
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mardmo/process-information/data-set/data-type</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/data-set/data-type/id"/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/data-set/data-type"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en">e.g. boolean, integer, floating-point, ...</help>
@@ -1783,7 +1783,7 @@ Für alle Instrumente wird „Name (Beschreibung) [Quelle]“ angegeben. Wenn ei
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mardmo/process-information/data-set/representation-format</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/data-set/representation-format/id"/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/data-set/representation-format"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en">e.g. compressed row storage (CRS), compressed sparse column (CSC), ...</help>
