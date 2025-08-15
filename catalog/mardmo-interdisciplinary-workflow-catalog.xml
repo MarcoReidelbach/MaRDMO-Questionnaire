@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2025-06-17T10:43:37.203261+02:00" required="2.1.0" version="2.3.1">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2025-08-15T10:48:22.437719+02:00" required="2.1.0" version="2.3.2">
 	<catalog dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo-interdisciplinary-workflow-catalog">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mardmo-interdisciplinary-workflow-catalog</uri_path>
@@ -114,7 +114,7 @@
 		<short_title lang="de"/>
 		<pages>
 			<page dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model-selection/main-model" order="0"/>
-			<page dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model-selection/workflow-relevant-task" order="8"/>
+			<page dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model-selection/task" order="8"/>
 		</pages>
 	</section>
 	<page dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model-selection/main-model">
@@ -141,7 +141,7 @@
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mardmo/model-selection/main-model/id</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/main-model"/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/main-model/id"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en">For all mathematical models &quot;label (description) [source]&quot; is provided. If no appropriate mathematical model is present in the MathModDB Knowledge Graph, choose 'not found'.</help>
@@ -166,11 +166,11 @@
 		</optionsets>
 		<conditions/>
 	</question>
-	<page dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model-selection/workflow-relevant-task">
+	<page dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model-selection/task">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>mardmo/model-selection/workflow-relevant-task</uri_path>
+		<uri_path>mardmo/model-selection/task</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/main-model/workflow-relevant-task"/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/main-model/task"/>
 		<is_collection>False</is_collection>
 		<title lang="en">Workflow relevant Task(s)</title>
 		<short_title lang="en"/>
@@ -182,15 +182,15 @@
 		<verbose_name lang="de"/>
 		<questionsets/>
 		<questions>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model-selection/workflow-relevant-task/id" order="0"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model-selection/task/id" order="0"/>
 		</questions>
 		<conditions/>
 	</page>
-	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model-selection/workflow-relevant-task/id">
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model-selection/task/id">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>mardmo/model-selection/workflow-relevant-task/id</uri_path>
+		<uri_path>mardmo/model-selection/task/id</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/main-model/workflow-relevant-task"/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/main-model/task/id"/>
 		<is_collection>True</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en"/>
@@ -1533,7 +1533,7 @@
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mardmo/process-information/instrument/location</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/instrument/location/id"/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/instrument/location"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en">For all items &quot;label (description) [source]&quot; is provided.</help>

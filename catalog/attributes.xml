@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2025-06-17T10:43:04.746208+02:00" required="2.1.0" version="2.3.1">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2025-08-15T10:47:48.748508+02:00" required="2.1.0" version="2.3.2">
 	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/algorithm">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<key>algorithm</key>
@@ -455,27 +455,6 @@
 		<dc:comment/>
 		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/instrument"/>
 	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/instrument/location/description">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>description</key>
-		<path>instrument/location/description</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/instrument/location"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/instrument/location/id">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>id</key>
-		<path>instrument/location/id</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/instrument/location"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/instrument/location/name">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>name</key>
-		<path>instrument/location/name</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/instrument/location"/>
-	</attribute>
 	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/instrument/name">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<key>name</key>
@@ -518,12 +497,26 @@
 		<dc:comment/>
 		<parent/>
 	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/main-model/workflow-relevant-task">
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/main-model/id">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>workflow-relevant-task</key>
-		<path>main-model/workflow-relevant-task</path>
+		<key>id</key>
+		<path>main-model/id</path>
 		<dc:comment/>
 		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/main-model"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/main-model/task">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>task</key>
+		<path>main-model/task</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/main-model"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/main-model/task/id">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>id</key>
+		<path>main-model/task/id</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/main-model/task"/>
 	</attribute>
 	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/method">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>

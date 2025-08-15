@@ -1,14 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2025-06-13T12:39:43.558981+02:00" required="2.1.0" version="2.3.1">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2025-08-15T10:48:06.056033+02:00" required="2.1.0" version="2.3.2">
 	<catalog dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo-model-catalog">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mardmo-model-catalog</uri_path>
 		<dc:comment/>
 		<order>0</order>
 		<title lang="en">MaRDMO: Questionnaire for Mathematical Models</title>
-		<help lang="en">This catalog helps you describe mathematical models using the MathModDB ontology. It covers key elements such as the model itself, computational tasks, mathematical expressions, quantities, research problems, academic disciplines, and publications. You can reuse existing entries from the MaRDI Portal or Wikidata, or create new ones. The catalog supports documenting new models, adding research problems, or adding computational tasks. It follows the FAIR principles to make models findable, accessible, interoperable, and reusable, and is part of the MaRDMO project developed within the MaRDI initiative.</help>
+		<help lang="en">&lt;p&gt;This catalog helps you describe mathematical models using the MathModDB ontology. It covers key elements such as the model itself, computational tasks, mathematical expressions, quantities, research problems, academic disciplines, and publications. You can reuse existing entries from the MaRDI Portal or Wikidata, or create new ones. The catalog supports documenting new models, adding research problems, or adding computational tasks. It follows the FAIR principles to make models findable, accessible, interoperable, and reusable, and is part of the MaRDMO project developed within the MaRDI initiative. Completed documentations can be exported directly to the MaRDI Portal.&lt;/p&gt;
+
+&lt;p&gt;Check out &lt;a href=&quot;https://www.youtube.com/watch?v=UmbBNUZJ994&amp;list=PLgoPZ7uPWbo-jqDXzx4fSm_4JyAYEMPjn&quot;&gt;MaRDMO Model Documentation&lt;/a&gt; showcasing the documentation and subsequent export.&lt;/p&gt;</help>
 		<title lang="de">MaRDMO: Fragenkatalog für mathematische Modelle</title>
-		<help lang="de">Dieser Katalog hilft dabei, mathematische Modelle anhand der MathModDB-Ontologie zu beschreiben. Er umfasst zentrale Elemente wie das Modell selbst, Berechnungsaufgaben, mathematische Ausdrücke, Größen, Forschungsprobleme, wissenschaftliche Disziplinen und Publikationen. Bestehende Einträge aus dem MaRDI-Portal oder Wikidata können wiederverwendet oder neue erstellt werden. Der Katalog unterstützt die Dokumentation neuer Modelle, das Hinzufügen von Forschungsproblemen oder Berechnungsaufgaben. Er folgt den FAIR-Prinzipien, um Modelle auffindbar, zugänglich, interoperabel und wiederverwendbar zu machen, und ist Teil des MaRDMO-Projekts innerhalb der MaRDI-Initiative.</help>
+		<help lang="de">&lt;p&gt;Dieser Katalog hilft dabei, mathematische Modelle anhand der MathModDB-Ontologie zu beschreiben. Er umfasst zentrale Elemente wie das Modell selbst, Berechnungsaufgaben, mathematische Ausdrücke, Größen, Forschungsprobleme, wissenschaftliche Disziplinen und Publikationen. Bestehende Einträge aus dem MaRDI-Portal oder Wikidata können wiederverwendet oder neue erstellt werden. Der Katalog unterstützt die Dokumentation neuer Modelle, das Hinzufügen von Forschungsproblemen oder Berechnungsaufgaben. Er folgt den FAIR-Prinzipien, um Modelle auffindbar, zugänglich, interoperabel und wiederverwendbar zu machen, und ist Teil des MaRDMO-Projekts innerhalb der MaRDI-Initiative.  Abgeschlossene Dokumentationen können direkt in das MaRDI-Portal exportiert werden.&lt;/p&gt;
+
+&lt;p&gt;Sehen Sie sich &lt;a href=&quot;https://www.youtube.com/watch?v=UmbBNUZJ994&amp;list=PLgoPZ7uPWbo-jqDXzx4fSm_4JyAYEMPjn&quot;&gt;MaRDMO Model Documentation&lt;/a&gt; an, in dem die Dokumentation und der anschließende Export vorgestellt werden.&lt;/p&gt;</help>
 		<sections>
 			<section dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model-definition" order="1"/>
 			<section dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/publication-model" order="2"/>
@@ -102,7 +106,9 @@
 
 &lt;p&gt;For a smooth export to the MaRDI Portal, all &lt;strong&gt;non-optional&lt;/strong&gt; questions must be answered completely.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; If a model is selected from the MaRDI Portal and not used as a template, its existing information &lt;u&gt;cannot&lt;/u&gt; be edited or deleted via MaRDMO. Any changes or deletions made regardless will be ignored or shown alongside the original information in the MaRDI Portal.&lt;/p&gt;</help>
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; If a model is selected from the MaRDI Portal and not used as a template, its existing information &lt;u&gt;cannot&lt;/u&gt; be edited or deleted via MaRDMO. Any changes or deletions made regardless will be ignored or shown alongside the original information in the MaRDI Portal.&lt;/p&gt;
+
+&lt;p&gt;Check out &lt;a href=&quot;https://www.youtube.com/watch?v=UmbBNUZJ994&amp;t=3s&quot;&gt;Mathematical Model&lt;/a&gt; showcasing the documentation.&lt;/p&gt;</help>
 		<verbose_name lang="en"/>
 		<title lang="de">Mathematisches Modell</title>
 		<short_title lang="de">Modell</short_title>
@@ -112,7 +118,9 @@
 
 &lt;p&gt;Für einen reibungslosen Export in das MaRDI Portal müssen alle &lt;strong&gt;nicht-optionalen&lt;/strong&gt; Fragen vollständig beantwortet sein.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Hinweis:&lt;/strong&gt; Wird ein Modell aus dem MaRDI Portal ausgewählt und nicht als Vorlage verwendet, können bestehende Informationen über MaRDMO &lt;u&gt;nicht&lt;/u&gt; editiert oder gelöscht werden. Änderungen oder Löschungen, die dennoch vorgenommen werden, werden ignoriert oder zusätzlich zu den bestehenden Informationen im MaRDI Portal angezeigt.&lt;/p&gt;</help>
+&lt;p&gt;&lt;strong&gt;Hinweis:&lt;/strong&gt; Wird ein Modell aus dem MaRDI Portal ausgewählt und nicht als Vorlage verwendet, können bestehende Informationen über MaRDMO &lt;u&gt;nicht&lt;/u&gt; editiert oder gelöscht werden. Änderungen oder Löschungen, die dennoch vorgenommen werden, werden ignoriert oder zusätzlich zu den bestehenden Informationen im MaRDI Portal angezeigt.&lt;/p&gt;
+
+&lt;p&gt;Sehen Sie sich &lt;a href=&quot;https://www.youtube.com/watch?v=UmbBNUZJ994&amp;t=3s&quot;&gt;Mathematical Model&lt;/a&gt; an in dem die Dokumentation vorgestellt wird.&lt;/p&gt;</help>
 		<verbose_name lang="de"/>
 		<questionsets>
 			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/model/information" order="1"/>
@@ -582,7 +590,9 @@
 
 &lt;p&gt;For a smooth export to the MaRDI Portal, all &lt;strong&gt;non-optional&lt;/strong&gt; questions must be answered completely.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; If a task is selected from the MaRDI Portal and not used as a template, its existing information &lt;u&gt;cannot&lt;/u&gt; be edited or deleted via MaRDMO. Any changes or deletions made regardless will be ignored or shown alongside the original information in the MaRDI Portal.&lt;/p&gt;</help>
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; If a task is selected from the MaRDI Portal and not used as a template, its existing information &lt;u&gt;cannot&lt;/u&gt; be edited or deleted via MaRDMO. Any changes or deletions made regardless will be ignored or shown alongside the original information in the MaRDI Portal.&lt;/p&gt;
+
+&lt;p&gt;Check out &lt;a href=&quot;https://www.youtube.com/watch?v=bf--qp3g7aY&amp;t=8s&quot;&gt;Computational Task&lt;/a&gt; showcasing the documentation.&lt;/p&gt;</help>
 		<verbose_name lang="en"/>
 		<title lang="de">Berechnungsaufgabe</title>
 		<short_title lang="de">Aufgabe</short_title>
@@ -592,7 +602,9 @@
 
 &lt;p&gt;Für einen reibungslosen Export in das MaRDI Portal müssen alle &lt;strong&gt;nicht-optionalen&lt;/strong&gt; Fragen vollständig beantwortet sein.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Hinweis:&lt;/strong&gt; Wird eine Aufgabe aus dem MaRDI Portal ausgewählt und nicht als Vorlage verwendet, können bestehende Informationen über MaRDMO &lt;u&gt;nicht&lt;/u&gt; editiert oder gelöscht werden. Änderungen oder Löschungen, die dennoch vorgenommen werden, werden ignoriert oder zusätzlich zu den bestehenden Informationen im MaRDI Portal angezeigt.&lt;/p&gt;</help>
+&lt;p&gt;&lt;strong&gt;Hinweis:&lt;/strong&gt; Wird eine Aufgabe aus dem MaRDI Portal ausgewählt und nicht als Vorlage verwendet, können bestehende Informationen über MaRDMO &lt;u&gt;nicht&lt;/u&gt; editiert oder gelöscht werden. Änderungen oder Löschungen, die dennoch vorgenommen werden, werden ignoriert oder zusätzlich zu den bestehenden Informationen im MaRDI Portal angezeigt.&lt;/p&gt;
+
+&lt;p&gt;Sehen Sie sich &lt;a href=&quot;https://www.youtube.com/watch?v=bf--qp3g7aY&amp;t=8s&quot;&gt;Computational Task&lt;/a&gt; an in dem die Dokumentation vorgestellt wird..&lt;/p&gt;</help>
 		<verbose_name lang="de"/>
 		<questionsets>
 			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task/information" order="1"/>
@@ -1083,7 +1095,9 @@
 
 &lt;p&gt;For a smooth export to the MaRDI Portal, all &lt;strong&gt;non-optional&lt;/strong&gt; questions must be answered completely.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; If an expression is selected from the MaRDI Portal and not used as a template, its existing information &lt;u&gt;cannot&lt;/u&gt; be edited or deleted via MaRDMO. Any changes or deletions made regardless will be ignored or shown alongside the original information in the MaRDI Portal.&lt;/p&gt;</help>
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; If an expression is selected from the MaRDI Portal and not used as a template, its existing information &lt;u&gt;cannot&lt;/u&gt; be edited or deleted via MaRDMO. Any changes or deletions made regardless will be ignored or shown alongside the original information in the MaRDI Portal.&lt;/p&gt;
+
+&lt;p&gt;Check out &lt;a href=&quot;https://www.youtube.com/watch?v=NpdyXsvlSKo&quot;&gt;Mathematical Expression&lt;/a&gt; showcasing the documentation.&lt;/p&gt;</help>
 		<verbose_name lang="en"/>
 		<title lang="de">Mathematischer Ausdruck</title>
 		<short_title lang="de">Ausdruck</short_title>
@@ -1093,7 +1107,9 @@
 
 &lt;p&gt;Für einen reibungslosen Export in das MaRDI Portal müssen alle &lt;strong&gt;nicht-optionalen&lt;/strong&gt; Fragen vollständig beantwortet sein.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Hinweis:&lt;/strong&gt; Wird ein Ausdruck aus dem MaRDI Portal ausgewählt und nicht als Vorlage verwendet, können bestehende Informationen über MaRDMO &lt;u&gt;nicht&lt;/u&gt; editiert oder gelöscht werden. Änderungen oder Löschungen, die dennoch vorgenommen werden, werden ignoriert oder zusätzlich zu den bestehenden Informationen im MaRDI Portal angezeigt.&lt;/p&gt;</help>
+&lt;p&gt;&lt;strong&gt;Hinweis:&lt;/strong&gt; Wird ein Ausdruck aus dem MaRDI Portal ausgewählt und nicht als Vorlage verwendet, können bestehende Informationen über MaRDMO &lt;u&gt;nicht&lt;/u&gt; editiert oder gelöscht werden. Änderungen oder Löschungen, die dennoch vorgenommen werden, werden ignoriert oder zusätzlich zu den bestehenden Informationen im MaRDI Portal angezeigt.&lt;/p&gt;
+
+&lt;p&gt;Sehen Sie sich &lt;a href=&quot;https://www.youtube.com/watch?v=NpdyXsvlSKo&quot;&gt;Mathematical Expression&lt;/a&gt; an in dem die Dokumentation vorgestellt wird.&lt;/p&gt;</help>
 		<verbose_name lang="de"/>
 		<questionsets>
 			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/formulation/information" order="1"/>
@@ -1579,7 +1595,9 @@
 
 &lt;p&gt;For a smooth export to the MaRDI Portal, all &lt;strong&gt;non-optional&lt;/strong&gt; questions must be answered completely.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; If a quantity is selected from the MaRDI Portal and not used as a template, its existing information &lt;u&gt;cannot&lt;/u&gt; be edited or deleted via MaRDMO. Any changes or deletions made regardless will be ignored or shown alongside the original information in the MaRDI Portal.&lt;/p&gt;</help>
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; If a quantity is selected from the MaRDI Portal and not used as a template, its existing information &lt;u&gt;cannot&lt;/u&gt; be edited or deleted via MaRDMO. Any changes or deletions made regardless will be ignored or shown alongside the original information in the MaRDI Portal.&lt;/p&gt;
+
+&lt;p&gt;Check out &lt;a href=&quot;https://www.youtube.com/watch?v=g24WDBUgNgc&quot;&gt;Quantity [Kind]&lt;/a&gt; showcasing the documentation.&lt;/p&gt;</help>
 		<verbose_name lang="en"/>
 		<title lang="de">Quantität</title>
 		<short_title lang="de">Quantität</short_title>
@@ -1589,7 +1607,9 @@
 
 &lt;p&gt;Für einen reibungslosen Export in das MaRDI Portal müssen alle &lt;strong&gt;nicht-optionalen&lt;/strong&gt; Fragen vollständig beantwortet sein.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Hinweis:&lt;/strong&gt; Wird eine Quantität aus dem MaRDI Portal ausgewählt und nicht als Vorlage verwendet, können bestehende Informationen über MaRDMO &lt;u&gt;nicht&lt;/u&gt; editiert oder gelöscht werden. Änderungen oder Löschungen, die dennoch vorgenommen werden, werden ignoriert oder zusätzlich zu den bestehenden Informationen im MaRDI Portal angezeigt.&lt;/p&gt;</help>
+&lt;p&gt;&lt;strong&gt;Hinweis:&lt;/strong&gt; Wird eine Quantität aus dem MaRDI Portal ausgewählt und nicht als Vorlage verwendet, können bestehende Informationen über MaRDMO &lt;u&gt;nicht&lt;/u&gt; editiert oder gelöscht werden. Änderungen oder Löschungen, die dennoch vorgenommen werden, werden ignoriert oder zusätzlich zu den bestehenden Informationen im MaRDI Portal angezeigt.&lt;/p&gt;
+
+&lt;p&gt;Sehen Sie sich &lt;a href=&quot;https://www.youtube.com/watch?v=g24WDBUgNgc&quot;&gt;Quantity [Kind]&lt;/a&gt; an in dem die Dokumentation vorgestellt wird.&lt;/p&gt;</help>
 		<verbose_name lang="de"/>
 		<questionsets>
 			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/information" order="1"/>
@@ -2266,7 +2286,9 @@
 
 &lt;p&gt;For a smooth export to the MaRDI Portal, all &lt;strong&gt;non-optional&lt;/strong&gt; questions must be answered completely.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; If a problem is selected from the MaRDI Portal and not used as a template, its existing information &lt;u&gt;cannot&lt;/u&gt; be edited or deleted via MaRDMO. Any changes or deletions made regardless will be ignored or shown alongside the original information in the MaRDI Portal.&lt;/p&gt;</help>
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; If a problem is selected from the MaRDI Portal and not used as a template, its existing information &lt;u&gt;cannot&lt;/u&gt; be edited or deleted via MaRDMO. Any changes or deletions made regardless will be ignored or shown alongside the original information in the MaRDI Portal.&lt;/p&gt;
+
+&lt;p&gt;Check out &lt;a href=&quot;https://www.youtube.com/watch?v=Llp5CiPkE0Y&quot;&gt;Research Problem&lt;/a&gt; showcasing the documentation.&lt;/p&gt;</help>
 		<verbose_name lang="en"/>
 		<title lang="de">Forschungsproblem</title>
 		<short_title lang="de">Problem</short_title>
@@ -2276,7 +2298,9 @@
 
 &lt;p&gt;Für einen reibungslosen Export in das MaRDI Portal müssen alle &lt;strong&gt;nicht-optionalen&lt;/strong&gt; Fragen vollständig beantwortet sein.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Hinweis:&lt;/strong&gt; Wird ein Problem aus dem MaRDI Portal ausgewählt und nicht als Vorlage verwendet, können bestehende Informationen über MaRDMO &lt;u&gt;nicht&lt;/u&gt; editiert oder gelöscht werden. Änderungen oder Löschungen, die dennoch vorgenommen werden, werden ignoriert oder zusätzlich zu den bestehenden Informationen im MaRDI Portal angezeigt.&lt;/p&gt;</help>
+&lt;p&gt;&lt;strong&gt;Hinweis:&lt;/strong&gt; Wird ein Problem aus dem MaRDI Portal ausgewählt und nicht als Vorlage verwendet, können bestehende Informationen über MaRDMO &lt;u&gt;nicht&lt;/u&gt; editiert oder gelöscht werden. Änderungen oder Löschungen, die dennoch vorgenommen werden, werden ignoriert oder zusätzlich zu den bestehenden Informationen im MaRDI Portal angezeigt.&lt;/p&gt;
+
+&lt;p&gt;Sehen Sich sich &lt;a href=&quot;https://www.youtube.com/watch?v=Llp5CiPkE0Y&quot;&gt;Research Problem&lt;/a&gt; an in dem die Dokumentation vorgestellt wird.&lt;/p&gt;</help>
 		<verbose_name lang="de"/>
 		<questionsets>
 			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/problem/information" order="1"/>
@@ -2546,7 +2570,9 @@
 
 &lt;p&gt;For a smooth export to the MaRDI Portal, all &lt;strong&gt;non-optional&lt;/strong&gt; questions must be answered completely.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; If a discipline is selected from the MaRDI Portal and not used as a template, its existing information &lt;u&gt;cannot&lt;/u&gt; be edited or deleted via MaRDMO. Any changes or deletions made regardless will be ignored or shown alongside the original information in the MaRDI Portal.&lt;/p&gt;</help>
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; If a discipline is selected from the MaRDI Portal and not used as a template, its existing information &lt;u&gt;cannot&lt;/u&gt; be edited or deleted via MaRDMO. Any changes or deletions made regardless will be ignored or shown alongside the original information in the MaRDI Portal.&lt;/p&gt;
+
+&lt;p&gt;Check out &lt;a href=&quot;https://www.youtube.com/watch?v=2vpaLZ0PrRc&quot;&gt;Academic Discipline&lt;/a&gt; showcasing the documentation.&lt;/p&gt;</help>
 		<verbose_name lang="en"/>
 		<title lang="de">Akademische Disziplin</title>
 		<short_title lang="de">Disziplin</short_title>
@@ -2556,7 +2582,9 @@
 
 &lt;p&gt;Für einen reibungslosen Export in das MaRDI Portal müssen alle &lt;strong&gt;nicht-optionalen&lt;/strong&gt; Fragen vollständig beantwortet sein.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Hinweis:&lt;/strong&gt; Wird eine Disziplin aus dem MaRDI Portal ausgewählt und nicht als Vorlage verwendet, können bestehende Informationen über MaRDMO &lt;u&gt;nicht&lt;/u&gt; editiert oder gelöscht werden. Änderungen oder Löschungen, die dennoch vorgenommen werden, werden ignoriert oder zusätzlich zu den bestehenden Informationen im MaRDI Portal angezeigt.&lt;/p&gt;</help>
+&lt;p&gt;&lt;strong&gt;Hinweis:&lt;/strong&gt; Wird eine Disziplin aus dem MaRDI Portal ausgewählt und nicht als Vorlage verwendet, können bestehende Informationen über MaRDMO &lt;u&gt;nicht&lt;/u&gt; editiert oder gelöscht werden. Änderungen oder Löschungen, die dennoch vorgenommen werden, werden ignoriert oder zusätzlich zu den bestehenden Informationen im MaRDI Portal angezeigt.&lt;/p&gt;
+
+&lt;p&gt;Sehen Sie sich &lt;a href=&quot;https://www.youtube.com/watch?v=2vpaLZ0PrRc&quot;&gt;Academic Discipline&lt;/a&gt; an in dem die Dokumentation vorgestellt wird.&lt;/p&gt;</help>
 		<verbose_name lang="de"/>
 		<questionsets>
 			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/field/information" order="1"/>
@@ -2804,13 +2832,17 @@
 		<short_title lang="en">Publication</short_title>
 		<help lang="en">&lt;p&gt;On this page, you can define new publications or select existing ones from the MaRDI Portal, MathAlgoDB or Wikidata. When an existing publication is selected, all available information from the relevant source is retrieved and integrated into the interview. Retrieved data can be extended with new relations (e.g., connections to model entities).&lt;/p&gt;
 
-&lt;p&gt;For a smooth export to the MaRDI Portal, all &lt;strong&gt;non-optional&lt;/strong&gt; questions must be answered completely.&lt;/p&gt;</help>
+&lt;p&gt;For a smooth export to the MaRDI Portal, all &lt;strong&gt;non-optional&lt;/strong&gt; questions must be answered completely.&lt;/p&gt;
+
+&lt;p&gt;Check out &lt;a href=&quot;https://www.youtube.com/watch?v=qfb6xVytzZU&quot;&gt;Publication&lt;/a&gt; showcasing the documentation.&lt;/p&gt;</help>
 		<verbose_name lang="en"/>
 		<title lang="de">Publikation</title>
 		<short_title lang="de">Publikation</short_title>
 		<help lang="de">&lt;p&gt;Auf dieser Seite können neue Publikationen definiert oder bereits bestehende Publikationen aus dem MaRDI Portal, MathAlgoDB oder Wikidata ausgewählt werden. Wird eine bestehende Publikation ausgewählt, werden alle verfügbaren Informationen aus der jeweiligen Quelle abgerufen und in das Interview integriert. Die abgerufenen Informationen können um neue Relationen erweitert werden (z.&amp;nbsp;B. Verbindungen zu verschiedenen Modell-Entitäten).&lt;/p&gt;
 
-&lt;p&gt;Für einen reibungslosen Export in das MaRDI Portal müssen alle &lt;strong&gt;nicht-optionalen&lt;/strong&gt; Fragen vollständig beantwortet sein.&lt;/p&gt;</help>
+&lt;p&gt;Für einen reibungslosen Export in das MaRDI Portal müssen alle &lt;strong&gt;nicht-optionalen&lt;/strong&gt; Fragen vollständig beantwortet sein.&lt;/p&gt;
+
+&lt;p&gt;Sehen Sie sich &lt;a href=&quot;https://www.youtube.com/watch?v=qfb6xVytzZU&quot;&gt;Publication&lt;/a&gt; an in dem die Dokumentation vorgestellt wird.&lt;/p&gt;</help>
 		<verbose_name lang="de"/>
 		<questionsets>
 			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/publication/publication-to-entity" order="3"/>
