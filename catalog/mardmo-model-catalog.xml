@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2025-09-15T14:44:12.896664+02:00" required="2.1.0" version="2.3.2">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2025-10-22T13:54:08.205094+02:00" required="2.1.0" version="2.3.2">
 	<catalog dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo-model-catalog">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mardmo-model-catalog</uri_path>
@@ -37,7 +37,7 @@
 		</pages>
 	</section>
 	<page dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model-introduction">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms/</uri_prefix>
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mardmo/model-introduction</uri_path>
 		<dc:comment/>
 		<attribute/>
@@ -1133,15 +1133,34 @@
 		<help lang="de"/>
 		<verbose_name lang="de"/>
 		<questionsets>
-			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/formulation/element" order="5"/>
-			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/formulation/formulation-to-formulation-1" order="6"/>
+			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/formulation/notation" order="4"/>
+			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/formulation/formulation-to-formulation-1" order="5"/>
 		</questionsets>
 		<questions>
 			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/formulation/name" order="0"/>
 			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/formulation/description" order="1"/>
 			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/formulation/long-description" order="2"/>
 			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/formulation/properties" order="3"/>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/formulation/formula" order="4"/>
+		</questions>
+		<conditions/>
+	</questionset>
+	<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/formulation/notation">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/model/formulation/notation</uri_path>
+		<dc:comment/>
+		<attribute/>
+		<is_collection>False</is_collection>
+		<title lang="en">Notation of the Mathematical Expression</title>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<title lang="de">Notation des mathematischen Ausdrucks</title>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<questionsets>
+			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/formulation/element" order="1"/>
+		</questionsets>
+		<questions>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/formulation/formula" order="0"/>
 		</questions>
 		<conditions/>
 	</questionset>
@@ -1151,11 +1170,11 @@
 		<dc:comment/>
 		<attribute/>
 		<is_collection>True</is_collection>
-		<title lang="en">Elements of the Mathematical Expression</title>
-		<help lang="en">&lt;p&gt;To add quantities to the expression, select or define a quantity and specify the symbol in the expression.&lt;/p&gt;</help>
+		<title lang="en">Elements of the Formula</title>
+		<help lang="en">&lt;p&gt;To add quantities to the formula, select or define a quantity and specify the symbol in the formula.&lt;/p&gt;</help>
 		<verbose_name lang="en"/>
-		<title lang="de">Elemente des mathematischen Ausdrucks</title>
-		<help lang="de">&lt;p&gt;Um Quantitäten zum Ausdruck hinzuzufügen, wählen oder definieren Sie eine Quantität und geben Sie das Symbol im Ausdruck an.&lt;/p&gt;</help>
+		<title lang="de">Elemente der Formel</title>
+		<help lang="de">&lt;p&gt;Um Quantitäten zur Formel hinzuzufügen, wählen oder definieren Sie eine Quantität und geben Sie das Symbol in der Formel an.&lt;/p&gt;</help>
 		<verbose_name lang="de"/>
 		<questionsets/>
 		<questions>
@@ -1218,6 +1237,33 @@
 		<optionsets>
 			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/quantity-or-quantity-kind-relatant-with-creation"/>
 		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/formulation/formula">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/model/formulation/formula</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/formulation/formula"/>
+		<is_collection>True</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en">&lt;p&gt;Provide the formula in LaTeX format, &lt;strong&gt;without&lt;/strong&gt; surroundings like &lt;code&gt;$...$&lt;/code&gt; or &lt;code&gt;\(...\)&lt;/code&gt;.&lt;/p&gt;</help>
+		<text lang="en">Formula of the Mathematical Expression</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de">&lt;p&gt;Geben Sie die Formel im LaTeX-Format an, &lt;strong&gt;ohne&lt;/strong&gt; Umschließungen wie &lt;code&gt;$...$&lt;/code&gt; oder &lt;code&gt;\(...\)&lt;/code&gt;.&lt;/p&gt;</help>
+		<text lang="de">Formel des mathematischen Ausdrucks</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
 		<conditions/>
 	</question>
 	<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/formulation/formulation-to-formulation-1">
@@ -1411,33 +1457,6 @@
 		</optionsets>
 		<conditions/>
 	</question>
-	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/formulation/formula">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>mardmo/model/formulation/formula</uri_path>
-		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/formulation/formula"/>
-		<is_collection>True</is_collection>
-		<is_optional>False</is_optional>
-		<help lang="en">&lt;p&gt;Provide the formula in LaTeX format, &lt;strong&gt;without&lt;/strong&gt; surroundings like &lt;code&gt;$...$&lt;/code&gt; or &lt;code&gt;\(...\)&lt;/code&gt;.&lt;/p&gt;</help>
-		<text lang="en">Formula of the Mathematical Expression</text>
-		<default_text lang="en"/>
-		<verbose_name lang="en"/>
-		<help lang="de">&lt;p&gt;Geben Sie die Formel im LaTeX-Format an, &lt;strong&gt;ohne&lt;/strong&gt; Umschließungen wie &lt;code&gt;$...$&lt;/code&gt; oder &lt;code&gt;\(...\)&lt;/code&gt;.&lt;/p&gt;</help>
-		<text lang="de">Formel des neuen mathematischen Ausdrucks</text>
-		<default_text lang="de"/>
-		<verbose_name lang="de"/>
-		<default_option/>
-		<default_external_id/>
-		<widget_type>text</widget_type>
-		<value_type>text</value_type>
-		<maximum/>
-		<minimum/>
-		<step/>
-		<unit/>
-		<width/>
-		<optionsets/>
-		<conditions/>
-	</question>
 	<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/formulation/formulation-to-formulation-2">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mardmo/model/formulation/formulation-to-formulation-2</uri_path>
@@ -1612,14 +1631,15 @@
 &lt;p&gt;Sehen Sie sich &lt;a href=&quot;https://www.youtube.com/watch?v=g24WDBUgNgc&quot;&gt;Quantity [Kind]&lt;/a&gt; an in dem die Dokumentation vorgestellt wird.&lt;/p&gt;</help>
 		<verbose_name lang="de"/>
 		<questionsets>
-			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/information" order="1"/>
-			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/quantity-to-quantity" order="2"/>
-			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/quantity-to-quantity-kind" order="3"/>
-			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/quantity-kind-to-quantity-kind" order="4"/>
-			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/quantity-kind-to-quantity" order="5"/>
+			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/information" order="2"/>
+			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/quantity-to-quantity" order="3"/>
+			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/quantity-to-quantity-kind" order="4"/>
+			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/quantity-kind-to-quantity-kind" order="5"/>
+			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/quantity-kind-to-quantity" order="6"/>
 		</questionsets>
 		<questions>
 			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/id" order="0"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/is-quantity-or-quantity-kind" order="1"/>
 		</questions>
 		<conditions/>
 	</page>
@@ -1636,16 +1656,34 @@
 		<help lang="de"/>
 		<verbose_name lang="de"/>
 		<questionsets>
-			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/element" order="7"/>
+			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/notation" order="5"/>
 		</questionsets>
 		<questions>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/is-quantity-or-quantity-kind" order="0"/>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/name" order="1"/>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/description" order="2"/>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/long-description" order="3"/>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/quantity-properties" order="4"/>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/reference" order="5"/>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/formula" order="6"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/name" order="0"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/description" order="1"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/long-description" order="2"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/quantity-properties" order="3"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/reference" order="4"/>
+		</questions>
+		<conditions/>
+	</questionset>
+	<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/notation">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/model/quantity/notation</uri_path>
+		<dc:comment/>
+		<attribute/>
+		<is_collection>False</is_collection>
+		<title lang="en">Optional Notation of the Quantity Definition</title>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<title lang="de">Optionale Notation der Quantitätsdefinition</title>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<questionsets>
+			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/element" order="1"/>
+		</questionsets>
+		<questions>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/formula" order="0"/>
 		</questions>
 		<conditions/>
 	</questionset>
@@ -1655,11 +1693,11 @@
 		<dc:comment/>
 		<attribute/>
 		<is_collection>True</is_collection>
-		<title lang="en">Elements of the Definition</title>
-		<help lang="en">&lt;p&gt;To add quantities to the definition, select or define a quantity and specify the symbol in the definition.&lt;/p&gt;</help>
+		<title lang="en">Elements of the Formula</title>
+		<help lang="en">&lt;p&gt;To add quantities to the formula, select or define a quantity and specify the symbol in the formula.&lt;/p&gt;</help>
 		<verbose_name lang="en"/>
-		<title lang="de">Elemente der Definition</title>
-		<help lang="de">&lt;p&gt;Um Quantitäten zur Definition hinzuzufügen, wählen oder definieren Sie eine Quantität und geben Sie das Symbol in der Definition an.&lt;/p&gt;</help>
+		<title lang="de">Elemente der Formel</title>
+		<help lang="de">&lt;p&gt;Um Quantitäten zur Formel hinzuzufügen, wählen oder definieren Sie eine Quantität und geben Sie das Symbol in der Formel an.&lt;/p&gt;</help>
 		<verbose_name lang="de"/>
 		<questionsets/>
 		<questions>
@@ -1724,41 +1762,31 @@
 		</optionsets>
 		<conditions/>
 	</question>
-	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/is-quantity-or-quantity-kind">
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/formula">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>mardmo/model/quantity/is-quantity-or-quantity-kind</uri_path>
+		<uri_path>mardmo/model/quantity/formula</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/quantity/is-quantity-or-quantity-kind"/>
-		<is_collection>False</is_collection>
-		<is_optional>False</is_optional>
-		<help lang="en">&lt;p&gt;Quantities are divided into two categories:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Quantities&lt;/strong&gt; – specific quantities, e.g. substrate concentration, time step, ...&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Quantity Kinds&lt;/strong&gt; – general quantities, e.g. concentration, time, ...&lt;/li&gt;
-&lt;/ul&gt;</help>
-		<text lang="en">Quantity or Quantity Kind?</text>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/quantity/formula"/>
+		<is_collection>True</is_collection>
+		<is_optional>True</is_optional>
+		<help lang="en">&lt;p&gt;Provide the formula in LaTeX format, &lt;strong&gt;without&lt;/strong&gt; surroundings like &lt;code&gt;$...$&lt;/code&gt; or &lt;code&gt;\(...\)&lt;/code&gt;. Use &lt;code&gt;\equiv&lt;/code&gt; to denote definitions.&lt;/p&gt;</help>
+		<text lang="en">Formula of the Definition</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">&lt;p&gt;Quantitäten werden in zwei Kategorien unterteilt:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Quantitäten&lt;/strong&gt; – spezifische Quantitäten, z.&amp;nbsp;B. Substratkonzentration, Zeitschritt, ...&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Quantitätsarten&lt;/strong&gt; – allgemeine Quantitäten, z.&amp;nbsp;B. Konzentration, Zeit, ...&lt;/li&gt;
-&lt;/ul&gt;</help>
-		<text lang="de">Quantität oder Quantitätsart?</text>
+		<help lang="de">&lt;p&gt;Geben Sie die Formel im LaTeX-Format an, &lt;strong&gt;ohne&lt;/strong&gt; Umschließungen wie &lt;code&gt;$...$&lt;/code&gt; oder &lt;code&gt;\(...\)&lt;/code&gt;. Verwenden Sie &lt;code&gt;\equiv&lt;/code&gt;, um Definitionen darzustellen.&lt;/p&gt;</help>
+		<text lang="de">Formel der Definition</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
 		<default_external_id/>
-		<widget_type>radio</widget_type>
+		<widget_type>text</widget_type>
 		<value_type>text</value_type>
 		<maximum/>
 		<minimum/>
 		<step/>
 		<unit/>
 		<width/>
-		<optionsets>
-			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/is-quantity-or-quantity-kind"/>
-		</optionsets>
+		<optionsets/>
 		<conditions/>
 	</question>
 	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/name">
@@ -1902,34 +1930,9 @@
 		<optionsets>
 			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/quantity-reference"/>
 		</optionsets>
-		<conditions/>
-	</question>
-	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/formula">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>mardmo/model/quantity/formula</uri_path>
-		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/quantity/formula"/>
-		<is_collection>True</is_collection>
-		<is_optional>True</is_optional>
-		<help lang="en">&lt;p&gt;Provide the definition in LaTeX format, &lt;strong&gt;without&lt;/strong&gt; surroundings like &lt;code&gt;$...$&lt;/code&gt; or &lt;code&gt;\(...\)&lt;/code&gt;. Use &lt;code&gt;\equiv&lt;/code&gt; to denote definitions.&lt;/p&gt;</help>
-		<text lang="en">Definition of the Quantity.</text>
-		<default_text lang="en"/>
-		<verbose_name lang="en"/>
-		<help lang="de">&lt;p&gt;Geben Sie die Definition im LaTeX-Format an, &lt;strong&gt;ohne&lt;/strong&gt; Umschließungen wie &lt;code&gt;$...$&lt;/code&gt; oder &lt;code&gt;\(...\)&lt;/code&gt;. Verwenden Sie &lt;code&gt;\equiv&lt;/code&gt;, um Definitionen darzustellen.&lt;/p&gt;</help>
-		<text lang="de">Definition der Quantität.</text>
-		<default_text lang="de"/>
-		<verbose_name lang="de"/>
-		<default_option/>
-		<default_external_id/>
-		<widget_type>text</widget_type>
-		<value_type>text</value_type>
-		<maximum/>
-		<minimum/>
-		<step/>
-		<unit/>
-		<width/>
-		<optionsets/>
-		<conditions/>
+		<conditions>
+			<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/is-quantity-kind"/>
+		</conditions>
 	</question>
 	<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/quantity-to-quantity">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
@@ -1948,7 +1951,9 @@
 			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/quantity-to-quantity/relation" order="0"/>
 			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/quantity-to-quantity/relatant" order="1"/>
 		</questions>
-		<conditions/>
+		<conditions>
+			<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/is-quantity"/>
+		</conditions>
 	</questionset>
 	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/quantity-to-quantity/relation">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
@@ -2025,7 +2030,9 @@
 			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/quantity-to-quantity-kind/relation" order="0"/>
 			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/quantity-to-quantity-kind/relatant" order="1"/>
 		</questions>
-		<conditions/>
+		<conditions>
+			<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/is-quantity"/>
+		</conditions>
 	</questionset>
 	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/quantity-to-quantity-kind/relation">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
@@ -2102,7 +2109,9 @@
 			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/quantity-kind-to-quantity-kind/relation" order="0"/>
 			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/quantity-kind-to-quantity-kind/relatant" order="1"/>
 		</questions>
-		<conditions/>
+		<conditions>
+			<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/is-quantity-kind"/>
+		</conditions>
 	</questionset>
 	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/quantity-kind-to-quantity-kind/relation">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
@@ -2179,7 +2188,9 @@
 			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/quantity-kind-to-quantity/relation" order="1"/>
 			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/quantity-kind-to-quantity/relatant" order="2"/>
 		</questions>
-		<conditions/>
+		<conditions>
+			<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/is-quantity-kind"/>
+		</conditions>
 	</questionset>
 	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/quantity-kind-to-quantity/relation">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
@@ -2269,6 +2280,43 @@
 		<width/>
 		<optionsets>
 			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/quantity-or-quantity-kind"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/is-quantity-or-quantity-kind">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/model/quantity/is-quantity-or-quantity-kind</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/quantity/is-quantity-or-quantity-kind"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en">&lt;p&gt;Quantities are divided into two categories:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Quantities&lt;/strong&gt; – specific quantities, e.g. substrate concentration, time step, ...&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Quantity Kinds&lt;/strong&gt; – general quantities, e.g. concentration, time, ...&lt;/li&gt;
+&lt;/ul&gt;</help>
+		<text lang="en">Quantity or Quantity Kind?</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de">&lt;p&gt;Quantitäten werden in zwei Kategorien unterteilt:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Quantitäten&lt;/strong&gt; – spezifische Quantitäten, z.&amp;nbsp;B. Substratkonzentration, Zeitschritt, ...&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Quantitätsarten&lt;/strong&gt; – allgemeine Quantitäten, z.&amp;nbsp;B. Konzentration, Zeit, ...&lt;/li&gt;
+&lt;/ul&gt;</help>
+		<text lang="de">Quantität oder Quantitätsart?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/is-quantity-or-quantity-kind"/>
 		</optionsets>
 		<conditions/>
 	</question>

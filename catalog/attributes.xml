@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2025-09-15T14:43:56.238601+02:00" required="2.1.0" version="2.3.2">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2025-10-22T13:53:46.304437+02:00" required="2.1.0" version="2.3.2">
 	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/algorithm">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<key>algorithm</key>
@@ -211,7 +211,7 @@
 		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/field"/>
 	</attribute>
 	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/field/long-description">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms/</uri_prefix>
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<key>long-description</key>
 		<path>field/long-description</path>
 		<dc:comment/>
@@ -274,7 +274,7 @@
 		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/formulation"/>
 	</attribute>
 	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/formulation/formulation-assumption">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms/</uri_prefix>
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<key>formulation-assumption</key>
 		<path>formulation/formulation-assumption</path>
 		<dc:comment/>
@@ -323,7 +323,7 @@
 		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/formulation"/>
 	</attribute>
 	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/formulation/long-description">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms/</uri_prefix>
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<key>long-description</key>
 		<path>formulation/long-description</path>
 		<dc:comment/>
@@ -610,7 +610,7 @@
 		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/model"/>
 	</attribute>
 	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/model/long-description">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms/</uri_prefix>
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<key>long-description</key>
 		<path>model/long-description</path>
 		<dc:comment/>
@@ -701,7 +701,7 @@
 		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/problem"/>
 	</attribute>
 	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/problem/long-description">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms/</uri_prefix>
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<key>long-description</key>
 		<path>problem/long-description</path>
 		<dc:comment/>
@@ -1121,7 +1121,7 @@
 		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/quantity"/>
 	</attribute>
 	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/quantity/long-description">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms/</uri_prefix>
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<key>long-description</key>
 		<path>quantity/long-description</path>
 		<dc:comment/>
@@ -1604,7 +1604,7 @@
 		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/task"/>
 	</attribute>
 	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/task/long-description">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms/</uri_prefix>
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<key>long-description</key>
 		<path>task/long-description</path>
 		<dc:comment/>
