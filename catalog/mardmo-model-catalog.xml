@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2025-10-22T13:54:08.205094+02:00" required="2.1.0" version="2.3.2">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2025-12-26T21:07:59.257465+01:00" required="2.1.0" version="2.4.0">
 	<catalog dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo-model-catalog">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mardmo-model-catalog</uri_path>
@@ -109,7 +109,7 @@
 &lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; If a model is selected from the MaRDI Portal and not used as a template, its existing information &lt;u&gt;cannot&lt;/u&gt; be edited or deleted via MaRDMO. Any changes or deletions made regardless will be ignored or shown alongside the original information in the MaRDI Portal.&lt;/p&gt;
 
 &lt;p&gt;Check out &lt;a href=&quot;https://www.youtube.com/watch?v=UmbBNUZJ994&amp;t=3s&quot;&gt;Mathematical Model&lt;/a&gt; showcasing the documentation.&lt;/p&gt;</help>
-		<verbose_name lang="en"/>
+		<verbose_name lang="en">Add Mathematical Model</verbose_name>
 		<title lang="de">Mathematisches Modell</title>
 		<short_title lang="de">Modell</short_title>
 		<help lang="de">&lt;p&gt;Auf dieser Seite können neue Modelle definiert oder bereits bestehende Modelle aus dem MaRDI Portal oder Wikidata ausgewählt werden. Wird ein bestehendes Modell ausgewählt, werden alle verfügbaren Informationen aus der jeweiligen Quelle abgerufen und in das Interview integriert. Die abgerufenen Informationen können ergänzt und um neue Relationen erweitert werden (z.&amp;nbsp;B. ein neues modelliertes Forschungsproblem oder eine zusätzliche verwendete Berechnungsaufgabe).&lt;/p&gt;
@@ -121,7 +121,7 @@
 &lt;p&gt;&lt;strong&gt;Hinweis:&lt;/strong&gt; Wird ein Modell aus dem MaRDI Portal ausgewählt und nicht als Vorlage verwendet, können bestehende Informationen über MaRDMO &lt;u&gt;nicht&lt;/u&gt; editiert oder gelöscht werden. Änderungen oder Löschungen, die dennoch vorgenommen werden, werden ignoriert oder zusätzlich zu den bestehenden Informationen im MaRDI Portal angezeigt.&lt;/p&gt;
 
 &lt;p&gt;Sehen Sie sich &lt;a href=&quot;https://www.youtube.com/watch?v=UmbBNUZJ994&amp;t=3s&quot;&gt;Mathematical Model&lt;/a&gt; an in dem die Dokumentation vorgestellt wird.&lt;/p&gt;</help>
-		<verbose_name lang="de"/>
+		<verbose_name lang="de">Mathematisches Modell Hinzufügen</verbose_name>
 		<questionsets>
 			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/model/information" order="1"/>
 			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/model/model-to-model" order="3"/>
@@ -164,10 +164,10 @@
 		<is_collection>True</is_collection>
 		<title lang="en">Mathematical Model - Mathematical Expression Relations</title>
 		<help lang="en">&lt;p&gt;To add expressions to the model, select or define an expression and specify its role.&lt;/p&gt;</help>
-		<verbose_name lang="en"/>
+		<verbose_name lang="en">Add Mathematical Expression</verbose_name>
 		<title lang="de">Mathematisches Modell - Mathematischer Ausdruck Beziehungen</title>
 		<help lang="de">&lt;p&gt;Um Ausdrücke zum Modell hinzuzufügen, wählen oder definieren Sie einen Ausdruck und geben Sie dessen Rolle an.&lt;/p&gt;</help>
-		<verbose_name lang="de"/>
+		<verbose_name lang="de">Mathematischen Ausdruck Hinzufügen</verbose_name>
 		<questionsets/>
 		<questions>
 			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/model/model-to-formulation/model-relation" order="0"/>
@@ -329,11 +329,11 @@
 		<help lang="en">&lt;p&gt;Provide additional context or background information if needed.&lt;/p&gt;</help>
 		<text lang="en">Detailed Description of the Mathematical Model</text>
 		<default_text lang="en"/>
-		<verbose_name lang="en"/>
+		<verbose_name lang="en">Add Description</verbose_name>
 		<help lang="de">&lt;p&gt;Geben Sie bei Bedarf weitere Details oder Hintergrundinformationen an.&lt;/p&gt;</help>
 		<text lang="de">Detaillierte Beschreibung des mathematischen Modells</text>
 		<default_text lang="de"/>
-		<verbose_name lang="de"/>
+		<verbose_name lang="de">Beschreibung Hinzufügen</verbose_name>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>textarea</widget_type>
@@ -356,11 +356,11 @@
 		<help lang="en">&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; Selecting contradictory properties prevents a successful export.&lt;/p&gt;</help>
 		<text lang="en">Properties of the Mathematical Model</text>
 		<default_text lang="en"/>
-		<verbose_name lang="en"/>
+		<verbose_name lang="en">Add Property</verbose_name>
 		<help lang="de">&lt;p&gt;&lt;strong&gt;Hinweis:&lt;/strong&gt; Die Auswahl widersprüchlicher Eigenschaften verhindert den Export.&lt;/p&gt;</help>
 		<text lang="de">Eigenschaften des mathematischen Modells</text>
 		<default_text lang="de"/>
-		<verbose_name lang="de"/>
+		<verbose_name lang="de">Eigenschaft Hinzufügen</verbose_name>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>select</widget_type>
@@ -385,11 +385,11 @@
 		<help lang="en">&lt;p&gt;For all problems &lt;em&gt;label (description) [source]&lt;/em&gt; is provided. If a problem is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate problem is present in the MaRDI Portal or Wikidata, define a new problem as &lt;em&gt;label (description) [user]&lt;/em&gt;.&lt;/p&gt;</help>
 		<text lang="en">Research Problem modelled by the Mathematical Model?</text>
 		<default_text lang="en"/>
-		<verbose_name lang="en"/>
+		<verbose_name lang="en">Add Research Problem</verbose_name>
 		<help lang="de">&lt;p&gt;Für alle Probleme wird &lt;em&gt;Name (Beschreibung) [Quelle]&lt;/em&gt; angegeben. Wenn ein Problem ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls kein passendes Problem im MaRDI Portal oder Wikidata vorhanden ist, definieren Sie ein neues Problem mit &lt;em&gt;Name (Beschreibung) [User]&lt;/em&gt;.&lt;/p&gt;</help>
 		<text lang="de">Forschungsproblem welches durch das mathematische Modell modelliert wird?</text>
 		<default_text lang="de"/>
-		<verbose_name lang="de"/>
+		<verbose_name lang="de">Forschungsproblem Hinzufügen</verbose_name>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>select_creatable</widget_type>
@@ -414,11 +414,11 @@
 		<help lang="en">&lt;p&gt;For all tasks &lt;em&gt;label (description) [source]&lt;/em&gt; is provided. If a task is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate task is present in the MaRDI Portal or Wikidata, define a new task as &lt;em&gt;label (description) [user]&lt;/em&gt;.&lt;/p&gt;</help>
 		<text lang="en">Task using the Mathematical Model?</text>
 		<default_text lang="en"/>
-		<verbose_name lang="en"/>
+		<verbose_name lang="en">Add Task</verbose_name>
 		<help lang="de">&lt;p&gt;Für alle Berechnungsaufgaben wird &lt;em&gt;Name (Beschreibung) [Quelle]&lt;/em&gt; angegeben. Wenn eine Berechnungsaufgabe ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls keine passende Berechnungsaufgabe im MaRDI Portal oder Wikidata vorhanden ist, definieren Sie eine neue Berechnungsaufgabe mit &lt;em&gt;Name (Beschreibung) [User]&lt;/em&gt;.&lt;/p&gt;</help>
 		<text lang="de">Berechnungsaufgabe die das mathematische Modell verwendet?</text>
 		<default_text lang="de"/>
-		<verbose_name lang="de"/>
+		<verbose_name lang="de">Berechnungsaufgabe Hinzufügen</verbose_name>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>select_creatable</widget_type>
@@ -441,10 +441,10 @@
 		<is_collection>True</is_collection>
 		<title lang="en">Mathematical Model - Mathematical Model Relations</title>
 		<help lang="en">&lt;p&gt;To relate the model with other models, select additional models and specify the relations.&lt;/p&gt;</help>
-		<verbose_name lang="en"/>
+		<verbose_name lang="en">Add Mathematical Model Relation</verbose_name>
 		<title lang="de">Mathematisches Modell - Mathematisches Modell Beziehungen</title>
 		<help lang="de">&lt;p&gt;Um das Modell mit anderen Modellen zu verknüpfen, wählen Sie weitere Modelle aus und geben Sie die Relationen an.&lt;/p&gt;</help>
-		<verbose_name lang="de"/>
+		<verbose_name lang="de">Mathematische Modell Relation Hinzufügen</verbose_name>
 		<questionsets/>
 		<questions>
 			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/model/model-to-model/model-relation" order="0"/>
@@ -593,7 +593,7 @@
 &lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; If a task is selected from the MaRDI Portal and not used as a template, its existing information &lt;u&gt;cannot&lt;/u&gt; be edited or deleted via MaRDMO. Any changes or deletions made regardless will be ignored or shown alongside the original information in the MaRDI Portal.&lt;/p&gt;
 
 &lt;p&gt;Check out &lt;a href=&quot;https://www.youtube.com/watch?v=bf--qp3g7aY&amp;t=8s&quot;&gt;Computational Task&lt;/a&gt; showcasing the documentation.&lt;/p&gt;</help>
-		<verbose_name lang="en"/>
+		<verbose_name lang="en">Add Task</verbose_name>
 		<title lang="de">Berechnungsaufgabe</title>
 		<short_title lang="de">Aufgabe</short_title>
 		<help lang="de">&lt;p&gt;Auf dieser Seite können neue Aufgaben definiert oder bereits bestehende Aufgaben aus dem MaRDI Portal oder Wikidata ausgewählt werden. Wird eine bestehende Aufgabe ausgewählt, werden alle verfügbaren Informationen aus der jeweiligen Quelle abgerufen und in das Interview integriert. Die abgerufenen Informationen können ergänzt und um neue Relationen erweitert werden (z.&amp;nbsp;B. Verbindungen zu anderen Aufgaben).&lt;/p&gt;
@@ -605,7 +605,7 @@
 &lt;p&gt;&lt;strong&gt;Hinweis:&lt;/strong&gt; Wird eine Aufgabe aus dem MaRDI Portal ausgewählt und nicht als Vorlage verwendet, können bestehende Informationen über MaRDMO &lt;u&gt;nicht&lt;/u&gt; editiert oder gelöscht werden. Änderungen oder Löschungen, die dennoch vorgenommen werden, werden ignoriert oder zusätzlich zu den bestehenden Informationen im MaRDI Portal angezeigt.&lt;/p&gt;
 
 &lt;p&gt;Sehen Sie sich &lt;a href=&quot;https://www.youtube.com/watch?v=bf--qp3g7aY&amp;t=8s&quot;&gt;Computational Task&lt;/a&gt; an in dem die Dokumentation vorgestellt wird..&lt;/p&gt;</help>
-		<verbose_name lang="de"/>
+		<verbose_name lang="de">Berechnungsaufgabe Hinzufügen</verbose_name>
 		<questionsets>
 			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task/information" order="1"/>
 			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task/task-to-task" order="2"/>
@@ -647,10 +647,10 @@
 		<is_collection>True</is_collection>
 		<title lang="en">Mathematical Expression Relations</title>
 		<help lang="en">&lt;p&gt;To add expressions to the task, select or define an expression and specify its role.&lt;/p&gt;</help>
-		<verbose_name lang="en"/>
+		<verbose_name lang="en">Add Mathematical Expression</verbose_name>
 		<title lang="de">Mathematischer Ausdruck Beziehungen</title>
 		<help lang="de">&lt;p&gt;Um Ausdrücke zur Aufgabe hinzuzufügen, wählen oder definieren Sie einen Ausdruck und geben Sie dessen Rolle an.&lt;/p&gt;</help>
-		<verbose_name lang="de"/>
+		<verbose_name lang="de">Mathematischen Ausdruck Hinzufügen</verbose_name>
 		<questionsets/>
 		<questions>
 			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task/task-to-formulation/relation" order="0"/>
@@ -724,10 +724,10 @@
 		<is_collection>True</is_collection>
 		<title lang="en">Quantity Relations</title>
 		<help lang="en">&lt;p&gt;To add quantities to the task, select or define a quantity and specify its role.&lt;/p&gt;</help>
-		<verbose_name lang="en"/>
+		<verbose_name lang="en">Add Quantity</verbose_name>
 		<title lang="de">Quantität Beziehungen</title>
 		<help lang="de">&lt;p&gt;Um Quantitäten zur Aufgabe hinzuzufügen, wählen oder definieren Sie eine Quantität und geben Sie deren Rolle an.&lt;/p&gt;</help>
-		<verbose_name lang="de"/>
+		<verbose_name lang="de">Quantität Hinzufügen</verbose_name>
 		<questionsets/>
 		<questions>
 			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task/task-to-quantity/relation" order="0"/>
@@ -861,11 +861,11 @@
 		<help lang="en">&lt;p&gt;Provide additional context or background information if needed.&lt;/p&gt;</help>
 		<text lang="en">Detailed Description of the Computational Task</text>
 		<default_text lang="en"/>
-		<verbose_name lang="en"/>
+		<verbose_name lang="en">Add Description</verbose_name>
 		<help lang="de">&lt;p&gt;Geben Sie bei Bedarf weitere Details oder Hintergrundinformationen an.&lt;/p&gt;</help>
 		<text lang="de">Detaillierte Beschreibung der Berechnungsaufgabe</text>
 		<default_text lang="de"/>
-		<verbose_name lang="de"/>
+		<verbose_name lang="de">Beschreibung Hinzufügen</verbose_name>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>textarea</widget_type>
@@ -888,11 +888,11 @@
 		<help lang="en">&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; Selecting contradictory properties prevents a successful export.&lt;/p&gt;</help>
 		<text lang="en">Properties of the Computational Task</text>
 		<default_text lang="en"/>
-		<verbose_name lang="en"/>
+		<verbose_name lang="en">Add Property</verbose_name>
 		<help lang="de">&lt;p&gt;&lt;strong&gt;Hinweis:&lt;/strong&gt; Die Auswahl widersprüchlicher Eigenschaften verhindert den Export.&lt;/p&gt;</help>
 		<text lang="de">Eigenschaften der Berechnungsaufgabe</text>
 		<default_text lang="de"/>
-		<verbose_name lang="de"/>
+		<verbose_name lang="de">Eigenschaft Hinzufügen</verbose_name>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>select</widget_type>
@@ -915,10 +915,10 @@
 		<is_collection>True</is_collection>
 		<title lang="en">Computational Task Relations</title>
 		<help lang="en">&lt;p&gt;To relate the task with other tasks, select additional tasks and specify the relations.&lt;/p&gt;</help>
-		<verbose_name lang="en"/>
+		<verbose_name lang="en">Add Task Relation</verbose_name>
 		<title lang="de">Berechnungsaufgabe Beziehungen</title>
 		<help lang="de">&lt;p&gt;Um die Aufgabe mit anderen Aufgaben zu verknüpfen, wählen Sie weitere Aufgaben aus und geben Sie die Relationen an.&lt;/p&gt;</help>
-		<verbose_name lang="de"/>
+		<verbose_name lang="de">Berechnungsaufgabe Relation Hinzufügen</verbose_name>
 		<questionsets/>
 		<questions>
 			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task/task-to-task/relation" order="0"/>
@@ -1098,7 +1098,7 @@
 &lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; If an expression is selected from the MaRDI Portal and not used as a template, its existing information &lt;u&gt;cannot&lt;/u&gt; be edited or deleted via MaRDMO. Any changes or deletions made regardless will be ignored or shown alongside the original information in the MaRDI Portal.&lt;/p&gt;
 
 &lt;p&gt;Check out &lt;a href=&quot;https://www.youtube.com/watch?v=NpdyXsvlSKo&quot;&gt;Mathematical Expression&lt;/a&gt; showcasing the documentation.&lt;/p&gt;</help>
-		<verbose_name lang="en"/>
+		<verbose_name lang="en">Add Mathematical Expression</verbose_name>
 		<title lang="de">Mathematischer Ausdruck</title>
 		<short_title lang="de">Ausdruck</short_title>
 		<help lang="de">&lt;p&gt;Auf dieser Seite können neue Ausdrücke definiert oder bereits bestehende Ausdrücke aus dem MaRDI Portal oder Wikidata ausgewählt werden. Wird ein bestehender Ausdruck ausgewählt, werden alle verfügbaren Informationen aus der jeweiligen Quelle abgerufen und in das Interview integriert. Die abgerufenen Informationen können ergänzt und um neue Relationen erweitert werden (z.&amp;nbsp;B. Verbindungen zu anderen Ausdrücken).&lt;/p&gt;
@@ -1110,7 +1110,7 @@
 &lt;p&gt;&lt;strong&gt;Hinweis:&lt;/strong&gt; Wird ein Ausdruck aus dem MaRDI Portal ausgewählt und nicht als Vorlage verwendet, können bestehende Informationen über MaRDMO &lt;u&gt;nicht&lt;/u&gt; editiert oder gelöscht werden. Änderungen oder Löschungen, die dennoch vorgenommen werden, werden ignoriert oder zusätzlich zu den bestehenden Informationen im MaRDI Portal angezeigt.&lt;/p&gt;
 
 &lt;p&gt;Sehen Sie sich &lt;a href=&quot;https://www.youtube.com/watch?v=NpdyXsvlSKo&quot;&gt;Mathematical Expression&lt;/a&gt; an in dem die Dokumentation vorgestellt wird.&lt;/p&gt;</help>
-		<verbose_name lang="de"/>
+		<verbose_name lang="de">Mathematischen Ausdruck Hinzufügen</verbose_name>
 		<questionsets>
 			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/formulation/information" order="1"/>
 			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/formulation/formulation-to-formulation-2" order="2"/>
@@ -1172,10 +1172,10 @@
 		<is_collection>True</is_collection>
 		<title lang="en">Elements of the Formula</title>
 		<help lang="en">&lt;p&gt;To add quantities to the formula, select or define a quantity and specify the symbol in the formula.&lt;/p&gt;</help>
-		<verbose_name lang="en"/>
+		<verbose_name lang="en">Add Element</verbose_name>
 		<title lang="de">Elemente der Formel</title>
 		<help lang="de">&lt;p&gt;Um Quantitäten zur Formel hinzuzufügen, wählen oder definieren Sie eine Quantität und geben Sie das Symbol in der Formel an.&lt;/p&gt;</help>
-		<verbose_name lang="de"/>
+		<verbose_name lang="de">Element Hinzufügen</verbose_name>
 		<questionsets/>
 		<questions>
 			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/formulation/element-symbol" order="1"/>
@@ -1249,11 +1249,11 @@
 		<help lang="en">&lt;p&gt;Provide the formula in LaTeX format, &lt;strong&gt;without&lt;/strong&gt; surroundings like &lt;code&gt;$...$&lt;/code&gt; or &lt;code&gt;\(...\)&lt;/code&gt;.&lt;/p&gt;</help>
 		<text lang="en">Formula of the Mathematical Expression</text>
 		<default_text lang="en"/>
-		<verbose_name lang="en"/>
+		<verbose_name lang="en">Add Formula</verbose_name>
 		<help lang="de">&lt;p&gt;Geben Sie die Formel im LaTeX-Format an, &lt;strong&gt;ohne&lt;/strong&gt; Umschließungen wie &lt;code&gt;$...$&lt;/code&gt; oder &lt;code&gt;\(...\)&lt;/code&gt;.&lt;/p&gt;</help>
 		<text lang="de">Formel des mathematischen Ausdrucks</text>
 		<default_text lang="de"/>
-		<verbose_name lang="de"/>
+		<verbose_name lang="de">Formel Hinzufügen</verbose_name>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>text</widget_type>
@@ -1274,10 +1274,10 @@
 		<is_collection>True</is_collection>
 		<title lang="en">Mathematical Expression - Mathematical Expression Relations I</title>
 		<help lang="en">&lt;p&gt;To add expressions to the expression, select or define an expression and specify its role.&lt;/p&gt;</help>
-		<verbose_name lang="en"/>
+		<verbose_name lang="en">Add Mathematical Expression</verbose_name>
 		<title lang="de">Mathematischer Ausdruck - Mathematischer Ausdruck Beziehungen I</title>
 		<help lang="de">&lt;p&gt;Um Ausdrücke zum Ausdruck hinzuzufügen, wählen oder definieren Sie einen Ausdruck und geben Sie dessen Rolle an.&lt;/p&gt;</help>
-		<verbose_name lang="de"/>
+		<verbose_name lang="de">Mathematischen Ausdruck Hinzufügen</verbose_name>
 		<questionsets/>
 		<questions>
 			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/formulation/formulation-to-formulation-1/formulation-relation" order="0"/>
@@ -1411,11 +1411,11 @@
 		<help lang="en">&lt;p&gt;Provide additional context or background information if needed.&lt;/p&gt;</help>
 		<text lang="en">Detailed Description of the Mathematical Expression</text>
 		<default_text lang="en"/>
-		<verbose_name lang="en"/>
+		<verbose_name lang="en">Add Description</verbose_name>
 		<help lang="de">&lt;p&gt;Geben Sie bei Bedarf weitere Details oder Hintergrundinformationen an.&lt;/p&gt;</help>
 		<text lang="de">Detaillierte Beschreibung des mathematischen Ausdrucks</text>
 		<default_text lang="de"/>
-		<verbose_name lang="de"/>
+		<verbose_name lang="de">Beschreibung Hinzufügen</verbose_name>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>textarea</widget_type>
@@ -1438,11 +1438,11 @@
 		<help lang="en">&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; Selecting contradictory properties prevents a successful export.&lt;/p&gt;</help>
 		<text lang="en">Properties of the Mathematical Expression</text>
 		<default_text lang="en"/>
-		<verbose_name lang="en"/>
+		<verbose_name lang="en">Add Property</verbose_name>
 		<help lang="de">&lt;p&gt;&lt;strong&gt;Hinweis:&lt;/strong&gt; Die Auswahl widersprüchlicher Eigenschaften verhindert den Export.&lt;/p&gt;</help>
 		<text lang="de">Eigenschaften des mathematischen Ausdrucks</text>
 		<default_text lang="de"/>
-		<verbose_name lang="de"/>
+		<verbose_name lang="de">Eigenschaft Hinzufügen</verbose_name>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>select</widget_type>
@@ -1465,10 +1465,10 @@
 		<is_collection>True</is_collection>
 		<title lang="en">Mathematical Expression - Mathematical Expression Relations  II</title>
 		<help lang="en">&lt;p&gt;To relate the expression with other expressions, select additional expressions and specify the relations.&lt;/p&gt;</help>
-		<verbose_name lang="en"/>
+		<verbose_name lang="en">Add Mathematical Expression Relation</verbose_name>
 		<title lang="de">Mathematischer Ausdruck - Mathematischer Ausdruck Beziehungen  II</title>
 		<help lang="de">&lt;p&gt;Um den Ausdruck mit anderen Ausdrücken zu verknüpfen, wählen Sie weitere Ausdrücke aus und geben Sie die Relationen an.&lt;/p&gt;</help>
-		<verbose_name lang="de"/>
+		<verbose_name lang="de">Mathematischen Ausdruck Relation Hinzufügen</verbose_name>
 		<questionsets/>
 		<questions>
 			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/formulation/formulation-to-formulation-2/formulation-relation" order="0"/>
@@ -1617,7 +1617,7 @@
 &lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; If a quantity is selected from the MaRDI Portal and not used as a template, its existing information &lt;u&gt;cannot&lt;/u&gt; be edited or deleted via MaRDMO. Any changes or deletions made regardless will be ignored or shown alongside the original information in the MaRDI Portal.&lt;/p&gt;
 
 &lt;p&gt;Check out &lt;a href=&quot;https://www.youtube.com/watch?v=g24WDBUgNgc&quot;&gt;Quantity [Kind]&lt;/a&gt; showcasing the documentation.&lt;/p&gt;</help>
-		<verbose_name lang="en"/>
+		<verbose_name lang="en">Add Quantity</verbose_name>
 		<title lang="de">Quantität</title>
 		<short_title lang="de">Quantität</short_title>
 		<help lang="de">&lt;p&gt;Auf dieser Seite können neue Quantitäten definiert oder bereits bestehende Quantitäten aus dem MaRDI Portal oder Wikidata ausgewählt werden. Wird eine bestehende Quantität ausgewählt, werden alle verfügbaren Informationen aus der jeweiligen Quelle abgerufen und in das Interview integriert. Die abgerufenen Informationen können ergänzt und um neue Relationen erweitert werden (z.&amp;nbsp;B. Verbindungen zu anderen Quantitäten).&lt;/p&gt;
@@ -1629,7 +1629,7 @@
 &lt;p&gt;&lt;strong&gt;Hinweis:&lt;/strong&gt; Wird eine Quantität aus dem MaRDI Portal ausgewählt und nicht als Vorlage verwendet, können bestehende Informationen über MaRDMO &lt;u&gt;nicht&lt;/u&gt; editiert oder gelöscht werden. Änderungen oder Löschungen, die dennoch vorgenommen werden, werden ignoriert oder zusätzlich zu den bestehenden Informationen im MaRDI Portal angezeigt.&lt;/p&gt;
 
 &lt;p&gt;Sehen Sie sich &lt;a href=&quot;https://www.youtube.com/watch?v=g24WDBUgNgc&quot;&gt;Quantity [Kind]&lt;/a&gt; an in dem die Dokumentation vorgestellt wird.&lt;/p&gt;</help>
-		<verbose_name lang="de"/>
+		<verbose_name lang="de">Quantität Hinzufügen</verbose_name>
 		<questionsets>
 			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/information" order="2"/>
 			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/quantity-to-quantity" order="3"/>
@@ -1695,10 +1695,10 @@
 		<is_collection>True</is_collection>
 		<title lang="en">Elements of the Formula</title>
 		<help lang="en">&lt;p&gt;To add quantities to the formula, select or define a quantity and specify the symbol in the formula.&lt;/p&gt;</help>
-		<verbose_name lang="en"/>
+		<verbose_name lang="en">Add Element</verbose_name>
 		<title lang="de">Elemente der Formel</title>
 		<help lang="de">&lt;p&gt;Um Quantitäten zur Formel hinzuzufügen, wählen oder definieren Sie eine Quantität und geben Sie das Symbol in der Formel an.&lt;/p&gt;</help>
-		<verbose_name lang="de"/>
+		<verbose_name lang="de">Element Hinzufügen</verbose_name>
 		<questionsets/>
 		<questions>
 			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/element-symbol" order="3"/>
@@ -1772,11 +1772,11 @@
 		<help lang="en">&lt;p&gt;Provide the formula in LaTeX format, &lt;strong&gt;without&lt;/strong&gt; surroundings like &lt;code&gt;$...$&lt;/code&gt; or &lt;code&gt;\(...\)&lt;/code&gt;. Use &lt;code&gt;\equiv&lt;/code&gt; to denote definitions.&lt;/p&gt;</help>
 		<text lang="en">Formula of the Definition</text>
 		<default_text lang="en"/>
-		<verbose_name lang="en"/>
+		<verbose_name lang="en">Add Formula</verbose_name>
 		<help lang="de">&lt;p&gt;Geben Sie die Formel im LaTeX-Format an, &lt;strong&gt;ohne&lt;/strong&gt; Umschließungen wie &lt;code&gt;$...$&lt;/code&gt; oder &lt;code&gt;\(...\)&lt;/code&gt;. Verwenden Sie &lt;code&gt;\equiv&lt;/code&gt;, um Definitionen darzustellen.&lt;/p&gt;</help>
 		<text lang="de">Formel der Definition</text>
 		<default_text lang="de"/>
-		<verbose_name lang="de"/>
+		<verbose_name lang="de">Formel Hinzufügen</verbose_name>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>text</widget_type>
@@ -1857,11 +1857,11 @@
 		<help lang="en">&lt;p&gt;Provide additional context or background information if needed.&lt;/p&gt;</help>
 		<text lang="en">Detailed Description of the Quantity.</text>
 		<default_text lang="en"/>
-		<verbose_name lang="en"/>
+		<verbose_name lang="en">Add Description</verbose_name>
 		<help lang="de">&lt;p&gt;Geben Sie bei Bedarf weitere Details oder Hintergrundinformationen an.&lt;/p&gt;</help>
 		<text lang="de">Detaillierte Beschreibung der Quantität.</text>
 		<default_text lang="de"/>
-		<verbose_name lang="de"/>
+		<verbose_name lang="de">Beschreibung Hinzufügen</verbose_name>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>textarea</widget_type>
@@ -1884,11 +1884,11 @@
 		<help lang="en">&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; Selecting contradictory properties prevents a successful export.&lt;/p&gt;</help>
 		<text lang="en">Properties of the Quantity</text>
 		<default_text lang="en"/>
-		<verbose_name lang="en"/>
+		<verbose_name lang="en">Add Property</verbose_name>
 		<help lang="de">&lt;p&gt;&lt;strong&gt;Hinweis:&lt;/strong&gt; Die Auswahl widersprüchlicher Eigenschaften verhindert den Export.&lt;/p&gt;</help>
 		<text lang="de">Eigenschaften der Quantität</text>
 		<default_text lang="de"/>
-		<verbose_name lang="de"/>
+		<verbose_name lang="de">Eigenschaft Hinzufügen</verbose_name>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>select</widget_type>
@@ -1942,10 +1942,10 @@
 		<is_collection>True</is_collection>
 		<title lang="en">Quantity - Quantity Relations</title>
 		<help lang="en">&lt;p&gt;To relate the quantity with other quantities, select additional quantities and specify the relations.&lt;/p&gt;</help>
-		<verbose_name lang="en"/>
+		<verbose_name lang="en">Add Quantity - Quantity Relation</verbose_name>
 		<title lang="de">Quantität - Quantität Beziehungen</title>
 		<help lang="de">&lt;p&gt;Um die Quantität mit anderen Quantitäten zu verknüpfen, wählen Sie weitere Quantitäten aus und geben Sie die Relationen an.&lt;/p&gt;</help>
-		<verbose_name lang="de"/>
+		<verbose_name lang="de">Quantität - Quantität Relation Hinzufügen</verbose_name>
 		<questionsets/>
 		<questions>
 			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/quantity-to-quantity/relation" order="0"/>
@@ -2021,10 +2021,10 @@
 		<is_collection>True</is_collection>
 		<title lang="en">Quantity - Quantity Kind Relations</title>
 		<help lang="en">&lt;p&gt;To relate the quantity with other quantity kinds, select additional quantity kinds and specify the relations.&lt;/p&gt;</help>
-		<verbose_name lang="en"/>
+		<verbose_name lang="en">Add Quantity - Quantity Kind Relation</verbose_name>
 		<title lang="de">Quantität - Quantitätsart Beziehungen</title>
 		<help lang="de">&lt;p&gt;Um die Quantität mit anderen Quantitätsarten zu verknüpfen, wählen Sie weitere Quantitätsarten aus und geben Sie die Relationen an.&lt;/p&gt;</help>
-		<verbose_name lang="de"/>
+		<verbose_name lang="de">Quantität - Quantitätsart Relation Hinzufügen</verbose_name>
 		<questionsets/>
 		<questions>
 			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/quantity-to-quantity-kind/relation" order="0"/>
@@ -2100,10 +2100,10 @@
 		<is_collection>True</is_collection>
 		<title lang="en">Quantity Kind - Quantity Kind Relations</title>
 		<help lang="en">&lt;p&gt;To relate the quantity kind with other quantity kinds, select additional quantity kinds and specify the relations.&lt;/p&gt;</help>
-		<verbose_name lang="en"/>
+		<verbose_name lang="en">Add Quantity Kind - Quantity Kind Relation</verbose_name>
 		<title lang="de">Quantitätsart - Quantitätsart Beziehungen</title>
 		<help lang="de">&lt;p&gt;Um die Quantitätsart mit anderen Quantitätsarten zu verknüpfen, wählen Sie weitere Quantitätsarten aus und geben Sie die Relationen an.&lt;/p&gt;</help>
-		<verbose_name lang="de"/>
+		<verbose_name lang="de">Quantitätsart - Quantitätsart Relation Hinzufügen</verbose_name>
 		<questionsets/>
 		<questions>
 			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/quantity-kind-to-quantity-kind/relation" order="0"/>
@@ -2179,10 +2179,10 @@
 		<is_collection>True</is_collection>
 		<title lang="en">Quantity Kind - Quantity Relations</title>
 		<help lang="en">&lt;p&gt;To relate the quantity kind with other quantities, select additional quantities and specify the relations.&lt;/p&gt;</help>
-		<verbose_name lang="en"/>
+		<verbose_name lang="en">Add Quantity Kind - Quantity Relation</verbose_name>
 		<title lang="de">Quantitätsart - Quantität Beziehungen</title>
 		<help lang="de">&lt;p&gt;Um die Quantitätsart mit anderen Quantitäten zu verknüpfen, wählen Sie weitere Quantitäten aus und geben Sie die Relationen an.&lt;/p&gt;</help>
-		<verbose_name lang="de"/>
+		<verbose_name lang="de">Quantitätsart - Quantität Relation Hinzufügen</verbose_name>
 		<questionsets/>
 		<questions>
 			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/quantity-kind-to-quantity/relation" order="1"/>
@@ -2337,7 +2337,7 @@
 &lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; If a problem is selected from the MaRDI Portal and not used as a template, its existing information &lt;u&gt;cannot&lt;/u&gt; be edited or deleted via MaRDMO. Any changes or deletions made regardless will be ignored or shown alongside the original information in the MaRDI Portal.&lt;/p&gt;
 
 &lt;p&gt;Check out &lt;a href=&quot;https://www.youtube.com/watch?v=Llp5CiPkE0Y&quot;&gt;Research Problem&lt;/a&gt; showcasing the documentation.&lt;/p&gt;</help>
-		<verbose_name lang="en"/>
+		<verbose_name lang="en">Add Research Problem</verbose_name>
 		<title lang="de">Forschungsproblem</title>
 		<short_title lang="de">Problem</short_title>
 		<help lang="de">&lt;p&gt;Auf dieser Seite können neue Probleme definiert oder bereits bestehende Probleme aus dem MaRDI Portal oder Wikidata ausgewählt werden. Wird ein bestehendes Problem ausgewählt, werden alle verfügbaren Informationen aus der jeweiligen Quelle abgerufen und in das Interview integriert. Die abgerufenen Informationen können ergänzt und um neue Relationen erweitert werden (z.&amp;nbsp;B. Verbindungen zu anderen Problemen).&lt;/p&gt;
@@ -2349,7 +2349,7 @@
 &lt;p&gt;&lt;strong&gt;Hinweis:&lt;/strong&gt; Wird ein Problem aus dem MaRDI Portal ausgewählt und nicht als Vorlage verwendet, können bestehende Informationen über MaRDMO &lt;u&gt;nicht&lt;/u&gt; editiert oder gelöscht werden. Änderungen oder Löschungen, die dennoch vorgenommen werden, werden ignoriert oder zusätzlich zu den bestehenden Informationen im MaRDI Portal angezeigt.&lt;/p&gt;
 
 &lt;p&gt;Sehen Sich sich &lt;a href=&quot;https://www.youtube.com/watch?v=Llp5CiPkE0Y&quot;&gt;Research Problem&lt;/a&gt; an in dem die Dokumentation vorgestellt wird.&lt;/p&gt;</help>
-		<verbose_name lang="de"/>
+		<verbose_name lang="de">Forschungsproblem Hinzufügen</verbose_name>
 		<questionsets>
 			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/problem/information" order="1"/>
 			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/problem/problem-to-problem" order="2"/>
@@ -2448,11 +2448,11 @@
 		<help lang="en">&lt;p&gt;Provide additional context or background information if needed.&lt;/p&gt;</help>
 		<text lang="en">Detailed Description of the Research Problem</text>
 		<default_text lang="en"/>
-		<verbose_name lang="en"/>
+		<verbose_name lang="en">Add Description</verbose_name>
 		<help lang="de">&lt;p&gt;Geben Sie bei Bedarf weitere Details oder Hintergrundinformationen an.&lt;/p&gt;</help>
 		<text lang="de">Detaillierte Beschreibung des Forschungsproblems</text>
 		<default_text lang="de"/>
-		<verbose_name lang="de"/>
+		<verbose_name lang="de">Beschreibung Hinzufügen</verbose_name>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>textarea</widget_type>
@@ -2475,11 +2475,11 @@
 		<help lang="en">&lt;p&gt;For all disciplines &lt;em&gt;label (description) [source]&lt;/em&gt; is provided. If a discipline is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate discipline is present in the MaRDI Portal or Wikidata, define a new discipline as &lt;em&gt;label (description) [user]&lt;/em&gt;.&lt;/p&gt;</help>
 		<text lang="en">Academic Discipline containing the Research Problem?</text>
 		<default_text lang="en"/>
-		<verbose_name lang="en"/>
+		<verbose_name lang="en">Add Academic Discipline</verbose_name>
 		<help lang="de">&lt;p&gt;Für alle Disziplinen wird &lt;em&gt;Name (Beschreibung) [Quelle]&lt;/em&gt; angegeben. Wenn eine Disziplin ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls keine passende Disziplin im MaRDI Portal oder Wikidata vorhanden ist, definieren Sie eine neue Disziplin mit &lt;em&gt;Name (Beschreibung) [User]&lt;/em&gt;.&lt;/p&gt;</help>
 		<text lang="de">Akademische Disziplin welche das Forschungsproblem enthält?</text>
 		<default_text lang="de"/>
-		<verbose_name lang="de"/>
+		<verbose_name lang="de">Akademische Disziplin Hinzufügen</verbose_name>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>select_creatable</widget_type>
@@ -2502,10 +2502,10 @@
 		<is_collection>True</is_collection>
 		<title lang="en">Research Problem - Research Problem Relations</title>
 		<help lang="en">&lt;p&gt;To relate the problem with other problems, select additional problems and specify the relations.&lt;/p&gt;</help>
-		<verbose_name lang="en"/>
+		<verbose_name lang="en">Add Research Problem Relation</verbose_name>
 		<title lang="de">Forschungsproblem - Forschungsproblem Beziehungen</title>
 		<help lang="de">&lt;p&gt;Um das Problem mit anderen Problemen zu verknüpfen, wählen Sie weitere Probleme aus und geben Sie die Relationen an.&lt;/p&gt;</help>
-		<verbose_name lang="de"/>
+		<verbose_name lang="de">Forschungsproblem Relation Hinzufügen</verbose_name>
 		<questionsets/>
 		<questions>
 			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/problem/problem-to-problem/problem-relation" order="0"/>
@@ -2621,7 +2621,7 @@
 &lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; If a discipline is selected from the MaRDI Portal and not used as a template, its existing information &lt;u&gt;cannot&lt;/u&gt; be edited or deleted via MaRDMO. Any changes or deletions made regardless will be ignored or shown alongside the original information in the MaRDI Portal.&lt;/p&gt;
 
 &lt;p&gt;Check out &lt;a href=&quot;https://www.youtube.com/watch?v=2vpaLZ0PrRc&quot;&gt;Academic Discipline&lt;/a&gt; showcasing the documentation.&lt;/p&gt;</help>
-		<verbose_name lang="en"/>
+		<verbose_name lang="en">Add Academic Discipline</verbose_name>
 		<title lang="de">Akademische Disziplin</title>
 		<short_title lang="de">Disziplin</short_title>
 		<help lang="de">&lt;p&gt;Auf dieser Seite können neue Disziplinen definiert oder bereits bestehende Disziplinen aus dem MaRDI Portal oder Wikidata ausgewählt werden. Wird eine bestehende Disziplin ausgewählt, werden alle verfügbaren Informationen aus der jeweiligen Quelle abgerufen und in das Interview integriert. Die abgerufenen Informationen können ergänzt und um neue Relationen erweitert werden (z.&amp;nbsp;B. Verbindungen zu anderen Disziplinen).&lt;/p&gt;
@@ -2633,7 +2633,7 @@
 &lt;p&gt;&lt;strong&gt;Hinweis:&lt;/strong&gt; Wird eine Disziplin aus dem MaRDI Portal ausgewählt und nicht als Vorlage verwendet, können bestehende Informationen über MaRDMO &lt;u&gt;nicht&lt;/u&gt; editiert oder gelöscht werden. Änderungen oder Löschungen, die dennoch vorgenommen werden, werden ignoriert oder zusätzlich zu den bestehenden Informationen im MaRDI Portal angezeigt.&lt;/p&gt;
 
 &lt;p&gt;Sehen Sie sich &lt;a href=&quot;https://www.youtube.com/watch?v=2vpaLZ0PrRc&quot;&gt;Academic Discipline&lt;/a&gt; an in dem die Dokumentation vorgestellt wird.&lt;/p&gt;</help>
-		<verbose_name lang="de"/>
+		<verbose_name lang="de">Akademische Disziplin Hinzufügen</verbose_name>
 		<questionsets>
 			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/field/information" order="1"/>
 			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/field/field-to-field" order="2"/>
@@ -2731,11 +2731,11 @@
 		<help lang="en">&lt;p&gt;Provide additional context or background information if needed.&lt;/p&gt;</help>
 		<text lang="en">Detailed Description of the Academic Discipline</text>
 		<default_text lang="en"/>
-		<verbose_name lang="en"/>
+		<verbose_name lang="en">Add Description</verbose_name>
 		<help lang="de">&lt;p&gt;Geben Sie bei Bedarf weitere Details oder Hintergrundinformationen an.&lt;/p&gt;</help>
 		<text lang="de">Detaillierte Beschreibung der akademischen Disziplin</text>
 		<default_text lang="de"/>
-		<verbose_name lang="de"/>
+		<verbose_name lang="de">Beschreibung Hinzufügen</verbose_name>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>textarea</widget_type>
@@ -2756,10 +2756,10 @@
 		<is_collection>True</is_collection>
 		<title lang="en">Academic Discipline - Academic Discipline Relations</title>
 		<help lang="en">&lt;p&gt;To relate the discipline with other disciplines, select additional disciplines and specify the relations.&lt;/p&gt;</help>
-		<verbose_name lang="en"/>
+		<verbose_name lang="en">Add Academic Discipline Relation</verbose_name>
 		<title lang="de">Akademische Disziplin - Akademische Disziplin Beziehungen</title>
 		<help lang="de">&lt;p&gt;Um die Disziplin mit anderen Disziplinen zu verknüpfen, wählen Sie weitere Disziplinen aus und geben Sie die Relationen an.&lt;/p&gt;</help>
-		<verbose_name lang="de"/>
+		<verbose_name lang="de">Akademische Disziplin Relation Hinzufügen</verbose_name>
 		<questionsets/>
 		<questions>
 			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/field/field-to-field/field-relation" order="0"/>
@@ -2883,7 +2883,7 @@
 &lt;p&gt;For a smooth export to the MaRDI Portal, all &lt;strong&gt;non-optional&lt;/strong&gt; questions must be answered completely.&lt;/p&gt;
 
 &lt;p&gt;Check out &lt;a href=&quot;https://www.youtube.com/watch?v=qfb6xVytzZU&quot;&gt;Publication&lt;/a&gt; showcasing the documentation.&lt;/p&gt;</help>
-		<verbose_name lang="en"/>
+		<verbose_name lang="en">Add Publication</verbose_name>
 		<title lang="de">Publikation</title>
 		<short_title lang="de">Publikation</short_title>
 		<help lang="de">&lt;p&gt;Auf dieser Seite können neue Publikationen definiert oder bereits bestehende Publikationen aus dem MaRDI Portal, MathAlgoDB oder Wikidata ausgewählt werden. Wird eine bestehende Publikation ausgewählt, werden alle verfügbaren Informationen aus der jeweiligen Quelle abgerufen und in das Interview integriert. Die abgerufenen Informationen können um neue Relationen erweitert werden (z.&amp;nbsp;B. Verbindungen zu verschiedenen Modell-Entitäten).&lt;/p&gt;
@@ -2891,7 +2891,7 @@
 &lt;p&gt;Für einen reibungslosen Export in das MaRDI Portal müssen alle &lt;strong&gt;nicht-optionalen&lt;/strong&gt; Fragen vollständig beantwortet sein.&lt;/p&gt;
 
 &lt;p&gt;Sehen Sie sich &lt;a href=&quot;https://www.youtube.com/watch?v=qfb6xVytzZU&quot;&gt;Publication&lt;/a&gt; an in dem die Dokumentation vorgestellt wird.&lt;/p&gt;</help>
-		<verbose_name lang="de"/>
+		<verbose_name lang="de">Publikation Hinzufügen</verbose_name>
 		<questionsets>
 			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/publication/publication-to-entity" order="3"/>
 		</questionsets>
@@ -2909,10 +2909,10 @@
 		<is_collection>True</is_collection>
 		<title lang="en">Publication Relations</title>
 		<help lang="en">&lt;p&gt;To relate the publication with individual model entities, select the entities and specify the relations.&lt;/p&gt;</help>
-		<verbose_name lang="en"/>
+		<verbose_name lang="en">Add Publication Relation</verbose_name>
 		<title lang="de">Publikation Beziehungen</title>
 		<help lang="de">&lt;p&gt;Um die Publikation mit individuellen Entitäten des Modells zu verknüpfen, wählen die Entitäten aus und geben Sie die Relationen an.&lt;/p&gt;</help>
-		<verbose_name lang="de"/>
+		<verbose_name lang="de">Publikation Relation Hinzufügen</verbose_name>
 		<questionsets/>
 		<questions>
 			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/publication/entity-relation" order="0"/>
