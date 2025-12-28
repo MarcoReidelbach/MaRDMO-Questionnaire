@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2025-12-26T21:07:59.257465+01:00" required="2.1.0" version="2.4.0">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2025-12-28T13:48:36.515181+01:00" required="2.1.0" version="2.4.0">
 	<catalog dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo-model-catalog">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mardmo-model-catalog</uri_path>
@@ -1200,14 +1200,16 @@
 		<verbose_name lang="de"/>
 		<default_option/>
 		<default_external_id/>
-		<widget_type>text</widget_type>
+		<widget_type>select_creatable</widget_type>
 		<value_type>text</value_type>
 		<maximum/>
 		<minimum/>
 		<step/>
 		<unit/>
 		<width/>
-		<optionsets/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/formula"/>
+		</optionsets>
 		<conditions/>
 	</question>
 	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/formulation/element-quantity">
@@ -1256,14 +1258,16 @@
 		<verbose_name lang="de">Formel Hinzufügen</verbose_name>
 		<default_option/>
 		<default_external_id/>
-		<widget_type>text</widget_type>
+		<widget_type>select_creatable</widget_type>
 		<value_type>text</value_type>
 		<maximum/>
 		<minimum/>
 		<step/>
 		<unit/>
 		<width/>
-		<optionsets/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/formula"/>
+		</optionsets>
 		<conditions/>
 	</question>
 	<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/formulation/formulation-to-formulation-1">
@@ -1723,14 +1727,16 @@
 		<verbose_name lang="de"/>
 		<default_option/>
 		<default_external_id/>
-		<widget_type>text</widget_type>
+		<widget_type>select_creatable</widget_type>
 		<value_type>text</value_type>
 		<maximum/>
 		<minimum/>
 		<step/>
 		<unit/>
 		<width/>
-		<optionsets/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/formula"/>
+		</optionsets>
 		<conditions/>
 	</question>
 	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/element-quantity">
@@ -1779,14 +1785,16 @@
 		<verbose_name lang="de">Formel Hinzufügen</verbose_name>
 		<default_option/>
 		<default_external_id/>
-		<widget_type>text</widget_type>
+		<widget_type>select_creatable</widget_type>
 		<value_type>text</value_type>
 		<maximum/>
 		<minimum/>
 		<step/>
 		<unit/>
 		<width/>
-		<optionsets/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/formula"/>
+		</optionsets>
 		<conditions/>
 	</question>
 	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/quantity/name">
