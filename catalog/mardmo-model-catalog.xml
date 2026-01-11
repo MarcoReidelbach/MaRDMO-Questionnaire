@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2026-01-08T16:42:16.684118+01:00" required="2.1.0" version="2.4.0">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2026-01-11T21:50:53.925694+01:00" required="2.1.0" version="2.4.0">
 	<catalog dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo-model-catalog">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mardmo-model-catalog</uri_path>
@@ -330,11 +330,11 @@
 		<help lang="en">Provide one or more aliasses for the mathematical model.</help>
 		<text lang="en">Alias of the Mathematical Model</text>
 		<default_text lang="en"/>
-		<verbose_name lang="en"/>
+		<verbose_name lang="en">Add Alias</verbose_name>
 		<help lang="de">Geben Sie einen oder mehrere Aliasse für das mathematische Modell an.</help>
 		<text lang="de">Alias des mathematischen Modells</text>
 		<default_text lang="de"/>
-		<verbose_name lang="de"/>
+		<verbose_name lang="de">Alias Hinzufügen</verbose_name>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>text</widget_type>
@@ -890,11 +890,11 @@
 		<help lang="en"/>
 		<text lang="en">Alias of the Computational Task</text>
 		<default_text lang="en"/>
-		<verbose_name lang="en"/>
+		<verbose_name lang="en">Add Alias</verbose_name>
 		<help lang="de"/>
 		<text lang="de">Alias der Berechnungsaufgabe</text>
 		<default_text lang="de"/>
-		<verbose_name lang="de"/>
+		<verbose_name lang="de">Alias Hinzufügen</verbose_name>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>text</widget_type>
@@ -1472,11 +1472,11 @@
 		<help lang="en"/>
 		<text lang="en">Alias of the Mathematical Expression</text>
 		<default_text lang="en"/>
-		<verbose_name lang="en"/>
+		<verbose_name lang="en">Add Alias</verbose_name>
 		<help lang="de"/>
 		<text lang="de">Alias des mathematischen Ausdrucks</text>
 		<default_text lang="de"/>
-		<verbose_name lang="de"/>
+		<verbose_name lang="de">Alias Hinzufügen</verbose_name>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>text</widget_type>
@@ -1950,11 +1950,11 @@
 		<help lang="en"/>
 		<text lang="en">Alias of the Quantity</text>
 		<default_text lang="en"/>
-		<verbose_name lang="en"/>
+		<verbose_name lang="en">Add Alias</verbose_name>
 		<help lang="de"/>
 		<text lang="de">Alias der Quantität</text>
 		<default_text lang="de"/>
-		<verbose_name lang="de"/>
+		<verbose_name lang="de">Alias Hinzufügen</verbose_name>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>text</widget_type>
@@ -2569,11 +2569,11 @@
 		<help lang="en"/>
 		<text lang="en">Alias of the Research Problem</text>
 		<default_text lang="en"/>
-		<verbose_name lang="en"/>
+		<verbose_name lang="en">Add Alias</verbose_name>
 		<help lang="de"/>
 		<text lang="de">Alias des Forschungsproblems</text>
 		<default_text lang="de"/>
-		<verbose_name lang="de"/>
+		<verbose_name lang="de">Alias Hinzufügen</verbose_name>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>text</widget_type>
@@ -2880,11 +2880,11 @@
 		<help lang="en"/>
 		<text lang="en">Alias of the Academic Discipline</text>
 		<default_text lang="en"/>
-		<verbose_name lang="en"/>
+		<verbose_name lang="en">Add Alias</verbose_name>
 		<help lang="de"/>
 		<text lang="de">Alias der akademischen Disziplin</text>
 		<default_text lang="de"/>
-		<verbose_name lang="de"/>
+		<verbose_name lang="de">Alias Hinzufügen</verbose_name>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>text</widget_type>
