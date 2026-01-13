@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2025-12-30T21:43:45.870152+01:00" required="2.1.0" version="2.4.0">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2026-01-13T14:42:00.273649+01:00" required="2.1.0" version="2.4.0">
 	<catalog dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo-model-basics-catalog">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mardmo-model-basics-catalog</uri_path>
@@ -27,31 +27,31 @@
 		<title lang="de">Dokumentation</title>
 		<short_title lang="de">Dokumentation</short_title>
 		<pages>
-			<page dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model-introduction" order="0"/>
+			<page dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model-introduction-basic" order="0"/>
 			<page dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/model-basics" order="1"/>
 			<page dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task-basics" order="2"/>
-			<page dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/problem-basics" order="5"/>
+			<page dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/formulation-basics" order="3"/>
+			<page dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/problem-basics" order="4"/>
 		</pages>
 	</section>
-	<page dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model-introduction">
+	<page dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model-introduction-basic">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>mardmo/model-introduction</uri_path>
+		<uri_path>mardmo/model-introduction-basic</uri_path>
 		<dc:comment/>
 		<attribute/>
 		<is_collection>False</is_collection>
-		<title lang="en">Welcome to the MathModDB Interview</title>
+		<title lang="en">Welcome to the Basic MathModDB Interview</title>
 		<short_title lang="en">Introduction</short_title>
-		<help lang="en">&lt;p&gt;This guided interview helps you document mathematical models using the &lt;em&gt;&lt;a href=&quot;https://mardi4nfdi.github.io/MathModDB/&quot; target=&quot;_blank&quot;&gt;MathModDB ontology&lt;/a&gt;&lt;/em&gt;.&lt;/p&gt;
-  &lt;p&gt;The interview is structured by the classes of the ontology:&lt;/p&gt; 
+		<help lang="en">&lt;p&gt;This guided interview helps you document the basic information of mathematical models using the &lt;em&gt;&lt;a href=&quot;https://mardi4nfdi.github.io/MathModDB/&quot; target=&quot;_blank&quot;&gt;MathModDB ontology&lt;/a&gt;&lt;/em&gt;.&lt;/p&gt;
+  &lt;p&gt;The interview is structured by selected classes of the ontology:&lt;/p&gt; 
 &lt;ul&gt; 
 &lt;li&gt;&lt;em&gt;Mathematical Model&lt;/em&gt;&lt;/li&gt;
 &lt;li&gt;&lt;em&gt;Computational Task&lt;/em&gt;&lt;/li&gt; 
-&lt;li&gt;&lt;em&gt;Mathematical Expression&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Quantity [Kind]&lt;/em&gt;&lt;/li&gt; 
+&lt;li&gt;&lt;em&gt;Mathematical Expression&lt;/em&gt;&lt;/li&gt; 
 &lt;li&gt;&lt;em&gt;Research Problem&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Academic Discipline&lt;/em&gt;&lt;/li&gt;
 &lt;li&gt;&lt;em&gt;Publication&lt;/em&gt;&lt;/li&gt;
 &lt;/ul&gt;
+&lt;p&gt;For a detailed documentation use the &lt;em&gt;MaRDMO: Questionnaire for Mathematical Models&lt;/em&gt; Catalogue.&lt;/p&gt;
   &lt;p&gt;For each class, you can reuse existing entries from the &lt;em&gt;&lt;a href=&quot;https://portal.mardi4nfdi.de/&quot; target=&quot;_blank&quot;&gt;MaRDI Portal&lt;/a&gt;&lt;/em&gt; or &lt;em&gt;&lt;a href=&quot;https://www.wikidata.org/&quot; target=&quot;_blank&quot;&gt;Wikidata&lt;/a&gt;&lt;/em&gt;, or define new ones.&lt;/p&gt;
   &lt;p&gt;The interview supports three main use cases:&lt;/p&gt;
   &lt;ul&gt;
@@ -62,10 +62,10 @@
   &lt;p&gt;All information is structured to support the FAIR principles — making your models &lt;strong&gt;Findable, Accessible, Interoperable, and Reusable&lt;/strong&gt;.&lt;/p&gt;
   &lt;p&gt;This catalog is part of &lt;strong&gt;&lt;a href=&quot;https://github.com/MarcoReidelbach/MaRDMO-Plugin&quot; target=&quot;_blank&quot;&gt;MaRDMO&lt;/a&gt;&lt;/strong&gt; and developed within Task Area 4 of the &lt;strong&gt;&lt;a href=&quot;https://www.mardi4nfdi.de/&quot; target=&quot;_blank&quot;&gt;Mathematical Research Data Initiative (MaRDI)&lt;/a&gt;&lt;/strong&gt;. It aims to help researchers across all disciplines to systematically document their mathematical research data.&lt;/p&gt;</help>
 		<verbose_name lang="en"/>
-		<title lang="de">Willkommen zum MathModDB-Interview</title>
+		<title lang="de">Willkommen zum Basis-MathModDB-Interview</title>
 		<short_title lang="de">Einführung</short_title>
-		<help lang="de">&lt;p&gt;Dieses geführte Interview unterstützt Sie bei der Dokumentation mathematischer Modelle mithilfe der &lt;em&gt;&lt;a href=&quot;https://mardi4nfdi.github.io/MathModDB/&quot; target=&quot;_blank&quot;&gt;MathModDB-Ontologie&lt;/a&gt;&lt;/em&gt;.&lt;/p&gt;
-&lt;p&gt;Das Interview orientiert sich an den Klassen der Ontologie:&lt;/p&gt; 
+		<help lang="de">&lt;p&gt;Dieses geführte Interview unterstützt Sie bei der Dokumentation der Basis-Informationen mathematischer Modelle mithilfe der &lt;em&gt;&lt;a href=&quot;https://mardi4nfdi.github.io/MathModDB/&quot; target=&quot;_blank&quot;&gt;MathModDB-Ontologie&lt;/a&gt;&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Das Interview orientiert sich an ausgewählten Klassen der Ontologie:&lt;/p&gt; 
 &lt;ul&gt; 
 &lt;li&gt;&lt;em&gt;Mathematisches Modell&lt;/em&gt;&lt;/li&gt;
 &lt;li&gt;&lt;em&gt;Berechnungsaufgabe&lt;/em&gt;&lt;/li&gt; 
@@ -75,6 +75,7 @@
 &lt;li&gt;&lt;em&gt;Akademische Disziplin&lt;/em&gt;&lt;/li&gt;
 &lt;li&gt;&lt;em&gt;Publikation&lt;/em&gt;&lt;/li&gt;
 &lt;/ul&gt;
+&lt;p&gt;Für eine detaillierte Dokumentation verwenden Sie den &lt;em&gt;MaRDMO: Fragenkatalog für mathematische Modelle&lt;/em&gt; Katalog&lt;/p&gt;
 &lt;p&gt;Für jede Klasse können vorhandene Einträge aus dem &lt;em&gt;&lt;a href=&quot;https://portal.mardi4nfdi.de/&quot; target=&quot;_blank&quot;&gt;MaRDI-Portal&lt;/a&gt;&lt;/em&gt; oder &lt;em&gt;&lt;a href=&quot;https://www.wikidata.org/&quot; target=&quot;_blank&quot;&gt;Wikidata&lt;/a&gt;&lt;/em&gt; wiederverwendet oder neue Einträge definiert werden.&lt;/p&gt;
 &lt;p&gt;Das Interview unterstützt drei Hauptanwendungsfälle:&lt;/p&gt;
 &lt;ul&gt;
@@ -83,7 +84,7 @@
   &lt;li&gt;Hinzufügen einer Berechnungsaufgabe zu einem bestehenden Modell&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Alle Informationen sind gemäß den FAIR-Prinzipien strukturiert – Ihre Modelle werden dadurch &lt;strong&gt;auffindbar, zugänglich, interoperabel und wiederverwendbar&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;Dieser Katalog ist Teil von &lt;strong&gt;&lt;a href=&quot;https://github.com/MarcoReidelbach/MaRDMO-Plugin&quot; target=&quot;_blank&quot;&gt;MaRDMO&lt;/a&gt;&lt;/strong&gt; und wird im Rahmen des Task Area 4 der &lt;strong&gt;&lt;a href=&quot;https://www.mardi4nfdi.de/&quot; target=&quot;_blank&quot;&gt;Mathematical Research Data Initiative (MaRDI)&lt;/a&gt;&lt;/strong&gt; entwickelt. Ziel ist es, Forschende aller Disziplinen bei der systematischen Dokumentation mathematischer Forschungsdaten zu unterstützen.&lt;/p&gt;</help>
+&lt;p&gt;Dieser Katalog ist Teil von &lt;strong&gt;&lt;a href=&quot;https://github.com/MarcoReidelbach/MaRDMO-Plugin&quot; target=&quot;_blank&quot;&gt;MaRDMO&lt;/a&gt;&lt;/strong&gt; und wird im Rahmen der Task Area 4 der &lt;strong&gt;&lt;a href=&quot;https://www.mardi4nfdi.de/&quot; target=&quot;_blank&quot;&gt;Mathematical Research Data Initiative (MaRDI)&lt;/a&gt;&lt;/strong&gt; entwickelt. Ziel ist es, Forschende aller Disziplinen bei der systematischen Dokumentation mathematischer Forschungsdaten zu unterstützen.&lt;/p&gt;</help>
 		<verbose_name lang="de"/>
 		<questionsets/>
 		<questions/>
@@ -121,7 +122,7 @@
 		<verbose_name lang="de">Mathematisches Modell Hinzufügen</verbose_name>
 		<questionsets>
 			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/model/information-basics" order="1"/>
-			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/model/model-to-model-basics" order="3"/>
+			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/model/model-to-model" order="3"/>
 		</questionsets>
 		<questions>
 			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/model/id" order="0"/>
@@ -140,7 +141,9 @@
 		<title lang="de">Mathematisches Modell Informationen</title>
 		<help lang="de"/>
 		<verbose_name lang="de"/>
-		<questionsets/>
+		<questionsets>
+			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/model/model-to-formulation-basics" order="6"/>
+		</questionsets>
 		<questions>
 			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/model/name" order="0"/>
 			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/model/description" order="1"/>
@@ -150,6 +153,83 @@
 		</questions>
 		<conditions/>
 	</questionset>
+	<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/model/model-to-formulation-basics">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/model/model/model-to-formulation-basics</uri_path>
+		<dc:comment/>
+		<attribute/>
+		<is_collection>True</is_collection>
+		<title lang="en">Mathematical Model - Mathematical Expression Relations</title>
+		<help lang="en">&lt;p&gt;To add expressions to the model, select or define an expression and specify its role.&lt;/p&gt;</help>
+		<verbose_name lang="en">Add Mathematical Expression</verbose_name>
+		<title lang="de">Mathematisches Modell - Mathematischer Ausdruck Beziehungen</title>
+		<help lang="de">&lt;p&gt;Um Ausdrücke zum Modell hinzuzufügen, wählen oder definieren Sie einen Ausdruck und geben Sie dessen Rolle an.&lt;/p&gt;</help>
+		<verbose_name lang="de">Mathematischen Ausdruck Hinzufügen</verbose_name>
+		<questionsets/>
+		<questions>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/model/model-to-formulation/model-relation" order="0"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/model/model-to-formulation/formulation-relatant" order="1"/>
+		</questions>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/model/model-to-formulation/model-relation">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/model/model/model-to-formulation/model-relation</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/model/formulation-relation"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en">&lt;p&gt;Use &lt;em&gt;assumes&lt;/em&gt; for assumptions, &lt;em&gt;contains&lt;/em&gt; for expressions without a specific role, and the other relations for expressions with dedicated roles.&lt;/p&gt;</help>
+		<text lang="en">The Mathematical Model...</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de">&lt;p&gt;Verwenden Sie &lt;em&gt;nimmt an&lt;/em&gt; für Annahmen, &lt;em&gt;beinhaltet&lt;/em&gt; für Ausdrücke ohne spezifische Rolle und die anderen Relationen für Ausdrücke mit festgelegter Rolle.&lt;/p&gt;</help>
+		<text lang="de">Das mathematische Modell...</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>select</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/model-to-formulation-relation"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/model/model-to-formulation/formulation-relatant">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/model/model/model-to-formulation/formulation-relatant</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/model/formulation-relatant"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en">&lt;p&gt;For all expressions &lt;em&gt;label (description) [source]&lt;/em&gt; is provided. If an expression is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate expression is present in the MaRDI Portal or Wikidata, define a new expression as &lt;em&gt;label (description) [user]&lt;/em&gt;.&lt;/p&gt;</help>
+		<text lang="en">...a Mathematical Expression.</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de">&lt;p&gt;Für alle Ausdrücke wird &lt;em&gt;Name (Beschreibung) [Quelle]&lt;/em&gt; angegeben. Wenn ein Ausdruck ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls kein passender Ausdruck im MaRDI Portal oder Wikidata vorhanden ist, definieren Sie einen neuen Ausdruck mit &lt;em&gt;Name (Beschreibung) [user]&lt;/em&gt;.&lt;/p&gt;</help>
+		<text lang="de">...einen mathematischen Ausdruck.</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>select_creatable</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/formulation-relatant-with-creation"/>
+		</optionsets>
+		<conditions/>
+	</question>
 	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/model/name">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mardmo/model/model/name</uri_path>
@@ -214,7 +294,7 @@
 		<dc:comment/>
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/model/properties"/>
 		<is_collection>True</is_collection>
-		<is_optional>False</is_optional>
+		<is_optional>True</is_optional>
 		<help lang="en">&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; Selecting contradictory properties prevents a successful export.&lt;/p&gt;</help>
 		<text lang="en">Properties of the Mathematical Model</text>
 		<default_text lang="en"/>
@@ -248,7 +328,7 @@
 		<text lang="en">Research Problem modelled by the Mathematical Model?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en">Add Research Problem</verbose_name>
-		<help lang="de">&lt;p&gt;Für alle Probleme wird &lt;em&gt;Name (Beschreibung) [Quelle]&lt;/em&gt; angegeben. Wenn ein Problem ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls kein passendes Problem im MaRDI Portal oder Wikidata vorhanden ist, definieren Sie ein neues Problem mit &lt;em&gt;Name (Beschreibung) [User]&lt;/em&gt;.&lt;/p&gt;</help>
+		<help lang="de">&lt;p&gt;Für alle Probleme wird &lt;em&gt;Name (Beschreibung) [Quelle]&lt;/em&gt; angegeben. Wenn ein Problem ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls kein passendes Problem im MaRDI Portal oder Wikidata vorhanden ist, definieren Sie ein neues Problem mit &lt;em&gt;Name (Beschreibung) [user]&lt;/em&gt;.&lt;/p&gt;</help>
 		<text lang="de">Forschungsproblem welches durch das mathematische Modell modelliert wird?</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de">Forschungsproblem Hinzufügen</verbose_name>
@@ -277,7 +357,7 @@
 		<text lang="en">Task using the Mathematical Model?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en">Add Task</verbose_name>
-		<help lang="de">&lt;p&gt;Für alle Berechnungsaufgaben wird &lt;em&gt;Name (Beschreibung) [Quelle]&lt;/em&gt; angegeben. Wenn eine Berechnungsaufgabe ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls keine passende Berechnungsaufgabe im MaRDI Portal oder Wikidata vorhanden ist, definieren Sie eine neue Berechnungsaufgabe mit &lt;em&gt;Name (Beschreibung) [User]&lt;/em&gt;.&lt;/p&gt;</help>
+		<help lang="de">&lt;p&gt;Für alle Berechnungsaufgaben wird &lt;em&gt;Name (Beschreibung) [Quelle]&lt;/em&gt; angegeben. Wenn eine Berechnungsaufgabe ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls keine passende Berechnungsaufgabe im MaRDI Portal oder Wikidata vorhanden ist, definieren Sie eine neue Berechnungsaufgabe mit &lt;em&gt;Name (Beschreibung) [user]&lt;/em&gt;.&lt;/p&gt;</help>
 		<text lang="de">Berechnungsaufgabe die das mathematische Modell verwendet?</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de">Berechnungsaufgabe Hinzufügen</verbose_name>
@@ -295,9 +375,9 @@
 		</optionsets>
 		<conditions/>
 	</question>
-	<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/model/model-to-model-basics">
+	<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/model/model-to-model">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>mardmo/model/model/model-to-model-basics</uri_path>
+		<uri_path>mardmo/model/model/model-to-model</uri_path>
 		<dc:comment/>
 		<attribute/>
 		<is_collection>True</is_collection>
@@ -311,6 +391,7 @@
 		<questions>
 			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/model/model-to-model/model-relation" order="0"/>
 			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/model/model-to-model/model-relatant" order="1"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/model/model-to-model/assumption" order="2"/>
 		</questions>
 		<conditions/>
 	</questionset>
@@ -372,6 +453,38 @@
 		</optionsets>
 		<conditions/>
 	</question>
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/model/model-to-model/assumption">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/model/model/model-to-model/assumption</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/model/model-assumption"/>
+		<is_collection>True</is_collection>
+		<is_optional>True</is_optional>
+		<help lang="en">&lt;p&gt;For all expressions &lt;em&gt;label (description) [source]&lt;/em&gt; is provided. If an expression is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate expression is present in the MaRDI Portal or Wikidata, define a new expression as &lt;em&gt;label (description) [user]&lt;/em&gt;.&lt;/p&gt;</help>
+		<text lang="en">Assumption to reduce the general Mathematical Model to its specialized form.</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de">&lt;p&gt;Für alle Ausdrücke wird &lt;em&gt;Name (Beschreibung) [Quelle]&lt;/em&gt; angegeben. Wenn ein Ausdruck ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls kein passender Ausdruck im MaRDI Portal oder Wikidata vorhanden ist, definieren Sie einen neuen Ausdruck mit &lt;em&gt;Name (Beschreibung) [User]&lt;/em&gt;.&lt;/p&gt;</help>
+		<text lang="de">Annahme zur Reduzierung des allgemeinen mathematischen Modells auf seine spezielle Form.</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>select_creatable</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/formulation-relatant-with-creation"/>
+		</optionsets>
+		<conditions>
+			<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/specialized-by-model"/>
+			<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/specializes-model"/>
+		</conditions>
+	</question>
 	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/model/id">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mardmo/model/model/id</uri_path>
@@ -381,7 +494,7 @@
 		<is_optional>False</is_optional>
 		<help lang="en">&lt;p&gt;For all models &lt;em&gt;label (description) [source]&lt;/em&gt; is provided. If a model is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate model is present in the MaRDI Portal or Wikidata, choose &lt;em&gt;not found&lt;/em&gt;.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt;To use an existing model as a template, first select the model, wait for the information to load, and then change the answer to &lt;em&gt;not found&lt;/em&gt; to remove the external reference.&lt;/p&gt;</help>
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; To use an existing model as a template, first select the model, wait for the information to load, and then change the answer to &lt;em&gt;not found&lt;/em&gt; to remove the external reference.&lt;/p&gt;</help>
 		<text lang="en">Select a Mathematical Model!</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
@@ -437,7 +550,7 @@
 		<verbose_name lang="de">Berechnungsaufgabe Hinzufügen</verbose_name>
 		<questionsets>
 			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task/information-basics" order="1"/>
-			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task/task-to-task-basics" order="2"/>
+			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task/task-to-task" order="2"/>
 		</questionsets>
 		<questions>
 			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task/id" order="0"/>
@@ -456,7 +569,9 @@
 		<title lang="de">Berechnungsaufgabe Informationen</title>
 		<help lang="de"/>
 		<verbose_name lang="de"/>
-		<questionsets/>
+		<questionsets>
+			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task/task-to-formulation" order="4"/>
+		</questionsets>
 		<questions>
 			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task/name" order="0"/>
 			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task/description" order="1"/>
@@ -464,6 +579,83 @@
 		</questions>
 		<conditions/>
 	</questionset>
+	<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task/task-to-formulation">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/model/task/task-to-formulation</uri_path>
+		<dc:comment/>
+		<attribute/>
+		<is_collection>True</is_collection>
+		<title lang="en">Mathematical Expression Relations</title>
+		<help lang="en">&lt;p&gt;To add expressions to the task, select or define an expression and specify its role.&lt;/p&gt;</help>
+		<verbose_name lang="en">Add Mathematical Expression</verbose_name>
+		<title lang="de">Mathematischer Ausdruck Beziehungen</title>
+		<help lang="de">&lt;p&gt;Um Ausdrücke zur Aufgabe hinzuzufügen, wählen oder definieren Sie einen Ausdruck und geben Sie dessen Rolle an.&lt;/p&gt;</help>
+		<verbose_name lang="de">Mathematischen Ausdruck Hinzufügen</verbose_name>
+		<questionsets/>
+		<questions>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task/task-to-formulation/relation" order="0"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task/formulation-relatant" order="1"/>
+		</questions>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task/task-to-formulation/relation">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/model/task/task-to-formulation/relation</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/task/formulation-relation"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en">&lt;p&gt;Use &lt;em&gt;assumes&lt;/em&gt; for assumptions, &lt;em&gt;contains&lt;/em&gt; for expressions without a specific role, and the other relations for expressions with dedicated roles.&lt;/p&gt;</help>
+		<text lang="en">The Computational Task...</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de">&lt;p&gt;Verwenden Sie &lt;em&gt;nimmt an&lt;/em&gt; für Annahmen, &lt;em&gt;beinhaltet&lt;/em&gt; für Ausdrücke ohne spezifische Rolle und die anderen Relationen für Ausdrücke mit festgelegter Rolle.&lt;/p&gt;</help>
+		<text lang="de">Die Berechnungsaufgabe...</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>select</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/task-to-formulation-relation"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task/formulation-relatant">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/model/task/formulation-relatant</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/task/formulation-relatant"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en">&lt;p&gt;For all expressions &lt;em&gt;label (description) [source]&lt;/em&gt; is provided. If an expression is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate expression is present in the MaRDI Portal or Wikidata, define a new expression as &lt;em&gt;label (description) [user]&lt;/em&gt;.&lt;/p&gt;</help>
+		<text lang="en">...a Mathematical Expression.</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de">&lt;p&gt;Für alle Ausdrücke wird &lt;em&gt;Name (Beschreibung) [Quelle]&lt;/em&gt; angegeben. Wenn ein Ausdruck ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls kein passender Ausdruck im MaRDI Portal oder Wikidata vorhanden ist, definieren Sie einen neuen Ausdruck mit &lt;em&gt;Name (Beschreibung) [user]&lt;/em&gt;.&lt;/p&gt;</help>
+		<text lang="de">...einen mathematischen Ausdruck.</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>select_creatable</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/formulation-relatant-with-creation"/>
+		</optionsets>
+		<conditions/>
+	</question>
 	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task/name">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mardmo/model/task/name</uri_path>
@@ -528,7 +720,7 @@
 		<dc:comment/>
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/task/properties"/>
 		<is_collection>True</is_collection>
-		<is_optional>False</is_optional>
+		<is_optional>True</is_optional>
 		<help lang="en">&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; Selecting contradictory properties prevents a successful export.&lt;/p&gt;</help>
 		<text lang="en">Properties of the Computational Task</text>
 		<default_text lang="en"/>
@@ -551,9 +743,9 @@
 		</optionsets>
 		<conditions/>
 	</question>
-	<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task/task-to-task-basics">
+	<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task/task-to-task">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>mardmo/model/task/task-to-task-basics</uri_path>
+		<uri_path>mardmo/model/task/task-to-task</uri_path>
 		<dc:comment/>
 		<attribute/>
 		<is_collection>True</is_collection>
@@ -567,6 +759,8 @@
 		<questions>
 			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task/task-to-task/relation" order="0"/>
 			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task/task-to-task/relatant" order="1"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task/task-to-task/assumption" order="2"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task/task-to-task/order-number" order="3"/>
 		</questions>
 		<conditions/>
 	</questionset>
@@ -628,6 +822,68 @@
 		</optionsets>
 		<conditions/>
 	</question>
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task/task-to-task/assumption">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/model/task/task-to-task/assumption</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/task/task-assumption"/>
+		<is_collection>True</is_collection>
+		<is_optional>True</is_optional>
+		<help lang="en">&lt;p&gt;For all expressions &lt;em&gt;label (description) [source]&lt;/em&gt; is provided. If an expression is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate expression is present in the MaRDI Portal or Wikidata, define a new expression as &lt;em&gt;label (description) [user]&lt;/em&gt;.&lt;/p&gt;</help>
+		<text lang="en">Assumption to reduce the general Computational Task to its specialized form.</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de">&lt;p&gt;Für alle Ausdrücke wird &lt;em&gt;Name (Beschreibung) [Quelle]&lt;/em&gt; angegeben. Wenn ein Ausdruck ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls kein passender Ausdruck im MaRDI Portal oder Wikidata vorhanden ist, definieren Sie einen neuen Ausdruck mit &lt;em&gt;Name (Beschreibung) [User]&lt;/em&gt;.&lt;/p&gt;</help>
+		<text lang="de">Annahme zur Reduzierung der allgemeinen Berechnungsaufgabe auf seine spezielle Form.</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>select_creatable</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/formulation-relatant-with-creation"/>
+		</optionsets>
+		<conditions>
+			<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/specialized-by-task"/>
+			<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/specializes-task"/>
+		</conditions>
+	</question>
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task/task-to-task/order-number">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/model/task/task-to-task/order-number</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/task/task-order-number"/>
+		<is_collection>False</is_collection>
+		<is_optional>True</is_optional>
+		<help lang="en">Order numbers, starting from 1, have to be used to define the order of tasks in a series.</help>
+		<text lang="en">Order Number of the Computational Task within the Series of contained Computational Tasks.</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de">Positionsnummern, von 1 an, müssen vergeben werden um die Reihenfolge der Aufgaben in einer Serie festzulegen.</help>
+		<text lang="de">Positionsnummer der Berechnungsaufgabe innerhalb der Reihe enthaltener Berechnungsaufgaben.</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum>1.0</minimum>
+		<step>1.0</step>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions>
+			<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/contained-in-task"/>
+			<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/contains-task"/>
+		</conditions>
+	</question>
 	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task/id">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mardmo/model/task/id</uri_path>
@@ -637,7 +893,7 @@
 		<is_optional>False</is_optional>
 		<help lang="en">&lt;p&gt;For all tasks &lt;em&gt;label (description) [source]&lt;/em&gt; is provided. If a task is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate task is present in the MaRDI Portal or Wikidata, choose &lt;em&gt;not found&lt;/em&gt;.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt;To use an existing task as a template, first select the task, wait for the information to load, and then change the answer to &lt;em&gt;not found&lt;/em&gt; to remove the external reference.&lt;/p&gt;</help>
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; To use an existing task as a template, first select the task, wait for the information to load, and then change the answer to &lt;em&gt;not found&lt;/em&gt; to remove the external reference.&lt;/p&gt;</help>
 		<text lang="en">Select a Computational Task related to the Mathematical Model!</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
@@ -658,6 +914,323 @@
 		<width/>
 		<optionsets>
 			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/task"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<page dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/formulation-basics">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/model/formulation-basics</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/formulation"/>
+		<is_collection>True</is_collection>
+		<title lang="en">Mathematical Expression</title>
+		<short_title lang="en">Expression</short_title>
+		<help lang="en">&lt;p&gt;On this page, you can define new expressions or select existing ones from the MaRDI Portal or Wikidata. When an existing expression is selected, all available information from the relevant source is retrieved and integrated into the interview. Retrieved data can be completed and extended with new relations (e.g., connections to other expressions).&lt;/p&gt;
+
+&lt;p&gt;In addition to enhancing existing expressions, they can also serve as templates for creating new ones. To use an expression as a template, the reference to the external source must be removed after importing the available information.&lt;/p&gt;
+
+&lt;p&gt;For a smooth export to the MaRDI Portal, all &lt;strong&gt;non-optional&lt;/strong&gt; questions must be answered completely.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; If an expression is selected from the MaRDI Portal and not used as a template, its existing information &lt;u&gt;cannot&lt;/u&gt; be edited or deleted via MaRDMO. Any changes or deletions made regardless will be ignored or shown alongside the original information in the MaRDI Portal.&lt;/p&gt;
+
+&lt;p&gt;Check out &lt;a href=&quot;https://www.youtube.com/watch?v=NpdyXsvlSKo&quot;&gt;Mathematical Expression&lt;/a&gt; showcasing the documentation.&lt;/p&gt;</help>
+		<verbose_name lang="en">Add Mathematical Expression</verbose_name>
+		<title lang="de">Mathematischer Ausdruck</title>
+		<short_title lang="de">Ausdruck</short_title>
+		<help lang="de">&lt;p&gt;Auf dieser Seite können neue Ausdrücke definiert oder bereits bestehende Ausdrücke aus dem MaRDI Portal oder Wikidata ausgewählt werden. Wird ein bestehender Ausdruck ausgewählt, werden alle verfügbaren Informationen aus der jeweiligen Quelle abgerufen und in das Interview integriert. Die abgerufenen Informationen können ergänzt und um neue Relationen erweitert werden (z.&amp;nbsp;B. Verbindungen zu anderen Ausdrücken).&lt;/p&gt;
+
+&lt;p&gt;Bestehende Ausdrücke können nicht nur erweitert, sondern auch als Vorlage für neue Ausdrücke verwendet werden. Hierfür ist es erforderlich, nach dem Abruf der Informationen den Bezug zur externen Quelle zu entfernen.&lt;/p&gt;
+
+&lt;p&gt;Für einen reibungslosen Export in das MaRDI Portal müssen alle &lt;strong&gt;nicht-optionalen&lt;/strong&gt; Fragen vollständig beantwortet sein.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Hinweis:&lt;/strong&gt; Wird ein Ausdruck aus dem MaRDI Portal ausgewählt und nicht als Vorlage verwendet, können bestehende Informationen über MaRDMO &lt;u&gt;nicht&lt;/u&gt; editiert oder gelöscht werden. Änderungen oder Löschungen, die dennoch vorgenommen werden, werden ignoriert oder zusätzlich zu den bestehenden Informationen im MaRDI Portal angezeigt.&lt;/p&gt;
+
+&lt;p&gt;Sehen Sie sich &lt;a href=&quot;https://www.youtube.com/watch?v=NpdyXsvlSKo&quot;&gt;Mathematical Expression&lt;/a&gt; an in dem die Dokumentation vorgestellt wird.&lt;/p&gt;</help>
+		<verbose_name lang="de">Mathematischen Ausdruck Hinzufügen</verbose_name>
+		<questionsets>
+			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/formulation/information-basics" order="1"/>
+			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/formulation/formulation-to-formulation-basics" order="2"/>
+		</questionsets>
+		<questions>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/formulation/id" order="0"/>
+		</questions>
+		<conditions/>
+	</page>
+	<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/formulation/information-basics">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/model/formulation/information-basics</uri_path>
+		<dc:comment/>
+		<attribute/>
+		<is_collection>False</is_collection>
+		<title lang="en">Mathematical Expression Information</title>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<title lang="de">Mathematischer Ausdruck Informationen</title>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<questionsets/>
+		<questions>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/formulation/name" order="0"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/formulation/description" order="1"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/formulation/properties" order="2"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/formulation/reference" order="3"/>
+		</questions>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/formulation/name">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/model/formulation/name</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/formulation/name"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en">&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; If you use the expression as a template, don’t forget to update the name.&lt;/p&gt;</help>
+		<text lang="en">Name of the Mathematical Expression</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de">&lt;p&gt;&lt;strong&gt;Hinweis:&lt;/strong&gt; Wenn Sie den Ausdruck als Vorlage verwenden, denken Sie daran, den Namen anzupassen.&lt;/p&gt;</help>
+		<text lang="de">Name des mathematischen Ausdrucks</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/formulation/description">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/model/formulation/description</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/formulation/description"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en">&lt;p&gt;Short description of 2–12 words (max. 250 characters), lowercase only except for proper names, minimal punctuation.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; If you use the expression as a template, don’t forget to update the short description.&lt;/p&gt;</help>
+		<text lang="en">Short Description of the Mathematical Expression</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de">&lt;p&gt;Kurze Beschreibung mit 2–12 Wörtern (max. 250 Zeichen), nur Kleinschreibung außer bei Eigennamen, minimale Zeichensetzung.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Hinweis:&lt;/strong&gt; Wenn Sie den Ausdruck als Vorlage verwenden, denken Sie daran, die Kurzbeschreibung anzupassen.&lt;/p&gt;</help>
+		<text lang="de">Kurze Beschreibung des mathematischen Ausdrucks</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/formulation/properties">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/model/formulation/properties</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/formulation/properties"/>
+		<is_collection>True</is_collection>
+		<is_optional>True</is_optional>
+		<help lang="en">&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; Selecting contradictory properties prevents a successful export.&lt;/p&gt;</help>
+		<text lang="en">Properties of the Mathematical Expression</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en">Add Property</verbose_name>
+		<help lang="de">&lt;p&gt;&lt;strong&gt;Hinweis:&lt;/strong&gt; Die Auswahl widersprüchlicher Eigenschaften verhindert den Export.&lt;/p&gt;</help>
+		<text lang="de">Eigenschaften des mathematischen Ausdrucks</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de">Eigenschaft Hinzufügen</verbose_name>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>select</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/formulation-properties"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/formulation/reference">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/model/formulation/reference</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/formulation/reference"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en">&lt;p&gt;The mathematical expression must be uniquely identifiable, for example by providing the DOI of the publication and the number of the corresponding mathematical expression within that publication.&lt;/p&gt;</help>
+		<text lang="en">Reference of the Mathematical Expression</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en">Add Description</verbose_name>
+		<help lang="de">&lt;p&gt;Der mathematische Ausdruck muss eindeutig referenzierbar sein, z. B. durch die Angabe der DOI der Publikation sowie der Nummer des entsprechenden mathematischen Ausdrucks innerhalb dieser Publikation.&lt;/p&gt;</help>
+		<text lang="de">Referenz des mathematischen Ausdruck</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de">Beschreibung Hinzufügen</verbose_name>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>textarea</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/formulation/formulation-to-formulation-basics">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/model/formulation/formulation-to-formulation-basics</uri_path>
+		<dc:comment/>
+		<attribute/>
+		<is_collection>True</is_collection>
+		<title lang="en">Mathematical Expression Relations</title>
+		<help lang="en">&lt;p&gt;To relate the expression with other expressions, select additional expressions and specify the relations.&lt;/p&gt;</help>
+		<verbose_name lang="en">Add Mathematical Expression Relation</verbose_name>
+		<title lang="de">Mathematischer Ausdruck - Mathematischer Ausdruck Beziehungen  II</title>
+		<help lang="de">&lt;p&gt;Um den Ausdruck mit anderen Ausdrücken zu verknüpfen, wählen Sie weitere Ausdrücke aus und geben Sie die Relationen an.&lt;/p&gt;</help>
+		<verbose_name lang="de">Mathematischen Ausdruck Relation Hinzufügen</verbose_name>
+		<questionsets/>
+		<questions>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/formulation/formulation-to-formulation-2/formulation-relation" order="0"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/formulation/formulation-to-formulation-2/formulation-relatant" order="1"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/formulation/formulation-to-formulation-2/assumption" order="2"/>
+		</questions>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/formulation/formulation-to-formulation-2/formulation-relation">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/model/formulation/formulation-to-formulation-2/formulation-relation</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/formulation/formulation-relation-2"/>
+		<is_collection>False</is_collection>
+		<is_optional>True</is_optional>
+		<help lang="en"/>
+		<text lang="en">The Mathematical Expression...</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Der mathematische Ausdruck...</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>select</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/formulation-to-formulation-relation-2"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/formulation/formulation-to-formulation-2/formulation-relatant">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/model/formulation/formulation-to-formulation-2/formulation-relatant</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/formulation/formulation-relatant-2"/>
+		<is_collection>False</is_collection>
+		<is_optional>True</is_optional>
+		<help lang="en">&lt;p&gt;For all expressions &lt;em&gt;label (description) [source]&lt;/em&gt; is provided. Only expressions from the MaRDI Portal and those selected or defined within the interview can be chosen.&lt;/p&gt;</help>
+		<text lang="en">...another Mathematical Expression.</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de">&lt;p&gt;Für alle Ausdrücke wird &lt;em&gt;Label (Beschreibung) [Quelle]&lt;/em&gt; angegeben. Es können nur Ausdrücke aus dem MaRDI-Portal sowie solche ausgewählt oder definiert werden, die im Interview verwendet werden.&lt;/p&gt;</help>
+		<text lang="de">...einen weiteren mathematischen Ausdruck.</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>select_creatable</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/formulation-relatant-without-creation"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/formulation/formulation-to-formulation-2/assumption">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/model/formulation/formulation-to-formulation-2/assumption</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/formulation/formulation-assumption"/>
+		<is_collection>True</is_collection>
+		<is_optional>True</is_optional>
+		<help lang="en">&lt;p&gt;For all expressions &lt;em&gt;label (description) [source]&lt;/em&gt; is provided. If an expression is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate expression is present in the MaRDI Portal or Wikidata, define a new expression as &lt;em&gt;label (description) [user]&lt;/em&gt;.&lt;/p&gt;</help>
+		<text lang="en">Assumption to reduce the general Mathematical Expression to its specialized form.</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de">&lt;p&gt;Für alle Ausdrücke wird &lt;em&gt;Name (Beschreibung) [Quelle]&lt;/em&gt; angegeben. Wenn ein Ausdruck ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls kein passender Ausdruck im MaRDI Portal oder Wikidata vorhanden ist, definieren Sie einen neuen Ausdruck mit &lt;em&gt;Name (Beschreibung) [User]&lt;/em&gt;.&lt;/p&gt;</help>
+		<text lang="de">Annahme zur Reduzierung des allgemeinen mathematischen Ausdrucks auf seine spezielle Form.</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>select_creatable</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/formulation-relatant-with-creation"/>
+		</optionsets>
+		<conditions>
+			<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/specialized-by-formulation"/>
+			<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/specializes-formulation"/>
+		</conditions>
+	</question>
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/formulation/id">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/model/formulation/id</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/formulation/id"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en">&lt;p&gt;For all expressions &lt;em&gt;label (description) [source]&lt;/em&gt; is provided. If an expression is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate expression is present in the MaRDI Portal or Wikidata, choose &lt;em&gt;not found&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; To use an existing expression as a template, first select the expression, wait for the information to load, and then change the answer to &lt;em&gt;not found&lt;/em&gt; to remove the external reference.&lt;/p&gt;</help>
+		<text lang="en">Select a Mathematical Expression related to the Mathematical Model!</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de">&lt;p&gt;Für alle Ausdrücke wird &lt;em&gt;Name (Beschreibung) [Quelle]&lt;/em&gt; angegeben. Wenn ein Ausdruck ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls kein passender Ausdruck im MaRDI Portal oder Wikidata vorhanden ist, wählen Sie &lt;em&gt;not found&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Hinweis:&lt;/strong&gt; Um einen bestehenden Ausdruck als Vorlage zu verwenden, wählen Sie zunächst den Ausdruck aus, warten Sie, bis alle Informationen geladen wurden, und setzen Sie anschließend die Antwort auf &lt;em&gt;not found&lt;/em&gt;, um den Bezug zur externen Quelle zu entfernen.&lt;/p&gt;</help>
+		<text lang="de">Wählen Sie einen mathematischen Ausdruck der mit dem mathematischen Modell im Zusammenhang steht!</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>select</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/formulation"/>
 		</optionsets>
 		<conditions/>
 	</question>
@@ -863,7 +1436,7 @@
 		<is_optional>False</is_optional>
 		<help lang="en">&lt;p&gt;For all problems &lt;em&gt;label (description) [source]&lt;/em&gt; is provided. If a problem is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate problem is present in the MaRDI Portal or Wikidata, choose &lt;em&gt;not found&lt;/em&gt;.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt;To use an existing problem as a template, first select the problem, wait for the information to load, and then change the answer to &lt;em&gt;not found&lt;/em&gt; to remove the external reference.&lt;/p&gt;</help>
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; To use an existing problem as a template, first select the problem, wait for the information to load, and then change the answer to &lt;em&gt;not found&lt;/em&gt; to remove the external reference.&lt;/p&gt;</help>
 		<text lang="en">Select a Research Problem related to the Mathematical Model!</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
@@ -940,7 +1513,7 @@
 		<help lang="en">&lt;p&gt;To relate the publication with individual model entities, select the entities and specify the relations.&lt;/p&gt;</help>
 		<verbose_name lang="en">Add Publication Relation</verbose_name>
 		<title lang="de">Publikation Beziehungen</title>
-		<help lang="de">&lt;p&gt;Um die Publikation mit individuellen Entitäten des Modells zu verknüpfen, wählen die Entitäten aus und geben Sie die Relationen an.&lt;/p&gt;</help>
+		<help lang="de">&lt;p&gt;Um die Publikation mit individuellen Entitäten des Modells zu verknüpfen, wählen Sie die Entitäten aus und geben Sie die Relationen an.&lt;/p&gt;</help>
 		<verbose_name lang="de">Publikation Relation Hinzufügen</verbose_name>
 		<questionsets/>
 		<questions>
@@ -985,13 +1558,11 @@
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/publication/entity-relatant"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">&lt;p&gt;For all entities &lt;em&gt;label (description) [source]&lt;/em&gt; is provided. Only entities from the MaRDI Portal and those selected or defined within the interview can be chosen.&lt;/p&gt;
-
-&lt;p&gt;Für alle Entitäten wird &lt;em&gt;Label (Beschreibung) [Quelle]&lt;/em&gt; angegeben. Es können nur Entitäten aus dem MaRDI-Portal sowie solche ausgewählt oder definiert werden, die im Interview verwendet werden.&lt;/p&gt;</help>
+		<help lang="en">&lt;p&gt;For all entities &lt;em&gt;label (description) [source]&lt;/em&gt; is provided. Only entities from the MaRDI Portal and those selected or defined within the interview can be chosen.&lt;/p&gt;</help>
 		<text lang="en">...a previously selected or defined entity of the mathematical model.</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de"/>
+		<help lang="de">&lt;p&gt;Für alle Entitäten wird &lt;em&gt;Label (Beschreibung) [Quelle]&lt;/em&gt; angegeben. Es können nur Entitäten aus dem MaRDI-Portal sowie solche ausgewählt oder definiert werden, die im Interview verwendet werden.&lt;/p&gt;</help>
 		<text lang="de">...eine zuvor ausgewählte oder definierte Entität des mathematischen Models.</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>

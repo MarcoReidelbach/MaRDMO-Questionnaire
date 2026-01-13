@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2026-01-11T21:50:53.925694+01:00" required="2.1.0" version="2.4.0">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2026-01-13T14:41:16.825152+01:00" required="2.1.0" version="2.4.0">
 	<catalog dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo-model-catalog">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mardmo-model-catalog</uri_path>
@@ -172,7 +172,7 @@
 		<questionsets/>
 		<questions>
 			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/model/model-to-formulation/model-relation" order="0"/>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/model/formulation-to-model/model-relatant" order="1"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/model/model-to-formulation/formulation-relatant" order="1"/>
 			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/model/model-to-formulation/order-number" order="2"/>
 		</questions>
 		<conditions/>
@@ -188,7 +188,7 @@
 		<text lang="en">The Mathematical Model...</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">&lt;p&gt;Verwenden Sie &lt;em&gt;assumes&lt;/em&gt; für Annahmen, &lt;em&gt;contains&lt;/em&gt; für Ausdrücke ohne spezifische Rolle und die anderen Relationen für Ausdrücke mit festgelegter Rolle.&lt;/p&gt;</help>
+		<help lang="de">&lt;p&gt;Verwenden Sie &lt;em&gt;nimmt an&lt;/em&gt; für Annahmen, &lt;em&gt;beinhaltet&lt;/em&gt; für Ausdrücke ohne spezifische Rolle und die anderen Relationen für Ausdrücke mit festgelegter Rolle.&lt;/p&gt;</help>
 		<text lang="de">Das mathematische Modell...</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -206,9 +206,9 @@
 		</optionsets>
 		<conditions/>
 	</question>
-	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/model/formulation-to-model/model-relatant">
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/model/model-to-formulation/formulation-relatant">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>mardmo/model/model/formulation-to-model/model-relatant</uri_path>
+		<uri_path>mardmo/model/model/model-to-formulation/formulation-relatant</uri_path>
 		<dc:comment/>
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/model/formulation-relatant"/>
 		<is_collection>False</is_collection>
@@ -217,7 +217,7 @@
 		<text lang="en">...a Mathematical Expression.</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">&lt;p&gt;Für alle Ausdrücke wird &lt;em&gt;Name (Beschreibung) [Quelle]&lt;/em&gt; angegeben. Wenn ein Ausdruck ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls kein passender Ausdruck im MaRDI Portal oder Wikidata vorhanden ist, definieren Sie einen neuen Ausdruck mit &lt;em&gt;Name (Beschreibung) [User]&lt;/em&gt;.&lt;/p&gt;</help>
+		<help lang="de">&lt;p&gt;Für alle Ausdrücke wird &lt;em&gt;Name (Beschreibung) [Quelle]&lt;/em&gt; angegeben. Wenn ein Ausdruck ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls kein passender Ausdruck im MaRDI Portal oder Wikidata vorhanden ist, definieren Sie einen neuen Ausdruck mit &lt;em&gt;Name (Beschreibung) [user]&lt;/em&gt;.&lt;/p&gt;</help>
 		<text lang="de">...einen mathematischen Ausdruck.</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -380,7 +380,7 @@
 		<dc:comment/>
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/model/properties"/>
 		<is_collection>True</is_collection>
-		<is_optional>False</is_optional>
+		<is_optional>True</is_optional>
 		<help lang="en">&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; Selecting contradictory properties prevents a successful export.&lt;/p&gt;</help>
 		<text lang="en">Properties of the Mathematical Model</text>
 		<default_text lang="en"/>
@@ -414,7 +414,7 @@
 		<text lang="en">Research Problem modelled by the Mathematical Model?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en">Add Research Problem</verbose_name>
-		<help lang="de">&lt;p&gt;Für alle Probleme wird &lt;em&gt;Name (Beschreibung) [Quelle]&lt;/em&gt; angegeben. Wenn ein Problem ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls kein passendes Problem im MaRDI Portal oder Wikidata vorhanden ist, definieren Sie ein neues Problem mit &lt;em&gt;Name (Beschreibung) [User]&lt;/em&gt;.&lt;/p&gt;</help>
+		<help lang="de">&lt;p&gt;Für alle Probleme wird &lt;em&gt;Name (Beschreibung) [Quelle]&lt;/em&gt; angegeben. Wenn ein Problem ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls kein passendes Problem im MaRDI Portal oder Wikidata vorhanden ist, definieren Sie ein neues Problem mit &lt;em&gt;Name (Beschreibung) [user]&lt;/em&gt;.&lt;/p&gt;</help>
 		<text lang="de">Forschungsproblem welches durch das mathematische Modell modelliert wird?</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de">Forschungsproblem Hinzufügen</verbose_name>
@@ -443,7 +443,7 @@
 		<text lang="en">Task using the Mathematical Model?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en">Add Task</verbose_name>
-		<help lang="de">&lt;p&gt;Für alle Berechnungsaufgaben wird &lt;em&gt;Name (Beschreibung) [Quelle]&lt;/em&gt; angegeben. Wenn eine Berechnungsaufgabe ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls keine passende Berechnungsaufgabe im MaRDI Portal oder Wikidata vorhanden ist, definieren Sie eine neue Berechnungsaufgabe mit &lt;em&gt;Name (Beschreibung) [User]&lt;/em&gt;.&lt;/p&gt;</help>
+		<help lang="de">&lt;p&gt;Für alle Berechnungsaufgaben wird &lt;em&gt;Name (Beschreibung) [Quelle]&lt;/em&gt; angegeben. Wenn eine Berechnungsaufgabe ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls keine passende Berechnungsaufgabe im MaRDI Portal oder Wikidata vorhanden ist, definieren Sie eine neue Berechnungsaufgabe mit &lt;em&gt;Name (Beschreibung) [user]&lt;/em&gt;.&lt;/p&gt;</help>
 		<text lang="de">Berechnungsaufgabe die das mathematische Modell verwendet?</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de">Berechnungsaufgabe Hinzufügen</verbose_name>
@@ -580,7 +580,7 @@
 		<is_optional>False</is_optional>
 		<help lang="en">&lt;p&gt;For all models &lt;em&gt;label (description) [source]&lt;/em&gt; is provided. If a model is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate model is present in the MaRDI Portal or Wikidata, choose &lt;em&gt;not found&lt;/em&gt;.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt;To use an existing model as a template, first select the model, wait for the information to load, and then change the answer to &lt;em&gt;not found&lt;/em&gt; to remove the external reference.&lt;/p&gt;</help>
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; To use an existing model as a template, first select the model, wait for the information to load, and then change the answer to &lt;em&gt;not found&lt;/em&gt; to remove the external reference.&lt;/p&gt;</help>
 		<text lang="en">Select a Mathematical Model!</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
@@ -698,7 +698,7 @@
 		<text lang="en">The Computational Task...</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">&lt;p&gt;Verwenden Sie &lt;em&gt;assumes&lt;/em&gt; für Annahmen, &lt;em&gt;contains&lt;/em&gt; für Ausdrücke ohne spezifische Rolle und die anderen Relationen für Ausdrücke mit festgelegter Rolle.&lt;/p&gt;</help>
+		<help lang="de">&lt;p&gt;Verwenden Sie &lt;em&gt;nimmt an&lt;/em&gt; für Annahmen, &lt;em&gt;beinhaltet&lt;/em&gt; für Ausdrücke ohne spezifische Rolle und die anderen Relationen für Ausdrücke mit festgelegter Rolle.&lt;/p&gt;</help>
 		<text lang="de">Die Berechnungsaufgabe...</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -727,7 +727,7 @@
 		<text lang="en">...a Mathematical Expression.</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">&lt;p&gt;Für alle Ausdrücke wird &lt;em&gt;Name (Beschreibung) [Quelle]&lt;/em&gt; angegeben. Wenn ein Ausdruck ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls kein passender Ausdruck im MaRDI Portal oder Wikidata vorhanden ist, definieren Sie einen neuen Ausdruck mit &lt;em&gt;Name (Beschreibung) [User]&lt;/em&gt;.&lt;/p&gt;</help>
+		<help lang="de">&lt;p&gt;Für alle Ausdrücke wird &lt;em&gt;Name (Beschreibung) [Quelle]&lt;/em&gt; angegeben. Wenn ein Ausdruck ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls kein passender Ausdruck im MaRDI Portal oder Wikidata vorhanden ist, definieren Sie einen neuen Ausdruck mit &lt;em&gt;Name (Beschreibung) [user]&lt;/em&gt;.&lt;/p&gt;</help>
 		<text lang="de">...einen mathematischen Ausdruck.</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -940,7 +940,7 @@
 		<dc:comment/>
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/task/properties"/>
 		<is_collection>True</is_collection>
-		<is_optional>False</is_optional>
+		<is_optional>True</is_optional>
 		<help lang="en">&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; Selecting contradictory properties prevents a successful export.&lt;/p&gt;</help>
 		<text lang="en">Properties of the Computational Task</text>
 		<default_text lang="en"/>
@@ -1113,7 +1113,7 @@
 		<is_optional>False</is_optional>
 		<help lang="en">&lt;p&gt;For all tasks &lt;em&gt;label (description) [source]&lt;/em&gt; is provided. If a task is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate task is present in the MaRDI Portal or Wikidata, choose &lt;em&gt;not found&lt;/em&gt;.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt;To use an existing task as a template, first select the task, wait for the information to load, and then change the answer to &lt;em&gt;not found&lt;/em&gt; to remove the external reference.&lt;/p&gt;</help>
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; To use an existing task as a template, first select the task, wait for the information to load, and then change the answer to &lt;em&gt;not found&lt;/em&gt; to remove the external reference.&lt;/p&gt;</help>
 		<text lang="en">Select a Computational Task related to the Mathematical Model!</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
@@ -1522,7 +1522,7 @@
 		<dc:comment/>
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/formulation/properties"/>
 		<is_collection>True</is_collection>
-		<is_optional>False</is_optional>
+		<is_optional>True</is_optional>
 		<help lang="en">&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; Selecting contradictory properties prevents a successful export.&lt;/p&gt;</help>
 		<text lang="en">Properties of the Mathematical Expression</text>
 		<default_text lang="en"/>
@@ -1664,7 +1664,7 @@
 		<is_optional>False</is_optional>
 		<help lang="en">&lt;p&gt;For all expressions &lt;em&gt;label (description) [source]&lt;/em&gt; is provided. If an expression is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate expression is present in the MaRDI Portal or Wikidata, choose &lt;em&gt;not found&lt;/em&gt;.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt;To use an existing expression as a template, first select the expression, wait for the information to load, and then change the answer to &lt;em&gt;not found&lt;/em&gt; to remove the external reference.&lt;/p&gt;</help>
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; To use an existing expression as a template, first select the expression, wait for the information to load, and then change the answer to &lt;em&gt;not found&lt;/em&gt; to remove the external reference.&lt;/p&gt;</help>
 		<text lang="en">Select a Mathematical Expression related to the Mathematical Model!</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
@@ -2000,7 +2000,7 @@
 		<dc:comment/>
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/quantity/properties"/>
 		<is_collection>True</is_collection>
-		<is_optional>False</is_optional>
+		<is_optional>True</is_optional>
 		<help lang="en">&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; Selecting contradictory properties prevents a successful export.&lt;/p&gt;</help>
 		<text lang="en">Properties of the Quantity</text>
 		<default_text lang="en"/>
@@ -2728,7 +2728,7 @@
 		<is_optional>False</is_optional>
 		<help lang="en">&lt;p&gt;For all problems &lt;em&gt;label (description) [source]&lt;/em&gt; is provided. If a problem is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate problem is present in the MaRDI Portal or Wikidata, choose &lt;em&gt;not found&lt;/em&gt;.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt;To use an existing problem as a template, first select the problem, wait for the information to load, and then change the answer to &lt;em&gt;not found&lt;/em&gt; to remove the external reference.&lt;/p&gt;</help>
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; To use an existing problem as a template, first select the problem, wait for the information to load, and then change the answer to &lt;em&gt;not found&lt;/em&gt; to remove the external reference.&lt;/p&gt;</help>
 		<text lang="en">Select a Research Problem related to the Mathematical Model!</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
@@ -3087,7 +3087,7 @@
 		<help lang="en">&lt;p&gt;To relate the publication with individual model entities, select the entities and specify the relations.&lt;/p&gt;</help>
 		<verbose_name lang="en">Add Publication Relation</verbose_name>
 		<title lang="de">Publikation Beziehungen</title>
-		<help lang="de">&lt;p&gt;Um die Publikation mit individuellen Entitäten des Modells zu verknüpfen, wählen die Entitäten aus und geben Sie die Relationen an.&lt;/p&gt;</help>
+		<help lang="de">&lt;p&gt;Um die Publikation mit individuellen Entitäten des Modells zu verknüpfen, wählen Sie die Entitäten aus und geben Sie die Relationen an.&lt;/p&gt;</help>
 		<verbose_name lang="de">Publikation Relation Hinzufügen</verbose_name>
 		<questionsets/>
 		<questions>
@@ -3132,13 +3132,11 @@
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/publication/entity-relatant"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">&lt;p&gt;For all entities &lt;em&gt;label (description) [source]&lt;/em&gt; is provided. Only entities from the MaRDI Portal and those selected or defined within the interview can be chosen.&lt;/p&gt;
-
-&lt;p&gt;Für alle Entitäten wird &lt;em&gt;Label (Beschreibung) [Quelle]&lt;/em&gt; angegeben. Es können nur Entitäten aus dem MaRDI-Portal sowie solche ausgewählt oder definiert werden, die im Interview verwendet werden.&lt;/p&gt;</help>
+		<help lang="en">&lt;p&gt;For all entities &lt;em&gt;label (description) [source]&lt;/em&gt; is provided. Only entities from the MaRDI Portal and those selected or defined within the interview can be chosen.&lt;/p&gt;</help>
 		<text lang="en">...a previously selected or defined entity of the mathematical model.</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de"/>
+		<help lang="de">&lt;p&gt;Für alle Entitäten wird &lt;em&gt;Label (Beschreibung) [Quelle]&lt;/em&gt; angegeben. Es können nur Entitäten aus dem MaRDI-Portal sowie solche ausgewählt oder definiert werden, die im Interview verwendet werden.&lt;/p&gt;</help>
 		<text lang="de">...eine zuvor ausgewählte oder definierte Entität des mathematischen Models.</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
