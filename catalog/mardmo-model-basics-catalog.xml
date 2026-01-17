@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2026-01-13T15:18:53.592797+01:00" required="2.1.0" version="2.4.0">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2026-01-17T08:14:17.602875+01:00" required="2.1.0" version="2.4.0">
 	<catalog dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo-model-basics-catalog">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mardmo-model-basics-catalog</uri_path>
@@ -1071,14 +1071,23 @@
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/formulation/reference"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">&lt;p&gt;The mathematical expression must be uniquely identifiable, for example by providing the DOI of the publication and the number of the corresponding mathematical expression within that publication.&lt;/p&gt;</help>
+		<help lang="en">&lt;p&gt;
+  Mathematical expressions that are &lt;strong&gt;not&lt;/strong&gt; selected from the MaRDI Portal or Wikidata
+  must be uniquely identifiable, for example by providing the DOI of the publication
+  and the number of the corresponding mathematical expression within that publication.
+&lt;/p&gt;</help>
 		<text lang="en">Reference of the Mathematical Expression</text>
 		<default_text lang="en"/>
-		<verbose_name lang="en">Add Description</verbose_name>
-		<help lang="de">&lt;p&gt;Der mathematische Ausdruck muss eindeutig referenzierbar sein, z. B. durch die Angabe der DOI der Publikation sowie der Nummer des entsprechenden mathematischen Ausdrucks innerhalb dieser Publikation.&lt;/p&gt;</help>
+		<verbose_name lang="en"/>
+		<help lang="de">&lt;p&gt;
+  Mathematische Ausdrücke, die &lt;strong&gt;nicht&lt;/strong&gt; aus dem MaRDI-Portal oder aus Wikidata
+  ausgewählt wurden, müssen eindeutig identifizierbar sein, beispielsweise durch
+  Angabe des DOI der Publikation und der Nummer des entsprechenden mathematischen
+  Ausdrucks innerhalb dieser Publikation.
+&lt;/p&gt;</help>
 		<text lang="de">Referenz des mathematischen Ausdruck</text>
 		<default_text lang="de"/>
-		<verbose_name lang="de">Beschreibung Hinzufügen</verbose_name>
+		<verbose_name lang="de"/>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>textarea</widget_type>
