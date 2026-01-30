@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2025-09-15T14:44:20.889880+02:00" required="2.1.0" version="2.3.2">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2026-01-30T08:53:56.250778+01:00" required="2.1.0" version="2.4.0">
 	<catalog dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo-algorithm-catalog">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mardmo-algorithm-catalog</uri_path>
@@ -31,7 +31,7 @@
 		</pages>
 	</section>
 	<page dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/algorithm-introduction">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms/</uri_prefix>
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mardmo/algorithm-introduction</uri_path>
 		<dc:comment/>
 		<attribute/>
@@ -99,7 +99,7 @@
 &lt;p&gt;For a smooth export to the MathAlgoDB Knowledge Graph, all &lt;strong&gt;non-optional&lt;/strong&gt; questions must be answered completely.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; If an algorithm is selected from the MathAlgoDB Knowledge Graph and not used as a template, its existing information &lt;u&gt;cannot&lt;/u&gt; be edited or deleted via MaRDMO. Any changes or deletions made regardless will be ignored or shown alongside the original information in the MathAlgoDB Knowledge Graph.&lt;/p&gt;</help>
-		<verbose_name lang="en"/>
+		<verbose_name lang="en">Add Algorithm</verbose_name>
 		<title lang="de">Algorithmus</title>
 		<short_title lang="de"/>
 		<help lang="de">&lt;p&gt;Auf dieser Seite können neue Algorithmen definiert oder bereits bestehende Algorithmen aus dem MathAlgoDB Knowledge Graph, MaRDI Portal oder Wikidata ausgewählt werden. Wird ein bestehender Algorithmus ausgewählt, werden alle verfügbaren Informationen aus der jeweiligen Quelle abgerufen und in das Interview integriert. Die abgerufenen Informationen können ergänzt und um neue Relationen erweitert werden (z.&amp;nbsp;B. eine neue zu lösende algorithmische Aufgabe oder eine zusätzliche Software).&lt;/p&gt;
@@ -109,7 +109,7 @@
 &lt;p&gt;Für einen reibungslosen Export in den MathAlgoDB Knowledge Graph müssen alle &lt;strong&gt;nicht-optionalen&lt;/strong&gt; Fragen vollständig beantwortet sein.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Hinweis:&lt;/strong&gt; Wird ein Algorithmus aus dem MathAlgoBD Knowledge Graph ausgewählt und nicht als Vorlage verwendet, können bestehende Informationen über MaRDMO &lt;u&gt;nicht&lt;/u&gt; editiert oder gelöscht werden. Änderungen oder Löschungen, die dennoch vorgenommen werden, werden ignoriert oder zusätzlich zu den bestehenden Informationen im MathAlgoDB Knowledge Graph angezeigt.&lt;/p&gt;</help>
-		<verbose_name lang="de"/>
+		<verbose_name lang="de">Algorithmus Hinzufügen</verbose_name>
 		<questionsets>
 			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/algorithm/algorithm/information" order="1"/>
 			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/algorithm/algorithm/algorithm-to-algorithm" order="2"/>
@@ -205,14 +205,14 @@
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/algorithm/problem-relatant"/>
 		<is_collection>True</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">&lt;p&gt;For all tasks &lt;em&gt;label (description) [source]&lt;/em&gt; is provided. If a task is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate task is present in the MathAlgoDB Knowledge Graph, MaRDI Portal or Wikidata, define a new task as &lt;em&gt;label (description)&lt;/em&gt;.&lt;/p&gt;</help>
+		<help lang="en">&lt;p&gt;Choose one or more tasks. For all tasks &lt;em&gt;label (description) [source]&lt;/em&gt; is provided. If a task is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate task is present in the MathAlgoDB Knowledge Graph, MaRDI Portal or Wikidata, define a new task as &lt;em&gt;label (description)&lt;/em&gt;.&lt;/p&gt;</help>
 		<text lang="en">Algorithmic Task solved by the Algorithm?</text>
 		<default_text lang="en"/>
-		<verbose_name lang="en"/>
-		<help lang="de">&lt;p&gt;Für alle Aufgaben wird &lt;em&gt;Name (Beschreibung) [Quelle]&lt;/em&gt; angegeben. Wenn eine Aufgabe ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls keine passende Aufgabe im MathAlgoDB Knowledge Graph, MaRDI Portal oder Wikidata vorhanden ist, definieren Sie eine neue Aufgabe mit &lt;em&gt;Name (Beschreibung)&lt;/em&gt;.&lt;/p&gt;</help>
+		<verbose_name lang="en">Add Algorithmic Task</verbose_name>
+		<help lang="de">&lt;p&gt;Wählen Sie eine oder mehrere Aufgaben aus. Für alle Aufgaben wird &lt;em&gt;Name (Beschreibung) [Quelle]&lt;/em&gt; angegeben. Wenn eine Aufgabe ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls keine passende Aufgabe im MathAlgoDB Knowledge Graph, MaRDI Portal oder Wikidata vorhanden ist, definieren Sie eine neue Aufgabe mit &lt;em&gt;Name (Beschreibung)&lt;/em&gt;.&lt;/p&gt;</help>
 		<text lang="de">Algorithmische Aufgabe welche durch den Algorithmus gelöst wird?</text>
 		<default_text lang="de"/>
-		<verbose_name lang="de"/>
+		<verbose_name lang="de">Algorithmische Aufgabe Hinzufügen</verbose_name>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>select_creatable</widget_type>
@@ -234,14 +234,14 @@
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/algorithm/software-relatant"/>
 		<is_collection>True</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">&lt;p&gt;For all software &lt;em&gt;label (description) [source]&lt;/em&gt; is provided. If a software is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate software is present in the MathAlgoDB Knowledge Graph, MaRDI Portal or Wikidata, define a new software as &lt;em&gt;label (description)&lt;/em&gt;.&lt;/p&gt;</help>
+		<help lang="en">&lt;p&gt;Choose one or more software. For all software &lt;em&gt;label (description) [source]&lt;/em&gt; is provided. If a software is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate software is present in the MathAlgoDB Knowledge Graph, MaRDI Portal or Wikidata, define a new software as &lt;em&gt;label (description)&lt;/em&gt;.&lt;/p&gt;</help>
 		<text lang="en">Software implementing the Algorithm?</text>
 		<default_text lang="en"/>
-		<verbose_name lang="en"/>
-		<help lang="de">&lt;p&gt;Für alle Software wird &lt;em&gt;Name (Beschreibung) [Quelle]&lt;/em&gt; angegeben. Wenn eine Software ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls keine passende Software im MathAlgoDB Knowledge Graph, MaRDI Portal oder Wikidata vorhanden ist, definieren Sie eine neue Software mit &lt;em&gt;Name (Beschreibung)&lt;/em&gt;.&lt;/p&gt;</help>
+		<verbose_name lang="en">Add Software</verbose_name>
+		<help lang="de">&lt;p&gt;Wählen Sie einen oder mehrere Software aus. Für alle Software wird &lt;em&gt;Name (Beschreibung) [Quelle]&lt;/em&gt; angegeben. Wenn eine Software ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls keine passende Software im MathAlgoDB Knowledge Graph, MaRDI Portal oder Wikidata vorhanden ist, definieren Sie eine neue Software mit &lt;em&gt;Name (Beschreibung)&lt;/em&gt;.&lt;/p&gt;</help>
 		<text lang="de">Software welche den Algorithmus implementiert?</text>
 		<default_text lang="de"/>
-		<verbose_name lang="de"/>
+		<verbose_name lang="de">Software Hinzufügen</verbose_name>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>select_creatable</widget_type>
@@ -264,10 +264,10 @@
 		<is_collection>True</is_collection>
 		<title lang="en">Algorithm - Algorithm Relations</title>
 		<help lang="en">&lt;p&gt;To relate the algorithm with other algorithms, select additional algorithms and specify the relations.&lt;/p&gt;</help>
-		<verbose_name lang="en"/>
+		<verbose_name lang="en">Add Algorithm Relation</verbose_name>
 		<title lang="de">Algorithmus - Algorithmus Beziehungen</title>
 		<help lang="de">&lt;p&gt;Um den Algorithmusl mit anderen Algorithmen zu verknüpfen, wählen Sie weitere Algorithmen aus und geben Sie die Relationen an.&lt;/p&gt;</help>
-		<verbose_name lang="de"/>
+		<verbose_name lang="de">Algorithmus Relation Hinzufügen</verbose_name>
 		<questionsets/>
 		<questions>
 			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/algorithm/algorithm/algorithm-to-algorithm/algorithm-relation" order="1"/>
@@ -309,16 +309,16 @@
 		<uri_path>mardmo/algorithm/algorithm/algorithm-to-algorithm/algorithm-relatant</uri_path>
 		<dc:comment/>
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/algorithm/algorithm-relatant"/>
-		<is_collection>False</is_collection>
+		<is_collection>True</is_collection>
 		<is_optional>True</is_optional>
-		<help lang="en">&lt;p&gt;For all algorithms &lt;em&gt;label (description) [source]&lt;/em&gt; is provided. Only algorithms from the MathAlgoDB Knowledge Graph and those selected or defined within the interview can be chosen.&lt;/p&gt;</help>
+		<help lang="en">&lt;p&gt;Choose one or more algorithms to be linked by the selected relation. For all algorithms &lt;em&gt;label (description) [source]&lt;/em&gt; is provided. Only algorithms from the MathAlgoDB Knowledge Graph and those selected or defined within the interview can be chosen.&lt;/p&gt;</help>
 		<text lang="en">...another algorithm.</text>
 		<default_text lang="en"/>
-		<verbose_name lang="en"/>
-		<help lang="de">&lt;p&gt;Für alle Algorithmen wird &lt;em&gt;Label (Beschreibung) [Quelle]&lt;/em&gt; angegeben. Es können nur Algorithmen aus dem MathAlgoDB Knowledge Graph sowie solche ausgewählt oder definiert werden, die im Interview verwendet werden.&lt;/p&gt;</help>
+		<verbose_name lang="en">Add Algorithm</verbose_name>
+		<help lang="de">&lt;p&gt;Wählen Sie einen oder mehrere Algorithmen aus, die über die ausgewählte Relation verknüpft werden sollen. Für alle Algorithmen wird &lt;em&gt;Label (Beschreibung) [Quelle]&lt;/em&gt; angegeben. Es können nur Algorithmen aus dem MathAlgoDB Knowledge Graph sowie solche ausgewählt oder definiert werden, die im Interview verwendet werden.&lt;/p&gt;</help>
 		<text lang="de">...einen weiteren Algorithmus.</text>
 		<default_text lang="de"/>
-		<verbose_name lang="de"/>
+		<verbose_name lang="de">Algorithmus Hinzufügen</verbose_name>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>select</widget_type>
@@ -342,7 +342,7 @@
 		<is_optional>False</is_optional>
 		<help lang="en">&lt;p&gt;For all algorithms &lt;em&gt;label (description) [source]&lt;/em&gt; is provided. If an algorithm is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate algorithm is present in the MathAlgoDB Knowledge Graph, MaRDI Portal or Wikidata, choose &lt;em&gt;not found&lt;/em&gt;.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt;To use an existing algorithm as a template, first select the algorithm, wait for the information to load, and then change the answer to &lt;em&gt;not found&lt;/em&gt; to remove the external reference.&lt;/p&gt;</help>
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; To use an existing algorithm as a template, first select the algorithm, wait for the information to load, and then change the answer to &lt;em&gt;not found&lt;/em&gt; to remove the external reference.&lt;/p&gt;</help>
 		<text lang="en">Select an Algorithm!</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
@@ -381,7 +381,7 @@
 &lt;p&gt;For a smooth export to the MathAlgoDB Knowledge Graph, all &lt;strong&gt;non-optional&lt;/strong&gt; questions must be answered completely.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; If a task is selected from the MathAlgoDB Knowledge Graph and not used as a template, its existing information &lt;u&gt;cannot&lt;/u&gt; be edited or deleted via MaRDMO. Any changes or deletions made regardless will be ignored or shown alongside the original information in the MathAlgoDB Knowledge Graph.&lt;/p&gt;</help>
-		<verbose_name lang="en"/>
+		<verbose_name lang="en">Add Algorithmic Task</verbose_name>
 		<title lang="de">Algorithmische Aufgabe</title>
 		<short_title lang="de"/>
 		<help lang="de">&lt;p&gt;Auf dieser Seite können neue Aufgaben definiert oder bereits bestehende Aufgaben aus dem MathAlgoDB Knowledge Graph, MaRDI Portal oder Wikidata ausgewählt werden. Wird eine bestehende Aufgabe ausgewählt, werden alle verfügbaren Informationen aus der jeweiligen Quelle abgerufen und in das Interview integriert. Die abgerufenen Informationen können ergänzt und um neue Relationen erweitert werden (z.&amp;nbsp;B. instanziierte Benchmarks).&lt;/p&gt;
@@ -391,7 +391,7 @@
 &lt;p&gt;Für einen reibungslosen Export in das MaRDI Portal müssen alle &lt;strong&gt;nicht-optionalen&lt;/strong&gt; Fragen vollständig beantwortet sein.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Hinweis:&lt;/strong&gt; Wird eine Aufgabe aus dem MathAlgoDB Knowledge Graph ausgewählt und nicht als Vorlage verwendet, können bestehende Informationen über MaRDMO &lt;u&gt;nicht&lt;/u&gt; editiert oder gelöscht werden. Änderungen oder Löschungen, die dennoch vorgenommen werden, werden ignoriert oder zusätzlich zu den bestehenden Informationen im MathAlgoDB Knowledge Graph angezeigt.&lt;/p&gt;</help>
-		<verbose_name lang="de"/>
+		<verbose_name lang="de">Algorithmische Aufgabe Hinzufügen</verbose_name>
 		<questionsets>
 			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/algorithm/problem/information" order="1"/>
 			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/algorithm/problem/problem-to-problem" order="2"/>
@@ -486,11 +486,11 @@
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/problem/benchmark-relatant"/>
 		<is_collection>True</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">&lt;p&gt;For all benchmarks &lt;em&gt;label (description) [source]&lt;/em&gt; is provided. If a benchmark is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate benchmark is present in the MathAlgoDB Knowledge Graph, MaRDI Portal or Wikidata, define a new benchmark as &lt;em&gt;label (description)&lt;/em&gt;.&lt;/p&gt;</help>
+		<help lang="en">&lt;p&gt;Choose one or more benchmarks. For all benchmarks &lt;em&gt;label (description) [source]&lt;/em&gt; is provided. If a benchmark is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate benchmark is present in the MathAlgoDB Knowledge Graph, MaRDI Portal or Wikidata, define a new benchmark as &lt;em&gt;label (description)&lt;/em&gt;.&lt;/p&gt;</help>
 		<text lang="en">Benchmark instantiated by the Algorithmic Task</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">&lt;p&gt;Für alle Benchmarks wird &lt;em&gt;Name (Beschreibung) [Quelle]&lt;/em&gt; angegeben. Wenn ein Benchmark ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls kein passender Benchmark im MathAlgoDB Knowledge Graph, MaRDI Portal oder Wikidata vorhanden ist, definieren Sie einen neuen Benchmark mit &lt;em&gt;Name (Beschreibung)&lt;/em&gt;.&lt;/p&gt;</help>
+		<help lang="de">&lt;p&gt;Wählen Sie einen oder mehrere Benchmarks aus. Für alle Benchmarks wird &lt;em&gt;Name (Beschreibung) [Quelle]&lt;/em&gt; angegeben. Wenn ein Benchmark ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls kein passender Benchmark im MathAlgoDB Knowledge Graph, MaRDI Portal oder Wikidata vorhanden ist, definieren Sie einen neuen Benchmark mit &lt;em&gt;Name (Beschreibung)&lt;/em&gt;.&lt;/p&gt;</help>
 		<text lang="de">Benchmark welcher durch die algorithmische Aufgabe instanziiert wird</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -516,10 +516,10 @@
 		<is_collection>True</is_collection>
 		<title lang="en">Algorithmic Task - Algorithmic Task Relations</title>
 		<help lang="en">&lt;p&gt;To relate the task with other tasks, select additional tasks and specify the relations.&lt;/p&gt;</help>
-		<verbose_name lang="en"/>
+		<verbose_name lang="en">Add Algorithmic Task Relation</verbose_name>
 		<title lang="de">Algorithmische Aufgabe - Algorithmische Aufgabe Beziehungen</title>
 		<help lang="de">&lt;p&gt;Um die Aufgabe mit anderen Aufgaben zu verknüpfen, wählen Sie weitere Aufgaben aus und geben Sie die Relationen an.&lt;/p&gt;</help>
-		<verbose_name lang="de"/>
+		<verbose_name lang="de">Algorithmische Aufgabe Relation Hinzufügen</verbose_name>
 		<questionsets/>
 		<questions>
 			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/algorithm/problem/problem-to-problem/problem-relation" order="1"/>
@@ -561,16 +561,16 @@
 		<uri_path>mardmo/algorithm/problem/problem-to-problem/problem-relatant</uri_path>
 		<dc:comment/>
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/problem/problem-relatant"/>
-		<is_collection>False</is_collection>
+		<is_collection>True</is_collection>
 		<is_optional>True</is_optional>
-		<help lang="en">&lt;p&gt;For all tasks &lt;em&gt;label (description) [source]&lt;/em&gt; is provided. Only tasks from the MathAlgoDB Knowledge Graph and those selected or defined within the interview can be chosen.&lt;/p&gt;</help>
+		<help lang="en">&lt;p&gt;Choose one or more tasks to be linked by the selected relation. For all tasks &lt;em&gt;label (description) [source]&lt;/em&gt; is provided. Only tasks from the MathAlgoDB Knowledge Graph and those selected or defined within the interview can be chosen.&lt;/p&gt;</help>
 		<text lang="en">...another Algorithmic Task.</text>
 		<default_text lang="en"/>
-		<verbose_name lang="en"/>
-		<help lang="de">&lt;p&gt;Für alle Aufgaben wird &lt;em&gt;Label (Beschreibung) [Quelle]&lt;/em&gt; angegeben. Es können nur Aufgaben aus dem MathAlgoDB Knowledge Graph sowie solche ausgewählt oder definiert werden, die im Interview verwendet werden.&lt;/p&gt;</help>
+		<verbose_name lang="en">Add Algorithmic Task</verbose_name>
+		<help lang="de">&lt;p&gt;Wählen Sie eine oder mehrere Aufgaben aus, die über die ausgewählte Relation verknüpft werden sollen. Für alle Aufgaben wird &lt;em&gt;Label (Beschreibung) [Quelle]&lt;/em&gt; angegeben. Es können nur Aufgaben aus dem MathAlgoDB Knowledge Graph sowie solche ausgewählt oder definiert werden, die im Interview verwendet werden.&lt;/p&gt;</help>
 		<text lang="de">...eine weitere algorithmische Aufgabe.</text>
 		<default_text lang="de"/>
-		<verbose_name lang="de"/>
+		<verbose_name lang="de">Algorithmische Aufgabe Hinzufügen</verbose_name>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>select</widget_type>
@@ -594,7 +594,7 @@
 		<is_optional>False</is_optional>
 		<help lang="en">&lt;p&gt;For all tasks &lt;em&gt;label (description) [source]&lt;/em&gt; is provided. If a task is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate task is present in the MathAlgoDB Knowledge Graph, MaRDI Portal or Wikidata, choose &lt;em&gt;not found&lt;/em&gt;.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt;To use an existing task as a template, first select the task, wait for the information to load, and then change the answer to &lt;em&gt;not found&lt;/em&gt; to remove the external reference.&lt;/p&gt;</help>
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; To use an existing task as a template, first select the task, wait for the information to load, and then change the answer to &lt;em&gt;not found&lt;/em&gt; to remove the external reference.&lt;/p&gt;</help>
 		<text lang="en">Select an Algorithmic Task related to the Algorithm!</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
@@ -633,7 +633,7 @@
 &lt;p&gt;For a smooth export to the MathAlgoDB Knowledge Graph, all &lt;strong&gt;non-optional&lt;/strong&gt; questions must be answered completely.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; If a software is selected from the MathAlgoDB Knowledge Graph and not used as a template, its existing information &lt;u&gt;cannot&lt;/u&gt; be edited or deleted via MaRDMO. Any changes or deletions made regardless will be ignored or shown alongside the original information in the MathAlgoDB Knowledge Graph.&lt;/p&gt;</help>
-		<verbose_name lang="en"/>
+		<verbose_name lang="en">Add Software</verbose_name>
 		<title lang="de">Software</title>
 		<short_title lang="de"/>
 		<help lang="de">&lt;p&gt;Auf dieser Seite kann neue Software definiert oder bereits bestehende Software aus dem MathAlgoDB Knowledge Graph, MaRDI Portal oder Wikidata ausgewählt werden. Wird eine bestehende Software ausgewählt, werden alle verfügbaren Informationen aus der jeweiligen Quelle abgerufen und in das Interview integriert. Die abgerufenen Informationen können ergänzt und um neue Relationen erweitert werden (z.&amp;nbsp;B. getestete Benchmarks).&lt;/p&gt;
@@ -643,7 +643,7 @@
 &lt;p&gt;Für einen reibungslosen Export in den MathAlgoDB Knowledge Graph müssen alle &lt;strong&gt;nicht-optionalen&lt;/strong&gt; Fragen vollständig beantwortet sein.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Hinweis:&lt;/strong&gt; Wird eine Software aus dem MathAlgoDB Knowledge Graph ausgewählt und nicht als Vorlage verwendet, können bestehende Informationen über MaRDMO &lt;u&gt;nicht&lt;/u&gt; editiert oder gelöscht werden. Änderungen oder Löschungen, die dennoch vorgenommen werden, werden ignoriert oder zusätzlich zu den bestehenden Informationen im MathAlgoDB Knowledge Graph angezeigt.&lt;/p&gt;</help>
-		<verbose_name lang="de"/>
+		<verbose_name lang="de">Software Hinzufügen</verbose_name>
 		<questionsets>
 			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/algorithm/software/information" order="1"/>
 		</questionsets>
@@ -767,14 +767,14 @@
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/software/benchmark-relatant"/>
 		<is_collection>True</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">&lt;p&gt;For all benchmarks &lt;em&gt;label (description) [source]&lt;/em&gt; is provided. If a benchmark is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate benchmark is present in the MathAlgoDB Knowledge Graph, MaRDI Portal or Wikidata, define a new benchmark as &lt;em&gt;label (description)&lt;/em&gt;.&lt;/p&gt;</help>
+		<help lang="en">&lt;p&gt;Choose one or more benchmarks. For all benchmarks &lt;em&gt;label (description) [source]&lt;/em&gt; is provided. If a benchmark is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate benchmark is present in the MathAlgoDB Knowledge Graph, MaRDI Portal or Wikidata, define a new benchmark as &lt;em&gt;label (description)&lt;/em&gt;.&lt;/p&gt;</help>
 		<text lang="en">Benchmark tested by the Software</text>
 		<default_text lang="en"/>
-		<verbose_name lang="en"/>
-		<help lang="de">&lt;p&gt;Für alle Benchmarks wird &lt;em&gt;Name (Beschreibung) [Quelle]&lt;/em&gt; angegeben. Wenn ein Benchmark ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls kein passender Benchmark im MathAlgoDB Knowledge Graph, MaRDI Portal oder Wikidata vorhanden ist, definieren Sie einen neuen Benchmark mit &lt;em&gt;Name (Beschreibung)&lt;/em&gt;.&lt;/p&gt;</help>
+		<verbose_name lang="en">Add Benchmark</verbose_name>
+		<help lang="de">&lt;p&gt;Wählen Sie einen oder mehrere Benchmarks aus. Für alle Benchmarks wird &lt;em&gt;Name (Beschreibung) [Quelle]&lt;/em&gt; angegeben. Wenn ein Benchmark ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls kein passender Benchmark im MathAlgoDB Knowledge Graph, MaRDI Portal oder Wikidata vorhanden ist, definieren Sie einen neuen Benchmark mit &lt;em&gt;Name (Beschreibung)&lt;/em&gt;.&lt;/p&gt;</help>
 		<text lang="de">Benchmark welcher durch die Software getestet wird</text>
 		<default_text lang="de"/>
-		<verbose_name lang="de"/>
+		<verbose_name lang="de">Benchmark Hinzufügen</verbose_name>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>select</widget_type>
@@ -798,7 +798,7 @@
 		<is_optional>False</is_optional>
 		<help lang="en">&lt;p&gt;For all software &lt;em&gt;label (description) [source]&lt;/em&gt; is provided. If a software is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate software is present in the MathAlgoDB Knowledge Graph, MaRDI Portal or Wikidata, choose &lt;em&gt;not found&lt;/em&gt;.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt;To use an existing software as a template, first select the software, wait for the information to load, and then change the answer to &lt;em&gt;not found&lt;/em&gt; to remove the external reference.&lt;/p&gt;</help>
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; To use an existing software as a template, first select the software, wait for the information to load, and then change the answer to &lt;em&gt;not found&lt;/em&gt; to remove the external reference.&lt;/p&gt;</help>
 		<text lang="en">Select a Software related to the Algorithm!</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
@@ -837,7 +837,7 @@
 &lt;p&gt;For a smooth export to the MathAlgoDB Knowledge Graph, all &lt;strong&gt;non-optional&lt;/strong&gt; questions must be answered completely.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; If a benchmark is selected from the MathAlgoDB Knowledge Graph and not used as a template, its existing information &lt;u&gt;cannot&lt;/u&gt; be edited or deleted via MaRDMO. Any changes or deletions made regardless will be ignored or shown alongside the original information in the MathAlgoDB Knowledge Graph.&lt;/p&gt;</help>
-		<verbose_name lang="en"/>
+		<verbose_name lang="en">Add Benchmark</verbose_name>
 		<title lang="de">Benchmark</title>
 		<short_title lang="de"/>
 		<help lang="de">&lt;p&gt;Auf dieser Seite können neue Benchmarks definiert oder bereits bestehende Benchmarks aus dem MathAlgoDB Knowledge Graph, MaRDI Portal oder Wikidata ausgewählt werden. Wird ein bestehender Benchmark ausgewählt, werden alle verfügbaren Informationen aus der jeweiligen Quelle abgerufen und in das Interview integriert. Die abgerufenen Informationen können ergänzt werden.&lt;/p&gt;
@@ -847,7 +847,7 @@
 &lt;p&gt;Für einen reibungslosen Export in den MathAlgoDB Knowledge Graph müssen alle &lt;strong&gt;nicht-optionalen&lt;/strong&gt; Fragen vollständig beantwortet sein.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Hinweis:&lt;/strong&gt; Wird ein Benchmark aus dem MathAlgoDB Knowledge Graph ausgewählt und nicht als Vorlage verwendet, können bestehende Informationen über MaRDMO &lt;u&gt;nicht&lt;/u&gt; editiert oder gelöscht werden. Änderungen oder Löschungen, die dennoch vorgenommen werden, werden ignoriert oder zusätzlich zu den bestehenden Informationen im MathAlgoDB Knowledge Graph angezeigt.&lt;/p&gt;</help>
-		<verbose_name lang="de"/>
+		<verbose_name lang="de">Benchmark Hinzufügen</verbose_name>
 		<questionsets>
 			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/algorithm/benchmark/information" order="1"/>
 		</questionsets>
@@ -972,7 +972,7 @@
 		<is_optional>False</is_optional>
 		<help lang="en">&lt;p&gt;For all benchmarks &lt;em&gt;label (description) [source]&lt;/em&gt; is provided. If a benchmark is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate benchmark is present in the MathAlgoDB Knowledge Graph, MaRDI Portal or Wikidata, choose &lt;em&gt;not found&lt;/em&gt;.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt;To use an existing benchmark as a template, first select the benchmark, wait for the information to load, and then change the answer to &lt;em&gt;not found&lt;/em&gt; to remove the external reference.&lt;/p&gt;</help>
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; To use an existing benchmark as a template, first select the benchmark, wait for the information to load, and then change the answer to &lt;em&gt;not found&lt;/em&gt; to remove the external reference.&lt;/p&gt;</help>
 		<text lang="en">Select a Benchmark related to the Algorithm!</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
@@ -1045,10 +1045,10 @@
 		<is_collection>True</is_collection>
 		<title lang="en">Publication - Algorithm Relations</title>
 		<help lang="en">&lt;p&gt;To relate the publication with algorithms, select algorithms and specify the relations.&lt;/p&gt;</help>
-		<verbose_name lang="en"/>
+		<verbose_name lang="en">Add Publication Relation</verbose_name>
 		<title lang="de">Publikation - Algorithmus Beziehungen</title>
 		<help lang="de">&lt;p&gt;Um die Publikation mit Algorithmen zu verknüpfen, wählen Sie Algorithmen aus und geben Sie die Relationen an.&lt;/p&gt;</help>
-		<verbose_name lang="de"/>
+		<verbose_name lang="de">Publikation Relation Hinzufügen</verbose_name>
 		<questionsets/>
 		<questions>
 			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/publication/algorithm-relation" order="2"/>
@@ -1090,16 +1090,16 @@
 		<uri_path>mardmo/publication/algorithm-relatant</uri_path>
 		<dc:comment/>
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/publication/algorithm-relatant"/>
-		<is_collection>False</is_collection>
+		<is_collection>True</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">&lt;p&gt;For all algorithms &lt;em&gt;label (description) [source]&lt;/em&gt; is provided. Only algorithms from the MathAlgoDB Knowledge Graph and those selected or defined within the interview can be chosen.&lt;/p&gt;</help>
+		<help lang="en">&lt;p&gt;Choose one or more algorithms to be linked by the selected relation. For all algorithms &lt;em&gt;label (description) [source]&lt;/em&gt; is provided. Only algorithms from the MathAlgoDB Knowledge Graph and those selected or defined within the interview can be chosen.&lt;/p&gt;</help>
 		<text lang="en">...an Algorithm.</text>
 		<default_text lang="en"/>
-		<verbose_name lang="en"/>
-		<help lang="de">&lt;p&gt;Für alle Algorithmen wird &lt;em&gt;Label (Beschreibung) [Quelle]&lt;/em&gt; angegeben. Es können nur Algorithmen aus dem MathAlgoDB Knowledge Graph sowie solche ausgewählt oder definiert werden, die im Interview verwendet werden.&lt;/p&gt;</help>
+		<verbose_name lang="en">Add Algorithm</verbose_name>
+		<help lang="de">&lt;p&gt;Wählen Sie einen oder mehrere Algorithmen aus, die über die ausgewählte Relation verknüpft werden sollen. Für alle Algorithmen wird &lt;em&gt;Label (Beschreibung) [Quelle]&lt;/em&gt; angegeben. Es können nur Algorithmen aus dem MathAlgoDB Knowledge Graph sowie solche ausgewählt oder definiert werden, die im Interview verwendet werden.&lt;/p&gt;</help>
 		<text lang="de">...einen Algorithmus.</text>
 		<default_text lang="de"/>
-		<verbose_name lang="de"/>
+		<verbose_name lang="de">Algorithmus Hinzufügen</verbose_name>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>select</widget_type>
@@ -1122,10 +1122,10 @@
 		<is_collection>True</is_collection>
 		<title lang="en">Publication - Benchmark Relations</title>
 		<help lang="en">&lt;p&gt;To relate the publication with benchmarks, select benchmarks and specify the relations.&lt;/p&gt;</help>
-		<verbose_name lang="en"/>
+		<verbose_name lang="en">Add Publication Relation</verbose_name>
 		<title lang="de">Publikation - Benchmark Beziehungen</title>
 		<help lang="de">&lt;p&gt;Um die Publikation mit Benchmarks zu verknüpfen, wählen Sie Benchmarks aus und geben Sie die Relationen an.&lt;/p&gt;</help>
-		<verbose_name lang="de"/>
+		<verbose_name lang="de">Publikation Relation Hinzufügen</verbose_name>
 		<questionsets/>
 		<questions>
 			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/publication/benchmark-relation" order="0"/>
@@ -1167,16 +1167,16 @@
 		<uri_path>mardmo/publication/benchmark-relatant</uri_path>
 		<dc:comment/>
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/publication/benchmark-relatant"/>
-		<is_collection>False</is_collection>
+		<is_collection>True</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">&lt;p&gt;For all benchmarks &lt;em&gt;label (description) [source]&lt;/em&gt; is provided. Only benchmarks from the MathAlgoDB Knowledge Graph and those selected or defined within the interview can be chosen.&lt;/p&gt;</help>
+		<help lang="en">&lt;p&gt;Choose one or more benchmarks to be linked by the selected relation. For all benchmarks &lt;em&gt;label (description) [source]&lt;/em&gt; is provided. Only benchmarks from the MathAlgoDB Knowledge Graph and those selected or defined within the interview can be chosen.&lt;/p&gt;</help>
 		<text lang="en">...a Benchmark.</text>
 		<default_text lang="en"/>
-		<verbose_name lang="en"/>
-		<help lang="de">&lt;p&gt;Für alle Benchmarks wird &lt;em&gt;Label (Beschreibung) [Quelle]&lt;/em&gt; angegeben. Es können nur Benchmarks aus dem MathAlgoDB Knowledge Graph sowie solche ausgewählt oder definiert werden, die im Interview verwendet werden.&lt;/p&gt;</help>
+		<verbose_name lang="en">Add Benchmark</verbose_name>
+		<help lang="de">&lt;p&gt;Wählen Sie einen oder mehrere Benchmarks aus, die über die ausgewählte Relation verknüpft werden sollen. Für alle Benchmarks wird &lt;em&gt;Label (Beschreibung) [Quelle]&lt;/em&gt; angegeben. Es können nur Benchmarks aus dem MathAlgoDB Knowledge Graph sowie solche ausgewählt oder definiert werden, die im Interview verwendet werden.&lt;/p&gt;</help>
 		<text lang="de">...einen Benchmark.</text>
 		<default_text lang="de"/>
-		<verbose_name lang="de"/>
+		<verbose_name lang="de">Benchmark Hinzufügen</verbose_name>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>select</widget_type>
@@ -1199,10 +1199,10 @@
 		<is_collection>True</is_collection>
 		<title lang="en">Publication - Software Relations</title>
 		<help lang="en">&lt;p&gt;To relate the publication with software, select software and specify the relations.&lt;/p&gt;</help>
-		<verbose_name lang="en"/>
+		<verbose_name lang="en">Add Publication Relation</verbose_name>
 		<title lang="de">Publikation - Software Beziehungen</title>
 		<help lang="de">&lt;p&gt;Um die Publikation mit Software zu verknüpfen, wählen Sie Software aus und geben Sie die Relationen an.&lt;/p&gt;</help>
-		<verbose_name lang="de"/>
+		<verbose_name lang="de">Publikation Relation Hinzufügen</verbose_name>
 		<questionsets/>
 		<questions>
 			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/publication/software-relation" order="0"/>
@@ -1244,16 +1244,16 @@
 		<uri_path>mardmo/publication/software-relatant</uri_path>
 		<dc:comment/>
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/publication/software-relatant"/>
-		<is_collection>False</is_collection>
+		<is_collection>True</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">&lt;p&gt;For all software &lt;em&gt;label (description) [source]&lt;/em&gt; is provided. Only software from the MathAlgoDB Knowledge Graph and those selected or defined within the interview can be chosen.&lt;/p&gt;</help>
+		<help lang="en">&lt;p&gt;Choose one or more software to be linked by the selected relation. For all software &lt;em&gt;label (description) [source]&lt;/em&gt; is provided. Only software from the MathAlgoDB Knowledge Graph and those selected or defined within the interview can be chosen.&lt;/p&gt;</help>
 		<text lang="en">...a Software.</text>
 		<default_text lang="en"/>
-		<verbose_name lang="en"/>
-		<help lang="de">&lt;p&gt;Für alle Software wird &lt;em&gt;Label (Beschreibung) [Quelle]&lt;/em&gt; angegeben. Es kann nur Software aus dem MathAlgoDB Knowledge Graph sowie solche ausgewählt oder definiert werden, die im Interview verwendet wird.&lt;/p&gt;</help>
+		<verbose_name lang="en">Add Software</verbose_name>
+		<help lang="de">&lt;p&gt;Wählen Sie eine oder mehrere Software aus, die über die ausgewählte Relation verknüpft werden sollen. Für alle Software wird &lt;em&gt;Label (Beschreibung) [Quelle]&lt;/em&gt; angegeben. Es kann nur Software aus dem MathAlgoDB Knowledge Graph sowie solche ausgewählt oder definiert werden, die im Interview verwendet wird.&lt;/p&gt;</help>
 		<text lang="de">...eine Software.</text>
 		<default_text lang="de"/>
-		<verbose_name lang="de"/>
+		<verbose_name lang="de">Software Hinzufügen</verbose_name>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>select</widget_type>
