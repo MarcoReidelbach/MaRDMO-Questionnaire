@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2026-01-21T16:00:49.137884+01:00" required="2.1.0" version="2.4.0">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2026-01-30T08:53:37.383031+01:00" required="2.1.0" version="2.4.0">
 	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/algorithm">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>algorithm</uri_path>
@@ -1298,14 +1298,104 @@
 		<options>
 			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/assumes" order="0"/>
 			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/contains" order="1"/>
-			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/contains-boundary-condition" order="2"/>
-			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/contains-constraint-condition" order="3"/>
-			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/contains-coupling-condition" order="4"/>
-			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/contains-initial-condition" order="5"/>
-			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/contains-final-condition" order="6"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/contains-analytical-solution" order="2"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/contains-boundary-condition" order="3"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/contains-computational-domain" order="4"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/contains-constitutive-equation" order="5"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/contains-constraint-condition" order="6"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/contains-coupling-condition" order="7"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/contains-initial-condition" order="8"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/contains-final-condition" order="9"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/contains-physical-law" order="10"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/contains-strong-formulation" order="11"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/contains-weak-formulation" order="12"/>
 		</options>
 		<conditions/>
 	</optionset>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/contains-analytical-solution">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mathmoddb/contains-analytical-solution</uri_path>
+		<dc:comment/>
+		<text lang="en">contains&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Property:P1560&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt; analytical solution&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Item:Q6775641&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
+		<help lang="en"/>
+		<default_text lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">beinhaltet&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Property:P1560&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt; analytische Lösung&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Item:Q6775641&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
+		<help lang="de"/>
+		<default_text lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/contains-computational-domain">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mathmoddb/contains-computational-domain</uri_path>
+		<dc:comment/>
+		<text lang="en">contains&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Property:P1560&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt; computational domain&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Item:Q6775579&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
+		<help lang="en"/>
+		<default_text lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">beinhaltet&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Property:P1560&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt; Rechendomäne&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Item:Q6775579&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
+		<help lang="de"/>
+		<default_text lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/contains-constitutive-equation">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mathmoddb/contains-constitutive-equation</uri_path>
+		<dc:comment/>
+		<text lang="en">contains&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Property:P1560&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt; constitutive equation&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Item:Q6775587&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
+		<help lang="en"/>
+		<default_text lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">beinhaltet&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Property:P1560&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt; konstitutive Gleichung&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Item:Q6775587&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
+		<help lang="de"/>
+		<default_text lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/contains-physical-law">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mathmoddb/contains-physical-law</uri_path>
+		<dc:comment/>
+		<text lang="en">contains&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Property:P1560&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt; physical law&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Item:Q6775588&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
+		<help lang="en"/>
+		<default_text lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">beinhaltet&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Property:P1560&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt; physikalisches Gesetz&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Item:Q6775588&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
+		<help lang="de"/>
+		<default_text lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/contains-strong-formulation">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mathmoddb/contains-strong-formulation</uri_path>
+		<dc:comment/>
+		<text lang="en">contains&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Property:P1560&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt; strong formulation&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Item:Q6775640&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
+		<help lang="en"/>
+		<default_text lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">beinhaltet&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Property:P1560&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt; starke Formulierung&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Item:Q6775640&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
+		<help lang="de"/>
+		<default_text lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/contains-weak-formulation">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms/</uri_prefix>
+		<uri_path>mathmoddb/contains-weak-formulation</uri_path>
+		<dc:comment/>
+		<text lang="en">contains&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Property:P1560&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt; weak formulation&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Item:Q6775618&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
+		<help lang="en"/>
+		<default_text lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">beinhaltet&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Property:P1560&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt; schwache Formulierung&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Item:Q6775618&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
+		<help lang="de"/>
+		<default_text lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
 	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/problem">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>problem</uri_path>
@@ -1486,19 +1576,34 @@
 		<dc:comment/>
 		<provider_key/>
 		<options>
-			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/qudt" order="1"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/qudt-quantitykind-id" order="1"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/qudt-constant-id" order="2"/>
 		</options>
 		<conditions/>
 	</optionset>
-	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/qudt">
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/qudt-quantitykind-id">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>qudt</uri_path>
+		<uri_path>mathmoddb/qudt-quantitykind-id</uri_path>
 		<dc:comment/>
-		<text lang="en">qudt</text>
+		<text lang="en">QUDT quantity kind ID</text>
 		<help lang="en"/>
 		<default_text lang="en"/>
 		<view_text lang="en"/>
-		<text lang="de">qudt</text>
+		<text lang="de">QUDT quantity kind ID</text>
+		<help lang="de"/>
+		<default_text lang="de"/>
+		<view_text lang="de"/>
+		<additional_input>text</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/qudt-constant-id">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mathmoddb/qudt-constant-id</uri_path>
+		<dc:comment/>
+		<text lang="en">QUDT constant ID</text>
+		<help lang="en"/>
+		<default_text lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">QUDT constant ID</text>
 		<help lang="de"/>
 		<default_text lang="de"/>
 		<view_text lang="de"/>
@@ -1751,11 +1856,17 @@
 		<options>
 			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/assumes" order="0"/>
 			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/contains" order="1"/>
-			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/contains-boundary-condition" order="2"/>
-			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/contains-constraint-condition" order="3"/>
-			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/contains-coupling-condition" order="4"/>
-			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/contains-initial-condition" order="5"/>
-			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/contains-final-condition" order="6"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/contains-analytical-solution" order="2"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/contains-boundary-condition" order="3"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/contains-computational-domain" order="4"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/contains-constitutive-equation" order="5"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/contains-constraint-condition" order="6"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/contains-coupling-condition" order="7"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/contains-initial-condition" order="8"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/contains-final-condition" order="9"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/contains-physical-law" order="10"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/contains-strong-formulation" order="11"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/contains-weak-formulation" order="12"/>
 		</options>
 		<conditions/>
 	</optionset>
