@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2026-01-30T10:39:15.828848+01:00" required="2.1.0" version="2.4.0">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2026-02-04T06:57:24.179431+01:00" required="2.1.0" version="2.4.0">
 	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/algorithm">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>algorithm</uri_path>
@@ -1669,14 +1669,6 @@
 		<options/>
 		<conditions/>
 	</optionset>
-	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/related-software">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>related-software</uri_path>
-		<dc:comment/>
-		<provider_key>RelatedSoftware</provider_key>
-		<options/>
-		<conditions/>
-	</optionset>
 	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/search-options">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>search-options</uri_path>
@@ -1731,11 +1723,11 @@
 		<view_text lang="de"/>
 		<additional_input/>
 	</option>
-	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/software-algorithm">
+	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/software">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>software-algorithm</uri_path>
+		<uri_path>software</uri_path>
 		<dc:comment/>
-		<provider_key>SoftwareAL</provider_key>
+		<provider_key>Software</provider_key>
 		<options/>
 		<conditions/>
 	</optionset>
@@ -1769,23 +1761,7 @@
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>software-relatant-with-creation</uri_path>
 		<dc:comment/>
-		<provider_key>RelatedSoftwareALWithCreation</provider_key>
-		<options/>
-		<conditions/>
-	</optionset>
-	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/software-search">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>software-search</uri_path>
-		<dc:comment/>
-		<provider_key>SoftwareSearch</provider_key>
-		<options/>
-		<conditions/>
-	</optionset>
-	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/software-workflow">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>software-workflow</uri_path>
-		<dc:comment/>
-		<provider_key>SoftwareW</provider_key>
+		<provider_key>RelatedSoftwareWithCreation</provider_key>
 		<options/>
 		<conditions/>
 	</optionset>
