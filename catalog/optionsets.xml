@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2026-01-30T10:39:15.828848+01:00" required="2.1.0" version="2.4.0">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2026-02-18T12:25:36.749615+01:00" required="2.1.0" version="2.4.0">
 	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/algorithm">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>algorithm</uri_path>
@@ -699,6 +699,10 @@
 			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/is-space-discrete" order="11"/>
 			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/is-time-continuous" order="13"/>
 			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/is-time-discrete" order="14"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/is-ordinary-differential-equation" order="15"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/is-partial-differential-equation" order="16"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/is-stochastic-differential-equation" order="17"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/is-integro-differential-equation" order="18"/>
 		</options>
 		<conditions/>
 	</optionset>
@@ -865,6 +869,62 @@
 		<default_text lang="en"/>
 		<view_text lang="en"/>
 		<text lang="de">ist zeit-diskret</text>
+		<help lang="de"/>
+		<default_text lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/is-ordinary-differential-equation">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mathmoddb/is-ordinary-differential-equation</uri_path>
+		<dc:comment/>
+		<text lang="en">is ordinary differential equation&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Item:Q6481447&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
+		<help lang="en"/>
+		<default_text lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">ist gewöhnliche Differentialgleichung&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Item:Q6481447&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
+		<help lang="de"/>
+		<default_text lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/is-partial-differential-equation">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mathmoddb/is-partial-differential-equation</uri_path>
+		<dc:comment/>
+		<text lang="en">is partial differential equation&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Item:Q6822213&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
+		<help lang="en"/>
+		<default_text lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">ist partielle Differentialgleichung&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Item:Q6822213&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
+		<help lang="de"/>
+		<default_text lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/is-stochastic-differential-equation">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mathmoddb/is-stochastic-differential-equation</uri_path>
+		<dc:comment/>
+		<text lang="en">is stochastic differential equation&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Item:Q6822417&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
+		<help lang="en"/>
+		<default_text lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">ist stochastische Differentialgleichung&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Item:Q6822417&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
+		<help lang="de"/>
+		<default_text lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/is-integro-differential-equation">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mathmoddb/is-integro-differential-equation</uri_path>
+		<dc:comment/>
+		<text lang="en">is integro-differential equation&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Item:Q6824240&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
+		<help lang="en"/>
+		<default_text lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">ist Integro-Differentialgleichung&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Item:Q6824240&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
 		<help lang="de"/>
 		<default_text lang="de"/>
 		<view_text lang="de"/>
@@ -1383,7 +1443,7 @@
 		<additional_input/>
 	</option>
 	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/contains-weak-formulation">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms/</uri_prefix>
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mathmoddb/contains-weak-formulation</uri_path>
 		<dc:comment/>
 		<text lang="en">contains&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Property:P1560&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt; weak formulation&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Item:Q6775618&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
